@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Gordon Sondland",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What role did Gordon Sondland play in the Trump administration?",
+        "importance": "critical",
+        "keywords": [
+          "Gordon Sondland",
+          "Trump administration",
+          "U.S. ambassador"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did Sondland's background contribute to his appointment as ambassador?",
+        "importance": "high",
+        "keywords": [
+          "background",
+          "ambassador",
+          "diplomatic experience"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Sondland's Relationship with Trump",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What were the dynamics of Sondland's loyalty to Trump during his tenure?",
+        "importance": "critical",
+        "keywords": [
+          "loyalty",
+          "Trump",
+          "relationship"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How did Sondland's political donations influence his relationship with Trump?",
+        "importance": "high",
+        "keywords": [
+          "political donations",
+          "influence",
+          "Trump"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Upcoming Deposition and Public Reaction",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What key questions are expected to arise during Sondland's deposition?",
+        "importance": "critical",
+        "keywords": [
+          "deposition",
+          "questions",
+          "Congress"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How is the public in Portland responding to Sondland's central role in the impeachment inquiry?",
+        "importance": "high",
+        "keywords": [
+          "public reaction",
+          "Portland",
+          "impeachment inquiry"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Facebook Dating",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How does Facebook Dating work and what sets it apart from traditional dating apps?",
+        "importance": "critical",
+        "keywords": [
+          "Facebook Dating",
+          "how it works",
+          "dating apps"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What is the 'Secret Crush' feature and how does it function?",
+        "importance": "high",
+        "keywords": [
+          "Secret Crush",
+          "feature",
+          "functionality"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Public Reception and Feedback",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What has been the public response on platforms like Twitter regarding Facebook Dating?",
+        "importance": "high",
+        "keywords": [
+          "public response",
+          "Twitter",
+          "skepticism"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are the main concerns expressed about privacy and security in Facebook Dating?",
+        "importance": "critical",
+        "keywords": [
+          "privacy concerns",
+          "security",
+          "Facebook"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Implications for Dating Culture",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Has Facebook Dating introduced anything new to the dating landscape?",
+        "importance": "high",
+        "keywords": [
+          "dating culture",
+          "innovation",
+          "impact"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What does the lack of enthusiasm for Facebook Dating suggest about the current state of dating apps?",
+        "importance": "optional",
+        "keywords": [
+          "dating app fatigue",
+          "enthusiasm",
+          "trends"
+        ]
+      }
+    ]
+  }
+]

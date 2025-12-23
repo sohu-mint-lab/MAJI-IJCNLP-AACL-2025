@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Women's World Cup Final",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the significance of the Women's World Cup final between the U.S. and the Netherlands?",
+        "importance": "critical",
+        "keywords": [
+          "World Cup",
+          "final",
+          "significance"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has the U.S. women's soccer team performed leading up to the final?",
+        "importance": "high",
+        "keywords": [
+          "U.S. team",
+          "performance",
+          "record"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Challenges posed by the Netherlands",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What strengths does the Netherlands team bring to the final?",
+        "importance": "high",
+        "keywords": [
+          "Netherlands",
+          "strengths",
+          "team"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How have the Dutch achieved their place in the final?",
+        "importance": "high",
+        "keywords": [
+          "Dutch team",
+          "upsets",
+          "final"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Key Players to Watch",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What impact could Megan Rapinoe have in the final despite her recent injury?",
+        "importance": "critical",
+        "keywords": [
+          "Megan Rapinoe",
+          "impact",
+          "injury"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Who are the standout players from the Netherlands and what are their profiles?",
+        "importance": "high",
+        "keywords": [
+          "standout players",
+          "Netherlands",
+          "profiles"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Off-Field Dynamics and Team Confidence",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How has the U.S. team's approach to off-field issues influenced their performance?",
+        "importance": "high",
+        "keywords": [
+          "U.S. team",
+          "off-field",
+          "performance"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What role does team confidence play in their preparation for the final?",
+        "importance": "high",
+        "keywords": [
+          "confidence",
+          "preparation",
+          "final"
+        ]
+      }
+    ]
+  }
+]

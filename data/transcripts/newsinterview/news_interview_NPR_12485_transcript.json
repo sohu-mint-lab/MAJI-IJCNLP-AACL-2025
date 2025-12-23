@@ -1,0 +1,216 @@
+{
+  "transcript": [
+    {
+      "speaker": "Neal Conan",
+      "text": "This is TALK OF THE NATION. I'm Neal Conan. This year marks the debut of Google Glasses, where information displays on the lens itself. Look at a restaurant, for example, and you can call up reviews on Yelp. Find yourself lost and you can summon a map. The latest marriage of computer and wireless technology is not quite ready for commercial release, but it seems like the first step into a world that was created by Vernor Vinge in his book \"Rainbows End,\" which won the Hugo award as best science fiction novel of the year back in 2007. The book is about — well, the book is about a lot of things, but the world Vinge creates is based on augmented reality. Almost everybody sees the world through advanced contact lenses. An engineer can instantly call up a blueprint or a schematic.  A doctor can view your temperature and heart rate. Commercial enterprises can also project virtual storefront. Amusement parks can create fantastic creatures and entire realms where an unaugmented person will see a barren hillside. Vernor Vinge is a retired professor of computer science at San Diego State University, the author of \"Rainbows End\" and many other novels and stories. He joins us today from member station KPBS in San Diego. It's nice to talk with you again."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Hi, Neal."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "I know science fiction writers get annoyed by suggestions that they were writing predictions of the future, but I wonder in what you thought when you heard about Google Glasses."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "I was very pleased.  It's the sort of thing that I think will be so useful that I've been watching for it to happen. And the balance between the technological power to do it and consumer acceptance of the idea is really what I've chiefly been wondering about because it takes really both before an invention like that can get the money to really push it into all the things it can be."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "The technological part seems to be getting there."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Yes."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "The kinds of things that can be displayed on Google Glasses, though, a little bit primitive from the point of view of your world in \"Rainbows End.\""
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Right. There's sort of two or three major steps that would have to be done forward from that announcement.  For instance, if you look at the video, the clip that went along with it, which I believe was a simulated user's-eye view, the video augmentation was essentially a tickertape strip across the top of the field of vision. And so one of the first things that - improvements that one would really hope for would be very high resolution, say, 4,000 pixels by 4,000 pixels.  And that's the sort of thing that actually is probably easier to do with very, very small displays than with very, very large ones. So if there were a market for it, I think we would start seeing that, which would mean that you would then have, in your eyeglasses, the capability that you now spend thousands of dollars for to hang a 100-inch flat-panel TV screen on your wall."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "It's interesting. The most advanced screen that a lot of people are talking about is on the new iPad."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Yes. That's, right, a good example of doing that in the small."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "And as you're talking about the kinds of things that can be displayed, one of the principal applications of augmented reality in your book was communications. And I never knew how it was pronounced though. I read it in the book, these kind of instant text messages.  I didn't - I never knew whether it was meant to be pronounced S-M-ing or sming."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Yes.  That's the nice thing about writing. I don't have to commit myself. Sming, I think, would be how I would see it, you know, drifting into usage.  It stood for silent messaging."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "So it was really - in addition to all the other things we're talking about, there was sort of added technology there, namely the ability to pick up on cues and sub- vocalizations so that you could be undertaking something, like what we do present day with cellphones.  But those around you would not necessarily be aware that you were communicating unless you wanted them to know."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "This, of course, is also being anticipated by text messaging."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Right."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "And that's a lot closer than, it seems to me, the augmented-reality part."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Yeah. The text messaging is of course with us right now. And, in fact, text messaging actually has a virtue that is not present in the - in this sming, in the story, and that is that it's - that basically, you can leave a text message and somebody can pick it up later, so they don't have to pay attention at the present time. Now, with silent messaging, that may not quite be so important because you don't have to acknowledge that you've - that someone had sent something to you. You don't have to actually be distracted from what you're doing, and you can still listen to the message."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "We're talking with multiple Hugo winner Vernor Vinge about his novel, \"Rainbow's End.\" Of course, he's written many other books and stories as well. If you'd like to talk to him about the world he envisioned in \"Rainbow's End\" - augmented reality, and we're halfway seem to be heading there through Google glasses, give us a call at 800-989-8255, or email us: talk@npr.org. Chuck in Ventura, California, wrote: My young eyes couldn't focus on such close objects as a glass-mounted heads-up display. My old eyes are even worst. Now, I have to wear glasses to read. How is this close-focus problem going to be handled?"
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "At the present time that is - not speaking to how Google is doing it, but at the present time, head-up displays involve optics that compensate for the fact that, you know, even a child can't focus on really, really close things. The drawback to that nowadays is that that gear is the optic. The optical gear is pretty bulky, especially if you're on a wide field of vision."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "And pretty expensive, yeah."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Ah-ha. Yes."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "Heads-up displays, for those who aren't familiar, these are developed for military aircraft. They did not want pilots looking down at the controls, so they figure out a way to project them on a screen that you could look through the screen and the windshield at the same time. Is that where you got the idea originally?"
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Oh, the idea for head-up displays in science fiction, of course, goes back before \"Rainbow's End,\" and I'm sure that it ultimately came from things like the military head-up displays that you just mentioned. Basically, you know, augmented reality is right there, even though they didn't have the word. And the important thing is that whatever your current project is, whatever your current task is, it's important that when you look out, you see what's important to that task. So if my job is to repair the air-conditioning in a building, I really want to be able to look at a wall and see where the studs are and see where the current ventilation vents are within the wall, and that just cries out for things like augmented reality and a head-up display."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "I was thinking about the commercials you always hear on radio about, you know, don't drill in the ground where there might be gas lines."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Right."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "You know, this would solve that problem."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Yes."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "But the odd thing was - one of the questions that is constantly asked of your protagonist in \"Rainbow's End,\" a poet named Robert Gu, are you wearing? Because he starts the novel out as unaugmented person - not go into the circumstances - but the world looked fairly drabbed to him, and he doesn't understand what other people are seeing."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Right. And are you wearing refers to first the idea - again, this not the head-up display per se, but the notion of (unintelligible) computing and that the clothes without looking necessarily any difference from the clothes that we have themselves have sensors in them and are able to sense where they are and also to sense the state of the user's body. On top of that, children at least in this era as always happens, are very good at using these new inventions. And so, when children talk about having clothes sense, they mean quite a bit different thing than people who talk about clothes sense as fashion sense nowadays. They mean that you're able to actually use your clothing in a way that fully exploits the power of the clothing. So for instance with silent messaging, an oldster might be doing all these foolish abbreviations that we see nowadays with text messaging."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "LOL."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Right. But a child using all of - having learned to use all the smarts that they're wearing is able to undertake quite clear in normal conversations in whatever valley talk they want to talk without having all of these abbreviations."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "The other part is how the external world communicates itself to somebody who's wearing not only the smart clothes but the special lens, and that is the projection. It's not just a neon sign. It's a whole projection of a world of a liquor store or a convenience store or a grocery store."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Right. And if you - if, for instance, you wanted real three-dimensional television, you just have a different image on - in each eye giving you binocular vision. And in that case, you don't even have to think of looking at a screen to see 3-D. If you wanted to have a 3-D model in the middle of your coffee table, you could have one there. You could walk around it, you could look at from different angles. No holograms, no nothing like that, but you got the image in your eyes right there. And your friends - if you have people over to, you know, watch a football game or to look at this model, if they agree to share in your data feed, they could be seeing the same thing, albeit from their perspective around the table."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "Their different perspective around the table..."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Yes."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "...and where they sat would make a difference, even unlike a flat screen."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Right."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "Here's an email from Lisa in Fairbanks: How will I use increasingly mobile computers? As a photographer and writer, I look forward to be able to take photos with a computer that's able to see the world around me as I do and then add text to the image immediately. There's always a bit of a disconnect with older technologies. I can either be taking a photo or taking notes about the photo I've taken. It's never been simultaneous unless it's been video. I've used tape recorders while photographing and find the writing process and the speaking process are not the same for me. Neuroscientists confirm this too. They involve different sides of the brain, thus shape the creative process uniquely. I look forward to a future where my written thoughts and vision can merge and be shared in a more immediate form. Then again, as a shy person, this simultaneously terrifies me, but that would probably be another show."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Yes. I think - and I share that interest in those improvements. I think actually when people talk about improvements in computers, at least half of the game is improvement in the input-output interface that we humans have with the computers. So just as the things that she's talking about there that she's wanted all this time, that's exactly where an enormous amount of commercial effort is being put in order to make that easier and easier. And finally to have the facility that when you deal with these technological things, it's as easy as in the past it was for a human to remember their own memories or to reach out with their hand and pick up a, you know, a plate from the table. You want to make these things that we're getting with technology to be that easy and transparent to us."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "We're talking with science fiction writer Vernor Vinge about the world he envisioned in his novel \"Rainbow's End,\" a world that seems to be entering new possibilities as we talk about Google glasses. You're listening to TALK OF THE NATION from NPR News. And this email from Ivan in Conway, Arizona: As the father of the technological singularity, do you think Google glasses are pulling us toward it? And perhaps, you ought to explain what the technological singularity or what some people call the Vingean singularity is."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Ah, the technological singularity, at least my definition for such a thing, is the possibility that in the fairly near future, that we humans using technology will either create or become beings of super human intelligence And that's a different sort of thing than talking about almost any other sort of invention. For instance, we've been talking about the head-up displays and what they could become. We don't know how that's going to turn out, but if somebody could come back from the future and tell us, we would understand what they're talking about. On the other hand, after the technological singularity, you're dealing with creatures that are smarter than we are. And in that case, for them to explain to us what's going on would be a little bit like a human trying to explain to a goldfish what is going on. So that sort of an event is actually a very profound technological change, in my opinion, quite different from - in the past. And in answer to Ivan's specific question, I think that anything that radically improves our ability to deal with our automation is a step in that direction. In particular, it's a step in the particular path toward the singularity that involves our becoming the creatures that are super intelligent."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "As opposed to artificial intelligence becoming that creature, yeah."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Right."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "He has a follow-up question. What do you think about the amount of attention the singularity has gotten in recent years?"
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Ah, I think that barring, you know, physical disaster, like a huge nuclear war or something, that sort of attention is bound to increase as time progresses, whether or not the singularity actually happens. I think the singularity will happen, but as we go forward in time and get these improvements in automation, the sort of promise of this sort of stuff becomes more and more visible, and the use of automation to do more and more complicated things continues - will continue to make this question a more intensely interesting question to higher and higher percentage of the people."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "And this email from Daryl: I used to be a student of Vernor Vinge, a wonderful professor. I'm legally blind. He writes, I'm wondering, how would this work with those individuals? We do have iPhone apps that can give turn-by-turn navigation, but all those other features of Google glasses would not be present."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Sort of two possibilities there: One, is the sort of thing that I was talking about, learning to use the devices that you have and that you are wearing. That depends on the plasticity of the human brain. We're quite capable of learning new tricks and cooperating with the devices that we have to get results that we may be barred from getting in other ways. The other approach to this sort of thing is to actually look at where the blindness happens. If the blindness happens within the eyes, then you want to just go a little bit upstream from that and see whether the neurons behind that are still capable of responding to stimulus and then figuring out how to stimulate them directly without the light. If that's gone, then you're talking about something, perhaps, much harder, which is to go upstream from that and look at the beginning of neuron interpretation of sight that's happening within the brain and actually making your input at that level."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "Have you signed up for Google glasses yet?"
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Ah, no, I haven't. I'm - however, I am watching it eagerly, you know? I think I would be an early customer if they can come out with it."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "Vernor Vinge, lovely to have you with us today. Thank you very much for your time."
+    },
+    {
+      "speaker": "Vernor Vinge",
+      "text": "Thanks, Neal."
+    },
+    {
+      "speaker": "Neal Conan",
+      "text": "Vernor Vinge, retired professor at San Diego State University, the author of \"Rainbow's End\" among many other books; \"Deepness in the Sky,\" you might remember. He joined us from NPR member station KPBS in San Diego. A spokesman for Dick Clark tells NPR the long-time television and radio personality has died. We do not, as yet, know the cause of death. He was 82 years old. Stay tuned to NPR News for more on that story. Tomorrow, the author of \"Ninety Days: A Memoir of Recovery,\" guest host John Donvan will be here for a conversation with Bill Clegg. We'll see you again on Monday. It's the TALK OF THE NATION from NPR News. I'm Neal Conan in Washington."
+    }
+  ]
+}

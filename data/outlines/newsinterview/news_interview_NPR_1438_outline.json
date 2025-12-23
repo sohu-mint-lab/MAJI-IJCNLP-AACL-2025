@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Joan Baez's Musical Journey",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What does Joan Baez consider her new album to represent in conjunction with her first album released in 1959?",
+        "importance": "critical",
+        "keywords": [
+          "Joan Baez",
+          "album",
+          "musical journey"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has Joan Baez's music evolved from ballads to political themes over the years?",
+        "importance": "high",
+        "keywords": [
+          "music evolution",
+          "ballads",
+          "political themes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Role of Protest Music in Contemporary Society",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What parallels does Joan Baez draw between protest songs of the 1960s and current political protests?",
+        "importance": "critical",
+        "keywords": [
+          "protest music",
+          "political protests",
+          "1960s"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Why does Baez think there is a need for anthems in today's protests?",
+        "importance": "high",
+        "keywords": [
+          "anthems",
+          "protests",
+          "political action"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Reflections on Pessimism and Hope",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How does Joan Baez reconcile her feelings of pessimism with the small victories she observes?",
+        "importance": "high",
+        "keywords": [
+          "pessimism",
+          "hope",
+          "small victories"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What strategies does Baez mention for dealing with her pessimism regarding the state of the world?",
+        "importance": "optional",
+        "keywords": [
+          "strategies",
+          "pessimism",
+          "state of the world"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future of Joan Baez's Career",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What does Joan Baez mean by her 'last year of formal touring'?",
+        "importance": "critical",
+        "keywords": [
+          "formal touring",
+          "career",
+          "Joan Baez"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Baez plan to engage with music and political action after her formal touring comes to an end?",
+        "importance": "high",
+        "keywords": [
+          "future plans",
+          "political action",
+          "music"
+        ]
+      }
+    ]
+  }
+]

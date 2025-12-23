@@ -1,0 +1,1372 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.297881767556474,
+                "avg_context_relevance": 0.4124828172293869,
+                "avg_outline_relevance": 0.6679508488725971,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.25404604798869085,
+                "avg_context_relevance": 0.3529775936744715,
+                "avg_outline_relevance": 0.8012580871582031,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 75.0,
+            "weighted_coverage_score": 68.18181818181817,
+            "covered_questions": 6,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "This is SCIENCE FRIDAY. I'm Ira Flatow. Up next, surviving the big one, and I mean a really big one. As any fan of dinosaurs knows, extinction happens. The Earth isn't immune to assaults. You've got your asteroids, your volcanic eruptions, events that cause so much disruption to the environment that eventually life or most of life is wiped out. My next guest, Annalee Newitz, says that we can look back at those past mass extinction events and learn from them and maybe, maybe even prepare ourselves to survive the next mass extinction. And Newitz says the next big extinction might already be happening. Annalee Newitz is a founding editor of the website io9.com. Her new book is called \"Scatter, Adapt, and Remember: How Humans Will Survive a Mass Extinction.\" She joins us from KQED in San Francisco. Welcome back to the program, Annalee.",
+            "previous_answer": "Yeah, thanks for having me, Ira.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What motivated you to write your book on mass extinction?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.12282750755548477,
+                        "outline_relevance": 0.7381396293640137,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What initially inspired you to write your book on mass extinction?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.12118685990571976,
+                            "outline_relevance": 0.753954291343689,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you explain some key signs that indicate we may be entering a sixth mass extinction?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.06532114744186401,
+                            "outline_relevance": 0.9007599353790283,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you see human adaptation strategies playing a role in surviving future mass extinctions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.030450398102402687,
+                            "outline_relevance": 0.8943541049957275,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What motivated you to write your book on mass extinction?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.12282750755548477,
+                            "outline_relevance": 0.7381396293640137,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Are you thinking apocalyptic? Like there's so much apocalyptic stuff on TV and in the movies now. Is that what drove you to write a book like this?",
+            "previous_answer": "It is true that I will confess that I have an incredible fascination for pop-culture stories about the Apocalypse and the end of the world. And, you know, I wanted to see if I were going to write a science book that was basically the equivalent of a giant monster movie, what would that be. Like would be the disaster that I would tackle? And that was why I decided to look at mass extinctions, which are the worst disaster that can possibly happen to the planet.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What evidence suggests we might be heading into a sixth mass extinction?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5084728002548218,
+                        "outline_relevance": 1.0000001192092896,
+                        "originality": 0.09924006462097168,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What was it about apocalyptic stories in pop culture that initially drew you in and made you want to explore related scientific themes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6481444835662842,
+                            "outline_relevance": 0.4226524233818054,
+                            "originality": 0.3775482773780823,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How did you decide on mass extinctions as the disaster to explore more scientifically rather than other catastrophic events popular in fiction?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7324013113975525,
+                            "outline_relevance": 0.6151108741760254,
+                            "originality": 0.2556663155555725,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you talk about how your interest in pop culture influenced the way you approached writing your science book?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.42568230628967285,
+                            "outline_relevance": 0.30424442887306213,
+                            "originality": 0.4734736680984497,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What evidence suggests we might be heading into a sixth mass extinction?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5084728002548218,
+                            "outline_relevance": 1.0000001192092896,
+                            "originality": 0.09924006462097168,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Are we headed for one, or are we in the middle of one? And if you're in one, do you know it's happening?",
+            "previous_answer": "It's a good question. There is evidence that we are headed into what would be the planet's sixth mass extinction. It's hard to know for sure if you're in one because a mass extinction is an event where over 75 percent of the species on the planet die out over a - usually about a million-year period. The fastest it might happen is in hundreds of thousands of years. But here's the bad news is that we know from the geological record that pretty much all the mass extinctions that have happened before have been correlated with climate change. So that's - the fact that we're looking at climate change right now on the planet is one of our big tips that we may be heading into another one.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Considering that we've discussed the scientific aspects of mass extinctions and climate change, how do you think humans emotionally respond to the possibility of a sixth mass extinction? Does fear play a constructive role in motivating adaptation or action?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5528092980384827,
+                        "outline_relevance": 0.693050742149353,
+                        "originality": 0.2655455470085144,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on the geological record that links past mass extinctions and climate change? What does it reveal about our current situation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5423978567123413,
+                            "outline_relevance": 0.5928878784179688,
+                            "originality": 0.36815887689590454,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do scientists currently monitor biodiversity to assess whether we are entering a mass extinction?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6348103284835815,
+                            "outline_relevance": 0.7138886451721191,
+                            "originality": 0.28611117601394653,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Are there any early warning signs we can detect now that might tell us if a mass extinction is underway?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6299374103546143,
+                            "outline_relevance": 0.767514169216156,
+                            "originality": 0.1626371145248413,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Considering that we've discussed the scientific aspects of mass extinctions and climate change, how do you think humans emotionally respond to the possibility of a sixth mass extinction? Does fear play a constructive role in motivating adaptation or action?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5528092980384827,
+                            "outline_relevance": 0.693050742149353,
+                            "originality": 0.2655455470085144,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Be afraid, be very afraid.",
+            "previous_answer": "Yeah.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Reflecting on past mass extinctions, what can we learn from the species that managed to survive, and how might those lessons guide human adaptation strategies today?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.022188890725374222,
+                        "outline_relevance": 0.9045056104660034,
+                        "originality": 0.1394939422607422,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share more about your feelings on fear when thinking about mass extinction? How do you think it affects human behavior?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.031391046941280365,
+                            "outline_relevance": 0.7332521677017212,
+                            "originality": 0.1877974271774292,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think society generally reacts emotionally to the idea of large-scale environmental catastrophe?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.14487645030021667,
+                            "outline_relevance": 0.5183882117271423,
+                            "originality": 0.30353283882141113,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What role does fear play in both motivating adaptation and causing paralysis in the face of extinction threats?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.025675849989056587,
+                            "outline_relevance": 0.6963779926300049,
+                            "originality": 0.2688668966293335,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Reflecting on past mass extinctions, what can we learn from the species that managed to survive, and how might those lessons guide human adaptation strategies today?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.022188890725374222,
+                            "outline_relevance": 0.9045056104660034,
+                            "originality": 0.1394939422607422,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Is fear the right way to approach this, a mass extinction?",
+            "previous_answer": "I don't think so. I mean, one of the big topics that I tackle in my book and in my work generally is that fear is absolutely the wrong response, and wringing our hands and saying that, you know, humans have wrecked everything is also not a helpful response. And so what we need to be thinking about are ways that previous mass extinctions have played out and what animals have done and what plants have done to survive those mass extinctions and how can we use some of those strategies. And already humans are in a pretty good position because remember a mass extinction is not when humans die out, it's when most of the species on the planet die out. So there's always survivors. That's the way that life continues to evolve on the planet. Each of these events have had winners and losers, and humans share with a lot of the animal survivors many different characteristics. But I think the most important one is that we're really good at adapting to live anywhere, and we're really good at eating a wide variety of foods. So that puts us in an excellent position when climates and habitats start changing, we're able to adapt and transform ourselves and transform our communities to meet those changes. And of course with tools that we - you know, we're the big tool-using species on the planet. Using our tools, we can actually adapt even more quickly than many of the animals in previous mass extinctions did.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share specific examples of survival strategies from species that endured past mass extinctions, and how humans might apply those lessons today?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6651167869567871,
+                        "outline_relevance": 0.879783570766449,
+                        "originality": 0.09184873104095459,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think society's general reaction to mass extinction influences collective actions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6894794702529907,
+                            "outline_relevance": 0.7332515120506287,
+                            "originality": 0.22471308708190918,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you provide examples of survival strategies used by species in past mass extinctions that humans might emulate?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6580951809883118,
+                            "outline_relevance": 0.8648120164871216,
+                            "originality": 0.14947116374969482,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways can fear both hinder and help human responses to environmental crises?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6321648359298706,
+                            "outline_relevance": 0.5276103019714355,
+                            "originality": 0.26900094747543335,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you share specific examples of survival strategies from species that endured past mass extinctions, and how humans might apply those lessons today?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6651167869567871,
+                            "outline_relevance": 0.879783570766449,
+                            "originality": 0.09184873104095459,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "1-800-989-8255 is our number, talking with Annalee Newitz, author of \"Scatter, Adapt, and Remember: How Humans Will Survive a Mass Extinction.\" Of course you could have a sudden mass extinction like that asteroid that hit us, you know, and wiped out all that life, or something slower that could take a lot longer time to develop. Are there two different strategies for that, surviving that?",
+            "previous_answer": "Actually, the idea that there is such a thing as a rapid mass extinction is kind of a misnomer. We have - we've all heard about, you know, the dramatic end that the dinosaurs met when an asteroid crashed into the planet. And also now it turns out that there were mega-volcanoes going off at the same time in India. So there was this kind of horrible one-two punch with volcanoes and...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you expand on how the combined effects of asteroid impact and volcanic activity influenced the timeline and severity of the extinction event?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5687457919120789,
+                        "outline_relevance": 0.5559687614440918,
+                        "originality": 0.37896084785461426,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you expand on how the combined effects of asteroid impact and volcanic activity influenced the extinction timeline?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5837447643280029,
+                            "outline_relevance": 0.5797873139381409,
+                            "originality": 0.33733999729156494,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How does understanding the complexity of past extinction events shape our approach to current environmental crises?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5394660830497742,
+                            "outline_relevance": 0.6629412174224854,
+                            "originality": 0.26891928911209106,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: What lessons can we learn from the multiple causes of past mass extinctions to prepare for future threats?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5211383104324341,
+                            "outline_relevance": 0.7592400312423706,
+                            "originality": 0.17091524600982666,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you expand on how the combined effects of asteroid impact and volcanic activity influenced the timeline and severity of the extinction event?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5687457919120789,
+                            "outline_relevance": 0.5559687614440918,
+                            "originality": 0.37896084785461426,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "The perfect extinction.",
+            "previous_answer": "Yeah, great Michael Bay movie material, if he were ever to actually make a film that was scientifically accurate. So the point is that what happened when that asteroid hit was actually - it wasn't that the planet was wrapped in fire, and all of these creatures died out. In fact first what happened was there was a nuclear winter type event because a cloud rose up from that explosion and wrapped around the Earth and blocked sunlight. And then over time, the climate warmed up into a very extreme greenhouse, and so actually what killed the dinosaurs, or most of the dinosaurs, was climate change. Their habitats changed; their food supplies dwindled because remember these are big creatures who need a lot of vegetation. And so when vegetation starts dying out, then the herbivores start dying out, you know, the creatures who eat plants, and then the predators who eat those creatures start dying out. And so what you get is a slow starvation. And it really did take about a million years for that mass extinction to unfold. The initial, super-awesome, you know, explosion with the asteroid, that took out a localized population in the area where the asteroid hit, but that global mass extinction, that was hundreds of thousands of years in the making.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the slow and complex nature of past mass extinctions, how do you think this understanding shapes our approach to preventing or mitigating human-driven extinctions and climate change today?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3930370807647705,
+                        "outline_relevance": 0.7454116940498352,
+                        "originality": 0.1888132095336914,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Could you elaborate on how this gradual extinction process compares to human-driven extinctions today?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4087308645248413,
+                            "outline_relevance": 0.7447572946548462,
+                            "originality": 0.21373724937438965,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: How does the extended timeline of past mass extinctions change our perspective on addressing current climate challenges?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.40949612855911255,
+                            "outline_relevance": 0.6793450713157654,
+                            "originality": 0.15522539615631104,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: What misconceptions about mass extinctions are most prevalent in popular culture, and how can science communication address them?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4180990755558014,
+                            "outline_relevance": 0.6356924772262573,
+                            "originality": 0.24389952421188354,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Given the slow and complex nature of past mass extinctions, how do you think this understanding shapes our approach to preventing or mitigating human-driven extinctions and climate change today?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3930370807647705,
+                            "outline_relevance": 0.7454116940498352,
+                            "originality": 0.1888132095336914,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Do you have in your mind a scenario that we're headed into? Can you share that with us?",
+            "previous_answer": "Yeah, I think that if we kind of continue along the way we're going, it's clear that humans have, as geologists would say, perturbed the carbon cycle, which is to say that the planet has natural carbon cycles where there's more carbon or less carbon in the atmosphere. Well, humans have obviously contributed a great deal of carbon to the atmosphere. So we are warming the planet up. And again, this is a harbinger of mass extinction. And what's going to likely happen over time is we're going to start to see famines because again, these kinds of climate changes over the long term, what they do is they change habitats, they make it hard for crops and animals to live in the places they once did and that affects food supply not just for humans but for lots and lots of creatures. And so you see what are called knock-on extinctions, where one species, say bees, say bees die out. Well, bees are part of an ecosystem where they fertilize a lot of crops. If we lose bees, we may be looking at losing apples and oranges. We may be looking at losing a great deal of other crops, as well, and other animals that depend on those crops. And so what - slowly over time we would just see this accumulation of famines, and eventually, after say a million years, you might see a very different planet, and you might see a new set of animals and plants that have sort of taken over where these extinct creatures once lived. So my contention is that we will survive that. The question is how will we survive it. What can we do now to prevent that mass extinction from happening? Because we know we've participated in helping to change the climate already. So why don't we take control of that and start thinking about how we can change the climate into - make the climate something that is more comfortable for us and our ecosystems.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the challenges you've outlined related to climate change and its impact on ecosystems, what specific strategies can cities implement to improve their sustainability and resilience in the face of environmental changes?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.31345421075820923,
+                        "outline_relevance": 0.8331543207168579,
+                        "originality": 0.4043799042701721,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What are some of the primary ways humans have disrupted the carbon cycle, and how might these disruptions accelerate beyond our current understanding?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7813268303871155,
+                            "outline_relevance": 0.46176713705062866,
+                            "originality": 0.4363940358161926,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you discuss specific measures individuals and governments could undertake to mitigate the knock-on effects of climate change on ecosystems?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4983195662498474,
+                            "outline_relevance": 0.5947358012199402,
+                            "originality": 0.3738287687301636,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you balance optimism about human survival with the urgent need to prevent further environmental damage?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.44476646184921265,
+                            "outline_relevance": 0.5499055981636047,
+                            "originality": 0.22523999214172363,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Given the challenges you've outlined related to climate change and its impact on ecosystems, what specific strategies can cities implement to improve their sustainability and resilience in the face of environmental changes?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.31345421075820923,
+                            "outline_relevance": 0.8331543207168579,
+                            "originality": 0.4043799042701721,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "Don't we have to first get out of the denial phase a little bit?",
+            "previous_answer": "Yeah, I mean, that's a huge political issue and a social issue. And that's such a human problem that we have all these social concerns around something that to me and to a lot of people seems like an obvious sort of scientific fact.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are some key urban planning strategies that cities could implement to become more sustainable in the face of environmental challenges?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1544695496559143,
+                        "outline_relevance": 0.8603747487068176,
+                        "originality": 0.1668914556503296,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What do you think are the main political barriers that keep society in denial about mass extinction?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4886263608932495,
+                            "outline_relevance": 0.6733584403991699,
+                            "originality": 0.22634220123291016,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How can education systems be improved to better bridge the gap between scientific facts and social acceptance?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.45639246702194214,
+                            "outline_relevance": 0.33790528774261475,
+                            "originality": 0.43148303031921387,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Considering the strong social denial around mass extinction, how do you think scientists can effectively communicate urgent realities without causing despair?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.44125795364379883,
+                            "outline_relevance": 0.6787461638450623,
+                            "originality": 0.1734483242034912,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What are some key urban planning strategies that cities could implement to become more sustainable in the face of environmental challenges?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1544695496559143,
+                            "outline_relevance": 0.8603747487068176,
+                            "originality": 0.1668914556503296,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "Right.",
+            "previous_answer": "The fact is that it doesn't really matter if humans are causing this. We're still in a situation where the climate is changing. So what we need to do is take responsibility for that and sort of treat the environment like in the same way that, say, we treat farms and agriculture. Take responsibility for how we are controlling the planet and do it in a way that is sustainable. And again, easier said than done. And part of what I'm interested in is the fact that we actually do have a lot of scientific methods and engineering methods that we could be using right now to, for example, change our cities to be much closer to being carbon negative than they are now or even just carbon neutral. I would be happy with carbon neutral. We don't even need to get to carbon negative. And we could be implementing a lot of these discoveries, and I think that going forward, once we do get over the denial phase that we will start to see improvements, and we will start to see ways in which people are changing the climate to be more comfortable for us and for our ecosystem.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "In relation to future urban environments, how do you see technologies like self-healing materials contributing to making cities more sustainable and resilient?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4053460359573364,
+                        "outline_relevance": 0.8822009563446045,
+                        "originality": 0.26338958740234375,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: In your view, what societal changes are most critical to overcome the denial phase around climate change and foster collective responsibility?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6809343695640564,
+                            "outline_relevance": 0.48609286546707153,
+                            "originality": 0.20289182662963867,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you provide examples of current scientific or engineering projects that aim to make cities carbon neutral or negative, and how effective they have been?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4634050130844116,
+                            "outline_relevance": 0.6463949680328369,
+                            "originality": 0.32346493005752563,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think we can balance the urgency of climate change with maintaining hope and motivation in the public discourse?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5440981388092041,
+                            "outline_relevance": 0.38527870178222656,
+                            "originality": 0.337058961391449,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "In relation to future urban environments, how do you see technologies like self-healing materials contributing to making cities more sustainable and resilient?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4053460359573364,
+                            "outline_relevance": 0.8822009563446045,
+                            "originality": 0.26338958740234375,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "Is it - could it possible that we don't get over the denial phase, and we're the first to go in this mass extinction?",
+            "previous_answer": "Well no. I think it's possible that we won't get over the denial phase for a while. We won't be the first to go. That's - we're just, we have an incredibly huge population right now. So one of the ways that animals in previous mass extinctions have survived is by having huge populations, because let's say you take out, oh, six billion people. You still have a billion left. So we're in a good position to survive, but the question is, are we going to be surviving in caves, eating algae? Not my favorite view of the future, but we will be surviving. It's just that we may be surviving through incredibly tough times, and I don't want that for humanity's future.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "From your perspective, how do cultural attitudes and collective psychology impact humanity's ability to overcome denial and effectively adapt to the challenges posed by mass extinction?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5325696468353271,
+                        "outline_relevance": 0.6923707723617554,
+                        "originality": 0.2349463701248169,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think cultural attitudes and collective psychology influence our ability to move past the denial phase and adapt?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.34495967626571655,
+                            "outline_relevance": 0.43352508544921875,
+                            "originality": 0.4639565944671631,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you elaborate on historical examples where large populations contributed to survival in past mass extinctions, and what lessons we might draw?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6171673536300659,
+                            "outline_relevance": 0.7850053310394287,
+                            "originality": 0.13401901721954346,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What interventions or innovations could help improve the quality of human survival, beyond just maintaining population numbers?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4854595363140106,
+                            "outline_relevance": 0.6351780891418457,
+                            "originality": 0.2674143314361572,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "From your perspective, how do cultural attitudes and collective psychology impact humanity's ability to overcome denial and effectively adapt to the challenges posed by mass extinction?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5325696468353271,
+                            "outline_relevance": 0.6923707723617554,
+                            "originality": 0.2349463701248169,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 11,
+            "actual_question": "How do we make our cities more sustainable? Can you give us some specifics? Do we need engineering, new engineering ideas, or is that part of the solution?",
+            "previous_answer": "Yeah, definitely. One of the things that is interesting about cities is if you're thinking about how to preserve humanity, cities are a good place to start because they're a locus of human productivity, but also more than half the human population lives in cities, and that's just going to grow going forward, by some estimates from the U.N. So how do we make our cities robust against disaster is a really big question, and there's immediate things that we can do: for example, something as simple as having better disaster planning for cities, having people in cities understand the kinds of disasters they might be subject to, like tornadoes or floods or mudslides. But then, going forward into the future, looking, say, 100 years out or 150 years out, we need to be thinking about building cities with new kinds of materials. And one of the things I'm very interested in are what are called self-healing materials. Sometimes they're called smart materials, which I think is just sort of a cheesy way of saying self-healing materials. And basically these are things like coatings or cement that have some kinds of biological properties that allow them to repair themselves if they're damaged or cracked. And sometimes the biological properties are because they're actually built using modified bacteria. Sometimes it's because they're built out of materials that simply behave like biology because they can heal at the molecular level, or they can form atomic bonds again at the molecular level. So for example, what you might have is a bridge that was built with self-healing cement. So if you have an earthquake in your city or some other kind of disaster and the bridge develops a crack, it would actually be able to seal up that crack, and that's going to preserve life. But it's also going to preserve the bridge itself, and you're not going to have to be constantly tearing down your infrastructure in order to have a city that is functioning. And slowly, I think, what we're going to see is - if we head this direction - people thinking of cities being more like living organisms and starting to incorporate things like synthetic biology into how those cities are run. For example, there's a lot of people now working on modifying algae to be used for everything from fuel to lighting, like you could have glowing algae in your house instead of burning fossil fuels to have light bulbs. You could even have modified algae that was doing water purification. So a futuristic city that is treating itself like an organism would be something that was built in a way that didn't exist in contradiction with its environment. It would be part of its ecosystem. We would be treating cities like biology partly because our building technologies would begin to be more like biology. They would begin to be more like part of an environment and then part of an ecosystem.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on the current advancements and limitations in developing self-healing materials for urban infrastructure?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.52698814868927,
+                        "outline_relevance": 0.8730525970458984,
+                        "originality": 0.15266120433807373,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you see the role of public policy and community engagement in making cities more resilient to disasters and climate change?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6898026466369629,
+                            "outline_relevance": 0.6734504699707031,
+                            "originality": 0.22026175260543823,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you explain more about the current state and challenges of developing self-healing materials for urban infrastructure?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5405195951461792,
+                            "outline_relevance": 0.8643326759338379,
+                            "originality": 0.1596992015838623,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How might integrating synthetic biology into urban planning change the relationship between humans and their environment over the long term?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6084147691726685,
+                            "outline_relevance": 0.6394199728965759,
+                            "originality": 0.2813250422477722,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you elaborate on the current advancements and limitations in developing self-healing materials for urban infrastructure?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.52698814868927,
+                            "outline_relevance": 0.8730525970458984,
+                            "originality": 0.15266120433807373,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 12,
+            "actual_question": "Mm-hmm. This is SCIENCE FRIDAY from NPR. I'm Ira Flatow, talking with Annalee Newitz, author of \"Scatter, Adapt, and Remember: How Humans Will Survive a Mass Extinction.\" Hedging your bets a little toward the end of your book, you talk about having to escape this planet and terraforming maybe another planet or reshaping the planet.",
+            "previous_answer": "Yeah, that's right.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are some of the key challenges Newitz highlights when it comes to living on other planets, especially in terms of adapting to new environments and sustaining human life?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.01741926372051239,
+                        "outline_relevance": 0.9373632669448853,
+                        "originality": 0.5215458273887634,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you elaborate on why exploring and possibly terraforming other planets is crucial for humanity's long-term survival?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.08717964589595795,
+                            "outline_relevance": 0.7175650596618652,
+                            "originality": 0.4156509041786194,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you envision the collaboration between Earth-based sustainability efforts and space colonization in the future?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1139189749956131,
+                            "outline_relevance": 0.5205402374267578,
+                            "originality": 0.43046319484710693,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are the biggest scientific and ethical challenges we face in attempting to live on other planets?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.04578414186835289,
+                            "outline_relevance": 0.7583516240119934,
+                            "originality": 0.4335246682167053,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What are some of the key challenges Newitz highlights when it comes to living on other planets, especially in terms of adapting to new environments and sustaining human life?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.01741926372051239,
+                            "outline_relevance": 0.9373632669448853,
+                            "originality": 0.5215458273887634,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 13,
+            "actual_question": "Do we go to Mars?",
+            "previous_answer": "We did begin by...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific challenges related to living on other planets does Newitz highlight, especially in terms of environmental and social factors?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.0669921487569809,
+                        "outline_relevance": 0.9306086301803589,
+                        "originality": 0.06176978349685669,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you see the initial steps of Mars exploration shaping humanity’s future in space?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.19730684161186218,
+                            "outline_relevance": 0.5796618461608887,
+                            "originality": 0.30462974309921265,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What are the most significant obstacles we need to overcome to establish sustainable life on Mars?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.16819441318511963,
+                            "outline_relevance": 0.6010932922363281,
+                            "originality": 0.27502697706222534,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways could the experience on Mars inform our approach to Earth's environmental crises?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2136264443397522,
+                            "outline_relevance": 0.5936921834945679,
+                            "originality": 0.3454253673553467,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What specific challenges related to living on other planets does Newitz highlight, especially in terms of environmental and social factors?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.0669921487569809,
+                            "outline_relevance": 0.9306086301803589,
+                            "originality": 0.06176978349685669,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 14,
+            "actual_question": "Do we go to Mars? Shall we go to Mars? I mean people have said let's go to Mars and make it another Earth, you know, or something like that.",
+            "previous_answer": "So you have to realize that part of this book is thinking about geological time, right?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific challenges does Newitz highlight about living on other planets, especially in the context of long-term human survival?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.20797502994537354,
+                        "outline_relevance": 0.9443486928939819,
+                        "originality": 0.065818190574646,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How does framing human survival in terms of geological time change our approach to space colonization?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5014312267303467,
+                            "outline_relevance": 0.6407000422477722,
+                            "originality": 0.3050037622451782,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you elaborate on how geological time affects our understanding of the challenges and opportunities in settling Mars?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.532190203666687,
+                            "outline_relevance": 0.5043637156486511,
+                            "originality": 0.1880524754524231,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How can thinking about geological time help us reconcile immediate environmental concerns with long-term space exploration goals?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5799552202224731,
+                            "outline_relevance": 0.5162698030471802,
+                            "originality": 0.3416904807090759,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What specific challenges does Newitz highlight about living on other planets, especially in the context of long-term human survival?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.20797502994537354,
+                            "outline_relevance": 0.9443486928939819,
+                            "originality": 0.065818190574646,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 15,
+            "actual_question": "Right.",
+            "previous_answer": "So we're talking about really long timescales. So I'm not saying that we should go colonize Mars tomorrow because, well, first of all, we already have a robot living on Mars, which is great. So we've got someone on Mars. And second of all, we have a lot of stuff to do here on Earth that is really pressing: for example, building better cities...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You've mentioned the importance of long-term thinking and the current robotic presence on Mars. Could you elaborate on the key challenges that living on other planets, such as Mars, might entail?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6609991192817688,
+                        "outline_relevance": 0.6725132465362549,
+                        "originality": 0.29335904121398926,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How does thinking on geological timescales influence our priorities between Earth conservation and space exploration?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5370795130729675,
+                            "outline_relevance": 0.5801938772201538,
+                            "originality": 0.09455978870391846,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What are the most urgent challenges on Earth that you think should take precedence over space colonization efforts?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5614138841629028,
+                            "outline_relevance": 0.5943224430084229,
+                            "originality": 0.22225475311279297,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you discuss how advancements in robotics on Mars influence Earth-based sustainability initiatives?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5956555604934692,
+                            "outline_relevance": 0.511317253112793,
+                            "originality": 0.22920221090316772,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You've mentioned the importance of long-term thinking and the current robotic presence on Mars. Could you elaborate on the key challenges that living on other planets, such as Mars, might entail?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6609991192817688,
+                            "outline_relevance": 0.6725132465362549,
+                            "originality": 0.29335904121398926,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 16,
+            "actual_question": "Right.",
+            "previous_answer": "...remediating climate change. But it's true that even if we're good boys and girls and we completely stop using fossil fuels and we really work on ceasing our intervention into the carbon cycle, we're still in a planet that blows up sometimes. We get mega-volcanoes. We get hit by asteroids. It's dangerous. So eventually, you know, within the next thousand years, say, I think it's really important for us to be thinking long term about building cities on other worlds. Maybe it'll be the moon. Maybe it'll be Mars. Maybe it'll be Titan, which is a moon of Saturn, and so, of course, you'd have a great view. And so one of the ways, I think, that we do that is by investing now in space programs and having these really long-term plans and thinking, all right, well, where should humanity be going over the long term? How can we, you know, think now about the technologies we'd need eventually to do that? And also it's just - it's a good survival strategy because humans are great explorers. You know, we left Africa, we colonized the Earth in a pretty rapid period of time, and it plays to our best strengths and instincts as a species, I think, to be focused on how do we keep exploring. And, you know, space is the next logical step, and there's going to be a lot of changes before that happens. We may have to modify our bodies to live in space. We may have to modify other planets to live on them. This is going to require a lot of technologies that we just don't know about yet. We just don't know how we'll invent them yet.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific challenges did Newitz mention that we might face when living on other planets?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.415536493062973,
+                        "outline_relevance": 0.9587353467941284,
+                        "originality": 0.0899583101272583,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think we should balance investment in Earth's sustainability with the push for space colonization?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5802493095397949,
+                            "outline_relevance": 0.5060515403747559,
+                            "originality": 0.10725951194763184,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What specific technologies do you foresee as essential for enabling long-term human survival on other planets?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.46581465005874634,
+                            "outline_relevance": 0.691166877746582,
+                            "originality": 0.17644715309143066,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you elaborate on the evolutionary traits that make humans particularly suited for space exploration and long-term adaptation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3530854880809784,
+                            "outline_relevance": 0.5683040618896484,
+                            "originality": 0.32376253604888916,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What specific challenges did Newitz mention that we might face when living on other planets?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.415536493062973,
+                            "outline_relevance": 0.9587353467941284,
+                            "originality": 0.0899583101272583,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 17,
+            "actual_question": "We need to start thinking about them soon, I would say.",
+            "previous_answer": "Yeah. We need to start thinking about them now, and people are thinking about it. There's researchers now who are working on thinking about stuff like how do you find a person who's DNA is really robust against radiation damage because of course radiation damage is a huge concern in space travel and in living on other worlds. And right now there are researchers who have gotten a little funding from NASA and a little funding from other sources to look at how does DNA repair itself after radiation damage and is there a variation between people. Are there some people who might be better suited for space travel or are there some sets of genes that make people better at dealing with that?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: How do you see ethical considerations influencing the selection of candidates genetically suited for space travel?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.504346489906311,
+                        "outline_relevance": 0.42999815940856934,
+                        "originality": 0.34067362546920776,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you see ethical considerations influencing the selection of candidates genetically suited for space travel?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.504346489906311,
+                            "outline_relevance": 0.42999815940856934,
+                            "originality": 0.34067362546920776,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you explain more about the DNA repair mechanisms that might help humans survive radiation in space?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7564231753349304,
+                            "outline_relevance": 0.48299092054367065,
+                            "originality": 0.38215339183807373,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Beyond genetics, what other factors do you think are important for human adaptation to life on other planets?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4635131359100342,
+                            "outline_relevance": 0.6299848556518555,
+                            "originality": 0.24648725986480713,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 18,
+            "actual_question": "Well, Annalee, thank you for giving us optimism today about wiping out the - most of the people or life on Earth. Annalee Newitz is author of \"Scatter, Adapt, and Remember: How Humans Will Survive a Mass Extinction.\" Thank you very much, Annalee, for coming on this show.",
+            "previous_answer": "Thank you for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: What initially inspired you to explore the topic of mass extinction in your writing?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.14649629592895508,
+                        "outline_relevance": 0.6923227906227112,
+                        "originality": 0.06757926940917969,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What initially inspired you to explore the topic of mass extinction in your writing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.14649629592895508,
+                            "outline_relevance": 0.6923227906227112,
+                            "originality": 0.06757926940917969,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share some of the key scientific findings that influenced your perspective on human survival through mass extinctions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.07332868874073029,
+                            "outline_relevance": 0.7590193748474121,
+                            "originality": 0.14246106147766113,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you balance scientific realism with optimism when communicating about such a potentially frightening topic?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.07376357167959213,
+                            "outline_relevance": 0.5029512047767639,
+                            "originality": 0.27847814559936523,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

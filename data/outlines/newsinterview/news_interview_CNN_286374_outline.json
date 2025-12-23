@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Historical Context of Trooping the Colour",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the historical significance of the Trooping the Colour ceremony?",
+        "importance": "critical",
+        "keywords": [
+          "Trooping the Colour",
+          "history",
+          "ceremony"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the tradition of celebrating the Queen's birthday evolve?",
+        "importance": "high",
+        "keywords": [
+          "Queen's birthday",
+          "tradition",
+          "evolution"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Role of the Monarchy in British Society",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What does the ceremony reveal about the Queen's role in the British military?",
+        "importance": "critical",
+        "keywords": [
+          "Queen",
+          "military",
+          "role"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How has the public perception of the monarchy evolved in recent years?",
+        "importance": "high",
+        "keywords": [
+          "public perception",
+          "monarchy",
+          "change"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Popularity and Representation of the Royal Family",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What factors contribute to the popularity of the monarchy in Commonwealth countries?",
+        "importance": "high",
+        "keywords": [
+          "popularity",
+          "monarchy",
+          "Commonwealth"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the Queen's choice of attire reflect her public image?",
+        "importance": "optional",
+        "keywords": [
+          "Queen's attire",
+          "public image",
+          "fashion"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "The Challenges and Sacrifices of Monarchical Duty",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What sacrifices do royal family members make regarding their personal freedoms?",
+        "importance": "critical",
+        "keywords": [
+          "sacrifices",
+          "royal family",
+          "freedom"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does the Queen manage her public persona despite personal challenges?",
+        "importance": "high",
+        "keywords": [
+          "Queen",
+          "public persona",
+          "challenges"
+        ]
+      }
+    ]
+  }
+]

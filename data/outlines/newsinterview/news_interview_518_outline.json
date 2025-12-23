@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Disinformation Campaigns",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was the significance of the Facebook page called Resisters in the context of disinformation?",
+        "importance": "critical",
+        "keywords": [
+          "disinformation",
+          "Facebook",
+          "Resisters"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Personal Impact of Disinformation",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did Lourdes Ashley Hunter first become involved with the fake Resisters Facebook page?",
+        "importance": "critical",
+        "keywords": [
+          "Lourdes Ashley Hunter",
+          "activism",
+          "fake page"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What emotions did Hunter experience upon discovering the truth about Mary Smith?",
+        "importance": "high",
+        "keywords": [
+          "discovery",
+          "emotions",
+          "Mary Smith"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Strategies for Addressing Disinformation",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What steps does Hunter suggest for due diligence when working with partners?",
+        "importance": "high",
+        "keywords": [
+          "due diligence",
+          "partnerships",
+          "activism"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How is social media viewed by Hunter in relation to activism despite the issues of disinformation?",
+        "importance": "high",
+        "keywords": [
+          "social media",
+          "activism",
+          "perception"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Calls for Improvement from Social Media Platforms",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What does Hunter believe Facebook could improve in its communication with users?",
+        "importance": "high",
+        "keywords": [
+          "Facebook",
+          "communication",
+          "transparency"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What is the importance of transparency for groups like Facebook according to Hunter?",
+        "importance": "optional",
+        "keywords": [
+          "transparency",
+          "social media",
+          "users"
+        ]
+      }
+    ]
+  }
+]

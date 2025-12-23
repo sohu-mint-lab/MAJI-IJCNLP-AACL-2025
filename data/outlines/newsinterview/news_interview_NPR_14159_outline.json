@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Judicial Recusal in Supreme Court Cases",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What led to the Supreme Court's decision regarding the recusal of justices in the apartheid lawsuits?",
+        "importance": "critical",
+        "keywords": [
+          "Supreme Court",
+          "recusal",
+          "apartheid lawsuits"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the recusal of justices impact the ability of the Supreme Court to hear cases?",
+        "importance": "high",
+        "keywords": [
+          "impact",
+          "recusal",
+          "case hearing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Impact of Stock Ownership on Judicial Decisions",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the implications of justices owning stock in companies involved in cases they preside over?",
+        "importance": "critical",
+        "keywords": [
+          "stock ownership",
+          "judicial decisions",
+          "implications"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What potential reforms are being discussed in response to conflicts of interest among justices?",
+        "importance": "high",
+        "keywords": [
+          "reforms",
+          "conflicts of interest",
+          "justices"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Legal Framework of Apartheid Lawsuits",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Under what legal basis are the apartheid victims pursuing lawsuits against American corporations?",
+        "importance": "critical",
+        "keywords": [
+          "apartheid victims",
+          "lawsuits",
+          "legal basis"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What challenges does the filing of these lawsuits pose for the companies involved?",
+        "importance": "high",
+        "keywords": [
+          "challenges",
+          "lawsuits",
+          "companies"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Supreme Court Cases and Their Importance",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are some of the significant cases awaiting decisions from the Supreme Court?",
+        "importance": "high",
+        "keywords": [
+          "Supreme Court",
+          "significant cases",
+          "decisions"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How might upcoming Supreme Court decisions influence the balance of power on the court?",
+        "importance": "optional",
+        "keywords": [
+          "upcoming decisions",
+          "balance of power",
+          "Supreme Court"
+        ]
+      }
+    ]
+  }
+]

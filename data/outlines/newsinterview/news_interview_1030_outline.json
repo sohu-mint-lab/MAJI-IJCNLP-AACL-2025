@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Impact of Tornadoes and Need for Resilient Structures",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the main challenges faced in creating tornado-resistant structures?",
+        "importance": "critical",
+        "keywords": [
+          "tornadoes",
+          "resilient structures",
+          "engineering challenges"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What did David Prevatt advocate for during his congressional testimony?",
+        "importance": "high",
+        "keywords": [
+          "Congress",
+          "advocacy",
+          "wind-hazard-resilient communities"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Current Engineering and Resilience Strategies",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What construction principles are currently lacking in tornado-prone homes?",
+        "importance": "critical",
+        "keywords": [
+          "construction failures",
+          "vertical load path",
+          "tornado damage"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How can hurricane-resistant designs be applied to improve tornado resilience?",
+        "importance": "high",
+        "keywords": [
+          "hurricane-resistant designs",
+          "construction techniques",
+          "home improvement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Importance of Research and Future Directions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What gaps in tornado research did Prevatt highlight?",
+        "importance": "critical",
+        "keywords": [
+          "tornado research",
+          "wind speeds",
+          "knowledge gaps"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What new technologies are being explored to improve building resilience?",
+        "importance": "high",
+        "keywords": [
+          "new technologies",
+          "building durability",
+          "adhesive products"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Cost Analysis and Community Commitment",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How much investment is required to enhance the structural integrity of homes?",
+        "importance": "high",
+        "keywords": [
+          "cost analysis",
+          "home investment",
+          "structural improvements"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are the broader societal benefits of investing in storm-resistant infrastructure?",
+        "importance": "optional",
+        "keywords": [
+          "societal benefits",
+          "infrastructure investment",
+          "long-term gains"
+        ]
+      }
+    ]
+  }
+]

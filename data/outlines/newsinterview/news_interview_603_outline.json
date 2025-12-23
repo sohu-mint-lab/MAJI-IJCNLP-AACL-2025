@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "The Concept of Love in Michael Curry's Address",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What role does love play in Michael Curry's message during the royal wedding?",
+        "importance": "critical",
+        "keywords": [
+          "love",
+          "message",
+          "royal wedding"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Dr. Curry connect the theme of love to broader societal issues?",
+        "importance": "high",
+        "keywords": [
+          "societal issues",
+          "love",
+          "social justice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Impact of the Royal Wedding Sermon",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What was the reaction to Dr. Curry's sermon in relation to Meghan Markle's heritage?",
+        "importance": "high",
+        "keywords": [
+          "reaction",
+          "Meghan Markle",
+          "heritage"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "In what ways did the wedding ceremony serve as a symbol for inclusivity?",
+        "importance": "critical",
+        "keywords": [
+          "inclusivity",
+          "symbol",
+          "ceremony"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Broader Message of Unity",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What message about global unity did Dr. Curry hope to convey?",
+        "importance": "critical",
+        "keywords": [
+          "unity",
+          "global message",
+          "humanity"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Curry's message challenge societal divisions?",
+        "importance": "high",
+        "keywords": [
+          "societal divisions",
+          "challenge",
+          "message"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Reflections and Advice",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "Did Michael Curry give any direct advice to the royal couple, and what was it?",
+        "importance": "optional",
+        "keywords": [
+          "advice",
+          "royal couple",
+          "Curry"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What was Curry’s personal takeaway from his experience at the royal wedding?",
+        "importance": "optional",
+        "keywords": [
+          "takeaway",
+          "experience",
+          "royal wedding"
+        ]
+      }
+    ]
+  }
+]

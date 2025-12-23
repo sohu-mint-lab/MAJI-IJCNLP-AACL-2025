@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Current Situation of LGBTQ+ Individuals in Iraq",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What has been the historical context regarding homosexuality in Iraq since 2003?",
+        "importance": "critical",
+        "keywords": [
+          "homosexuality",
+          "Iraq",
+          "historical context"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How have the roles of militias impacted the safety of gay individuals in Iraq?",
+        "importance": "high",
+        "keywords": [
+          "militias",
+          "safety",
+          "gay individuals"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Human Rights Violations and Violence",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What types of violence and discrimination do gay men face in Iraq?",
+        "importance": "critical",
+        "keywords": [
+          "violence",
+          "discrimination",
+          "gay men"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What role does tribal honor play in the persecution of gay individuals?",
+        "importance": "high",
+        "keywords": [
+          "tribal honor",
+          "persecution",
+          "gay individuals"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Responses and Support Systems",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How has Human Rights Watch intervened to assist persecuted gay Iraqis?",
+        "importance": "critical",
+        "keywords": [
+          "Human Rights Watch",
+          "intervention",
+          "gay Iraqis"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What challenges do refugees face when relocating after escaping persecution?",
+        "importance": "high",
+        "keywords": [
+          "refugees",
+          "challenges",
+          "relocation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Broader Context of LGBTQ+ Rights in the Middle East",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does the situation for gay individuals in Iraq compare to other Middle Eastern countries?",
+        "importance": "high",
+        "keywords": [
+          "LGBTQ+ rights",
+          "Middle East",
+          "comparison"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are the common challenges faced by LGBTQ+ individuals in the Middle East?",
+        "importance": "optional",
+        "keywords": [
+          "challenges",
+          "LGBTQ+ individuals",
+          "Middle East"
+        ]
+      }
+    ]
+  }
+]

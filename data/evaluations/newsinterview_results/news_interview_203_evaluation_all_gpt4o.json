@@ -1,0 +1,864 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.38889339047929516,
+                "avg_context_relevance": 0.4822295711416265,
+                "avg_outline_relevance": 0.6559379988390467,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3624718189239502,
+                "avg_context_relevance": 0.4692162681709636,
+                "avg_outline_relevance": 0.7668317989869551,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 60.71428571428571,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Happy Mother's Day. Does this scene sound familiar?",
+            "previous_answer": "In the morning, I'm rushing around. I'm getting lunches together. I'm helping the kids finish up their homework. I'm making sure everyone's wearing socks. And my husband sits there, drinking his coffee, on his phone. He doesn't do it on purpose. He doesn't even realize what's going on around him.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How have you and your husband talked about sharing morning responsibilities, and have you found any approaches that help balance the load more fairly?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5215488076210022,
+                        "outline_relevance": 0.4927573800086975,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: How does this dynamic affect your relationship with your husband throughout the day?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.34818148612976074,
+                            "outline_relevance": 0.46642935276031494,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: What have you observed as common reasons for fathers' unawareness of parenting tasks?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4960760474205017,
+                            "outline_relevance": 0.7900995016098022,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: Can you describe any conversations or strategies couples might use to address this imbalance?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3008180856704712,
+                            "outline_relevance": 0.6535468101501465,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How have you and your husband talked about sharing morning responsibilities, and have you found any approaches that help balance the load more fairly?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5215488076210022,
+                            "outline_relevance": 0.4927573800086975,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "That's Darcy Lockman. She's a clinical psychologist. And that's a story she heard from a lot of moms. She talked to them and some of their husbands for her book, \"All The Rage: Mothers, Fathers And The Myth Of Equal Partnership.\"",
+            "previous_answer": "I was initially going to interview a hundred women for the book because that's what Betty Friedan did for \"The Feminine Mystique.\" So I thought, oh, that's a good place to start, a hundred women. But by the time I got up into the 40s, I was just, like, you know, these interviews all sound exactly the same. It didn't matter the age of the woman, where in the country she was living, her socioeconomic status. It was just - it was so consistent.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What initially inspired you to pursue this project on parenting partnerships, and did the early consistency in women's stories influence your perspective or approach as you continued?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.45818182826042175,
+                        "outline_relevance": 0.6213306188583374,
+                        "originality": 0.5097339749336243,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on what specific common themes emerged from these interviews with mothers?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.47292041778564453,
+                            "outline_relevance": 0.798319399356842,
+                            "originality": 0.5006250143051147,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Since the stories were so consistent, how might this reflect broader societal expectations or cultural norms about parenting?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.23492561280727386,
+                            "outline_relevance": 0.6347848176956177,
+                            "originality": 0.4388699531555176,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How did you feel this consistency influenced your understanding of parenting partnerships and the myth of equality?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.253512978553772,
+                            "outline_relevance": 0.7252992391586304,
+                            "originality": 0.430950403213501,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Were there any surprising differences or exceptions in the interviews that challenged the general pattern?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4208552837371826,
+                            "outline_relevance": 0.4785836338996887,
+                            "originality": 0.6777295470237732,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What was your initial motivation to start this project, and did these consistent findings change your approach over time?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2654014229774475,
+                            "outline_relevance": 0.340128093957901,
+                            "originality": 0.7136092782020569,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What initially inspired you to pursue this project on parenting partnerships, and did the early consistency in women's stories influence your perspective or approach as you continued?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.45818182826042175,
+                            "outline_relevance": 0.6213306188583374,
+                            "originality": 0.5097339749336243,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "How did you get the husbands to open up?",
+            "previous_answer": "When I got toward the end of my research, I tried to contact all the women that I had spoken with and just said, hey, would your husbands be willing to talk? The interesting thing about it was when I spoke to the women, they were all so enthusiastic and passionate. When I talked to their husbands, they were really nice, but they were so clearly disinterested in the topic. It wasn't that they didn't know that their wives are never frustrated with them. It just didn't seem particularly important to them. And I don't mean to imply that they were cold to their wives or indifferent to their wives. It just really didn't register as such a big deal.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What do you think are the main barriers that prevent fathers from being seen as equally involved parents in your research?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.27004873752593994,
+                        "outline_relevance": 0.881979763507843,
+                        "originality": 0.23975402116775513,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What do you think contributes to the husbands' lack of engagement or interest in these discussions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6883966326713562,
+                            "outline_relevance": 0.533482551574707,
+                            "originality": 0.31223994493484497,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How do you interpret the husbands' polite but disinterested attitude toward their wives' frustrations?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7334380149841309,
+                            "outline_relevance": 0.43621134757995605,
+                            "originality": 0.3648156523704529,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In your research, how did this dynamic of disinterest among husbands affect the overall household partnership?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5919070243835449,
+                            "outline_relevance": 0.6579021215438843,
+                            "originality": 0.2508649230003357,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What do you think are the main barriers that prevent fathers from being seen as equally involved parents in your research?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.27004873752593994,
+                            "outline_relevance": 0.881979763507843,
+                            "originality": 0.23975402116775513,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Like a fact of life - like, this is just the way things are.",
+            "previous_answer": "Yes, absolutely. In fact, one of the women that I interviewed said to me, my husband sees we have an issue with this. But he considers it my problem. So he says to me, there's really nothing I can do, and it would be helpful if you weren't so bothered by this.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are some of the main obstacles that fathers face when trying to be acknowledged as active and involved parents?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2356259524822235,
+                        "outline_relevance": 0.9127370119094849,
+                        "originality": 0.19665944576263428,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on the emotional impact on women whose partners consider household issues 'their problem'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5435699820518494,
+                            "outline_relevance": 0.5380493402481079,
+                            "originality": 0.35103869438171387,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What cultural or societal factors lead to husbands dismissing these problems as the wife's concern?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6129447221755981,
+                            "outline_relevance": 0.539263129234314,
+                            "originality": 0.20770317316055298,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How can couples communicate more effectively to overcome such dismissive attitudes and foster true partnership?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.38404425978660583,
+                            "outline_relevance": 0.6202235221862793,
+                            "originality": 0.21605676412582397,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What are some of the main obstacles that fathers face when trying to be acknowledged as active and involved parents?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2356259524822235,
+                            "outline_relevance": 0.9127370119094849,
+                            "originality": 0.19665944576263428,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Wow. Let me ask you this. The amount of child care that men take on was actually rising in the 1980s and '90s. But then we did see it level off. So what happened? It seemed like we were sort of making some progress in this issue.",
+            "previous_answer": "Yeah, it's a really good question. There's some interesting research on ideas about household fairness. And one of the studies I came across that really seemed to quantify this was they looked at the time-use diaries of couples. And then they asked the couples, what are your feelings about your division of household labor? And the percentage of work that men who reported the greatest feelings of fairness were doing was 35%. So men doing 35% of the domestic work felt, of all the people in the study, that things were most fair. But the thing that was even perhaps more interesting and also disturbing was women basically agreed with them. Women who were doing 66% of their household's labor felt like they had the fairest arrangements of all the women in the study.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You mentioned the differing perceptions of fairness between men and women regarding household labor. What psychological factors might contribute to women perceiving such inequitable divisions as fair?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7672464847564697,
+                        "outline_relevance": 0.6655216217041016,
+                        "originality": 0.3967791795730591,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: What psychological factors might lead women to perceive themselves as experiencing fair domestic arrangements despite doing more work?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6333394050598145,
+                            "outline_relevance": 0.5604420900344849,
+                            "originality": 0.28930723667144775,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do these differing perceptions of fairness affect communication and conflict in partnerships?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.40383708477020264,
+                            "outline_relevance": 0.4231775403022766,
+                            "originality": 0.3200172781944275,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you discuss how societal expectations shape men’s and women’s views on what constitutes 'fair' division of labor in the household?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6952060461044312,
+                            "outline_relevance": 0.747438371181488,
+                            "originality": 0.41174590587615967,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You mentioned the differing perceptions of fairness between men and women regarding household labor. What psychological factors might contribute to women perceiving such inequitable divisions as fair?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7672464847564697,
+                            "outline_relevance": 0.6655216217041016,
+                            "originality": 0.3967791795730591,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "That's extraordinary. Is some of this just because our culture is set up this way? How do you get schools, for example, to call the dads first or for parents to text the dad about carpools and playdates?",
+            "previous_answer": "Right, it's so baked in. I had a woman who was not the primary parent in her house. Her husband worked from home. And he did a lot more care of their daughter. And she said to me, you know, the school still calls me. The e-vites all go to me. I get the message constantly that I'm the one who's supposed to be doing this. And she felt a lot of guilt because of it. And her colleagues would say to her, you know, if you were a man, you wouldn't be thinking twice about this. It would just be how it was.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do same-sex couples navigate the division of parenting responsibilities compared to heterosexual couples?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.30476418137550354,
+                        "outline_relevance": 0.9090402126312256,
+                        "originality": 0.30768561363220215,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Broad: How do you believe schools and institutions could restructure their communication practices to support fathers and non-traditional caregivers more effectively?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4111325740814209,
+                            "outline_relevance": 0.5770369172096252,
+                            "originality": 0.4420850872993469,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Depth: What psychological effects might arise from the guilt mothers experience when social systems default parenting roles toward them?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.45204344391822815,
+                            "outline_relevance": 0.6357307434082031,
+                            "originality": 0.401125967502594,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: In cases where traditional parenting roles are reversed, what strategies have you seen that help reduce the guilt and redistribute responsibilities?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.37264880537986755,
+                            "outline_relevance": 0.7056331038475037,
+                            "originality": 0.2904652953147888,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do same-sex couples navigate the division of parenting responsibilities compared to heterosexual couples?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.30476418137550354,
+                            "outline_relevance": 0.9090402126312256,
+                            "originality": 0.30768561363220215,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "And I've heard dads tell me that it's hard for them to break it and be included. I know single dads or divorced dads or gay dads or dads who take the lead parenting who find it hard to find community among parents at school.",
+            "previous_answer": "Yes. I spoke to some stay-at-home dads, actually. And, of course, they said just that. One guy told me he didn't want to make friends with other stay-at-home dads because their attitude was often, you know, well, I'm just doing this until I have a better job or more work or something. It was almost, like, disrespectful of the role. And he didn't want to be around that.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do these negative attitudes among stay-at-home dads impact their sense of identity and satisfaction with their parenting role?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7670224905014038,
+                        "outline_relevance": 0.7531527280807495,
+                        "originality": 0.2891237735748291,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you describe how stay-at-home dads find or build supportive communities despite these challenges?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7000049948692322,
+                            "outline_relevance": 0.6768031716346741,
+                            "originality": 0.2985262870788574,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How do these negative attitudes among stay-at-home dads affect their sense of identity and role satisfaction?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7623650431632996,
+                            "outline_relevance": 0.7288210988044739,
+                            "originality": 0.304811954498291,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What approaches have you seen that help validate and support diverse parenting roles including stay-at-home dads?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.627814769744873,
+                            "outline_relevance": 0.734982430934906,
+                            "originality": 0.2537820339202881,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do these negative attitudes among stay-at-home dads impact their sense of identity and satisfaction with their parenting role?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7670224905014038,
+                            "outline_relevance": 0.7531527280807495,
+                            "originality": 0.2891237735748291,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "What about same-sex partners?",
+            "previous_answer": "I did interview some same-sex couples for the book. And there is some research that suggests that lesbians co-parent most harmoniously of all gender combinations of couples. And if you think about how girls and boys are raised - girls to be communal, boys to be agentic - it makes sense that two women parenting together, being that they both have this kind of lifelong social pressure to really always be thinking about other people, would get along the best during parenting. They're the most likely to be thinking about each other's needs more often than not.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What strategies have you observed that successful same-sex couples use to create an equitable division of parenting responsibilities?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6456883549690247,
+                        "outline_relevance": 0.9068585634231567,
+                        "originality": 0.09951519966125488,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think the parenting approaches of gay male couples differ from those of lesbian couples?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7330478429794312,
+                            "outline_relevance": 0.8146446943283081,
+                            "originality": 0.20057308673858643,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you elaborate on how lifelong social pressures shape parenting behaviors in same-sex couples?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6385058164596558,
+                            "outline_relevance": 0.7769898176193237,
+                            "originality": 0.2106778621673584,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What challenges do same-sex couples face in achieving equity in parenting compared to heterosexual couples?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6506434679031372,
+                            "outline_relevance": 0.828751266002655,
+                            "originality": 0.15015387535095215,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What strategies have you observed that successful same-sex couples use to create an equitable division of parenting responsibilities?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6456883549690247,
+                            "outline_relevance": 0.9068585634231567,
+                            "originality": 0.09951519966125488,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "What do we need to do? Do you hear any stories about people making it work?",
+            "previous_answer": "Yeah, I did actually. I actually wrote the book that I would have loved to have before I became a parent. My husband and I are both progressive. We totally planned to do everything split equally, even though it was more of a vague notion than a planned assumption. And it really doesn't work that way. We didn't take into account our own internalized sexism - not just his sexism, my internalized sexism, my impulse to go out of my way to spare him any inconvenience. So I think if couples really sit down and say, you know, this is how it's going to go if we're not careful, they can be careful. And the couples I talked to who were doing this most successfully really made parity a team effort and a goal. So then they could sit down when either of them felt overburdened and say, hey, this mutual goal we set, I'm feeling like we're not meeting it. We have to recalibrate. One woman said to me - she was actually a sociologist who had gone to school to study work and family. And she knew it was going to go this way. And she said to her boyfriend, who later became her husband, look; if you want to be with me, we're going to make a spreadsheet. And we're going to decide who does what. And he said, well, let's let it be more organic. And I don't know if they ever made the spreadsheet. But the two of them really decided early on that they were committed to this. He also happened to be Swedish, which she said helped. But, you know, really kind of staying on top of it seemed to be the most important thing for couples.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What is the key message that Lockman wants people to understand about the realities and expectations of modern parenting?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.295654296875,
+                        "outline_relevance": 0.8482202887535095,
+                        "originality": 0.38919597864151,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What are some practical ways couples can maintain ongoing communication to prevent falling back into traditional roles?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1802373230457306,
+                            "outline_relevance": 0.5499838590621948,
+                            "originality": 0.23853325843811035,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How does internalized sexism subconsciously influence decision-making in parenting roles over time?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5150693655014038,
+                            "outline_relevance": 0.5645291805267334,
+                            "originality": 0.3812369108200073,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Could you share examples of how cultural backgrounds influence the success of equitable parenting partnerships?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3222924768924713,
+                            "outline_relevance": 0.6877052187919617,
+                            "originality": 0.19972336292266846,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What is the key message that Lockman wants people to understand about the realities and expectations of modern parenting?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.295654296875,
+                            "outline_relevance": 0.8482202887535095,
+                            "originality": 0.38919597864151,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "And so what do you think the takeaway is? What needs to happen?",
+            "previous_answer": "I think the takeaway is more awareness. One of the problems is that we have this idea of the modern involved father. We all know that things have improved a lot since the 1950s. And it's really easy to focus on that rather than to know - and I think most people don't know because they don't look at statistics - that fathers' participation leveled off at 35% around the year 2000. So we go into parenting expecting something like parity. But it doesn't manifest. So our expectations are really not being met. And that leads to a lot of anger.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What do you think are the key factors that led to the plateau in fathers' participation after the initial improvements?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7361700534820557,
+                        "outline_relevance": 0.6882897019386292,
+                        "originality": 0.3238581418991089,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think societal narratives around father involvement impact both fathers and mothers emotionally?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.683257520198822,
+                            "outline_relevance": 0.8118729591369629,
+                            "originality": 0.2362346053123474,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What do you think are the key factors that caused fathers' participation to plateau after initial improvements?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7106181383132935,
+                            "outline_relevance": 0.6775779128074646,
+                            "originality": 0.3220604658126831,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you share examples of how increasing awareness has changed parenting dynamics in families you have studied?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6920180916786194,
+                            "outline_relevance": 0.6718381643295288,
+                            "originality": 0.2696189880371094,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What do you think are the key factors that led to the plateau in fathers' participation after the initial improvements?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7361700534820557,
+                            "outline_relevance": 0.6882897019386292,
+                            "originality": 0.3238581418991089,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "That was Darcy Lockman, author of \"All The Rage: Mothers, Fathers And The Myth Of Equal Partnership.\" Thank you very much.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What inspired you to write your book on equal parenting partnerships?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.15942776203155518,
+                        "outline_relevance": 0.7552618980407715,
+                        "originality": 0.23488467931747437,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you feel about the reception of your book and the discussions it has sparked so far?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.23830857872962952,
+                            "outline_relevance": 0.3897603452205658,
+                            "originality": 0.5733303427696228,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share a particular moment from your research or interviews that profoundly affected your perspective?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.18163162469863892,
+                            "outline_relevance": 0.37115636467933655,
+                            "originality": 0.40706872940063477,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Looking back, how do you see the public discourse around equal parenting evolving since you wrote your book?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.0701669380068779,
+                            "outline_relevance": 0.5908000469207764,
+                            "originality": 0.23632407188415527,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What inspired you to write your book on equal parenting partnerships?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.15942776203155518,
+                            "outline_relevance": 0.7552618980407715,
+                            "originality": 0.23488467931747437,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,319 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3645814231463841,
+                "avg_context_relevance": 0.4012724347412586,
+                "avg_outline_relevance": 0.815756014415196,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 77.27272727272727,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "This week, during a trip to California, President Trump turned his attention to the homelessness crisis there. Previously, he's criticized the cleanliness of San Francisco's streets. On this trip, he called homelessness in Los Angeles a disaster. And he said, quote, \"we're going to get involved very soon on a federal basis if they don't clean up their act,\" unquote. We wanted to see what the mayor of Los Angeles, Eric Garcetti, had to say about all this. And he is with us now. Mr. Mayor, thank you so much for being with us.",
+            "previous_answer": "Great to be with you, Michel.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Mayor Garcetti, could you share your initial thoughts on the President's recent comments about homelessness in Los Angeles?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.16734668612480164,
+                        "outline_relevance": 0.8980767726898193,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Mayor Garcetti, could you share your initial thoughts on the President's recent comments about homelessness in Los Angeles?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.16734668612480164,
+                            "outline_relevance": 0.8980767726898193,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "President Trump has described the homelessness crisis as a, quote-unquote, \"disgrace to our country.\" And we know based on data from the Los Angeles Homeless Services Authority that homelessness is up 16% over the last year in the city of Los Angeles. Based on that, do you agree with the president's description of the problem?",
+            "previous_answer": "It is one of these rare moments where I do agree with our commander in chief. I think this is the humanitarian crisis of our lives - not constrained only to Los Angeles or San Francisco but even a higher rate in his backyard in Washington, D.C. And it's going to require national leadership stepping up to help some of the great work that's now happening in cities across the country to confront this crisis.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How does Mayor Garcetti explain the root causes behind the homelessness crisis in Los Angeles?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.48955416679382324,
+                        "outline_relevance": 0.7953671216964722,
+                        "originality": 0.22054517269134521,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How does Mayor Garcetti explain the root causes behind the homelessness crisis in Los Angeles?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.48955416679382324,
+                            "outline_relevance": 0.7953671216964722,
+                            "originality": 0.22054517269134521,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "A number of advocates have taken issue with the president's remarks. What is it that you think that they're reacting to? Is it the tone? Or do you disagree about what the cause or the source of the problem is?",
+            "previous_answer": "Well, I think we've seen so many issues weaponized by this White House that they become partisan issues, as if homelessness is caused by liberalism or conservatism, by Democrats or Republicans, when we know that homelessness is caused by trauma, it's caused by insufficient housing and it's caused by decades of things that have conspired from Washington - cuts in mental health care housing, the trauma that people bring from the streets, from wars, from sexual and domestic violence. So on one hand, I always welcome anybody to that. We can't do it without federal help. But there's also solutions. Recently in Washington, D.C., the National Coalition to End Homelessness had a conference and said LA is now the model in terms of the work that we are doing. But boy, could we use some more resources. And if he's serious about resources rather than blame, step on up, Mr. President.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share the specific statistics that best illustrate the current state of homelessness in Los Angeles?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4917539954185486,
+                        "outline_relevance": 0.9681456089019775,
+                        "originality": 0.25291794538497925,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you share the specific statistics that best illustrate the current state of homelessness in Los Angeles?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4917539954185486,
+                            "outline_relevance": 0.9681456089019775,
+                            "originality": 0.25291794538497925,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "OK. I want to talk a little bit more about that in one minute. But speaking of staying on the - kind of the causes side of it, the Council of Economic Advisers released a report this week. Their take on it - and in it, they write, quote, \"one of the major factors that increases homelessness is regulation that impedes home construction, which reduces the supply of homes and thus increases homelessness.\" What's your take on that?",
+            "previous_answer": "The report was very incomplete. I used to be a professor. I would have said it was an interesting start but certainly not a final product. And anybody who's worked in homelessness knows, of course, part of the problem can be constrained housing markets. In LA, we're at the second biggest peak in our history of building housing - 100,000 units in about six and a half years. So we're on a tear because we know that rents do affect whether people can hang on and stay in housing or whether they're out on the streets. But the idea in the paper that suddenly, if you deregulated, there would be 40% less homelessness - I think those of us who actually work on the streets and in American cities know it's much more complicated than that.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You've mentioned that the report was an incomplete analysis of homelessness causes. Could you elaborate on what specific aspects or factors you feel were missing or oversimplified in the report?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5711705088615417,
+                        "outline_relevance": 0.5577222108840942,
+                        "originality": 0.41012394428253174,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "You've mentioned that the report was an incomplete analysis of homelessness causes. Could you elaborate on what specific aspects or factors you feel were missing or oversimplified in the report?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5711705088615417,
+                            "outline_relevance": 0.5577222108840942,
+                            "originality": 0.41012394428253174,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "To that end, a group of officials from the administration did come to your city to learn about the city's response. And as I understand it, your team handed the president's team a letter enumerating some of the things that you think would help, particularly increased federal assistance. Can you just tell us a little bit about some of the things that you think would be helpful?",
+            "previous_answer": "Absolutely. We said a number of things they could do right now. One was to make sure that they would pass two pieces of legislation that are in the Congress, one from Maxine Waters. It's a $13 billion end homelessness act. Then Senators Feinstein and Representative Lieu put forward together the Fighting Homelessness Through Services and Housing Act, which is about $7.5 billion focusing on the health care needs of folks that are right now homeless. We also said uphold the Veterans Administration vision. There's a huge campus here in Los Angeles that the veterans administration owns. We've been able to build some housing for formerly homeless vets, and we need to do more. And they could step up right now with federal support for that.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share more about how local governments and federal agencies currently coordinate their efforts to support homeless populations, and what improvements might be needed?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5671858191490173,
+                        "outline_relevance": 0.7531965970993042,
+                        "originality": 0.33992958068847656,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share more about how local governments and federal agencies currently coordinate their efforts to support homeless populations, and what improvements might be needed?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5671858191490173,
+                            "outline_relevance": 0.7531965970993042,
+                            "originality": 0.33992958068847656,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "And before I let you go, I know that a number of officials and certainly activists have found the president's comments very distasteful and hurtful and dehumanizing. But is there any way that the president's talking about this is helpful, at least in drawing attention to something? I mean, one of the things that you often hear advocates say and people, in fact, who are homeless say is that they feel that they're invisible, even if they're highly visible. And that in itself is hurtful. Is there anything about this that is helpful to you in addressing the problem, even if the language itself is very upsetting to many people?",
+            "previous_answer": "You know, in this day and age, I know when the president speaks out, and if you're a Democrat, you're just supposed to punch back and counter-tweet. I didn't take that bait. I said, you know, this is not a partisan issue. And any day that the commander in chief is talking about an issue that I care so deeply about, it's a good day. But second, I said you have to step up, Mr. President. The moment you jump into this issue, you learn how complicated it is, how many decades in the making it is. But this is on our watch. This is our time, and these are your constituents, Mr. President, just as they are mine. And so to me, this is an opportunity to educate, an opportunity to pressure. And whether it is out of his heart or out of the movement that we build or just out of some people's disgust - because disgust for all of us should be in our hearts right now that we let Americans live on our streets and in shelters in the richest country on the face of the earth. So we will push, push, push this president and this administration to join this fight until the last day we're around.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Earlier, you mentioned the importance of not letting this issue become a partisan battle. How do you personally respond when the president's comments on homelessness receive negative reactions from political opponents?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5397565364837646,
+                        "outline_relevance": 0.7541526556015015,
+                        "originality": 0.3130767345428467,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Earlier, you mentioned the importance of not letting this issue become a partisan battle. How do you personally respond when the president's comments on homelessness receive negative reactions from political opponents?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5397565364837646,
+                            "outline_relevance": 0.7541526556015015,
+                            "originality": 0.3130767345428467,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "That is the mayor of Los Angeles, Eric Garcetti. Mr. Mayor, thanks so much for talking to us.",
+            "previous_answer": "Great to be with you, Michel. Thank you so much.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are some key statistics that illustrate the current state of homelessness in Los Angeles?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.017860669642686844,
+                        "outline_relevance": 0.9836311340332031,
+                        "originality": 0.015476584434509277,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What are some key statistics that illustrate the current state of homelessness in Los Angeles?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.017860669642686844,
+                            "outline_relevance": 0.9836311340332031,
+                            "originality": 0.015476584434509277,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

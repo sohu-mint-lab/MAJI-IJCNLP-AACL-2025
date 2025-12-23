@@ -1,0 +1,566 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.43239245989492964,
+                "avg_context_relevance": 0.4081329962770854,
+                "avg_outline_relevance": 0.6566786946994918,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.40841110263551983,
+                "avg_context_relevance": 0.3976892807653972,
+                "avg_outline_relevance": 0.777396423476083,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 48.0,
+            "covered_questions": 4,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "OK, so what happened at the Kentucky Derby? Maximum Security was the favorite to win. So it was no surprise that the thoroughbred claimed an early lead going into the first turn and held onto it. But then officials announced an objection, and the race results were labeled as unofficial. The objection held, pushing Maximum Security back to 17th place and handing the win to a longshot colt named Country House. That resulted in the second-highest payout in Derby history. Joining us now from member station WFPL in Louisville is reporter Ryan Van Velzer. Good morning.",
+            "previous_answer": "Good morning.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you walk us through your experience covering the Kentucky Derby this year, especially the events leading up to the controversy surrounding Maximum Security?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.09560883045196533,
+                        "outline_relevance": 0.5581244826316833,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you walk us through your experience covering the Kentucky Derby this year, especially the events that led up to the controversy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.10695662349462509,
+                            "outline_relevance": 0.5803698897361755,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What were the exact reasons officials cited for Maximum Security's disqualification?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.03344561904668808,
+                            "outline_relevance": 0.8969632387161255,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How did the crowd and participants react to the decision, and what does this mean for the sport going forward?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.006192270666360855,
+                            "outline_relevance": 0.6703875064849854,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you walk us through your experience covering the Kentucky Derby this year, especially the events leading up to the controversy surrounding Maximum Security?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.09560883045196533,
+                            "outline_relevance": 0.5581244826316833,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "All right, so how did it feel in those moments after the race? Take us there.",
+            "previous_answer": "Picture this. There are about 150,000 people at Churchill Downs rooting for this race, plus millions more watching at home. But from the vantage point of the people in the stands, all they see are the pink silks of Maximum Security's jockey pulling out ahead and crossing the finish line on a muddy track. So first, there was cheering. I mean, Maximum Security was the favorite to win, and a lot of people were betting on that horse. Then there was 20 minutes of confusion. You have the objection. You had these unofficial results on the board, saying that Maximum Security won. You have people trying to cash in their tickets at the betting windows. Other people are leaving not knowing who won. And in the press room, we were just sitting there stunned, waiting for the official call.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you walk us through the key events and decisions that ultimately led to Maximum Security's disqualification?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4694572389125824,
+                        "outline_relevance": 0.8579927682876587,
+                        "originality": 0.1666545867919922,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you describe more about the atmosphere in the stadium and among the viewers as the confusion unfolded after the race?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.49706578254699707,
+                            "outline_relevance": 0.745098352432251,
+                            "originality": 0.40835320949554443,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: From your vantage point, what were the main challenges in reporting during the 20 minutes of waiting for the official decision?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.20838993787765503,
+                            "outline_relevance": 0.40628737211227417,
+                            "originality": 0.582633763551712,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How did the uncertainty about the race results affect the mood in the press room and among the audience?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5200582146644592,
+                            "outline_relevance": 0.7640617489814758,
+                            "originality": 0.3983924984931946,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you walk us through the key events and decisions that ultimately led to Maximum Security's disqualification?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4694572389125824,
+                            "outline_relevance": 0.8579927682876587,
+                            "originality": 0.1666545867919922,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Why did racing officials disqualify Maximum Security?",
+            "previous_answer": "Yeah, so in the final bend, Maximum Security drifted wide into another horse's lane. That caused a domino effect, disrupting the progress of three other horses. Country House's jockey, Flavien Prat, was the one who filed the objection after the race. So three stewards, which are basically, like, referees, reviewed the footage and interviewed the affected jockeys. Eventually, steward Barbara Borden gave a brief statement saying that they unanimously decided to disqualify Maximum Security, then walked away without taking any questions.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you tell us who exactly were the officials responsible for reviewing the race and making the decision to disqualify Maximum Security?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5543093681335449,
+                        "outline_relevance": 0.7314897179603577,
+                        "originality": 0.2508575916290283,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How did the crowd and commentators react immediately after the disqualification was announced?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5373268127441406,
+                            "outline_relevance": 0.7808140516281128,
+                            "originality": 0.2985718250274658,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you explain the specific regulations that govern interference in horse racing and how they apply to this case?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6590093374252319,
+                            "outline_relevance": 0.45380041003227234,
+                            "originality": 0.486963152885437,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What was the atmosphere like among the jockeys and trainers during the stewards' review process?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5921743512153625,
+                            "outline_relevance": 0.5403463244438171,
+                            "originality": 0.33160436153411865,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you tell us who exactly were the officials responsible for reviewing the race and making the decision to disqualify Maximum Security?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5543093681335449,
+                            "outline_relevance": 0.7314897179603577,
+                            "originality": 0.2508575916290283,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Wow, it sounds like a political conference. All right. Has anything like this ever happened before?",
+            "previous_answer": "So one other horse was stripped of his title after the fact. That was because he essentially failed a drug test back in 1968. But no, this - this was a first. And the outcome of this year's Derby was just so unpredictable. The original horse couldn't even compete. And the second favorite, Maximum Security, lost even though he crossed the finish line first.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you tell us about the odds for Country House before the race and how his performance surprised people?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.40809059143066406,
+                        "outline_relevance": 0.8886966705322266,
+                        "originality": 0.5427785515785217,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on how the drug test failure in 1968 compares to the disqualification this year in terms of racing regulations?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5749690532684326,
+                            "outline_relevance": 0.5802602767944336,
+                            "originality": 0.40430665016174316,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How did the crowd and commentators react to the unexpected turn of events, especially with Maximum Security finishing first but being disqualified?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.452359676361084,
+                            "outline_relevance": 0.7412796020507812,
+                            "originality": 0.13999563455581665,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways did the unpredictability of the race affect the perceptions of trainers and bettors about the Derby this year?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6280648708343506,
+                            "outline_relevance": 0.6563447713851929,
+                            "originality": 0.2817037105560303,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you tell us about the odds for Country House before the race and how his performance surprised people?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.40809059143066406,
+                            "outline_relevance": 0.8886966705322266,
+                            "originality": 0.5427785515785217,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "All right, so give us the story with Country House briefly. His trainer is named Bill Mott. Did you hear from him?",
+            "previous_answer": "Yeah, so Country House is a chestnut colt, bred in Kentucky. He was a longshot, with 65 to 1 odds of winning ahead of the race. The payout for his winning ticket was $132.40. That's the second-highest in Derby history. He started out the race slow but picked up momentum throughout. He definitely saw his opportunity going into that last turn. And he took it. In a press conference after the announcement, Mott himself said he was a little bit surprised to see how well the horse was doing. He called the victory bittersweet and said it's not how he wanted to win, but he knows it's a race that will be remembered for years to come.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe in more detail how Bill Mott felt about winning the Derby under such unexpected circumstances, and how this affected his perspective on the race?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6145588159561157,
+                        "outline_relevance": 0.6321895122528076,
+                        "originality": 0.3164646625518799,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share more about Bill Mott's background and how this win fits into his career?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4351004958152771,
+                            "outline_relevance": 0.44711726903915405,
+                            "originality": 0.5286053419113159,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How did bettors and fans react to Country House's surprising win?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5456043481826782,
+                            "outline_relevance": 0.7146226763725281,
+                            "originality": 0.3373452425003052,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What does Country House's victory tell us about the unpredictability of horse racing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6739513874053955,
+                            "outline_relevance": 0.6245532035827637,
+                            "originality": 0.28219467401504517,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you describe in more detail how Bill Mott felt about winning the Derby under such unexpected circumstances, and how this affected his perspective on the race?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6145588159561157,
+                            "outline_relevance": 0.6321895122528076,
+                            "originality": 0.3164646625518799,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "So I can't imagine this is done. Is there any chance for an appeal?",
+            "previous_answer": "There is. It's possible that the trainers or the owners could file an appeal with the Kentucky Horse Racing Commission. And in the meantime, Country House has a chance at the second jewel in the Triple Crown at the Preakness Stakes later this month.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What opportunities lie ahead for Country House after the Derby?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.551732063293457,
+                        "outline_relevance": 1.0000001192092896,
+                        "originality": 0.38470458984375,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What are the typical steps and timeline involved in the appeal process with the Kentucky Horse Racing Commission?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7015084028244019,
+                            "outline_relevance": 0.5492675304412842,
+                            "originality": 0.34894418716430664,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How do you think the possibility of an appeal affects the team behind Maximum Security and trainers for other horses?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.584070086479187,
+                            "outline_relevance": 0.4945012629032135,
+                            "originality": 0.3672146797180176,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you describe the significance of the Preakness Stakes for Country House’s career following this Derby incident?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4743252694606781,
+                            "outline_relevance": 0.7296605706214905,
+                            "originality": 0.2625582218170166,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What opportunities lie ahead for Country House after the Derby?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.551732063293457,
+                            "outline_relevance": 1.0000001192092896,
+                            "originality": 0.38470458984375,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "That's Ryan Van Velzer of member station WFPL in Louisville. Ryan, thank you.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you tell us who the officials were that made the decision to disqualify Maximum Security, and how the decision-making process unfolded?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.09006805717945099,
+                        "outline_relevance": 0.7732816934585571,
+                        "originality": 0.1974177360534668,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you normally prepare for interviews at high-pressure sporting events like the Kentucky Derby?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.13464096188545227,
+                            "outline_relevance": 0.43425849080085754,
+                            "originality": 0.3943594694137573,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share a particularly memorable moment from your coverage of the Kentucky Derby and what made it stand out?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1801273226737976,
+                            "outline_relevance": 0.5866864323616028,
+                            "originality": 0.11706358194351196,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How does your background and interest in horse racing influence your reporting style and insights on incidents like the Maximum Security disqualification?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.09855810552835464,
+                            "outline_relevance": 0.5485475063323975,
+                            "originality": 0.27730095386505127,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you tell us who the officials were that made the decision to disqualify Maximum Security, and how the decision-making process unfolded?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.09006805717945099,
+                            "outline_relevance": 0.7732816934585571,
+                            "originality": 0.1974177360534668,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

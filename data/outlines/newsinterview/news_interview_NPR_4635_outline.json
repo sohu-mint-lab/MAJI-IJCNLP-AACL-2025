@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Recent Lunar Research",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What does recent research suggest about the moon's geological activity?",
+        "importance": "critical",
+        "keywords": [
+          "lunar research",
+          "geological activity",
+          "moon"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has the Lunar Reconnaissance Orbiter contributed to our understanding of the moon?",
+        "importance": "high",
+        "keywords": [
+          "Lunar Reconnaissance Orbiter",
+          "understanding",
+          "images"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Evidence of Shrinking Moon",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What specific geological features indicate that the moon has shrunk?",
+        "importance": "critical",
+        "keywords": [
+          "shrinking",
+          "geological features",
+          "lobate scarps"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What does the presence of lobate scarps tell us about the moon's thermal history?",
+        "importance": "high",
+        "keywords": [
+          "thermal history",
+          "lobate scarps",
+          "moon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Implications for Moon's Geological Activity",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Does the discovery of young thrust faults suggest the moon is still tectonically active?",
+        "importance": "critical",
+        "keywords": [
+          "tectonic activity",
+          "thrust faults",
+          "moon"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do the findings from this research challenge previous assumptions about the moon's geology?",
+        "importance": "high",
+        "keywords": [
+          "assumptions",
+          "moon geology",
+          "findings"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Research Directions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What future missions or probes are being considered to study the moon further?",
+        "importance": "high",
+        "keywords": [
+          "future missions",
+          "probes",
+          "moon research"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What specific technologies would enhance our understanding of the moon's geology?",
+        "importance": "optional",
+        "keywords": [
+          "technologies",
+          "understanding",
+          "moon geology"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "History and Purpose of the Civil Rights Commission",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was the original purpose of the Civil Rights Commission when it was established?",
+        "importance": "critical",
+        "keywords": [
+          "Civil Rights Commission",
+          "history",
+          "purpose"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the Commission's role evolve from its inception to the present day?",
+        "importance": "high",
+        "keywords": [
+          "evolution",
+          "role",
+          "Commission"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Challenges Across Political Administrations",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How have different administrations influenced the enforcement of civil rights?",
+        "importance": "critical",
+        "keywords": [
+          "administrations",
+          "enforcement",
+          "civil rights"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What specific changes did Ronald Reagan implement regarding the Commission?",
+        "importance": "high",
+        "keywords": [
+          "Reagan",
+          "changes",
+          "policies"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Calls for Modernization and Reform",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What reforms does Mary Frances Berry suggest for the Civil Rights Commission?",
+        "importance": "critical",
+        "keywords": [
+          "reforms",
+          "Berry",
+          "Commission"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Berry envision the Commission addressing contemporary issues, such as LGBTQ rights and immigration reform?",
+        "importance": "high",
+        "keywords": [
+          "contemporary issues",
+          "LGBTQ rights",
+          "immigration reform"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Impact of Personal Stories and Historical Cases",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What role do individual stories play in the narrative of the Civil Rights Commission's impact?",
+        "importance": "critical",
+        "keywords": [
+          "personal stories",
+          "impact",
+          "Commission"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Can you provide an example of a significant case the Commission addressed and its outcome?",
+        "importance": "high",
+        "keywords": [
+          "significant case",
+          "outcome",
+          "Commission"
+        ]
+      }
+    ]
+  }
+]

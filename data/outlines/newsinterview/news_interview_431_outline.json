@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Incident",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the key events that led to the disappearance of the 43 students in Iguala?",
+        "importance": "critical",
+        "keywords": [
+          "disappearance",
+          "Iguala",
+          "students"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the Mexican government's official version of the events contrast with Anabel Hernandez's findings?",
+        "importance": "high",
+        "keywords": [
+          "government version",
+          "official story",
+          "investigation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Investigative Findings",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What evidence did Anabel Hernandez uncover regarding the involvement of the army and the police?",
+        "importance": "critical",
+        "keywords": [
+          "evidence",
+          "army",
+          "police"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What role did drug trafficking play in the targeting of the students?",
+        "importance": "high",
+        "keywords": [
+          "drug trafficking",
+          "targeting",
+          "students"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Consequences and Safety of Investigative Journalism",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What have been the repercussions for Anabel Hernandez following her investigation and the publication of her book?",
+        "importance": "critical",
+        "keywords": [
+          "repercussions",
+          "investigation",
+          "publication"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the danger faced by journalists in Mexico affect their work and safety?",
+        "importance": "high",
+        "keywords": [
+          "journalist safety",
+          "danger",
+          "Mexico"
+        ]
+      }
+    ]
+  }
+]

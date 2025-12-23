@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Allegations Against President Trump",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the key allegations regarding President Trump's dealings with foreign powers?",
+        "importance": "critical",
+        "keywords": [
+          "allegations",
+          "Trump",
+          "foreign powers"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How have various Democratic leaders responded to these allegations?",
+        "importance": "high",
+        "keywords": [
+          "Democrats",
+          "responses",
+          "allegations"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Legal Implications of the Whistleblower Complaint",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What legal obligations does the Trump administration have regarding the whistleblower's complaint?",
+        "importance": "critical",
+        "keywords": [
+          "whistleblower",
+          "complaint",
+          "legal obligations"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What safeguards exist to prevent misuse of the intelligence community by the president?",
+        "importance": "high",
+        "keywords": [
+          "safeguards",
+          "intelligence community",
+          "misuse"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Possibility of Impeachment Proceedings",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What conditions must be met for impeachment proceedings to be considered against President Trump?",
+        "importance": "critical",
+        "keywords": [
+          "impeachment",
+          "conditions",
+          "proceedings"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Congressman Malinowski view the current political climate surrounding impeachment?",
+        "importance": "high",
+        "keywords": [
+          "Malinowski",
+          "political climate",
+          "impeachment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Congressional Response and Political Calculations",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How have House Democrats been urged to respond to the allegations against the president?",
+        "importance": "high",
+        "keywords": [
+          "House Democrats",
+          "response",
+          "allegations"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What challenges do Republicans face in responding to the current allegations?",
+        "importance": "optional",
+        "keywords": [
+          "Republicans",
+          "challenges",
+          "allegations"
+        ]
+      }
+    ]
+  }
+]

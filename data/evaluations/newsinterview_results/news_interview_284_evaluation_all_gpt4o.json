@@ -1,0 +1,693 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.38038000975336345,
+                "avg_context_relevance": 0.3942033937466996,
+                "avg_outline_relevance": 0.6439589279038566,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4072627392080095,
+                "avg_context_relevance": 0.36038003034061855,
+                "avg_outline_relevance": 0.7742601235707601,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 72.0,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Archbishop Charles Scicluna of Malta is the Vatican's top sex crimes investigator. He joins us now from Rome. Welcome to the program.",
+            "previous_answer": "Thank you. Thank you, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Archbishop Scicluna, could you please explain the key elements of the Pope's call for an all-out battle against clerical abuse and what this initiative aims to achieve?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.10541239380836487,
+                        "outline_relevance": 0.8673039674758911,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share with us how your extensive experience shapes your approach to investigating clerical abuse cases?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.10860539227724075,
+                            "outline_relevance": 0.6388860940933228,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What motivates you personally to continue this challenging work despite the many obstacles?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.15157818794250488,
+                            "outline_relevance": 0.25747066736221313,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you reconcile the Church's spiritual mission with the harsh realities of addressing abuse within its ranks?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.02627692185342312,
+                            "outline_relevance": 0.6999552249908447,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Archbishop Scicluna, could you please explain the key elements of the Pope's call for an all-out battle against clerical abuse and what this initiative aims to achieve?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.10541239380836487,
+                            "outline_relevance": 0.8673039674758911,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "The pope ended the summit calling for all-out battle against abuse by priests. What does that mean?",
+            "previous_answer": "It means that the guidelines we have, the laws we have need to be implemented across the board. But it also means a change of heart. He talked about conversion because this is a fight against one of the greatest evils. And this is, obviously, theological language. But it is a very important language for us. The pope, actually, put the abuse of kids and cover-up of that abuse on the same level of gravity. And we need to get it right.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on how Archbishop Scicluna interprets the Pope's call for a change of heart among the clergy? What does this change entail in practical terms?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6008350849151611,
+                        "outline_relevance": 0.9543329477310181,
+                        "originality": 0.2685307264328003,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you see the journey towards a true conversion of heart unfolding among clergy and the broader Church community?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.495906800031662,
+                            "outline_relevance": 0.6772762537002563,
+                            "originality": 0.3190724849700928,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What practical steps are being taken to ensure the full implementation of the guidelines that the Pope insists upon?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5359237194061279,
+                            "outline_relevance": 0.6400275826454163,
+                            "originality": 0.3080642819404602,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How does the Church balance the legal pursuit of justice with the spiritual dimensions of conversion and healing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4193305969238281,
+                            "outline_relevance": 0.5699471235275269,
+                            "originality": 0.21413451433181763,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you elaborate on how Archbishop Scicluna interprets the Pope's call for a change of heart among the clergy? What does this change entail in practical terms?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6008350849151611,
+                            "outline_relevance": 0.9543329477310181,
+                            "originality": 0.2685307264328003,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "What are the next steps though? For example, former Cardinal Theodore McCarrick was defrocked earlier this month. In fact, you were instrumental in that decision. Victims want zero tolerance and that all priests who are found guilty have the same thing happen. Will it?",
+            "previous_answer": "Well, first of all, that is the law for the United States of America and Canada. Victims also need to be reminded that we need to be reminded of the very important words by Saint John Paul II, who said that people should know that there is no place in the priesthood for anybody who would harm the young, who would harm our kids. And this has to be the way forward.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe the specific steps the Church is taking to enforce zero tolerance on priests found guilty of abuse beyond existing laws?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5745882987976074,
+                        "outline_relevance": 0.9303265810012817,
+                        "originality": 0.3242298364639282,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think the Church can ensure that zero tolerance policies are consistently applied worldwide, beyond the United States and Canada?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4727939963340759,
+                            "outline_relevance": 0.5952348113059998,
+                            "originality": 0.4872775077819824,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you elaborate on how Saint John Paul II's teachings inform current policies and practices on clerical abuse?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5311654210090637,
+                            "outline_relevance": 0.8917644023895264,
+                            "originality": 0.31042754650115967,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are some of the challenges in balancing strict legal actions with the Church’s pastoral mission of healing and forgiveness?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4777960479259491,
+                            "outline_relevance": 0.6300535202026367,
+                            "originality": 0.13430535793304443,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you describe the specific steps the Church is taking to enforce zero tolerance on priests found guilty of abuse beyond existing laws?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5745882987976074,
+                            "outline_relevance": 0.9303265810012817,
+                            "originality": 0.3242298364639282,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "So you think that the pope now will embrace that for every single diocese in the world.",
+            "previous_answer": "I think that the quote from Saint John Paul II has been policy since 2002. Now we need to audit ourselves in order to make sure that that is the case.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific measures have been implemented to ensure that priests found guilty of abuse are held accountable and prevented from continuing such behavior?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3813014030456543,
+                        "outline_relevance": 0.8930367231369019,
+                        "originality": 0.14771795272827148,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How can the Church improve oversight to ensure policies like those from 2002 are effectively audited worldwide?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.624557614326477,
+                            "outline_relevance": 0.5929035544395447,
+                            "originality": 0.40762102603912354,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What are the challenges and methods involved in auditing compliance with abuse policies inside the Church?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4640207886695862,
+                            "outline_relevance": 0.6648184061050415,
+                            "originality": 0.2862950563430786,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways can self-auditing act as both a preventive and a restorative measure in addressing clerical abuse?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.34267258644104004,
+                            "outline_relevance": 0.5852004289627075,
+                            "originality": 0.2918872833251953,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What specific measures have been implemented to ensure that priests found guilty of abuse are held accountable and prevented from continuing such behavior?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3813014030456543,
+                            "outline_relevance": 0.8930367231369019,
+                            "originality": 0.14771795272827148,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Are you saying that this needs to happen everywhere now? When a priest has been convicted of a sex crime, he should be defrocked everywhere.",
+            "previous_answer": "I wouldn't say defrocked. He should not be in ministry. And that is something that people need to know. He will not be in parishes. He will not be around with kids.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Depth: Can you clarify the distinction between defrocking and removing a priest from ministry, and why you emphasize the latter?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.5165735483169556,
+                        "outline_relevance": 0.5777462124824524,
+                        "originality": 0.42066872119903564,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you clarify the distinction between defrocking and removing a priest from ministry, and why you emphasize the latter?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.5165735483169556,
+                            "outline_relevance": 0.5777462124824524,
+                            "originality": 0.42066872119903564,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How does the Church ensure that priests removed from ministry cannot circumvent restrictions and interact with the community?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5340310335159302,
+                            "outline_relevance": 0.6690176725387573,
+                            "originality": 0.2811633348464966,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: What support systems are in place for victims once a priest is removed from active ministry?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.43836498260498047,
+                            "outline_relevance": 0.6613919138908386,
+                            "originality": 0.30493301153182983,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "You have been working on clerical sex abuse cases for decades. You are the top investigator now. Under Benedict, now Pope Emeritus, you were the church's top sex crimes prosecutor, before that, the Vatican's promoter of justice. And yet this problem persists. Why has it persisted? And is there something that you think should've been done earlier?",
+            "previous_answer": "Well, sin will always be with us. And crime will always happen. I don't think that we can guarantee that no unfortunate incident of sex abuse will ever happen again. But we will do whatever it takes to prevent it from happening. This is something that we owe our church, we owe our faith community. Yet...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain what you mean when you say that a crisis can be seen as an opportunity?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.14274007081985474,
+                        "outline_relevance": 0.6854287385940552,
+                        "originality": 0.6427973806858063,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Given that sin and crime are enduring realities, what specific steps has the Church taken to mitigate abuse risks effectively?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6855741739273071,
+                            "outline_relevance": 0.690064013004303,
+                            "originality": 0.2505234479904175,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you balance acknowledging the inevitability of human sin with the Church's responsibility to protect its members?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6831682920455933,
+                            "outline_relevance": 0.5770578384399414,
+                            "originality": 0.30636703968048096,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Could you elaborate on how the Church supports victims while working to prevent future abuse?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5065912008285522,
+                            "outline_relevance": 0.6431436538696289,
+                            "originality": 0.18116796016693115,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you explain what you mean when you say that a crisis can be seen as an opportunity?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.14274007081985474,
+                            "outline_relevance": 0.6854287385940552,
+                            "originality": 0.6427973806858063,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Are there any regrets on your part, though, Archbishop? - because the church is in crisis.",
+            "previous_answer": "Well, I think crisis is also an opportunity. And I think that this is a moment where we need to listen to the victims, to the communities there asking that we get it right. This will not go away easily. This will create a lot of hurt. But the United States has moved - I'm talking about the Catholic Church in the United States - has moved forward since 2002. The United States Catholic Church is an example of good practice.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Many people have expressed doubts about the Church's ability to regain trust after past failures. How do you suggest the Church can convincingly rebuild credibility among the faithful and the wider community?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.45694416761398315,
+                        "outline_relevance": 0.754417359828949,
+                        "originality": 0.3824470043182373,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe what specific progress the US Catholic Church has made since 2002 to be considered an example of good practice?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5970179438591003,
+                            "outline_relevance": 0.5775246024131775,
+                            "originality": 0.39338862895965576,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How does the Church plan to maintain this momentum in addressing clerical abuse beyond the initial responses?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5329841375350952,
+                            "outline_relevance": 0.7398090362548828,
+                            "originality": 0.1718602180480957,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What concrete steps are taken to ensure victims truly feel heard and supported throughout the process?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3974958062171936,
+                            "outline_relevance": 0.4210817217826843,
+                            "originality": 0.3936215043067932,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Many people have expressed doubts about the Church's ability to regain trust after past failures. How do you suggest the Church can convincingly rebuild credibility among the faithful and the wider community?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.45694416761398315,
+                            "outline_relevance": 0.754417359828949,
+                            "originality": 0.3824470043182373,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Archbishop, why should anyone trust that the church will do anything different? We're talking tens of thousands of victims - conservatively - a culture of secrecy that hid crimes, that protected abusers, that silenced victims. These new revelations continue. Why should they trust the church?",
+            "previous_answer": "That is a legitimate question. We need to own our credibility on a day by day basis. And there is no easy way to be credible but doing the right thing.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the legitimate distrust, how do you personally respond to criticisms related to the Church's past failures in handling abuse cases?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.31774425506591797,
+                        "outline_relevance": 0.7608292102813721,
+                        "originality": 0.28283846378326416,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share specific actions or policies that demonstrate how the Church is earning its credibility each day?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4651099443435669,
+                            "outline_relevance": 0.691877007484436,
+                            "originality": 0.28400033712387085,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: In your view, what are the main obstacles that hinder the Church from being fully credible in the eyes of victims and society?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3885698914527893,
+                            "outline_relevance": 0.6419896483421326,
+                            "originality": 0.24124300479888916,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you define 'doing the right thing,' and how can victims see tangible evidence of this commitment?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.36517345905303955,
+                            "outline_relevance": 0.39654895663261414,
+                            "originality": 0.20826643705368042,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Given the legitimate distrust, how do you personally respond to criticisms related to the Church's past failures in handling abuse cases?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.31774425506591797,
+                            "outline_relevance": 0.7608292102813721,
+                            "originality": 0.28283846378326416,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "Archbishop Charles Scicluna of Malta, thank you so much.",
+            "previous_answer": "Thank you. Thank you, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Reflecting on your work combating clerical abuse, could you share a specific experience or moment that has profoundly influenced your dedication to this mission?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.14728105068206787,
+                        "outline_relevance": 0.5449193716049194,
+                        "originality": 0.1961345672607422,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How has your approach to these sensitive issues evolved over the years and what lessons have been most transformative?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.10269980132579803,
+                            "outline_relevance": 0.41640418767929077,
+                            "originality": 0.4642588496208191,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you share a particular story or moment that has deeply impacted your mission in fighting clerical abuse?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.13028642535209656,
+                            "outline_relevance": 0.5672919750213623,
+                            "originality": 0.15271687507629395,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In your role, how do you balance the demands of justice with the pastoral care of those affected?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.07600334286689758,
+                            "outline_relevance": 0.4334810674190521,
+                            "originality": 0.25533998012542725,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Reflecting on your work combating clerical abuse, could you share a specific experience or moment that has profoundly influenced your dedication to this mission?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.14728105068206787,
+                            "outline_relevance": 0.5449193716049194,
+                            "originality": 0.1961345672607422,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

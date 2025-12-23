@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction of Junot Diaz and the MacArthur Genius Award",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How did Junot Diaz find out about receiving the MacArthur Genius Award?",
+        "importance": "critical",
+        "keywords": [
+          "MacArthur Genius Award",
+          "Junot Diaz",
+          "announcement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Personal Journey and Community Context",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does Diaz relate his personal journey to the immigrant experience and the Dominican community?",
+        "importance": "critical",
+        "keywords": [
+          "immigrant",
+          "Dominican community",
+          "personal journey"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are Diaz's thoughts on the recognition of talent within his community?",
+        "importance": "high",
+        "keywords": [
+          "community talent",
+          "recognition",
+          "artistic inspiration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impact of the Grant on Future Work",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what ways does Diaz believe the grant will affect his writing process?",
+        "importance": "high",
+        "keywords": [
+          "writing process",
+          "grant impact",
+          "creative freedom"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What types of projects or themes does Diaz envision for his future writing?",
+        "importance": "optional",
+        "keywords": [
+          "future projects",
+          "themes",
+          "science fiction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "The Role of Mentorship and Teaching",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Diaz view the importance of mentorship in nurturing young talent?",
+        "importance": "high",
+        "keywords": [
+          "mentorship",
+          "young talent",
+          "teaching"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Will Diaz continue his teaching role despite receiving the grant, and why?",
+        "importance": "optional",
+        "keywords": [
+          "teaching",
+          "continuation",
+          "MIT"
+        ]
+      }
+    ]
+  }
+]

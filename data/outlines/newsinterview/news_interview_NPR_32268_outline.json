@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "The Evolution of Public Relations in Hollywood",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What strategies did Pat Kingsley employ in her early career as a publicist?",
+        "importance": "critical",
+        "keywords": [
+          "public relations",
+          "strategy",
+          "early career"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did changes in media affect public relations strategies over the years?",
+        "importance": "high",
+        "keywords": [
+          "media changes",
+          "public relations",
+          "impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Working with Iconic Clients",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What unique challenges did Pat Kingsley face while working with stars like Doris Day?",
+        "importance": "critical",
+        "keywords": [
+          "Doris Day",
+          "challenges",
+          "client management"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How did Kingsley's nurturing approach benefit her clients compared to her male counterparts?",
+        "importance": "high",
+        "keywords": [
+          "nurturing",
+          "publicist",
+          "client relationships"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Role of Control in Public Image Management",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What role did control play in shaping Tom Cruise's public image?",
+        "importance": "critical",
+        "keywords": [
+          "Tom Cruise",
+          "public image",
+          "control"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did Kingsley maintain client confidentiality and manage their private information?",
+        "importance": "high",
+        "keywords": [
+          "confidentiality",
+          "private information",
+          "client management"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "The Future of Celebrity Publicity",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What challenges does the rise of social media present for celebrity publicists today?",
+        "importance": "critical",
+        "keywords": [
+          "social media",
+          "challenges",
+          "celebrity publicists"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Does Pat Kingsley see any similarities between her past experiences and modern publicity strategies?",
+        "importance": "high",
+        "keywords": [
+          "modern strategies",
+          "publicity",
+          "similarities"
+        ]
+      }
+    ]
+  }
+]

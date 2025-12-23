@@ -1,0 +1,70 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to President George H.W. Bush's Legacy",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were President Bush's last words, and how did they reflect his values?",
+        "importance": "critical",
+        "keywords": [
+          "last words",
+          "family",
+          "legacy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Bipartisan Achievements During Bush's Presidency",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did President Bush manage to pass significant legislation despite a divided Congress?",
+        "importance": "high",
+        "keywords": [
+          "bipartisan",
+          "legislation",
+          "Congress"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What role did President Bush play in the passage of the Clean Air Act?",
+        "importance": "high",
+        "keywords": [
+          "Clean Air Act",
+          "legislation",
+          "bipartisanship"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Personal Reflections on President Bush",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What characteristics did former Senator George Mitchell attribute to President Bush?",
+        "importance": "high",
+        "keywords": [
+          "characteristics",
+          "honorable",
+          "decent"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did President Bush's approach to disagreements differ from today's political climate?",
+        "importance": "optional",
+        "keywords": [
+          "disagreements",
+          "political climate",
+          "bipartisanship"
+        ]
+      }
+    ]
+  }
+]

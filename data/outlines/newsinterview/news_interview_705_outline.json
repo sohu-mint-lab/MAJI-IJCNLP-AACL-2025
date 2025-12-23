@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Impeachment Inquiry",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you explain the actions taken by the Trump administration regarding Gordon Sondland's testimony?",
+        "importance": "critical",
+        "keywords": [
+          "impeachment inquiry",
+          "Gordon Sondland",
+          "Trump administration",
+          "testimony"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has the House approached the issue of subpoenas in this inquiry?",
+        "importance": "high",
+        "keywords": [
+          "subpoenas",
+          "House Democrats",
+          "witnesses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Responses to Witness Testimony Challenges",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What is the Democratic leadership's response to the administration's obstruction of witness testimony?",
+        "importance": "critical",
+        "keywords": [
+          "Democratic leadership",
+          "obstruction",
+          "testimony"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What impact does the administration's behavior have on the legitimacy of the inquiry?",
+        "importance": "high",
+        "keywords": [
+          "legitimacy",
+          "inquiry",
+          "administration behavior"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Legal and Political Implications",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What legal actions are Congress prepared to take if the administration continues to ignore subpoenas?",
+        "importance": "critical",
+        "keywords": [
+          "legal actions",
+          "subpoenas",
+          "Congress"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the current situation influence American democracy and the principles behind it?",
+        "importance": "high",
+        "keywords": [
+          "American democracy",
+          "principles",
+          "political implications"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future of the Inquiry and Impeachment Process",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the expected next steps if the implicated witnesses do not comply with subpoenas?",
+        "importance": "high",
+        "keywords": [
+          "next steps",
+          "witness compliance",
+          "subpoenas"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "In what ways could partisan responses affect the outcome of the impeachment process?",
+        "importance": "optional",
+        "keywords": [
+          "partisan responses",
+          "impeachment process",
+          "outcome"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Congressional Oversight Challenges",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What difficulties are Democrats facing regarding oversight of the executive branch?",
+        "importance": "critical",
+        "keywords": [
+          "Congress",
+          "oversight",
+          "Democrats"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has Attorney General Barr's stance influenced Congress's ability to investigate the president?",
+        "importance": "high",
+        "keywords": [
+          "Attorney General",
+          "Barr",
+          "executive power"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Democratic Strategy and Responses",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What options do the Democrats have to deal with individuals who refuse to testify?",
+        "importance": "critical",
+        "keywords": [
+          "Democrats",
+          "testify",
+          "court"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are the implications of discussing impeachment among Democrats?",
+        "importance": "high",
+        "keywords": [
+          "impeachment",
+          "Congress",
+          "Democrats"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Investigations into Trump's Campaign",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is the significance of the Justice Department's investigations into the Trump campaign's contacts with Russia?",
+        "importance": "critical",
+        "keywords": [
+          "Justice Department",
+          "Trump",
+          "Russia"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How is AG Barr's approach to the investigations being perceived?",
+        "importance": "high",
+        "keywords": [
+          "AG Barr",
+          "investigations",
+          "perception"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "2020 Democratic Primary Landscape",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does the large number of candidates impact the Democratic primary debates?",
+        "importance": "high",
+        "keywords": [
+          "2020",
+          "Democratic primary",
+          "debates"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Which candidates are currently leading the Democratic field, and how might it change?",
+        "importance": "optional",
+        "keywords": [
+          "candidates",
+          "Biden",
+          "Democratic field"
+        ]
+      }
+    ]
+  }
+]

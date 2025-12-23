@@ -1,0 +1,613 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.35347294211387636,
+                "avg_context_relevance": 0.49370951813956104,
+                "avg_outline_relevance": 0.7362701843182246,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3037228509783745,
+                "avg_context_relevance": 0.5054085217416286,
+                "avg_outline_relevance": 0.8625343888998032,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 37.5,
+            "weighted_coverage_score": 44.0,
+            "covered_questions": 3,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "For years, the World Wide Fund for Nature - here in the U.S. known as the World Wildlife Fund - has been seen as a leader in trying to save some of the planet's most magnificent animals from annihilation. Elephants, rhinos and more have benefited from the organization's anti-poaching programs in Asia and Africa. But an investigation by BuzzFeed News reveals a potentially darker side to those efforts. Forest rangers funded through the WWF have allegedly tortured and murdered suspected poachers and villagers. Buzzfeed reporters Tom Warren and Katie Baker spent a year looking into these charges. And Katie Baker joins us now on the line from London. Welcome to the program.",
+            "previous_answer": "Thank you so much for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you start by explaining the primary mission of the WWF and how it's viewed in the global conservation landscape?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.10822351276874542,
+                        "outline_relevance": 0.7952910661697388,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you start by explaining the primary mission of the WWF and how it's viewed in the global conservation landscape?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.10822351276874542,
+                            "outline_relevance": 0.7952910661697388,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What specific incidents did your investigation uncover about the conduct of forest rangers funded by the WWF?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.06401035189628601,
+                            "outline_relevance": 0.8812469244003296,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How have the local communities been impacted by the forest rangers’ activities, and what does this mean for conservation efforts moving forward?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.011162538081407547,
+                            "outline_relevance": 0.8241767883300781,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "So this three-part investigation begins in Chitwan National Park, in the lowland forests of Nepal. Tell us what happened to one local farmer there in 2006.",
+            "previous_answer": "So in 2006, a farmer named Shikharam Chaudhary was apprehended by forest rangers at Chitwan. They suspected him of helping his son bury a stolen rhinoceros horn in his backyard. So they took him back to the jail inside the park, and they interrogated him for a little over a week. And nine days later, Shikharam was dead. Seven eyewitnesses in the jail said that he was being tortured. He was waterboarded. He was beaten and treated in really awful ways by the guards there. And as we found in our reporting, WWF stepped in. And they lobbied for the charges that were filed against the rangers in question to be dropped. And when they ultimately were, they celebrated the ruling.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain what role the WWF has traditionally claimed to play in protecting endangered species like rhinoceroses?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.28362610936164856,
+                        "outline_relevance": 0.8958797454833984,
+                        "originality": 0.2549326419830322,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe the wider community reaction to the death of Shikharam Chaudhary and the allegations of abuse?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4954964518547058,
+                            "outline_relevance": 0.6618708372116089,
+                            "originality": 0.6513704061508179,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How common are such abuses by forest rangers in other conservation areas linked to WWF?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.44586747884750366,
+                            "outline_relevance": 0.7924578785896301,
+                            "originality": 0.1744060516357422,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What has been the response from local authorities or international bodies regarding this incident and WWF's involvement?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.341346800327301,
+                            "outline_relevance": 0.7281042337417603,
+                            "originality": 0.3683212995529175,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you explain what role the WWF has traditionally claimed to play in protecting endangered species like rhinoceroses?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.28362610936164856,
+                            "outline_relevance": 0.8958797454833984,
+                            "originality": 0.2549326419830322,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "So just so I understand, what is the link exactly between the actions of these rangers and the WWF?",
+            "previous_answer": "So WWF funds, equips, trains and otherwise supports these forest rangers at national parks. Our investigation looked at six different countries in Africa and Asia. These forest rangers are employed by the government. But often there isn't that much money to make sure that they have supplies and training and everything else they need to do their job. So WWF often steps in to fill those gaps. And they provide them with everything from uniforms to cars to knives and riot gear and other things that can be used as weapons.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How are indigenous communities impacted by the actions and presence of these forest rangers supported by WWF?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7311490774154663,
+                        "outline_relevance": 0.9127284288406372,
+                        "originality": 0.2109176516532898,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you provide examples of situations where the equipment and support from WWF have been misused by the forest rangers?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.735444188117981,
+                            "outline_relevance": 0.7610527276992798,
+                            "originality": 0.18658459186553955,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How does WWF justify their involvement in equipping rangers with potentially aggressive tools like riot gear?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7325202822685242,
+                            "outline_relevance": 0.6564409732818604,
+                            "originality": 0.30691635608673096,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What kind of oversight or accountability measures exist to ensure WWF’s support does not facilitate human rights abuses?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4642711281776428,
+                            "outline_relevance": 0.6785465478897095,
+                            "originality": 0.3205709457397461,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How are indigenous communities impacted by the actions and presence of these forest rangers supported by WWF?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7311490774154663,
+                            "outline_relevance": 0.9127284288406372,
+                            "originality": 0.2109176516532898,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "You report that often these alleged victims are not hardcore poachers but local indigenous people.",
+            "previous_answer": "Exactly. There are these indigenous people, many of whom have been relocated forcefully so the parks could be created, who either are doing completely legal, low-level hunting and gathering around the parks where the forest rangers apprehend them. And sometimes they are helping out poachers, but on a very, very low level. They are not the kingpins at the top that are the reason why it's a billion-dollar industry.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you elaborate on how the actions of forest rangers impact the daily lives and cultural practices of local indigenous communities around these protected areas?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6517404913902283,
+                        "outline_relevance": 0.910369336605072,
+                        "originality": 0.16534149646759033,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe how forced relocations have affected the indigenous communities' relationship with the forest and conservation policies?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6221867799758911,
+                            "outline_relevance": 0.7528076171875,
+                            "originality": 0.28246939182281494,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What kind of legal frameworks or protections exist for indigenous people to continue their traditional activities near or within conservation areas?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5256842374801636,
+                            "outline_relevance": 0.5850552320480347,
+                            "originality": 0.425991952419281,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do forest rangers differentiate between low-level indigenous hunters and actual poachers, and what challenges does this pose?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6892825961112976,
+                            "outline_relevance": 0.7251526117324829,
+                            "originality": 0.2612648606300354,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you elaborate on how the actions of forest rangers impact the daily lives and cultural practices of local indigenous communities around these protected areas?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6517404913902283,
+                            "outline_relevance": 0.910369336605072,
+                            "originality": 0.16534149646759033,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Who are these rangers?",
+            "previous_answer": "So it differs. But the rangers are local. Sometimes they're from groups that historically have oppressed the indigenous people around them. So there can be some really complex issues there. But, you know, being a ranger is a really difficult job. They are often tasked with combating poachers who are heavily armed. And I think sometimes it can be easier to go after these low-level indigenous people without affording them any due process because it's a really difficult job to eradicate poaching. And it's a lot easier to hassle somebody you see by the side of the river.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think the history of oppression within certain groups affects the attitudes and actions of rangers towards indigenous communities today?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7208698987960815,
+                        "outline_relevance": 0.7900077104568481,
+                        "originality": 0.2067704200744629,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How do the dynamics of historical oppression influence the behavior and attitudes of the rangers towards indigenous communities?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7280873656272888,
+                            "outline_relevance": 0.8110812306404114,
+                            "originality": 0.2143998146057129,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What protocols or oversight mechanisms exist to ensure rangers do not unjustly target indigenous people?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6887915134429932,
+                            "outline_relevance": 0.7205500602722168,
+                            "originality": 0.3090282082557678,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you describe the training and support rangers receive to handle the challenges of their difficult role?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6641661524772644,
+                            "outline_relevance": 0.6965242028236389,
+                            "originality": 0.37832146883010864,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do you think the history of oppression within certain groups affects the attitudes and actions of rangers towards indigenous communities today?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7208698987960815,
+                            "outline_relevance": 0.7900077104568481,
+                            "originality": 0.2067704200744629,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "So with these alleged abuses, is it a matter of rogue field staff that are not being properly monitored? Or is something deeper going on here?",
+            "previous_answer": "I will say that we found it really shocking that whether on the ground reporting in Nepal or in Cameroon, we heard the exact same stories from locals. So it might not be that most forest rangers are bad people or committing crimes, but it's definitely the case that in very different countries and areas, you see forest rangers accused of torturing, beating, sexually assaulting and even murdering these indigenous people.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: What underlying systemic issues might contribute to the repeated abuses by forest rangers across diverse regions?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.7365751266479492,
+                        "outline_relevance": 0.8090124726295471,
+                        "originality": 0.1617404818534851,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: What underlying systemic issues might contribute to the repeated abuses by forest rangers across diverse regions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.7365751266479492,
+                            "outline_relevance": 0.8090124726295471,
+                            "originality": 0.1617404818534851,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do different countries' forest ranger programs vary in monitoring and accountability, and what impact does this have on abuse prevention?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6099220514297485,
+                            "outline_relevance": 0.6528715491294861,
+                            "originality": 0.2850233316421509,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you elaborate on whether there are differences in local attitudes or relationships between indigenous communities and forest rangers that influence these patterns of abuse?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6617859601974487,
+                            "outline_relevance": 0.8142954111099243,
+                            "originality": 0.171850323677063,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "So we should say that the WWF said in a statement human rights abuses are totally unacceptable and can never be justified in the name of conservation. And it has launched an independent review following your reporting. I think many of our listeners might be shocked to hear that the charity they identify with the cuddly panda logo has been involved in something allegedly so disturbing.",
+            "previous_answer": "I think that WWF does some really important work, and that's really the only story you hear. And we felt that the voices of indigenous people who have suffered these abuses has just not been heard before. So what I hope is that donors of WWF who are angered by the reporting will really rally to hold the charity accountable.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think WWF's conservation efforts have influenced public perception of environmental issues, and has this influenced how the public views indigenous communities involved in these regions?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6725105047225952,
+                        "outline_relevance": 0.8533773422241211,
+                        "originality": 0.2874498963356018,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What strategies do you think can effectively ensure that indigenous voices are included in conservation narratives moving forward?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5572870969772339,
+                            "outline_relevance": 0.6500305533409119,
+                            "originality": 0.2799684405326843,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you describe any specific instances where you witnessed WWF’s response to donor backlash or criticism following your investigation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6927400231361389,
+                            "outline_relevance": 0.7615599632263184,
+                            "originality": 0.29577958583831787,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you see the balance between supporting conservation efforts and addressing human rights concerns in organizations like WWF?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6844230890274048,
+                            "outline_relevance": 0.7505571842193604,
+                            "originality": 0.1757413148880005,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do you think WWF's conservation efforts have influenced public perception of environmental issues, and has this influenced how the public views indigenous communities involved in these regions?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6725105047225952,
+                            "outline_relevance": 0.8533773422241211,
+                            "originality": 0.2874498963356018,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "That's BuzzFeed reporter Katie Baker. Thank you very much.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe the primary objectives and mission of WWF and how it has influenced conservation strategies related to endangered species?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.13857345283031464,
+                        "outline_relevance": 0.9336090087890625,
+                        "originality": 0.1426302194595337,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you personally approach maintaining objectivity when covering sensitive topics such as human rights abuses and conservation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.16433721780776978,
+                            "outline_relevance": 0.4103772044181824,
+                            "originality": 0.37588852643966675,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share a moment in your investigation that particularly challenged your assumptions or gave you new insights?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1362597644329071,
+                            "outline_relevance": 0.4012027680873871,
+                            "originality": 0.4466203451156616,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Given your findings, what do you think are key ethical considerations for journalists reporting on conservation-linked human rights issues?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.052944302558898926,
+                            "outline_relevance": 0.4718679189682007,
+                            "originality": 0.26388823986053467,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you describe the primary objectives and mission of WWF and how it has influenced conservation strategies related to endangered species?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.13857345283031464,
+                            "outline_relevance": 0.9336090087890625,
+                            "originality": 0.1426302194595337,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

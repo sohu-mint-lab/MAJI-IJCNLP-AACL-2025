@@ -1,0 +1,497 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.48481206471721333,
+                "avg_context_relevance": 0.2921506334872295,
+                "avg_outline_relevance": 0.7033984002967676,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3588099280993144,
+                "avg_context_relevance": 0.21358916660149893,
+                "avg_outline_relevance": 0.9482120176156362,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 50.0,
+            "covered_questions": 4,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "The White Helmets is the group of volunteers in Syria who are celebrated for running into danger in order to aid civilians. They were the subjects of an Oscar-winning documentary two years ago, which captured images of them carrying broken and bloody Syrians from dust and rubble. Raed Saleh leads the White Helmets. He is here in Washington to receive the Elie Wiesel Award from the Holocaust Memorial Museum for his organization's work in Syria. Congratulations, and thanks for being here.",
+            "previous_answer": "Thank you very much.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you please explain who the White Helmets are and what their main objectives are in Syria?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.10301809012889862,
+                        "outline_relevance": 0.9914817810058594,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you share what this award means to you personally and for the White Helmets organization?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.22769403457641602,
+                            "outline_relevance": 0.7385484576225281,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What challenges has the White Helmets faced in gaining international recognition for their work?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.055161669850349426,
+                            "outline_relevance": 0.8879759311676025,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How does receiving the Elie Wiesel Award impact the mission and future activities of the White Helmets?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.06398443877696991,
+                            "outline_relevance": 0.7017277479171753,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you please explain who the White Helmets are and what their main objectives are in Syria?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.10301809012889862,
+                            "outline_relevance": 0.9914817810058594,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "First, what is the state of things in Syria now? The war is not over, but many people perceive that Bashar al-Assad has won.",
+            "previous_answer": "(Through interpreter) In fact, the situation can't be evaluated this way. Taking control of rubble does not mean victory. What is he controlling today? He is controlling a destroyed country. He's controlling land without people. Thirteen million people are outside of Syria or forcibly displaced internally to areas he does not control. He is controlling cities that are completely destroyed. Today he can't provide the most basic services to the so-called homogeneous society that he has talked about, such as gas, heating and bread.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "In what ways has the war impacted the civilian population in Syria, particularly those who remain inside the country?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3592231869697571,
+                        "outline_relevance": 0.9776138067245483,
+                        "originality": 0.5382500886917114,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: What has been the humanitarian impact on those displaced inside and outside Syria?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3714352548122406,
+                            "outline_relevance": 0.7558708786964417,
+                            "originality": 0.500720351934433,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: Can you describe the current living conditions in the cities controlled by Assad?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.41604897379875183,
+                            "outline_relevance": 0.5366684198379517,
+                            "originality": 0.6809465289115906,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: How does the destruction of infrastructure affect the possibilities for peace and rebuilding in Syria?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5135762691497803,
+                            "outline_relevance": 0.6524112224578857,
+                            "originality": 0.5534222722053528,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "In what ways has the war impacted the civilian population in Syria, particularly those who remain inside the country?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3592231869697571,
+                            "outline_relevance": 0.9776138067245483,
+                            "originality": 0.5382500886917114,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "The Syrian government has targeted White Helmet workers with airstrikes. They say that you are aligned with the rebels. And you say that you act for all Syrians. But this is a civil war of Syria and against Syria, not to mention the U.S. is backing the Kurds. Russia is backing the government in Damascus. How is it possible, in such a complicated scenario, for you to represent all sides and to be impartial?",
+            "previous_answer": "(Through interpreter) In fact, here we have a different way to define impartiality. Impartiality for us is providing services to all Syrians and to providing support to all Syrians. Now after six years of war, we have saved more than 116,000 people from under the rubble. We have not asked any of these 116,000 people who did they belong to? Is he a Kurd? Is he a Christian? Is he a Muslim? Is he with Assad? Is he against Assad? Is he with the Kurds? Is he against the Kurds? We have never asked anyone these questions. But at the same time, we do not stand impartial between the executioner and the victim. Today we take the side of the Syrian people who are being murdered on a daily basis by airstrikes - all different kinds of airstrikes. So when we talk about impartiality, we mean impartiality in providing services.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you respond to accusations of bias against the White Helmets, given your commitment to impartiality and the challenges you face?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.16054941713809967,
+                        "outline_relevance": 0.9531240463256836,
+                        "originality": 0.34961920976638794,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share some specific challenges the White Helmets face as a result of their impartiality stance in such a polarized conflict?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.25616180896759033,
+                            "outline_relevance": 0.7412089705467224,
+                            "originality": 0.18654578924179077,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do the White Helmets maintain trust and legitimacy among the diverse Syrian populations amid allegations from various parties?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.40113356709480286,
+                            "outline_relevance": 0.8170019388198853,
+                            "originality": 0.23241901397705078,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In a conflict with multiple external actors, how does your definition of impartiality influence your relationships with these external powers?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4483474791049957,
+                            "outline_relevance": 0.4144723415374756,
+                            "originality": 0.6884252429008484,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do you respond to accusations of bias against the White Helmets, given your commitment to impartiality and the challenges you face?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.16054941713809967,
+                            "outline_relevance": 0.9531240463256836,
+                            "originality": 0.34961920976638794,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "At one point, you were getting tens of millions of dollars from the U.S. government. Where does that support now stand under the Trump administration? Are they still giving you the support that you need?",
+            "previous_answer": "(Through interpreter) The U.S. financial support continues, and we still receive financial support that helps us with acquiring ambulances and helps us with search and rescue operations.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the ongoing support you receive, how do you see this influencing the White Helmets' strategic priorities and operational planning moving forward?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3110722303390503,
+                        "outline_relevance": 0.7742976546287537,
+                        "originality": 0.2551639676094055,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you describe how the level of U.S. support has evolved recently and what challenges you face in maintaining this funding?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6726990938186646,
+                            "outline_relevance": 0.4862833023071289,
+                            "originality": 0.6557168364524841,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Besides the U.S., what other international partners or sources provide essential support to the White Helmets?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2904090881347656,
+                            "outline_relevance": 0.7904078960418701,
+                            "originality": 0.16115164756774902,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How does ongoing financial support influence your strategic priorities and operational planning in the White Helmets?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4718140959739685,
+                            "outline_relevance": 0.7758936882019043,
+                            "originality": 0.3922737240791321,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Given the ongoing support you receive, how do you see this influencing the White Helmets' strategic priorities and operational planning moving forward?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3110722303390503,
+                            "outline_relevance": 0.7742976546287537,
+                            "originality": 0.2551639676094055,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Where are we now in the Syrian civil war in your estimation? It is clearly not the beginning. Is it closer to the end or do you see this going on indefinitely?",
+            "previous_answer": "(Through interpreter) We do not call this a civil war, but we rather call it a revolution against a dictatorship - a dictatorship that has used all kinds of weapons against people who are revolting against it. They have used chemical weapons and barrel bombs against civilians. I'm not sure how far away from the end are we. I'm not sure how far along we are with this revolution. But we have gone through many phases. I'll tell you back in 2013 when the Iranian forces interfered in Syria, they said that without their intervention, the regime would have fallen within two weeks. The revolution continued. And in 2015, the Russians came in. And they said that without their intervention, the regime would have fallen within a few weeks. Three years after the Russian intervention, the revolution still goes on. We have not lost. The Syrian people have not lost. This revolution continues. So I can't tell you exactly what's going to happen next, but I can tell you that there is no force in the world that can defeat a people's revolution.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain who the White Helmets are and what their main objectives in Syria?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2809833884239197,
+                        "outline_relevance": 0.9980311393737793,
+                        "originality": 0.006271481513977051,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on the role foreign interventions have played in shaping the course of this revolution?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4676414132118225,
+                            "outline_relevance": 0.380973219871521,
+                            "originality": 0.49202412366867065,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you see the international community’s response to this revolution and what more should be done?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5271366834640503,
+                            "outline_relevance": 0.3474050462245941,
+                            "originality": 0.5885754823684692,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Given the uncertainty, what are the key factors that could influence the eventual outcome of the conflict?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.30441975593566895,
+                            "outline_relevance": 0.4636499881744385,
+                            "originality": 0.39545685052871704,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you explain who the White Helmets are and what their main objectives in Syria?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2809833884239197,
+                            "outline_relevance": 0.9980311393737793,
+                            "originality": 0.006271481513977051,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Raed Saleh leads the Syrian Civil Defence, also called the White Helmets. Thank you so much for speaking with me. Shukran.",
+            "previous_answer": "Thank you very much.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain who the White Helmets are and what their main objectives in Syria entail?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.06668868660926819,
+                        "outline_relevance": 0.9947236776351929,
+                        "originality": 0.003554821014404297,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share what motivated you to lead the White Helmets and how your personal experiences shape your commitment?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.12744688987731934,
+                            "outline_relevance": 0.7069488167762756,
+                            "originality": 0.2310611605644226,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What are some of the biggest challenges you face daily as the leader of this organization?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1188543289899826,
+                            "outline_relevance": 0.17646294832229614,
+                            "originality": 0.5410689115524292,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you see the future role of the White Helmets evolving as the situation in Syria changes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.0038846414536237717,
+                            "outline_relevance": 0.8183786869049072,
+                            "originality": 0.18282204866409302,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you explain who the White Helmets are and what their main objectives in Syria entail?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.06668868660926819,
+                            "outline_relevance": 0.9947236776351929,
+                            "originality": 0.003554821014404297,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the White Helmets",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you explain who the White Helmets are and their main objectives in Syria?",
+        "importance": "critical",
+        "keywords": [
+          "White Helmets",
+          "volunteers",
+          "Syria"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What recognition has the White Helmets received for their work?",
+        "importance": "high",
+        "keywords": [
+          "recognition",
+          "Oscar-winning documentary",
+          "impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Current Situation in Syria",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How would you characterize the current state of Syria amidst ongoing conflict?",
+        "importance": "critical",
+        "keywords": [
+          "current state",
+          "conflict",
+          "Bashar al-Assad"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "In what ways has the war impacted the civilian population in Syria?",
+        "importance": "high",
+        "keywords": [
+          "civilian impact",
+          "war",
+          "displacement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impartiality and Representation",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What does impartiality mean for the White Helmets in the context of the Syrian war?",
+        "importance": "critical",
+        "keywords": [
+          "impartiality",
+          "representation",
+          "services"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do you respond to accusations of bias against the White Helmets?",
+        "importance": "high",
+        "keywords": [
+          "bias",
+          "accusations",
+          "response"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "International Support and Future Outlook",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What is the current status of U.S. financial support for the White Helmets?",
+        "importance": "critical",
+        "keywords": [
+          "U.S. support",
+          "financial",
+          "White Helmets"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Do you believe there is an end in sight for the ongoing conflict in Syria?",
+        "importance": "high",
+        "keywords": [
+          "conflict",
+          "future",
+          "revolution"
+        ]
+      }
+    ]
+  }
+]

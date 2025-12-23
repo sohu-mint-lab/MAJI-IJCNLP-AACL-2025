@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Empowerment Perspective on ISIS Recruitment",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How did young women perceive joining ISIS as an empowerment project?",
+        "importance": "critical",
+        "keywords": [
+          "empowerment",
+          "recruitment",
+          "ISIS"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What specific societal factors contributed to their decision to join?",
+        "importance": "high",
+        "keywords": [
+          "societal factors",
+          "ISIS",
+          "decision"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Profiles of Young Women Who Joined ISIS",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What common backgrounds did the Bethnal Green teenagers share?",
+        "importance": "critical",
+        "keywords": [
+          "Bethnal Green",
+          "teenagers",
+          "backgrounds"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What were Nour's experiences before and after her involvement with ISIS?",
+        "importance": "high",
+        "keywords": [
+          "Nour",
+          "experiences",
+          "ISIS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Reality of Life Under ISIS",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What were the harsh realities faced by women once they joined ISIS?",
+        "importance": "critical",
+        "keywords": [
+          "realities",
+          "ISIS",
+          "women"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did women's roles within ISIS contrast with their initial expectations?",
+        "importance": "high",
+        "keywords": [
+          "roles",
+          "expectations",
+          "ISIS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Understanding Women in Militancy",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What complexities exist in categorizing women as perpetrators or victims in militant contexts?",
+        "importance": "high",
+        "keywords": [
+          "complexities",
+          "women",
+          "militancy"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Why is it important to assess women who participated in ISIS as individuals rather than a monolithic group?",
+        "importance": "high",
+        "keywords": [
+          "individuals",
+          "monolithic group",
+          "ISIS"
+        ]
+      }
+    ]
+  }
+]

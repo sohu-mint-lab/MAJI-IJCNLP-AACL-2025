@@ -1,0 +1,787 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.31606810390949247,
+                "avg_context_relevance": 0.4472658559679985,
+                "avg_outline_relevance": 0.7180575534701348,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 57.14285714285714,
+            "weighted_coverage_score": 57.89473684210527,
+            "covered_questions": 4,
+            "total_questions": 7
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "This is SCIENCE FRIDAY. I'm Ira Flatow. When you think wine, one of the countries most closely associated with winemaking is France, right, of course. But the French didn't always know how to make wine. Thousands of years ago, they probably had been drinking a mixed, fermented beverage made from fruit, grain and honey. But writing in the Proceedings of the National Academy of Sciences, researchers report that they have been able to trace back the origins of viticulture in France to about 500 BC, using a combination of archaeological detective work and biomolecular approaches in the lab. And one of the men who's been studying the origins of winemaking for many years, the man some people call the Indiana Jones of wine, is Patrick McGovern, scientific director of the Biomolecular Archaeology Laboratory at the University of Pennsylvania Museum of Archaeology and Anthropology in Philadelphia. He's authored many books, including \"Ancient Wine: A Search for the Origins of Viniculture,\" \"Uncorking the Past: The Quest for Wine, Beer and Other Alcoholic Beverages.\" He joins us this week. Welcome.",
+            "previous_answer": "Hello, Ira, nice to talk to you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you tell us what initially sparked your passion for studying ancient beverages and winemaking?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.13045474886894226,
+                        "outline_relevance": 0.7100111246109009,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you tell us what initially sparked your passion for studying ancient beverages and winemaking?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.13045474886894226,
+                            "outline_relevance": 0.7100111246109009,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Why do they call you the Indiana Jones of...",
+            "previous_answer": "Well because I've gone out around the world, you know, doing different archaeological investigations, which have turned up some pretty unusual fermented beverages (unintelligible).",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share some examples of the most surprising fermented beverages you have discovered during your archaeological expeditions and explain what makes them so unique?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7581239938735962,
+                        "outline_relevance": 0.6559993624687195,
+                        "originality": 0.362082839012146,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you share some examples of the most surprising fermented beverages you have discovered during your archaeological expeditions and explain what makes them so unique?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7581239938735962,
+                            "outline_relevance": 0.6559993624687195,
+                            "originality": 0.362082839012146,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Like what?",
+            "previous_answer": "Well, one of the first that we did was a tomb that the University of Pennsylvania museum excavated in central Turkey, which is believed to be either the tomb of Midas or his father, Gordias, west of Ankara. And it was done by the museum back in 1957 and had one of the largest Iron Age drinking sets in it that the excavators had the foresight to bring the residues in the drinking set back here to Philadelphia. And it was one of the easiest excavations I was ever on. I just had to walk up two flights of stairs, gather up the residues, and then we started doing our analysis.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did you go about recreating the ancient beverages from the residues you found in the Iron Age drinking set?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5033473968505859,
+                        "outline_relevance": 0.9139281511306763,
+                        "originality": 0.31327521800994873,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How did you go about recreating the ancient beverages from the residues you found in the Iron Age drinking set?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5033473968505859,
+                            "outline_relevance": 0.9139281511306763,
+                            "originality": 0.31327521800994873,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "So you take the dregs, so to speak, out of the amphora - the jugs, and you bring it back to the lab, and...",
+            "previous_answer": "It's the evaporated remains or residues of the original beverage that was in the vessels, and in this case it turned out to be a combination of barley, honey and grapes, so it was like a wine, beer and mead all in one. And, you know, your stomach might cringe a little bit at the thought of such a beverage, especially back in 2000 when people weren't doing all the experimental work that we have going on today, especially among craft brewers. So we did some experimental archaeology and got a bunch of microbrewers to go back to their breweries and do up, you know, different versions of what we later called Midas Touch.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What historical events or cultural developments prompted you to investigate the origins of winemaking in France?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5339122414588928,
+                        "outline_relevance": 0.9614567160606384,
+                        "originality": 0.2375379204750061,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What historical events or cultural developments prompted you to investigate the origins of winemaking in France?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5339122414588928,
+                            "outline_relevance": 0.9614567160606384,
+                            "originality": 0.2375379204750061,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "And so you can still make that old stuff today.",
+            "previous_answer": "Well yeah, it's out there, it's available. So... It's produced by Dogfish Head Brewery. They're the ones that won the competition.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on the competition Dogfish Head Brewery won and what criteria were used to judge the authenticity and quality of the ancient brew?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6714167594909668,
+                        "outline_relevance": 0.5152403116226196,
+                        "originality": 0.48209404945373535,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you elaborate on the competition Dogfish Head Brewery won and what criteria were used to judge the authenticity and quality of the ancient brew?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6714167594909668,
+                            "outline_relevance": 0.5152403116226196,
+                            "originality": 0.48209404945373535,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Let's talk about this French discovery. Tell us about what you found.",
+            "previous_answer": "OK, well, this is a site in southern France called Lattes today, or Lattara in antiquity, very close to Montpelier. And it had a merchant's quarter near the harbor in which there were amphoras, you know, large jars that are used in shipping various goods around the Mediterranean, that were in the merchant's room. And we also had a - what turned out to be a wine press very close by. So these amphoras were from central Italy, from the Etruscan area, and dating around 500 BC, as you said. And we applied a whole series of analytical techniques to figure out what the contents of those vessels were. And it turned out to be a very interesting wine that had pine resin added to it, also rosemary, perhaps basil. So it wasn't just sort of your typical French wine you'd, you know, pick up today.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What historical context led to the study of winemaking origins in France, and why was the site at Lattes chosen for this research?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5928550362586975,
+                        "outline_relevance": 0.9419856071472168,
+                        "originality": 0.10032570362091064,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What historical context led to the study of winemaking origins in France, and why was the site at Lattes chosen for this research?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5928550362586975,
+                            "outline_relevance": 0.9419856071472168,
+                            "originality": 0.10032570362091064,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "And do you believe this to be the oldest remnant of French viniculture?",
+            "previous_answer": "Well, we believe that the wine press nearby, this is our - once they build up an interest among the southern French, at that time it would have been the Celts or the Gauls, once they got interested in wine, then the logical next step is to set up your own winemaking facility. And so this is where the press comes into the picture. It is the earliest wine press that has so far been found in France. Now that's not to say that there won't be other discoveries, you know, at sites nearby. Like Marseilles had a Greek colony, for instance. But this one at Lattara is the earliest native Celtic wine press that has so far been discovered.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did geographical factors and cultural exchanges shape the winemaking techniques used by the ancient Celts compared to those of the nearby Greek colonies?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6351186037063599,
+                        "outline_relevance": 0.8549728393554688,
+                        "originality": 0.2707708477973938,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How did geographical factors and cultural exchanges shape the winemaking techniques used by the ancient Celts compared to those of the nearby Greek colonies?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6351186037063599,
+                            "outline_relevance": 0.8549728393554688,
+                            "originality": 0.2707708477973938,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "And how do you think it made its journey, the winemaking, to France from other countries?",
+            "previous_answer": "Well, it first, you know, it was amphoras of wine coming in from the Etruscan area. The wine press is made out of local limestone. So that indicates that they are, you know, setting up their industry right from the materials that they have at hand. They probably need some help from the Etruscans to lay out the vineyards. They have to have the grape vine, the domesticated grape vine that was ultimately domesticated in the Near East, that has to be transplanted probably from central Italy over to southern France, and then they have to be - the southern French have to be tutored at first in how to lay out the vineyards and how to make the wine.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe the historical context that sparked interest in studying the origins of winemaking in France?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5709257125854492,
+                        "outline_relevance": 0.9720250964164734,
+                        "originality": 0.04425978660583496,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you describe the historical context that sparked interest in studying the origins of winemaking in France?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5709257125854492,
+                            "outline_relevance": 0.9720250964164734,
+                            "originality": 0.04425978660583496,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "How do you get - so they're bringing the roots back, the living vines, with them in a boat?",
+            "previous_answer": "That's what we think. I mean, we have examples where grape vines are found in moist soil in the hull of the ship, and that would be probably the way it was done.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you explain what conditions were necessary to keep the grapevines alive during their sea voyage?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.5549748539924622,
+                        "outline_relevance": 0.37392765283584595,
+                        "originality": 0.5923780202865601,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you explain what conditions were necessary to keep the grapevines alive during their sea voyage?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.5549748539924622,
+                            "outline_relevance": 0.37392765283584595,
+                            "originality": 0.5923780202865601,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "So the root stocks that people today associated with French wines came from another country?",
+            "previous_answer": "One part of the genetic signature is of the domesticated grape. And then as the domesticated grape travels across the Mediterranean, you get crosses with wild grapes because the wild Eurasian grape, Vitis vinifera, it grows all along the southern coast or along the Mediterranean. So as you get - bring in the domesticated grape vine, you know, starting over in, you know, the area of Lebanon today, and you move across to Crete and Greece and then on to Italy, you're getting crosses between that domesticated vine and the wild grapes that are growing there. And so you get a whole series of cultivars springing up, and those are the ones that then, you know, get chosen for different reasons. It could be the color of the grape, it could be the thinness of the skin, the sugar, flavor and so forth. But the grapevine is very promiscuous. So it crosses quite easily.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the historical circumstances that initiated this research into the origins of winemaking in France?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.31502974033355713,
+                        "outline_relevance": 0.963155210018158,
+                        "originality": 0.05239081382751465,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain the historical circumstances that initiated this research into the origins of winemaking in France?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.31502974033355713,
+                            "outline_relevance": 0.963155210018158,
+                            "originality": 0.05239081382751465,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "Can you tell from the residue whether the wine was red or white that was in there?",
+            "previous_answer": "Well, we saw sort of a reddish hint, you know, which suggested a red wine, but if we base our thinking a little bit more on the - what the Romans do later, white wines became the most popular wines. And that may be because it's a rare mutation in nature to go to the white or the albino type of grape. There's only like five or six percent of the grapes that will switch over. So that becomes more desirous, and, you know, has higher social value, you could say, among the upper class to, you know, be drinking a very refined white wine.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you tell us about the historical context that motivated the initial research into the origins of winemaking in France?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5003600120544434,
+                        "outline_relevance": 0.9613142013549805,
+                        "originality": 0.02352309226989746,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you tell us about the historical context that motivated the initial research into the origins of winemaking in France?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5003600120544434,
+                            "outline_relevance": 0.9613142013549805,
+                            "originality": 0.02352309226989746,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 11,
+            "actual_question": "Were people drinking beer before they were drinking wine?",
+            "previous_answer": "Yes, that's been documented not in southern France yet but up into Germany and Scandinavia and Scotland, where all across Europe in the Celtic areas they were doing mixed or hybrid beverages in which, just like I mentioned the Midas Touch. I mean, they put together, you know, a high-sugar fruit, a very high concentrated sugar honey and different herbs from the areas in which they're in. So for instance we just came back from Sweden, where we did a Nordic grog, you could call it, in which it has lingonberry, bog cranberry, honey and wheat and barley, and then the herbs include bog myrtle, yarrow, meadowsweet, and we also put in birch resin because we have chemical analyses of samples in tombs in Scandinavia, and it's also been attested in Scotland and Germany, of such a beverage.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking ahead, what are some promising archaeological or scientific avenues that could further illuminate ancient fermentation and beverage-making techniques?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4775688052177429,
+                        "outline_relevance": 0.8074292540550232,
+                        "originality": 0.2991291880607605,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Looking ahead, what are some promising archaeological or scientific avenues that could further illuminate ancient fermentation and beverage-making techniques?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4775688052177429,
+                            "outline_relevance": 0.8074292540550232,
+                            "originality": 0.2991291880607605,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 12,
+            "actual_question": "What would be a - and forgive the pun - what would be the holy grail for an Indiana Jones like you? What would be the ultimate?",
+            "previous_answer": "Well, that would be to go right back to the beginning, you know, to do like a dino brew, you know, sort of a Garden of Eden type of beverage, I guess. And unfortunately in the Paleolithic period, the containers get destroyed. They were probably made out of leather, wood or whatever. So we don't have remnants of any containers from the Paleolithic period. And that's important because once you have a container like pottery, made of pottery, the liquids get absorbed into that, and it helps to retain the ancient organic materials until the biomolecular archeologists like us comes along thousands of years later.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking ahead, what new technologies do you think hold the most promise for advancing our understanding of ancient fermentation processes, especially in contexts where direct evidence is scarce?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4509660601615906,
+                        "outline_relevance": 0.8581993579864502,
+                        "originality": 0.24439013004302979,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Looking ahead, what new technologies do you think hold the most promise for advancing our understanding of ancient fermentation processes, especially in contexts where direct evidence is scarce?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4509660601615906,
+                            "outline_relevance": 0.8581993579864502,
+                            "originality": 0.24439013004302979,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 13,
+            "actual_question": "Do you have any bets of where the cradle of civilization for wine and beer originates?",
+            "previous_answer": "Well, I would say it goes right back to the beginning of the human species, so Africa.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What archaeological findings specifically link Africa to some of the earliest examples of fermented beverages?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.576447606086731,
+                        "outline_relevance": 0.6791973114013672,
+                        "originality": 0.2669251561164856,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What archaeological findings specifically link Africa to some of the earliest examples of fermented beverages?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.576447606086731,
+                            "outline_relevance": 0.6791973114013672,
+                            "originality": 0.2669251561164856,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 14,
+            "actual_question": "Yeah, that far back?",
+            "previous_answer": "Yeah, I mean because they were probably chewing all different kinds of grains and roots, sorghum, millet, bulrush, and we have enzymes that break down the starches into sugar and can be fermented, you know, into a fermented beverage. They certainly knew about honey, which is the most concentrated source of sugar and ferments quite easily.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What new technologies do you think could significantly advance our research into ancient fermentation methods and their cultural implications?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3953343629837036,
+                        "outline_relevance": 0.889567494392395,
+                        "originality": 0.12671750783920288,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What new technologies do you think could significantly advance our research into ancient fermentation methods and their cultural implications?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3953343629837036,
+                            "outline_relevance": 0.889567494392395,
+                            "originality": 0.12671750783920288,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 15,
+            "actual_question": "Was the aim to make alcohol or to store the food...",
+            "previous_answer": "Well, part - you know, it's also preservation, of course, and special flavors that fermentation gives and aromas. But I think the main incentive is the mind-altering effect because that is where you get the pleasure cascade of neurotransmitters occurring when you drink an alcoholic beverage. And it explains, I think, why beer in particular - beers, I should say, in plural - is sort of the center of all the different - the many, many cultures in Africa where often they'll put the brewery right at the center of the village, and all the ceremonies revolving around the ancestors, which is primary to a lot of the peoples there, includes a fermented beverage that they pour onto the grave of the ancestor.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What potential advancements or new technologies do you see as most promising for uncovering more about ancient fermentation methods and their evolution?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.38470298051834106,
+                        "outline_relevance": 0.8763822317123413,
+                        "originality": 0.09411787986755371,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What potential advancements or new technologies do you see as most promising for uncovering more about ancient fermentation methods and their evolution?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.38470298051834106,
+                            "outline_relevance": 0.8763822317123413,
+                            "originality": 0.09411787986755371,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 16,
+            "actual_question": "One more question. As a chemist, what do you want to know - what tool would you like to have or know, what thing would you like to know now that you don't?",
+            "previous_answer": "Well, we've gotten a lot of good tools recently. I mean, the one we used in this paper, which is liquid chromatography, mass spectrometry with an orbit trap detector, I mean that goes down to parts per billion for a lot of the compounds that we're looking for. You know, ultimately, I don't know. There's like alcoholic clouds in the star-forming regions in the middle of the Milky Way, maybe get some sort of a real time machine out there and explore that, too.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What challenges do you face when trying to detect and analyze ancient biomolecules related to fermentation, even with highly sensitive instruments?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3878828287124634,
+                        "outline_relevance": 0.7123497128486633,
+                        "originality": 0.27249807119369507,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What challenges do you face when trying to detect and analyze ancient biomolecules related to fermentation, even with highly sensitive instruments?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3878828287124634,
+                            "outline_relevance": 0.7123497128486633,
+                            "originality": 0.27249807119369507,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 17,
+            "actual_question": "You should need a flux capacitor, that's all you're missing from this.",
+            "previous_answer": "Yes.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share an example of how humor has helped you communicate complex scientific ideas more effectively?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.09447029232978821,
+                        "outline_relevance": 0.3214287757873535,
+                        "originality": 0.6071429252624512,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you share an example of how humor has helped you communicate complex scientific ideas more effectively?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.09447029232978821,
+                            "outline_relevance": 0.3214287757873535,
+                            "originality": 0.6071429252624512,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 18,
+            "actual_question": "Thank you - we don't have one here, so we can't give it...",
+            "previous_answer": "Well, you'll have to come up with that. Just let us know, you know, we're ready to do it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share an example of a particularly challenging or rewarding research question that you devised or collaborated on, and how you approached tackling it?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.17986136674880981,
+                        "outline_relevance": 0.2295866161584854,
+                        "originality": 0.41727834939956665,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share an example of a particularly challenging or rewarding research question that you devised or collaborated on, and how you approached tackling it?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.17986136674880981,
+                            "outline_relevance": 0.2295866161584854,
+                            "originality": 0.41727834939956665,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 19,
+            "actual_question": "All right, Dr. McGovern, thank you very much.",
+            "previous_answer": "OK, nice talking to you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Reflecting on your career, what aspects of your work have brought you the most satisfaction and why?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.2315637171268463,
+                        "outline_relevance": 0.16299404203891754,
+                        "originality": 0.5145245790481567,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Reflecting on your career, what aspects of your work have brought you the most satisfaction and why?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.2315637171268463,
+                            "outline_relevance": 0.16299404203891754,
+                            "originality": 0.5145245790481567,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

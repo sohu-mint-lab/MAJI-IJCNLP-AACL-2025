@@ -1,0 +1,70 @@
+[
+  {
+    "id": "S1",
+    "section": "Background of Nicole Chung's Adoption",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How was Nicole Chung's adoption viewed by her adoptive parents and what impact did it have on her identity?",
+        "importance": "critical",
+        "keywords": [
+          "adoption",
+          "identity",
+          "Korean immigrant"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Search for Birth Family and Identity",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What motivated Nicole Chung to seek out her birth family as an adult?",
+        "importance": "critical",
+        "keywords": [
+          "birth family",
+          "identity",
+          "pregnancy"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What were the unexpected outcomes of her search for her birth family?",
+        "importance": "high",
+        "keywords": [
+          "surprise",
+          "sisters",
+          "reunion"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Reflections on Adoption Experience",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How did Nicole Chung's adoptive parents react to her memoir and its portrayal of their family?",
+        "importance": "high",
+        "keywords": [
+          "memoir",
+          "adoptive parents",
+          "family"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What insights did Nicole Chung share regarding the expectations and realities of transracial adoption?",
+        "importance": "optional",
+        "keywords": [
+          "transracial adoption",
+          "expectations",
+          "realities"
+        ]
+      }
+    ]
+  }
+]

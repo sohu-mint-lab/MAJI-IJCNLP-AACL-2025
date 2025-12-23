@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Jimmy Carter's Presidency",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What does Jimmy Carter say about being perceived as the greatest post-president president of America?",
+        "importance": "critical",
+        "keywords": [
+          "Jimmy Carter",
+          "post-president",
+          "perception"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Changing Political Landscape",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does Carter view the changes in political campaigning since his presidency?",
+        "importance": "high",
+        "keywords": [
+          "political campaigning",
+          "money",
+          "corruption"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What concerns does Carter express regarding the influence of money in politics?",
+        "importance": "high",
+        "keywords": [
+          "money",
+          "political system",
+          "bribes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Assessment of President Obama",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What does Carter identify as Obama's greatest achievement?",
+        "importance": "high",
+        "keywords": [
+          "Obama",
+          "achievement",
+          "Obamacare"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are Carter's concerns regarding Obama's approach to human rights?",
+        "importance": "high",
+        "keywords": [
+          "human rights",
+          "drone attacks",
+          "Guantanamo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Reflections and Relationships",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Carter characterize his relationship with President Obama?",
+        "importance": "optional",
+        "keywords": [
+          "Carter",
+          "Obama",
+          "relationship"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What was the significant interaction Carter mentions regarding his grandson and President Obama?",
+        "importance": "optional",
+        "keywords": [
+          "grandson",
+          "Obama",
+          "interaction"
+        ]
+      }
+    ]
+  }
+]

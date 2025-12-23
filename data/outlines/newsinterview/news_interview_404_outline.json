@@ -1,0 +1,108 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Florida Midterm Elections",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the key races in Florida's midterm elections this season?",
+        "importance": "critical",
+        "keywords": [
+          "Florida",
+          "midterm elections",
+          "Senate",
+          "governor"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How close were the margins in the Senate and governor races?",
+        "importance": "high",
+        "keywords": [
+          "margins",
+          "Senate",
+          "governor",
+          "votes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Recount Process and Challenges",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What challenges are being faced during the recount process?",
+        "importance": "critical",
+        "keywords": [
+          "recount",
+          "challenges",
+          "deadlines"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What kind of protests and legal actions have emerged in response to the recount?",
+        "importance": "high",
+        "keywords": [
+          "protests",
+          "legal actions",
+          "Broward County"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Allegations and Ballot Issues",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What allegations of fraud have been made during the recount?",
+        "importance": "high",
+        "keywords": [
+          "allegations",
+          "fraud",
+          "counts"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What specific ballot issues have been identified that might affect the outcomes?",
+        "importance": "high",
+        "keywords": [
+          "ballot issues",
+          "undervotes",
+          "tabulation errors"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Political Landscape and Historical Context",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "Why is Florida often at the center of national election drama?",
+        "importance": "optional",
+        "keywords": [
+          "Florida",
+          "political drama",
+          "elections"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How has the political landscape of Florida influenced recent elections?",
+        "importance": "high",
+        "keywords": [
+          "political landscape",
+          "elections",
+          "purple state"
+        ]
+      }
+    ]
+  }
+]

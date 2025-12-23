@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Current Trade Negotiations",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What recent developments have occurred in the U.S.-China trade negotiations?",
+        "importance": "critical",
+        "keywords": [
+          "trade negotiations",
+          "U.S.",
+          "China"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How significant is the March 1 deadline in the context of these negotiations?",
+        "importance": "high",
+        "keywords": [
+          "March 1",
+          "deadline",
+          "significance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Impact of Tariffs on Small Businesses",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How have the tariffs affected Tiffany Williams' luggage business specifically?",
+        "importance": "critical",
+        "keywords": [
+          "tariffs",
+          "small business",
+          "impact"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What strategies has Tiffany considered to cope with potential increased tariffs?",
+        "importance": "high",
+        "keywords": [
+          "strategies",
+          "cope",
+          "tariffs"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Long-Term Goals vs. Short-Term Pain",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is Tiffany's perspective on the potential long-term benefits of the current trade strategies?",
+        "importance": "high",
+        "keywords": [
+          "long-term goals",
+          "trade strategies",
+          "perspective"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Tiffany view the balance between short-term difficulties and long-term trade objectives?",
+        "importance": "high",
+        "keywords": [
+          "short-term difficulties",
+          "long-term objectives",
+          "balance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Consumer Impact and Messaging to Administration",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What message does Tiffany want to convey to the administration regarding the effects of tariffs on consumers?",
+        "importance": "critical",
+        "keywords": [
+          "consumer impact",
+          "message",
+          "administration"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Tiffany believe small business owners should be considered in tariff discussions?",
+        "importance": "high",
+        "keywords": [
+          "small business owners",
+          "tariff discussions",
+          "consideration"
+        ]
+      }
+    ]
+  }
+]

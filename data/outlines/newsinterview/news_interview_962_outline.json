@@ -1,0 +1,86 @@
+[
+  {
+    "id": "S1",
+    "section": "Listener Responses to Stimulus Package Discussion",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were some of the key opinions expressed by listeners regarding the latest stimulus package?",
+        "importance": "critical",
+        "keywords": [
+          "stimulus package",
+          "listener responses",
+          "opinions"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did listeners’ views diverge regarding the implications of the government’s role in the economy?",
+        "importance": "high",
+        "keywords": [
+          "government role",
+          "economy",
+          "listener opinions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Feedback on African-American Mystery Authors Segment",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What impact did the Roundtable discussion on African-American mystery authors have on listener Ann Powers?",
+        "importance": "high",
+        "keywords": [
+          "feedback",
+          "African-American authors",
+          "listener impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Farewell Notes from Fans",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What sentiments did fans express as the show neared its conclusion?",
+        "importance": "critical",
+        "keywords": [
+          "farewell notes",
+          "fan sentiments",
+          "show conclusion"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Jamie Scott's farewell note reflect the significance of the show to its audience?",
+        "importance": "high",
+        "keywords": [
+          "farewell",
+          "audience significance",
+          "show impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Closing Remarks and Future Engagement",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What information did Tony Cox provide for listeners wishing to stay connected after the show's end?",
+        "importance": "high",
+        "keywords": [
+          "closing remarks",
+          "future engagement",
+          "listener connection"
+        ]
+      }
+    ]
+  }
+]

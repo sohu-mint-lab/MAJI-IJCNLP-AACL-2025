@@ -1,0 +1,248 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "You're listening to SCIENCE FRIDAY from NPR. I'm Ira Flatow. Back in 1969, the early '70s, six Apollo moon missions planted seismometers on that gray lunar surface. The aim, of course, was to measure seismic activity - as we used to call them, moonquakes. And long after the astronauts flew back home, the seismometers were still going, collecting data that were sent back down to Earth through the 1970s. It was some of the first digitized data collection scientists had ever done. Now, the data from some of these seismometers were analyzed, but only in bits and pieces. You see, the computing power needed to sort through it all just, well, it just wasn't there decades ago. But now, using faster computers and some new techniques for looking at seismic activity, researchers have gone back over the Apollo data, and they have learned more about the moon and its core, and they've published what they've known this week in the journal Science. Joining me now to talk more about it is Renee Weber. She is a planetary scientist at NASA's Marshall Spaceflight Center in Huntsville, Alabama. Thanks for being with us today."
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Hi, thanks for having me."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So what have you learned about the moon from all this data?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Well, we have learned quite a bit, and what we've just had our paper in Science about was a confirmation of the presence of a core in the moon's deepest interior."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You mean we used to think it was just a big rock, one big piece of boulder or something like that?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Well, no. Various other types of geophysical data have actually been used to infer that the moon had a core, but we have made the first direct seismic observation of the core, also that the core itself is layered. There's a solid inner core and a fluid outer core similar to the Earth."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "A fluid outer core. Wow. Does that mean there's, like, lava under there or something?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Magma, yes."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Magma, and could it pop up someplace? Could we have a volcano on the moon?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Not today. In the past, however, there was some volcanism on the surface of the moon, yes. That created the lunar mare, the seas."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "That's quite interesting to know because I think if people just look at the moon, and they think it's just, you know, it's very - it turns out to be a lot more complex than most people think."
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Yeah, it's not a dead place like people have said in the past. It's not as seismically active as the Earth, but there are different types of seismic energy on the moon, in particular the deep moonquakes were the ones that we're really interested in analyzing."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Tell us about it. It's fascinating, because I remember when they talked about placing these seismometers on the moon - what, it was six moon missions to place them around? The astronauts put them there."
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Yeah, the first was on Apollo 11. There was the first seismic instrument that had been deployed on a body other than Earth. And that instrument, actually, only lived for two weeks. Then starting with Apollo 12, there were instruments deployed with every Apollo mission, Apollo 12 and Apollo 14 - not Apollo 13, which didn't actually make it to the surface - but then Apollo 15 and Apollo 16. And those seismometers all operated at the same time, forming a network that continually gathered data until 1977. So..."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so here we are, decades later, after all this data has come back. Why such a long period, you know, to analyze it?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Well, it hasn't been forgotten that this totally unique dataset exists, the only extraterrestrial seismic data that we have. The first studies that analyzed this data really only looked at small subsets of it, just because, you know, the computer capability at the time was not up to par with what we have today. So originally, when we wanted to re-analyze the data, we wanted to look at all of the continuous data rather than just small subsets of it."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And you mentioned that the moon's core is a bit like the Earth's core. How is it unlike the Earth's core?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Well, the relative size of the moon's core is small compared to that of Earth. It's sort of a smaller percentage of the volume of the moon."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Is there still other stuff we can learn from this data?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Yeah, definitely. I have another study that's not related to the paper that we just had come out that's trying to learn more about deep moonquakes and what they are, why they happen. And there are some studies that we can do to try to simulate the scattering of seismic energy that we observe. So there's still a lot more, I think, that we can try to look at, try to learn from the Apollo seismic data. In addition, there are some proposed missions to put new seismometers on the moon, and so in order to maximize the scientific return from those instruments, we really want to learn as much as we can from the data we already have."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And the data you get, that comes from observing what happens after a moonquake?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Yes."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And how big - does it have a Richter scale on the moon for a moonquake, too?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Well, there have been some comparative estimates made. The different types of seismic activity that we know about are moonquakes, the deep moonquakes, which are occurring about halfway to the center of the moon. So they're really deep. They're not like earthquakes, which occur closer to the surface of the Earth. And those are pretty small. Those are around magnitude one or less. Then there are much larger but much less frequent shallow moonquakes, which maybe max out around magnitude five. And those are pretty rare, maybe only one per year were detected."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Wow. Now, I know that the moon's gravity works on the Earth and helps -gives us the tides here."
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Yes."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Now, the Earth's a pretty big, massive body. Do we have moon tides without the water?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Yeah, so the gravitational interaction between the moon and the Earth causes tides in the Earth's oceans, but the moon has no oceans. So instead, the interaction on the moon is a tidal deformation, actual solid-body deformation. And it is thought that that deformation, in part, triggers the deep moonquakes, and the reason that we think that is because the deep moonquakes actually occur periodically, in line with the tidal periodicities."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You mean the Earth actually causes the moon to bulge, like a high tide someplace?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Yeah, it's a pretty small effect, but yes."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And that may trigger a moonquake?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "It's possible. There's a buildup and release of tidal stress within the moon, and that could trigger moonquakes."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Wow. I don't think people think about a moonquake from Earth."
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "It's not like on Earth, where the earthquakes are occurring at plate boundaries as a result of plate tectonics. The moon doesn't have active plate tectonics like that. So it's a totally different type of seismic energy that we're talking about here."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Can this tell us anything about the origins of the moon? I mean, isn't it generally believed that a planet or some body about the size of Mars hit the Earth in early formation and blew off a piece of debris that became the moon?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Yeah, that's the commonly accepted model. The presence of a core, such that we have detected, does support the large-impact model for lunar formation, especially that there was a liquid part of the core. The moon may have formed in an initially completely molten state."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And then things would have settled into the core by weight and things like that."
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Yes, as the moon itself cooled and solidified."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "What would - what would you like to know about the moon that you don't know, if you could - I'll give you the blank-check question. If you had all the money in the world and could do anything with it and create any object or any measuring device for the moon, what would you like to know?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "I think it would be really interesting to know whether or not the far side of the moon has any seismicity. There was a lack of detection of events from the far side of the moon, partially because the instruments were all deployed on the near side of the moon but also because if you have this hot, liquid core in the moon, it's going to attenuate any seismic energy that may have occurred on the far side before it can travel to the stations on the near side. So, you know, given unlimited technological resources, it would be really interesting to try to put seismometers, not only on the far side, but all over the moon - a globally distributed network of seismometers all over the moon."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Could we do that?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Well, there are a couple of missions proposed that are planning to only deploy a small number of stations. Unfortunately, it's really expensive to do these types of missions. But even a single seismometer deployed in the right place, of the right sensitivity, could tell us more than what we were able to learn with the Apollo instruments."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Here's a question from TimBoshup(ph) on a tweet. It says: How can there be periodic tidal stresses on the moon since it is tidally locked?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "The tidal locking means that the moon always shows the same face to the Earth because it rotates at the same rate that it revolves. But the fact is that these periods are not exactly the same, which causes the moon to actually have librations, which are small perturbations of the amount of the lunar surface that is observed from the Earth. So you have a periodicity there that is present in the moonquake signature."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "It's also incorrect to talk about the far side as the dark side."
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "That is very true. The entire surface of the moon experiences day and night similarly to Earth, but because the moon revolves so slowly compared to Earth, the day and night are two weeks long."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Right, so the far side is getting sunlight, we just never see that side of the moon."
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Correct."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You know, it's still there, and it's still very fascinating to talk about, and I imagine you're still fascinated by it, also."
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Yes, definitely."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Is there a reason for your fascination? Have you always been interested in the moon as a scientist?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Yeah, and in space exploration, anything having to do with planetary bodies and outer space and astronauts and everything like that."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Are you sorry we're not on the moon anymore?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "I'd love to see more lunar missions in the future."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "How about peopled missions?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Yeah, one of the great benefits of having the Apollo seismometers deployed by astronauts was that you're able to get very strong coupling to the ground, which is important when you want to measure the ground motion, which is what a seismometer does."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Are you ready to go and put one there yourself?"
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "I'm not sure about that, but maybe."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "All right. We'll let you off the hook on that one. All right, Dr. Weber, thank you very much for taking time to be with us."
+    },
+    {
+      "speaker": "Dr. Renee Weber (Planetary Scientist",
+      "text": "Thank you, I really enjoyed it."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You're welcome. Renee Weber, planetary scientist at NASA's Marshall Spaceflight Center in Huntsville, Alabama, ready to have more seismometers on the moon, not ready to go herself to put them there. We're going to take a break, and when we come back, we're going to talk about this British Medical Journal study about the vaccines. Paul Offit is here. Stay with us. We'll be right back after this break. I'm Ira Flatow. This is SCIENCE FRIDAY from NPR."
+    }
+  ]
+}

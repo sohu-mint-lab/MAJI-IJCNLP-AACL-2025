@@ -1,0 +1,98 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to the Tragedy",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you provide an overview of the events surrounding Uruguayan Air Force Flight 571?",
+        "importance": "critical",
+        "keywords": [
+          "Uruguayan Air Force Flight 571",
+          "tragedy",
+          "Andes",
+          "survivors"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Survival Strategies",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What were some of the immediate survival strategies employed by the survivors in the wrecked plane?",
+        "importance": "high",
+        "keywords": [
+          "survival",
+          "strategies",
+          "community",
+          "tasks"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How did the decision to consume the bodies of the deceased come about, and what psychological process did it involve?",
+        "importance": "critical",
+        "keywords": [
+          "cannibalism",
+          "psychological process",
+          "survival"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Emotional and Spiritual Impact",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What emotional challenges did the survivors face after realizing the search for them had been called off?",
+        "importance": "high",
+        "keywords": [
+          "emotions",
+          "devastation",
+          "abandonment"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "In what ways did Eduardo Strauch describe his spiritual growth during and after the ordeal?",
+        "importance": "high",
+        "keywords": [
+          "spiritual growth",
+          "mind power",
+          "endurance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Legacy of the Experience",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What motivated Eduardo to finally share his story publicly after many years?",
+        "importance": "optional",
+        "keywords": [
+          "sharing story",
+          "motivation",
+          "impact"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How has the story of the survivors positively influenced others over the years?",
+        "importance": "high",
+        "keywords": [
+          "influence",
+          "positivity",
+          "testimonials"
+        ]
+      }
+    ]
+  }
+]

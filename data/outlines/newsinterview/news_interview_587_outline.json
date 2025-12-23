@@ -1,0 +1,81 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Trade Disputes",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What prompted Canada and the EU to file challenges to the U.S. tariffs?",
+        "importance": "critical",
+        "keywords": [
+          "trade disputes",
+          "tariffs",
+          "Canada",
+          "EU"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has the situation been described by White House economic adviser Larry Kudlow?",
+        "importance": "high",
+        "keywords": [
+          "Kudlow",
+          "quarters",
+          "trade"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "WTO's Role in Trade Disputes",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the key obligations that the U.S. allegedly violated according to the WTO rules?",
+        "importance": "critical",
+        "keywords": [
+          "WTO",
+          "obligations",
+          "tariffs"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "In what ways can the WTO enforce its rulings against the United States if it finds a violation?",
+        "importance": "high",
+        "keywords": [
+          "WTO",
+          "enforcement",
+          "rulings"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Potential Outcomes of the Dispute",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What might be the implications if a trade war escalates due to the tariffs?",
+        "importance": "critical",
+        "keywords": [
+          "trade war",
+          "implications",
+          "escalation"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What economic crises could emerge if a trade war leads to increased tariffs globally?",
+        "importance": "high",
+        "keywords": [
+          "economic crises",
+          "recession",
+          "tariffs"
+        ]
+      }
+    ]
+  }
+]

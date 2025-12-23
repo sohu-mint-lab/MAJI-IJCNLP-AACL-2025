@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Probiotics and Brain Health",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What recent findings suggest a connection between probiotics and brain health?",
+        "importance": "critical",
+        "keywords": [
+          "probiotics",
+          "brain health",
+          "connection"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How have mice responded to a probiotic diet in terms of anxiety and stress?",
+        "importance": "high",
+        "keywords": [
+          "mice",
+          "probiotic diet",
+          "anxiety"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Gut-Brain Axis",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What is the significance of the vagus nerve in the gut-brain communication?",
+        "importance": "critical",
+        "keywords": [
+          "vagus nerve",
+          "gut-brain axis",
+          "communication"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does the study elaborate on the 'microbial gut-brain axis'?",
+        "importance": "high",
+        "keywords": [
+          "microbial gut-brain axis",
+          "study",
+          "implications"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Implications for Human Health",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What caution does Dr. Cryan advise regarding the extrapolation of findings to humans?",
+        "importance": "critical",
+        "keywords": [
+          "humans",
+          "findings",
+          "caution"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What potential does the study suggest for future treatments of stress-related disorders?",
+        "importance": "high",
+        "keywords": [
+          "treatment",
+          "stress-related disorders",
+          "probiotics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Directions in Research",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What further research does Dr. Cryan aim to pursue regarding probiotics and their effects?",
+        "importance": "high",
+        "keywords": [
+          "future research",
+          "probiotics",
+          "effects"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How might this research influence patient care and the perception of food versus pharmaceuticals?",
+        "importance": "optional",
+        "keywords": [
+          "patient care",
+          "perception",
+          "food",
+          "pharmaceuticals"
+        ]
+      }
+    ]
+  }
+]

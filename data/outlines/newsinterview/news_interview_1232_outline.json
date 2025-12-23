@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Discovery of Bryophytes in Glacial Ice",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What led the researchers to investigate the Tear Drop Glacier in Ellesmere Island?",
+        "importance": "critical",
+        "keywords": [
+          "discovery",
+          "Tear Drop Glacier",
+          "Bryophytes"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the researchers collect and study the bryophytes found in the glacier?",
+        "importance": "high",
+        "keywords": [
+          "collection",
+          "study",
+          "bryophytes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Unique Biological Characteristics of Bryophytes",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What makes bryophytes biologically unique compared to other land plants?",
+        "importance": "critical",
+        "keywords": [
+          "biological characteristics",
+          "totipotent",
+          "unique"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does the cell structure of bryophytes relate to their ability to regenerate?",
+        "importance": "high",
+        "keywords": [
+          "cell structure",
+          "regeneration",
+          "totipotent"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Implications for Climate Change and Space Exploration",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What insights does the survival of bryophytes under glaciers provide for understanding deglaciation?",
+        "importance": "critical",
+        "keywords": [
+          "degeneration",
+          "climate change",
+          "bryophytes"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "In what ways could bryophytes be beneficial for space missions, such as on Mars?",
+        "importance": "high",
+        "keywords": [
+          "space exploration",
+          "Mars",
+          "bryophytes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Public Interest and Experiments with Moss",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How can individuals get involved in experimenting with moss at home?",
+        "importance": "high",
+        "keywords": [
+          "experiments",
+          "moss",
+          "home"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are some common misconceptions about bryophytes that need addressing?",
+        "importance": "optional",
+        "keywords": [
+          "misconceptions",
+          "bryophytes",
+          "education"
+        ]
+      }
+    ]
+  }
+]

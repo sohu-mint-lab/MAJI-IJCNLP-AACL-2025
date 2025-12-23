@@ -1,0 +1,427 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3711684286594391,
+                "avg_context_relevance": 0.29460198283195493,
+                "avg_outline_relevance": 0.8426940560340881,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 42.857142857142854,
+            "weighted_coverage_score": 50.0,
+            "covered_questions": 3,
+            "total_questions": 7
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Forty-six-year-old Keith Ivey of Jacksonville, Fla., will be doing something this year he's never done before - vote. Ivey is a felon. He committed property crimes and served 8 1/2 years in prison. Florida had permanently banned people convicted of a felony from voting - until this past week when Amendment 4, passed in November, went into effect. Now almost 1 1/2 million Floridians, including Ivey, can register to vote. Ivey joins us now from his family's car dealership in Jacksonville. Welcome.",
+            "previous_answer": "Thank you. I really appreciate the opportunity.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Can you share more about what it means to you personally to be part of this conversation today?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.3106473982334137,
+                        "outline_relevance": 0.2888364791870117,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you share more about what it means to you personally to be part of this conversation today?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.3106473982334137,
+                            "outline_relevance": 0.2888364791870117,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Did you ever think this day would come?",
+            "previous_answer": "I really had given up on it. It's been over 20 years. So to actually get to that date, it's been a long time coming.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did your daughter feel about voting for the amendment that allowed you to regain your voting rights?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1014755442738533,
+                        "outline_relevance": 0.9406832456588745,
+                        "originality": 0.7815299332141876,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How did your daughter feel about voting for the amendment that allowed you to regain your voting rights?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1014755442738533,
+                            "outline_relevance": 0.9406832456588745,
+                            "originality": 0.7815299332141876,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "You're married, and you've got kids. Have you been talking about this with them?",
+            "previous_answer": "Not in detail. My daughter is 19, so she definitely knows what I've been through. So this year, she was able to vote. And she was very proud to tell me that she voted for Amendment 4.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the significance of Amendment 4 and how it has impacted voting rights for people with felony convictions in Florida?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6167526245117188,
+                        "outline_relevance": 0.9851744174957275,
+                        "originality": 0.45662784576416016,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain the significance of Amendment 4 and how it has impacted voting rights for people with felony convictions in Florida?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6167526245117188,
+                            "outline_relevance": 0.9851744174957275,
+                            "originality": 0.45662784576416016,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "That must have been amazing. She voted for the amendment that would allow you to vote.",
+            "previous_answer": "Yes, she did.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the significance of Amendment 4 and what impact it has on voting rights for felons in Florida?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.04783588647842407,
+                        "outline_relevance": 0.9984800815582275,
+                        "originality": 0.01613593101501465,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain the significance of Amendment 4 and what impact it has on voting rights for felons in Florida?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.04783588647842407,
+                            "outline_relevance": 0.9984800815582275,
+                            "originality": 0.01613593101501465,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Why are you so passionate about the right to vote?",
+            "previous_answer": "Personally, I feel like it's a redemption. It's a chance to be a part of society and have a voice. It's almost like we are having taxation without representation. Our debt has been paid to society. We just want to get back on track with life and want the general public to know that we're just like every other person. We've made mistakes like any other person. But that does not define us. That does not define me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the significance of Amendment 4 and how it has impacted your ability to regain voting rights in Florida?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3108585774898529,
+                        "outline_relevance": 0.9188628196716309,
+                        "originality": 0.08236497640609741,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain the significance of Amendment 4 and how it has impacted your ability to regain voting rights in Florida?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3108585774898529,
+                            "outline_relevance": 0.9188628196716309,
+                            "originality": 0.08236497640609741,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "I understand that you have registered to vote. But you still haven't gotten your card in your hands. And there's been a lot of back and forth, since this amendment was passed in November, about how these restored voting rights will be rolled out. Are you worried that perhaps this won't yet come to pass?",
+            "previous_answer": "There is a little bit of worry there. I just have to ask God to direct me, to lead my path. And I'm still waiting. When I get my voter registration card in the mail, then I will actually have a shout of joy. I've been happy but still reserved because I know that there's a waiting period. But we do know that there's an election coming up in March, and we definitely want to be there to vote. We're just hoping and waiting that they will send the card out faster than normal.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "When you finally receive your voter registration card, how do you think you might celebrate or mark that moment?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6770836710929871,
+                        "outline_relevance": 0.9020799994468689,
+                        "originality": 0.5972882807254791,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "When you finally receive your voter registration card, how do you think you might celebrate or mark that moment?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6770836710929871,
+                            "outline_relevance": 0.9020799994468689,
+                            "originality": 0.5972882807254791,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "And right now you are at your place of business. Right? You've been paying taxes. You've been working. You've been a member of society, and this is kind of the last piece of the puzzle.",
+            "previous_answer": "Yes, ma'am. We've been paying taxes and doing everything that every other member of society does and, you know, trying to live an upstanding life, trying to be a mentor to people that have gone through what I've gone through. There's no blueprint for life after a conviction, so you're just trying to figure it out as you go. And there are so many disappointments, so many opportunities lost - housing, employment - just so much that comes with life after a conviction. And no one ever speaks about it. And you wonder why recidivism is so high. It's - the opportunity to get back on track isn't there, and the system is broken.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific changes or supports do you think are most important to help people successfully rebuild their lives after incarceration?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.47888946533203125,
+                        "outline_relevance": 0.6617004871368408,
+                        "originality": 0.5832139253616333,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What specific changes or supports do you think are most important to help people successfully rebuild their lives after incarceration?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.47888946533203125,
+                            "outline_relevance": 0.6617004871368408,
+                            "originality": 0.5832139253616333,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Do you have any celebration planned when you do finally get that card in the mail?",
+            "previous_answer": "(Laughter) Hopefully, I'll be by myself 'cause I'm probably going to scream a loud shout of joy. I'm going to give God his praise.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the significance of Amendment 4 and how it has affected your ability to participate in the voting process?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.00041935592889785767,
+                        "outline_relevance": 0.7511190176010132,
+                        "originality": 0.17904484272003174,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain the significance of Amendment 4 and how it has affected your ability to participate in the voting process?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.00041935592889785767,
+                            "outline_relevance": 0.7511190176010132,
+                            "originality": 0.17904484272003174,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "(Laughter).",
+            "previous_answer": "I probably will do a kick in the air and clap my feet together once I see my voter registration card in the mail.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the significance of Amendment 4 and its impact on voting rights for felons in Florida?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.258127361536026,
+                        "outline_relevance": 0.9999999403953552,
+                        "originality": 0.0015198588371276855,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain the significance of Amendment 4 and its impact on voting rights for felons in Florida?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.258127361536026,
+                            "outline_relevance": 0.9999999403953552,
+                            "originality": 0.0015198588371276855,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "Keith Ivey of Jacksonville, Fla., thank you so much.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain the significance of Amendment 4 and how it has affected voting rights for people who have been convicted of felonies in Florida?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.14392994344234467,
+                        "outline_relevance": 0.980004072189331,
+                        "originality": 0.01395869255065918,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you explain the significance of Amendment 4 and how it has affected voting rights for people who have been convicted of felonies in Florida?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.14392994344234467,
+                            "outline_relevance": 0.980004072189331,
+                            "originality": 0.01395869255065918,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

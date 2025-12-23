@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Trade Truce",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the key agreements made between the United States and China at the G-20 summit?",
+        "importance": "critical",
+        "keywords": [
+          "trade truce",
+          "G-20 summit",
+          "agreements"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Implications of Tariff Delays",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does postponing the tariff increase impact U.S.-China trade relations?",
+        "importance": "critical",
+        "keywords": [
+          "tariff delay",
+          "trade relations",
+          "impact"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What products is China expected to buy from the U.S. to help reduce the trade imbalance?",
+        "importance": "high",
+        "keywords": [
+          "China",
+          "purchase",
+          "trade imbalance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Economic Context and Reactions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What effects have the tariffs had on the U.S. economy and stock market?",
+        "importance": "high",
+        "keywords": [
+          "tariff effects",
+          "U.S. economy",
+          "stock market"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Why is the agreement considered significant for both countries at this juncture?",
+        "importance": "optional",
+        "keywords": [
+          "significance",
+          "China",
+          "United States"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Political Ramifications and Obama NAFTA",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the political implications of Trump's actions regarding NAFTA?",
+        "importance": "high",
+        "keywords": [
+          "NAFTA",
+          "political implications",
+          "Trump"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How could Congress's response influence the future of the new trade deal?",
+        "importance": "optional",
+        "keywords": [
+          "Congress",
+          "trade deal",
+          "influence"
+        ]
+      }
+    ]
+  }
+]

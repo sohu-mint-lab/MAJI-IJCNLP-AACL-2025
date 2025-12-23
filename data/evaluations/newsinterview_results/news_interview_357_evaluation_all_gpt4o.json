@@ -1,0 +1,820 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.324636127267565,
+                "avg_context_relevance": 0.28024606382296907,
+                "avg_outline_relevance": 0.6637710134188334,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.31109343333677814,
+                "avg_context_relevance": 0.31174969232895156,
+                "avg_outline_relevance": 0.7664762410250577,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 60.0,
+            "weighted_coverage_score": 53.333333333333336,
+            "covered_questions": 3,
+            "total_questions": 5
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "It took less than 30 minutes for 23-year-old Andrew Black of Vermont to buy a gun on the morning of December 6. That afternoon, he used that gun to kill himself. Black's parents in his obituary wrote Andrew was a true son of Vermont who liked hiking, hockey and brewing beer. And then the obituary ended like this - in honor of Andrew R. Black, we ask that you work for legislation that imposes a reasonable waiting period between firearm purchase and possession to provide a cooling-off period to guard against impulsive acts of violence. Andrew's mother, Alyssa Black, joins us now. Good morning.",
+            "previous_answer": "Good morning.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Could you share more about Andrew’s interests and the circumstances that led to that tragic day?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.23709143698215485,
+                        "outline_relevance": 0.7931552529335022,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you share more about Andrew’s interests and the circumstances that led to that tragic day?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.23709143698215485,
+                            "outline_relevance": 0.7931552529335022,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What changes in gun laws do you think would make the biggest difference in preventing similar tragedies?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.021226944401860237,
+                            "outline_relevance": 0.8329684734344482,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How has this personal loss shaped your mission as an advocate for gun legislation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.10098414123058319,
+                            "outline_relevance": 0.7051935195922852,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "First of all, I'm very sorry for your loss.",
+            "previous_answer": "Thank you very much.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share with us who Andrew was and what happened on the day of this tragedy?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1457120180130005,
+                        "outline_relevance": 0.8187665939331055,
+                        "originality": 0.10108494758605957,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you share more about Andrew's interests and the circumstances that led to that tragic day?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.13291120529174805,
+                            "outline_relevance": 0.7934499382972717,
+                            "originality": 0.0003180503845214844,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What changes in gun laws do you think would make the biggest difference in preventing similar tragedies?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.015162275172770023,
+                            "outline_relevance": 0.8329684734344482,
+                            "originality": -1.1920928955078125e-07,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How has this personal loss shaped your mission as an advocate for gun legislation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.0765932947397232,
+                            "outline_relevance": 0.7051935195922852,
+                            "originality": 1.1920928955078125e-07,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share with us who Andrew was and what happened on the day of this tragedy?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1457120180130005,
+                            "outline_relevance": 0.8187665939331055,
+                            "originality": 0.10108494758605957,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Tell me about Andrew.",
+            "previous_answer": "He was a happy, funny, vibrant, smart, talented kid - I call him a kid - but a young man.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share some of Andrew’s interests or talents that stood out to you? (depth)",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.3661784529685974,
+                        "outline_relevance": 0.6500152349472046,
+                        "originality": 0.2623434066772461,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you share some of Andrew’s interests or talents that stood out to you? (depth)",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.3661784529685974,
+                            "outline_relevance": 0.6500152349472046,
+                            "originality": 0.2623434066772461,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How did Andrew’s personality influence how you approach your advocacy work? (balanced)",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.21021947264671326,
+                            "outline_relevance": 0.49780791997909546,
+                            "originality": 0.42602407932281494,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What do you want people to know most about Andrew beyond his tragic death? (broad)",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.22067967057228088,
+                            "outline_relevance": 0.8448151350021362,
+                            "originality": 0.2488255500793457,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "I guess he'll always be a kid for you.",
+            "previous_answer": "He's my kid. He was at this point in his life where everything was falling into place for him. All the dreams that he had worked for were all falling into place. And we just - we could not imagine something like this happening.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Could you describe some of the dreams Andrew was pursuing before he passed?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.5132043957710266,
+                        "outline_relevance": 0.6573454737663269,
+                        "originality": 0.31859952211380005,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you describe some of the dreams Andrew was pursuing before he passed?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.5132043957710266,
+                            "outline_relevance": 0.6573454737663269,
+                            "originality": 0.31859952211380005,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How has Andrew’s passing influenced your day-to-day life and relationships?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3449418842792511,
+                            "outline_relevance": 0.5959591865539551,
+                            "originality": 0.333895206451416,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What do you wish more people understood about the impact of such a sudden loss?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.25033295154571533,
+                            "outline_relevance": 0.3993752896785736,
+                            "originality": 0.47873765230178833,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Can you tell me what happened on that day - on December 6, as far as you know? And we don't want to get in, obviously, into the details that are painful but just generally what happened.",
+            "previous_answer": "Well, he had an incident come up with - that upset him. And we know that he went to a local gun shop, purchased a handgun that he had just been researching that morning. And they ran a background check on him. And, of course, he passed the background check. Apparently, his demeanor in the shop was fine. And we found the receipt for the gun, which was 11:26. So at 11:02, they started the background check, 11:26, they ran the credit card receipt. And he left the shop. He went home. He drove home to our house. And we think it was probably right about 4:00 p.m. he closed his door. And he shot himself.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are your thoughts on the current gun laws, especially regarding background checks and waiting periods? Do you believe different regulations might have impacted Andrew's decisions?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5055948495864868,
+                        "outline_relevance": 0.7419428825378418,
+                        "originality": 0.3167688846588135,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share more about Andrew’s mindset and feelings on that day before the incident?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4275360703468323,
+                            "outline_relevance": 0.6952450275421143,
+                            "originality": 0.10427749156951904,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How did the timing of the background check and purchasing process affect your perspective on current gun laws?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5672574639320374,
+                            "outline_relevance": 0.6525497436523438,
+                            "originality": 0.41069549322128296,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What are some challenges you have faced sharing this story with others?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.0818164125084877,
+                            "outline_relevance": 0.7640626430511475,
+                            "originality": 0.5528125166893005,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How did your family cope in the hours and days following the event?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.09478577971458435,
+                            "outline_relevance": 0.35428959131240845,
+                            "originality": 0.4657382369041443,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What are your thoughts on the current gun laws, especially regarding background checks and waiting periods? Do you believe different regulations might have impacted Andrew's decisions?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5055948495864868,
+                            "outline_relevance": 0.7419428825378418,
+                            "originality": 0.3167688846588135,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Vermont, like many states, does not mandate any time in between buying a firearm and actually receiving the firearm. There is no waiting period. Do you think Andrew might be alive if there was a waiting time?",
+            "previous_answer": "I think it's a very good possibility. My husband and I would have been home from work an hour and a half later. We had been alerted that, you know, something was going on. We would have talked to him. We would have been able to contact lots of people that can help. We also believe that he would have woken up on Friday morning, and he would have gone through his usual routine getting ready to go to work. He had an hour drive to his work, which he absolutely loved his drive up into the mountains. He would have been surrounded by co-workers that he cared about deeply and cared about him deeply. And we think that probably cooler heads would have prevailed. We think it's a possibility. It's important that, you know, we're not saying, well, this couldn't possibly have happened. But it's a possibility that it could have been averted.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific changes in gun laws are you currently advocating for, and could you share why you believe these changes are necessary?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.08597151935100555,
+                        "outline_relevance": 0.9596736431121826,
+                        "originality": 0.17750805616378784,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe how you and your husband might have intervened during that waiting period?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.45037972927093506,
+                            "outline_relevance": 0.47715163230895996,
+                            "originality": 0.49885714054107666,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What are some other aspects of gun legislation you believe are important apart from waiting periods?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.12381687760353088,
+                            "outline_relevance": 0.8249573111534119,
+                            "originality": 0.2275124192237854,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you stay hopeful and motivated in your advocacy despite the personal pain involved?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.11635453999042511,
+                            "outline_relevance": 0.3952544927597046,
+                            "originality": 0.4260106086730957,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What specific changes in gun laws are you currently advocating for, and could you share why you believe these changes are necessary?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.08597151935100555,
+                            "outline_relevance": 0.9596736431121826,
+                            "originality": 0.17750805616378784,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "I think what I'm hearing you say is that you think that Andrew had a bad day. And that maybe if it had been a few days, he could have gotten over that bad day and not taken his life.",
+            "previous_answer": "Yes. That's exactly it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share more about the specific changes in gun laws you are advocating for, and what differences you believe these changes might make?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.04073071852326393,
+                        "outline_relevance": 0.9445776343345642,
+                        "originality": 0.03913694620132446,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you tell us more about what made you say Andrew had a bad day and how you think the waiting period would have helped him?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.06029233708977699,
+                            "outline_relevance": 0.6643707752227783,
+                            "originality": 0.19965910911560059,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Besides waiting periods, what other gun legislation changes do you think could make a difference?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.07360441982746124,
+                            "outline_relevance": 0.8744271397590637,
+                            "originality": 0.10154247283935547,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you balance your feelings about Andrew’s bad day with your advocacy work?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.023711834102869034,
+                            "outline_relevance": 0.5623014569282532,
+                            "originality": 0.19029200077056885,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share more about the specific changes in gun laws you are advocating for, and what differences you believe these changes might make?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.04073071852326393,
+                            "outline_relevance": 0.9445776343345642,
+                            "originality": 0.03913694620132446,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "What change do you hope to see?",
+            "previous_answer": "We want a waiting period, that's all - 24 to 48 hours. We've made it very clear that we are gun owners. And I just can't see walking into my local gun store, purchasing a handgun or whatever gun I wish to purchase, and having them ask me, can you come back in two days to pick this up because it might save someone's life? I think I'd make that choice.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How has your personal experience and background influenced your approach to advocating for gun safety measures like waiting periods?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5718299150466919,
+                        "outline_relevance": 0.7667257189750671,
+                        "originality": 0.21507972478866577,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you share how being a gun owner yourself influences your perspective on waiting periods?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6884557008743286,
+                            "outline_relevance": 0.6139400005340576,
+                            "originality": 0.22448039054870605,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: What are some challenges or objections you face when advocating for waiting periods?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4536241292953491,
+                            "outline_relevance": 0.34408918023109436,
+                            "originality": 0.4369550943374634,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: How do you navigate the balance between gun ownership rights and safety concerns in your advocacy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5046271681785583,
+                            "outline_relevance": 0.7254237532615662,
+                            "originality": 0.24488413333892822,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How has your personal experience and background influenced your approach to advocating for gun safety measures like waiting periods?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5718299150466919,
+                            "outline_relevance": 0.7667257189750671,
+                            "originality": 0.21507972478866577,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "I saw that some state legislators have responded to your story after it's been reported in the media. Do you think something might change?",
+            "previous_answer": "I'm not sure. But I know that we're going to do everything we possibly can to make that change. You know, by virtue of living in the state of Vermont, we're a very small state. We know our state legislators. They're our neighbors. We actually do have a voice still in our state. And I think if ordinary people will reach out and say, this seems like a reasonable measure to me, I think that they will be listened to.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share how your personal experiences have shaped your motivation to advocate for change?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3227546811103821,
+                        "outline_relevance": 0.4774988889694214,
+                        "originality": 0.4507899284362793,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe some specific efforts or strategies your group is using to influence legislators?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5065615177154541,
+                            "outline_relevance": 0.4249459505081177,
+                            "originality": 0.5333037376403809,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you feel the close-knit aspect of your state influences the potential success of gun legislation advocacy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4357278645038605,
+                            "outline_relevance": 0.7979328632354736,
+                            "originality": 0.2058112621307373,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What do you think are effective ways for ordinary citizens to make their voices heard on this issue?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4596331715583801,
+                            "outline_relevance": 0.33093979954719543,
+                            "originality": 0.5146952867507935,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share how your personal experiences have shaped your motivation to advocate for change?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3227546811103821,
+                            "outline_relevance": 0.4774988889694214,
+                            "originality": 0.4507899284362793,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "How do you want your son to be remembered?",
+            "previous_answer": "You know, a lot of people have asked me why we put that final in his obituary. We didn't intend, really, for any of this to happen. We really thought we were just speaking to Andrew's friends and family. This was not some broader plan on our part. The reason we put that in there is, personally, our family has been touched by suicide in the past. And one of the things that you learn is that there's so much shame around suicide that people don't say anything. And when people find out that your life has been touched as well by that, it breaks down walls for them as well. So one of the things that we were really clear about when we wrote that obituary was we wanted to make sure and not leave any question in anyone's mind how our son died. And you ask me how I want Andrew to be remembered. In 23 years, I never had a day where I was ashamed of Andrew being my son. And I wasn't going to be ashamed of the way he died. And I wanted people to know that. It was one day of his life, but his life encompassed so much more than that.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What do you hope will be the impact or outcome by sharing Andrew's story and your family's experience so openly?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.572780191898346,
+                        "outline_relevance": 0.6566938161849976,
+                        "originality": 0.30132097005844116,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share some of your fondest memories of Andrew that show who he was beyond the tragedy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5469075441360474,
+                            "outline_relevance": 0.8202915191650391,
+                            "originality": 0.16977161169052124,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think being open about the details of Andrew's death has affected conversations about suicide in your community?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7060467600822449,
+                            "outline_relevance": 0.665596604347229,
+                            "originality": 0.2902350425720215,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What challenges have you faced in breaking the stigma around suicide, and how has that influenced your advocacy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.457491397857666,
+                            "outline_relevance": 0.3908880054950714,
+                            "originality": 0.35365480184555054,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What do you hope will be the impact or outcome by sharing Andrew's story and your family's experience so openly?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.572780191898346,
+                            "outline_relevance": 0.6566938161849976,
+                            "originality": 0.30132097005844116,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "Alyssa Black, thank you so much for talking with us.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What do you hope to accomplish by sharing your story with others?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1488598734140396,
+                        "outline_relevance": 0.9648435115814209,
+                        "originality": 0.2393953800201416,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How have you been coping emotionally with your advocacy work since Andrew's passing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1910342127084732,
+                            "outline_relevance": 0.5451605916023254,
+                            "originality": 0.1932256817817688,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What motivated you to become so involved in gun legislation advocacy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.16136673092842102,
+                            "outline_relevance": 0.7917470335960388,
+                            "originality": 0.11557114124298096,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you share how your personal grief has shaped your approach to raising awareness about firearm waiting periods?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1351226270198822,
+                            "outline_relevance": 0.5238473415374756,
+                            "originality": 0.26490336656570435,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What do you hope to accomplish by sharing your story with others?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1488598734140396,
+                            "outline_relevance": 0.9648435115814209,
+                            "originality": 0.2393953800201416,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

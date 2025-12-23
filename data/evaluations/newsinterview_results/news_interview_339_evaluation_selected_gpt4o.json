@@ -1,0 +1,391 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.439914345741272,
+                "avg_context_relevance": 0.4028475797838635,
+                "avg_outline_relevance": 0.845566087298923,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 87.5,
+            "weighted_coverage_score": 87.5,
+            "covered_questions": 7,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Politicians are no closer to a solution to the partial government shutdown that is entering its third week. Talks between congressional aides and the White House, led by Vice President Mike Pence yesterday, did not get us closer to an agreement. Those talks are expected to continue later today. So what does this mean for the country? Joining us to discuss is national political correspondent Mara Liasson. Good morning, Mara.",
+            "previous_answer": "Good morning, Leila.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Can you give us an overview of where the government shutdown currently stands in terms of negotiations and its impact?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.07318246364593506,
+                        "outline_relevance": 0.7954083681106567,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you give us an overview of where the government shutdown currently stands in terms of negotiations and its impact?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.07318246364593506,
+                            "outline_relevance": 0.7954083681106567,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "So the shutdown talks don't seem to be making any progress. President Trump tweeted yesterday, not much headway made. So where do we go from here?",
+            "previous_answer": "That's unclear. The president is standing firm. The vice president had this meeting with congressional staffers yesterday, which is very unusual. Usually, vice presidents negotiate directly with members of Congress. But the president is still insisting on $5.7 billion for the wall. And meanwhile, the Christmas season is over. We're now in the real world of a government shutdown.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What immediate impacts is the government shutdown having on government services and citizens now that the holiday season has ended?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.34003525972366333,
+                        "outline_relevance": 0.9042438268661499,
+                        "originality": 0.267694890499115,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What immediate impacts is the government shutdown having on government services and citizens now that the holiday season has ended?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.34003525972366333,
+                            "outline_relevance": 0.9042438268661499,
+                            "originality": 0.267694890499115,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Right.",
+            "previous_answer": "Garbage is piling up at national parks. TSA agents aren't showing up at airports. And people are starting to feel the consequences of the shutdown.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How has President Trump's messaging about the border wall evolved throughout the course of the shutdown?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.35508307814598083,
+                        "outline_relevance": 0.8838109374046326,
+                        "originality": 0.48890602588653564,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How has President Trump's messaging about the border wall evolved throughout the course of the shutdown?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.35508307814598083,
+                            "outline_relevance": 0.8838109374046326,
+                            "originality": 0.48890602588653564,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "So the president held a press conference on this. He's been tweeting about it a lot. But his message, aside from, I want a wall, has been pretty confusing.",
+            "previous_answer": "Pretty confusing. The one clear thing is that Trump's presidency is now all about a wall. Other than that, his message has been very contradictory. He campaigned on building a wall that Mexico will pay for. Now he says the wall is already being built. He said Mexico is paying for the wall through a trade deal that hasn't been approved by Congress yet. He's even gone so far as to say he doesn't need Congress. He can build it himself...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are the potential political consequences for Trump as he insists on wall funding despite the mixed messaging and lack of congressional approval?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6125743985176086,
+                        "outline_relevance": 0.8553902506828308,
+                        "originality": 0.44029080867767334,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What are the potential political consequences for Trump as he insists on wall funding despite the mixed messaging and lack of congressional approval?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6125743985176086,
+                            "outline_relevance": 0.8553902506828308,
+                            "originality": 0.44029080867767334,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Right.",
+            "previous_answer": "...By declaring a national emergency. He - we talked about this two weeks ago - the idea that the president would try to do an end run around Congress, have the military build the wall. And then even if he lost that fight in court, he would show his base that he'd fought as hard as he could for the wall. But he is sticking to his guns on this even though the idea of shutting down the government to get wall funding is less and less popular with the majority of voters. Other than his hardcore base, he's not convincing a majority of American voters to agree with him that shutting down the government for wall funding is the right thing to do. And unless he does that, Democrats won't feel any political pressure to accommodate him.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How have congressional Republicans responded to the president's declaration of a national emergency and his push for wall funding despite the decreasing public support for a government shutdown?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.661479115486145,
+                        "outline_relevance": 0.7970526814460754,
+                        "originality": 0.43527281284332275,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How have congressional Republicans responded to the president's declaration of a national emergency and his push for wall funding despite the decreasing public support for a government shutdown?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.661479115486145,
+                            "outline_relevance": 0.7970526814460754,
+                            "originality": 0.43527281284332275,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "So what about Republicans in Congress - will they feel political pressure?",
+            "previous_answer": "Some of them already are. Susan Collins of Maine, Senator Cory Gardner of Colorado - two Republicans who are up for re-election in 2020. They have been speaking out, saying this is not the right approach. A handful of Republicans in the House voted with the Democrats to open up the government. But so far in the Senate, Majority Leader Mitch McConnell is holding the line for the president. He says he will not bring up a bill, even if it's the same bill Republicans passed unanimously before the shutdown, unless President Trump says he'll sign it. So McConnell says it's all up to the Democrats and the president to make a deal.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What strategies are Democrats employing in response to the shutdown and the impeachment discussions?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5030925273895264,
+                        "outline_relevance": 1.0000001192092896,
+                        "originality": 0.41739022731781006,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What strategies are Democrats employing in response to the shutdown and the impeachment discussions?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5030925273895264,
+                            "outline_relevance": 1.0000001192092896,
+                            "originality": 0.41739022731781006,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "So Speaker Pelosi says the House will start passing these individual spending bills to reopen government this week, starting with the Treasury and the IRS. But seems like the Democrats last week got knocked off the shutdown message after Congresswoman Rashida Tlaib used profanity when talking about President Trump and impeachment.",
+            "previous_answer": "That's right. Impeach the expletive deleted sounds like the Democratic version of lock her up. This is not a majority opinion among Democrats. It is a majority opinion among the Democrats' liberal base. But it did throw a monkey wrench into the plans of the Democratic leadership. They want to show voters that they can be responsible legislators and deliberate investigators. And the majority of Democrats and the leadership in Congress want due process and the rule of law. They say they want to follow the facts and evidence. They want to wait for the Mueller report before they decide whether or not to impeach the president. And remember, impeachment is not the same thing as removal because that takes...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do political controversies like the impeachment chants influence the negotiation dynamics among lawmakers in Congress during critical moments like a government shutdown?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5315053462982178,
+                        "outline_relevance": 0.8446718454360962,
+                        "originality": 0.38316816091537476,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do political controversies like the impeachment chants influence the negotiation dynamics among lawmakers in Congress during critical moments like a government shutdown?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5315053462982178,
+                            "outline_relevance": 0.8446718454360962,
+                            "originality": 0.38316816091537476,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Right.",
+            "previous_answer": "...Two-thirds of the Senate. I don't know if this will be a lasting controversy. But Congresswoman Tlaib's comments certainly played right into Republicans' hands.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe how political controversies affect the negotiation dynamics within Congress during a government shutdown?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.46205711364746094,
+                        "outline_relevance": 0.8896705508232117,
+                        "originality": 0.1501014232635498,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you describe how political controversies affect the negotiation dynamics within Congress during a government shutdown?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.46205711364746094,
+                            "outline_relevance": 0.8896705508232117,
+                            "originality": 0.1501014232635498,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "National political correspondent Mara Liasson, thank you.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you share your general perspective on how media coverage has influenced public opinion on the government shutdown?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.08661891520023346,
+                        "outline_relevance": 0.6398462057113647,
+                        "originality": 0.3764047622680664,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share your general perspective on how media coverage has influenced public opinion on the government shutdown?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.08661891520023346,
+                            "outline_relevance": 0.6398462057113647,
+                            "originality": 0.3764047622680664,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

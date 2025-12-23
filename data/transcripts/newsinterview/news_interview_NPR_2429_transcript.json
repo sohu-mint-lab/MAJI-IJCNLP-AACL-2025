@@ -1,0 +1,160 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "This is SCIENCE FRIDAY. I'm Ira Flatow. If you receive a transfusion, a blood transfusion, of the wrong blood type, your antibodies get upset, yes, they do, and they attack it, binding to the surface of mismatched red blood cells. That's why you need to receive blood from people with the right blood type. For people with rare blood types, this can be a life-threatening problem. But what if you could fool your antibodies, trick them into thinking the wrong type is the right type? Scientists have done just that. A new study finds that encasing red blood cells in a shell of sugars and fats throws antibodies off the trail. It's cellular camouflage. What does this technology mean for blood-typing, and how might camouflage be used for other tissues? That's what we'll be talking about right up on this hour. Our number is 1-800-989-8255, 1-800-989-TALK. And you can tweet us, @scifri, @-S-C-I-F-R-I, or go to our website at sciencefriday.com and talk to folks over there who are discussing it, or on Facebook at scifri. Let me introduce my guest. Mark Scott is a senior scientist with the Canadian Blood Services, and he was not involved in the study, but he knows all about it, and he's here to talk to us by phone from Vancouver. Welcome to SCIENCE FRIDAY."
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Well, thank you for the invitation."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You're welcome. Can you give us a quick recap of what makes one person's blood cells different from another person's?"
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Well, you know, the red blood cell is really an amazing cell. It's probably the most commonly transplanted tissue that we have. And most people think that's a fairly simple cell. But we have a lot of different blood group antigens on the surface of the red blood cell. And most people are familiar with the ABO and RHD system, which is what we typically type for when we're going to do a blood transfusion. But the red cell is actually much more complicated than that. There are actually a huge number of blood group antigens on red blood cells, most of which don't typically cause a problem with a single blood transfusion. But for patients that are chronically transfused, these non-ABO RHD blood group antigens can start to cause a problem if the recipient of the blood, if their immune system recognizes these non-ABO blood groups and makes an antibody against it, and they become what we call (unintelligible)immunized. And so, you know, the ones we worry most about are the ABO and the RHD because that is the one that are the most life-threatening and the most serious in terms of the blood group antigens. But these other ones, for the chronically transfused patient, can be very, very serious."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so what did you do to make it, to camouflage these cells? How does that work?"
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Well, there are you know, numerous techniques to try to create what is kind of the holy grail of transfusion medicine, which would be the universal red blood cell. And there are different approaches. There was a company for many years that used enzymes to cleave off the A and the B antigen from the red cell to get rid of the most problematic of the antigens. And then there's an approach that we started pursuing in the early '90s and first published about, which is what we call the amino camouflage of red blood cells, where we take a non-toxic, very safe polymer that's used in medicine already, and we covalently graft it. So we glue this polymer to the surface of the red cell, resulting in what we call amino camouflage of the red cell. And this is really just like a little camouflage tent over a car, that you hide it from the immune system, which would be the airplane in the sky looking down. So it's really a very simple camouflaging of the surface of the cell. And this is done with a compound we call polyethylene glycol, for the most part, though there are other polymers that work."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "That sounds like stuff you have in your car's antifreeze."
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Well, polyethylene glycol, and I always hate to say this, is actually polymerized antifreeze. Now, that sounds horrible to everybody because everybody knows if their dog or cat comes and licks up a little bit of antifreeze, it's very, very bad for the dog and the cat, much less a small child, because it is very toxic. But like a lot of things in life, if you have a different form of a basic chemical structure, and in this case we polymerize it, so we hook one to another to another to another and make a very, very long chains. This material is very, very, very safe and, in fact, is used very heavily in medicine. It's used in the food industry. You eat a lot of it. It's used in the cosmetic industry. Lipstick is a lot of polyethylene glycol. Dr. Pepper, one of its magic ingredients used to be polyethylene glycol."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Oh, you're giving secrets away."
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Well, it had to be declared on the can, so..."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So, you know, if I remember my Bio 101, the main job of blood is to carry oxygen back and forth, right, in the hemoglobin."
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "It is."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Does this cloak - I imagine it must allow the oxygen to get through."
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Yes, and if you're going to make a camouflaged blood cell, it still has to do its main job, and that main job is to deliver oxygen and to remove carbon dioxide. But there are other features like regulate vascular - the blood vessel width and everything. But delivering oxygen and removing carbon dioxide are the two major functions. But to do that, the red cell is a very special cell in that it's extremely deformable. You can twist it. You can turn it. You can pull it, stretch it out, compress it, and this cell is a very, very durable cell and undergoes a huge amount of deformability, which is the ability to change shape and squeeze through tiny, tiny holes."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "SO you've got to keep that ability to do all of that stuff."
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Yes."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so this has to be a very flexible little shield or cover that's on there."
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "It is. And the approach that we and others have done in the past is, using a very simple form of polyethylene glycol, which we glue to the red cell surface, and it makes a very, very tiny layer on top of the red blood cell. You just wouldn't even be able to - you can't even visualize it easily with an electron microscope. It's that small."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So it's like a coating, then, not really a shell, a hard - it's not like an M&M coating on your blood cell."
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Right. So the traditional pegallation(ph) approach, which is the approach that my particular lab pioneered and is still pursuing, is this little flexible coating. The paper that you were - that came to your attention is a different coating, and it is a little bit more like the hard coating on the M&M."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And how far have you gotten to trying this out? Is it working well in laboratory animals?"
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Well, our particular approach works wonderfully well in mice. We've had mice that have had more than 90 percent of their red blood cells in the body being - are immuno-camouflaged red blood cells, or as we also call them, stealth red cells. And these mice are happy and healthy and function just normally, have normal activity. And other studies have been done by other groups showing that if you put them in exercise conditions, that the mice, you know, have absolutely no problems under those conditions. So from our invetal(ph) studies using laboratory models, our pegellated red blood cells are very, very normal. But they do prevent immune recognition of foreign cells, of foreign red blood cells."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And what is going on there that they can hide like that? What's happening that they're not recognized?"
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Well, with polyethylene glycol, it is very special in that it's neutrally charged, and it's also an extraordinarily flexible molecule. So it's kind of like a piece of wet spaghetti or cooked spaghetti that you can whip around, and it goes everywhere and anywhere. You just flip it around, and it just goes, you know, whipping around, and that flexibility causes what we call (unintelligible). It creates this physical barrier from other things approaching and binding to the cell surface. But the peg is also neutrally charged, and it does a very good job of camouflaging the surface charge of the red blood cell. And antibodies in part use surface charge recognition, as well as distinct amino acid sequences to recognize a foreign antigen. So if we camouflage the charge, it makes it so that the antibodies that may already exist simply cannot see the cell."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And do you see this as a general blood substitute for general transfusions or only for special cases?"
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Well, when I was younger and more naive, I think we initially positioned this as a universal blood cell. And I would like to think that there is still, in the far future, that possibility. But I think that if we look at the ease at which our volunteer blood system is able to effectively gather and test fake blood products from human volunteers that it's really from a medical benefit standpoint, it probably isn't something that we need to do in terms of camouflaging the A and the B antigens. Because, we don't really have a problem collecting enough Type A blood, enough Type B blood, enough Type AB blood or Type O blood. We can usually easily match the major blood group antigen for a patient. It's these non-ABO blood groups, for example RHD, which is the other problematic antigen, that this immuno-camouflage will be very, very beneficial for."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And what other tissues because blood is a tissue, right?"
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Well, we have the philosophy, if it's biological, we'll pegellate it. So..."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "I've seen that bumper sticker."
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "So we've done a lot of different things. The red blood cell is our primary emphasis because it could be a very important therapeutic tool for the alo-immunized(ph) patient. So, somebody who has created an antibody to a non-ABO blood group. This could be a life-saving therapy for them. But if you think about the way an antibody reacts with an antigen, it's a receptor ligand-type interaction. So it is - follows the same mechanisms that a lot of things in biology do. It comes down, and it has a particular structure that antibody recognizes and binds to. Well, we've looked at this, and we've thought about other tissues where this could be beneficial. So we've done some work in pancreatic islet transplantation, which we did some very initial work on that and showed that we could take pancreatic islets that make insulin necessary to metabolize sugar appropriately, we've looked at that in a diabetic animal model and shown that if we take donor islets and modify those and put them back into a diabetic animal, those modified islets can recognize blood glucose levels and appropriately secrete insulin in order to make animal normal glycemic, so they have normal blood sugar levels."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Wow, so you're working on that."
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Well, we've done early work on that, and there are other people in the field that are pursuing that approach more fully than we are. But the other thing that's kind of a fun thing for me, it's..."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "I've got 30 seconds doctor..."
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Okay. We can use this to block viral invasion of cells. So we have an approach where we use a nasal gel to put - to coat the nostrils of your nose, and that nasal gel prevents, say, the common cold virus from recognizing the receptor and binding to it and being internalized and causing disease."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "I can see it on a shelf in my drug store already."
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "Oh, we would like it there."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "I know you would. This is quite interesting. We'll follow your work. Thank you, Dr. Scott."
+    },
+    {
+      "speaker": "Mr. Mark Scott (Senior Scientist",
+      "text": "You're welcome, and thank you."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Mark Scott is a senior scientist with the Canadian Blood Services, and he joined us from Vancouver. Stay with us. We'll be right back after this break. I'm Ira Flatow. This is SCIENCE FRIDAY from NPR."
+    }
+  ]
+}

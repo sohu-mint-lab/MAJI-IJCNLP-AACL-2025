@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Congolese Elections",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the key reasons for the delay in the Congolese elections?",
+        "importance": "critical",
+        "keywords": [
+          "Congolese elections",
+          "delay",
+          "logistical problems"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How many Congolese are eligible to vote, and what is the current voting situation?",
+        "importance": "high",
+        "keywords": [
+          "eligible voters",
+          "voting situation",
+          "Kinshasa"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Voting Process Challenges",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What logistical issues have been observed during the voting process?",
+        "importance": "critical",
+        "keywords": [
+          "logistical issues",
+          "polling stations",
+          "voter lists"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What problems have been reported with the new voting machines?",
+        "importance": "high",
+        "keywords": [
+          "voting machines",
+          "problems",
+          "election commission"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Voter Sentiment and Political Context",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the main sentiments expressed by voters regarding the election?",
+        "importance": "critical",
+        "keywords": [
+          "voter sentiment",
+          "continuity",
+          "change"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How has President Kabila's departure influenced voter expectations?",
+        "importance": "high",
+        "keywords": [
+          "President Kabila",
+          "voter expectations",
+          "new leadership"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Implications and Results Forecast",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the implications of disenfranchisement due to regional issues?",
+        "importance": "high",
+        "keywords": [
+          "disenfranchisement",
+          "regional issues",
+          "opposition fury"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "When can we expect results to be released, and what are the potential outcomes?",
+        "importance": "high",
+        "keywords": [
+          "election results",
+          "potential outcomes",
+          "January"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "id": "S1",
+    "section": "Incidents of Seafood Poisoning",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you describe the infamous shellfish poisoning incident in Canada from 1987?",
+        "importance": "critical",
+        "keywords": [
+          "shellfish",
+          "poisoning",
+          "Canada",
+          "1987"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What unusual symptoms were reported in the victims of this poisoning?",
+        "importance": "high",
+        "keywords": [
+          "symptoms",
+          "memory loss",
+          "seizures",
+          "epilepsy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Research on Sea Lions and Harmful Algal Blooms",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did wildlife biologists link sea lions to harmful algal blooms?",
+        "importance": "critical",
+        "keywords": [
+          "sea lions",
+          "harmful algal blooms",
+          "link"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What were the differences in symptoms observed between sea lions affected by algal bloom events and those that were not?",
+        "importance": "high",
+        "keywords": [
+          "symptoms",
+          "algal blooms",
+          "epilepsy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Domoic Acid and its Effects",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is domoic acid, and how is it connected to the observed epilepsy in sea lions?",
+        "importance": "critical",
+        "keywords": [
+          "domoic acid",
+          "epilepsy",
+          "toxins"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Is domoic acid found in other marine life, and what is the risk to humans consuming contaminated seafood?",
+        "importance": "high",
+        "keywords": [
+          "marine life",
+          "seafood",
+          "risk",
+          "domoic acid"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Implications for Veterinary Science and Wildlife Management",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How can further research on sea lions and epilepsy help in understanding animal health?",
+        "importance": "high",
+        "keywords": [
+          "research",
+          "animal health",
+          "epilepsy"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What challenges do wildlife managers face regarding sea lions and their potential epilepsy?",
+        "importance": "optional",
+        "keywords": [
+          "wildlife management",
+          "epilepsy",
+          "challenges"
+        ]
+      }
+    ]
+  }
+]

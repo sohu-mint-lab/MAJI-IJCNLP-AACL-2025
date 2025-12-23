@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Rock 'n Play Recall",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What led to the recall of the Rock 'n Play sleepers?",
+        "importance": "critical",
+        "keywords": [
+          "Rock 'n Play",
+          "recall",
+          "safety"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What are the statistics regarding infant deaths associated with the Rock 'n Play?",
+        "importance": "high",
+        "keywords": [
+          "infant deaths",
+          "statistics",
+          "safety concerns"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Popularity and Functionality of the Rock 'n Play",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Why has the Rock 'n Play been popular among parents?",
+        "importance": "high",
+        "keywords": [
+          "popularity",
+          "parents",
+          "infant sleep"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are the intended benefits of using a Rock 'n Play for newborns?",
+        "importance": "optional",
+        "keywords": [
+          "benefits",
+          "newborns",
+          "sleep assistance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Risks and Alternatives Post-Recall",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the dangers associated with using a Rock 'n Play?",
+        "importance": "critical",
+        "keywords": [
+          "dangers",
+          "Rock 'n Play",
+          "safety risks"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How might parents adapt their sleeping arrangements following the recall?",
+        "importance": "high",
+        "keywords": [
+          "sleeping arrangements",
+          "parents",
+          "co-sleeping"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Socioeconomic Implications of the Recall",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What socioeconomic factors influence how parents are affected by this recall?",
+        "importance": "high",
+        "keywords": [
+          "socioeconomic factors",
+          "income inequality",
+          "parenting challenges"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How do parents feel about the safety risks now associated with the Rock 'n Play?",
+        "importance": "optional",
+        "keywords": [
+          "parental reaction",
+          "concerns",
+          "Rock 'n Play"
+        ]
+      }
+    ]
+  }
+]

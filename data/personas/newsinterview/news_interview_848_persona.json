@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Michael Mandel",
+    "age": 50,
+    "personality": "Insightful and optimistic, with a strong analytical mindset and a passion for economic trends and their implications.",
+    "employment": "Chief Economist for Business Week",
+    "notes": "Specializes in economic analysis related to health care and education sectors, emphasizing their relevance in downturns.",
+    "communication_style": "Clear and engaging, often using analogies to explain complex economic concepts."
+  }
+}

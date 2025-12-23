@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Homelessness Crisis",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How has President Trump characterized the homelessness crisis in Los Angeles?",
+        "importance": "critical",
+        "keywords": [
+          "Trump",
+          "homelessness",
+          "Los Angeles"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What statistics reflect the state of homelessness in Los Angeles?",
+        "importance": "high",
+        "keywords": [
+          "statistics",
+          "Los Angeles",
+          "homelessness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Perspective of Mayor Eric Garcetti",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What is Mayor Garcetti's view on the president's comments about homelessness?",
+        "importance": "critical",
+        "keywords": [
+          "Garcetti",
+          "president",
+          "comments"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Garcetti describe the causes of homelessness?",
+        "importance": "high",
+        "keywords": [
+          "causes",
+          "homelessness",
+          "Garcetti"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Federal Assistance and Proposed Solutions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What specific actions does Garcetti suggest the federal government take to address homelessness?",
+        "importance": "high",
+        "keywords": [
+          "federal assistance",
+          "solutions",
+          "Garcetti"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What legislative measures does Garcetti mention to combat homelessness?",
+        "importance": "optional",
+        "keywords": [
+          "legislation",
+          "combat",
+          "homelessness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Public Reaction and Opportunities for Awareness",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Garcetti respond to the negative perception of the president's comments on homelessness?",
+        "importance": "high",
+        "keywords": [
+          "Garcetti",
+          "perception",
+          "president"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What does Garcetti see as an opportunity in the president's comments despite their tone?",
+        "importance": "optional",
+        "keywords": [
+          "opportunity",
+          "comments",
+          "awareness"
+        ]
+      }
+    ]
+  }
+]

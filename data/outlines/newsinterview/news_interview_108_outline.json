@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the El Paso Mass Shooting",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the latest updates regarding the mass shooting in El Paso?",
+        "importance": "critical",
+        "keywords": [
+          "mass shooting",
+          "El Paso",
+          "updates"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What details do we have about the suspect involved in the shooting?",
+        "importance": "high",
+        "keywords": [
+          "suspect",
+          "details",
+          "shooting"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Demographics and Community Context",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does El Paso's demographic makeup relate to the shooting incident?",
+        "importance": "high",
+        "keywords": [
+          "demographics",
+          "Hispanic population",
+          "community"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What historical significance does El Paso have as a migration pathway?",
+        "importance": "optional",
+        "keywords": [
+          "migration",
+          "history",
+          "El Paso"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Community Response and Aftermath",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How has the community in El Paso reacted to the mass shooting?",
+        "importance": "critical",
+        "keywords": [
+          "community response",
+          "El Paso",
+          "reaction"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What actions have residents taken in the wake of this tragedy?",
+        "importance": "high",
+        "keywords": [
+          "actions",
+          "residents",
+          "tragedy"
+        ]
+      }
+    ]
+  }
+]

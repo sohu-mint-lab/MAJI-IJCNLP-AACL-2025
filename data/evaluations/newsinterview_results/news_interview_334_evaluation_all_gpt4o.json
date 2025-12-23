@@ -1,0 +1,497 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4104953035712242,
+                "avg_context_relevance": 0.37637596189354855,
+                "avg_outline_relevance": 0.7447463845213255,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3963159918785095,
+                "avg_context_relevance": 0.33875543996691704,
+                "avg_outline_relevance": 0.8847820361455282,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 60.0,
+            "weighted_coverage_score": 58.82352941176471,
+            "covered_questions": 3,
+            "total_questions": 5
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "The government shutdown over the border wall continues. Here this morning to talk about the political action or lack thereof is NPR's Mara Liasson. Hi, Mara.",
+            "previous_answer": "Hi, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "To start, could you outline the primary issues that have led to the current government shutdown?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.07310906052589417,
+                        "outline_relevance": 0.8744621276855469,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you provide an overview of the key issues driving the government shutdown?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.10517057776451111,
+                            "outline_relevance": 0.892915666103363,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What are the main factors affecting the negotiations between the White House and Congress?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.036916304379701614,
+                            "outline_relevance": 0.5088649988174438,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How has public opinion shifted in response to the shutdown and the national emergency declaration debates?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.06853333860635757,
+                            "outline_relevance": 0.6481345891952515,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "To start, could you outline the primary issues that have led to the current government shutdown?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.07310906052589417,
+                            "outline_relevance": 0.8744621276855469,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "OK. So, Mara, last night, the president called into Judge Jeanine Pirro's show on Fox News. And we'll talk Russia elsewhere in the show. But he said about the shutdown that he was still thinking about declaring a national emergency. Is that still a plan?",
+            "previous_answer": "Well, like everything else about Trump and the shutdown, it's unclear. He's been ping-ponging around this issue. Sometimes, he says he definitely would declare a state of emergency. Other times, he's said he's not in any rush. But that endgame of declaring a national emergency has been described to me by Trump's advisers as the only plausible way out of this for him politically, a way for him to keep faith with his base, show him - show them he's fighting, even if he's stymied in the courts. And this promise to build a wall or, really, do everything he can to build a wall has become the sun, moon and stars of his administration. It's really become the white whale. It's become the No. 1 priority. And he's gotten pretty sensitive about press coverage of how he's handling this issue. He tweeted that the fake news Washington Post said he didn't have a plan. But he says, I have a plan. But to understand the plan, you have to understand that I won the election. The promise with that - problem with that is he did win the 2016 election. But he lost the 2018 election, and he really hasn't absorbed the changes that that's brought. He also tweeted, quote, \"there's almost nobody in the White House but me.\" And I think that really sums it up. It's just him, almost all by himself, making it up as he goes along.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How have congressional Republicans responded to the possibility of President Trump declaring a national emergency to fund the border wall?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5959235429763794,
+                        "outline_relevance": 0.7915140390396118,
+                        "originality": 0.52904212474823,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How are Trump's advisers advising him on the possible political fallout of declaring a national emergency?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7868773341178894,
+                            "outline_relevance": 0.7983241081237793,
+                            "originality": 0.45282018184661865,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What are the historical precedents for declaring a national emergency in U.S. politics, and how might they compare to this situation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6015211939811707,
+                            "outline_relevance": 0.7590805292129517,
+                            "originality": 0.3855491876602173,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you see the interplay between Trump's media strategy and his political maneuvering around the shutdown?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5546980500221252,
+                            "outline_relevance": 0.6084250807762146,
+                            "originality": 0.34709250926971436,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How have congressional Republicans responded to the possibility of President Trump declaring a national emergency to fund the border wall?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5959235429763794,
+                            "outline_relevance": 0.7915140390396118,
+                            "originality": 0.52904212474823,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Do we know where he's landed on declaring a state of emergency? You're describing this sort of back and forth. But do we know where his head's at?",
+            "previous_answer": "It seems that he's saying, I will do it if I can't get a deal. But the waffling around this is happening because some of his advisers say it's not a good idea. It's going to be tied up in the courts. The Republicans in Congress are split on this. Some Republicans say it would usurp Congress's power of the purse. Others say it's a terrible precedent because a future Democratic president could declare a state of emergency around gun safety or health care or climate change. But other Republicans on the Hill privately would be thankful for the president to take this whole issue off their laps because if he does declare a state of emergency, he would, presumably, have to open the government.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How have congressional Republicans reacted to the idea of declaring a national emergency in this context?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5469530820846558,
+                        "outline_relevance": 0.9767318964004517,
+                        "originality": 0.2115265130996704,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you explain the specific legal challenges that advisers foresee if a state of emergency is declared?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3149459958076477,
+                            "outline_relevance": 0.6328775882720947,
+                            "originality": 0.3192325830459595,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How have Democratic leaders responded to the potential declaration of a state of emergency?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4289885461330414,
+                            "outline_relevance": 0.7622826099395752,
+                            "originality": 0.24019336700439453,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways could the president's potential emergency declaration affect his relationship with Congress in the long term?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4994271993637085,
+                            "outline_relevance": 0.7136247158050537,
+                            "originality": 0.2908666133880615,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How have congressional Republicans reacted to the idea of declaring a national emergency in this context?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5469530820846558,
+                            "outline_relevance": 0.9767318964004517,
+                            "originality": 0.2115265130996704,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "All right. So where do we stand on the negotiations right now?",
+            "previous_answer": "Nowhere. We're nowhere. Negotiations usually have a couple things associated with them - first of all, round the clock talks, a willingness for both sides to find a deal where both sides would win or maybe a creative solution that makes the problem bigger, like exchanging a path to citizenship for the DREAMers with $25 billion for a wall. That was a deal that was tentatively made over a year ago, but Trump walked away from that. The other reason we're not anywhere is that Mitch McConnell, the Senate Republican leader, is nowhere to be seen. He is the guy who, in the past, has gotten presidents out of a lot of tight corners. He thinks of creative solutions. But don't forget; this whole shutdown started when McConnell passed - unanimously - a compromise bill through the Senate for - to open the government not fund the wall. Trump originally said he would sign it. Then Trump changed his mind, and the shutdown happened. And now McConnell says he's not going to put anything on the floor of the Senate if the president won't sign it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How have Trump's public speeches and statements influenced public opinion regarding the government shutdown and the border wall issue?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.42930150032043457,
+                        "outline_relevance": 0.9304951429367065,
+                        "originality": 0.34013402462005615,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: What specific strategies has Mitch McConnell used in past shutdown negotiations to break deadlocks?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5373464822769165,
+                            "outline_relevance": 0.886009693145752,
+                            "originality": 0.41634422540664673,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How do you assess the effectiveness of the current negotiation tactics from both the White House and Senate?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5482592582702637,
+                            "outline_relevance": 0.5399942994117737,
+                            "originality": 0.16006940603256226,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: What consequences might arise if these negotiations continue to stall without McConnell's involvement?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5961340665817261,
+                            "outline_relevance": 0.6399674415588379,
+                            "originality": 0.3660001754760742,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How have Trump's public speeches and statements influenced public opinion regarding the government shutdown and the border wall issue?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.42930150032043457,
+                            "outline_relevance": 0.9304951429367065,
+                            "originality": 0.34013402462005615,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "And Nancy Pelosi, of course, is in Puerto Rico. So it's not like, you know, she's here right now talking to the president either. So I guess, you know, this leaves him taking his case to the American people. He tried to do that when he actually went and gave an address in the Oval Office. Did that move the needle?",
+            "previous_answer": "It doesn't seem like he's moved the needle. He did a lot of things - Oval Office address, trip to the border, a lot of interviews. The latest polling we have is a Washington Post/ABC News poll that shows by a very wide margin - 53 to 29 percent - more Americans blame President Trump and the Republicans in Congress for the shutdown rather than Democrats. One thing that has happened in the polling is that the border wall has gotten a little bit more popular. It's still net unpopular right now. Forty-two percent of people say they support a wall. That's up from 34 percent a year ago. But 54 percent oppose the idea, down from 63 percent a year ago. And the other thing we see is that he hasn't been able to convince Americans that there's actually a crisis on the border. That hasn't worked mostly because the people who are coming across are applying for asylum. That's a legal process, and it wouldn't be stopped by a wall.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are the main issues and disputes that have led to the current government shutdown?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.30554747581481934,
+                        "outline_relevance": 0.9487107992172241,
+                        "originality": 0.11487722396850586,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How has the media's portrayal of the shutdown and border wall affected public perception?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.48010578751564026,
+                            "outline_relevance": 0.7078230381011963,
+                            "originality": 0.3042178153991699,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you explain why the narrative of a border crisis has failed to convince most Americans?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.514308512210846,
+                            "outline_relevance": 0.5023860931396484,
+                            "originality": 0.39586085081100464,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways has public opinion shifted over time concerning Trump's shutdown handling and border policies?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.669572114944458,
+                            "outline_relevance": 0.7926487922668457,
+                            "originality": 0.16873830556869507,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What are the main issues and disputes that have led to the current government shutdown?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.30554747581481934,
+                            "outline_relevance": 0.9487107992172241,
+                            "originality": 0.11487722396850586,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "That's NPR's Mara Liasson. Thank you so much.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "从整体来看，当前政府关门的主要问题和关键争议点都有哪些？",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.081697978079319,
+                        "outline_relevance": 0.7867782115936279,
+                        "originality": 0.18231606483459473,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Reflecting on your extensive career, how have you seen government shutdowns evolve over time in terms of political and media dynamics?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.07334081828594208,
+                            "outline_relevance": 0.6290948390960693,
+                            "originality": 0.25999051332473755,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you provide an analysis of how government shutdowns impact public opinion and the political strategies behind them?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.08278283476829529,
+                            "outline_relevance": 0.7776409387588501,
+                            "originality": 0.16570091247558594,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Considering the current political landscape, what are the most significant factors that could resolve or prolong this shutdown?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1015620306134224,
+                            "outline_relevance": 0.7651259899139404,
+                            "originality": 0.20131468772888184,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "从整体来看，当前政府关门的主要问题和关键争议点都有哪些？",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.081697978079319,
+                            "outline_relevance": 0.7867782115936279,
+                            "originality": 0.18231606483459473,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

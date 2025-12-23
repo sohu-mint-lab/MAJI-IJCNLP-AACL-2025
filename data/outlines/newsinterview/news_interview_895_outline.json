@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "The Resurgence of Nancy Hale",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Why does Lauren Groff believe Nancy Hale deserves to be rediscovered?",
+        "importance": "critical",
+        "keywords": [
+          "Nancy Hale",
+          "rediscovery",
+          "literary importance"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What are some characteristics of Hale's writing style according to Groff?",
+        "importance": "high",
+        "keywords": [
+          "writing style",
+          "elegance",
+          "quietness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Selection Process of Stories",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did Lauren Groff and her team decide which stories of Hale to include in the collection?",
+        "importance": "high",
+        "keywords": [
+          "story selection",
+          "collaboration",
+          "debate"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What role did Reggie Hui play in the story selection process?",
+        "importance": "optional",
+        "keywords": [
+          "Reggie Hui",
+          "story archives",
+          "selection process"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Themes in Hale's Writing",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What uncomfortable topics does Hale explore in her stories?",
+        "importance": "critical",
+        "keywords": [
+          "themes",
+          "female desire",
+          "marriage"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Groff describe the story 'Midsummer' and its impact?",
+        "importance": "high",
+        "keywords": [
+          "Midsummer",
+          "desire",
+          "emotional impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Lauren Groff's Reflection on Literary Legacy",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "In what ways does Groff feel inspired by Hale's work as a writer?",
+        "importance": "high",
+        "keywords": [
+          "inspiration",
+          "literature",
+          "writing community"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What message does Groff convey about the literary world and forgotten authors?",
+        "importance": "optional",
+        "keywords": [
+          "literary world",
+          "forgotten authors",
+          "privilege"
+        ]
+      }
+    ]
+  }
+]

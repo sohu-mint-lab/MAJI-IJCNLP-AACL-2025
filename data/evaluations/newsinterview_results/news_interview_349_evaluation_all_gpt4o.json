@@ -1,0 +1,544 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3566017930324261,
+                "avg_context_relevance": 0.43783898572795665,
+                "avg_outline_relevance": 0.735310224386362,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.36530739068984985,
+                "avg_context_relevance": 0.4207445265991347,
+                "avg_outline_relevance": 0.7790115049907139,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 37.5,
+            "weighted_coverage_score": 33.33333333333333,
+            "covered_questions": 3,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Almost 40 million Congolese are eligible to vote today for their new president in highly anticipated and much delayed elections. The build up to the vote was fraught with logistical and technical problems, prompting a week-long postponement. And there was some campaign violence with the security forces cracking down on opposition supporters. NPR's Ofeibea Quist-Arcton is in the capital Kinshasa observing the vote and joins us now. Good morning.",
+            "previous_answer": "Greetings.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you describe the current atmosphere here in Kinshasa as voters head to the polls amid these challenges?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.20935150980949402,
+                        "outline_relevance": 0.49622827768325806,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you describe the current atmosphere here in Kinshasa as voters head to the polls amid these challenges?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.20935150980949402,
+                            "outline_relevance": 0.49622827768325806,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What specific logistical issues have election officials encountered that led to the postponement?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.10818807780742645,
+                            "outline_relevance": 0.8409974575042725,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How are voters responding to the presence of security forces during the election, especially concerning the reported crackdown on opposition supporters?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.10396642982959747,
+                            "outline_relevance": 0.5807563066482544,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Ofeibea, why has it taken so long to finally hold this election? And we should add, it's still delayed for parts of the country.",
+            "previous_answer": "That's the selfsame question Congolese are asking. How come it's only now they're going to the polls? And add to that, there's been a one-week extra delay because the election commission said it had technical problems and logistical problems and was not able to hold the vote on 23 of December, as was meant to happen. Now President Kabila says it was because of a rebellion in the east and troubles in other parts of Congo. That was the priority. So that is why he hasn't left office yet. But many Congolese are saying, no. You've been a caretaker president for two long years. It's time for change. It's time for us to move on. At last, they're voting. This morning in Kinshasa, there were torrential rainstorms. And there was a very, very timid participation. But now the sun's out. And we are seeing long, long, long lines at polling stations as the Kinois, as they're called - people of Kinshasa, men and women - wait to vote enthusiastically and patiently.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Approximately how many people in the Congo are eligible to vote in this election, and what is the current status of voter turnout across the country beyond Kinshasa?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6545484066009521,
+                        "outline_relevance": 0.906981348991394,
+                        "originality": 0.3732783794403076,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you provide more details about the technical and logistical problems that caused the postponement?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.38657766580581665,
+                            "outline_relevance": 0.5623324513435364,
+                            "originality": 0.25598448514938354,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do voters in different regions perceive the election delays and the claims about the rebellion?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6214362382888794,
+                            "outline_relevance": 0.7105578184127808,
+                            "originality": 0.3553595542907715,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What impact do you think the prolonged presidency of Kabila has on voter trust and the overall political climate?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5279045104980469,
+                            "outline_relevance": 0.7585945129394531,
+                            "originality": 0.43558359146118164,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Approximately how many people in the Congo are eligible to vote in this election, and what is the current status of voter turnout across the country beyond Kinshasa?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6545484066009521,
+                            "outline_relevance": 0.906981348991394,
+                            "originality": 0.3732783794403076,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "And it sounds like people are out in lines. Are there any reports of problems?",
+            "previous_answer": "There have been some logistical problems. Early on, we heard that some polling stations did not have the list of voters, so people had to wait. Although, they were keen to vote. And we've also heard from observers - and these are local observers because the election commission and the authorities here have not allowed many international observers. They say there have been problems with these controversial voting machines being used for the first time, that some haven't worked at all and that others have had problems. But it's early days yet.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you provide more details on the specific problems encountered with the new voting machines and how these issues have impacted voters' ability to cast their ballots?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7095320820808411,
+                        "outline_relevance": 0.8778148889541626,
+                        "originality": 0.37328040599823,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you elaborate on the types of problems experienced with the new voting machines and how they have affected the voting process?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6945241689682007,
+                            "outline_relevance": 0.8938938975334167,
+                            "originality": 0.3618830442428589,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How does the limited presence of international observers shape the overall perception and legitimacy of the election?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6319245100021362,
+                            "outline_relevance": 0.5823439955711365,
+                            "originality": 0.3418762683868408,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: What measures are being taken by local authorities to resolve the logistical and technical problems on election day?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5853650569915771,
+                            "outline_relevance": 0.7389362454414368,
+                            "originality": 0.2585873603820801,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you provide more details on the specific problems encountered with the new voting machines and how these issues have impacted voters' ability to cast their ballots?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7095320820808411,
+                            "outline_relevance": 0.8778148889541626,
+                            "originality": 0.37328040599823,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Right.",
+            "previous_answer": "And people are certainly patiently waiting to vote.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How has the departure of President Kabila influenced the expectations and hopes of voters for this election?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2962673008441925,
+                        "outline_relevance": 0.9728467464447021,
+                        "originality": 0.24764251708984375,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How are different regions within Congo responding to the election day so far?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.38509097695350647,
+                            "outline_relevance": 0.8038268089294434,
+                            "originality": 0.21645629405975342,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you describe the mood and sentiments expressed by voters as they wait to cast their ballots?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6273501515388489,
+                            "outline_relevance": 0.8367733359336853,
+                            "originality": 0.3246222734451294,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What challenges do polling stations face in maintaining voter patience and order during the wait?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6725163459777832,
+                            "outline_relevance": 0.6838287115097046,
+                            "originality": 0.3325843811035156,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How has the departure of President Kabila influenced the expectations and hopes of voters for this election?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2962673008441925,
+                            "outline_relevance": 0.9728467464447021,
+                            "originality": 0.24764251708984375,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "So what are the voters that you're seeing in these lines there in Kinshasa telling you?",
+            "previous_answer": "A range - there are those who say they are going to vote for continuity, although President Joseph Kabila is standing down after almost 18 years in power. So he is not standing for re-election. He has handpicked a presidential candidate of the governing coalition. Some, they say they want continuity. But many more people are saying, it's time for change. We need change. We need education. We need health. We need all sorts of social improvements in Congo. And it's only with a new opposition leader as president that we're going to have that.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How has President Kabila's decision to step down affected the hopes and expectations of voters in this election?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.572013795375824,
+                        "outline_relevance": 0.8588851690292358,
+                        "originality": 0.1270260214805603,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you share more about the specific social improvements voters are demanding in Congo?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6513529419898987,
+                            "outline_relevance": 0.7275034189224243,
+                            "originality": 0.22256898880004883,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do voters perceive the candidate that President Kabila has handpicked, and how is that influencing their choices?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5504482984542847,
+                            "outline_relevance": 0.8011695146560669,
+                            "originality": 0.17828130722045898,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What impact do you think President Kabila's long rule has had on the voters' mindset and expectations for the election?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5996737480163574,
+                            "outline_relevance": 0.7505247592926025,
+                            "originality": 0.11350798606872559,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How has President Kabila's decision to step down affected the hopes and expectations of voters in this election?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.572013795375824,
+                            "outline_relevance": 0.8588851690292358,
+                            "originality": 0.1270260214805603,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "And now with parts of the country still not voting till March, will we have any idea later today of who might become the new president?",
+            "previous_answer": "I've got to tell you, Leila, there's been absolute opposition fury because two areas of eastern Congo were hit by Ebola. And then one town in the west where there has been communal violence, more than a million voters, the opposition say, have been disenfranchised in their strongholds. We'll have to see when results will be in. They've got to be announced by about the 10 of January. And then by mid-January, a new president should be sworn in. Everybody is holding their breath, saying, let it be peaceful. Let us vote for our new president as we want to.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Considering the opposition's claim of disenfranchisement in key regions, what do you think are the broader implications of these excluded votes on the legitimacy of the election and the country's stability?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5244447588920593,
+                        "outline_relevance": 0.6194316744804382,
+                        "originality": 0.2611888647079468,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Given the opposition’s claims of disenfranchisement, how are citizens in affected areas reacting to these developments?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.49871528148651123,
+                            "outline_relevance": 0.6893967390060425,
+                            "originality": 0.4026317000389099,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you explain how the health crisis and communal violence have concretely impacted the election timeline and voter turnout?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4781365990638733,
+                            "outline_relevance": 0.6420593857765198,
+                            "originality": 0.32351648807525635,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What measures are being taken to ensure that the delayed voting does not undermine the overall legitimacy of the election results?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.37839725613594055,
+                            "outline_relevance": 0.6972147226333618,
+                            "originality": 0.19815194606781006,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Considering the opposition's claim of disenfranchisement in key regions, what do you think are the broader implications of these excluded votes on the legitimacy of the election and the country's stability?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5244447588920593,
+                            "outline_relevance": 0.6194316744804382,
+                            "originality": 0.2611888647079468,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "That's NPR's Ofeibea Quist-Arcton in Kinshasa. Thank you so much.",
+            "previous_answer": "Always a pleasure, thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: What are some of the key challenges you foresee in the post-election period in the Congo?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": -0.020946167409420013,
+                        "outline_relevance": 0.7208924293518066,
+                        "originality": 0.17473554611206055,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What are some of the key challenges you foresee in the post-election period in the Congo?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": -0.020946167409420013,
+                            "outline_relevance": 0.7208924293518066,
+                            "originality": 0.17473554611206055,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How has your reporting impacted the public's understanding of the complexities in the Congolese elections?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.07047727704048157,
+                            "outline_relevance": 0.7126724720001221,
+                            "originality": 0.1964181661605835,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: From your experience, what steps can be taken to improve voter participation and engagement in future elections?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.007510961964726448,
+                            "outline_relevance": 0.6516027450561523,
+                            "originality": 0.19648104906082153,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

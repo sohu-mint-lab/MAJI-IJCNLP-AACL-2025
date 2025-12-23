@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to the Book 'Naamah'",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What inspired Sarah Blake to write about Noah's wife in her new book?",
+        "importance": "critical",
+        "keywords": [
+          "Naamah",
+          "Noah's wife",
+          "inspiration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Exploration of Themes",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What does Sarah Blake mean when she talks about feeling 'stuck' while writing?",
+        "importance": "high",
+        "keywords": [
+          "stuck",
+          "writing",
+          "theme"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Blake incorporate the sensory realities of being on the ark into her narrative?",
+        "importance": "high",
+        "keywords": [
+          "sensory",
+          "reality",
+          "ark"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Depiction of Relationships and Conflicts",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What kind of relationship does Naamah have with God, according to Sarah Blake?",
+        "importance": "critical",
+        "keywords": [
+          "Naamah",
+          "God",
+          "relationship"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Why does Sarah Blake choose to include erotic elements in the story?",
+        "importance": "high",
+        "keywords": [
+          "erotic",
+          "bodies",
+          "physicality"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "The Nature of Weirdness in 'Naamah'",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Sarah Blake define 'weirdness' in the context of her writing?",
+        "importance": "high",
+        "keywords": [
+          "weirdness",
+          "definition",
+          "writing"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "In what ways does the supernatural play a role in the narrative of 'Naamah'?",
+        "importance": "optional",
+        "keywords": [
+          "supernatural",
+          "narrative",
+          "elements"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Jon Champion's Move to America",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What motivated Jon Champion to relocate to the U.S. for his career?",
+        "importance": "critical",
+        "keywords": [
+          "move",
+          "career",
+          "challenge"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has Champion's experience in European soccer shaped his approach to American soccer?",
+        "importance": "high",
+        "keywords": [
+          "experience",
+          "European soccer",
+          "American soccer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Soccer vs. Football: A Cultural Transition",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What challenges does Champion face in adapting to the American terminology for soccer?",
+        "importance": "high",
+        "keywords": [
+          "soccer",
+          "football",
+          "terminology"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Champion perceive the differences in soccer culture between the U.S. and other countries?",
+        "importance": "optional",
+        "keywords": [
+          "soccer culture",
+          "U.S.",
+          "comparison"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Evolution of Soccer in America",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What factors have contributed to the growth of soccer in the U.S. over recent years?",
+        "importance": "critical",
+        "keywords": [
+          "growth",
+          "factors",
+          "soccer"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Champion view the future trajectory of soccer in America?",
+        "importance": "high",
+        "keywords": [
+          "future",
+          "trajectory",
+          "American soccer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Champion's Vision for American Soccer",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What role does Champion wish to play in the growth of soccer in the U.S.?",
+        "importance": "high",
+        "keywords": [
+          "role",
+          "growth",
+          "soccer"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Champion plan to make American soccer more prominent in the sports entertainment landscape?",
+        "importance": "optional",
+        "keywords": [
+          "prominence",
+          "sports",
+          "entertainment"
+        ]
+      }
+    ]
+  }
+]

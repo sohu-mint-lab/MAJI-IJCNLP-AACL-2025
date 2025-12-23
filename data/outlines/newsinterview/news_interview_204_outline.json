@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "David Hockney: An Overview",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What aspects of David Hockney's life and career contribute to his status as a famous artist?",
+        "importance": "critical",
+        "keywords": [
+          "David Hockney",
+          "artist",
+          "famous"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has Hockney's personal identity influenced his art?",
+        "importance": "high",
+        "keywords": [
+          "identity",
+          "art",
+          "influence"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Themes of Freedom and Self-Discovery",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does Catherine Cusset interpret the theme of freedom in Hockney's life?",
+        "importance": "critical",
+        "keywords": [
+          "freedom",
+          "Catherine Cusset",
+          "interpretation"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What challenges did Hockney face in asserting his artistic style, especially in the context of his time?",
+        "importance": "high",
+        "keywords": [
+          "artistic style",
+          "challenges",
+          "context"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Navigating Criticism and Success",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What insights did Cusset gain about Hockney's relationship with criticism throughout his career?",
+        "importance": "high",
+        "keywords": [
+          "criticism",
+          "career",
+          "insights"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Emotional Resonance and Personal Connection",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How did Cusset relate her own experiences to Hockney's life when writing the novel?",
+        "importance": "high",
+        "keywords": [
+          "personal experiences",
+          "novel",
+          "relation"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What is the key message that Cusset believes can be learned from Hockney's life?",
+        "importance": "critical",
+        "keywords": [
+          "key message",
+          "learning",
+          "life lessons"
+        ]
+      }
+    ]
+  }
+]

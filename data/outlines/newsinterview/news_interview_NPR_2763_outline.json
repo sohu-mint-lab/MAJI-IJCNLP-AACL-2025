@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Out-of-Body Experiences",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the premise behind creating an out-of-body experience?",
+        "importance": "critical",
+        "keywords": [
+          "out-of-body experience",
+          "premise",
+          "Henrik Ehrsson"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Who is Henrik Ehrsson and what is his background in neuroscience?",
+        "importance": "high",
+        "keywords": [
+          "Henrik Ehrsson",
+          "neuroscience",
+          "background"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Mechanism of Illusion Creation",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does Henrik Ehrsson create the sensation of being outside oneself?",
+        "importance": "critical",
+        "keywords": [
+          "sensation",
+          "illusion",
+          "Ehrsson"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What technologies are used in the experiment to create these sensations?",
+        "importance": "high",
+        "keywords": [
+          "technology",
+          "experiment",
+          "sensations"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Experiments with Phantom Limbs",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What was the procedure used to convince participants they had a third arm?",
+        "importance": "critical",
+        "keywords": [
+          "phantom limbs",
+          "third arm",
+          "procedure"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Can the participants maintain the illusion of the third arm after the experiment?",
+        "importance": "high",
+        "keywords": [
+          "illusion",
+          "third arm",
+          "participants"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Applications in Prosthetic Development",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How can this research contribute to the development of prosthetic limbs?",
+        "importance": "critical",
+        "keywords": [
+          "prosthetic limbs",
+          "development",
+          "research"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What future directions does Ehrsson suggest for this line of research?",
+        "importance": "high",
+        "keywords": [
+          "future directions",
+          "Ehrsson",
+          "research"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,355 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.5206354632973671,
+                "avg_context_relevance": 0.39092514920048416,
+                "avg_outline_relevance": 0.6303670182824135,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 37.5,
+            "weighted_coverage_score": 28.000000000000004,
+            "covered_questions": 3,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "T Kira Madden came of age in the privileged enclave of Boca Raton, Fla., riding horses, attending private schools. Her uncle, Steve Madden, and her father built a shoe empire. But her debut memoir, \"Long Live The Tribe Of Fatherless Girls,\" chronicles the difficulties she faced coming of age. Her parents were entrenched in drug and alcohol addiction. And she relied on her friendships with other fatherless girls.",
+            "previous_answer": "I knew I was different in certain ways. And I knew my parents were different. But I didn't quite understand what that meant until later.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share a specific experience from your childhood in Boca Raton that had a lasting impact on how you viewed yourself and your family?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3819238245487213,
+                        "outline_relevance": 0.6172435283660889,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share a specific experience from your childhood in Boca Raton that had a lasting impact on how you viewed yourself and your family?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3819238245487213,
+                            "outline_relevance": 0.6172435283660889,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Yeah. There's a heartbreaking essay in the book about finding your mother after an overdose.",
+            "previous_answer": "Yes. It's the time in my life that I still feel kicks up the most dirt and the most pain, how I like to describe it - and also the most love. That piece is the most personal to me. It's the crown jewel of the book for me. I have other difficult essays in the book, but often they deal with people who are no longer a part of my life. So it's easier to feel that separation. But my mother is so present, and we've lived lifetimes together, me and my mother. So to look back at that time when things were really at their worst is still difficult.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You mentioned that your mother remains a very present figure in your life, making those memories particularly painful. How does this ongoing presence influence your emotions each time you revisit those experiences in your writing?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5524383187294006,
+                        "outline_relevance": 0.4927806258201599,
+                        "originality": 0.5341748595237732,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "You mentioned that your mother remains a very present figure in your life, making those memories particularly painful. How does this ongoing presence influence your emotions each time you revisit those experiences in your writing?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5524383187294006,
+                            "outline_relevance": 0.4927806258201599,
+                            "originality": 0.5341748595237732,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Memoirs are sort of interesting - right? - because they require not only for you to examine the behavior of others but also to try and understand yourself. What was the question that you were trying to answer in this book?",
+            "previous_answer": "The great question of my father was how this book began. I started writing this book kind of accidentally just a couple months after he passed away and trying to grapple with the understanding that we didn't, in my opinion, get the finished story, the neat story with the tidy story arc and accepting that life is actually the unfinished story and thinking about why that is and how our relationship could have changed had we had conversations that we never had. And I address that in some of these essays as well. If I opened up to him about the sexual assault that occurs in the book, perhaps we would have been closer. Perhaps things could have been different. So thinking about those what ifs and understanding that I won't find those answers, but I can still write into those questions.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "In what ways does T Kira Madden talk about the complexities and dynamics of friendship among the \"fatherless girls\" in her narrative?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.34135788679122925,
+                        "outline_relevance": 0.8771661520004272,
+                        "originality": 0.6816247701644897,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "In what ways does T Kira Madden talk about the complexities and dynamics of friendship among the \"fatherless girls\" in her narrative?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.34135788679122925,
+                            "outline_relevance": 0.8771661520004272,
+                            "originality": 0.6816247701644897,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Is that the sort of thing that you were trying to understand when you thought about your life and why you call this book \"The Tribe Of Fatherless Girls\" - because your dad was there, but he also was absent in many ways?",
+            "previous_answer": "Yeah. I think that's something I wanted to explore in this book as well - that we're all doing our best to protect one another and doing our best at loving one another and understanding one another, but there are always shortcomings. Even the fatherless girls, the friends in the book - looking back, our relationship sounds a bit vicious and unhealthy. But at the time, we were doing our very best to be everything to one another and to hold one another through these very complicated and confusing years.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share how these childhood friendships, despite their complexity, influenced your understanding of love and support in your later relationships?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.504887044429779,
+                        "outline_relevance": 0.5482684373855591,
+                        "originality": 0.44099628925323486,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share how these childhood friendships, despite their complexity, influenced your understanding of love and support in your later relationships?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.504887044429779,
+                            "outline_relevance": 0.5482684373855591,
+                            "originality": 0.44099628925323486,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "You write with such openness about your experiences in high school in particular, especially when it came to boys and your sexual assault. Even before the #MeToo movement gained traction, you were publishing stories about that sexual assault online. And you had such an interesting relationship with the person who assaulted you that wasn't static.",
+            "previous_answer": "Yeah. This person, the perpetrator - he reached out to me. He wanted to issue another apology. He really wanted my forgiveness, which is something he had come back for for several years. And I always ignore this person. And this was the one instance, after the death of my father in that kind of fugue grief state, where I felt I had nothing to lose. And I wanted to hear what he had to say. And so I let him talk. And I tried to work out the basic question of why - why did you hurt me? Why did you do this? And I didn't find that answer. And, again, trying to accept that we're never going to find all the answers. And those unfinished narratives are what's important.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "When you first began writing about your experience, how did you approach sharing such a personal and painful story?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.45677146315574646,
+                        "outline_relevance": 0.5348716974258423,
+                        "originality": 0.3763178586959839,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "When you first began writing about your experience, how did you approach sharing such a personal and painful story?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.45677146315574646,
+                            "outline_relevance": 0.5348716974258423,
+                            "originality": 0.3763178586959839,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Do you think it was a good thing, to - to talk? Or do you think it wasn't?",
+            "previous_answer": "Ultimately, with everything that's transpired since that conversation, I don't. I wish I could take it back. And often people will say, but then you'd have never had this essay. And it wouldn't have been the same. And I think, I could've written other essays. Yeah, ultimately I opened up something that was actually closed for me. When people read that piece, they said to me, oh, I wonder - I hope this was very healing for you. I hope you worked through what happened to you through this essay. My reaction to that is, I actually did already work through that. There's a reason it took 17 years to write that piece - because I had to work through that, and the box was closed. And by opening it up again and bringing those people back into my life, ultimately it wasn't worth it. But I can't take that back now.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you view the larger cultural moment that is currently elevating women's personal narratives, and what impact do you think this has on your own story and others like it?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3432074785232544,
+                        "outline_relevance": 0.7094671726226807,
+                        "originality": 0.4657626748085022,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you view the larger cultural moment that is currently elevating women's personal narratives, and what impact do you think this has on your own story and others like it?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3432074785232544,
+                            "outline_relevance": 0.7094671726226807,
+                            "originality": 0.4657626748085022,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Listening to you talk about this, I'm struck by the fact that we are hearing now a lot from women who are writing and examining their lives in sort of powerful, astonishing writing. Do you think there's something wider at play?",
+            "previous_answer": "I think people are really paying attention now. I think people don't have an option anymore than to hear us and listen. There is such fantastic momentum. And it's really only the beginning. But it thrills me to see the books being picked up right now and the stories we're seeing. And I want that momentum to just continue and crash through.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you personally feel about the attention your own stories are receiving in this current literary moment?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5336426496505737,
+                        "outline_relevance": 0.7521270513534546,
+                        "originality": 0.359891414642334,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you personally feel about the attention your own stories are receiving in this current literary moment?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5336426496505737,
+                            "outline_relevance": 0.7521270513534546,
+                            "originality": 0.359891414642334,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "That was T Kira Madden. Her debut memoir is \"Long Live The Tribe Of Fatherless Girls.\" Thank you so much.",
+            "previous_answer": "Thank you so much, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Looking back on your journey of sharing such personal stories, how do you feel your perspective has evolved over time?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.013172527775168419,
+                        "outline_relevance": 0.5110114812850952,
+                        "originality": 0.3063158392906189,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Looking back on your journey of sharing such personal stories, how do you feel your perspective has evolved over time?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.013172527775168419,
+                            "outline_relevance": 0.5110114812850952,
+                            "originality": 0.3063158392906189,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

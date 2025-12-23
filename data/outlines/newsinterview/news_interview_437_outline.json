@@ -1,0 +1,99 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Upcoming Midterm Elections",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the significance of the upcoming midterm elections for both Democrats and Republicans?",
+        "importance": "critical",
+        "keywords": [
+          "midterm elections",
+          "significance",
+          "Democrats",
+          "Republicans"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Current Political Landscape and Key Races",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Which states are considered key races for Democrats in the upcoming elections?",
+        "importance": "high",
+        "keywords": [
+          "key races",
+          "Democrats",
+          "states",
+          "tight races"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How might the outcomes in Florida and Georgia influence the election results?",
+        "importance": "high",
+        "keywords": [
+          "Florida",
+          "Georgia",
+          "election results",
+          "influence"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Factors Influencing Democratic Gains",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What factors are contributing to the potential Democratic gains in traditionally Republican states?",
+        "importance": "high",
+        "keywords": [
+          "Democratic gains",
+          "Republican states",
+          "factors"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How are healthcare issues impacting voter sentiment in certain states?",
+        "importance": "high",
+        "keywords": [
+          "healthcare",
+          "voter sentiment",
+          "impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Republican Fortunes and Challenges",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the bright spots for Republicans in the upcoming elections?",
+        "importance": "optional",
+        "keywords": [
+          "Republicans",
+          "bright spots",
+          "elections"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What challenges do Republicans face despite some incumbents being in strong positions?",
+        "importance": "optional",
+        "keywords": [
+          "Republicans",
+          "challenges",
+          "incumbents"
+        ]
+      }
+    ]
+  }
+]

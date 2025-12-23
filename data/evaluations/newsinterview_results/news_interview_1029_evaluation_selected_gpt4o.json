@@ -1,0 +1,931 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.2522119879722595,
+                "avg_context_relevance": 0.3366894785625239,
+                "avg_outline_relevance": 0.717092132816712,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 61.53846153846154,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "This is TALK OF THE NATION. I'm Neal Conan. Mara Wilson starred in several movies when she was a child, \"Mrs. Doubtfire\" and \"Matilda\" among them. Unlike some of her fellow child stars, she's moved on without stints in rehab or tabloid headlines about court appearances, but people always ask. It's a constant damned-if-you-do, damned-if-you-don't situation, she recently wrote. If former child actors bring up their past, they're washed-up opportunists shilling for attention. If they never do, they're clearly in denial just like the six-year-old Susan Mara played in the remake of \"Miracle on 34th Street.\" Well, take my word for it, there is a Santa Claus, and she does turn out to believe him. Writer and playwright Mara Wilson joins us now from our bureau in New York. Nice to have you with us today. Mara Wilson, are you there?",
+            "previous_answer": "Yes, here I am. Can you hear me?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share what initially drew you to acting when you were a child?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.08224773406982422,
+                        "outline_relevance": 0.5921139717102051,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you share what initially drew you to acting when you were a child?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.08224773406982422,
+                            "outline_relevance": 0.5921139717102051,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "All right. My apologies there.",
+            "previous_answer": "Oh, thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: What first inspired you to start acting when you were young?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.0901375412940979,
+                        "outline_relevance": 0.49274563789367676,
+                        "originality": 0.1795487403869629,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What first inspired you to start acting when you were young?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.0901375412940979,
+                            "outline_relevance": 0.49274563789367676,
+                            "originality": 0.1795487403869629,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Well, technical glitch. Thanks very much for being with us. And you wrote about your experience as a child actor in an article for the website Cracked. And you wrote you're glad you weren't Olsen twins famous, but you are pretty famous.",
+            "previous_answer": "Well, thank you. I mean, I think that when I was child, acting was mostly just a hobby for me. It was something that my parents encouraged me to think of the way that my brothers thought of their cross-country classes, or my little sister to dance classes and art classes, and it was something like that for me. You know, the other kids were playing Little League or Pee-Wee hockey or whatever, and I was - well, I was an actor. That's the way that I saw it. So I never really realized how much of an impact that was having on other kids' lives. And still to this day, I'm not sure how much on an impact I really had.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share more about how your family background influenced your decision to pursue acting as a child?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.572965681552887,
+                        "outline_relevance": 0.5822246670722961,
+                        "originality": 0.31563490629196167,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you share more about how your family background influenced your decision to pursue acting as a child?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.572965681552887,
+                            "outline_relevance": 0.5822246670722961,
+                            "originality": 0.31563490629196167,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "And you wrote in your piece that this was your choice. You didn't have a stage mom and stage dad. This was something you wanted to do.",
+            "previous_answer": "Yes, yes. I definitely wanted to be an actor. My oldest brother had done a little bit of acting, too, and he sort of fallen into it. My family was in a toothpaste commercial, I think, either before I was born or when I was a baby. And they were in it. And my oldest brother sort of, I guess, got bitten by the bug, and he started doing some acting as well. And I saw what he was doing and I always love performing. I loveD making up stories and performing them. They were like the epic poems. I just sang and dance and perform them. And I really love doing that, and so I told my mom, mommy, I want to do what Danny what does. And she said, no, you don't. But they explained their concept of rejection to me, and I was not to dissuade. I was a very headstrong five-year-old, and so they thought that maybe they would take me on a few auditions. And I eventually was cast in some commercials, and then I was called for a movie, which was \"Mrs. Doubtfire.\" And we went to it on a whim, and I ended up getting cast. And things sort of snowballed from there, and it was not what any of us were expecting at all, but that's what happened.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe how your family's attitude towards your acting ambitions differed from what is commonly seen with very involved or 'stage parent' dynamics?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4522033929824829,
+                        "outline_relevance": 0.735273003578186,
+                        "originality": 0.2370818853378296,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you describe how your family's attitude towards your acting ambitions differed from what is commonly seen with very involved or 'stage parent' dynamics?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4522033929824829,
+                            "outline_relevance": 0.735273003578186,
+                            "originality": 0.2370818853378296,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "And was your mom, in the end, right? No, you didn't want to be a child actor?",
+            "previous_answer": "I don't think I really wanted to be an actor when I grew up. I do think that I took it very lightly. I tried to take it seriously when I was on set and tried to be professional as professional as a six-year-old can be. But I don't think that I really wanted to be an actor. I knew that I always wanted to be a writer. I wanted to make up stories from the moment I knew what a story was. And when people asked me what I was going to do when I grow up, I always said, I'm going to be a writer. I'm going to write screenplays. I'm going to write books. I'm going to write plays. That's what I'm going to do. Acting was just an incidental hobby.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe how your family background and upbringing influenced your decision to pursue acting initially?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6491100788116455,
+                        "outline_relevance": 0.6156928539276123,
+                        "originality": 0.14229542016983032,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you describe how your family background and upbringing influenced your decision to pursue acting initially?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6491100788116455,
+                            "outline_relevance": 0.6156928539276123,
+                            "originality": 0.14229542016983032,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Is there a community of child actors?",
+            "previous_answer": "There is, sort of. A lot of child actors do a lot of charity work together. And some of my friends, some of my closest friends I actually met through charity organizations I did a lot when I was younger. I did Children Affected by AIDS Foundation. I did Starlight Foundation, Make a Wish Foundation. I was in this group called Kids with a Cause with Hillary Duff and Michael Welch, who's now in the \"Twilight\" movies and a bunch of actors. My first boyfriend was a child actor, actually, and I met him doing charity work. And it was nice because there were other people who understood what it was like to go through that.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How does the public's perception of former child stars change as they grow older, and how has that affected your career and personal life?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.35994094610214233,
+                        "outline_relevance": 0.8617295026779175,
+                        "originality": 0.49180442094802856,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How does the public's perception of former child stars change as they grow older, and how has that affected your career and personal life?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.35994094610214233,
+                            "outline_relevance": 0.8617295026779175,
+                            "originality": 0.49180442094802856,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Mm-hmm.",
+            "previous_answer": "I also grew up in Southern California, where, you know, kids coming out for pilot season was common. Kids would come out in the middle of the year from, you know, Detroit or, you know, Minnesota, some place like that, and we'd ask them why they came out and they'd say, oh, for pilot season. And that was just the way that it was.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did your family's background and support influence your initial decision to pursue acting?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.23629087209701538,
+                        "outline_relevance": 0.6439915299415588,
+                        "originality": 0.06254458427429199,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How did your family's background and support influence your initial decision to pursue acting?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.23629087209701538,
+                            "outline_relevance": 0.6439915299415588,
+                            "originality": 0.06254458427429199,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "So it was not that unusual in a sense, though, in - you step back and say, wow, this was pretty strange.",
+            "previous_answer": "Yeah, it was. It was a strange environment, and it's something - while I was writing the article for cracked.com, I was thinking about it, and I thought, are these things that I know, or are these things that everybody knows? And I had to actually ask, you know, I had to ask friends, saying, OK, this is what I think about child actors. Do you think everybody knows this? Or do you think this is something that I've gleaned from my own experiences? And a lot of them said, no, I've never heard of that. I've never thought of it like that before. That's really interesting because you've assumed that your life is universal even if you know how odd it is.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How does the public view and treat former child stars as they grow older, and what impact does this have on their personal and professional lives?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2497890293598175,
+                        "outline_relevance": 0.9542825818061829,
+                        "originality": 0.09189349412918091,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How does the public view and treat former child stars as they grow older, and what impact does this have on their personal and professional lives?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2497890293598175,
+                            "outline_relevance": 0.9542825818061829,
+                            "originality": 0.09189349412918091,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "And one of things that you wrote about was having an entourage effectively.",
+            "previous_answer": "Yes.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you share more about what you meant by having an entourage effectively and how that shaped your experience as a child actor?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.10720143467187881,
+                        "outline_relevance": 0.6777599453926086,
+                        "originality": 0.29731982946395874,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share more about what you meant by having an entourage effectively and how that shaped your experience as a child actor?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.10720143467187881,
+                            "outline_relevance": 0.6777599453926086,
+                            "originality": 0.29731982946395874,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "You have a whole group of people around. Very important - your well-being is very important to them.",
+            "previous_answer": "Yes. Well, the thing is when you are a child, you've got other people taking care of you all the time. And a lot of child stars, I think - child actors and child stars, I think, there might be a distinction. I'm not quite sure what it is, but there might be...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on what differences you perceive between child actors and child stars, especially in terms of their experiences and challenges?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7225903272628784,
+                        "outline_relevance": 0.7608734369277954,
+                        "originality": 0.31075775623321533,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you elaborate on what differences you perceive between child actors and child stars, especially in terms of their experiences and challenges?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7225903272628784,
+                            "outline_relevance": 0.7608734369277954,
+                            "originality": 0.31075775623321533,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "Maybe not in their minds, but...",
+            "previous_answer": "Exactly. Exactly. But people are, you know, catering to your every whim, and I think that this is a problem because kids who are always told that they're special and always told that they're the best and never allowed to make mistakes and never allowed to do things on their own, these kids have trouble growing up. It's been a source of a lot of controversy even just in, you know, the so-called helicopter parents and the so-called gifted children. And I saw that with just kids I knew at public school that were gifted. A lot of them struggled as they got older because they've been told they were smart. And so when they failed, they felt let down, they felt confused, and they blamed themselves. So I think you see that on a much grander level with a child star where they get this level of fame and success and they think that that's going to last forever because they get used to it. And as they get older it's taken away from them, and they're not sure who to blame. And they don't know how to do anything for themselves.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Switching focus a bit, can you describe what financial protections are currently in place for child actors and whether you believe they are sufficient?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4092457890510559,
+                        "outline_relevance": 0.7911771535873413,
+                        "originality": 0.3779994249343872,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Switching focus a bit, can you describe what financial protections are currently in place for child actors and whether you believe they are sufficient?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4092457890510559,
+                            "outline_relevance": 0.7911771535873413,
+                            "originality": 0.3779994249343872,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 11,
+            "actual_question": "And almost inevitably taken away from them by a disease called adolescence.",
+            "previous_answer": "Yes, exactly. I mean I think that child stars are - they're used, in a way, to - their cuteness is used. And a lot of child actors - I mean people often ask me, they say why were you in so many kids' movies. And one was that my mother and father believed that there weren't enough good kids' movies out there. Now, I wasn't always in the best kids' movies, but they thought that that was important. And another thing is that there can really only be so many \"To Kill A Mockingbirds\" out there. But child stars are used. They're cute, and so they're used. And they're smiley and they're, you know, say - they say cute things, and people make them do these things. And they do it because they do want to act and they want attention, and so they're going to be doing it. But people will come to loathe them because they're so cute. I had people in Entertainment Weekly talking about how they wanted to throttle me because they thought I was too disgustingly cute, as if that were my fault, you know, as if that was my fault, not the fault of directors and producers and such.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did the public's perception and treatment of you change as you transitioned from a child star to an adult?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.48390328884124756,
+                        "outline_relevance": 0.735094428062439,
+                        "originality": 0.1577855944633484,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How did the public's perception and treatment of you change as you transitioned from a child star to an adult?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.48390328884124756,
+                            "outline_relevance": 0.735094428062439,
+                            "originality": 0.1577855944633484,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 12,
+            "actual_question": "And there is this other impression that acting in movies is just about the most glamorous fun thing that could possibly happen to a kid.",
+            "previous_answer": "Oh, yeah. It's hard. You're in a very, very structured environment, and you have to be very professional and you have to pay attention to whatever is going on. And it is kind of disciplined, but also, like I said, you don't make a lot of choices for yourself. And you have to be - you have to sacrifice, you have to make sacrifices for the good of the production. The director is the one who's making all the decisions, and the studios and producers are, you know, up on the director as well. I had a moment when I was a child when I was a child where I was filming a scene and a soccer ball hit me in the chest, and I had to keep on going with the scene even though I was hurt, because I didn't know what else to do. And as soon as they yelled cut, I started crying. And the - everybody on the crew burst out into applause, and that made me cry harder. My mom said, no, don't worry, they just thought that you were being professional. And that's the kind of thing you have to do. You're also in this environment where you realize that, hey, I can't really make a mistake because making a mistake is going to cost time and money, and it's not going to help out the production. So you realize or you think, rather, as a child that this is something that can't happen. I can't make a mistake. I have to be perfect. I have to get it right all the time. And that's not a healthy mindset for a child.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did the experience of having to be 'perfect' on set affect your mental health both during your time as a child actor and afterward in your adult life?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3268468976020813,
+                        "outline_relevance": 0.5707743167877197,
+                        "originality": 0.41304659843444824,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How did the experience of having to be 'perfect' on set affect your mental health both during your time as a child actor and afterward in your adult life?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3268468976020813,
+                            "outline_relevance": 0.5707743167877197,
+                            "originality": 0.41304659843444824,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 13,
+            "actual_question": "And then when inevitably you grow out of your cuteness, and all of a sudden these people aren't around anymore telling you how really, really great you really, really are.",
+            "previous_answer": "Yeah. It's hard. It's - you lose that praise. You lose what you had. And you are so used to it. It's almost like a drug. And all of a sudden it's like withdrawal. You just go off of it, and you feel very rejected. I write in my piece that a lot of kids feel very rejected and very uncomfortable. They're going through puberty, but imagine if the whole rest of the world was basically saying, yeah, you know what, you are pretty useless. You are pretty ugly. And there's a lot of that out there.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe some of the ways child actors typically cope with the intense feelings of rejection and loss they experience as they grow up in the public eye?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5179033279418945,
+                        "outline_relevance": 0.7848153114318848,
+                        "originality": 0.3234673738479614,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you describe some of the ways child actors typically cope with the intense feelings of rejection and loss they experience as they grow up in the public eye?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5179033279418945,
+                            "outline_relevance": 0.7848153114318848,
+                            "originality": 0.3234673738479614,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 14,
+            "actual_question": "Confirming the opinion every 13-year-old has about him or herself.",
+            "previous_answer": "Exactly. Exactly. And they think that it's going to be like this forever, and it's hard.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe a moment when you realized that your self-perception as a young teen was starting to change?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.15054380893707275,
+                        "outline_relevance": 0.4776137173175812,
+                        "originality": 0.3822501301765442,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you describe a moment when you realized that your self-perception as a young teen was starting to change?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.15054380893707275,
+                            "outline_relevance": 0.4776137173175812,
+                            "originality": 0.3822501301765442,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 15,
+            "actual_question": "Kids think everything is forever.",
+            "previous_answer": "Yeah, exactly. Kids think everything is forever. So they think that their happiness in their career - their happiness with their career is going to last. They think their career is going to last. And they don't realize that that's not going to last. And then when they're going through puberty, they think that that's going to last too.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What protections are currently in place to safeguard the earnings of child actors, and do you believe these measures are sufficient?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.22340965270996094,
+                        "outline_relevance": 0.9227719902992249,
+                        "originality": 0.1800377368927002,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What protections are currently in place to safeguard the earnings of child actors, and do you believe these measures are sufficient?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.22340965270996094,
+                            "outline_relevance": 0.9227719902992249,
+                            "originality": 0.1800377368927002,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 16,
+            "actual_question": "You wrote there - I was just talking about that earlier, that damned-if-you-do-damned-if-you-don't equation. There are some who are opportunists.",
+            "previous_answer": "Yeah. There are. I think that there are a lot out there who don't really know what else to do, who keep acting because in the years when they were supposed to be learning what else they could be doing with their lives, in the years when they were supposed to be in schools and, say, you know, studying sociology or fire safety or something like that, where, you know, that's where I think kids get their ideas too, for what they want to be when they grow up. They're in school. They think about the things that interest them. And then they learn to apply that later in life. But in those years these kids were acting, and only acting, and just acting. And they did have school, and lot of them had tutors, and do have, you know, a decent amount of education, but they don't have the kind of education that you get in a school, the kind of specialized education - they have a specialized education rather than a general one. So I think that a lot of them don't really know what to do. And so it's hard to blame them for wanting to seize on this. I didn't want to do that. I didn't want to be a former child actor for the rest of my life, although in some ways I suppose I am. I am going to be that. And all I can do is, you know, embrace it for what it was. I did have some wonderful experiences. Learn from the things that weren't so great and just try to get on from there.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share your thoughts on the financial protections in place for child actors and how effective you think they are in safeguarding their earnings?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.39934828877449036,
+                        "outline_relevance": 0.8622397780418396,
+                        "originality": 0.12521666288375854,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share your thoughts on the financial protections in place for child actors and how effective you think they are in safeguarding their earnings?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.39934828877449036,
+                            "outline_relevance": 0.8622397780418396,
+                            "originality": 0.12521666288375854,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 17,
+            "actual_question": "We're talking with Mara Wilson, the recovering child actor, she describes herself, known for \"Matilda,\" \"Mrs. Doubtfire\" and \"Miracle on 34th Street\" - now a writer in New York. You're listening to TALK OF THE NATION from NPR News. And yes, child actors are in a separate category but so are baseball players and ballet artists and violinists. There are all kinds of kids who specialize in certain things, become prodigies at it and later in life have to go on - well, there's this sort of career death.",
+            "previous_answer": "Yes, I think that with child actors, and I would say also child musical performers are in the same category as them, I think that one thing with them that's a little bit different is the level of exposure. A child prodigy at music is going to be very well known in the classical music field but it's not as widespread as pop culture. I think also, child athletes know to an extent that their career is going to be short. They know that if they're going to be in the Olympics, they're going to be it for this amount of time and they're going to be an Olympic winner for the rest of their lives, but they know that that career is short. A lot of child actors, I think they think that things are going to go on forever. Now - but I do think that a lot of them also struggle with the same things as well. They have difficulties looking back at what they've done and thinking, I have to get pass that, I have to surpass that, I have to top that because otherwise I'm a joke. And child actors really are one of the easiest targets out there, I think. And with possibly - I'm not going to say with good reason, but I am good to say that there are lot of examples out there of what can happen when a child grows up and loses this thing that they had and sort of loses their mind, so to speak.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What kinds of financial protections are currently in place for child actors' earnings, and how effective do you think they are in safeguarding their interests?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4815618097782135,
+                        "outline_relevance": 0.9256956577301025,
+                        "originality": 0.05604606866836548,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What kinds of financial protections are currently in place for child actors' earnings, and how effective do you think they are in safeguarding their interests?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4815618097782135,
+                            "outline_relevance": 0.9256956577301025,
+                            "originality": 0.05604606866836548,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 18,
+            "actual_question": "And at that point we all seem to pay very close attention to these kids that we used to, well, all want to be in some level or another, and then, well, we're certainly better than they are now.",
+            "previous_answer": "Yeah. It's definitely - there's definitely that kind of, you know, schadenfreude, that happiness at their misfortune. There's definitely that. And I think that's actually what a lot of celebrity culture is. I think it's something like looking at other people who are falling down and thinking, wow, I am so much better than them now. It's looking at them and putting them down to build ourselves up. It's looking at that and making that reflection. And I think that that's what a lot of child stardoms are. They're a very easy target. Child stars are a very easy target. And I accept that myself. And it's funny because, I mean I remember when I was a kid, you know, looking at the Olsen twins and thinking, man, I'm never going to be like them. I didn't understand - and they're doing well now. But even, you know, when they were famous, I remember thinking of them as this object and not a human being. I dehumanized them. I thought of them as these objects. And it didn't occur to me until many years later that people saw me the same way, that they saw me as this object. And that made me understand a little bit better, OK, well, I'm not actually - yeah, I'm not to blame for all of the hatred that's coming my way. Or maybe I am but only to a small extent. And that's something that I understood or I tried to understand, but I think a lot of child stars out there don't understand. And they take it very, very hard.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: How did realizing you were also dehumanized affect your mental health over time?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.3599309027194977,
+                        "outline_relevance": 0.30955541133880615,
+                        "originality": 0.40492916107177734,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How did realizing you were also dehumanized affect your mental health over time?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.3599309027194977,
+                            "outline_relevance": 0.30955541133880615,
+                            "originality": 0.40492916107177734,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 19,
+            "actual_question": "You also made a fair amount of money in your career. And it sounds from your piece as if your parents kept it for you and you used it wisely, pay for college, that sort of thing.",
+            "previous_answer": "Yeah.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are some of the most common financial challenges that child actors face as they transition from their acting careers to adulthood?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.01590060442686081,
+                        "outline_relevance": 0.888962984085083,
+                        "originality": 0.30887383222579956,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What are some of the most common financial challenges that child actors face as they transition from their acting careers to adulthood?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.01590060442686081,
+                            "outline_relevance": 0.888962984085083,
+                            "originality": 0.30887383222579956,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 20,
+            "actual_question": "And that case is not universal?",
+            "previous_answer": "No, that's not. I mean I went away to a boarding school for the visual and performing arts, Idyllwild Academy, when I was in 11th grade, and then I ended up going to NYU for interdisciplinary theater studies and studied playwriting and such. But yeah, only about - you can - the Coogan Law, which allows children to save some of the money that they have, named after Jackie Coogan, whose parents stole basically all of his money...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are some common financial challenges child actors face as they grow older and transition into adulthood?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3135649561882019,
+                        "outline_relevance": 0.931099534034729,
+                        "originality": 0.07592862844467163,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What are some common financial challenges child actors face as they grow older and transition into adulthood?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3135649561882019,
+                            "outline_relevance": 0.931099534034729,
+                            "originality": 0.07592862844467163,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 21,
+            "actual_question": "Millions.",
+            "previous_answer": "Yeah. Millions of dollars. And they actually - the Coogan Law at this moment though actually only protects about 15 percent of a child's earning. And so there's a whole 85 percent that goes somewhere else. And the parents can use it for various things. And the child can use it but, you know, when you're a child you're not going to make most sound financial decisions. And you end up seeing a lot of child stars actually growing up and getting emancipated from their parents because they don't like the way that their parents have handled their money. And there are other loopholes around it too, like they can appear - they have to appear in front of a court to say that they can do this. But the ones who don't appear in front of a court, they don't have to necessarily pay attention to those rules. And there are a lot of loopholes and sadly there are lot of parents using their kids to make money.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are some typical financial challenges that child actors face as they grow into adulthood, and how do these impact their long-term financial stability?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5063044428825378,
+                        "outline_relevance": 0.8893413543701172,
+                        "originality": 0.04197525978088379,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What are some typical financial challenges that child actors face as they grow into adulthood, and how do these impact their long-term financial stability?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5063044428825378,
+                            "outline_relevance": 0.8893413543701172,
+                            "originality": 0.04197525978088379,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 22,
+            "actual_question": "Well, Mara Wilson, thank you very much for your time today. We appreciate your insight. I love the picture of Alfred Hitchcock, who you say once described actors as cattle. And your line, please?",
+            "previous_answer": "That would make child actors veal.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe how your family's background and support influenced your decision to begin acting as a child?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3477303385734558,
+                        "outline_relevance": 0.6010873913764954,
+                        "originality": 0.052834510803222656,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you describe how your family's background and support influenced your decision to begin acting as a child?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3477303385734558,
+                            "outline_relevance": 0.6010873913764954,
+                            "originality": 0.052834510803222656,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 23,
+            "actual_question": "Mara Wilson is a self-proclaimed recovering child actor. You might recognize her from \"Matilda,\" \"Mrs. Doubtfire\" or \"Miracle on 34th Street.\" She wrote about her experience for the website Cracked. You can find a link to that piece on our website. Thanks very much for being with us today.",
+            "previous_answer": "Thank you very much for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did your family background influence your decision to pursue acting as a child?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.021876338869333267,
+                        "outline_relevance": 0.6032950282096863,
+                        "originality": 0.023815691471099854,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How did your family background influence your decision to pursue acting as a child?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.021876338869333267,
+                            "outline_relevance": 0.6032950282096863,
+                            "originality": 0.023815691471099854,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

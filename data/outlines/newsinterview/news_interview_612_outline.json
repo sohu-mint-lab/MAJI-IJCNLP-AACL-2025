@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Historical Context of the No. 9 Coal Mine Explosion",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the circumstances surrounding the No. 9 Coal Mine explosion in 1968?",
+        "importance": "critical",
+        "keywords": [
+          "No. 9 Coal Mine",
+          "explosion",
+          "history"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the incident contribute to legislative changes in mine safety?",
+        "importance": "high",
+        "keywords": [
+          "Coal Mine Health and Safety Act",
+          "legislation",
+          "safety"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Personal Impact and Family Reactions",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did Senator Manchin personally experience the aftermath of the explosion?",
+        "importance": "critical",
+        "keywords": [
+          "personal experience",
+          "family",
+          "aftermath"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What emotions did the families of the victims go through during the waiting period?",
+        "importance": "high",
+        "keywords": [
+          "families",
+          "emotions",
+          "waiting"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Legal Proceedings and Closure for Victims' Families",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is the significance of the lawsuit being pursued by the families now?",
+        "importance": "high",
+        "keywords": [
+          "lawsuit",
+          "closure",
+          "families"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Senator Manchin view the importance of moving forward with the lawsuit?",
+        "importance": "high",
+        "keywords": [
+          "Senator Manchin",
+          "lawsuit",
+          "importance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Political Landscape and Senator Manchin's Strategy",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Senator Manchin plan to approach the upcoming election in West Virginia?",
+        "importance": "high",
+        "keywords": [
+          "political strategy",
+          "election",
+          "West Virginia"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What stance does Manchin take regarding his support for President Trump?",
+        "importance": "high",
+        "keywords": [
+          "support",
+          "President Trump",
+          "politics"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Tom Friedman",
+    "age": 65,
+    "personality": "Insightful and analytical, with a touch of humor; possesses a hopeful perspective but remains critically aware of global complexities.",
+    "employment": "New York Times columnist and author",
+    "communication_style": "Engaging and conversational, often using analogies and metaphors to clarify complex issues.",
+    "notes": "Frequent commentator on foreign policy; recently published a book titled 'Thank You For Being Late.'"
+  }
+}

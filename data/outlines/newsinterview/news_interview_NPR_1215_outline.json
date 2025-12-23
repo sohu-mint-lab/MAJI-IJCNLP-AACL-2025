@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Opportunity Rover's Journey",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What has been the trajectory of the Mars Rover Opportunity since its launch?",
+        "importance": "critical",
+        "keywords": [
+          "Opportunity Rover",
+          "trajectory",
+          "mission duration"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How long was the mission initially planned for and how does that compare to its actual duration?",
+        "importance": "high",
+        "keywords": [
+          "mission duration",
+          "initial plan",
+          "actual duration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Discoveries at Endeavour Crater",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What makes Endeavour Crater significant in the exploration of Mars?",
+        "importance": "critical",
+        "keywords": [
+          "Endeavour Crater",
+          "significance",
+          "discoveries"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What types of rocks have been found at Endeavour Crater, and how do they differ from previous findings?",
+        "importance": "high",
+        "keywords": [
+          "rocks",
+          "differences",
+          "discoveries"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impact of Rover Design on Mission Success",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How have the design and engineering of the Opportunity Rover contributed to its longevity?",
+        "importance": "critical",
+        "keywords": [
+          "design",
+          "engineering",
+          "longevity"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What lessons learned from the Opportunity Rover will be applied in future missions?",
+        "importance": "high",
+        "keywords": [
+          "lessons learned",
+          "future missions",
+          "engineering"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Plans for Future Missions to Mars",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What is the significance of the upcoming Mars Science Laboratory mission and the Curiosity Rover?",
+        "importance": "critical",
+        "keywords": [
+          "Mars Science Laboratory",
+          "Curiosity Rover",
+          "significance"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What considerations are made when selecting a landing site for a Mars mission?",
+        "importance": "high",
+        "keywords": [
+          "landing site",
+          "considerations",
+          "Mars mission"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Background of the Migrant's Journey",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the circumstances that led the individual to leave Honduras?",
+        "importance": "critical",
+        "keywords": [
+          "Honduras",
+          "migration",
+          "circumstances"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What challenges did he face during his journey to the United States?",
+        "importance": "high",
+        "keywords": [
+          "challenges",
+          "journey",
+          "migration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Impact of Temporary Protected Status (TPS)",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What role did TPS play in the migrant's ability to stay in the U.S.?",
+        "importance": "critical",
+        "keywords": [
+          "TPS",
+          "Temporary Protected Status",
+          "impact"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How did the Trump administration's decision affect his life after 26 years in the U.S.?",
+        "importance": "high",
+        "keywords": [
+          "Trump administration",
+          "life impact",
+          "deportation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Family Separation and Its Consequences",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What hardships did the migrant's son face after being left behind?",
+        "importance": "critical",
+        "keywords": [
+          "family separation",
+          "son's hardships",
+          "Honduras"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What were the implications of the son's decision to join the caravan of migrants?",
+        "importance": "high",
+        "keywords": [
+          "son's decision",
+          "migrant caravan",
+          "implications"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "The Current Immigration Climate",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How has the current political climate affected the ability of migrants to seek asylum?",
+        "importance": "critical",
+        "keywords": [
+          "political climate",
+          "asylum",
+          "immigration rules"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are the father's hopes regarding his son's potential arrival in the U.S.?",
+        "importance": "high",
+        "keywords": [
+          "hopes",
+          "father-son reunion",
+          "Christmas"
+        ]
+      }
+    ]
+  }
+]

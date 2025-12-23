@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Security Aid to Ukraine",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was the initial announcement regarding security assistance to Ukraine?",
+        "importance": "critical",
+        "keywords": [
+          "security aid",
+          "Ukraine",
+          "Pentagon"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "When did lawmakers first become aware of the aid being frozen?",
+        "importance": "high",
+        "keywords": [
+          "lawmakers",
+          "frozen aid",
+          "awareness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Communication Breakdown",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Why was it unusual for Congressman Smith not to be notified by the Pentagon about the frozen funds?",
+        "importance": "critical",
+        "keywords": [
+          "communication",
+          "Pentagon",
+          "unusual"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What was the response from the Pentagon regarding the release of funds?",
+        "importance": "high",
+        "keywords": [
+          "Pentagon",
+          "response",
+          "funds"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Political Implications of Aid Freezing",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How did the lobbying campaign influence the release of aid?",
+        "importance": "critical",
+        "keywords": [
+          "lobbying campaign",
+          "aid release",
+          "influence"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What did Congressman Smith believe was the reason behind the aid being held up?",
+        "importance": "high",
+        "keywords": [
+          "aid",
+          "held up",
+          "political implications"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Conclusions and Ongoing Questions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What conclusions can be drawn regarding the motivations behind the freeze of Ukrainian aid?",
+        "importance": "critical",
+        "keywords": [
+          "conclusions",
+          "motivations",
+          "Ukrainian aid"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What unanswered questions remain about the aid and the president's involvement?",
+        "importance": "high",
+        "keywords": [
+          "unanswered questions",
+          "president",
+          "aid involvement"
+        ]
+      }
+    ]
+  }
+]

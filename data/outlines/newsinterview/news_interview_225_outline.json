@@ -1,0 +1,70 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Sri Lanka Bombings",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What details are available regarding the locations and impacts of the bombings in Sri Lanka?",
+        "importance": "critical",
+        "keywords": [
+          "Sri Lanka",
+          "bombings",
+          "impacts"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Responses and Reactions",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How have global leaders reacted to the attacks in Sri Lanka?",
+        "importance": "high",
+        "keywords": [
+          "responses",
+          "global leaders",
+          "reactions"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What messages did President Trump convey in light of the tragic events?",
+        "importance": "high",
+        "keywords": [
+          "President Trump",
+          "condolences",
+          "messages"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Historical Context of Violence in Sri Lanka",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What historical events might help explain the significance of the recent attacks?",
+        "importance": "critical",
+        "keywords": [
+          "Sri Lanka",
+          "civil war",
+          "historical context"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the demographic and religious composition of Sri Lanka relate to the violence?",
+        "importance": "high",
+        "keywords": [
+          "demographics",
+          "religious composition",
+          "violence"
+        ]
+      }
+    ]
+  }
+]

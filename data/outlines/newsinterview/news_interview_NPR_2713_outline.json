@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Amiri Baraka's Literary Journey",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How does Amiri Baraka describe his identity in relation to his work?",
+        "importance": "critical",
+        "keywords": [
+          "identity",
+          "literary journey",
+          "Amiri Baraka"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Differences Between Poetry and Short Stories",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What distinctions does Baraka make between poetry and short stories?",
+        "importance": "high",
+        "keywords": [
+          "poetry",
+          "short stories",
+          "craft"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Baraka's background in beat poetry influence his writing style?",
+        "importance": "optional",
+        "keywords": [
+          "beat poetry",
+          "writing style",
+          "influence"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Political Activism and Art",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what ways does Baraka connect his art with his political beliefs?",
+        "importance": "critical",
+        "keywords": [
+          "politics",
+          "art",
+          "activism"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What is Baraka's perspective on the challenges facing black leadership in Newark?",
+        "importance": "high",
+        "keywords": [
+          "black leadership",
+          "Newark",
+          "community"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Reflections and Legacy",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Baraka feel about the influence of his work on his family?",
+        "importance": "high",
+        "keywords": [
+          "family influence",
+          "legacy",
+          "literary impact"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What would Baraka like his epitaph to convey about his life and work?",
+        "importance": "optional",
+        "keywords": [
+          "epitaph",
+          "legacy",
+          "life message"
+        ]
+      }
+    ]
+  }
+]

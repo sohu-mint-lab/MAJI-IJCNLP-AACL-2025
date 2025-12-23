@@ -1,0 +1,108 @@
+[
+  {
+    "id": "S1",
+    "section": "Current Political Landscape and Negotiations",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the key shifts in President Trump's approach to negotiations regarding DACA?",
+        "importance": "critical",
+        "keywords": [
+          "Trump",
+          "negotiations",
+          "DACA",
+          "compromise"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How are congressional Democrats responding to the president's new strategies?",
+        "importance": "high",
+        "keywords": [
+          "Democrats",
+          "response",
+          "government shutdown"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Nature of Trump's Negotiation Style",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does Trump's negotiation style differ from traditional legislative negotiations?",
+        "importance": "critical",
+        "keywords": [
+          "Trump",
+          "negotiation style",
+          "legislation"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What role does Mitch McConnell play in the current negotiation dynamics?",
+        "importance": "high",
+        "keywords": [
+          "Mitch McConnell",
+          "negotiation",
+          "Senate"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impact of Foreign Policy on Domestic Perception",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the implications of Trump's meetings with North Korea for U.S. foreign policy?",
+        "importance": "high",
+        "keywords": [
+          "North Korea",
+          "Trump",
+          "foreign policy",
+          "summit"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How have Trump's foreign policy actions been interpreted in terms of public relations for North Korea?",
+        "importance": "optional",
+        "keywords": [
+          "public relations",
+          "North Korea",
+          "Trump"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Media Narratives and the Mueller Investigation",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How has recent reporting influenced public perception of the Mueller investigation?",
+        "importance": "critical",
+        "keywords": [
+          "Mueller investigation",
+          "BuzzFeed",
+          "media"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are the broader implications of Mueller's rare statement regarding the BuzzFeed report?",
+        "importance": "high",
+        "keywords": [
+          "Mueller",
+          "statement",
+          "credibility"
+        ]
+      }
+    ]
+  }
+]

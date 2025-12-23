@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Artist Introduction and New Album",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the significance behind the title of your new album 'Posthumous Success'?",
+        "importance": "critical",
+        "keywords": [
+          "Posthumous Success",
+          "album title",
+          "significance"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Can you describe the style and theme of your new music?",
+        "importance": "high",
+        "keywords": [
+          "style",
+          "theme",
+          "music"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Vocal Style and Influences",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How do you feel about the perception of your vocal range as it relates to your identity as a singer?",
+        "importance": "critical",
+        "keywords": [
+          "vocal range",
+          "identity",
+          "perception"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Which artists have influenced your singing style?",
+        "importance": "high",
+        "keywords": [
+          "influences",
+          "singing style",
+          "artists"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Recording Process and Experimentation",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What motivated you to change your approach in the recording of your new album?",
+        "importance": "critical",
+        "keywords": [
+          "recording process",
+          "approach",
+          "new album"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Can you explain the differences between the stripped-down and layered versions of 'My Favorite Color Blue'?",
+        "importance": "high",
+        "keywords": [
+          "stripped-down",
+          "layered versions",
+          "My Favorite Color Blue"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Insights and Future Direction",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How have your experiences influenced your songwriting in recent years?",
+        "importance": "critical",
+        "keywords": [
+          "experiences",
+          "songwriting",
+          "influence"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are your plans for upcoming tours or projects post-album release?",
+        "importance": "high",
+        "keywords": [
+          "upcoming tours",
+          "projects",
+          "album release"
+        ]
+      }
+    ]
+  }
+]

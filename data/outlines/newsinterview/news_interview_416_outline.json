@@ -1,0 +1,73 @@
+[
+  {
+    "id": "S1",
+    "section": "Racial Underpinnings of Political Rhetoric",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How does President Trump's rhetoric surrounding birthright citizenship connect to historical racial issues?",
+        "importance": "critical",
+        "keywords": [
+          "Trump",
+          "birthright citizenship",
+          "14th Amendment",
+          "race"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What are some examples of how Trump's advisors have influenced immigration policy through a racial lens?",
+        "importance": "high",
+        "keywords": [
+          "Trump's advisors",
+          "immigration policy",
+          "racial lens"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Media's Role in Discussing Race",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What challenges do journalists face when deciding whether to report on Trump's comments regarding the 14th Amendment?",
+        "importance": "critical",
+        "keywords": [
+          "journalism",
+          "reporting",
+          "14th Amendment",
+          "Trump"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Engaging in Conversations about Race",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How can a more engaging dialogue about race be fostered among individuals who may feel exhausted by the topic?",
+        "importance": "high",
+        "keywords": [
+          "dialogue",
+          "race",
+          "engagement",
+          "exhaustion"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What does Sam Sanders suggest as an effective strategy for initiating conversations about race with others?",
+        "importance": "optional",
+        "keywords": [
+          "strategy",
+          "conversation",
+          "listening"
+        ]
+      }
+    ]
+  }
+]

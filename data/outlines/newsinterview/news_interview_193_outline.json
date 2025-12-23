@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the European Parliament Elections",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the key issues at stake in the upcoming European Parliament elections?",
+        "importance": "critical",
+        "keywords": [
+          "European Parliament",
+          "elections",
+          "populist parties"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the situation with Brexit impact these elections?",
+        "importance": "high",
+        "keywords": [
+          "Brexit",
+          "UK",
+          "elections"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Rise of Nationalist and Far-Right Parties",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Which nationalist and far-right candidates are expected to perform well in the elections?",
+        "importance": "critical",
+        "keywords": [
+          "nationalist parties",
+          "far-right",
+          "France",
+          "Italy"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What recent actions have these far-right parties taken to increase their influence?",
+        "importance": "high",
+        "keywords": [
+          "far-right parties",
+          "meeting",
+          "support"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Concerns Over Election Interference and Security",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What measures are in place to address concerns about election interference?",
+        "importance": "critical",
+        "keywords": [
+          "election interference",
+          "Russia",
+          "security measures"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What risks are experts predicting right before the election day?",
+        "importance": "high",
+        "keywords": [
+          "risks",
+          "disinformation",
+          "expert predictions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Impact of the Outcomes on Europe",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What potential effects could a win for the far-right parties have on Europe?",
+        "importance": "critical",
+        "keywords": [
+          "far-right",
+          "effects",
+          "populist parties"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How do public sentiments regarding migration and security influence the election?",
+        "importance": "high",
+        "keywords": [
+          "migration",
+          "security",
+          "public sentiment"
+        ]
+      }
+    ]
+  }
+]

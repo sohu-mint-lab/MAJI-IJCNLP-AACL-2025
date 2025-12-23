@@ -1,0 +1,208 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "We have been talking about science in Iraq in this hour, and there's also a lot of U.S. high-tech over there. And much of it is in use by the military in the form of robots. Now you may be familiar with the robotics company, iRobot, you know, popular for the robotic vacuum cleaner, the Roomba. But what you may not know is that the company also makes robots for military use - and it actually got started that way. Currently, over 500 of its PacBots have been delivered worldwide, to help in military tasks such as the disposal of roadside bombs. And there's even a new generation of robots in the works. When is that generation? Well, maybe we'll find out from Helen Greiner. She's Chairman and Co-Founder of the iRobot Company in Burlington, Massachusetts. Welcome back to the program."
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Hi, Ira. Good to speak to you again."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Can you give us a hint on what the new stuff you're working on is?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Oh, there is lots of new stuff that we're working on. We have more payloads for the PacBots. The troops are finding that they're really being strongly used for explosive ordinance disposal or going after bombs today. But (unintelligible)…"
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You mean they go up and dismantle the explosives, remotely?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "When a terrorist sets a bomb, what they used to do, is suit up one of our soldiers and actually send him up to it to remediate it. And now, they drive in a Humvee and they'll send the robot instead. The robot can put down some plastic explosive, move away, and then the soldiers can cause sympathetic detonation of the bomb. And this way, the soldier isn't exposed to needless danger."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And the new robots, how will they work differently?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Well, they were many different types of robots. You know, you mentioned the Roomba vacuuming robot. We just put out the Scooba, which is a floor-washing robot. On the military side we now have payloads on the PacBot for tactical operations. It has a very high-powered zoom camera, two-way audio, infrared illumination - that's one. We have the explosive ordinance disposal payload, that's got an eight-degree of freedom arm. It's got more flexibility than a human arm in many ways. It can reach into cars and up if a bomb is in a high place. It's got a fiber optic spooler. Going beyond that, we have some payloads under development. One is for explosive sniffing. So not only the robots remediating bombs, what if they could actually be sent out to find bombs?"
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Sort of like a mine-sweeper, sort of thing?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Right, except for these unexploded ordinance and IEDs, improvised explosive devices. Terrorists are littering Iraq with thousands of these homemade explosive devices."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Can you actually sniff them?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "We are looking at that. We've got some robots out that are being tested by the military now that can sniff out bombs many, many feet away."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Do they have an odor?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "It would be a trace of the TNT."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Um-hmm."
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Now, we also have some work under development, one is called the Red Owl payload. It's an acoustic sniper detector. So if a sniper takes a shot, the first thing a soldier might want to do is duck and take cover. But the robot has the ability to immediately home in on where the shot's coming from, and point towards it."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You mean by listening to where the sound originated?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Yes. That's work we do with Boston University Photonics Lab. We call that the Red Owl Program. And then there's also, you know, chemical, biological, nuclear - the military is worried about potential different types of attacks. And now these sensors are deployed via handheld sensors. And, we don't believe the handheld and chemical detectors really belong in the same sentence. All this type of equipment should be robot-deployed because it keeps the soldiers from being exposed to unnecessary danger."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You also have, what I see on your webpage, is called the John Deere Gator."
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Yes, we have been building some larger systems. One is the John Deere, the Gator that we've built with John Deere Corporation. This is a robot that you can get in and drive, or tele-operate it from a distance, meaning you can control its motions. Or it has autonomous capabilities, so it can follow a soldier or it can go from GPS waypoint to waypoint, while avoiding obstacles. We have one of these being tested at a naval base for perimeter security, making sure that a facility is well protected."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "I guess that even would have utility back home here, if they ever build that fence along our border."
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Oh, there are lots of places that we would like to put a perimeter around and protect it, and we believe that robots can play a good part in that new mission."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Um-hmm. What kind of robots are needed that you haven't built yet, that would need to extra high-tech?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Well one that we're working on now, that we call it the neo-robot. And this thing, it can go as fast as a human, it can carry the load of a soldier, it has the ground mobility of a soldier. We like to say it's as tough as an NFL player, so you can start to think of the robot not just being a tool that the soldiers use, but actually becoming part of the squad - a teammate for the soldiers."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Do we try to give them artificial intelligence too, that way, so they become one of the guys?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Well, we're not close to having artificial intelligence on a human level. Nobody is. But, if you take a particular mission, like vacuuming the floor, where it'll provide intelligence that accomplishes that mission. So, on the military side of things, going and doing perimeter security, autonomously; going into a building and doing a full coverage operation, looking for terrorists or looking for weapons caches or something; we can start to do autonomously, right inside the robot. Now, that doesn't mean we're close to human intelligence, because when we say autonomous, we like to say autonomous for this mission."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Um-hmm. Do you ever give the robot the ability to pull the trigger itself?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "I don't believe we should. Robots are good at some things - in fact they're great. They have no fear. They don't need to take breaks to do things, like sleep or distress, like soldiers. But they're also not good at a few things. Classification, being able to easily distinguish a situation, things that computers are generally haven't had human level at today. And one of them would be making a decision on lethality. So, the robots will, you know, if they are weaponized, they would be - it's just like having a remote weapons system. A human would be pulling the trigger."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Well we have lots of those in use now as these drones, that fly overhead with weapons in them, don't we?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Uh, they do, but they are not autonomously pulling the trigger. They - images coming back from those drones go to soldiers that are monitoring carefully what's happening, and then making any decision whether to take lethal action."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "We're talking with Helen Greiner, Chairman and Co-Founder of the iRobot Company on TALK OF THE NATION SCIENCE FRIDAY from NPR News. I'm Ira Flatow. Did they - did the soldiers actually bond with these robots? I know if I had a robot around me all the time, I might get to think of it as being human."
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Well, we know many of our Roomba customers bond with their robots. Just the sheer number of people that I've heard who name their robots indicates that. The soldiers, I've heard stories - there's one big guy comes back to the depot where they fix the robots, the robot hospital, so to speak, in Camp Victory(ph). And he's got this robot that's been blown up into pieces in his arms, and he asked, Can you fix it? And, you know, he'd actually named it. Its name was Scooby Doo, and, you know, he was very upset that it'd been blown to pieces. And the reason was, you could tell on the back of its head there was some scratch marks, you know the hash marks 1, 2, 3, 4, and then a five for a slash?"
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Um-hmm."
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "They, he, this robot had done 18 improvised explosive disposal missions. It had done one unexploded ordinance mission, one vehicle bomb explosive mission. And these are missions, that either this guy or his buddies, would've gone on. And the last mission the robot got blown up, and that would've probably happened to the soldiers. So these robots have been credited with saving he lives of many soldiers. They've done tens of thousands of missions. And I could see why soldiers would bond with them."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You know, in many wars past, GIs brought home things with them that became products. You know, like, I'm thinking of M&Ms, things like that they brought, they want to bring home with them. Pizza. Do you think that they're looking at these robots too, and saying, gosh, when I get back to the states, I wish I could have something like this?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "I think…"
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Then they're ready for your next line of scrubbers and vacuum cleaners."
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "I think that in their homes they're looking more at the vacuuming tasks, doing the chores around the home like vacuuming, like washing the floors. And in the future maybe things like dusting, washing the windows, cleaning the bathrooms, mowing the lawns, all things that robots will be good at. PacBot at home? It's a very serious piece of military equipment. They're probably not going to be able to take them home. But some of the technologies that we are first using in the military do make their way over to the consumer side of the business."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Um-hmm. What about tiny little robots that can crawl into spaces like a collapsed building, perhaps, and search for survivors? Do you get into that at all? You know, an electronic cockroach, so to speak, or an insect with eyes on it?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Well, the PacBot isn't that large itself. It's 42 pounds, 52 pounds in the full ordinance disposal configuration. And they were actually first deployed at the World Trade Center. They were in the hands of the search and rescue personnel. They couldn't go into the pile, but they were used on the outer buildings to look for structural damage. And we had some down in the wake of Katrina, going into places to look for people and damage, that it would have been unsafe to send our search and rescue personnel into."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Um-hmm. So anywhere there's danger, there's a spot for a robot?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "I think robots are really good at dull, dirty, and dangerous jobs. Dangerous are the ones with the most proud of, today, because they've been credited with saving soldiers' lives. But it's also nice to be able to affect people every day with the Roomba vacuuming robot, because, you know, if they take on really tedious jobs that people in general don't like to do themselves."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "What's the ultimate challenge for you as a robot designer?"
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Well, we're putting more and more capabilities into our robots. We're taking on more and more different jobs with the robots, different tasks that people don't like to do. I think the biggest challenge is keeping them practical and affordable. The robots that we've had most successful is the PacBot, the Roomba, the Scooba, they're successful because they're practical and affordable for the mission. And it's easy to think about the science fiction design, and let's build a humanoid, but - we could do it, other people have done it, but they get so far out of the price point…"
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "…that people can afford, that they would actually go out and buy for, whereas when the robots (unintelligible) then they cost, then people…"
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "I've got to go, Helen, we've run out of time."
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "Okay."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "We'll have to back on to talk more about this later. Thanks for taking time to talk with us."
+    },
+    {
+      "speaker": "Ms. Helen Greiner (Chairman And Co-Founder",
+      "text": "That's great. Thank you."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Helen Greiner, Chairman and Co-Founder of the iRobot Company in Burlington, Massachusetts."
+    }
+  ]
+}

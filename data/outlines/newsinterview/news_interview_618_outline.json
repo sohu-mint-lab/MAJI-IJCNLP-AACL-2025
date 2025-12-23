@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Russia-linked Ads",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was significant about the release of the 3,500 Russia-linked Facebook and Instagram ads?",
+        "importance": "critical",
+        "keywords": [
+          "Russia",
+          "ads",
+          "2016 election"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What categories did the parsed ads fall into?",
+        "importance": "high",
+        "keywords": [
+          "categories",
+          "ads",
+          "Black Lives Matter"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Targeting and Messaging Strategies",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did the ads use existing political rhetoric from the election?",
+        "importance": "critical",
+        "keywords": [
+          "rhetoric",
+          "ads",
+          "election"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What example did Issie give regarding the targeting of specific demographics with the ads?",
+        "importance": "high",
+        "keywords": [
+          "targeting",
+          "demographics",
+          "Hillary Clinton"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Scale of Influence and Organic Content",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How do the 3,500 ads compare to the overall amount of content produced by the Internet Research Agency?",
+        "importance": "critical",
+        "keywords": [
+          "scale",
+          "content",
+          "Internet Research Agency"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What concerns did researchers have about the focus on ads versus organic content?",
+        "importance": "high",
+        "keywords": [
+          "researchers",
+          "ads",
+          "organic content"
+        ]
+      }
+    ]
+  }
+]

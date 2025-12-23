@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to the Novel",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What inspired you to write about the character Leila and her story?",
+        "importance": "critical",
+        "keywords": [
+          "Leila",
+          "story",
+          "inspiration"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Can you explain the concept of brain activity after death as it pertains to your book?",
+        "importance": "high",
+        "keywords": [
+          "brain activity",
+          "death",
+          "concept"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Exploring Themes of Voices and Identity",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does your novel give voice to those who have been marginalized in society?",
+        "importance": "critical",
+        "keywords": [
+          "marginalized",
+          "voice",
+          "society"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What personal experiences influenced your portrayal of Istanbul and its culture in the narrative?",
+        "importance": "high",
+        "keywords": [
+          "Istanbul",
+          "culture",
+          "personal experiences"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Societal Challenges in Turkey",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What societal issues does your book address regarding gender-based violence and child marriage?",
+        "importance": "critical",
+        "keywords": [
+          "gender-based violence",
+          "child marriage",
+          "societal issues"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How have recent political changes impacted the rights of marginalized groups in Turkey?",
+        "importance": "high",
+        "keywords": [
+          "political changes",
+          "marginalized groups",
+          "rights"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "The Role of 'Water Families'",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What do you mean by 'water family' and how does it play a role in your narrative?",
+        "importance": "critical",
+        "keywords": [
+          "water family",
+          "community",
+          "narrative"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Can you discuss the significance of the Cemetery of the Companionless in your story?",
+        "importance": "high",
+        "keywords": [
+          "Cemetery of the Companionless",
+          "significance",
+          "story"
+        ]
+      }
+    ]
+  }
+]

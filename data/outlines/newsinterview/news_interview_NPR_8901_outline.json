@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "The Boston Marathon Bombings Overview",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the immediate outcomes of the bombings near the Boston Marathon finish line?",
+        "importance": "critical",
+        "keywords": [
+          "Boston Marathon",
+          "explosions",
+          "outcomes"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Can you explain the involvement of Dzhokhar Tsarnaev and his current condition?",
+        "importance": "high",
+        "keywords": [
+          "Dzhokhar Tsarnaev",
+          "involvement",
+          "condition"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Investigation Developments",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What role did surveillance video play in identifying Dzhokhar Tsarnaev as a suspect?",
+        "importance": "critical",
+        "keywords": [
+          "surveillance video",
+          "investigation",
+          "identification"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What charges have been brought against Tsarnaev, and how does the public safety exception affect his Miranda rights?",
+        "importance": "high",
+        "keywords": [
+          "charges",
+          "Miranda rights",
+          "public safety exception"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Radicalization and Potential Motives",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What factors are being considered in understanding the motives behind the bombings?",
+        "importance": "high",
+        "keywords": [
+          "motives",
+          "radicalization",
+          "factors"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did Tamerlan Tsarnaev's trips to Russia potentially influence his radicalization?",
+        "importance": "optional",
+        "keywords": [
+          "Tamerlan Tsarnaev",
+          "Russia",
+          "influence"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Legal Proceedings and Evidence",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What legal strategies might the defense employ in relation to the evidence collected against Tsarnaev?",
+        "importance": "high",
+        "keywords": [
+          "legal strategy",
+          "evidence",
+          "defense"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What implications does the public safety exception hold for the admissibility of evidence collected during interrogation?",
+        "importance": "optional",
+        "keywords": [
+          "public safety exception",
+          "evidence admissibility",
+          "interrogation"
+        ]
+      }
+    ]
+  }
+]

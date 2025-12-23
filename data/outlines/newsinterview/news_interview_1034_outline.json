@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Understanding Multiple Sclerosis (MS)",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you explain what happens to the immune system in multiple sclerosis?",
+        "importance": "critical",
+        "keywords": [
+          "multiple sclerosis",
+          "immune system",
+          "autoimmune disease"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What specific components of myelin are targeted by the immune cells in MS?",
+        "importance": "high",
+        "keywords": [
+          "myelin",
+          "immune cells",
+          "target"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Innovative Approaches to Treatment",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does the new approach aim to teach the immune system to avoid attacking itself?",
+        "importance": "critical",
+        "keywords": [
+          "treatment",
+          "immune system",
+          "tolerance"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What were the outcomes of the initial tests regarding the safety of this new therapy?",
+        "importance": "high",
+        "keywords": [
+          "safety",
+          "initial tests",
+          "therapy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Mechanism of Action",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is the method used to manipulate the immune response in patients?",
+        "importance": "critical",
+        "keywords": [
+          "manipulation",
+          "immune response",
+          "antigens"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the introduction of nanoparticles differ from the initial method using white blood cells?",
+        "importance": "high",
+        "keywords": [
+          "nanoparticles",
+          "white blood cells",
+          "method difference"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Implications and Research Directions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the next steps for advancing this treatment to human trials?",
+        "importance": "critical",
+        "keywords": [
+          "future steps",
+          "human trials",
+          "treatment advancement"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Do you believe this method could be applicable to other autoimmune diseases?",
+        "importance": "high",
+        "keywords": [
+          "autoimmune diseases",
+          "applicability",
+          "research"
+        ]
+      }
+    ]
+  }
+]

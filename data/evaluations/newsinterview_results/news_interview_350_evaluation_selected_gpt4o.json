@@ -1,0 +1,319 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.39341885702950613,
+                "avg_context_relevance": 0.47757984910692486,
+                "avg_outline_relevance": 0.836788501058306,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 57.14285714285714,
+            "weighted_coverage_score": 59.09090909090909,
+            "covered_questions": 4,
+            "total_questions": 7
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "In Tunisia, it was eight years ago that a man set himself on fire, sparking protests that led to the ouster of the government and inspired antigovernment protests across the region. This past week, another Tunisian man, a journalist, also set himself on fire, vowing to start a revolution because of continued difficult living conditions and poverty. The video was posted online. Since then, there have been protests. Chaima Bouhlel joins us from Tunisia. She's the former president of Al Bawsala, a local watchdog group. Thank you for joining us, Chaima.",
+            "previous_answer": "Thank you. Thank you for the invitation.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on the events that have led to the recent wave of protests in Tunisia?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1468651294708252,
+                        "outline_relevance": 0.9698740243911743,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you elaborate on the events that have led to the recent wave of protests in Tunisia?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1468651294708252,
+                            "outline_relevance": 0.9698740243911743,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "So this is a particularly shocking case. This journalist, Abderrazak Zorgui, filmed himself setting himself on fire. Tell us more about him and the reaction to what he did.",
+            "previous_answer": "So unfortunately, Abderrazak was not an isolated case of self-immolation in Tunisia. So we've been hearing about or documenting various cases across the country. Actually, there was the latest case Friday. A man in his 50s also set himself on fire. So this is definitely not, unfortunately, a special or unique case. What is unique about it is that it's a journalist, so more people actually heard about it. Clearly, in the video that he published on his social media account, it contextualized his attempt within the difficult social and economic situation that the country's going through, which is, in a way, a clear criticism of the performance of the government.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe how the public has responded to Abderrazak Zorgui’s self-immolation, particularly considering his role as a journalist?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6851470470428467,
+                        "outline_relevance": 0.8198350667953491,
+                        "originality": 0.5505853295326233,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you describe how the public has responded to Abderrazak Zorgui’s self-immolation, particularly considering his role as a journalist?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6851470470428467,
+                            "outline_relevance": 0.8198350667953491,
+                            "originality": 0.5505853295326233,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "So, basically, you describe a pretty disturbing trend of self-immolation as a way to protest, to kill yourself. Why is this happening?",
+            "previous_answer": "There are different reasons. The economic situation is extremely difficult. The second reason is it's a very visible way of protest. So it usually takes place not in a closed place but, perhaps, in front of a governmental building or on the street. However, what you do notice is that - and this is an unfortunate result of the increase of such acts - is that politicians tend to rely on different other possible reasons for such acts. For example, they would say that there are, perhaps, mental illnesses that are spreading or that maybe this was planned. And this, in a way, removes or takes the discussion away from the hardship that those people are going through.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the visible nature of these protests, how do you think they influence the public's understanding of the economic and social challenges facing Tunisia?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5676600933074951,
+                        "outline_relevance": 0.8307784795761108,
+                        "originality": 0.18238478899002075,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Given the visible nature of these protests, how do you think they influence the public's understanding of the economic and social challenges facing Tunisia?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5676600933074951,
+                            "outline_relevance": 0.8307784795761108,
+                            "originality": 0.18238478899002075,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "And when you talk about a trend, you're not talking about a few people here and there. I mean, these are - you're talking about hundreds of people.",
+            "previous_answer": "Yes. One of the documented numbers that we talk about - around 300 people who have actually died because of self-immolation since the revolution, so over the past eight years. But there are around 2,000 failed attempts, quote, unquote. Thank God they are failed. But it's important to note that we do have rising numbers of suicide in general. It's a very, very dangerous trend in this society. And that crosses all age groups.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Based on the rising numbers, what do these trends in self-immolation and suicide indicate about Tunisia's current social environment and the underlying pressures people face?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6419486403465271,
+                        "outline_relevance": 0.8376333117485046,
+                        "originality": 0.37328386306762695,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Based on the rising numbers, what do these trends in self-immolation and suicide indicate about Tunisia's current social environment and the underlying pressures people face?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6419486403465271,
+                            "outline_relevance": 0.8376333117485046,
+                            "originality": 0.37328386306762695,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "The reaction to this self-immolation, that - this journalist setting himself on fire, were protests. How serious are those protests? And are they continuing?",
+            "previous_answer": "Again, I'm going to go back to the context. So this case took place among other movements against the government. So we had the red vests that are, in a way, similar to the yellow vests in France. We have another movement that is called basta or stop. The self-immolation was a very visible form of protest that, perhaps, ignited protests elsewhere in the country. But in the public opinion, they seem like - it seems like there is a link. And again, the link is the performance of the government.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on the specific government policies or failures that have most contributed to the rise of these various protest movements?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5965049266815186,
+                        "outline_relevance": 0.6798793077468872,
+                        "originality": 0.3154672384262085,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you elaborate on the specific government policies or failures that have most contributed to the rise of these various protest movements?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5965049266815186,
+                            "outline_relevance": 0.6798793077468872,
+                            "originality": 0.3154672384262085,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "So often, Tunisia is referred to as the success story of the Arab Spring, the place where there was a peaceful transfer of power, a constitution written. And now we're seeing that this journalist set himself on fire, that there are protests. Is Tunisia the bright spot that it's portrayed to be?",
+            "previous_answer": "I think when you look at the long term, we are establishing institutions. There is freedom of expression. People are trying to build a Tunisia that people would like to live in. However, the patience of certain groups of people is going to be tested because it's very easy to boast about the success of Tunisia. And it's something that makes me personally very proud - and lots of other people. But at the same time, it's - that does not buy people milk and bread and keep them warm on a day-to-day basis.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe the specific economic difficulties that average Tunisians are facing daily, and how these impact their perception of government progress?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6007614731788635,
+                        "outline_relevance": 0.7242012023925781,
+                        "originality": 0.3042023181915283,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you describe the specific economic difficulties that average Tunisians are facing daily, and how these impact their perception of government progress?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6007614731788635,
+                            "outline_relevance": 0.7242012023925781,
+                            "originality": 0.3042023181915283,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "That's Chaima Bouhlel, the former president of Al Bawsala, joining us from Tunisia. Thank you so much.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you elaborate on the events that led to the recent protests in Tunisia?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.10417163372039795,
+                        "outline_relevance": 0.9953181147575378,
+                        "originality": 0.028008460998535156,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you elaborate on the events that led to the recent protests in Tunisia?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.10417163372039795,
+                            "outline_relevance": 0.9953181147575378,
+                            "originality": 0.028008460998535156,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

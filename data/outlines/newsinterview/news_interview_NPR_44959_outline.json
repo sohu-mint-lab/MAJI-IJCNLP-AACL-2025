@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "The Shift to Electronics in Vehicles",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are some common electronic features in today's cars?",
+        "importance": "critical",
+        "keywords": [
+          "electronics",
+          "vehicles",
+          "features"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How do these electronic innovations improve vehicle safety and fuel economy?",
+        "importance": "high",
+        "keywords": [
+          "safety",
+          "fuel economy",
+          "innovations"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Challenges and Risks of Automotive Electronics",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are some concerns related to the complexity of automotive electronics?",
+        "importance": "critical",
+        "keywords": [
+          "complexity",
+          "safety concerns",
+          "electronics"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How do black boxes in cars contribute to understanding accidents?",
+        "importance": "high",
+        "keywords": [
+          "black boxes",
+          "accident analysis",
+          "data"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Role of Software and Intellectual Property",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How does the competitive advantage in automotive software affect investigations?",
+        "importance": "high",
+        "keywords": [
+          "software",
+          "intellectual property",
+          "investigations"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What challenges arise from the multi-tiered supplier system in the automotive industry?",
+        "importance": "optional",
+        "keywords": [
+          "supplier system",
+          "challenges",
+          "automotive"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Directions and Regulatory Considerations",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What future improvements are expected in automotive electronics for safety and efficiency?",
+        "importance": "high",
+        "keywords": [
+          "future improvements",
+          "automotive electronics",
+          "safety"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Should there be government regulations similar to aviation for automotive software testing?",
+        "importance": "critical",
+        "keywords": [
+          "government regulation",
+          "aviation",
+          "automotive testing"
+        ]
+      }
+    ]
+  }
+]

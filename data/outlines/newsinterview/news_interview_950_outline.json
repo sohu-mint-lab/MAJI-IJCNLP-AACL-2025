@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to the MacArthur Fellowship",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the significance of the MacArthur Fellowship, and how is it awarded?",
+        "importance": "critical",
+        "keywords": [
+          "MacArthur Fellowship",
+          "Genius Grant",
+          "awards"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did Sujatha Baliga feel upon receiving the news of her selection?",
+        "importance": "high",
+        "keywords": [
+          "Sujatha Baliga",
+          "reaction",
+          "award"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Understanding Restorative Justice",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What is restorative justice, and how does it differ from traditional punitive approaches?",
+        "importance": "critical",
+        "keywords": [
+          "restorative justice",
+          "punitive approach",
+          "differences"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are the core principles that guide restorative justice according to Sujatha Baliga?",
+        "importance": "high",
+        "keywords": [
+          "core principles",
+          "healing",
+          "accountability"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Personal Motivations and Experiences",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What personal experiences influenced Sujatha Baliga's commitment to restorative justice?",
+        "importance": "critical",
+        "keywords": [
+          "personal experiences",
+          "commitment",
+          "influence"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did Sujatha Baliga's work as a public defender shape her views on the criminal justice system?",
+        "importance": "high",
+        "keywords": [
+          "public defender",
+          "criminal justice system",
+          "perspective"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Goals and Impact of the Fellowship",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are Sujatha Baliga's plans for utilizing the MacArthur Fellowship award?",
+        "importance": "high",
+        "keywords": [
+          "future plans",
+          "MacArthur Fellowship",
+          "goals"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Sujatha Baliga intend to integrate indigenous teachings into restorative justice practices?",
+        "importance": "optional",
+        "keywords": [
+          "indigenous teachings",
+          "justice practices",
+          "integration"
+        ]
+      }
+    ]
+  }
+]

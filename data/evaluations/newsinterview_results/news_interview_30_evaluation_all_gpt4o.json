@@ -1,0 +1,613 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3890265683333079,
+                "avg_context_relevance": 0.266617824199299,
+                "avg_outline_relevance": 0.5529677887757619,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3810529112815857,
+                "avg_context_relevance": 0.2335589285939932,
+                "avg_outline_relevance": 0.719862811267376,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 42.857142857142854,
+            "weighted_coverage_score": 43.47826086956522,
+            "covered_questions": 3,
+            "total_questions": 7
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "The five Uruguayan women at the center of Carolina de Robertis' new novel find each other in 1976 during the height of the military dictatorship there, a time when dissent and difference could get you killed. But in a sleepy village on the coast, they create what they call the other place, a shelter from conservative society where they can fall in and out of love with each other. The novel is called \"Cantoras,\" and Carolina de Robertis joins us now from Berkeley, Calif. Welcome.",
+            "previous_answer": "Thank you so much for having me on the show.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: What inspired you to write 'Cantoras' and bring these stories to light now?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.24869614839553833,
+                        "outline_relevance": 0.6055285334587097,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What inspired you to write 'Cantoras' and bring these stories to light now?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.24869614839553833,
+                            "outline_relevance": 0.6055285334587097,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How did the time and place of your upbringing influence your perspective in writing about the Uruguayan dictatorship?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.039055563509464264,
+                            "outline_relevance": 0.6487648487091064,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you share more about the significance of the title 'Cantoras' and how it resonates with the themes in your novel?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.22379809617996216,
+                            "outline_relevance": 0.5756169557571411,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "You follow these women for several decades, and they eventually get a vocabulary to describe themselves - gay, lesbian, bisexual, queer. But when the story begins, they have just that one word - cantora. Explain to us what that is.",
+            "previous_answer": "So this word, cantoras - it's a somewhat old-fashioned word for singer in Spanish. We also have the other word, cantante. And this is a word that real-life women who came out to each other as queer or lesbian under the dictatorship in the Uruguayan era used as code for lesbians. It was sort of a way of looking at a woman and saying, do you think she's a cantora, too? Does she sing? - you know, wink, wink. And so there's a euphemism there, and there's maybe a sexual layer. But there's also something very powerful and resonant to me about the term cantora as a code for lesbian - a woman who is going to lean into her voice, a woman who sings, a woman who's not afraid to make sounds and ripples in the world and kind of claim her life or voice on her own terms.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share what Carolina de Robertis says about how the characters develop and evolve their vocabulary over the course of the story?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.14803464710712433,
+                        "outline_relevance": 0.9058412909507751,
+                        "originality": 0.4772989749908447,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share any personal stories or anecdotes about women who used 'cantora' as a code during the dictatorship?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3569461703300476,
+                            "outline_relevance": 0.47143566608428955,
+                            "originality": 0.49485379457473755,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think the use of coded language like 'cantora' helped build a sense of community among queer women at the time?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.46212971210479736,
+                            "outline_relevance": 0.5370007753372192,
+                            "originality": 0.6092985272407532,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways does the metaphor of singing and voice shape the identities and resistance of the characters in your novel?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.19382497668266296,
+                            "outline_relevance": 0.4836825728416443,
+                            "originality": 0.31935060024261475,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share what Carolina de Robertis says about how the characters develop and evolve their vocabulary over the course of the story?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.14803464710712433,
+                            "outline_relevance": 0.9058412909507751,
+                            "originality": 0.4772989749908447,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Yeah. The novel shows so many different ways of coming out and of being out. Your characters were inspired by the lives of real women you met, weren't they? Tell us about the...",
+            "previous_answer": "Yes.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "We heard that the characters develop their own vocabulary over time in the novel. Could you explain what Carolina de Robertis says about how this evolving language reflects the characters' identities and experiences?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.06996052712202072,
+                        "outline_relevance": 0.8620598316192627,
+                        "originality": 0.09553283452987671,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you share some stories about the real women you met who inspired your characters?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.05207352340221405,
+                            "outline_relevance": 0.40494686365127563,
+                            "originality": 0.45227915048599243,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What were some of the different ways of coming out you encountered among these women?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.024578677490353584,
+                            "outline_relevance": 0.29973068833351135,
+                            "originality": 0.5776957869529724,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How did meeting these women influence the way you portrayed their identities and experiences in 'Cantoras'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.07724080979824066,
+                            "outline_relevance": 0.49617457389831543,
+                            "originality": 0.4441336393356323,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "We heard that the characters develop their own vocabulary over time in the novel. Could you explain what Carolina de Robertis says about how this evolving language reflects the characters' identities and experiences?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.06996052712202072,
+                            "outline_relevance": 0.8620598316192627,
+                            "originality": 0.09553283452987671,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "...Origins of the book.",
+            "previous_answer": "So the seeds of this book really were planted within me 18 years ago. I've been carrying them and nurturing them for a very long time. In 2001, I was a young, queer immigrant woman here in the United States, and I was really urgently seeking a deeper understanding of my own country of origin, Uruguay, and how it connects to queer truths and histories. I was going through my own personal moment where my parents were disowning me and saying that I couldn't be both gay and Uruguayan at the same time. In Uruguay, it is true that, you know, 20 years ago, queer voices were much less visible. I mean, in all of my research of the dictatorship history, the queer stories are simply not recorded. So I went to Uruguay in 2001 kind of in search of bona fide Uruguayan lesbians. And I found this group of women a generation older than me and was just blown away by their stories of the large and also small, quotidian, ordinary ways that they found ways to survive and create a life. And I've kept in touch over the years, and the deep listening hasn't stopped since.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What inspired you to choose the Uruguayan dictatorship as the historical backdrop for your novel, and how does this setting shape the narrative?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.579997181892395,
+                        "outline_relevance": 0.7890539169311523,
+                        "originality": 0.13818645477294922,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Could you share some stories about the real women you met who inspired your characters?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.37146347761154175,
+                            "outline_relevance": 0.4358633756637573,
+                            "originality": 0.014118432998657227,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: What were some of the different ways of coming out you encountered among these women?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3007214665412903,
+                            "outline_relevance": 0.2776215374469757,
+                            "originality": 0.006161212921142578,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: How did meeting these women influence the way you portrayed their identities and experiences in 'Cantoras'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.35046714544296265,
+                            "outline_relevance": 0.4997246265411377,
+                            "originality": 0.00032192468643188477,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What inspired you to choose the Uruguayan dictatorship as the historical backdrop for your novel, and how does this setting shape the narrative?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.579997181892395,
+                            "outline_relevance": 0.7890539169311523,
+                            "originality": 0.13818645477294922,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "For those of us who are of Latin American descent, this period of the dictatorships of South America was a terrible period, with forced disappearances, tortures, killings.",
+            "previous_answer": "Yes.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Could you tell us about how the era of dictatorships influenced your writing of 'Cantoras'?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.11503493040800095,
+                        "outline_relevance": 0.6207119226455688,
+                        "originality": 0.28372687101364136,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you tell us about how the era of dictatorships influenced your writing of 'Cantoras'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.11503493040800095,
+                            "outline_relevance": 0.6207119226455688,
+                            "originality": 0.28372687101364136,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think the trauma from that period affects Latin American societies even today?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.07023923099040985,
+                            "outline_relevance": 0.4639469087123871,
+                            "originality": 0.35845327377319336,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In your view, what are the lasting cultural or emotional scars from the dictatorships that resonate through your work?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.19324147701263428,
+                            "outline_relevance": 0.5738301277160645,
+                            "originality": 0.46896690130233765,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "But to explore what it was like to be gay under the Uruguayan dictatorship, which lasted from 1973 to 1985, is an interesting lens to view it through. Why did you want to set it in this period?",
+            "previous_answer": "Well, I think the main reason I wanted to set it in this period is because I met people from this period and saw that there was a deep moving into silence that took place during that time that, you know, has continued to impact a generation of Uruguayans to this day. And you know, we have a saying in Spanish. (Speaking Spanish). You know, he who doesn't know - or he or she who doesn't know where they come from doesn't know where they're going. And so I think rooting in histories is one really important way to deepen our understanding of who we are and who we can become as a culture. I know I'm not the only Latin American writer born in that era who finds themselves still returning to that era to understand what happened. And in a country like Uruguay that went through a dictatorship, everyone has their dictatorship story. And those maybe more everyday realities - they matter as well. And...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share a particular story or memory from someone you met that illustrates the 'deep moving into silence' you mentioned earlier?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.344923198223114,
+                        "outline_relevance": 0.4349631071090698,
+                        "originality": 0.461805522441864,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share a particular story or memory from someone you met that illustrates the 'deep moving into silence' you mentioned?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3266371190547943,
+                            "outline_relevance": 0.4153077006340027,
+                            "originality": 0.4512874484062195,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think the legacy of silence from the dictatorship still shapes the lives of younger generations in Uruguay today?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6784219741821289,
+                            "outline_relevance": 0.4777853786945343,
+                            "originality": 0.25870275497436523,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways do you see storytelling helping to break that silence and influence cultural identity in Uruguay?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5991504192352295,
+                            "outline_relevance": 0.46032553911209106,
+                            "originality": 0.3567241430282593,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share a particular story or memory from someone you met that illustrates the 'deep moving into silence' you mentioned earlier?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.344923198223114,
+                            "outline_relevance": 0.4349631071090698,
+                            "originality": 0.461805522441864,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "You captured very well just the idea of what it's like to walk down the street to see the military, to have to work around just what is an incredibly brutal police state.",
+            "previous_answer": "Yes. Yes. And certainly, you know, when we write historically based fiction, we're writing with a double consciousness. I mean, I do believe that we're also writing about the time in which we live as we write. And although I wrote this to be very particular to a certain period of Uruguayan history and a particular repressive era, I was aware of the fact that I'm writing in the Trump era and, you know, that these questions about, you know, how does it affect you as you walk down the street, as you live your life, to know that you're living in a space where the government is hostile towards your very existence? How do you live radiantly in a time and place where the world seems bent on your erasure? - are questions that I was exploring for these characters 'cause they felt true for these characters but that I - you know, I hope have resonance for, you know, those of us who are sitting with those questions in the here and now.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you discuss the specific themes of resistance and survival that \"Cantoras\" portrays, especially in the context of life under repressive regimes?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3291563391685486,
+                        "outline_relevance": 0.9458669424057007,
+                        "originality": 0.38739341497421265,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you elaborate on what it means to write with a 'double consciousness' and how that influences your creative process?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5328120589256287,
+                            "outline_relevance": 0.4196414351463318,
+                            "originality": 0.5099359750747681,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How do you perceive the parallels between the Uruguayan dictatorship and today's political climate affecting marginalized communities?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5005841255187988,
+                            "outline_relevance": 0.5441603660583496,
+                            "originality": 0.21022158861160278,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: In what ways do you think historical fiction can inspire resilience and hope during times of political hostility?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.48687708377838135,
+                            "outline_relevance": 0.6504836082458496,
+                            "originality": 0.42995768785476685,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you discuss the specific themes of resistance and survival that \"Cantoras\" portrays, especially in the context of life under repressive regimes?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3291563391685486,
+                            "outline_relevance": 0.9458669424057007,
+                            "originality": 0.38739341497421265,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Carolina de Robertis' new novel is \"Cantoras.\" Thank you very much.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share how the idea for 'Cantoras' first came to you as a story worth telling?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.172589510679245,
+                        "outline_relevance": 0.5948769450187683,
+                        "originality": 0.20447921752929688,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How did the idea for 'Cantoras' first come to you as a story worth telling?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.16488485038280487,
+                            "outline_relevance": 0.6292296648025513,
+                            "originality": 0.14997798204421997,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What specific challenges did you face while writing 'Cantoras' during such a politically sensitive historical period?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.11334769427776337,
+                            "outline_relevance": 0.5976313352584839,
+                            "originality": 0.24498367309570312,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you balance personal experience with fictional storytelling in your portrayal of the characters in 'Cantoras'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.060724999755620956,
+                            "outline_relevance": 0.46722662448883057,
+                            "originality": 0.2649492621421814,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you share how the idea for 'Cantoras' first came to you as a story worth telling?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.172589510679245,
+                            "outline_relevance": 0.5948769450187683,
+                            "originality": 0.20447921752929688,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Current Status of the Government Shutdown",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the timeline for negotiations regarding the wall funding?",
+        "importance": "critical",
+        "keywords": [
+          "government shutdown",
+          "negotiations",
+          "wall funding"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What potential actions could the president take if an agreement is not reached?",
+        "importance": "high",
+        "keywords": [
+          "president",
+          "national emergency",
+          "government shutdown"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Impact on Trump's Base and Strategies",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How has Trump's recent negotiation failure affected his relationship with his base?",
+        "importance": "critical",
+        "keywords": [
+          "Trump's base",
+          "negotiation failure",
+          "relationship"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Why do some Republicans oppose the idea of declaring a national emergency?",
+        "importance": "high",
+        "keywords": [
+          "Republicans",
+          "national emergency",
+          "opposition"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Democratic Control and Strategy",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How effective has Nancy Pelosi been in controlling the Democratic party compared to previous leaders?",
+        "importance": "high",
+        "keywords": [
+          "Nancy Pelosi",
+          "Democratic control",
+          "leadership"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What does the 'Herbal Tea Party problem' refer to in the context of the current Democratic party dynamics?",
+        "importance": "optional",
+        "keywords": [
+          "Herbal Tea Party",
+          "Democratic dynamics",
+          "party control"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Legal Challenges Facing Trump",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What implications does Roger Stone's indictment have on Trump's presidency?",
+        "importance": "high",
+        "keywords": [
+          "Roger Stone",
+          "indictment",
+          "Trump presidency"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How is Robert Mueller's investigation unfolding in relation to Trump's associates?",
+        "importance": "high",
+        "keywords": [
+          "Robert Mueller",
+          "investigation",
+          "Trump associates"
+        ]
+      }
+    ]
+  }
+]

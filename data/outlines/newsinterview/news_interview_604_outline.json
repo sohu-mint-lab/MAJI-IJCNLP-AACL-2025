@@ -1,0 +1,81 @@
+[
+  {
+    "id": "S1",
+    "section": "Discussion on North Korea and Summit Preparations",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What demands has North Korea presented ahead of the planned summit with President Trump?",
+        "importance": "critical",
+        "keywords": [
+          "North Korea",
+          "summit",
+          "demands"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Tom Friedman characterize the history of U.S. negotiations with North Korea?",
+        "importance": "high",
+        "keywords": [
+          "negotiation history",
+          "U.S.",
+          "North Korea"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Concerns about U.S. Leadership in Negotiations",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What concerns does Friedman express regarding the age difference between Kim Jong Un and Donald Trump during negotiations?",
+        "importance": "high",
+        "keywords": [
+          "age difference",
+          "negotiations",
+          "concerns"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What critical point does Friedman make regarding North Korea's nuclear capabilities?",
+        "importance": "critical",
+        "keywords": [
+          "nuclear capabilities",
+          "criticality",
+          "North Korea"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "China's Involvement and U.S. Trade Relations",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How does Tom Friedman view the potential for China to purchase more American goods?",
+        "importance": "high",
+        "keywords": [
+          "China",
+          "trade relations",
+          "American goods"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What skepticism does Friedman express about commitments made by North Korea and China?",
+        "importance": "optional",
+        "keywords": [
+          "skepticism",
+          "commitments",
+          "North Korea",
+          "China"
+        ]
+      }
+    ]
+  }
+]

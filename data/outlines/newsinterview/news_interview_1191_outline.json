@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Phone Call",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the main points discussed in President Trump's phone call with the Ukrainian president?",
+        "importance": "critical",
+        "keywords": [
+          "phone call",
+          "Trump",
+          "Ukrainian president"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Why did Trump specifically ask the Ukrainian president for a favor related to Biden?",
+        "importance": "high",
+        "keywords": [
+          "favor",
+          "Biden",
+          "investigation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Role of Rudy Giuliani and Attorney General Barr",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What was Rudy Giuliani's involvement in the discussions between Trump and the Ukrainian president?",
+        "importance": "critical",
+        "keywords": [
+          "Rudy Giuliani",
+          "involvement",
+          "discussions"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are the implications of Attorney General Barr being mentioned multiple times in the context of this conversation?",
+        "importance": "high",
+        "keywords": [
+          "Attorney General Barr",
+          "implications",
+          "conversation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Whistleblower Complaint and Congressional Testimony",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is the significance of the whistleblower complaint in relation to the phone call?",
+        "importance": "critical",
+        "keywords": [
+          "whistleblower",
+          "complaint",
+          "significance"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What can we expect from the testimony of the acting Director of National Intelligence before Congress?",
+        "importance": "high",
+        "keywords": [
+          "testimony",
+          "Director of National Intelligence",
+          "Congress"
+        ]
+      }
+    ]
+  }
+]

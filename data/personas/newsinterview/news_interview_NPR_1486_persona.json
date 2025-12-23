@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Elon Musk",
+    "age": 52,
+    "personality": "Innovative and ambitious, with a relentless drive to push boundaries and a strong belief in the importance of technology and engineering.",
+    "employment": "CEO and Chief Engineer of SpaceX; CEO of Tesla, Inc.",
+    "communication_style": "Direct and engaging, often using technical language to explain complex concepts clearly.",
+    "notes": "Focuses on pioneering technology for space travel and sustainable energy solutions, with aspirations for multi-planetary life."
+  }
+}

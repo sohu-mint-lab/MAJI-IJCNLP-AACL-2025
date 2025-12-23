@@ -1,0 +1,86 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Featured Video",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the main focus of the featured video presented by Flora Lichtman?",
+        "importance": "critical",
+        "keywords": [
+          "video",
+          "immune cells",
+          "neutrophils"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Research Methodology",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did researchers study the movement of neutrophils in the video?",
+        "importance": "high",
+        "keywords": [
+          "research methodology",
+          "neutrophils",
+          "confocal microscope"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What was unique about the conditions under which the neutrophils were observed?",
+        "importance": "optional",
+        "keywords": [
+          "sterile wound",
+          "observation",
+          "research conditions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Chemical Signals and Neutrophil Behavior",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What role do chemical signals play in the attraction of neutrophils to injury sites?",
+        "importance": "critical",
+        "keywords": [
+          "chemical signals",
+          "attraction",
+          "neutrophils"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Which specific chemical compound was identified as attracting neutrophils to wound sites?",
+        "importance": "high",
+        "keywords": [
+          "ATP",
+          "attraction",
+          "wound sites"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Implications of Neutrophil Research",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the potential implications of understanding neutrophil behavior for treating diseases?",
+        "importance": "high",
+        "keywords": [
+          "implications",
+          "diseases",
+          "treatment"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Kianni Arroyo's Story",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you tell us about your background and how many half-siblings you have?",
+        "importance": "critical",
+        "keywords": [
+          "Kianni Arroyo",
+          "half-siblings",
+          "background"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What do you know about your biological father and his donor profile?",
+        "importance": "high",
+        "keywords": [
+          "biological father",
+          "donor profile",
+          "sperm donor"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Encountering Family",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did your feelings change when you first met your biological dad?",
+        "importance": "critical",
+        "keywords": [
+          "meeting",
+          "biological dad",
+          "feelings"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What was your experience like when you met your first half-siblings?",
+        "importance": "high",
+        "keywords": [
+          "half-siblings",
+          "experience",
+          "big sister"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Broader Implications of Sperm Donation",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are your thoughts on the current regulations regarding sperm donation in the U.S.?",
+        "importance": "critical",
+        "keywords": [
+          "sperm donation",
+          "regulations",
+          "USA"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do you manage the potential risks of unknowingly having a relationship with a sibling?",
+        "importance": "high",
+        "keywords": [
+          "risks",
+          "relationships",
+          "siblings"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Advice for Others",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What advice would you give to other children of sperm donors?",
+        "importance": "high",
+        "keywords": [
+          "advice",
+          "children",
+          "sperm donors"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Why is it important to seek out siblings for those with donor backgrounds?",
+        "importance": "optional",
+        "keywords": [
+          "importance",
+          "siblings",
+          "donor backgrounds"
+        ]
+      }
+    ]
+  }
+]

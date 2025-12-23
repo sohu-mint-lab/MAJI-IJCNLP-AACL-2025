@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Winemaking Origins",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What historical context led to the study of winemaking origins in France?",
+        "importance": "critical",
+        "keywords": [
+          "winemaking",
+          "France",
+          "history"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Research Methodology",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What techniques were used to analyze the residues found in ancient vessels?",
+        "importance": "high",
+        "keywords": [
+          "research methodology",
+          "biomolecular archaeology",
+          "analysis"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How did you recreate the ancient beverages based on the residues found?",
+        "importance": "high",
+        "keywords": [
+          "recreation",
+          "ancient beverages",
+          "experimental archaeology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Significance of the Findings",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What does the discovery of the earliest wine press in France tell us about the evolution of viticulture?",
+        "importance": "critical",
+        "keywords": [
+          "significance",
+          "earliest wine press",
+          "viticulture"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did the geographical and cultural exchange influence winemaking practices in ancient France?",
+        "importance": "high",
+        "keywords": [
+          "cultural exchange",
+          "geography",
+          "winemaking practices"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Research Directions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the potential areas for future archaeological exploration in winemaking?",
+        "importance": "optional",
+        "keywords": [
+          "future research",
+          "archaeology",
+          "winemaking"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What new technologies could enhance our understanding of ancient fermentation processes?",
+        "importance": "optional",
+        "keywords": [
+          "technology",
+          "fermentation",
+          "ancient processes"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Syrian Uprising",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What factors are complicating the situation in Syria according to Dr. Kalin?",
+        "importance": "critical",
+        "keywords": [
+          "Syria",
+          "uprising",
+          "conflict"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has Turkey's relationship with Syria changed during the uprising?",
+        "importance": "high",
+        "keywords": [
+          "Turkey",
+          "relationship",
+          "Bashar al-Assad"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Turkey's Role and Response",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What measures is Turkey implementing against the Syrian regime?",
+        "importance": "critical",
+        "keywords": [
+          "Turkey",
+          "measures",
+          "economic sanctions"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Why is Turkey against military intervention in Syria?",
+        "importance": "high",
+        "keywords": [
+          "military intervention",
+          "Syria",
+          "Turkey"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impacts of Economic Sanctions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How are the economic sanctions affecting the Syrian population?",
+        "importance": "high",
+        "keywords": [
+          "economic sanctions",
+          "impact",
+          "Syria"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What is the ultimate goal of the sanctions according to Dr. Kalin?",
+        "importance": "high",
+        "keywords": [
+          "sanctions",
+          "goal",
+          "regime change"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Regional Alliances and Tensions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What role does Iran play in the Syrian conflict, according to Dr. Kalin?",
+        "importance": "high",
+        "keywords": [
+          "Iran",
+          "Syria",
+          "conflict"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Turkey perceive its historical role in the region amidst the Arab Spring?",
+        "importance": "optional",
+        "keywords": [
+          "Turkey",
+          "Arab Spring",
+          "historical role"
+        ]
+      }
+    ]
+  }
+]

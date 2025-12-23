@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Museum and Its Exhibits",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What can you tell us about the significance of John Jay in American counterintelligence?",
+        "importance": "critical",
+        "keywords": [
+          "John Jay",
+          "counterintelligence",
+          "museum"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What updates were made to the Wall of Spies exhibit?",
+        "importance": "high",
+        "keywords": [
+          "Wall of Spies",
+          "exhibit",
+          "espionage"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Current Intelligence Threat Landscape",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Why does Bill Evanina consider China a top intelligence threat to the U.S.?",
+        "importance": "critical",
+        "keywords": [
+          "China",
+          "intelligence threat",
+          "Evanina"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What distinguishes Chinese espionage methods from those of Russia according to Evanina?",
+        "importance": "high",
+        "keywords": [
+          "espionage methods",
+          "China",
+          "Russia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impact of Economic Espionage",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What sectors does Bill Evanina identify as primary targets for Chinese economic espionage?",
+        "importance": "high",
+        "keywords": [
+          "economic espionage",
+          "sectors",
+          "targets"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How significant is the economic loss attributed to intellectual property theft from China?",
+        "importance": "high",
+        "keywords": [
+          "economic loss",
+          "intellectual property",
+          "China"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Whistleblower Protection and Current Events",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Bill Evanina view the effectiveness of the whistleblower protection process?",
+        "importance": "critical",
+        "keywords": [
+          "whistleblower",
+          "protection",
+          "process"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are Evanina's thoughts on the confidentiality of whistleblower identities?",
+        "importance": "high",
+        "keywords": [
+          "confidentiality",
+          "whistleblower identity",
+          "Evanina"
+        ]
+      }
+    ]
+  }
+]

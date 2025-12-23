@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Kim Zetter",
+    "age": 38,
+    "personality": "Inquisitive and knowledgeable, with a strong analytical mindset and a passion for cybersecurity and privacy issues.",
+    "employment": "Senior Reporter at Wired",
+    "notes": "Currently writing a book about Stuxnet; frequently discusses complex malware and cybersecurity threats.",
+    "communication_style": "Articulate and precise, able to explain intricate technical details in an accessible manner."
+  }
+}

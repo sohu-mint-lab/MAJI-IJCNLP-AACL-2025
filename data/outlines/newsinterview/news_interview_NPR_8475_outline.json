@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Discovery of Bryophytes in Glaciers",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What led to the discovery of bryophytes emerging from the Tear Drop Glacier?",
+        "importance": "critical",
+        "keywords": [
+          "discovery",
+          "bryophytes",
+          "Tear Drop Glacier"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What characteristics of the bryophytes surprised the researchers?",
+        "importance": "high",
+        "keywords": [
+          "characteristics",
+          "surprise",
+          "researchers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Unique Biology of Bryophytes",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How do bryophytes exhibit totipotency, and what implications does this have?",
+        "importance": "critical",
+        "keywords": [
+          "totipotency",
+          "biology",
+          "implications"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "In what ways are bryophytes comparable to stem cells?",
+        "importance": "high",
+        "keywords": [
+          "stem cells",
+          "comparison",
+          "biology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Implications of Bryophyte Research",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What potential does bryophyte research hold for understanding deglaciated landscapes?",
+        "importance": "critical",
+        "keywords": [
+          "deglaciated landscapes",
+          "research",
+          "potential"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How could bryophytes contribute to plant life in extraterrestrial environments?",
+        "importance": "high",
+        "keywords": [
+          "extraterrestrial",
+          "plant life",
+          "contribution"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Research Directions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What ancient plant materials are researchers hoping to discover under glaciers?",
+        "importance": "high",
+        "keywords": [
+          "ancient plants",
+          "discovery",
+          "glaciers"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What experiments can individuals conduct to grow moss at home?",
+        "importance": "optional",
+        "keywords": [
+          "experiments",
+          "grow moss",
+          "home"
+        ]
+      }
+    ]
+  }
+]

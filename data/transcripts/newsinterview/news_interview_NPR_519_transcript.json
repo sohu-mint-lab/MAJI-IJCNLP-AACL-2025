@@ -1,0 +1,152 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "This is SCIENCE FRIDAY. I'm Ira Flatow. If you're scanning the Milky Way for life, where do you look? Well, probably someplace not too different from planet Earth, right? So you want to find a planet about the same size as Earth to increase the chance it has a rocky surface, with oceans of course rather than being a giant ball of gas like Jupiter, and it should be just the right distance from its star, in what they call the Goldilocks Zone: hot enough to have liquid water but not so hot that the surface has completely scorched. Well, this month, scientists using the Kepler Space Telescope announced the discovery of exoplanets that fit into each of these categories. How long before they find Earth's twin, a planet that fits both categories? And once they do, what's the next step to investigate whether or not it might harbor life? Here to talk about it is William Borucki. He is principal investigator for the Kepler Mission and a space scientist at the NASA-Ames Research Center in Moffett Field, California. Welcome to SCIENCE FRIDAY."
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "Hello, Ira, it's nice to be here."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Let's talk about these three new planets, Kepler-22B, -20E and -F. What's so special about them?"
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "Well, clearly the goal of the mission is to determine the frequency of Earth-size planets in and near the habitable zone of stars like the sun. And these are a major step toward that goal. First of all, Kepler-22B is a planet that is in the habitable zone of its star. It's the right temperature, but it's probably a little bit big. It's about 2.4 times the size of the Earth, and when we look at that, our suspicion is it probably is mostly a water planet, or maybe it has a lot of gas. But we don't think it's a solid, rocky planet. It's in the habitable zone. Any moons that have - which might also - would also be in the habitable zone. But the other aspect of what Kepler has found this week are two planets that are Earth-sized. So they are the right size, and we believe they are probably rocky, but they're too close to their star. They're too hot. So they're not in a habitable zone. So we're sort of finding planets all around the air that we want, and little by little, year after year, as Kepler gets better at this and finds more planets, we're getting closer to the major goal, Earth-sized planets in a habitable zone and in particular enough of them so that we can get an idea how frequent they are. Are they common in the galaxy, or are they very rare? Because that's the real question, not just finding one or two but finding out are they common. If they're common, probably lots of life in our galaxy. If they're very infrequent, you know, we may be alone. So the frequency is important, and to get at the frequency, we've got to find planets in a habitable zone that are probably the size of the Earth or maybe up to twice the size of the Earth."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And we're up to, what, 2,300 exoplanets that have been found so far?"
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "We found some 2,326 candidates. These are stars that show us signals that look like planets. But we have to do ground-based observations to check them out, to make sure that it's not a small star crossing a big star or two stars in a background eclipsing one another. And so of those 2,300 candidates, we've only been able to confirm 33 so far."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And I've heard that the Kepler satellite has been quoted - has been dubbed your baby. Would that be accurate?"
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "Well, I certainly advocated it starting in 1984 and built some photometers and worked with headquarters to find a mission that we could launch. And so over the years, I and Dave Koch and several others have worked to build this mission, and we were so delighted to find in 2001 that it was accepted as a mission. It got launched in 2009, after a lot of work building this and testing it, and it's worked beautifully ever since."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So between 1986 and 2001, many years, you're telling me you got turned down all those times?"
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "Well, in 1984, I wrote the first paper on what we should be able to do, and I started building some photometers to prove it could be done. The missions that would allow this Kepler to fly didn't get started until 1992. And so we proposed in '92, in '94, '96, '98, and each time they turned us down because they thought it would be too expensive, or the detectors couldn't possibly work, or no one had done photometry of tens of thousands of stars simultaneously. And Kepler does 150,000 stars simultaneously. So we had to go through many different steps to prove that this would work before we got permission to launch."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And look what they would have missed if they hadn't launched it."
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "Yes, we wouldn't know anything about all these small planets. We're finding planets as small as Mars, a few that might be even smaller than Mars. We're finding, you know, thousands around all kinds of stars. So it's just been an enormous bounty of planets. And people in the United States and people in Europe are all getting together, looking at these objects, trying to confirm them and writing lots and lots of papers. And we'll be rewriting the books on astronomy because what we've found is not what we expected."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "What do you mean it's not what you expected?"
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "Well, everyone expected that we would find small planets close to their stars and big planets further away, just like in our solar system. That's not what we find. We find lots of big planets that are close to their stars, and we find planets, you know, whole groups of planets, six planets well inside the orbit of Mercury, very, very close to their stars, very, very hot, planets that are hotter than - as hot as molten iron, for example. So just a huge range of planets bigger than Jupiter, planets smaller than Mars."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And you find some that - some of these last two that they orbit the - they orbit their sun in, what, six days?"
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "That's right."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Wow."
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "And one that we found a little bit earlier called Kepler-10B orbits in less than a day, which means that if you got up in the morning, you know, it would be spring, and the trees would be blooming, and by noon it would be summer, and, you know, the leaves would be - you'd go out and pick tomatoes in the evening. Fall would occur, all the leaves would fall off, and that night it would be winter. So that, you know, years are one day, six days, a month. We find a huge range like that. Now, planets that close to a star of course are so hot that they couldn't possibly have life, but what I'm saying is that you have to imagine things so different on the planets that we're finding."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And you imagine that from what you're finding, there's got to be some planet like ours in that Goldilocks Zone, right?"
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "That's right, but, you know, to be in the Goldilocks Zone, for stars like the sun, the Earth is in a habitable zone, by definition, and it takes this Earth one year to go around the sun. So that gives you a first transit, first one and second one, and every year you get another transit. We need a minimum of three times to cross the star so the star dims. And that dimming tells you how big the planet is, and the repetition tells you how far away the planet is from the star. And that tells you whether or not it's in the habitable zone because if it's close to the star, it's too hot. So for a planet like the Earth, around a star like the sun, it takes three years for us to make the measurements we need before we say oh, this is an interesting candidate, let's see if we can prove it's a real planet. The spacecraft has not been operating three years yet. So those small planets at the habitable zone of the stars like the sun, you know, we will not have found yet. We're finding planets in the habitable zone, and we've found 48 candidates in the habitable zone so far, but they're stars smaller than the sun, cooler than the sun. And so we're finding those, but they're not exactly sun-like. They're a little bit cooler and smaller. And our hope, then, is since we're finding those, and the stars aren't very much different, in the coming year or so, we'll be finding more planets like the Earth in a habitable zone of stars much more like that of the sun."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "If you're finding only planets that pass in front of their stars, so you can see the shadow from them, or - how many stars are you missing?"
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "That's a very good question because for us to see the transit, the planets moving between the star and ourselves, you can calculate that the chance of doing that is equal to the diameter of the star over the diameter of the orbit. Now for the planets with periods of the order of a few days or a few weeks, that's about 10 percent. So we would miss 90 percent of such planets. But if planets are out with orbital periods closer to a year, closer to the distance from the Earth to the sun, then we miss about 99 and a half percent. So every one that we find, there must be at least 99 more out there. And so we use that geometrical correction to say we have found a certain number, and we can predict how many are out there."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And how close is the closest one that might, you know, be close to an Earth-kind of planet?"
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "Now, are you speaking of close in terms of size, temperature..."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "To the Earth. I mean, how close to the Earth, the distance to the Earth?"
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "The distance? OK, fine. I think we have found some that are within 50 light-years."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Fifty light-years?"
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "Yes. Now, these are planets. These are not Earth. They're just planets. But if you're saying I want to find an Earth, and I want to find it in a habitable zone, we haven't found any Earth yet in a habitable zone. We have found objects bigger than the Earth in a habitable zone, we found Earth-size too close to their stars to be in the habitable zone. But the stars we look at are generally - for example, Kepler-22B, the one that's in the habitable zone that we announced, that's 600 light-years away. Now, the two Earth-sized planets that we found that we announced, that's 1,000 light-years away. So those are - basically Kepler is a probe. It looks out into the galaxy and says what do we - what's out there? Future missions will look at just the closest stars because they'll have to look at the whole sky then. We look at just one portion, a big portion, but it's not the whole sky."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Will there be future missions?"
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "Oh, I'm sure there will be because..."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "What makes you - with the way the Congress has got budgets going these days, what makes you so sure?"
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "I believe that in Europe and the United States, we'll look seriously at our problems, and we will solve them and that we will get back to a much more productive, happy time in the future."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Well, you know, that's optimistic, and we can certainly hope for that, but there are no plans for another Kepler on our drawing board now is what you're saying."
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "We have quite a few missions that people have ideas for and have been proposing. The problem with two that come to mind immediately is something called TESS, which is a terrestrial planet-finder, which is for the nearest stars. It actually finds bigger planets than Earth, but it looks at the whole sky to see which ones have planets. And then the Europeans have one called PLATO, which does the same thing. So each continent, basically, has ideas. But the ones that both Europeans and the people of the United States are really looking forward to are ones that look at the atmospheres of these planets because if you find that these planets have atmospheres - and we don't know that ahead of time - that's important for life. If the atmospheres have CO2 and water, that's important for plants. The CO2 is what they breathe, water is what they respire. So if you have plants, you could have life, and maybe the plants are building oxygen, in which case you might have even higher forms of life. And so these future missions are designed to find the composition of the atmospheres."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Well, we'll have to look forward to them, and we want to wish you good luck and thank you for coming on to talk with us today."
+    },
+    {
+      "speaker": "William Borucki",
+      "text": "You're most welcome, my pleasure."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Have a happy holiday. William Borucki is principal investigator for Kepler Mission, space scientist at NASA-Ames Research Center in Moffett Field. We're going to take a break. When we come back, the war on cancer turns 40 today. Make you feel old? Harold Varmus is here to talk about how far we've come, where we're headed. Stay with us. We'll be right back after this break. I'm Ira Flatow. This is SCIENCE FRIDAY from NPR."
+    }
+  ]
+}

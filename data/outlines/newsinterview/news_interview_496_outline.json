@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Red Tide in Florida",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the cause of the current environmental crisis along the Florida Gulf Coast?",
+        "importance": "critical",
+        "keywords": [
+          "red tide",
+          "algae bloom",
+          "Florida Gulf Coast"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has the red tide affected local marine life?",
+        "importance": "high",
+        "keywords": [
+          "marine life",
+          "impact",
+          "ecosystem"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Personal Experiences and Impact",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Can you describe the smell and conditions caused by the dead fish?",
+        "importance": "critical",
+        "keywords": [
+          "smell",
+          "conditions",
+          "dead fish"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How has the red tide affected local businesses and tourism?",
+        "importance": "high",
+        "keywords": [
+          "local businesses",
+          "tourism",
+          "economic impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Efforts in Cleanup and Community Response",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What measures are local fishermen taking to help with the cleanup?",
+        "importance": "critical",
+        "keywords": [
+          "cleanup",
+          "local fishermen",
+          "efforts"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How many marine animals have been collected during the cleanup efforts?",
+        "importance": "optional",
+        "keywords": [
+          "marine animals",
+          "cleanup efforts",
+          "statistics"
+        ]
+      }
+    ]
+  }
+]

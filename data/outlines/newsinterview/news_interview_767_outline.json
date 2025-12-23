@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction and Background",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What prompted the discussion regarding changes in media representation and political engagement over the past six years?",
+        "importance": "critical",
+        "keywords": [
+          "media representation",
+          "political engagement",
+          "history"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has Professor Mary Frances Berry contributed to the political dialogue on the show?",
+        "importance": "high",
+        "keywords": [
+          "Mary Frances Berry",
+          "political dialogue",
+          "contribution"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Impact of Obama’s Election",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "In what ways did Professor Berry suggest that the Obama presidency altered the political landscape?",
+        "importance": "critical",
+        "keywords": [
+          "Obama presidency",
+          "political landscape",
+          "change"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What psychological impact did the transition from Bush to Obama have on the American public according to the discussion?",
+        "importance": "high",
+        "keywords": [
+          "psychological impact",
+          "Bush",
+          "Obama",
+          "American public"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Engagement of the Black Community",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What role did Professor Berry attribute to the 'Obama phenomenon' in increasing political engagement among African Americans?",
+        "importance": "critical",
+        "keywords": [
+          "Obama phenomenon",
+          "African Americans",
+          "political engagement"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How is the perception of identity politics reflected in Berry's comments?",
+        "importance": "high",
+        "keywords": [
+          "identity politics",
+          "perception",
+          "discussion"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Political Trends",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What potential shifts in political allegiance does Professor Berry foresee for the Black community with regard to the Republican Party?",
+        "importance": "critical",
+        "keywords": [
+          "political allegiance",
+          "Republican Party",
+          "Black community"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Professor Berry view the appointment of Michael Steele and its implications for the Republican Party's engagement with Black voters?",
+        "importance": "high",
+        "keywords": [
+          "Michael Steele",
+          "Republican Party",
+          "Black voters"
+        ]
+      }
+    ]
+  }
+]

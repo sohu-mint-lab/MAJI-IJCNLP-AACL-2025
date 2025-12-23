@@ -1,0 +1,1187 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.31608153134584427,
+                "avg_context_relevance": 0.45095921482425183,
+                "avg_outline_relevance": 0.684745455160737,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.26573577895760536,
+                "avg_context_relevance": 0.44446815631818026,
+                "avg_outline_relevance": 0.749947689473629,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 37.5,
+            "weighted_coverage_score": 44.0,
+            "covered_questions": 3,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "This is SCIENCE FRIDAY, I'm Ira Flatow. Powerful storms this spring: tornadoes like the ones in Oklahoma have caused damage estimated in the billions of dollars and dozens of deaths. But does the destruction have to be so devastating? What are the engineering challenges to designing and building stronger, more tornado-resistant structures and providing better protection for the people who live there? David O. Prevatt is an assistant professor in the Department of Civil and Coastal Engineering at the University of Florida in Gainesville, and part of a team of engineers that surveyed tornado damage in Moore, Okla., and other places. Welcome to the program.",
+            "previous_answer": "Thank you so much, Ira.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share some of the key engineering challenges you face when designing tornado-resistant structures?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.035315945744514465,
+                        "outline_relevance": 0.9123532176017761,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share some of the key engineering challenges in creating tornado-resistant structures that you encounter in your work?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.052294570952653885,
+                            "outline_relevance": 0.902536928653717,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: During your congressional testimony, what were the major points you emphasized regarding wind-hazard resilience?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.19062097370624542,
+                            "outline_relevance": 0.5582922697067261,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do current construction practices in tornado-prone areas fall short, and what improvements do you suggest based on your research?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.013151276856660843,
+                            "outline_relevance": 0.8171947002410889,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you share some of the key engineering challenges you face when designing tornado-resistant structures?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.035315945744514465,
+                            "outline_relevance": 0.9123532176017761,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Oh, you're welcome. You were testifying before Congress earlier this week on this topic. What were you asking for? What did they want to know?",
+            "previous_answer": "Well, the main thing that I advocated for is that the American people, we deserve to live in wind-hazard-resilient communities and that it is possible for us to do that and get there within 10 years.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are the main challenges faced in creating structures that can withstand tornadoes?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.30180954933166504,
+                        "outline_relevance": 0.9554317593574524,
+                        "originality": 0.11800980567932129,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What specific commitments or actions did you propose to Congress to achieve wind-hazard resilience within 10 years?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6600890159606934,
+                            "outline_relevance": 0.5841313600540161,
+                            "originality": 0.13982295989990234,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you explain what concrete steps or technologies you believe are necessary to make communities wind-hazard resilient in the next decade?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6622158885002136,
+                            "outline_relevance": 0.6781837344169617,
+                            "originality": 0.30264222621917725,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you envision the collaboration among engineers, policymakers, and communities to realize the goal of wind-hazard-resilient neighborhoods?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5745013356208801,
+                            "outline_relevance": 0.5997047424316406,
+                            "originality": 0.3312171697616577,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What are the main challenges faced in creating structures that can withstand tornadoes?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.30180954933166504,
+                            "outline_relevance": 0.9554317593574524,
+                            "originality": 0.11800980567932129,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "It is possible. You saying that to engineer, design and build these more wind resistant?",
+            "previous_answer": "Absolutely. If we look back at the initiation of tornado research, after the Lubbock tornado by Texas Tech University in 1971 and Professor Fujita developing his Fujita scale around that time, 40 years have gone by, and the weather systems have improved to the point where we actually have smart weather systems on smart apps on our telephones. And yet when I looked at the homes in Oklahoma, in Moore, in Tuscaloosa two years ago and in Joplin, I see the same failures of construction details that engineers found in 1971.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are the key engineering deficiencies in current construction practices that make tornado-prone homes vulnerable despite advances in weather prediction?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5528706312179565,
+                        "outline_relevance": 0.8793522715568542,
+                        "originality": 0.1916869878768921,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: What specific construction failures have persisted since 1971 that prevent homes from being tornado-resistant?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6031725406646729,
+                            "outline_relevance": 0.8637633919715881,
+                            "originality": 0.2501170039176941,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How can the improvements in smart weather technology be better leveraged to enhance construction resilience?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.46633392572402954,
+                            "outline_relevance": 0.7379509210586548,
+                            "originality": 0.2997509241104126,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Given the slow progress in improving construction details, what systemic changes do you think are needed in engineering practice or regulations?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.29332631826400757,
+                            "outline_relevance": 0.5012109875679016,
+                            "originality": 0.363277792930603,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What are the key engineering deficiencies in current construction practices that make tornado-prone homes vulnerable despite advances in weather prediction?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5528706312179565,
+                            "outline_relevance": 0.8793522715568542,
+                            "originality": 0.1916869878768921,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Wow. Give us an idea of what they are.",
+            "previous_answer": "Well, for instance, the main thing I think is missing in all these homes is continuous vertical load path, one which connects the roof to the wall, the wall to the foundation and everything holding together. If we had this in place, lots of the damage might be reduced. And the main thing I think that's possible for us, Ira, is that catastrophic failure of homes need not be the one way that this has to go. I think we can have homes that are damaged but repairable after an event.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Building on that, could you share how design principles from hurricane-resistant construction might be adapted to enhance tornado resilience in homes?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6136115789413452,
+                        "outline_relevance": 0.8823872804641724,
+                        "originality": 0.1584641933441162,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you explain more about the technical aspects of a continuous vertical load path and why it's so critical in tornado resilience?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.47520729899406433,
+                            "outline_relevance": 0.7146367430686951,
+                            "originality": 0.28608912229537964,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: What obstacles currently prevent widespread adoption of these construction principles in tornado-prone regions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4747167229652405,
+                            "outline_relevance": 0.8528509140014648,
+                            "originality": 0.17702150344848633,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: How might building codes or regulations evolve to encourage or require continuous vertical load paths?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4256303310394287,
+                            "outline_relevance": 0.39136698842048645,
+                            "originality": 0.4795385003089905,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Building on that, could you share how design principles from hurricane-resistant construction might be adapted to enhance tornado resilience in homes?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6136115789413452,
+                            "outline_relevance": 0.8823872804641724,
+                            "originality": 0.1584641933441162,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "So that you're just not seeing that devastation of somebody sitting on what's left of their concrete porch and nothing else?",
+            "previous_answer": "Absolutely. I've seen that too often. I've actually seen that in Joplin, where folks are having lunch from a picnic basket sitting on the wall of their house, and they've lost everything. The extent of, you know, human suffering that these things cost, it's not just the one event. It is a life-changing event for thousands of our families.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You've mentioned the profound impact on families losing everything in a tornado. Can you elaborate on the psychological and social challenges these families face during the recovery process?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.46288353204727173,
+                        "outline_relevance": 0.44694143533706665,
+                        "originality": 0.4967690706253052,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you share more about the experiences you've witnessed in communities recovering from such devastating tornadoes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3972827196121216,
+                            "outline_relevance": 0.5921955108642578,
+                            "originality": 0.37540268898010254,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What are the psychological and social challenges families face after losing everything in a tornado?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.45815199613571167,
+                            "outline_relevance": 0.5294318199157715,
+                            "originality": 0.48296236991882324,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How can engineering advancements complement social support systems to improve overall community resilience?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.15626917779445648,
+                            "outline_relevance": 0.6652132272720337,
+                            "originality": 0.3500868082046509,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You've mentioned the profound impact on families losing everything in a tornado. Can you elaborate on the psychological and social challenges these families face during the recovery process?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.46288353204727173,
+                            "outline_relevance": 0.44694143533706665,
+                            "originality": 0.4967690706253052,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Do you and can you - or do you need new engineering ideas here? Or are the old ones workable?",
+            "previous_answer": "Well, I think in part we must start from what we know, and I am at the University of Florida here. In Florida, we know a lot about hurricane-resistant designs, and I think the first thing is to apply those details, hurricane ties and, you know, better construction, better nails, and so on. But beyond that, there are things that we really don't know about tornadoes. We do not know, as yet, the wind speeds that happen at the ground level of the effect of these violent suctions that lift roofs off and lifts cars up into the air. These things are part and parcel of the science that is really missing, and until such time that we have a number to shoot for, we're really shooting in the dark.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You've mentioned the critical knowledge gaps in tornado ground-level wind speeds and their impacts on structures. Could you elaborate on what specific areas of tornado research need the most urgent attention to improve building resilience?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6373956799507141,
+                        "outline_relevance": 0.7269546985626221,
+                        "originality": 0.2448379397392273,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What are the biggest unknowns when it comes to understanding tornado wind effects on structures?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6625529527664185,
+                            "outline_relevance": 0.7339399456977844,
+                            "originality": 0.26078927516937256,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How does the lack of precise ground-level wind speed data impact engineering design for tornado resilience?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6080144643783569,
+                            "outline_relevance": 0.807083785533905,
+                            "originality": 0.18356537818908691,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Could you explain how hurricane-resistant building techniques could be adapted or need modification for tornado-prone areas?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7414503693580627,
+                            "outline_relevance": 0.8643653988838196,
+                            "originality": 0.13070756196975708,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You've mentioned the critical knowledge gaps in tornado ground-level wind speeds and their impacts on structures. Could you elaborate on what specific areas of tornado research need the most urgent attention to improve building resilience?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6373956799507141,
+                            "outline_relevance": 0.7269546985626221,
+                            "originality": 0.2448379397392273,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Is anyone doing that research?",
+            "previous_answer": "Well, I have the good fortune of working on an NSF career ward myself, entitled tornado-resilient communities. And we're sort of scratching the surface here, trying to first of all apply what knowledge we know from our wind hazard research here in Florida and all the work that has been done by the emergency management and the building codes here. But beyond that, I'm working with manufacturers of adhesive products and so on to develop new ways, new, more resistant ways in which we can actually get these buildings held together.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on the specific research gaps in tornado resilience that your NSF project is aiming to fill?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7862721085548401,
+                        "outline_relevance": 0.7753432393074036,
+                        "originality": 0.19483119249343872,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Could you elaborate on the current gaps in tornado resilience research that your NSF project aims to address?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7767511606216431,
+                            "outline_relevance": 0.7867509722709656,
+                            "originality": 0.18983793258666992,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: What kinds of new materials or technologies, like adhesives, show the most promise for building resilience?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5014224052429199,
+                            "outline_relevance": 0.8776736259460449,
+                            "originality": 0.3514825105667114,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: How do you collaborate with manufacturers and emergency management agencies to translate your research into practical building improvements?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4914858937263489,
+                            "outline_relevance": 0.5452054738998413,
+                            "originality": 0.3137894868850708,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you elaborate on the specific research gaps in tornado resilience that your NSF project is aiming to fill?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7862721085548401,
+                            "outline_relevance": 0.7753432393074036,
+                            "originality": 0.19483119249343872,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "You think some sort of building Super Glue? Is that what you're talking about?",
+            "previous_answer": "Well, that's part of it. You know, the thing is we really have to understand that the design that we have at present, we need to turn it on its head, literally. If you take the houses that we build today and just turn them over and have the roof hanging down by gravity, you would see where the failures would occur. It doesn't take a lot of wind load in addition to cause these failures. If we start thinking in those contexts, I think we'll be onto a solution.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You mentioned that current building designs reveal their weaknesses when visualized in an upside-down position. Could you elaborate on which specific structural elements are most vulnerable in this scenario, and what engineering adjustments could effectively address these vulnerabilities?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6229651570320129,
+                        "outline_relevance": 0.6047059893608093,
+                        "originality": 0.3044326901435852,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you explain more about which parts of current building designs fail when imagined upside-down and why?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6804656982421875,
+                            "outline_relevance": 0.5764007568359375,
+                            "originality": 0.4312208294868469,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What would it take for the building industry to adopt this completely new design mindset you mentioned?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6061949729919434,
+                            "outline_relevance": 0.4607928693294525,
+                            "originality": 0.36477434635162354,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think this new perspective on design could influence regulations and building codes for tornado resilience?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5900506973266602,
+                            "outline_relevance": 0.8243366479873657,
+                            "originality": 0.1455063819885254,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You mentioned that current building designs reveal their weaknesses when visualized in an upside-down position. Could you elaborate on which specific structural elements are most vulnerable in this scenario, and what engineering adjustments could effectively address these vulnerabilities?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6229651570320129,
+                            "outline_relevance": 0.6047059893608093,
+                            "originality": 0.3044326901435852,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "What about shelters?",
+            "previous_answer": "Well, the shelters, we did actually have an opportunity in Moore to look at some of the schools and some - and the Moore medical complex, which was damaged there. Thanks to efforts of our FEMA guides and so on, we were able to get into these buildings. A couple things that I noted with the shelters, these - you know, near absolute protection is something that is desired, but in terms of budget it may not always be there. I think we can do a lot more in terms of the schools, providing roll-up doors or somewhere bracing those corridors in schools so that they're not facing directly to the exterior, and we can protect people's lives there. One of the things I would mention, Ira, is in the Moore medical complex, they sheltered 300 people in that shelter during the 20th May tornado with no injuries. This was interesting to us for two reasons: One, they only had 30 patients and staff at the time so that the majority of these people came from around the area, from homes, from the malls, et cetera, et cetera, because they wanted to seek shelter for themselves. And this is what will happen with any shelter that one provides in a town or city.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Considering the budget constraints you've mentioned, how do you approach prioritizing which structural improvements to invest in for tornado resilience in schools and community buildings?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.44653213024139404,
+                        "outline_relevance": 0.7314086556434631,
+                        "originality": 0.2340562343597412,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you describe technical measures that can make school shelters more effective and affordable?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6720161437988281,
+                            "outline_relevance": 0.4615352153778076,
+                            "originality": 0.5395971536636353,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How do you see the community's role evolving in seeking and using tornado shelters?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4558125138282776,
+                            "outline_relevance": 0.6317009329795837,
+                            "originality": 0.2373308539390564,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: What are the trade-offs between high-cost near absolute protection shelters and more budget-conscious shelter options?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.530432403087616,
+                            "outline_relevance": 0.4695413112640381,
+                            "originality": 0.5894193649291992,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Considering the budget constraints you've mentioned, how do you approach prioritizing which structural improvements to invest in for tornado resilience in schools and community buildings?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.44653213024139404,
+                            "outline_relevance": 0.7314086556434631,
+                            "originality": 0.2340562343597412,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "And what was it about the structure of that shelter that made it stay together?",
+            "previous_answer": "I think it was a bit about the location. It was right in the center of the building. And as anyone could see who is traveling on I-35, the building itself was completely damaged on its exterior. But the - within these - there were several walls protecting this shelter, it probably was hardened, and the corridors themselves were - they were sort of radially - they had several angles and bends and so on. So even though the wind blew out the exterior doors, by the time it got to the entrance of the shelter, it sort of bypassed it and didn't blow into the shelter itself.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain how the corridor angles and bends contribute to reducing the wind impact inside the shelter?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6098548173904419,
+                        "outline_relevance": 0.5233766436576843,
+                        "originality": 0.39652860164642334,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you explain how the corridor angles and bends contribute to reducing wind impact within the shelter?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5765706300735474,
+                            "outline_relevance": 0.5282613039016724,
+                            "originality": 0.37201428413391113,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What lessons can be drawn from this shelter's design for new community tornado shelters?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.45788124203681946,
+                            "outline_relevance": 0.6906005144119263,
+                            "originality": 0.1446160078048706,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How might the shelter design be adapted for different building types or disaster scenarios?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.47645166516304016,
+                            "outline_relevance": 0.5802657604217529,
+                            "originality": 0.3240582346916199,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you explain how the corridor angles and bends contribute to reducing the wind impact inside the shelter?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6098548173904419,
+                            "outline_relevance": 0.5233766436576843,
+                            "originality": 0.39652860164642334,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "Could this be a model for your own home?",
+            "previous_answer": "Well, I think so, but the thing that one has to recognize with your own home, particularly the smaller homes, is that you need several walls between you and that safe place that you're trying to get to. We saw some of the problems with smaller, bungalow-type homes in Joplin and Tuscaloosa two years ago, whereby even the interior rooms, you know, they could be places where you would be susceptible to damage.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on what specific changes smaller homes might need to improve their protective barriers against tornado damage?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5944213271141052,
+                        "outline_relevance": 0.7706695795059204,
+                        "originality": 0.21888649463653564,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you elaborate on what specific changes smaller homes might need to improve their protective barriers?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7084243297576904,
+                            "outline_relevance": 0.6604393720626831,
+                            "originality": 0.40659457445144653,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do different home sizes and layouts affect the overall tornado preparedness strategies for families?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4992233216762543,
+                            "outline_relevance": 0.6977764368057251,
+                            "originality": 0.2579386234283447,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Considering the issues in smaller homes you mentioned, what design principles from larger shelters could be adapted to improve their resilience?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6298181414604187,
+                            "outline_relevance": 0.6564843654632568,
+                            "originality": 0.20062124729156494,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you elaborate on what specific changes smaller homes might need to improve their protective barriers against tornado damage?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5944213271141052,
+                            "outline_relevance": 0.7706695795059204,
+                            "originality": 0.21888649463653564,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 11,
+            "actual_question": "Now, you were on Capitol Hill, where the politicians live. Is this a question of money or a question of politics, or they seem to be the same thing these days?",
+            "previous_answer": "Well, to tell you the truth, I testified with the predecessor of this bill, which was sponsored by Congressman Randy Neugebauer of Texas in I believe 2008. And, you know, we're on to the 10th anniversary of when that bill was initiated. I think it's leadership. I think we have to decide once and for all - the one question we need to ask is do we want to live in wind-hazard-resilient communities? And if so, what does it take to get there? As I said, I made the comparison today between the 40 years since the Lubbock tornado, when the weather systems have become so far advanced, and money has been spent, about $170 million over the last 10 years, in better equipment and so on. All of us, all of us benefit from this, OK. By the same token, if 40 years ago we spent that type of research and gauged, you know, the enthusiasm and eagerness of, you know, bright, bright graduate students who I have working with me right now, we would have solved this problem. And I think we can still do that now in a 10-year frame, but it requires that sort of, you know, let's go the moon type of attitude.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Considering the critical importance of investment in resilience, can you elaborate on the scale and type of funding necessary to substantially improve the structural integrity of homes in tornado-prone areas?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.31438714265823364,
+                        "outline_relevance": 0.7421197295188904,
+                        "originality": 0.1568281054496765,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: What specific leadership qualities are most critical to advancing wind-hazard resilience in communities?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3655124306678772,
+                            "outline_relevance": 0.5805618762969971,
+                            "originality": 0.20566612482070923,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How can public awareness and political will be increased to support long-term investment in tornado resilience?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3250661790370941,
+                            "outline_relevance": 0.7419875264167786,
+                            "originality": 0.21926629543304443,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Considering the decade-long legislative journey, what key milestones should be targeted to accelerate resilience efforts?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5190662741661072,
+                            "outline_relevance": 0.6292954087257385,
+                            "originality": 0.25715816020965576,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Considering the critical importance of investment in resilience, can you elaborate on the scale and type of funding necessary to substantially improve the structural integrity of homes in tornado-prone areas?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.31438714265823364,
+                            "outline_relevance": 0.7421197295188904,
+                            "originality": 0.1568281054496765,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 12,
+            "actual_question": "Well, what about cost? Going to the moon was expensive. How expensive would this be?",
+            "previous_answer": "Absolutely, and that's something that we have to really ask each of us what do we want to commit to. Do we want to commit to, you know, providing FEMA with the $2 or $3 billion every three years to repair and resuscitate someone's lives, or do we want to build it better the first time? That's a question for each citizen. I think, though, we have to look at the - not only is the cost going to be, you know, explored over a larger area, I think look at after we went to the moon, a byproduct of that was the Internet.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Reflecting on the financial choices communities face regarding disaster resilience, how do you believe research gaps in tornado safety and engineering should be addressed to improve future strategies?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4011608958244324,
+                        "outline_relevance": 0.717280387878418,
+                        "originality": 0.20898795127868652,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think communities can be motivated to prioritize upfront investment in resilience over reactive disaster aid?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.40871497988700867,
+                            "outline_relevance": 0.5839699506759644,
+                            "originality": 0.2814156413078308,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you elaborate on the potential economic benefits that go beyond direct disaster relief savings, similar to the internet example?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3928576111793518,
+                            "outline_relevance": 0.6648156642913818,
+                            "originality": 0.4813985824584961,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What policy initiatives could help bridge the gap between initial costs and long-term resilience benefits in tornado-prone areas?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3703397214412689,
+                            "outline_relevance": 0.7678537368774414,
+                            "originality": 0.1503140926361084,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Reflecting on the financial choices communities face regarding disaster resilience, how do you believe research gaps in tornado safety and engineering should be addressed to improve future strategies?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4011608958244324,
+                            "outline_relevance": 0.717280387878418,
+                            "originality": 0.20898795127868652,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 13,
+            "actual_question": "Right.",
+            "previous_answer": "You know, so there is going to be several things in which we can benefit as a society.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share what specific societal benefits you believe investing in tornado resilience can bring?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4377012848854065,
+                        "outline_relevance": 0.779040515422821,
+                        "originality": 0.12735027074813843,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What specific societal benefits do you foresee from investing in tornado resilience?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4062620997428894,
+                            "outline_relevance": 0.7910044193267822,
+                            "originality": 0.11645793914794922,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you explain how these societal benefits translate to everyday community safety?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5551422834396362,
+                            "outline_relevance": 0.5866249799728394,
+                            "originality": 0.40268826484680176,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In your opinion, how can we effectively communicate these benefits to encourage wider community support?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5279943346977234,
+                            "outline_relevance": 0.43825578689575195,
+                            "originality": 0.3083665370941162,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share what specific societal benefits you believe investing in tornado resilience can bring?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4377012848854065,
+                            "outline_relevance": 0.779040515422821,
+                            "originality": 0.12735027074813843,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 14,
+            "actual_question": "I have about a minute left, and I'll get an idea of that cost. Let's say you have a $100,000 home. What - how much would it cost you to sink into it to do those things structurally that you're asking to do?",
+            "previous_answer": "I think I would put in there about $5,000, which would give you hurricane ties, more anchor bolts, larger washers and metal ties between the wall plates and the studs. I would use more nails, six-inch (unintelligible), six inches on spacings, ring shank nails, and I think you have a fighting chance after that. Then you look at putting in a storm shelter, and you protect life safety, as well.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are some key gaps in current tornado research that you believe need urgent attention to improve future building resilience?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.32374870777130127,
+                        "outline_relevance": 0.8006579875946045,
+                        "originality": 0.10513567924499512,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on how these specific structural reinforcements improve the home's resistance to tornado damage?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4060344696044922,
+                            "outline_relevance": 0.8110097050666809,
+                            "originality": 0.15941011905670166,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What are some cost-effective ways for homeowners to prioritize tornado resilience upgrades?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3826836943626404,
+                            "outline_relevance": 0.8005261421203613,
+                            "originality": 0.1530320644378662,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you balance investing in structural improvements versus life safety measures like storm shelters?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4530409872531891,
+                            "outline_relevance": 0.6349220871925354,
+                            "originality": 0.26130735874176025,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What are some key gaps in current tornado research that you believe need urgent attention to improve future building resilience?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.32374870777130127,
+                            "outline_relevance": 0.8006579875946045,
+                            "originality": 0.10513567924499512,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 15,
+            "actual_question": "It doesn't sound like a whole lot to do. Thank you, thank you, Dr. Prevatt, very much for your time today.",
+            "previous_answer": "I really appreciate it, and you have a great day.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Reflecting on the current state of tornado research, what are some key gaps or challenges that still need to be addressed to improve community resilience?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.029439987614750862,
+                        "outline_relevance": 0.7511396408081055,
+                        "originality": 0.09496724605560303,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Reflecting on our conversation, what do you feel are the most pressing challenges still facing tornado resilience efforts?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.0441531166434288,
+                            "outline_relevance": 0.7622434496879578,
+                            "originality": 0.14914262294769287,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share more about any recent developments in engineering that could transform how communities prepare for tornadoes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.04089861363172531,
+                            "outline_relevance": 0.719886064529419,
+                            "originality": 0.19557678699493408,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you see the role of public policy evolving to support the engineering solutions we've discussed?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.0104519072920084,
+                            "outline_relevance": 0.4697703719139099,
+                            "originality": 0.35445183515548706,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Reflecting on the current state of tornado research, what are some key gaps or challenges that still need to be addressed to improve community resilience?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.029439987614750862,
+                            "outline_relevance": 0.7511396408081055,
+                            "originality": 0.09496724605560303,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

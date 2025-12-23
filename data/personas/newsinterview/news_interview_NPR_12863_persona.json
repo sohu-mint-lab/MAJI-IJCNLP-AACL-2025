@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Dr. Michelle Simmons",
+    "age": 50,
+    "personality": "Inquisitive and passionate about innovation, with a practical approach to complex problems. Exhibits enthusiasm for her field while remaining grounded in research realities.",
+    "employment": "Professor of Physics and Director of Quantum Computation",
+    "notes": "Has a decade-long commitment to developing single-atom transistors for quantum computing. Works collaboratively with international research bodies.",
+    "communication_style": "Clear and detailed, often using analogies to explain complex scientific concepts, making them accessible to a wider audience."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "transcript": [
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "A six-day weather forecast now is as good as a two-day forecast was in the 1970s. We are in the golden age of weather forecasting. Andrew Blum has written about how we got here. He's the author of \"The Weather Machine: A Journey Inside The Forecast.\" He says the spark for the book came when he received a warning about Superstorm Sandy long before it came ashore on the East Coast."
+    },
+    {
+      "speaker": "Andrew Blum",
+      "text": "It wasn't the expert hurricane forecasters, you know, sort of putting the pieces together in their minds. It was really the outputs of these computer models that they're responding to."
+    },
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "Blum went deep on how forecasts get made but also why climate change has made them essential today."
+    },
+    {
+      "speaker": "Andrew Blum",
+      "text": "The funny thing about the topic of the weather is there's both incredibly banal moments - you know, getting caught in the rain, the canceling picnics. And then it swings to these incredible extremes, you know, with millions of people displaced, with billions of dollars of damage. And the weather models and the forecasts have to serve both. And it's remarkable to me as well that, you know, one of the things that's happened as the sort of scale in the system has shifted to the computers is that it's no longer bound by past experience. It's no longer sort of the meteorologists say, well, this happened in the past, you know, we can expect it to happen again. We're more ready for these new extremes because we're not held down by past expectations."
+    },
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "So explain to me how this system actually works."
+    },
+    {
+      "speaker": "Andrew Blum",
+      "text": "Well, the first thing is to know what the weather is so you can know what the weather will be. That's the crux of it. So you need as complete observations of the global atmosphere as possible, which means coming from satellites and weather buoys and from sensors and airliners. And then once you know what it is, what you can do is then begin to run it forward in time. But rather than just, you know, sort of being plugged into the supercomputers - you know, in comes the present, and out comes the future - the models are really a kind of ongoing concern. Every six hours, every 12 hours, they compare their own forecast with the latest observations. And so the models in reality are kind of - you know, they're sort of dancing together, where the model makes a forecast, and it's corrected slightly by the observations that are coming in."
+    },
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "And does anyone own these models and these satellites? I mean, is it part of a global web? Or does America have a certain piece of this and every country sort of have their own proprietary information that somehow gets passed along?"
+    },
+    {
+      "speaker": "Andrew Blum",
+      "text": "Well, it's definitely run by individual nations but individual nations with their systems tied together. And that happens both geographically but also temporally. You know, one of the key tools for observations that feed the weather models are the polar-orbiting satellites. It's so well-integrated that the European polar orbiters cover the earth in each local time's morning, and the American orbiters come in the afternoon. I mean, that's a sort of pattern that has been essential to making sure that, you know, we have the latest observations from every part of the earth's atmosphere. It's about this sort of continually humming system to step forward in time and correct slightly and, you know, keep spitting out a changing forecast that hopefully gets better and better."
+    },
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "And so up until now, it's been governments that have been obviously calculating the weather for the greater good. But you call privatization a major threat to weather forecasting. Explain."
+    },
+    {
+      "speaker": "Andrew Blum",
+      "text": "Yes, it's a 150-year-old system of governments collaborating with each other as a global public good. You know, in the '60s, it was something that President Kennedy saw as a sort of counterpoint to the space race. You know, meteorology was a way that governments could collaborate. But more recently, we potentially have a kind of bifurcation. You know, we potentially have forecasts for the haves and forecasts for the have-nots. It hasn't come yet, but you can sort of see everybody gathering around, you know, recognizing that while before this was too expensive for anyone but governments to do - you know, no private company was going to spend, you know, 20, $30 million on a supercomputer - when you look at the amount of money at stake with different weather extremes, now that equation has changed. And there is the potential for profit. And companies are working hard to capture it."
+    },
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "When you say it's about the have and have-nots, how might that play out? Give me an example."
+    },
+    {
+      "speaker": "Andrew Blum",
+      "text": "Well, the positive example from last month was with Cyclone Fani in India. And this was a very similar storm one 20 years ago that tens of thousands of people had died. This time around, the forecast came far enough in advance and with enough confidence that the Indian government was able to move a million people out of the way. So there was a global forecast that had sort of an immediate impact in a part of the world that does not have the most sophisticated weather service. The alternative would be, you know, if you had a hurricane coming down in Florida, for example, and you had private forecasting services that said, you know, we can predict this with an extra day ahead of time, allowing for people to evacuate who have access to that information. And that information becomes a commodity rather than a public good."
+    },
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "Now that you know so much about the weather and the way that it works and its importance to us, I mean, what keeps you up at night?"
+    },
+    {
+      "speaker": "Andrew Blum",
+      "text": "I mean, Sandy was a scary scenario. But the implication is that it's not the worst possible. You know, its impacts were localized. Even in parts of New York I remember, you know, waking up the next morning. And in the neighborhood that I live, you know, things were basically normal, which was not the case three miles away. So I think for me, you know, what keeps me up is the idea of a perfectly forecast storm that is catastrophic on a broader scale and that we see coming for six days ahead and need to make decisions - not just as individuals, but as a society or as a city - how to move and respond. And I think, you know, that anticipation is new. You know, we haven't had that capability before. And we have it now. And the next step is to figure out how to use it properly."
+    },
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "Andrew Blum is the author of \"The Weather Machine: A Journey Inside The Forecast.\" Thank you so much."
+    },
+    {
+      "speaker": "Andrew Blum",
+      "text": "Thank you."
+    }
+  ]
+}

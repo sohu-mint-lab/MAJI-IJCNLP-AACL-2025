@@ -1,0 +1,144 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "This is SCIENCE FRIDAY, I'm Ira Flatow. In 2011, a group of researchers in Japan made a surprising discovery: With the right process, they could turn cement, in fact a component of the Portland cement you can find in the hardware store, they can turn that into a metal, and in its metallic state they could coax the cement to act as a semiconductor. Now researchers report on why it can happen, work that could help fine tune the process and make semiconducting cement more widespread. Think light, cheap electrodes, battery components, a concrete computer screen. Well, we'll ask the scientist involved. Chris Benmore is a physicist in the X-ray Science Division at Argonne National Laboratory in Argonne, Illinois. He's one of the authors of a paper on the research published this week in the Proceeding of the National Academy of Sciences. Welcome to SCIENCE FRIDAY."
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "When you say, you really mean the cement like we can buy a bag at the lumber yard?"
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "Well, a component of that cement, one called mayenite. Yes, they've managed to treat that in such a way that you can turn it from an insulator into a metal. And what we've done is we've used very powerful experiments or in theoretical probes to explain why that happens. And so this opens up a whole new area for designing new materials."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "When you say turning it into a metal, this is something that was discovered, as I said, a few years ago. Does it - is it hard - does it harden into concrete like cement does when it's finished?"
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "It turns a different color. It's actually a glass. So it's basically a liquid that's quenched to form a solid glass, not unlike the one you would drink out of, but it's actually black, and it has very different properties once it's in that state to what it would normally have basically in the bag at the hardware store."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So once it's in this glass form, it becomes a metal, a semiconductor like transistor material, stuff like that?"
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "Yes, the conductivity increases massively, and it acts as if it were a metal, that's right."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And you have discovered why that happens?"
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "Yes, what we've done, the initial discovery was by the Japanese, and they have lots of applications for it already, but what we've managed to do is figure out how it happens and why it works. So we've used very powerful X-rays to look into where the atoms are and how they're arranged and how they can trap the electrons to make this massive conductivity change."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So they have to make - electricity is the flow of electrons. So you have to find a way of having excess electrons to flow around, and you trap them there, and that's how you made concrete into - cement into a metal."
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "That's right. The cement is actually reduced with titanium, and so it takes the electrons from that, but the actual structure traps those, traps those electrons, and they're sort of free electrons, and they create the - that's where the conductivity comes from. The trick, as it turns out, is how this structure arranges, how the different atoms in the cement arrange themselves and the charges they take to actually trap those free electrons and increase the conductivity."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So you could turn, then, cement into sort of semiconductor electronic parts?"
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "That's right. It's been proposed that you could use this technology for tutable(ph), lightweight metal oxides or electrodes or fuel cells or mainly actually for flat-panel displays because it's a glass. You could make a big glass sheet of it."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Wow, and I bet you since it's an abundant item, right, you can buy it in a hardware store..."
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "Yes, it's basically in slag. It's basically a very common material, a calcium aluminate that's called mayenite that you can - that's very readily available so very cheap."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So you can engineer it and design it into almost any shape, size, form you want to, then?"
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "It's - you have to heat it up pretty high to make it liquid, but since it's a glass you can mold it into various different forms, that's right. So it's very versatile in that way."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Is this - does this - this explanation of how it works, does this offer you and other scientists an opportunity to study other materials or find out other ways things might work and become semiconductors?"
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "Absolutely. I think the reason we were able to figure it out is because we have these very powerful probes like this very high-energy, very powerful X-ray source and these supercomputers where we were able to look at the atomic level of how the atoms are arranged and when they're arranged in a certain way why they exhibit this behavior. And we can try and reproduce that in other materials and maybe even enhance it in design from the bottom up, new types of materials that have very strange properties."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And I think it's quite fascinating the tools that you use. One of the tools you used was an aerodynamic levitation furnace. It sounds like out of a science fiction movie."
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "It sort of is magical. It's basically a gas jet, like you might have a hairdryer, and you can float a ping-pong ball on it. I think we've all done that as kids. And in that same way we can basically float a little chunk of cement, and we can fire a laser at it to melt it. And in that way when it cools from the melt, it will glass. It won't hit a surface and crystallize. So it's a part of the way of getting a pristine sample that we could do our experiments on without any contamination to make this material."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "If it forms in - you know, my chemical engineering, my civil engineering purists always say you're confusing cement with concrete. When it solidifies, is it a concrete, or is it a glass or somewhere in between?"
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "It's a glass. Well concrete itself, or even cement, are both very complicated hydrates. This is just one component of the cement, calcium aluminate, and when you actually quench it, it forms a pretty hard glass. It does have voids in it, in fact that's part of the structure that allows it to conduct the way it is, but it's basically for all intents and purposes like a solid piece of glass."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So where do you go now with your work? What - how do you move this on further?"
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "Right, well, we think we can probably find this phenomenon in lots of other materials that could exhibit the same behavior if we arranged them in the same way. So we're in the sort of stage of saying, well, what else can this happen in? Can we enhance this effect? Can we make it better, or could we find even other effects that could have maybe slightly different properties that we could tune for other applications?"
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Using this same cement or looking through other materials?"
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "Looking at other materials, looking at different atoms within the cement, the ones that actually cause the phenomenon, looking at those and seeing if there are other ones, whether it's a widespread phenomenon or whether it's just associated with those ones in particular. That's quite an important thing, to see how it can be exploited for future applications."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You've got to be working on some other stuff, some other materials right now."
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "Oh, we're always working on lots of other materials, that's right. I mean, we work on everything from cement to spider silks to batteries, battery research. So we have an array of ideas and things going on at the lab."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Yeah, you guys at Argonne are always very busy."
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "That's true."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Well, and thank you very much for taking a little bit of time to talk with us today."
+    },
+    {
+      "speaker": "Chris Benmore",
+      "text": "Oh, well thank you for having me on the show."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You're welcome. Chris Benmore is a physicist in the X-ray Science Division, that's at the Argonne National Laboratory in Argonne, Illinois."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of National Policy on Web Privacy",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the key points discussed regarding President Obama's proposed national policy on web privacy?",
+        "importance": "high",
+        "keywords": [
+          "national policy",
+          "web privacy",
+          "President Obama"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How can individuals protect their privacy in the digital age?",
+        "importance": "optional",
+        "keywords": [
+          "privacy protection",
+          "digital age",
+          "individuals"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Technological Advances in Transistors",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Can you explain the significance of building a transistor out of a single atom?",
+        "importance": "critical",
+        "keywords": [
+          "transistor",
+          "single atom",
+          "significance"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What challenges arise in scaling the number of single-atom transistors for practical use?",
+        "importance": "high",
+        "keywords": [
+          "scaling",
+          "challenges",
+          "practical use"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Quantum Computing and its Implications",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How does quantum computing differ from classical computing in terms of speed and efficiency?",
+        "importance": "critical",
+        "keywords": [
+          "quantum computing",
+          "classical computing",
+          "speed",
+          "efficiency"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What role do qubits play in quantum computing and how does their coherence affect computation?",
+        "importance": "high",
+        "keywords": [
+          "qubits",
+          "quantum coherence",
+          "computation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Prospects and Research Directions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the next steps in research and development for single-atom transistors?",
+        "importance": "high",
+        "keywords": [
+          "research",
+          "development",
+          "single-atom transistors"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does sustained funding influence the progress of long-term scientific projects?",
+        "importance": "optional",
+        "keywords": [
+          "sustained funding",
+          "scientific projects",
+          "progress"
+        ]
+      }
+    ]
+  }
+]

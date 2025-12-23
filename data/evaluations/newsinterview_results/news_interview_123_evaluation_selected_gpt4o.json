@@ -1,0 +1,391 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.32426368527942234,
+                "avg_context_relevance": 0.4365808284944958,
+                "avg_outline_relevance": 0.8102157447073195,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 60.71428571428571,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "This week, former special counsel Robert Mueller will answer questions in two open hearings. He will appear before members of Congress from both the Intelligence and Judiciary Committees in the House of Representatives. John Dean is with us. He's watched many hearings and been at the center of one. That's Watergate, of course. Welcome to the program.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the main goals and purpose behind the upcoming hearings involving Robert Mueller?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.19111263751983643,
+                        "outline_relevance": 0.8991163969039917,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain the main goals and purpose behind the upcoming hearings involving Robert Mueller?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.19111263751983643,
+                            "outline_relevance": 0.8991163969039917,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "In general, these hearings, the questioning has been chopped up into five-minute increments back and forth between Democrats and Republicans. Do you think this works, especially for something where we know that there are two very distinct narratives and a great deal of polarization?",
+            "previous_answer": "I think it can be very productive given the fact that they are planning for it. They are rehearsing. They're having mock sessions - at least the Democrats are, Republicans may be doing something similar - because the five-minute increments are highly disruptive. A trend of questioning tends to peter out at - given five-minute switch from the Republicans to the Democrats and vice versa. So I'm looking for a rather smooth hearing on this one.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Why do both parties find it necessary to prepare and rehearse extensively for these hearings, especially considering the restrictive five-minute questioning periods?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6512767672538757,
+                        "outline_relevance": 0.8588939309120178,
+                        "originality": 0.4392349123954773,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Why do both parties find it necessary to prepare and rehearse extensively for these hearings, especially considering the restrictive five-minute questioning periods?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6512767672538757,
+                            "outline_relevance": 0.8588939309120178,
+                            "originality": 0.4392349123954773,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Do you think by rehearsing what the Democrats are trying to do is sort of develop a line of questioning and try and get a coherent narrative in place?",
+            "previous_answer": "Well, the first part of this hearing, I actually testified back in June, and I know that the Democrats at least are preparing for these sort of things in a very conscientious way. And I learned it because they said, listen; when you're out there, we are going to ask you questions about A, B, C, D and E. And they said they would have graphics for that. I didn't watch the hearings after I testified, but I did see the graphics when they were asking me about them. And that's really a process of building a record as well of what is very important to understand in this event.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think the preparation processes of Democrats and Republicans differ for these hearings, and what effects do those differences have on the proceedings?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6303801536560059,
+                        "outline_relevance": 0.7625222206115723,
+                        "originality": 0.2843889594078064,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you think the preparation processes of Democrats and Republicans differ for these hearings, and what effects do those differences have on the proceedings?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6303801536560059,
+                            "outline_relevance": 0.7625222206115723,
+                            "originality": 0.2843889594078064,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "How should you respond to the other side when they're trying to build a narrative and you're trying to build a narrative? I mean, the switching back and forth, it does create this kind of very truncated storyline for people to follow, and ultimately, this is something for the American people.",
+            "previous_answer": "That's exactly right. It is a part of the function of educating the public, and the five-minute increments are not really conducive to that. And what's interesting, Lulu, is they don't have to do it this way. This is more custom than it is by the rules of the House and the House Judiciary and the Intelligence Committees. They really could do this with large blocks if they wanted to have one or two members in those blocks. They could actually go for an hour. So this is something that is a custom that has built up that, you know, I think we might have reached the time when there's a thought should be given to doing it another way.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What do you see as the main reasons that these five-minute increments became the customary format for questioning during hearings?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6372958421707153,
+                        "outline_relevance": 0.8819758892059326,
+                        "originality": 0.21764838695526123,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What do you see as the main reasons that these five-minute increments became the customary format for questioning during hearings?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6372958421707153,
+                            "outline_relevance": 0.8819758892059326,
+                            "originality": 0.21764838695526123,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Why do you think they aren't? I mean, do you think this benefits one side or the other?",
+            "previous_answer": "Well, there are 435 members of Congress. Each wants to have - when their committee is at the center of attention, they want to have their share of the head attention. That is good politically for them...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: How does the competition for attention among members of Congress influence the overall dynamic and outcomes of these hearings?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.6908318996429443,
+                        "outline_relevance": 0.7282871603965759,
+                        "originality": 0.28112220764160156,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How does the competition for attention among members of Congress influence the overall dynamic and outcomes of these hearings?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.6908318996429443,
+                            "outline_relevance": 0.7282871603965759,
+                            "originality": 0.28112220764160156,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Might give them a viral moment on YouTube.",
+            "previous_answer": "It could, indeed, give them a viral moment on YouTube. So that's part of the game that's being played. But what the Democrats are trying to do here is educate the public about what this president did and how he did it. And they've got a witness who has impeccable credentials. I don't think the Republicans are going to try to undercut this man. He is one of them. And he served his country. And he did this not because he was looking for a job. He did it because he thought somebody had to do it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How does the bipartisan credibility of a witness affect the public's perception of the hearing's legitimacy and outcomes?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.34947770833969116,
+                        "outline_relevance": 0.5850749611854553,
+                        "originality": 0.3481348752975464,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How does the bipartisan credibility of a witness affect the public's perception of the hearing's legitimacy and outcomes?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.34947770833969116,
+                            "outline_relevance": 0.5850749611854553,
+                            "originality": 0.3481348752975464,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Well, let's get down to the prognostication part of this conversation. Robert Mueller has been pretty plain about how he doesn't want to testify and has nothing to say beyond the report. Do you support his logic?",
+            "previous_answer": "Well, you know, there've been some very powerful commentary about his position. A former deputy solicitor general, deputy attorney general, a fellow by the name of Donald Ayer wrote a rather sharply worded piece kindly but clearly saying that Mueller had a duty to actually go beyond the four quarters (ph) because of what's happened. Attorney General Barr has tried to discredit his work. He's actually belittled his work. And as Ayer says, you know, this man's got to step up and defend his work and not be rolled over. I think he'll do that.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What do you think are the main expectations from Congress and the public regarding Robert Mueller's willingness to testify beyond his written report?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5886196494102478,
+                        "outline_relevance": 0.9105352163314819,
+                        "originality": 0.20351910591125488,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What do you think are the main expectations from Congress and the public regarding Robert Mueller's willingness to testify beyond his written report?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5886196494102478,
+                            "outline_relevance": 0.9105352163314819,
+                            "originality": 0.20351910591125488,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "You think we're in for a surprise with Mr. Mueller, then.",
+            "previous_answer": "I think we are.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "To provide a clearer picture for our listeners, could you explain the main objectives of the hearings involving Robert Mueller?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1559309959411621,
+                        "outline_relevance": 0.8522200584411621,
+                        "originality": 0.07687550783157349,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "To provide a clearer picture for our listeners, could you explain the main objectives of the hearings involving Robert Mueller?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1559309959411621,
+                            "outline_relevance": 0.8522200584411621,
+                            "originality": 0.07687550783157349,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "John Dean is an author and CNN contributor. Thank you so much.",
+            "previous_answer": "My pleasure.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What do you think are the main objectives of the upcoming congressional hearings involving Robert Mueller?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.03430180251598358,
+                        "outline_relevance": 0.8133158683776855,
+                        "originality": 0.06744921207427979,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What do you think are the main objectives of the upcoming congressional hearings involving Robert Mueller?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.03430180251598358,
+                            "outline_relevance": 0.8133158683776855,
+                            "originality": 0.06744921207427979,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

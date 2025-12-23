@@ -1,0 +1,624 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3574862787800451,
+                "avg_context_relevance": 0.40024358659021314,
+                "avg_outline_relevance": 0.7080430926815156,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.31231436878442764,
+                "avg_context_relevance": 0.4108255049213767,
+                "avg_outline_relevance": 0.8598847612738609,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 48.0,
+            "covered_questions": 4,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "President Trump is heading to the U.K. this week for a state visit. And even before arriving, he has stirred controversy. He used the word nasty when referring to Meghan Markle, the Duchess of Sussex, and has weighed in on who he believes should succeed outgoing Prime Minister Theresa May, who is stepping down in a few days. Joining us now from London is Dominic Waghorn, diplomatic editor at Sky News. Welcome.",
+            "previous_answer": "Thank you very much.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Broad: Could you provide an overview of the key events leading up to President Trump's state visit to the U.K.?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.1610417366027832,
+                        "outline_relevance": 0.9262836575508118,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Broad: Could you provide an overview of the key events leading up to President Trump's state visit to the U.K.?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.1610417366027832,
+                            "outline_relevance": 0.9262836575508118,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Depth: How do you assess the political significance of Trump's visit amidst the ongoing changes in U.K. leadership?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1518169641494751,
+                            "outline_relevance": 0.7901599407196045,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: In what ways has public opinion in the U.K. been shaped by Trump's recent remarks and actions ahead of his visit?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.002299714833498001,
+                            "outline_relevance": 0.8559901714324951,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "So this is obviously a very delicate time in the U.K., with Brexit stalled and the leadership of the country being decided. Enter our president. He said that he believes Boris Johnson, the former mayor of London and a controversial figure, should be the next PM. How are his opinions being received?",
+            "previous_answer": "Yeah. I mean, and also a man who - before Donald Trump's election, Boris Johnson said that Donald Trump showed such stupefying ignorance he was unfit for office. And clearly, relations between the two men have improved since then. Donald Trump sees Boris Johnson and Nigel Farage, the leader of the Brexit Party that stormed to success in the recent European elections, as kindred spirits. And certainly, Boris Johnson seems to have been given permission to meet him next week on the sidelines of this visit. And I think, you know, that's certainly one reason why the government - Downing Street - is apprehensive about this visit. But I think certainly, the people are nervous in London, as any host is, I guess, ahead of a Donald Trump visit.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How have Donald Trump's remarks specifically influenced public opinion and the political discourse in the U.K.?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.39829039573669434,
+                        "outline_relevance": 0.988723635673523,
+                        "originality": 0.14267057180404663,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How has the relationship between Donald Trump and Boris Johnson evolved over time beyond public statements?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6669966578483582,
+                            "outline_relevance": 0.5927193760871887,
+                            "originality": 0.4286265969276428,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What has been the general public reaction across different regions of the U.K. to Trump's upcoming visit?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4338967204093933,
+                            "outline_relevance": 0.8048563003540039,
+                            "originality": 0.15770673751831055,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Could you elaborate on how the U.K. government is preparing diplomatically for this visit given the mixed sentiments?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3455692529678345,
+                            "outline_relevance": 0.7728333473205566,
+                            "originality": 0.2938164472579956,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How have Donald Trump's remarks specifically influenced public opinion and the political discourse in the U.K.?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.39829039573669434,
+                            "outline_relevance": 0.988723635673523,
+                            "originality": 0.14267057180404663,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Yeah. Is it being viewed as meddling, though? I mean, expressing an opinion is not common for the leader of one nation to do.",
+            "previous_answer": "No, it certainly would be unacceptable for any other president. But this is a president that the people have got used to living by different rules. So I think for most British people looking on, they're wondering why he's been invited. He is a very unpopular man, a very unpopular president. But there will be huge protests, as there were last time. We'll have the same Donald Trump blimp - that big inflatable that shows Donald Trump as a baby - floating over London.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How is the 'Trump baby' blimp and its symbolism perceived by the people and authorities in London during these protests?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6172332763671875,
+                        "outline_relevance": 0.8565724492073059,
+                        "originality": 0.345763623714447,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How has the general public's perception of Donald Trump influenced political discussions in the U.K. recently?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5214490294456482,
+                            "outline_relevance": 0.9174382090568542,
+                            "originality": 0.08464926481246948,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you explain what you mean by Trump living by 'different rules' and how that impacts diplomatic norms?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.44343963265419006,
+                            "outline_relevance": 0.5308051109313965,
+                            "originality": 0.4611988067626953,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are the expected reactions from different political groups within the U.K. regarding the protests against Trump?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4375855326652527,
+                            "outline_relevance": 0.7093709111213684,
+                            "originality": 0.2143779993057251,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How is the 'Trump baby' blimp and its symbolism perceived by the people and authorities in London during these protests?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6172332763671875,
+                            "outline_relevance": 0.8565724492073059,
+                            "originality": 0.345763623714447,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "In diapers.",
+            "previous_answer": "In diapers, exactly. But the London police haven't quite given the final say-so on that yet. But, you know, there will be a lot of protests. That may upset the president. It's controversial, but the government insists, and the diplomats insist, that he's a vital part of nurturing a special relationship, which they insist is very good for the U.K.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How is the Trump blimp and its symbolism perceived by Londoners and protesters during the visit?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5146756172180176,
+                        "outline_relevance": 0.9156416654586792,
+                        "originality": 0.12077999114990234,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you describe the different groups or demographics expected to participate in the protests, and what their main grievances are?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.24261924624443054,
+                            "outline_relevance": 0.6730177998542786,
+                            "originality": 0.31957823038101196,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How might these protests influence the government's diplomatic strategy towards the U.S. during and after the visit?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4604454040527344,
+                            "outline_relevance": 0.7497720718383789,
+                            "originality": 0.32652807235717773,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Considering the government insists on the importance of the visit, how are the protesters' concerns being addressed or acknowledged by officials?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4611060321331024,
+                            "outline_relevance": 0.650305449962616,
+                            "originality": 0.3206787109375,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How is the Trump blimp and its symbolism perceived by Londoners and protesters during the visit?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5146756172180176,
+                            "outline_relevance": 0.9156416654586792,
+                            "originality": 0.12077999114990234,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Because he's not only going, he's getting literally the royal treatment.",
+            "previous_answer": "Yeah. I mean, this is as good as it gets if you're a head of state coming to the U.K. It is bells and whistles. It's pomp and circumstance. It's a banquet at Buckingham Palace, although that seems to be being boycotted by Meghan Markle, the Duchess of Sussex, also by Jeremy Corbyn, the leader of the - of Her Majesty's Opposition, and Vince Cable, the leader of the Liberal Democrats. But I don't think that's going to take the gloss off it too much for Donald Trump. He's someone who has made it very clear this is what he wants, and we're expecting him to look like he's lapping it up.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What were the key events that led up to President Trump's state visit to the U.K.?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.40125635266304016,
+                        "outline_relevance": 0.9966938495635986,
+                        "originality": 0.08447778224945068,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think the boycotts by prominent figures might influence public sentiment about this visit?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.45709192752838135,
+                            "outline_relevance": 0.5950402021408081,
+                            "originality": 0.30117106437683105,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you elaborate on the significance of the banquet at Buckingham Palace and what it symbolizes in British diplomatic protocol?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.546131432056427,
+                            "outline_relevance": 0.5754398107528687,
+                            "originality": 0.46143805980682373,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: From your perspective, how might the elaborate royal treatment impact both Trump's image and the UK's diplomatic stance?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4713518023490906,
+                            "outline_relevance": 0.664310872554779,
+                            "originality": 0.3075718283653259,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What were the key events that led up to President Trump's state visit to the U.K.?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.40125635266304016,
+                            "outline_relevance": 0.9966938495635986,
+                            "originality": 0.08447778224945068,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Let's talk about Meghan Markle, who is originally American. She is no fan of Trump, and she is skipping the events in his honor. Has there been any response from the palace about his nasty comment, which was, we should say, in response to President Trump being informed that Meghan Markle had called him a misogynist back when she was an actress?",
+            "previous_answer": "Yeah, I don't think there's been a response to it yet - not that I've seen. And I guess, you know, it puts a cloud on it. The special relationship was given a boost by the birth of Meghan's and Prince Harry's baby. And that was seen as sort of a good omen ahead of this visit, unfortunately, now is being, obviously, overshadowed by what Donald Trump has said. That may be a prelude to what he may say about other people here. And I think the concern is that Donald Trump will use this and kind of abuse the invitation. He'll be given all the kind of welcome that he can expect in a royal visit. But is he going to return the favor, or is he going to bring up these tricky diplomatic issues, which are kind of flies in the ointment in the relationship as it currently stands?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What do you think are the possible diplomatic consequences for the U.K. following President Trump’s state visit?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5259929299354553,
+                        "outline_relevance": 0.9089428186416626,
+                        "originality": 0.24728232622146606,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: From your perspective, how do Meghan Markle's public stances influence the diplomatic atmosphere around this visit?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4964010417461395,
+                            "outline_relevance": 0.6033374071121216,
+                            "originality": 0.27964991331100464,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you analyze how Trump's controversial comments might affect the media portrayal of the state visit?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5842200517654419,
+                            "outline_relevance": 0.754236102104187,
+                            "originality": 0.2777443528175354,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do royal protocol and political controversies interplay in shaping this diplomatic event?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.33153289556503296,
+                            "outline_relevance": 0.558495283126831,
+                            "originality": 0.292391300201416,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What do you think are the possible diplomatic consequences for the U.K. following President Trump’s state visit?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5259929299354553,
+                            "outline_relevance": 0.9089428186416626,
+                            "originality": 0.24728232622146606,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "So, Dominic, what I'm hearing from you is that there's a great deal of apprehension from the actual government that invited him. So is anything likely to come out of this trip that might be beneficial to the United Kingdom?",
+            "previous_answer": "Well, if you talk to diplomats that - and their answer is that these state visits are hugely important. But in the background, there's a lot of sort of diplomatic nitty-gritty going on. There's a lot of business deals being made. And the hope is that this continues to cement that relationship, which we're told is greater than the sort of personal relationship currently in the heart of it. Well, I wouldn't say that's a given. We may end up, at the end of this visit, with egg all over the government's face, Donald Trump speaking well away from the script and embarrassing its host. Or he may just enjoy the ride and, for this time, behave himself.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe some of the specific diplomatic challenges that arise when hosting a leader known for unpredictable behavior, such as during President Trump's state visit?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5458928346633911,
+                        "outline_relevance": 0.5844627022743225,
+                        "originality": 0.34122371673583984,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you elaborate on how these behind-the-scenes business deals typically influence the overall diplomatic relationship?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6685027480125427,
+                            "outline_relevance": 0.43890106678009033,
+                            "originality": 0.38999223709106445,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What kinds of diplomatic challenges do officials face when hosting a leader with unpredictable behavior like Trump?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5203811526298523,
+                            "outline_relevance": 0.5414668321609497,
+                            "originality": 0.3581860661506653,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How might this visit shape the future of U.K.-U.S. relations beyond the immediate political ceremonies?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6268517374992371,
+                            "outline_relevance": 0.8211860060691833,
+                            "originality": 0.1517927050590515,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you describe some of the specific diplomatic challenges that arise when hosting a leader known for unpredictable behavior, such as during President Trump's state visit?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5458928346633911,
+                            "outline_relevance": 0.5844627022743225,
+                            "originality": 0.34122371673583984,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Dominic Waghorn, diplomatic editor at Sky News, thank you very much.",
+            "previous_answer": "Pleasure.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Reflecting on your experience, what moment during Trump's visit do you believe had the most significant political implications?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.12222089618444443,
+                        "outline_relevance": 0.7017573118209839,
+                        "originality": 0.21631693840026855,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Looking back, what stands out most to you about covering this political event?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.06494896113872528,
+                            "outline_relevance": 0.4579835534095764,
+                            "originality": 0.40609657764434814,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share an instance during your coverage where you felt the political stakes were particularly high?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.04235054925084114,
+                            "outline_relevance": 0.44032764434814453,
+                            "originality": 0.40966975688934326,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How has your experience as a diplomatic editor influenced your interpretation of diplomatic visits like this one?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1439586579799652,
+                            "outline_relevance": 0.5722643136978149,
+                            "originality": 0.34069496393203735,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Reflecting on your experience, what moment during Trump's visit do you believe had the most significant political implications?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.12222089618444443,
+                            "outline_relevance": 0.7017573118209839,
+                            "originality": 0.21631693840026855,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

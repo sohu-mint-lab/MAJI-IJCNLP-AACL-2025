@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Background of Nuttin' But Stringz",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How did Damien and Tourie Escobar establish themselves as Nuttin' But Stringz?",
+        "importance": "critical",
+        "keywords": [
+          "Nuttin' But Stringz",
+          "background",
+          "Establishment"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What genres of music do the Escobar brothers blend in their performances?",
+        "importance": "high",
+        "keywords": [
+          "genres",
+          "music",
+          "blending"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Experience at Julliard and Early Inspirations",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What was Damien Escobar's experience at Julliard compared to Bloomingdale School of Music?",
+        "importance": "critical",
+        "keywords": [
+          "Julliard",
+          "Bloomingdale",
+          "experience"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How did Tourie Escobar feel during his first concert at Julliard?",
+        "importance": "high",
+        "keywords": [
+          "Tourie",
+          "concert",
+          "Julliard"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges and Breakthroughs",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What challenges did the Escobar brothers face while playing in the subway?",
+        "importance": "critical",
+        "keywords": [
+          "challenges",
+          "subway",
+          "performances"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did they respond to peer pressure about their musical choices?",
+        "importance": "high",
+        "keywords": [
+          "peer pressure",
+          "music",
+          "response"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "A Tribute to Family and Future Aspirations",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "Who do the Escobar brothers consider their hero and why?",
+        "importance": "critical",
+        "keywords": [
+          "hero",
+          "family",
+          "inspiration"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are the brothers' aspirations moving forward in their music careers?",
+        "importance": "high",
+        "keywords": [
+          "aspirations",
+          "future",
+          "music"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Democratic Candidates at Essence Festival",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How has Kamala Harris's performance at the Essence Festival impacted her standing in the Democratic primary?",
+        "importance": "critical",
+        "keywords": [
+          "Kamala Harris",
+          "Essence Festival",
+          "Democratic primary"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What is the significance of black voters as a constituency for Democratic candidates?",
+        "importance": "high",
+        "keywords": [
+          "black voters",
+          "Democratic candidates",
+          "constituency"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Joe Biden's Campaign Strategy",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the potential consequences of Biden's comments about segregationist senators for his campaign?",
+        "importance": "critical",
+        "keywords": [
+          "Joe Biden",
+          "segregationist",
+          "campaign strategy"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Biden's focus on South Carolina reflect his campaign priorities?",
+        "importance": "high",
+        "keywords": [
+          "South Carolina",
+          "Biden's campaign",
+          "priorities"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impact of the Citizenship Question on the Census",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the long-term implications of adding a citizenship question to the U.S. Census?",
+        "importance": "critical",
+        "keywords": [
+          "citizenship question",
+          "U.S. Census",
+          "long-term implications"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How could an undercount in the census affect political representation?",
+        "importance": "high",
+        "keywords": [
+          "undercount",
+          "political representation",
+          "census"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Immigration Policy and Public Perception",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How might media coverage of migrant detention conditions impact public support for Trump's immigration policies?",
+        "importance": "critical",
+        "keywords": [
+          "media coverage",
+          "migrant conditions",
+          "Trump immigration policies"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What challenges does Trump face in maintaining political support amidst rising scrutiny of his immigration actions?",
+        "importance": "high",
+        "keywords": [
+          "Trump",
+          "immigration actions",
+          "political support"
+        ]
+      }
+    ]
+  }
+]

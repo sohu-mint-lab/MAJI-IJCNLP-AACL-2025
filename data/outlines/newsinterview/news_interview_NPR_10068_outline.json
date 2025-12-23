@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Jack Taylor's Historic Game",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What factors contributed to Jack Taylor's record-breaking 138 points during the game?",
+        "importance": "critical",
+        "keywords": [
+          "Jack Taylor",
+          "NCAA scoring record",
+          "historic game"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did Jack's previous performance influence his preparation for this game?",
+        "importance": "high",
+        "keywords": [
+          "previous performance",
+          "preparation",
+          "confidence"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Team Dynamics and Support",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did Jack Taylor's teammates react during the game as he was scoring?",
+        "importance": "high",
+        "keywords": [
+          "teammates",
+          "support",
+          "reaction"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "In what ways did the team's unselfishness contribute to Jack's scoring success?",
+        "importance": "optional",
+        "keywords": [
+          "team unselfishness",
+          "contribution",
+          "scoring success"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges Faced During the Game",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What defensive strategies did the opposing team try to employ against Jack Taylor?",
+        "importance": "high",
+        "keywords": [
+          "defensive strategies",
+          "opposing team",
+          "Jack Taylor"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did Jack Taylor adapt to the double teams and zone defenses thrown at him?",
+        "importance": "optional",
+        "keywords": [
+          "adaptation",
+          "double teams",
+          "zone defenses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Implications for Jack Taylor",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What does Jack Taylor anticipate for the rest of the season following his record performance?",
+        "importance": "critical",
+        "keywords": [
+          "future implications",
+          "season",
+          "anticipation"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How will Jack's performance impact his game strategy moving forward?",
+        "importance": "high",
+        "keywords": [
+          "performance impact",
+          "game strategy",
+          "moving forward"
+        ]
+      }
+    ]
+  }
+]

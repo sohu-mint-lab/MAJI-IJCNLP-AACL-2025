@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "U.S.-China Trade Truce",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the key outcomes of the recent meeting between President Trump and President Xi Jinping?",
+        "importance": "critical",
+        "keywords": [
+          "U.S.-China",
+          "trade truce",
+          "G-20"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How significant is the 90-day negotiation period following the trade truce announcement?",
+        "importance": "high",
+        "keywords": [
+          "90-day period",
+          "negotiation",
+          "trade war"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Reflection on President George H.W. Bush",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What personal memory does Mara Liasson share about President George H.W. Bush?",
+        "importance": "high",
+        "keywords": [
+          "George H.W. Bush",
+          "memory",
+          "press pass"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Trump at the G-20",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What was the visual portrayal of President Trump during the G-20 summit?",
+        "importance": "high",
+        "keywords": [
+          "Trump",
+          "G-20",
+          "isolation"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What implications does the climate change communique have for U.S. relations with other countries?",
+        "importance": "optional",
+        "keywords": [
+          "climate change",
+          "communique",
+          "Paris accords"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Michael Cohen's Plea Deal and Its Impact",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How did Michael Cohen's plea deal affect perceptions of President Trump's business dealings with Russia?",
+        "importance": "critical",
+        "keywords": [
+          "Michael Cohen",
+          "plea deal",
+          "Russia"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What statements did President Trump make regarding his business relations with Russia following Cohen's revelations?",
+        "importance": "high",
+        "keywords": [
+          "Trump",
+          "Russia",
+          "business relations"
+        ]
+      }
+    ]
+  }
+]

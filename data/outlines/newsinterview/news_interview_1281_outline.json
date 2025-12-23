@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Whistleblower Complaint",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the main allegations presented in the whistleblower complaint?",
+        "importance": "critical",
+        "keywords": [
+          "whistleblower",
+          "complaint",
+          "allegations"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has President Trump responded to the whistleblower complaint?",
+        "importance": "high",
+        "keywords": [
+          "Trump",
+          "response",
+          "political hack job"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Legal Implications and Accountability",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What role does the whistleblower protection law play in this context?",
+        "importance": "critical",
+        "keywords": [
+          "whistleblower law",
+          "protection",
+          "legal implications"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How might executive privilege affect the release of the complaint?",
+        "importance": "high",
+        "keywords": [
+          "executive privilege",
+          "release",
+          "legal questions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Partisan Reactions and Future Investigations",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How has the political landscape responded to the whistleblower allegations?",
+        "importance": "high",
+        "keywords": [
+          "partisan conflict",
+          "political reactions",
+          "investigation"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What steps should be taken regarding the investigation of the allegations?",
+        "importance": "critical",
+        "keywords": [
+          "investigation",
+          "steps",
+          "accountability"
+        ]
+      }
+    ]
+  }
+]

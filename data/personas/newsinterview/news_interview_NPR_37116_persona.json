@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Robert Meins",
+    "age": 38,
+    "personality": "Analytical and insightful, with a deep understanding of economic impacts on communities; communicates complex ideas clearly.",
+    "employment": "Remittance Specialist at the Inter-American Development Bank",
+    "notes": "Expert in tracking remittance flows between the U.S. and Mexico, especially in the context of the recession.",
+    "communication_style": "Concise and informative, engages in detailed discussions while providing context for economic data."
+  }
+}

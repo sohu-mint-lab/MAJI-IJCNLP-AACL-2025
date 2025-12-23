@@ -1,0 +1,391 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3317091531223721,
+                "avg_context_relevance": 0.34185367698470753,
+                "avg_outline_relevance": 0.8690751592318217,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 50.0,
+            "covered_questions": 4,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "We're a week into what the federal government officially recognizes as National Hispanic Heritage Month. It's a time to celebrate the history and culture of Hispanic Americans from all backgrounds. Or should that be Latinos? Isabelia Herrera is a freelance reporter who's asking a question we've seen popping up more and more. She wrote a piece about it for The New York Times. It's titled, \"Does Hispanic Heritage Month Need A Rebrand?\" And she's with us now. Isabelia Herrera, welcome. Thanks so much for joining us.",
+            "previous_answer": "Thank you for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe the importance and significance of National Hispanic Heritage Month from your perspective?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.19725659489631653,
+                        "outline_relevance": 0.9547847509384155,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you describe the importance and significance of National Hispanic Heritage Month from your perspective?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.19725659489631653,
+                            "outline_relevance": 0.9547847509384155,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Now, you write about something that might be a surprise to some. But you write that many people within the Latino community bristle at the term Hispanic. Why is that?",
+            "previous_answer": "Yeah. I think these conversations have been going on for a while now. But now we're seeing them enter into more mainstream spaces. The question with the term Hispanic is primarily about its connection to Spain. The term Hispanic basically includes that colonial relationship to Spain. So it refers to people who are of Spanish descent, either living in Latin America or the U.S. And I think that now, as, you know, we're re-evaluating what that term and what that identity means, there's a lot of questions around that connection to Spain.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you provide some historical background on how the term 'Hispanic' came into use and its original intent?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6344074010848999,
+                        "outline_relevance": 0.9390988349914551,
+                        "originality": 0.4308711886405945,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you provide some historical background on how the term 'Hispanic' came into use and its original intent?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6344074010848999,
+                            "outline_relevance": 0.9390988349914551,
+                            "originality": 0.4308711886405945,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "And when you say that some people bristle, do you - what have you observed? And I recognize this isn't, like, a scientific survey, but have you seen any through-line to the different opinions about it? Do you think it might be generational - that perhaps older people who are used to using the term are more comfortable with Hispanic, for older people versus younger people? Maybe is it geographic? Have you observed any kind of differences of opinion that land any particular way?",
+            "previous_answer": "Yeah. I think it's both geographic and generational. The term was widely popularized in the '80s through the census, right? And I think an older generation of Latino folks still identify with that term very much because it was used in the census. It was used in, you know, Spanish-language media, on Univision and all different kinds of platforms. And I think now, we're having a new generation of folks - myself included in that generation - kind of looking - you know, re-evaluating that term and seeing that, you know, there are a lot of nuances that are flattened in this umbrella term that can't be reflected with what the reality is today.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do preferred identity labels vary within the Latino community, and what do these choices reveal about individuals' cultural or personal identities?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.518936038017273,
+                        "outline_relevance": 0.6697927713394165,
+                        "originality": 0.5525763630867004,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do preferred identity labels vary within the Latino community, and what do these choices reveal about individuals' cultural or personal identities?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.518936038017273,
+                            "outline_relevance": 0.6697927713394165,
+                            "originality": 0.5525763630867004,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "So I think many people are now starting to see Latino or Latinx. In theory, this encompasses people with roots all over Latin America, from Mexico and the Caribbean and the north all the way to - so Chile and Argentina. Are you finding that many people like this term better? Do they feel that this is inclusive? Or are there other terms that people prefer? Do they really prefer their country of origin, for example, to be used? What are you hearing?",
+            "previous_answer": "There are still some people who prefer their national identity, their nationalist identification. And then there are some that, you know, also find - take issue with the term Latino. Similarly to Hispanic, it is a umbrella term. So I think for my generation, Latino feels much more current. But I think there are certain, you know, members of my generation who still find issue, take issue with that term.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share how different preferred terms within the Latino community reflect individual and collective identities?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7111667394638062,
+                        "outline_relevance": 0.7787914276123047,
+                        "originality": 0.17099344730377197,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share how different preferred terms within the Latino community reflect individual and collective identities?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7111667394638062,
+                            "outline_relevance": 0.7787914276123047,
+                            "originality": 0.17099344730377197,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "You know, there are those who would say that on the one hand, yes, specificity is important, and inclusion is important. But other people argue that these terms have political importance because if the importance is to show your numbers - right? - then...",
+            "previous_answer": "Right.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How can organizations adapt their use of these terms to better support and serve their diverse communities?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.013578426092863083,
+                        "outline_relevance": 0.9361193180084229,
+                        "originality": 0.4517729878425598,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How can organizations adapt their use of these terms to better support and serve their diverse communities?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.013578426092863083,
+                            "outline_relevance": 0.9361193180084229,
+                            "originality": 0.4517729878425598,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Then the preferred term is one that allows as many people to be present as possible - and because that has political implications as well as, you know, emotional implications.",
+            "previous_answer": "Sure. Sure.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "In your view, how can organizations adapt the terminology they use to better resonate with and serve the diverse Latino communities?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.04411887377500534,
+                        "outline_relevance": 0.764397382736206,
+                        "originality": 0.21453285217285156,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "In your view, how can organizations adapt the terminology they use to better resonate with and serve the diverse Latino communities?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.04411887377500534,
+                            "outline_relevance": 0.764397382736206,
+                            "originality": 0.21453285217285156,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "So for people who have that concern - that the - and I don't mean this in a diminishing way, but this idea of greater and greater specificity is actually not beneficial in the long run because what it does is it actually makes people less visible rather than more visible. What would you say?",
+            "previous_answer": "I spoke to a professor from UC Berkeley who wrote a book about the invention of the term Hispanics during the census debates. And, you know, she precisely said that it came out of this fight for recognition and this as an administrative quandary. So essentially, before, in the 1960s, Mexicans were categorized as white in the census, so therefore they were not being counted. The - you know, various resources that they weren't getting from the government, whether it was bilingual education or job training, community development grants - the idea was to create an umbrella term that would be able to get them resources from the federal government, right? Well, within that own community, within that umbrella term, there are people who are, you know, perhaps suffering from certain structural inequalities more so than other members of the community. You know, there should be more conversations about equity and inclusivity within those different identities because, you know, certain members of the community - maybe black Latinos or indigenous Latinos - are not getting those resources that the larger umbrella term would offer others.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What is the significance of National Hispanic Heritage Month in shaping the public’s understanding and appreciation of Hispanic identity?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5235901474952698,
+                        "outline_relevance": 0.9217514395713806,
+                        "originality": 0.07961392402648926,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What is the significance of National Hispanic Heritage Month in shaping the public’s understanding and appreciation of Hispanic identity?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5235901474952698,
+                            "outline_relevance": 0.9217514395713806,
+                            "originality": 0.07961392402648926,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "So are you prepared to take a position yourself - for yourself? I mean, I want - I don't know if you belong to, for example, the National Association of Hispanic Journalists. And there are a number of other high-profile organizations like the Congressional Hispanic Caucus that still use that term. I know you're reporting on this as a journalist. But are you prepared to - I mean, are you prepared to make a recommendation, you know?",
+            "previous_answer": "My recommendation, I think, would be for these organizations to be very attentive to these conversations and be very, you know, open to listening and understanding how these terms are evolving because I think there are real structural issues at play here that, you know, will only move our communities forward if there's more reflection on it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share your thoughts on why National Hispanic Heritage Month is important and how the terminology used during this period might influence the community's celebration?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2803897261619568,
+                        "outline_relevance": 0.9172638654708862,
+                        "originality": 0.05494582653045654,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you share your thoughts on why National Hispanic Heritage Month is important and how the terminology used during this period might influence the community's celebration?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2803897261619568,
+                            "outline_relevance": 0.9172638654708862,
+                            "originality": 0.05494582653045654,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "That's Isabelia Herrera. She's a freelancer, and she just wrote a piece for The New York Times called, \"Does Hispanic Heritage Month Need A Rebrand?\" Isabelia, thanks so much for talking to us.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the significance of National Hispanic Heritage Month in your own words?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2414768934249878,
+                        "outline_relevance": 0.9396766424179077,
+                        "originality": 0.030075788497924805,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain the significance of National Hispanic Heritage Month in your own words?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2414768934249878,
+                            "outline_relevance": 0.9396766424179077,
+                            "originality": 0.030075788497924805,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

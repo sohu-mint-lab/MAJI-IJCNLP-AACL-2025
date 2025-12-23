@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Understanding North Korea's Nuclear Advancements",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What recent developments regarding North Korea's uranium enrichment facility have raised concerns?",
+        "importance": "critical",
+        "keywords": [
+          "North Korea",
+          "uranium enrichment",
+          "nuclear advancements"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the visiting American scientists perceive the sophistication of the facilities they witnessed?",
+        "importance": "high",
+        "keywords": [
+          "scientists",
+          "facilities",
+          "sophistication"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Implications for U.S. Policy Toward North Korea",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What changes to U.S. policy do the Stanford professors suggest in light of new information about North Korea?",
+        "importance": "critical",
+        "keywords": [
+          "U.S. policy",
+          "North Korea",
+          "Stanford professors"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Why do the professors believe that past strategies, including sanctions, have failed?",
+        "importance": "high",
+        "keywords": [
+          "strategies",
+          "sanctions",
+          "failures"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Challenges of Monitoring North Korea's Nuclear Program",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the difficulties involved in monitoring North Korea's current nuclear program compared to previous setups?",
+        "importance": "high",
+        "keywords": [
+          "monitoring",
+          "nuclear program",
+          "difficulties"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How might North Korea's technological advancements impact international negotiations?",
+        "importance": "high",
+        "keywords": [
+          "technological advancements",
+          "negotiations",
+          "international impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Prospects for North Korea and Regional Stability",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What potential shifts in regional policy might South Korea and Japan consider following North Korea's advancements?",
+        "importance": "optional",
+        "keywords": [
+          "regional policy",
+          "South Korea",
+          "Japan"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "In what ways may the internal dynamics of North Korea influence its relations with neighboring countries?",
+        "importance": "optional",
+        "keywords": [
+          "internal dynamics",
+          "relations",
+          "neighboring countries"
+        ]
+      }
+    ]
+  }
+]

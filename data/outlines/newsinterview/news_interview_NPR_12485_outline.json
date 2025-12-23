@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Google Glasses and Augmented Reality",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are Google Glasses designed to do, and how do they relate to augmented reality?",
+        "importance": "critical",
+        "keywords": [
+          "Google Glasses",
+          "augmented reality",
+          "technology"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Vernor Vinge connect the concept of Google Glasses to his book 'Rainbows End'?",
+        "importance": "high",
+        "keywords": [
+          "Vernor Vinge",
+          "Rainbows End",
+          "connection"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Technological Advancements and Challenges",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What technological improvements does Vinge believe are necessary for augmented reality devices?",
+        "importance": "critical",
+        "keywords": [
+          "technology",
+          "improvements",
+          "augmented reality"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Vinge address the issue of usability for individuals with vision impairments?",
+        "importance": "high",
+        "keywords": [
+          "vision impairments",
+          "usability",
+          "Google Glasses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Communication Technologies in 'Rainbows End'",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is 'sming' in 'Rainbows End' and how does it differ from current texting?",
+        "importance": "high",
+        "keywords": [
+          "sming",
+          "communication",
+          "texting"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What role does silent messaging play in Vinge's vision of future communication?",
+        "importance": "high",
+        "keywords": [
+          "silent messaging",
+          "future communication",
+          "Vinge"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "The Concept of Technological Singularity",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Vinge define the technological singularity and its implications for the future?",
+        "importance": "critical",
+        "keywords": [
+          "technological singularity",
+          "definition",
+          "implications"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What might be the impact of Google Glasses on the journey toward the singularity?",
+        "importance": "high",
+        "keywords": [
+          "Google Glasses",
+          "impact",
+          "journey"
+        ]
+      }
+    ]
+  }
+]

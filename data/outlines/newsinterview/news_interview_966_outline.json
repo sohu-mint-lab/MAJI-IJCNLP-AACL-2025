@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "The Burden of Representation for Black Public Figures",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How does Lynn Toler describe the pressure black public figures feel in terms of representation?",
+        "importance": "critical",
+        "keywords": [
+          "representation",
+          "pressure",
+          "black public figures"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What generational differences does Lynn highlight regarding the perception of failures by black public figures?",
+        "importance": "high",
+        "keywords": [
+          "generational differences",
+          "perception",
+          "failures"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Changing Dynamics of Race and Individualism",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What factors does Lynn Toler attribute to the changing perception of black public figures since Obama’s presidency?",
+        "importance": "critical",
+        "keywords": [
+          "Obama",
+          "black public figures",
+          "changing perception"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Lynn suggest that younger generations view the actions of black figures differently than older generations?",
+        "importance": "high",
+        "keywords": [
+          "younger generation",
+          "views",
+          "actions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Public Sentiment and Domestic Violence Cases",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What does Lynn Toler say about public sentiment regarding domestic violence, using the Chris Brown-Rihanna incident as an example?",
+        "importance": "critical",
+        "keywords": [
+          "Chris Brown",
+          "Rihanna",
+          "domestic violence",
+          "public sentiment"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What challenges does Lynn identify regarding plea bargains in domestic violence cases?",
+        "importance": "high",
+        "keywords": [
+          "plea bargains",
+          "domestic violence",
+          "challenges"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Closing Thoughts and Future Endeavors",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What gratitude does Tony express towards Lynn at the end of the interview?",
+        "importance": "optional",
+        "keywords": [
+          "gratitude",
+          "closing thoughts",
+          "interview"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What future activities does Lynn Toler mention she will continue to engage in after the show ends?",
+        "importance": "optional",
+        "keywords": [
+          "future activities",
+          "Lynn Toler",
+          "blogging"
+        ]
+      }
+    ]
+  }
+]

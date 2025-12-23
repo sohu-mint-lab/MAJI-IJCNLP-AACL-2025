@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of 'Fallout 76' and West Virginia's Response",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What motivated West Virginia's governor to declare November 14 as 'Fallout 76' Reclamation Day?",
+        "importance": "high",
+        "keywords": [
+          "Fallout 76",
+          "Reclamation Day",
+          "West Virginia"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How is the state tourism office engaging with the themes of 'Fallout 76'?",
+        "importance": "optional",
+        "keywords": [
+          "tourism",
+          "interactive map",
+          "video game"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Research Objectives and Perspectives",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What is the primary research objective of Christine Rittenour and her colleagues regarding 'Fallout 76'?",
+        "importance": "critical",
+        "keywords": [
+          "research",
+          "video game",
+          "perceptions"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Christine Rittenour believe playing 'Fallout 76' may change perceptions of West Virginians?",
+        "importance": "high",
+        "keywords": [
+          "perceptions",
+          "West Virginians",
+          "stereotypes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impacts of Media Portrayal",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What common stereotypes about West Virginians does Rittenour highlight?",
+        "importance": "high",
+        "keywords": [
+          "stereotypes",
+          "West Virginians",
+          "media portrayal"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What potential positive impacts does Rittenour foresee from playing 'Fallout 76'?",
+        "importance": "high",
+        "keywords": [
+          "positive impacts",
+          "gaming",
+          "attitudes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Cultural Representation in Gaming",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "In what ways does 'Fallout 76' attempt to accurately represent West Virginia?",
+        "importance": "high",
+        "keywords": [
+          "cultural representation",
+          "Fallout 76",
+          "local folklore"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What does Christine Rittenour hope players take away from their experience with 'Fallout 76'?",
+        "importance": "optional",
+        "keywords": [
+          "hope",
+          "gaming experience",
+          "West Virginia"
+        ]
+      }
+    ]
+  }
+]

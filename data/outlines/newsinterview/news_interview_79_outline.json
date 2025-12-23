@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Discovery of Macrobdella mimicus",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is significant about the discovery of Macrobdella mimicus?",
+        "importance": "critical",
+        "keywords": [
+          "discovery",
+          "Macrobdella mimicus",
+          "new species"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How long has it been since a new medicinal leech was described in North America?",
+        "importance": "high",
+        "keywords": [
+          "medicinal leech",
+          "North America",
+          "new species"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Characteristics of the Leech",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What unique anatomical features does Macrobdella mimicus have?",
+        "importance": "high",
+        "keywords": [
+          "anatomy",
+          "three jaws",
+          "teeth"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does the leech's feeding mechanism work?",
+        "importance": "high",
+        "keywords": [
+          "feeding mechanism",
+          "jaws",
+          "suction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Medicinal Uses of Leeches",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the medicinal applications of leeches?",
+        "importance": "critical",
+        "keywords": [
+          "medicinal uses",
+          "anticoagulants",
+          "medicine"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "In what historical context were leeches most commonly used in medicine?",
+        "importance": "high",
+        "keywords": [
+          "history",
+          "leech therapy",
+          "18th century"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Collection Methods for Leeches",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What techniques does Anna Phillips's team use to collect leeches?",
+        "importance": "high",
+        "keywords": [
+          "collection methods",
+          "fieldwork",
+          "swamps"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What challenges might researchers face while collecting leeches in the field?",
+        "importance": "optional",
+        "keywords": [
+          "field challenges",
+          "blood feeding",
+          "environment"
+        ]
+      }
+    ]
+  }
+]

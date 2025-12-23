@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Presidential Response to Khashoggi Case",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the president's current stance on the CIA's assessment regarding Jamal Khashoggi's killing?",
+        "importance": "critical",
+        "keywords": [
+          "Khashoggi",
+          "CIA",
+          "president response"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the president's response reflect his past actions regarding intelligence agency findings?",
+        "importance": "high",
+        "keywords": [
+          "intelligence community",
+          "Russian interference",
+          "consistency"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Administration's Approach to Saudi Arabia",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What were the implications of the reported plan to expel a Turkish cleric in relation to Saudi Arabia?",
+        "importance": "high",
+        "keywords": [
+          "Turkey",
+          "Saudi Arabia",
+          "diplomacy"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does the administration's handling of the Khashoggi situation illustrate their foreign policy principles?",
+        "importance": "optional",
+        "keywords": [
+          "foreign policy",
+          "dissidents",
+          "autocracy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Trump's Statements on California Wildfires",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How has President Trump's narrative about California wildfires changed over time?",
+        "importance": "high",
+        "keywords": [
+          "wildfires",
+          "forest management",
+          "federal funding"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What was the public reaction to the president's reference to Finland's forest management practices?",
+        "importance": "optional",
+        "keywords": [
+          "Finland",
+          "forest management",
+          "reaction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Mueller Investigation Updates",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the latest developments regarding President Trump's interactions with the Mueller investigation?",
+        "importance": "critical",
+        "keywords": [
+          "Mueller investigation",
+          "president responses",
+          "legal"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What significance do penalties for untruthfulness have on the president's written answers to Mueller?",
+        "importance": "high",
+        "keywords": [
+          "truthfulness",
+          "legal implications",
+          "written answers"
+        ]
+      }
+    ]
+  }
+]

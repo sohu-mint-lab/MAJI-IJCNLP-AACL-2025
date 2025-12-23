@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Trump's Re-election Strategy and Racial Divides",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How does Donald Trump's approach to racial divides influence his re-election strategy?",
+        "importance": "critical",
+        "keywords": [
+          "Trump",
+          "re-election",
+          "racial divides"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What demographic is essential for Trump's success in the 2020 election?",
+        "importance": "high",
+        "keywords": [
+          "demographic",
+          "white working-class",
+          "2020 election"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Challenges in Expanding Trump's Coalition",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Why has Donald Trump struggled to expand his voter coalition during his presidency?",
+        "importance": "critical",
+        "keywords": [
+          "voter coalition",
+          "Trump",
+          "presidency"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How do recent election results affect Trump's strategy going forward?",
+        "importance": "high",
+        "keywords": [
+          "election results",
+          "strategy",
+          "future"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Implications of Trump's Approval Ratings",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What insights can be drawn from Trump's stable approval ratings?",
+        "importance": "high",
+        "keywords": [
+          "approval ratings",
+          "Trump",
+          "insights"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Trump's approval rating impact the 2020 election dynamics?",
+        "importance": "optional",
+        "keywords": [
+          "approval rating",
+          "2020 election",
+          "dynamics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Congress and the Debt Limit Negotiations",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the current negotiations in Congress regarding the debt limit?",
+        "importance": "high",
+        "keywords": [
+          "Congress",
+          "debt limit",
+          "negotiations"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What is the timeline for resolving the debt limit issue before the August break?",
+        "importance": "optional",
+        "keywords": [
+          "timeline",
+          "debt limit",
+          "August break"
+        ]
+      }
+    ]
+  }
+]

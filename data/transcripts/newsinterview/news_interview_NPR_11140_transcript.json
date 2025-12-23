@@ -1,0 +1,152 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "This is SCIENCE FRIDAY. I'm Ira Flatow. Last May, German investigators arrested someone they suspected of being an al-Qaida operative, and they found out that he was carrying several memory chips, and one of them contained a pornographic video. But when the investigators took a closer look, they found that embedded inside that video file were hundreds of secret documents: maps, memos, plans and the like. It's called steganography, hiding one piece of information inside of another, and it's a common practice. But how do they do that? Well, joining me to talk about it is Peter Wayner. He's author of the book \"Disappearing Cryptography: Information Hiding: Steganography & Watermarking,\" now in its third edition. He joins me by phone. Welcome to SCIENCE FRIDAY."
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Hi, how are you doing?"
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "How do you do that?"
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Well, you know, it turns out there are lots of little corners in all the information we see. I mean, we're used to the idea that somehow everything we type in the computer is very exact. You don't type in the right password, the computer gets upset. If you don't type in the right URL, it gets upset. But it turns out that there's lots of little wiggle room that we don't even realize is there, and that's what steganography uses. We kind of go in, and we exploit things. You can make a color just a little bit more blue, or you can make it a little bit more red. And then if you do that enough times, you can send a signal, and then the computer can piece it all together into a complex message."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So you mean if you - I remember in the old days of computing, way back before there were mice and things, that's how old I am, you used to be able to take a file and read the contents of the file with a text reader and see all the numbers and symbols and things that made up, let's say, the picture file. Are you saying that you could hide code in those little nubers and things that actually make up the file?"
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Well, most of the time you can. I mean, it depends. If you're sending something very exact, like the - your account number for your bank, you're not going to want to make little mistakes there. But if you're sending a number like, say, the deficit of the United States around, and you're off by a little bit, you can hide a lot of different information in the, you know, the least significant, you know, digits off to the right."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "How much info can you hide?"
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Well, you know, it depends how much room there is. I found, you know, you know, it's kind of a tradeoff: The more you stick in there, the more the cover file, you could call it, gets degraded. So - but, you know, with an image, you can often take over one quarter of the size of the file for your own purposes, and it doesn't start to look too bad. You don't really notice it. Now, the bad guys must know that you know this technique that they may be using. So is it really always staying one step ahead or one step behind of your opposition? Yeah, now, both sides of the communication have to know that the technique is there, and that way, you know, if you're sending a message, the person who's receiving it has to know where to look and how to look for it. What's a little bit fascinating about steganography, and what's kind of different from some of the other ways we have of communicating, is that there are these kind of greater statistical techniques that you can use that give you, kind of, an indication that maybe there's something that's hidden there. And you might be able to figure out what the message is, but can tell that something's just not right with this file."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And you can do that just out of a gut feeling, or experience or cracking the file? Or how does that work?"
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Well, it uses statistics. You know, it's kind of a little bit like the whole money ball argument that we hear about baseball. But it goes through the file, and it looks, and it kind of sees that - you could say the noise in the image is not right, and often it's a little too random. It's almost a little bit too perfect, you might say. And then the statistics comes out, and it says oh, well, you know, it gives you a number, and the number is over a threshold, and you say oh, that's an alarm bell, and I'll look at it."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "It must be an interesting history to this whole steganography idea."
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Yeah, people certainly have been playing around with this for, you know, thousands of years. And people have been sneaking messages in lots of different things. I mean, personally I was kind of inspired by an Edgar Allan Poe short story, \"The Purloined Letter,\" and that's when I started to think about how you could do it mathematically. But, you know, people have been, you know, taking this approach for a long time."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "I notice that you might be able to - I think the Romans shipped apparent black wax tablets, and then you scrape off the wax, something's in there."
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Oh sure, there are lots of different ways you could do this. And in fact, I mean, the story that's floating around, and I'm not sure if it's true or not, I haven't been able to dig deep enough to find out, is that during World War II, the censors would go through, and they would kind of change numerical tables. So if somebody was sending a letter to someone in the theater and saying, you know, Johnny got good grades, got an A, B, a C or something like that, they might change them around a little bit. Or they might change, you know, put little changes just in case someone was trying to sneak a message in, you know, some table of data."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So what's the difference between steganography and - I'm interested in the origin of the word steganography. Can you take that apart for us?"
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Well..."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Stega-, sounds almost like a dinosaur."
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Certainly. It goes back to the Greeks, and it basically means hidden writing. So - and what it often gets kind of mixed together with or lumped together with, is encryption, and it's kind of - they're like close cousins, and they're trying to do the same thing, but they have slightly different approaches."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And that was my next question. What is the difference between steganography and encryption?"
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Well, you know, there's a lot of overlap, and the scientists like to kind of parse things and make distinctions. The way I like to explain it is I said, you know, encryption is building the safe, and steganography is trying to find a painting to hide the safe behind."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Interesting, and there must be not-sneaky reasons why you would use steganography."
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Yeah, there are plenty of reasons. I mean, obviously any time you want to communicate with someone in a secret way, you know, it may or may not be legitimate. But there are also turning out to be other ways that scientists are using it and engineers are using it. It's a good way for combating counterfeit. And there are these kind of numerical ways that you can go, and you can hide - you know, you can hide check digits, or you can hide ways - signatures inside of files. And they operate the same way that the government puts all the little secret - little secret signals in cash or the way that people who try to thwart counterfeiters that way."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Yeah, it's like watermarks."
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Yeah, watermarks, exactly, and then, you know, obviously the content industry is very interested in watermarking because they have hope that this might be able to allow them to, kind of, combat piracy. And what I've also found is that when you deal with programming, it turns out steganography is very useful because it allows you kind of add an additional layer or features or data without breaking the old software that was out there. So the old software just deals with the data as if this steganographic message wasn't there, but the new software can come along, and it can look in the corners, and it can find it, and they can work side-by-side."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "It would be fun, you know, to experiment and fool around with steganography. Is there an app for that, that you can sort of make your own, see how it works?"
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "I mean, I just put together a book. I wrote \"Disappearing Cryptography\" a while ago, but I put together an iPad version of it, and it's, you know, just started - just reached the iPad store the last week or so. It's called \"How to Hide Online.\" And it's a simpler version. I mean, it's just - it has some basic text, and then all the illustrations are interactive. You can hide a message with the interactive gadgets that are in the book."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And if I were to upload - let's say I make a picture or hide something in it, and I were to embed something in a movie or on a memory stick, and I want to upload it to Flickr or Facebook or something like that, would it screw up the steganography that's going on there? Would the encryption that they do to upload it, would that - and if I want to send it somebody - would it mess it up?"
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "You know, it depends. I just sent, I sent a file this morning, and it got munged(ph) , and it got messed up in some strange way. But then I sent it a different way, and it went through fine. The Internet's a little bit spooky that way. One that does happen with sites like Flickr or with YouTube is that they try to use very advanced compression algorithms to make the files as small as possible. And the advanced compression can be your enemy if you're trying to send a secret message with steganography."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "What was it about this captured al-Qaida pornography video that got people's attention and that they thought there might be something in it?"
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Well, I don't think that they have as much intelligence from al-Qaida as they would like. And so I think when I - the stories I read, a lot of them concentrated on just what was in these documents. And so I think that was - the documents themselves were the most exciting. I think there's something a little bit ironic in the fact that they chose to hide them in a pornographic movie. So that will always get you headlines. And I think it's new. You know, despite the fact that people have been talking about steganography for a long time, there aren't many real cases that you see come along, you know, as they say, steganography in the wild."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Is there someplace you can study it? You know, is it a topic you can take in college, or do you have to go to a special school or military to study this?"
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Well, you know, there are several books out there, and, you know, some - if you want to take it in college, there are some general courses on encryption, and they often get kind of lumped in there, and they'll spend a week or two on steganography. There are - you know, you can poke around. The article on Wikipedia is quite nice. And so somewhere along all those different choices, you can get a pretty good education."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "I have a tweet that came in from Rob I(ph)., who says: You experience steganography every day if you watch digital cable TV. Is that right?"
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Well, there are lots of different things that the television companies do, even - it doesn't necessarily have to be digital cable TV. There was a while that what - there was a gap. Every time your television went to a new line, there would be this momentary pause in the broadcast to allow the electron gun to get back to the left hand side of your screen again. And for a while the TV companies were broadcasting extra information in there that they were making some money on, because spectrum is so expensive. And it's definitely true that with digital cable TV, the TV companies are doing their best to pack information as best as possible, and they try to have different levels of resolution. And it's kind of an economic game to see how they can pack it all together and see how much - see how good the resolution needs to be to keep people happy."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Well, Peter Wayner, thank you for taking time to talk about steganography with us."
+    },
+    {
+      "speaker": "Peter Wayner",
+      "text": "Sure."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "He's author of the book \"Disappearing Cryptography: Information Hiding: Steganography & Watermarking,\" now in its third edition. We're going to take a break, and when we come back, we're going to talk about how America got supersized and what we can do about it, a new HBO series starting. We'll talk with the producer, and he'll be here to talk about the \"Weight of the Nation\" airing next week. Stay with us. We'll be right back."
+    }
+  ]
+}

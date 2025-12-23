@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Background on Umar Farouk Abdulmutallab",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is known about Umar Farouk Abdulmutallab's background and family?",
+        "importance": "critical",
+        "keywords": [
+          "background",
+          "family",
+          "wealth"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did Abdulmutallab's upbringing influence his later actions?",
+        "importance": "high",
+        "keywords": [
+          "upbringing",
+          "influence",
+          "actions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Online Presence and Writings",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What insights do Abdulmutallab's online posts reveal about his personality?",
+        "importance": "critical",
+        "keywords": [
+          "online posts",
+          "personality",
+          "insights"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What themes are present in the Islamic forum posts attributed to him?",
+        "importance": "high",
+        "keywords": [
+          "themes",
+          "Islamic forum",
+          "posts"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Struggles and Conflicts",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What internal conflicts did Abdulmutallab express in his writings?",
+        "importance": "high",
+        "keywords": [
+          "internal conflicts",
+          "writings",
+          "struggles"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did Abdulmutallab's family relationships contribute to his feelings of loneliness?",
+        "importance": "high",
+        "keywords": [
+          "family relationships",
+          "loneliness",
+          "contribution"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Reflection and Future Implications",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What conclusions can be drawn about Abdulmutallab's character based on his writings?",
+        "importance": "critical",
+        "keywords": [
+          "conclusions",
+          "character",
+          "writings"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How might Abdulmutallab's experience inform our understanding of radicalization processes?",
+        "importance": "high",
+        "keywords": [
+          "radicalization",
+          "understanding",
+          "processes"
+        ]
+      }
+    ]
+  }
+]

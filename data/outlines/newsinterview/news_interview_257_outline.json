@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Impact of the Cyclone in Southern Africa",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you describe the scale of destruction caused by the cyclone in Southern Africa?",
+        "importance": "critical",
+        "keywords": [
+          "cyclone",
+          "destruction",
+          "Southern Africa"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What specific challenges are people facing in the aftermath of the cyclone?",
+        "importance": "high",
+        "keywords": [
+          "challenges",
+          "aftermath",
+          "survivors"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Human Stories from the Ground",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What personal stories have emerged from those affected by the cyclone?",
+        "importance": "critical",
+        "keywords": [
+          "personal stories",
+          "affected",
+          "cyclone"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How are aid organizations addressing the needs of orphaned children?",
+        "importance": "high",
+        "keywords": [
+          "orphaned children",
+          "aid organizations",
+          "needs"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Immediate and Long-term Needs",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the most urgent needs for the affected communities?",
+        "importance": "critical",
+        "keywords": [
+          "urgent needs",
+          "communities",
+          "relief"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How are the issues of water contamination and disease outbreaks being addressed?",
+        "importance": "high",
+        "keywords": [
+          "water contamination",
+          "disease outbreaks",
+          "public health"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Preparedness and Climate Context",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What measures are being taken to prepare for potential secondary floods?",
+        "importance": "high",
+        "keywords": [
+          "secondary floods",
+          "measures",
+          "preparedness"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "In what ways does this disaster highlight the impact of climate change?",
+        "importance": "optional",
+        "keywords": [
+          "climate change",
+          "disaster",
+          "impact"
+        ]
+      }
+    ]
+  }
+]

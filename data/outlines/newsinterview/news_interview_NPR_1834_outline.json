@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Joe Zawinul's Journey to Jazz",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How did Joe Zawinul transition from Austria to becoming a notable figure in jazz?",
+        "importance": "critical",
+        "keywords": [
+          "transition",
+          "Austria",
+          "jazz"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What impact did Zawinul's early life experiences have on his musical career?",
+        "importance": "high",
+        "keywords": [
+          "early life",
+          "experiences",
+          "musical career"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Creation of Jazz Fusion with Weather Report",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What innovations did Joe Zawinul contribute to the jazz fusion genre?",
+        "importance": "critical",
+        "keywords": [
+          "innovations",
+          "jazz fusion",
+          "Weather Report"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How did Zawinul and Wayne Shorter define their musical partnership during their time with Weather Report?",
+        "importance": "high",
+        "keywords": [
+          "musical partnership",
+          "Wayne Shorter",
+          "Weather Report"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Collaborations and Key Works",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Can you describe Joe Zawinul's collaborations with other jazz legends like Miles Davis and Cannonball Adderley?",
+        "importance": "high",
+        "keywords": [
+          "collaborations",
+          "Miles Davis",
+          "Cannonball Adderley"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What were the significant contributions Zawinul made to songs like 'Mercy, Mercy, Mercy'?",
+        "importance": "optional",
+        "keywords": [
+          "contributions",
+          "Mercy, Mercy, Mercy",
+          "significant"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Legacy and Influence",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How has Joe Zawinul's music continued to influence modern jazz musicians?",
+        "importance": "high",
+        "keywords": [
+          "influence",
+          "modern jazz",
+          "musicians"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What does Joe Zawinul's career tell us about the evolution of jazz as a genre?",
+        "importance": "optional",
+        "keywords": [
+          "evolution",
+          "jazz genre",
+          "career"
+        ]
+      }
+    ]
+  }
+]

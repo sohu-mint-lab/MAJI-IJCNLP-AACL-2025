@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Curiosity Rover's Recent Activities",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What recent activities has NASA's Curiosity Rover undertaken on Mars?",
+        "importance": "critical",
+        "keywords": [
+          "Curiosity Rover",
+          "Mars",
+          "activities"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Drilling and Sample Analysis",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What findings were uncovered upon drilling the lake bed rocks?",
+        "importance": "critical",
+        "keywords": [
+          "drilling",
+          "sample analysis",
+          "lake bed"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How are scientists ensuring that the samples are free from contamination?",
+        "importance": "high",
+        "keywords": [
+          "contamination",
+          "samples",
+          "curiosity"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Potential for Life on Mars",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What clues suggest the possibility of past life on Mars?",
+        "importance": "critical",
+        "keywords": [
+          "life on Mars",
+          "past existence",
+          "evidence"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do the environmental conditions on early Mars compare to those on early Earth?",
+        "importance": "high",
+        "keywords": [
+          "environmental conditions",
+          "early Mars",
+          "early Earth"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Plans for Curiosity",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the next steps for Curiosity as it continues its mission?",
+        "importance": "high",
+        "keywords": [
+          "future plans",
+          "Curiosity",
+          "mission"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What challenges does Curiosity face in its communication with Earth?",
+        "importance": "optional",
+        "keywords": [
+          "communication",
+          "challenges",
+          "Mars"
+        ]
+      }
+    ]
+  }
+]

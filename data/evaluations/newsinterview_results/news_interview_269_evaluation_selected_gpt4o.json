@@ -1,0 +1,283 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.5253811776638031,
+                "avg_context_relevance": 0.3865784282485644,
+                "avg_outline_relevance": 0.6746866603692373,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 37.5,
+            "weighted_coverage_score": 35.714285714285715,
+            "covered_questions": 3,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "In the last two months, some 38 reporters have been detained in Venezuela, according to a media advocacy group. Among them was American Cody Weddle, who was working in Caracas as a freelance reporter. Last week, Weddle was woken up. Four armed Venezuelan officers were at his door, a court order in hand. They then raided his apartment. Weddle was being investigated for treason and espionage. The 30-hour ordeal ended with Weddle being ordered to board a plane to Miami. And Cody Weddle joins us now on the line from Aventura, Fla. Welcome to the program.",
+            "previous_answer": "Thanks for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe the moment the officers arrived at your apartment and your initial thoughts and feelings?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.12200959026813507,
+                        "outline_relevance": 0.7165289521217346,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you describe the moment the officers arrived at your apartment and your initial thoughts and feelings?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.12200959026813507,
+                            "outline_relevance": 0.7165289521217346,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "So tell us more about your apprehension. You must have been surprised that this was coming.",
+            "previous_answer": "I was very surprised. And although Venezuela has become increasingly less welcome to journalists, this has not become the norm. So when I heard my doorbell ring on Wednesday at about 6:30 - and I thought it was the water guy. We have water regularly delivered to our apartment there. Then I opened the door, and there were those four officers there. They raided my apartment. They went through every single thing I had. They were going through my WhatsApp messages for hours and hours. They also brought in some other equipment that they said was used for a sweep. It was a bizarre-looking apparatus that shot out a laser. And they pointed it at my walls and at the air conditioning unit. And they said they were looking for spying equipment.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you walk me through how you initially reacted emotionally and mentally when you realized your apartment was being raided and your personal messages searched?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3924948573112488,
+                        "outline_relevance": 0.3911570906639099,
+                        "originality": 0.3847384452819824,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you walk me through how you initially reacted emotionally and mentally when you realized your apartment was being raided and your personal messages searched?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3924948573112488,
+                            "outline_relevance": 0.3911570906639099,
+                            "originality": 0.3847384452819824,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "And you were taken into custody. And you were interrogated. What happened?",
+            "previous_answer": "I was. They took me to their headquarters just a few miles away. They put, like, a ski mask over my face. Then I was finally in a room and a chair. They would periodically come in and sort of prod me and have questions for me about my contacts in Venezuela, contacts with the military, the people who work with me or also just needing the password to my computer. Also, generally, just - they gave me a very long lecture about how I was supposedly a mercenary journalist.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "During the interrogation, did the officers employ any specific techniques or methods that felt unusual or particularly intense to you?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3982110023498535,
+                        "outline_relevance": 0.8489182591438293,
+                        "originality": 0.3471263647079468,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "During the interrogation, did the officers employ any specific techniques or methods that felt unusual or particularly intense to you?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3982110023498535,
+                            "outline_relevance": 0.8489182591438293,
+                            "originality": 0.3471263647079468,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "What do you think this was about?",
+            "previous_answer": "I think, possibly, it was about some reporting I did about the current state of affairs within the armed forces. I did speak to - anonymously to some sources within the armed forces - within the security forces, rather, about how they are affected by the economic crisis. And what I already knew, and what I confirmed through that reporting, was that a large portion of Venezuela's security forces are suffering the effects of this economic crisis. While they would like to see a change, they can't do anything because of intense internal surveillance. Also, I think I was able to even further confirm that reporting through this experience and getting an inside look at one of those security forces. These were military counterintelligence officials. And it was very clear that this whole procedure was improvised in many ways. Even in my apartment, when they had to take my fingerprints, they didn't have ink. So they broke one of my pens, and they were spreading out the ink from the pen in a bottle cap. And that's how we did the fingerprints. And I had reported that some security officials are being asked to contribute part of their already measly salaries to buy paper for the office.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you expand on the internal surveillance among Venezuela's security forces and how it limits their ability to act or push for change?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7125641703605652,
+                        "outline_relevance": 0.6453429460525513,
+                        "originality": 0.5829373598098755,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you expand on the internal surveillance among Venezuela's security forces and how it limits their ability to act or push for change?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7125641703605652,
+                            "outline_relevance": 0.6453429460525513,
+                            "originality": 0.5829373598098755,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "And just to put this into context, the military's obviously an extremely sensitive issue because most people believe that that is what is propping up the Maduro government at this point - right? - that if the military abandons him, he really won't have any support at all.",
+            "previous_answer": "That's true. And I think that political situation and that political tension is - where we have these two presidents and one is urging the armed forces to defect from the other created this perfect climate - the perfect conditions for this - for what happened to me. And obviously, it has created a lot of paranoia within the armed forces, as there's - there are rumors about who might be willing to switch sides or defect. And I think the intelligence units, like the one that arrived at my apartment, are working in overdrive to prevent any more defections, or even some type of coordinated uprising.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Considering the heightened paranoia and efforts to prevent defections you described, how would you assess the overall role of the military in maintaining support for the Maduro government?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.548209547996521,
+                        "outline_relevance": 0.7734596729278564,
+                        "originality": 0.42976588010787964,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Considering the heightened paranoia and efforts to prevent defections you described, how would you assess the overall role of the military in maintaining support for the Maduro government?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.548209547996521,
+                            "outline_relevance": 0.7734596729278564,
+                            "originality": 0.42976588010787964,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "All right. Reporter Cody Weddle, thank you so much for speaking with us. And we wish you the best.",
+            "previous_answer": "OK. Thanks for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking back on your detention, can you describe any specific moments that fundamentally changed your understanding of Venezuela's political environment?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.14598140120506287,
+                        "outline_relevance": 0.672713041305542,
+                        "originality": 0.4077190160751343,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Looking back on your detention, can you describe any specific moments that fundamentally changed your understanding of Venezuela's political environment?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.14598140120506287,
+                            "outline_relevance": 0.672713041305542,
+                            "originality": 0.4077190160751343,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

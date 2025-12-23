@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Joe Rao",
+    "age": 50,
+    "personality": "Enthusiastic and knowledgeable, with a passion for astronomy and a knack for engaging and educating the public about celestial events.",
+    "employment": "Meteorologist and Lecturer",
+    "notes": "Works at the American Museum of Natural History's Hayden Planetarium and writes for Space.com.",
+    "communication_style": "Conversational and informative, often uses analogies to make complex topics accessible."
+  }
+}

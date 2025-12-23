@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Anna Salvatore's Introduction and Blog",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What inspired Anna to start her blog, High School SCOTUS?",
+        "importance": "critical",
+        "keywords": [
+          "Anna Salvatore",
+          "blog",
+          "High School SCOTUS"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Who is the target audience for Anna's blog?",
+        "importance": "high",
+        "keywords": [
+          "target audience",
+          "blog readership",
+          "Supreme Court"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Anna's Journey and Experiences",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What unique experiences has Anna had related to the Supreme Court?",
+        "importance": "high",
+        "keywords": [
+          "Supreme Court",
+          "experiences",
+          "interviews"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How did Anna feel about visiting the Supreme Court and shooting hoops there?",
+        "importance": "optional",
+        "keywords": [
+          "Supreme Court",
+          "visit",
+          "shooting hoops"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Encouraging Youth Engagement with the Supreme Court",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Why does Anna believe that young people should be interested in the Supreme Court?",
+        "importance": "critical",
+        "keywords": [
+          "youth engagement",
+          "Supreme Court",
+          "civic duty"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Anna perceive the interest levels of her peers in the Supreme Court?",
+        "importance": "high",
+        "keywords": [
+          "peer interest",
+          "Supreme Court",
+          "high school"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Turkish Offensive in Northern Syria",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What led to Turkey's decision to launch an offensive against the Kurds?",
+        "importance": "critical",
+        "keywords": [
+          "Turkey",
+          "offensive",
+          "Kurds"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did President Trump's announcement impact the situation in northern Syria?",
+        "importance": "high",
+        "keywords": [
+          "Trump",
+          "announcement",
+          "impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Implications for Kurdish Forces and U.S. Relations",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What concerns are there regarding ISIS prisoners amid the Turkish offensive?",
+        "importance": "critical",
+        "keywords": [
+          "ISIS",
+          "prisoners",
+          "concerns"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How might Kurdish forces respond given the perceived abandonment by the U.S.?",
+        "importance": "high",
+        "keywords": [
+          "Kurdish forces",
+          "response",
+          "U.S. abandonment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Involvement of Regional Powers: Russia and Syria",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What role is Russia playing in the current conflict in northern Syria?",
+        "importance": "high",
+        "keywords": [
+          "Russia",
+          "role",
+          "conflict"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How could the Turkish offensive affect Syrian President Bashar al-Assad's calculations?",
+        "importance": "high",
+        "keywords": [
+          "Assad",
+          "calculations",
+          "Turkish offensive"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Outlook and Security Concerns",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What potential challenges do the Kurds face in maintaining security?",
+        "importance": "critical",
+        "keywords": [
+          "challenges",
+          "Kurds",
+          "security"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How credible are Turkey's claims regarding the management of ISIS fighters in custody?",
+        "importance": "high",
+        "keywords": [
+          "Turkey",
+          "ISIS",
+          "management"
+        ]
+      }
+    ]
+  }
+]

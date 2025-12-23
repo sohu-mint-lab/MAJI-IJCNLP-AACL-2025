@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to the Veterans Affairs Challenges",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What events led to the chaos at the Department of Veterans Affairs earlier this year?",
+        "importance": "critical",
+        "keywords": [
+          "Department of Veterans Affairs",
+          "chaos",
+          "David Shulkin"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the leadership change at the VA potentially affect veterans' care?",
+        "importance": "high",
+        "keywords": [
+          "leadership change",
+          "veterans' care",
+          "Robert Wilkie"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Mission Act and VA Care",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Can you explain the purpose of the Mission Act and its impact on veterans seeking healthcare?",
+        "importance": "critical",
+        "keywords": [
+          "Mission Act",
+          "healthcare",
+          "veterans"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "In what ways does the Mission Act address the challenges of distance for veterans needing care?",
+        "importance": "high",
+        "keywords": [
+          "distance",
+          "veterans",
+          "care"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Whistleblower Issues within the VA",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What steps is the VA taking to protect whistleblowers and enhance accountability?",
+        "importance": "critical",
+        "keywords": [
+          "whistleblowers",
+          "accountability",
+          "protection"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Has there been acknowledgment of a cultural problem regarding the treatment of whistleblowers?",
+        "importance": "high",
+        "keywords": [
+          "cultural problem",
+          "treatment",
+          "whistleblowers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Political Influence on Veterans Issues",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How has the current administration's stance affected the perception of veterans' issues?",
+        "importance": "high",
+        "keywords": [
+          "administration",
+          "political influence",
+          "veterans' issues"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "In what ways has the president raised the profile of veterans' issues compared to previous administrations?",
+        "importance": "optional",
+        "keywords": [
+          "president",
+          "profile",
+          "previous administrations"
+        ]
+      }
+    ]
+  }
+]

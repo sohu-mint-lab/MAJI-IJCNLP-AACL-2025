@@ -1,0 +1,83 @@
+[
+  {
+    "id": "S1",
+    "section": "Cultural Perception of Fighting in Hockey",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How did Jeremy Allingham's perspective on fighting in hockey change after attending a junior hockey game?",
+        "importance": "critical",
+        "keywords": [
+          "fighting",
+          "hockey",
+          "perspective",
+          "junior game"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What type of backlash did Allingham face when he spoke out against fighting in hockey?",
+        "importance": "high",
+        "keywords": [
+          "backlash",
+          "fighting",
+          "hockey",
+          "culture"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Health Risks Associated with Fighting",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are some of the health issues players face due to fighting in hockey?",
+        "importance": "critical",
+        "keywords": [
+          "health risks",
+          "concussions",
+          "fighting"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How did the deaths of certain players impact the perception of fighting in hockey?",
+        "importance": "high",
+        "keywords": [
+          "player deaths",
+          "impact",
+          "fighting",
+          "perception"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Proposed Solutions to Reduce Fighting",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are some practical solutions suggested by players to reduce fighting in hockey?",
+        "importance": "critical",
+        "keywords": [
+          "solutions",
+          "reduce fighting",
+          "hockey"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How has modifying the rules, such as those in the Ontario Hockey League, affected the frequency of fighting?",
+        "importance": "high",
+        "keywords": [
+          "rules",
+          "Ontario Hockey League",
+          "fighting frequency"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "The Impact of Calorie Counts in Fast Food",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How might the posting of calorie counts in fast food menus change consumer behavior?",
+        "importance": "critical",
+        "keywords": [
+          "calorie counts",
+          "consumer behavior",
+          "fast food"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What are the new requirements under the U.S. health care law regarding calorie information?",
+        "importance": "high",
+        "keywords": [
+          "U.S. health care law",
+          "calorie information",
+          "requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Fast Food Menu Analysis",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the calorie counts of popular fast food burgers discussed in the segment?",
+        "importance": "critical",
+        "keywords": [
+          "calories",
+          "burgers",
+          "fast food"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How do the calorie counts of salads compare to traditional fast food items?",
+        "importance": "high",
+        "keywords": [
+          "salads",
+          "calories",
+          "comparison"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Sodium Levels in Fast Food",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the sodium levels associated with various fast food items mentioned?",
+        "importance": "high",
+        "keywords": [
+          "sodium levels",
+          "fast food",
+          "health"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What insights can be gained about the health implications of high sodium fast food choices?",
+        "importance": "optional",
+        "keywords": [
+          "health implications",
+          "sodium",
+          "fast food"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Consumer Perceptions and Choices",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How do consumer perceptions about fast food change when calorie information is presented?",
+        "importance": "critical",
+        "keywords": [
+          "consumer perceptions",
+          "fast food",
+          "calorie information"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What factors influence the choice of fast food items among consumers?",
+        "importance": "high",
+        "keywords": [
+          "consumer choice",
+          "fast food",
+          "influencing factors"
+        ]
+      }
+    ]
+  }
+]

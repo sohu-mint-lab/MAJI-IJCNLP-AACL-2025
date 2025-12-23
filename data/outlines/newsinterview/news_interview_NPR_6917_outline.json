@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Background on Hostages and Their Mission",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the primary objectives of the Americans captured by FARC in Colombia?",
+        "importance": "critical",
+        "keywords": [
+          "hostages",
+          "mission",
+          "FARC"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the Americans end up in the control of the FARC guerrillas?",
+        "importance": "high",
+        "keywords": [
+          "FARC",
+          "plane crash",
+          "Colombia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Conditions of Captivity",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What can you tell us about the living conditions of the hostages in the FARC camps?",
+        "importance": "critical",
+        "keywords": [
+          "captivity",
+          "conditions",
+          "hostages"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does the daily life of the hostages reflect their situation?",
+        "importance": "high",
+        "keywords": [
+          "daily life",
+          "prisoners",
+          "FARC"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Political Implications and Negotiations",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Why has the situation with the hostages not resulted in a resolution?",
+        "importance": "critical",
+        "keywords": [
+          "negotiations",
+          "political",
+          "hostages"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What role has the United States government played in the hostage situation?",
+        "importance": "high",
+        "keywords": [
+          "U.S. government",
+          "hostage crisis",
+          "political stance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Public Awareness and Media Coverage",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How has the media's coverage affected public awareness of the hostage situation?",
+        "importance": "high",
+        "keywords": [
+          "media coverage",
+          "public awareness",
+          "hostage situation"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What challenges exist in raising awareness about the plight of these hostages?",
+        "importance": "optional",
+        "keywords": [
+          "awareness",
+          "challenges",
+          "hostages"
+        ]
+      }
+    ]
+  }
+]

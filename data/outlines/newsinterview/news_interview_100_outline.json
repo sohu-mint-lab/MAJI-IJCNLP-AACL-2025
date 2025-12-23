@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Background on Recent Events in El Paso",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What event prompted Joaquin Castro to tweet the names of Trump donors?",
+        "importance": "critical",
+        "keywords": [
+          "El Paso",
+          "massacre",
+          "Joaquin Castro"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did Representative Castro link the donor contributions to the recent violence?",
+        "importance": "high",
+        "keywords": [
+          "donors",
+          "contributions",
+          "violence"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Reactions from Trump Donors",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What was Israel Fogiel's reaction to being labeled as fueling hate?",
+        "importance": "critical",
+        "keywords": [
+          "Israel Fogiel",
+          "reaction",
+          "hate"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Fogiel justify his support for President Trump despite the allegations?",
+        "importance": "high",
+        "keywords": [
+          "support",
+          "Trump",
+          "justification"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Controversial Language and Its Implications",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What controversial terms has President Trump used regarding immigration?",
+        "importance": "high",
+        "keywords": [
+          "controversial",
+          "Trump",
+          "immigration"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Fogiel respond to concerns about the president's rhetoric being divisive?",
+        "importance": "high",
+        "keywords": [
+          "Fogiel",
+          "response",
+          "divisive rhetoric"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Perspective and Immigration Experience",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Israel Fogiel's personal immigration experience influence his views?",
+        "importance": "optional",
+        "keywords": [
+          "personal experience",
+          "immigration",
+          "views"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "In what way does Fogiel differentiate between legal and illegal immigration?",
+        "importance": "optional",
+        "keywords": [
+          "legal immigration",
+          "illegal immigration",
+          "differentiation"
+        ]
+      }
+    ]
+  }
+]

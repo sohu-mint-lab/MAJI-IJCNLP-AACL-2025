@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Roger Moore's Bond Legacy",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you speak to your experience playing James Bond across seven films?",
+        "importance": "critical",
+        "keywords": [
+          "Roger Moore",
+          "James Bond",
+          "legacy"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What are your thoughts on Daniel Craig's portrayal of Bond in 'Skyfall'?",
+        "importance": "high",
+        "keywords": [
+          "Skyfall",
+          "Daniel Craig",
+          "portrayal"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Personal Experiences and Reflections",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How has being recognized as James Bond impacted your personal life?",
+        "importance": "high",
+        "keywords": [
+          "recognition",
+          "personal life",
+          "impact"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Do you have any regrets about your experiences over the years?",
+        "importance": "high",
+        "keywords": [
+          "regrets",
+          "experiences",
+          "reflection"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Enduring Appeal of the Bond Franchise",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Why do you think the Bond franchise continues to be successful after 50 years?",
+        "importance": "critical",
+        "keywords": [
+          "Bond franchise",
+          "success",
+          "appeal"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What elements do you believe resonate most with audiences in Bond films?",
+        "importance": "high",
+        "keywords": [
+          "audience",
+          "elements",
+          "resonance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Legacy and Family Background",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How do your parents feel about your journey into acting and fame?",
+        "importance": "high",
+        "keywords": [
+          "family",
+          "parents",
+          "acting"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What would you say is your proudest achievement that reflects your upbringing?",
+        "importance": "high",
+        "keywords": [
+          "achievement",
+          "upbringing",
+          "legacy"
+        ]
+      }
+    ]
+  }
+]

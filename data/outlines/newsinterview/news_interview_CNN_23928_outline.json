@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Laura Bush's Excitement and Reflections on Her Husband’s Political Journey",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How does Laura Bush feel about returning to the White House?",
+        "importance": "critical",
+        "keywords": [
+          "excited",
+          "White House",
+          "political journey"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What was Laura's initial reaction to George Bush's political aspirations when they first got married?",
+        "importance": "high",
+        "keywords": [
+          "marriage",
+          "politics",
+          "initial reaction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Laura Bush's Role as First Lady",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What issues does Laura Bush plan to focus on as First Lady?",
+        "importance": "critical",
+        "keywords": [
+          "First Lady",
+          "education",
+          "policy focus"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Laura Bush view her potential influence on education reform?",
+        "importance": "high",
+        "keywords": [
+          "education reform",
+          "influence",
+          "First Lady"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Personal Life and Challenges Ahead",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What concerns does Laura Bush have about privacy as First Lady?",
+        "importance": "high",
+        "keywords": [
+          "privacy",
+          "First Lady",
+          "personal life"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Laura Bush feel about the media's treatment of her family?",
+        "importance": "high",
+        "keywords": [
+          "media",
+          "family",
+          "treatment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Observations on the Political Landscape",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Laura Bush perceive the recent cabinet nominations and the political atmosphere in Washington?",
+        "importance": "optional",
+        "keywords": [
+          "cabinet nominations",
+          "political atmosphere",
+          "Washington"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What personal anecdotes does Laura Bush share about her husband, George W. Bush?",
+        "importance": "optional",
+        "keywords": [
+          "anecdotes",
+          "George W. Bush",
+          "personal life"
+        ]
+      }
+    ]
+  }
+]

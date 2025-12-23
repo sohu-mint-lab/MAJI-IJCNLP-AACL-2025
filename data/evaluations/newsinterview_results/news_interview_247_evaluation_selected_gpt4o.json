@@ -1,0 +1,391 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.25539233949449325,
+                "avg_context_relevance": 0.3890519133872456,
+                "avg_outline_relevance": 0.9274054567019144,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 61.111111111111114,
+            "covered_questions": 3,
+            "total_questions": 6
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "It's been a week since Attorney General William Barr delivered his summary of the Mueller report to Congress. That four-page summary of the 400-page report landed at a tumultuous moment in American political life, with deep partisan divides over seemingly everything, including special counsel Robert Mueller's investigation. Taking her own stock of the reaction to the end of the Russia probe is Molly Ball, political correspondent for Time. She joins me now in our studios. Welcome.",
+            "previous_answer": "Thank you for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you share your initial thoughts on the political impact the Mueller report summary had when it was released?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.0915536880493164,
+                        "outline_relevance": 0.7911602854728699,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share your initial thoughts on the political impact the Mueller report summary had when it was released?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.0915536880493164,
+                            "outline_relevance": 0.7911602854728699,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "All right, so you talked with voters in Iowa about Robert Mueller's investigation. What did they say?",
+            "previous_answer": "I did not speak with them. But I sat in on some focus groups that were conducted by a polling firm who - trying to figure out what a certain type of American feels. So we're not talking about the real partisan fringes. The people in these focus groups were - were soft partisans or independents. So these are people who are actually trying to evaluate things for the most part - not simply from a my-side or your-side point of view. And what we found in these focus groups was that most people, Democrats and Republicans in this - in the sort of middle of the spectrum, they did think there was something there with the investigation. They thought it was a good thing for it to be investigated. Maybe some of the Republicans felt it was going on too long. But you see this in polls as well. People generally supported the investigation, thought it was merited. And they were confused by it, frankly. They weren't - they weren't following all of the twists and turns of it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Based on your observations, how did voters in Iowa specifically react to the findings of the Mueller investigation in those focus groups?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5695502161979675,
+                        "outline_relevance": 0.9781041145324707,
+                        "originality": 0.3195650577545166,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Based on your observations, how did voters in Iowa specifically react to the findings of the Mueller investigation in those focus groups?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5695502161979675,
+                            "outline_relevance": 0.9781041145324707,
+                            "originality": 0.3195650577545166,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "It's a hard story to follow (laughter).",
+            "previous_answer": "Even for those of us whose job it is to follow it, it can be confusing. And that's certainly true for the public. It wasn't that it was confusing and therefore shouldn't exist. They thought it was a - it was a good thing. But they certainly could not tell you every twist and turn.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did voters in Iowa respond to the Mueller investigation's findings in the focus groups, and what nuances did they express in their reactions?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1664029359817505,
+                        "outline_relevance": 0.9823362827301025,
+                        "originality": 0.02814614772796631,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How did voters in Iowa respond to the Mueller investigation's findings in the focus groups, and what nuances did they express in their reactions?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1664029359817505,
+                            "outline_relevance": 0.9823362827301025,
+                            "originality": 0.02814614772796631,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "NPR conducted a poll with PBS News Hour and Marist. And that poll found that 78 percent of Republicans are now satisfied with the investigation, 35 percent of Democrats and about half of independents. That seems to have literally flipped the script. Is that similar to what you heard?",
+            "previous_answer": "Yes. It - the focus groups, these occurred before the end of the investigation...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did voters in Iowa react to the findings of the Mueller investigation according to the focus groups?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5089539289474487,
+                        "outline_relevance": 1.0,
+                        "originality": 0.01766371726989746,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How did voters in Iowa react to the findings of the Mueller investigation according to the focus groups?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5089539289474487,
+                            "outline_relevance": 1.0,
+                            "originality": 0.01766371726989746,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "OK.",
+            "previous_answer": "...And the release of William Barr's summary of the Mueller Report. But you did - you certainly heard more skepticism from Republicans than from Democrats. But I actually think that - what I found in these focus groups was more consensus than not, was that, again, outside of the sort of hardcore of the two parties, there were a lot of people in the middle who really were willing to give a hearing to the special counsel and his findings. And I think you see that in that independent number in that poll, that about half and half of Americans are sort of - they're sort of interested in a fair investigation. And they're willing to evaluate that outside of politics.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did voters in Iowa react to the findings of the Mueller investigation according to the focus groups?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6555283069610596,
+                        "outline_relevance": 1.0,
+                        "originality": 5.960464477539063e-08,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How did voters in Iowa react to the findings of the Mueller investigation according to the focus groups?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6555283069610596,
+                            "outline_relevance": 1.0,
+                            "originality": 5.960464477539063e-08,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "That same NPR poll also showed that actually, though, people's opinions haven't really changed. You know, Trump's approval rating is pretty much the same. Fifty-seven percent of the respondents still think the president did something illegal or unethical in his dealings with Russia and Vladimir Putin. It was 53 percent last July. So it doesn't seem to have really shifted public opinion that much.",
+            "previous_answer": "Yeah, I think that that also reflects substantively what the end of the investigation produced, right? It was a result that was fairly equivocal, a result that, in the actual words - in the literal words of the special counsel himself, did not either exonerate or not exonerate the president. So people do have to sort of figure out where they are on that without the report giving them, you know, a big neon sign of, it's all on one side or it's all on the other. But the other thing that I think that shows is that over the past two years, where the president has kept up this increasing drumbeat about this probe being a witch hunt, about it being a hoax, literally trying to convince people that it was invented out of thin air by - by vengeful partisans out to get him, the public broadly doesn't believe that narrative. And now that the president is, again, untrue - untruthfully saying that he's been exonerated, the public doesn't believe that either, by and large. They - they, I think, are seeing this report for what it is, which is not an exoneration and not a witch hunt.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What were the key political circumstances surrounding the release of William Barr's summary of the Mueller report?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6079652309417725,
+                        "outline_relevance": 1.0,
+                        "originality": 0.20883959531784058,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What were the key political circumstances surrounding the release of William Barr's summary of the Mueller report?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6079652309417725,
+                            "outline_relevance": 1.0,
+                            "originality": 0.20883959531784058,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Well, we should say, we haven't actually seen the report.",
+            "previous_answer": "Right.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: How does not having seen the actual report affect your ability to report accurately on the investigation?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.09530837088823318,
+                        "outline_relevance": 0.5950484275817871,
+                        "originality": 0.45336318016052246,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How does not having seen the actual report affect your ability to report accurately on the investigation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.09530837088823318,
+                            "outline_relevance": 0.5950484275817871,
+                            "originality": 0.45336318016052246,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "It's the Barr letter, right? And we won't know that for another few weeks yet, which has allowed a narrative to set in about what is in the Mueller report, actually. How are people seeing the handling of Barr by this - of this?",
+            "previous_answer": "Well, what you do see consistently in all of the polls - including NPR's poll and including a poll today by The Washington Post and other polls - is that there is very, very high levels of public support for releasing the full Mueller report - 75, 80, 85 percent generally, consistently, in national polls. And that tells you that that really is beyond partisanship. This is Republicans, Democrats, independents - everybody wants to see the actual Mueller report. And everybody wants more information than was provided in that summary by the attorney general.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What did the NPR poll reveal about the shift in public opinion following the Mueller report summary?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7080270648002625,
+                        "outline_relevance": 1.0,
+                        "originality": 0.2709534168243408,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What did the NPR poll reveal about the shift in public opinion following the Mueller report summary?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7080270648002625,
+                            "outline_relevance": 1.0,
+                            "originality": 0.2709534168243408,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "Molly Ball is a political correspondent for Time. Thank you so much.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What were the key political circumstances surrounding the release of William Barr's summary of the Mueller report?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.0981774777173996,
+                        "outline_relevance": 1.0,
+                        "originality": -1.1920928955078125e-07,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What were the key political circumstances surrounding the release of William Barr's summary of the Mueller report?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.0981774777173996,
+                            "outline_relevance": 1.0,
+                            "originality": -1.1920928955078125e-07,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

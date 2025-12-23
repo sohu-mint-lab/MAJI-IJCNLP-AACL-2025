@@ -1,0 +1,70 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the CITES Conference",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was the purpose of the recent CITES conference in Doha, Qatar?",
+        "importance": "critical",
+        "keywords": [
+          "CITES",
+          "conference",
+          "meeting"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Marine Species Protection Challenges",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Which marine species were discussed for protection at the conference, and what was the outcome?",
+        "importance": "critical",
+        "keywords": [
+          "marine species",
+          "protection",
+          "outcome"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How do commercial interests influence decisions regarding marine species protection?",
+        "importance": "high",
+        "keywords": [
+          "commercial interests",
+          "influence",
+          "decisions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Voting Process and Future Actions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How does the voting process work at CITES, and are the results binding?",
+        "importance": "high",
+        "keywords": [
+          "voting process",
+          "CITES",
+          "binding"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What actions will be taken to improve marine species protection before the next CITES meeting?",
+        "importance": "optional",
+        "keywords": [
+          "future actions",
+          "marine species",
+          "CITES"
+        ]
+      }
+    ]
+  }
+]

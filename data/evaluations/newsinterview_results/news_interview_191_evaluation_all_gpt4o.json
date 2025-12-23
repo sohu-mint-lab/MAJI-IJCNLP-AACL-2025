@@ -1,0 +1,1027 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3319261250672517,
+                "avg_context_relevance": 0.40360420373164946,
+                "avg_outline_relevance": 0.6627637396256129,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3063172698020935,
+                "avg_context_relevance": 0.34294104842203005,
+                "avg_outline_relevance": 0.7517342844179699,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 52.38095238095239,
+            "covered_questions": 3,
+            "total_questions": 6
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Now for a little news I could use - book recommendations. My Memorial Day weekend starts right after the show. And like most people, I'm looking for summer reads, something to put in my bag next to my SPF 100. Normally I would solicit recommendations on social media. But today I don't have to because WEEKEND EDITION books editor Barrie Hardymon joins me in studio now. Hey, Barrie.",
+            "previous_answer": "Hi. I also have sunscreen recommendations for later if you want them.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What type of books do you personally enjoy for summer reading, and what draws you to those genres during the warmer months?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.43573805689811707,
+                        "outline_relevance": 0.6941015124320984,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What are your top book picks for a wide range of summer readers looking for something engaging?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.38044071197509766,
+                            "outline_relevance": 0.6895923614501953,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share some specific summer reads that you think would be sleeper hits or hidden gems?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4550376236438751,
+                            "outline_relevance": 0.5851401090621948,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you approach recommending books that suit different reader moods and interests during the summer?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3599904775619507,
+                            "outline_relevance": 0.7015645503997803,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What type of books do you personally enjoy for summer reading, and what draws you to those genres during the warmer months?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.43573805689811707,
+                            "outline_relevance": 0.6941015124320984,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "(Laughter) First I want to start off with what I would ask you, is that my favorite kind of summer read is just the frothy page-turner, the one book that everyone's reading that HBO or Netflix is going to turn into a movie or TV show sometime next year.",
+            "previous_answer": "You want your basic \"Gone Girl.\"",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you tell me more about the book 'Pieces Of Her' by Karin Slaughter and why you would recommend it to fiction readers?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.20400166511535645,
+                        "outline_relevance": 0.8362833857536316,
+                        "originality": 0.5875468254089355,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What other books would you recommend that fit the frothy, highly readable summer thriller category like 'Gone Girl'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5156506896018982,
+                            "outline_relevance": 0.624927282333374,
+                            "originality": 0.2702023983001709,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you elaborate on what makes a book like 'Gone Girl' such an effective summer page-turner compared to others?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5152750015258789,
+                            "outline_relevance": 0.564231812953949,
+                            "originality": 0.3961714506149292,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you balance recommending popular page-turners with more literary or thought-provoking books during the summer season?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.135952427983284,
+                            "outline_relevance": 0.6598500609397888,
+                            "originality": 0.12363052368164062,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you tell me more about the book 'Pieces Of Her' by Karin Slaughter and why you would recommend it to fiction readers?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.20400166511535645,
+                            "outline_relevance": 0.8362833857536316,
+                            "originality": 0.5875468254089355,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Yes.",
+            "previous_answer": "You want your \"Big Little Lies.\"",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What is the premise of the book 'Pieces Of Her' by Karin Slaughter, and what makes it a great choice for summer reading?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.14272895455360413,
+                        "outline_relevance": 0.8902506828308105,
+                        "originality": 0.17671585083007812,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What other books with a similar dramatic and engaging style to 'Big Little Lies' would you recommend for summer reading?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.42691871523857117,
+                            "outline_relevance": 0.6303627490997314,
+                            "originality": 0.2169119119644165,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Why do you think 'Big Little Lies' resonates so well with summer audiences compared to other titles?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5395674705505371,
+                            "outline_relevance": 0.4181278944015503,
+                            "originality": 0.44788891077041626,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you ensure that your recommendations, including 'Big Little Lies', appeal to diverse reader tastes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.38261479139328003,
+                            "outline_relevance": 0.5559723377227783,
+                            "originality": 0.3386812210083008,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What is the premise of the book 'Pieces Of Her' by Karin Slaughter, and what makes it a great choice for summer reading?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.14272895455360413,
+                            "outline_relevance": 0.8902506828308105,
+                            "originality": 0.17671585083007812,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Exactly.",
+            "previous_answer": "I got you. So I'm going to recommend a book that is by Karin Slaughter. I don't know if you've read any of her other books. They can be quite bloody. But they're great crime mysteries that are - also have really great characterization but not at the expense of plot. And so the book I want to recommend is called \"Pieces Of Her.\" It's totally propulsive. It's about a young woman named Andy Oliver. She's at lunch with her mom, chatting it up when, all of a sudden, next to her a deranged young man comes up with a gun. And her mother does something very, very surprising for a lady who is described as knowing where all the tops to the Tupperware are, which is that she very calmly and coolly kills him.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You mentioned that Karin Slaughter's books manage to balance rich characterization with a compelling plot. Could you explain how she achieves this balance in 'Pieces Of Her'?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5810998678207397,
+                        "outline_relevance": 0.7917553782463074,
+                        "originality": 0.2683824896812439,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What other gripping crime mysteries do you think fans of Karin Slaughter would enjoy if they like that mix of plot and characterization?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7202346324920654,
+                            "outline_relevance": 0.6346052289009094,
+                            "originality": 0.29358965158462524,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you elaborate more on how Karin Slaughter achieves the balance between rich characterization and a propulsive plot in 'Pieces Of Her'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5670787692070007,
+                            "outline_relevance": 0.780053973197937,
+                            "originality": 0.27918004989624023,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you decide when a book's violent content enhances the story versus when it might be off-putting for readers?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5257697701454163,
+                            "outline_relevance": 0.6629660129547119,
+                            "originality": 0.34123826026916504,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You mentioned that Karin Slaughter's books manage to balance rich characterization with a compelling plot. Could you explain how she achieves this balance in 'Pieces Of Her'?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5810998678207397,
+                            "outline_relevance": 0.7917553782463074,
+                            "originality": 0.2683824896812439,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "(Laughter).",
+            "previous_answer": "So I'm not going to say any more than that. The rest of the book is this roller coaster ride of finding out who her mother is. And it's also this really great mother-daughter story. And, bonus, it will be turned into a mini-series by Netflix.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe how Barrie characterizes the experience of reading 'Wolf Hall'?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4174271523952484,
+                        "outline_relevance": 0.9726549386978149,
+                        "originality": 0.4199675917625427,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you share more about what makes the mother-daughter relationship in this story so captivating for readers?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6985432505607605,
+                            "outline_relevance": 0.5821181535720825,
+                            "originality": 0.34284424781799316,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What elements of the book make it feel like a 'roller coaster ride' in terms of pacing and suspense?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5207015872001648,
+                            "outline_relevance": 0.641162633895874,
+                            "originality": 0.3569934368133545,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think the Netflix mini-series adaptation might change or enhance readers’ experience of the book compared to reading it?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.49876099824905396,
+                            "outline_relevance": 0.44088488817214966,
+                            "originality": 0.4084644317626953,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you describe how Barrie characterizes the experience of reading 'Wolf Hall'?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4174271523952484,
+                            "outline_relevance": 0.9726549386978149,
+                            "originality": 0.4199675917625427,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "What is that called again? Just remind me.",
+            "previous_answer": "It's called \"Pieces Of Her,\" by Karin Slaughter. But if you're waiting for the next book like that that's coming out, the hottest off the press, I would recommend \"Bunny\" by Mona Awad, which is also very funny and very sharp and an extremely readable page-turner, which is coming out in June.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You've shared some great fiction recommendations so far. What would you suggest for readers who prefer nonfiction—are there any standout nonfiction books this summer that you think are must-reads?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5045567750930786,
+                        "outline_relevance": 0.7098770141601562,
+                        "originality": 0.3430449962615967,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What qualities do you look for in a summer read to recommend to different types of readers?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3880639672279358,
+                            "outline_relevance": 0.7101835608482361,
+                            "originality": 0.18714392185211182,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share more about what makes 'Bunny' a standout book compared to others this summer?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6122978925704956,
+                            "outline_relevance": 0.5300810933113098,
+                            "originality": 0.33772748708724976,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you decide to recommend newer releases versus established favorites to your readers?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.35122987627983093,
+                            "outline_relevance": 0.4423183798789978,
+                            "originality": 0.38060081005096436,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You've shared some great fiction recommendations so far. What would you suggest for readers who prefer nonfiction—are there any standout nonfiction books this summer that you think are must-reads?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5045567750930786,
+                            "outline_relevance": 0.7098770141601562,
+                            "originality": 0.3430449962615967,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "I also think about summer reading as escapism fiction. You know, you want to go to another world or back in time or fantasy novels. What about that?",
+            "previous_answer": "So for, you know, people who are, like, maybe missing \"Game Of Thrones\"...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share a few specific fantasy or epic series titles you would recommend to readers missing something like 'Game Of Thrones'?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6523756384849548,
+                        "outline_relevance": 0.4418712556362152,
+                        "originality": 0.48025625944137573,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What types of fantasy or escapism fiction do you find most appealing to recommend for summer reading?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.27802959084510803,
+                            "outline_relevance": 0.6218505501747131,
+                            "originality": 0.23147034645080566,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share a few specific titles that might satisfy readers missing epic fantasy like 'Game Of Thrones'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5845727920532227,
+                            "outline_relevance": 0.4568389654159546,
+                            "originality": 0.4738953709602356,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you balance recommending well-known series and new fantasy books to readers seeking escapism?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.32501715421676636,
+                            "outline_relevance": 0.54608154296875,
+                            "originality": 0.3509284257888794,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share a few specific fantasy or epic series titles you would recommend to readers missing something like 'Game Of Thrones'?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6523756384849548,
+                            "outline_relevance": 0.4418712556362152,
+                            "originality": 0.48025625944137573,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Yeah.",
+            "previous_answer": "...Or if you're sad about the way it ended but also want to be outside at the same time, not in front of a TV, this is the perfect time to pick up \"Wolf Hall.\" Now, I know...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What nonfiction book would you recommend for readers who enjoy smart, thought-provoking literature, and what makes it stand out?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.18958938121795654,
+                        "outline_relevance": 0.864906370639801,
+                        "originality": 0.15989375114440918,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What elements make 'Wolf Hall' a good choice for readers who want to be outdoors while reading?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5119114518165588,
+                            "outline_relevance": 0.7421542406082153,
+                            "originality": 0.2798197269439697,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you describe the emotional journey readers might expect when they pick up 'Wolf Hall'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.59579998254776,
+                            "outline_relevance": 0.7292258739471436,
+                            "originality": 0.2507495880126953,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How would you compare the engagement level of 'Wolf Hall' to other historical fiction books you recommend?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4566504657268524,
+                            "outline_relevance": 0.6498162746429443,
+                            "originality": 0.3463560938835144,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What nonfiction book would you recommend for readers who enjoy smart, thought-provoking literature, and what makes it stand out?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.18958938121795654,
+                            "outline_relevance": 0.864906370639801,
+                            "originality": 0.15989375114440918,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "A throwback.",
+            "previous_answer": "...That sounds a little crazy. But - it's a throwback, but remember, the third one is coming out in 2020, in March of 2020. They just announced it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: How do you think the throwback aspect of the series influences reader interest and engagement?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.13188236951828003,
+                        "outline_relevance": 0.5067680478096008,
+                        "originality": 0.2666010856628418,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think the throwback aspect of the series influences reader interest and engagement?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.13188236951828003,
+                            "outline_relevance": 0.5067680478096008,
+                            "originality": 0.2666010856628418,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What can readers expect from the third book coming out in 2020 in terms of themes or story progression?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5547016263008118,
+                            "outline_relevance": 0.520513653755188,
+                            "originality": 0.4433998465538025,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Could you share how this upcoming release ties into the overall summer reading recommendations you’ve mentioned?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3243415057659149,
+                            "outline_relevance": 0.7080639600753784,
+                            "originality": 0.2387334108352661,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "And it might take you until next summer to finish \"Wolf Hall,\" to be ready.",
+            "previous_answer": "So this is - I want to correct the misapprehension that this is a hard book to read. This is a - like, a - certainly a long piece of psychologically realistic fiction. But you - from the minute you meet Thomas Cromwell, you really are going to be sucked in. And if - if you are a \"Game Of Thrones\" watcher who is interested in how power corrupts, how an intensely human, brilliant person can, you know, become the kind of person that maybe dragon fires a whole village or - I don't know - takes down the Catholic Church and murders a queen, then, you know, \"Wolf Hall\" is for you. Plus, you then will have the benefit of being right on time in March, when the third one comes out.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share which nonfiction book you would recommend for readers who prefer intellectually stimulating literature?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5084431171417236,
+                        "outline_relevance": 0.8364987373352051,
+                        "originality": 0.08002722263336182,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How would you describe the unique psychological realism in 'Wolf Hall' compared to other historical fiction novels?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5812315344810486,
+                            "outline_relevance": 0.6435580849647522,
+                            "originality": 0.23212486505508423,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you elaborate on how 'Wolf Hall' portrays the theme of power and corruption through Thomas Cromwell’s character?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5946898460388184,
+                            "outline_relevance": 0.6337227821350098,
+                            "originality": 0.3404991626739502,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways do you think 'Wolf Hall' and the upcoming third book will influence readers' perspectives on historical fiction and modern storytelling?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5116100311279297,
+                            "outline_relevance": 0.6472302675247192,
+                            "originality": 0.1499558687210083,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you share which nonfiction book you would recommend for readers who prefer intellectually stimulating literature?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5084431171417236,
+                            "outline_relevance": 0.8364987373352051,
+                            "originality": 0.08002722263336182,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "What about for your friend, the - the I-don't-do-fiction reader, the reader that wants to read...",
+            "previous_answer": "I don't know any of those people. (Laughter).",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: You mentioned not knowing readers who avoid fiction—what do you think are common reasons people might shy away from fiction?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.16229522228240967,
+                        "outline_relevance": 0.6139955520629883,
+                        "originality": 0.2781166434288025,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you tell us more about the kind of readers you do encounter who enjoy fiction or nonfiction?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.139116570353508,
+                            "outline_relevance": 0.6788087487220764,
+                            "originality": 0.21978473663330078,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: You mentioned not knowing readers who avoid fiction—what do you think are common reasons people might shy away from fiction?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.16229522228240967,
+                            "outline_relevance": 0.6139955520629883,
+                            "originality": 0.2781166434288025,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you approach recommending books to readers with very specific or niche tastes, especially those who might not like fiction?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.007853047922253609,
+                            "outline_relevance": 0.6597051620483398,
+                            "originality": 0.23139739036560059,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 11,
+            "actual_question": "I don't know many, but I know they exist - the person that doesn't really want fiction. They want nonfiction. They want something smart to read. I'm thinking more along the lines of, like, Ron Chernow's \"Hamilton\" that everybody became obsessed with, that read like fiction but was actually the book that's going to impress people that you read this summer.",
+            "previous_answer": "That's right. There's literally a picture of Lin-Manuel Miranda on the beach reading that, but it's an old...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "In recommending nonfiction to readers who usually prefer fiction, how do you choose books that not only inform but also tell a compelling story?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.10143190622329712,
+                        "outline_relevance": 0.7182849049568176,
+                        "originality": 0.1549839973449707,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share more examples of nonfiction books that have captivated a broad audience like 'Hamilton'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1731301099061966,
+                            "outline_relevance": 0.725363552570343,
+                            "originality": 0.23024070262908936,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What elements in Ron Chernow's 'Hamilton' make it read like fiction despite being nonfiction?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2933617830276489,
+                            "outline_relevance": 0.6123614311218262,
+                            "originality": 0.37634342908859253,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you balance recommending nonfiction books that appeal both intellectually and narratively?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.13244885206222534,
+                            "outline_relevance": 0.7036718726158142,
+                            "originality": 0.109366774559021,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "In recommending nonfiction to readers who usually prefer fiction, how do you choose books that not only inform but also tell a compelling story?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.10143190622329712,
+                            "outline_relevance": 0.7182849049568176,
+                            "originality": 0.1549839973449707,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 12,
+            "actual_question": "(Laughter).",
+            "previous_answer": "In any case, yes. So there's a wonderful book that I think actually kind of brings together a lot of our - of our genres. And it's called \"Murder By The Book.\" It's by Claire Harman. And it's about a murder in Victorian London in which a minor aristocrat is murdered by his valet. Now, it actually does sound like fiction, right? It's nonfiction. But what's so wonderful about it is this guy's defense was that he had read a popular novel, and the book made me do it, which is kind of a wonderful thing if you think about what fiction can do. However, it's also this wonderful book about class and how we think about the way that books influence us. Every detail is amazing. I just - I - Claire Harman describes the aristocrat as being ripe and aged. It also really answers this essential question of how powerful can books be.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What nonfiction book would you suggest for readers who are interested in intellectually stimulating literature?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6486002206802368,
+                        "outline_relevance": 0.8324709534645081,
+                        "originality": 0.02382683753967285,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you tell us about other nonfiction books that similarly blend storytelling with historical facts to engage readers?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6160449385643005,
+                            "outline_relevance": 0.6895690560340881,
+                            "originality": 0.21768462657928467,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How does 'Murder By The Book' challenge traditional boundaries between fiction and nonfiction?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7245250344276428,
+                            "outline_relevance": 0.8389379978179932,
+                            "originality": 0.2875164747238159,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways does the portrayal of class in 'Murder By The Book' deepen the reader's understanding of the era?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5950140357017517,
+                            "outline_relevance": 0.7380139231681824,
+                            "originality": 0.2872755527496338,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What nonfiction book would you suggest for readers who are interested in intellectually stimulating literature?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6486002206802368,
+                            "outline_relevance": 0.8324709534645081,
+                            "originality": 0.02382683753967285,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 13,
+            "actual_question": "Barrie Hardymon, our books editor. And if you want specific recommendations, you can always tweet her @bhardymon, or tell us what you're recommending to your friends, @NPRWeekend. Barrie, thanks for this.",
+            "previous_answer": "You're welcome.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "For readers who gravitate more towards nonfiction, especially those who enjoy intellectually stimulating literature, which book would you recommend and why?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.12100435048341751,
+                        "outline_relevance": 0.8145612478256226,
+                        "originality": 0.04907822608947754,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What other summer reading recommendations would you suggest that blend both fiction and nonfiction?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.12557069957256317,
+                            "outline_relevance": 0.7032139301300049,
+                            "originality": 0.131669819355011,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you share a memorable reader reaction or story related to a book you recently recommended?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.24349543452262878,
+                            "outline_relevance": 0.5741866230964661,
+                            "originality": 0.32350122928619385,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think readers' preferences between fiction and nonfiction have evolved over recent years?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.04591327905654907,
+                            "outline_relevance": 0.5879303812980652,
+                            "originality": 0.16158682107925415,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "For readers who gravitate more towards nonfiction, especially those who enjoy intellectually stimulating literature, which book would you recommend and why?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.12100435048341751,
+                            "outline_relevance": 0.8145612478256226,
+                            "originality": 0.04907822608947754,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

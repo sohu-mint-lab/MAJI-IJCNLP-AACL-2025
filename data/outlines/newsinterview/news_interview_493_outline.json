@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Tribute to Senator John McCain",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the main thoughts you had while writing your tribute to Senator McCain?",
+        "importance": "critical",
+        "keywords": [
+          "tribute",
+          "thoughts",
+          "writing"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How would you describe the impact of losing John McCain on the Senate?",
+        "importance": "high",
+        "keywords": [
+          "impact",
+          "loss",
+          "Senate"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Legacy and Values",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What specific values of John McCain do you believe will be missed the most?",
+        "importance": "critical",
+        "keywords": [
+          "values",
+          "missed",
+          "legacy"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Can you highlight McCain's contributions to military legislation?",
+        "importance": "high",
+        "keywords": [
+          "military",
+          "legislation",
+          "contributions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Personal Memories",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Could you share a memorable personal story about John McCain?",
+        "importance": "high",
+        "keywords": [
+          "personal",
+          "story",
+          "memories"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What was your last interaction with McCain like before his passing?",
+        "importance": "optional",
+        "keywords": [
+          "last interaction",
+          "passing",
+          "goodbye"
+        ]
+      }
+    ]
+  }
+]

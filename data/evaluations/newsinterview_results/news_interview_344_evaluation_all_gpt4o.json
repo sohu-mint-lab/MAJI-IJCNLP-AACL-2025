@@ -1,0 +1,693 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3561248455728803,
+                "avg_context_relevance": 0.47907224627477785,
+                "avg_outline_relevance": 0.717050986630576,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.30867766671710545,
+                "avg_context_relevance": 0.49368224251601434,
+                "avg_outline_relevance": 0.8043453958299425,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 50.0,
+            "covered_questions": 4,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "In Yemen, tens of thousands of children have starved to death in a Saudi-led war that will soon enter its fourth year. Another 14 million, half the country's population, are at risk of starvation. Thousands of civilians have been killed. But in the backdrop of this bloodshed and destruction is another tragedy - the looting of the country's history, its precious antiquities plundered by criminals and violent extremists. Joining us now to talk about this is Deborah Lehr, the founder and chair of the Antiquities Coalition. She co-wrote an op-ed in The Washington Post with Yemen's ambassador to the United States. Deborah, thanks so much for joining us.",
+            "previous_answer": "Great - my pleasure - thank you for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share with us what initially motivated you to work on protecting cultural heritage in conflict zones such as Yemen?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.17920643091201782,
+                        "outline_relevance": 0.6516193151473999,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share with us what initially drew you to work on protecting cultural heritage in conflict zones like Yemen?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.19152015447616577,
+                            "outline_relevance": 0.6916182041168213,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How is the looting of antiquities connected to the broader humanitarian crisis Yemen is facing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.0014963243156671524,
+                            "outline_relevance": 0.7882048487663269,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are some of the biggest challenges your organization faces in combating the illicit trade of antiquities during ongoing conflicts?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.018352976068854332,
+                            "outline_relevance": 0.7234500050544739,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you share with us what initially motivated you to work on protecting cultural heritage in conflict zones such as Yemen?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.17920643091201782,
+                            "outline_relevance": 0.6516193151473999,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Can you give us a sense of the scale of what's being lost in Yemen right now, what's already been lost?",
+            "previous_answer": "It's very hard to quantify because we don't even have legitimate numbers on the legal trade. But what we can say is that Yemen was a very rich historic country. It was one of the centers of the spice and incense trade and, in fact, developed one of the - the Manhattan of the desert as a major trading center with the first skyscrapers in the 16th century and one of the first major dams in the eighth century B.C. All of these have been targeted for destruction. And we're losing significant amounts of what, really, was very rich history to these thieves. And then with the illicit digging going on, who knows what treasures have been lost?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What kinds of illicit activities are involved in the sale of Yemen's antiquities, and how are these operations typically conducted?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5846037864685059,
+                        "outline_relevance": 0.8337788581848145,
+                        "originality": 0.2300315499305725,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you help us understand what makes Yemen’s historical sites unique compared to other regions in the Middle East? (depth)",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6040579676628113,
+                            "outline_relevance": 0.7566841840744019,
+                            "originality": 0.3558117151260376,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Are there any particular examples of monuments or artifacts that have been deliberately destroyed or looted recently? (depth)",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.29948028922080994,
+                            "outline_relevance": 0.6515865921974182,
+                            "originality": 0.4257429838180542,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How does the loss of these antiquities affect the cultural identity and morale of Yemen’s people? (broad)",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5680278539657593,
+                            "outline_relevance": 0.8168513774871826,
+                            "originality": 0.23197132349014282,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What kinds of illicit activities are involved in the sale of Yemen's antiquities, and how are these operations typically conducted?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5846037864685059,
+                            "outline_relevance": 0.8337788581848145,
+                            "originality": 0.2300315499305725,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Right - and it's so sad because you can't get this stuff back. You can't bring history back.",
+            "previous_answer": "Right - and you've lost the context. So we may have lost information that could lead, for example - could lead to the proof of the Queen of Sheba and her existence.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What kinds of illicit activities are involved in the sale and trafficking of Yemen's antiquities?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.20957383513450623,
+                        "outline_relevance": 0.8325618505477905,
+                        "originality": 0.04550749063491821,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on how losing historical context affects our understanding of significant figures like the Queen of Sheba?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7317663431167603,
+                            "outline_relevance": 0.4114248752593994,
+                            "originality": 0.5398684740066528,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How might the loss of such irreplaceable historical context influence Yemeni cultural identity and global heritage?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3874514698982239,
+                            "outline_relevance": 0.7302783727645874,
+                            "originality": 0.172413170337677,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are the challenges in recovering or preserving historical context once antiquities are lost or looted?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.38840627670288086,
+                            "outline_relevance": 0.5731582641601562,
+                            "originality": 0.30585891008377075,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What kinds of illicit activities are involved in the sale and trafficking of Yemen's antiquities?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.20957383513450623,
+                            "outline_relevance": 0.8325618505477905,
+                            "originality": 0.04550749063491821,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "So who's selling these antiquities? And how much are they benefiting from it? What are they getting out of this?",
+            "previous_answer": "With the illicit trade, what we have tracked is their exit points. In Yemen, through Djibouti is one of the main points. In Egypt, for example, it went through Israel. Iraq and Syria was going through Turkey. They meet with sophisticated middlemen. And they're being bought by collectors and others in major Western markets. Some of it is even showing up in the United States. And these monies are going back and being used by the Houthis and other terrorist organizations in the region to sponsors...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain how organizations like ISIS and Al-Qaida specifically profit from the trade of illicit antiquities?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6287487745285034,
+                        "outline_relevance": 0.9586304426193237,
+                        "originality": 0.24862128496170044,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you explain how these sophisticated middlemen operate within these illicit networks?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.47809427976608276,
+                            "outline_relevance": 0.46484842896461487,
+                            "originality": 0.5476284027099609,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How does the international community respond to the identification of these exit points and trade routes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5672839879989624,
+                            "outline_relevance": 0.5732114315032959,
+                            "originality": 0.6503275632858276,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What challenges do law enforcement face in intercepting antiquities heading to major Western markets?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3631608486175537,
+                            "outline_relevance": 0.6750686168670654,
+                            "originality": 0.3014013171195984,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you explain how organizations like ISIS and Al-Qaida specifically profit from the trade of illicit antiquities?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6287487745285034,
+                            "outline_relevance": 0.9586304426193237,
+                            "originality": 0.24862128496170044,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "So Houthis, al-Qaida...",
+            "previous_answer": "Al-Qaida - yes. We have evidence of al-Qaida raids on some of the museums in Yemen. And we have evidence of, in Europe, even in Brussels, dealers who have been selling al-Qaida-sponsored antiquities.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you describe how Al-Qaida controls or benefits from the antiquities they raid or sell?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.7344250679016113,
+                        "outline_relevance": 0.7960083484649658,
+                        "originality": 0.18853998184204102,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe how Al-Qaida controls or benefits from the antiquities they raid or sell?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.7344250679016113,
+                            "outline_relevance": 0.7960083484649658,
+                            "originality": 0.18853998184204102,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What other regions or cities outside Brussels are known to be involved in the illegal trade of Yemen's antiquities?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6684184074401855,
+                            "outline_relevance": 0.7449206113815308,
+                            "originality": 0.18184894323349,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do these illicit antiquities sales impact funding for terrorist operations and local communities?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5913020372390747,
+                            "outline_relevance": 0.771137535572052,
+                            "originality": 0.22593820095062256,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Is there any evidence of ISIS benefiting from...",
+            "previous_answer": "There's definite evidence of ISIS benefiting. In fact, in a special-forces raid of one of the complexes of, essentially, the person who is the chief financial officer of ISIS, we found receipts of about $5 million worth of antiquities over the course of a year that they had sold. And they had a very sophisticated pattern and, actually, a ministry of antiquities just to deal in this illicit trade.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you provide more details on how this 'ministry of antiquities' was organized and operated within ISIS?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.703784704208374,
+                        "outline_relevance": 0.6862823963165283,
+                        "originality": 0.3167722821235657,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you elaborate on how ISIS established such a structured system like a 'ministry of antiquities'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6881238222122192,
+                            "outline_relevance": 0.647574245929718,
+                            "originality": 0.3343759775161743,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Are there similar financial operations using antiquities trade by other terrorist groups in Yemen besides ISIS?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7559365034103394,
+                            "outline_relevance": 0.8245079517364502,
+                            "originality": 0.19251936674118042,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How does the illicit antiquities trade revenue support ISIS’s overall funding and operations in conflict zones?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.8305081129074097,
+                            "outline_relevance": 0.8683790564537048,
+                            "originality": 0.1417514681816101,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you provide more details on how this 'ministry of antiquities' was organized and operated within ISIS?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.703784704208374,
+                            "outline_relevance": 0.6862823963165283,
+                            "originality": 0.3167722821235657,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "So what are you and the ambassador proposing - and what you proposed in the op-ed - to try to stop the path to stop the market for it?",
+            "previous_answer": "There are international rules that govern how we can actually stop the U.S. from being a target market. But it requires that countries are signatories to a UNESCO Convention, a 1970s convention for antiquities. Unfortunately, Yemen is not. So we have to be creative in the measures that we take. And we also need immediate action because of this crisis going on. So what we have proposed is that Treasury extend the emergency powers that they have under the emergency act and other legal means that they have to stop, say, in a case of emergencies. Already with Yemen, they can stop the import of oil - that they expand that to include antiquities because these items are being used to sponsor terrorism.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on why international conventions, like the UNESCO Convention, are vital in effectively halting the illicit antiquities trade, and what challenges arise when key countries like Yemen are not signatories?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7453685402870178,
+                        "outline_relevance": 0.7390958070755005,
+                        "originality": 0.31900256872177124,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you explain how the Treasury’s emergency powers would practically block antiquities imports from Yemen, and what challenges they face?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.653504490852356,
+                            "outline_relevance": 0.6697696447372437,
+                            "originality": 0.24228554964065552,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What international diplomatic efforts are underway to encourage Yemen to join the UNESCO Convention and what obstacles exist?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6683420538902283,
+                            "outline_relevance": 0.5531668066978455,
+                            "originality": 0.3988953232765198,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you evaluate the role of other countries and international partners in supporting these emergency measures to stop the illicit antiquities trade?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6224230527877808,
+                            "outline_relevance": 0.7381045818328857,
+                            "originality": 0.2471969723701477,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you elaborate on why international conventions, like the UNESCO Convention, are vital in effectively halting the illicit antiquities trade, and what challenges arise when key countries like Yemen are not signatories?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7453685402870178,
+                            "outline_relevance": 0.7390958070755005,
+                            "originality": 0.31900256872177124,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "So, you know, some people might say, well, you know, people are starving to death in Yemen. People are dying. And there's no end in sight, really, to this war. So why should we care about these material things, this history, when right now there's really a humanitarian crisis, as you said?",
+            "previous_answer": "There's no question that there's a humanitarian crisis. And it's very tragic, the loss of life and displacement that has taken place. But these items, these symbols really represent their rich history, their religion and, quite honestly, their economic future, where Yemen is a source of tourism. And all of these are being taken away. You know, the robbing of the past is really robbing them of their future.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What kinds of illicit activities are occurring related to the sale of Yemen’s antiquities, and how do these impact both the local communities and global heritage preservation efforts?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6400533318519592,
+                        "outline_relevance": 0.806110143661499,
+                        "originality": 0.0977860689163208,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How do you see the preservation of Yemen’s antiquities contributing directly to humanitarian recovery efforts?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.702348530292511,
+                            "outline_relevance": 0.8560113906860352,
+                            "originality": 0.14434528350830078,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you elaborate on the economic impact of losing cultural heritage and tourism in Yemen?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6781290173530579,
+                            "outline_relevance": 0.6300269961357117,
+                            "originality": 0.19126081466674805,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What role should the international community play in balancing immediate humanitarian aid and long-term cultural preservation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.483963280916214,
+                            "outline_relevance": 0.4354521334171295,
+                            "originality": 0.39196252822875977,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What kinds of illicit activities are occurring related to the sale of Yemen’s antiquities, and how do these impact both the local communities and global heritage preservation efforts?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6400533318519592,
+                            "outline_relevance": 0.806110143661499,
+                            "originality": 0.0977860689163208,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "Deborah Lehr is the founder and chair of the Antiquities Coalition. Thank you so much for talking with us.",
+            "previous_answer": "Great. Thank you for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe the current humanitarian situation in Yemen, particularly how it is affecting children and leading to starvation?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.017375711351633072,
+                        "outline_relevance": 0.9350214004516602,
+                        "originality": 0.3318377733230591,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How did your journey lead you to founding the Antiquities Coalition and focusing on Yemen's cultural preservation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.18800877034664154,
+                            "outline_relevance": 0.7809547781944275,
+                            "originality": 0.16667819023132324,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share some personal experiences that highlight the urgency of preserving Yemen’s antiquities?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.18332108855247498,
+                            "outline_relevance": 0.8299956321716309,
+                            "originality": 0.1057819128036499,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In your view, how do cultural preservation efforts intersect with humanitarian efforts in conflict zones like Yemen?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.050659097731113434,
+                            "outline_relevance": 0.6512894034385681,
+                            "originality": 0.1904062032699585,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you describe the current humanitarian situation in Yemen, particularly how it is affecting children and leading to starvation?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.017375711351633072,
+                            "outline_relevance": 0.9350214004516602,
+                            "originality": 0.3318377733230591,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

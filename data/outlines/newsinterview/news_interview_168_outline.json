@@ -1,0 +1,82 @@
+[
+  {
+    "id": "S1",
+    "section": "Political Crisis and Tariff Negotiations",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was the president's strategy regarding the crisis related to tariffs and immigration?",
+        "importance": "critical",
+        "keywords": [
+          "president",
+          "tariffs",
+          "immigration",
+          "crisis"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the Republican side react to the president's decision to back off on tariffs?",
+        "importance": "high",
+        "keywords": [
+          "Republican",
+          "reaction",
+          "tariffs"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Outcomes of the U.S.-Mexico Agreement",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What concessions did Mexico agree to in the recent agreement with the U.S.?",
+        "importance": "high",
+        "keywords": [
+          "Mexico",
+          "agreement",
+          "concessions"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What concerns remain about the effectiveness of this agreement in reducing migrant flow?",
+        "importance": "critical",
+        "keywords": [
+          "effectiveness",
+          "migrant flow",
+          "concerns"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Democratic Party Dynamics Ahead of Elections",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How is Joe Biden's stance on the Hyde Amendment affecting his campaign?",
+        "importance": "high",
+        "keywords": [
+          "Biden",
+          "Hyde Amendment",
+          "campaign"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What is the significance of the rivalry between Bernie Sanders and Elizabeth Warren within the Democratic primaries?",
+        "importance": "high",
+        "keywords": [
+          "Sanders",
+          "Warren",
+          "rivalry",
+          "Democratic primaries"
+        ]
+      }
+    ]
+  }
+]

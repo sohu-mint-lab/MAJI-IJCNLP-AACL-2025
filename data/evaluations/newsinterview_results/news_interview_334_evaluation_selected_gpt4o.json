@@ -1,0 +1,283 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4126380185286204,
+                "avg_context_relevance": 0.33875543996691704,
+                "avg_outline_relevance": 0.8847820361455282,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 60.0,
+            "weighted_coverage_score": 58.82352941176471,
+            "covered_questions": 3,
+            "total_questions": 5
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "The government shutdown over the border wall continues. Here this morning to talk about the political action or lack thereof is NPR's Mara Liasson. Hi, Mara.",
+            "previous_answer": "Hi, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "To start, could you outline the primary issues that have led to the current government shutdown?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.07310906052589417,
+                        "outline_relevance": 0.8744621276855469,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "To start, could you outline the primary issues that have led to the current government shutdown?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.07310906052589417,
+                            "outline_relevance": 0.8744621276855469,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "OK. So, Mara, last night, the president called into Judge Jeanine Pirro's show on Fox News. And we'll talk Russia elsewhere in the show. But he said about the shutdown that he was still thinking about declaring a national emergency. Is that still a plan?",
+            "previous_answer": "Well, like everything else about Trump and the shutdown, it's unclear. He's been ping-ponging around this issue. Sometimes, he says he definitely would declare a state of emergency. Other times, he's said he's not in any rush. But that endgame of declaring a national emergency has been described to me by Trump's advisers as the only plausible way out of this for him politically, a way for him to keep faith with his base, show him - show them he's fighting, even if he's stymied in the courts. And this promise to build a wall or, really, do everything he can to build a wall has become the sun, moon and stars of his administration. It's really become the white whale. It's become the No. 1 priority. And he's gotten pretty sensitive about press coverage of how he's handling this issue. He tweeted that the fake news Washington Post said he didn't have a plan. But he says, I have a plan. But to understand the plan, you have to understand that I won the election. The promise with that - problem with that is he did win the 2016 election. But he lost the 2018 election, and he really hasn't absorbed the changes that that's brought. He also tweeted, quote, \"there's almost nobody in the White House but me.\" And I think that really sums it up. It's just him, almost all by himself, making it up as he goes along.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How have congressional Republicans responded to the possibility of President Trump declaring a national emergency to fund the border wall?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5959235429763794,
+                        "outline_relevance": 0.7915140390396118,
+                        "originality": 0.572738766670227,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How have congressional Republicans responded to the possibility of President Trump declaring a national emergency to fund the border wall?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5959235429763794,
+                            "outline_relevance": 0.7915140390396118,
+                            "originality": 0.572738766670227,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Do we know where he's landed on declaring a state of emergency? You're describing this sort of back and forth. But do we know where his head's at?",
+            "previous_answer": "It seems that he's saying, I will do it if I can't get a deal. But the waffling around this is happening because some of his advisers say it's not a good idea. It's going to be tied up in the courts. The Republicans in Congress are split on this. Some Republicans say it would usurp Congress's power of the purse. Others say it's a terrible precedent because a future Democratic president could declare a state of emergency around gun safety or health care or climate change. But other Republicans on the Hill privately would be thankful for the president to take this whole issue off their laps because if he does declare a state of emergency, he would, presumably, have to open the government.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How have congressional Republicans reacted to the idea of declaring a national emergency in this context?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5469530820846558,
+                        "outline_relevance": 0.9767318964004517,
+                        "originality": 0.21152639389038086,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How have congressional Republicans reacted to the idea of declaring a national emergency in this context?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5469530820846558,
+                            "outline_relevance": 0.9767318964004517,
+                            "originality": 0.21152639389038086,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "All right. So where do we stand on the negotiations right now?",
+            "previous_answer": "Nowhere. We're nowhere. Negotiations usually have a couple things associated with them - first of all, round the clock talks, a willingness for both sides to find a deal where both sides would win or maybe a creative solution that makes the problem bigger, like exchanging a path to citizenship for the DREAMers with $25 billion for a wall. That was a deal that was tentatively made over a year ago, but Trump walked away from that. The other reason we're not anywhere is that Mitch McConnell, the Senate Republican leader, is nowhere to be seen. He is the guy who, in the past, has gotten presidents out of a lot of tight corners. He thinks of creative solutions. But don't forget; this whole shutdown started when McConnell passed - unanimously - a compromise bill through the Senate for - to open the government not fund the wall. Trump originally said he would sign it. Then Trump changed his mind, and the shutdown happened. And now McConnell says he's not going to put anything on the floor of the Senate if the president won't sign it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How have Trump's public speeches and statements influenced public opinion regarding the government shutdown and the border wall issue?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.42930150032043457,
+                        "outline_relevance": 0.9304951429367065,
+                        "originality": 0.3943697214126587,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How have Trump's public speeches and statements influenced public opinion regarding the government shutdown and the border wall issue?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.42930150032043457,
+                            "outline_relevance": 0.9304951429367065,
+                            "originality": 0.3943697214126587,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "And Nancy Pelosi, of course, is in Puerto Rico. So it's not like, you know, she's here right now talking to the president either. So I guess, you know, this leaves him taking his case to the American people. He tried to do that when he actually went and gave an address in the Oval Office. Did that move the needle?",
+            "previous_answer": "It doesn't seem like he's moved the needle. He did a lot of things - Oval Office address, trip to the border, a lot of interviews. The latest polling we have is a Washington Post/ABC News poll that shows by a very wide margin - 53 to 29 percent - more Americans blame President Trump and the Republicans in Congress for the shutdown rather than Democrats. One thing that has happened in the polling is that the border wall has gotten a little bit more popular. It's still net unpopular right now. Forty-two percent of people say they support a wall. That's up from 34 percent a year ago. But 54 percent oppose the idea, down from 63 percent a year ago. And the other thing we see is that he hasn't been able to convince Americans that there's actually a crisis on the border. That hasn't worked mostly because the people who are coming across are applying for asylum. That's a legal process, and it wouldn't be stopped by a wall.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are the main issues and disputes that have led to the current government shutdown?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.30554747581481934,
+                        "outline_relevance": 0.9487107992172241,
+                        "originality": 0.11487722396850586,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What are the main issues and disputes that have led to the current government shutdown?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.30554747581481934,
+                            "outline_relevance": 0.9487107992172241,
+                            "originality": 0.11487722396850586,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "That's NPR's Mara Liasson. Thank you so much.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "从整体来看，当前政府关门的主要问题和关键争议点都有哪些？",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.081697978079319,
+                        "outline_relevance": 0.7867782115936279,
+                        "originality": 0.18231600522994995,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "从整体来看，当前政府关门的主要问题和关键争议点都有哪些？",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.081697978079319,
+                            "outline_relevance": 0.7867782115936279,
+                            "originality": 0.18231600522994995,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

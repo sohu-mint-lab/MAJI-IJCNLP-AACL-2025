@@ -1,0 +1,693 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3850450158119202,
+                "avg_context_relevance": 0.4955923837742635,
+                "avg_outline_relevance": 0.6657023174422128,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4178855750295851,
+                "avg_context_relevance": 0.49869263875815606,
+                "avg_outline_relevance": 0.7929650412665473,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 56.00000000000001,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "He is in cahoots with a foreign government to manipulate the outcome of this election - that comment from Democratic presidential candidate and California Senator Kamala Harris. This is all impeachable, not a close call. That's Hawaii Senator Brian Schatz. And this from New York Congresswoman Alexandria Ocasio-Cortez - at this point, we are beyond a constitutional crisis. This is a threat to the very sovereignty of the U.S. Those comments all on the developing story of a whistleblower's concerns over President Trump's dealings with foreign powers. Let's hear now from another Democrat. Tom Malinowski represents New Jersey in the U.S. House. He was an assistant secretary of state during the Obama administration. Congressman, good morning.",
+            "previous_answer": "Good morning.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Congressman, could you share your overall perspective on the seriousness of the allegations brought forward by the whistleblower?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.05576533451676369,
+                        "outline_relevance": 0.7334150075912476,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Congressman, could you share your overall perspective on the seriousness of the allegations brought forward by the whistleblower?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.05576533451676369,
+                            "outline_relevance": 0.7334150075912476,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: From your experience in government, what legal processes need to be followed to address potential presidential misconduct effectively?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.009580152109265327,
+                            "outline_relevance": 0.6178411245346069,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think these allegations and the ensuing investigations might impact public trust in democratic institutions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.04850930720567703,
+                            "outline_relevance": 0.7220009565353394,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "I'd like first to get your response to the Trump administration's refusal to share that whistleblower's complaint with Congress. What do you think about that?",
+            "previous_answer": "Well, first of all, it's illegal. We have a very straightforward law that requires them to share that complaint if the inspector general of the intelligence community deems it to be urgent and credible, which, in this case, he has. And you know, it's a very, very important law because it's one of the few safeguards we have against a president misusing the intelligence community. You know, if the president were to order the CIA to spy on a political opponent or to commit some other crime, this is one of the few safeguards we have.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific measures or safeguards are currently in place to prevent a president from misusing the intelligence community, and how effective do you think they are?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.658684492111206,
+                        "outline_relevance": 0.9358057379722595,
+                        "originality": 0.4123469591140747,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on how the law is enforced when the administration refuses to comply with the obligation to share whistleblower complaints?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6355897188186646,
+                            "outline_relevance": 0.7792760729789734,
+                            "originality": 0.31768590211868286,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What are the broader constitutional implications of a president refusing to comply with intelligence community oversight?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6608034372329712,
+                            "outline_relevance": 0.8528248071670532,
+                            "originality": 0.3919389843940735,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How does the current situation affect public confidence in the mechanisms designed to check presidential power?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3646942675113678,
+                            "outline_relevance": 0.537035346031189,
+                            "originality": 0.3278701901435852,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What specific measures or safeguards are currently in place to prevent a president from misusing the intelligence community, and how effective do you think they are?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.658684492111206,
+                            "outline_relevance": 0.9358057379722595,
+                            "originality": 0.4123469591140747,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Now, we should explain that this has to do, according to some reports, with President Trump's phone call with the president of Ukraine when he allegedly pressured the Ukrainians to investigate Joe Biden's son. It's a claim that Trump calls a ridiculous story. But at the same time, he has also said, someone ought to look into Joe Biden. And of course, Joe Biden is his potential opponent in the 2020 election - all of this, as we've heard, bringing renewed calls from many Democrats for impeachment proceedings. Where do you stand on that?",
+            "previous_answer": "Look. I think there is a very, very big leap between candidate Trump in 2016 saying, Russia, if you can hear this, show us the emails, and President Trump using his awesome powers to coerce a foreign government into interfering in our elections. You know, his defense to the Mueller report was that, yeah, Russia may have interfered but that he had nothing to do with it. If this story is true, here we have the president trying to force a foreign government to work with him against his political opponent in the United States. That's beyond unacceptable.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How have various Democratic leaders publicly responded to the allegations made against President Trump regarding foreign interference?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5277095437049866,
+                        "outline_relevance": 0.8088855743408203,
+                        "originality": 0.39255648851394653,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think the public perceives the seriousness of these allegations?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.28455591201782227,
+                            "outline_relevance": 0.6329869627952576,
+                            "originality": 0.2463158369064331,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you detail what legal mechanisms exist to address such coercion if proven?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.16933664679527283,
+                            "outline_relevance": 0.4676544666290283,
+                            "originality": 0.4311865568161011,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Given the political polarization, how might Congress navigate investigating these allegations while maintaining legitimacy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.37156981229782104,
+                            "outline_relevance": 0.6107475757598877,
+                            "originality": 0.270283043384552,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How have various Democratic leaders publicly responded to the allegations made against President Trump regarding foreign interference?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5277095437049866,
+                            "outline_relevance": 0.8088855743408203,
+                            "originality": 0.39255648851394653,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "And you say, if it's true...",
+            "previous_answer": "And yes, impeachable.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How does Congressman Malinowski perceive the current political climate regarding impeachment efforts?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5632593631744385,
+                        "outline_relevance": 0.9915285110473633,
+                        "originality": 0.452085018157959,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: What specific evidence or conditions would solidify the case for impeachment?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6972217559814453,
+                            "outline_relevance": 0.798996090888977,
+                            "originality": 0.4173070788383484,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you see the impeachment process affecting wider political stability?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6351546049118042,
+                            "outline_relevance": 0.732020378112793,
+                            "originality": 0.3805149793624878,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you explain how impeachment acts as a check on presidential power in practice?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7339496612548828,
+                            "outline_relevance": 0.7454663515090942,
+                            "originality": 0.3645235300064087,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How does Congressman Malinowski perceive the current political climate regarding impeachment efforts?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5632593631744385,
+                            "outline_relevance": 0.9915285110473633,
+                            "originality": 0.452085018157959,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "You say, if it's true, what powers does the House have to try to corroborate this claim?",
+            "previous_answer": "It does have to be corroborated. We can't impeach a president based on, you know, unnamed people speaking to the press, as credible and numerous as these reports may be. So you know, there is an investigation underway already by three House committees into what President Trump may have done with Ukraine. That is going to absolutely heat up in the next couple of weeks. So all I can say is, stay tuned. Fasten your seatbelts. The stakes here are extremely high.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the intense political atmosphere, how do you personally perceive the current climate surrounding the impeachment discussions?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5859686732292175,
+                        "outline_relevance": 0.7877578139305115,
+                        "originality": 0.21869635581970215,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: What types of evidence does Congress consider most credible when corroborating claims against a president?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5664643049240112,
+                            "outline_relevance": 0.583565890789032,
+                            "originality": 0.2857891321182251,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Could you describe how the House committees coordinate their investigations in politically sensitive cases?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.41519057750701904,
+                            "outline_relevance": 0.5838395357131958,
+                            "originality": 0.28453749418258667,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What do you think the next stages of the investigation might look like, and how might this impact the impeachment timeline?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5835787057876587,
+                            "outline_relevance": 0.6523997783660889,
+                            "originality": 0.2387567162513733,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Given the intense political atmosphere, how do you personally perceive the current climate surrounding the impeachment discussions?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5859686732292175,
+                            "outline_relevance": 0.7877578139305115,
+                            "originality": 0.21869635581970215,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Let me ask you, congressman. There are a number of Democrats and voters who are saying, you know, where is the party's spine in all of this? This is a president who has been, they say, running roughshod over your legislative authority with total impunity. What do you say to that?",
+            "previous_answer": "I think it is absolutely imperative for the House of Representatives to use every power we have under the law to get to the bottom of this and, if it is true, to hold the president accountable. I do not accept the notion that the only remedy to this kind of lawless behavior is another election. I do not want to live in a country where a president who wins an election can do whatever he or she wants for four years.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What challenges do Republicans face in responding to the current allegations, and how might these challenges impact the overall congressional response?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.367798388004303,
+                        "outline_relevance": 0.9697248935699463,
+                        "originality": 0.35588520765304565,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you believe the House can effectively utilize its investigative powers to ensure transparency in this matter?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.37363696098327637,
+                            "outline_relevance": 0.49782389402389526,
+                            "originality": 0.33599650859832764,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What legal precedents or frameworks guide your approach to holding a president accountable beyond elections?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6597417593002319,
+                            "outline_relevance": 0.5771693587303162,
+                            "originality": 0.2674564719200134,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Considering the current political polarization, how can the House maintain impartiality in pursuing these investigations?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4779488742351532,
+                            "outline_relevance": 0.5303250551223755,
+                            "originality": 0.16887766122817993,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What challenges do Republicans face in responding to the current allegations, and how might these challenges impact the overall congressional response?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.367798388004303,
+                            "outline_relevance": 0.9697248935699463,
+                            "originality": 0.35588520765304565,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "And very...",
+            "previous_answer": "That is not American democracy.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe the specific actions you believe are undermining American democratic values, and why you see them as problematic?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.49717170000076294,
+                        "outline_relevance": 0.5550943613052368,
+                        "originality": 0.4671664834022522,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on what specific actions you believe go against American democracy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.534447968006134,
+                            "outline_relevance": 0.5052868127822876,
+                            "originality": 0.4117746949195862,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think these actions affect the public's trust in government institutions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2455696314573288,
+                            "outline_relevance": 0.4601450264453888,
+                            "originality": 0.20743262767791748,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What measures should be taken to ensure that democratic principles are preserved in the current political climate?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3580830693244934,
+                            "outline_relevance": 0.4542107582092285,
+                            "originality": 0.4358646869659424,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you describe the specific actions you believe are undermining American democratic values, and why you see them as problematic?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.49717170000076294,
+                            "outline_relevance": 0.5550943613052368,
+                            "originality": 0.4671664834022522,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Very briefly, congressman, are you hearing anything from Republicans in Congress on all of this, or are you hearing total silence?",
+            "previous_answer": "I'm - so far, pretty much silence, but I also think that this is very different from the past allegations. This is something that will be much harder for Republicans to defend without looking even more craven than most voters...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "From your perspective, how have Democratic leaders responded to the current allegations against President Trump, and how does that contrast with the Republican silence?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6347833871841431,
+                        "outline_relevance": 0.8177165985107422,
+                        "originality": 0.16711795330047607,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Could you explain more about why these allegations are harder for Republicans to defend compared to previous ones?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.8235342502593994,
+                            "outline_relevance": 0.7620247602462769,
+                            "originality": 0.27550339698791504,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: What impact do you think this Republican silence might have on bipartisan cooperation in Congress going forward?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6834977865219116,
+                            "outline_relevance": 0.6134119033813477,
+                            "originality": 0.3447529077529907,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: How might Republican constituents be reacting to their party's response to these allegations?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7102367281913757,
+                            "outline_relevance": 0.840806782245636,
+                            "originality": 0.1509000062942505,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "From your perspective, how have Democratic leaders responded to the current allegations against President Trump, and how does that contrast with the Republican silence?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6347833871841431,
+                            "outline_relevance": 0.8177165985107422,
+                            "originality": 0.16711795330047607,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "OK.",
+            "previous_answer": "...Will tolerate. You know, we can't base our foreign policy on whether foreign leaders are willing to do political favors for the president.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given your concerns about foreign policy being influenced by political favors, could you share specific instances where you believe this has undermined U.S. national interests or democratic values?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.597092866897583,
+                        "outline_relevance": 0.5367568731307983,
+                        "originality": 0.29511570930480957,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you elaborate on how foreign policy decisions have been affected by the president's personal interests?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6132494807243347,
+                            "outline_relevance": 0.6460204124450684,
+                            "originality": 0.4150172472000122,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How do you think Congress can ensure that foreign policy remains free from political influence?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6230148077011108,
+                            "outline_relevance": 0.46384772658348083,
+                            "originality": 0.37771666049957275,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: What mechanisms are in place to prevent foreign leaders from leveraging political favors with US officials?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6753581166267395,
+                            "outline_relevance": 0.49516791105270386,
+                            "originality": 0.367603063583374,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Given your concerns about foreign policy being influenced by political favors, could you share specific instances where you believe this has undermined U.S. national interests or democratic values?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.597092866897583,
+                            "outline_relevance": 0.5367568731307983,
+                            "originality": 0.29511570930480957,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

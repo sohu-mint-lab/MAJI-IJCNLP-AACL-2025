@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Impact of Tropical Depression Imelda on Southeast Texas",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What areas of Southeast Texas were most affected by Tropical Depression Imelda?",
+        "importance": "critical",
+        "keywords": [
+          "Tropical Depression Imelda",
+          "Southeast Texas",
+          "flooding"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the flooding from Imelda compare to previous incidents like Hurricane Harvey?",
+        "importance": "high",
+        "keywords": [
+          "Hurricane Harvey",
+          "comparison",
+          "flooding"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Infrastructure Challenges and Responses",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What improvements have been made to infrastructure since Hurricane Harvey?",
+        "importance": "critical",
+        "keywords": [
+          "infrastructure",
+          "Hurricane Harvey",
+          "improvements"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Are there any political agreements on what needs to be done to address flooding issues?",
+        "importance": "high",
+        "keywords": [
+          "political consensus",
+          "flooding",
+          "infrastructure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Public Perception and Climate Change Discussions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How are residents of Southeast Texas responding to the link between climate change and severe storms?",
+        "importance": "high",
+        "keywords": [
+          "public perception",
+          "climate change",
+          "severe storms"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Is there a sense of urgency among locals to take action against flooding and climate change?",
+        "importance": "optional",
+        "keywords": [
+          "urgency",
+          "local action",
+          "community"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Emotional and Social Impact on Residents",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are some ways in which repeated flooding has affected the emotional well-being of residents?",
+        "importance": "high",
+        "keywords": [
+          "emotional impact",
+          "flooding",
+          "residents"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "In what ways has community support played a role in recovery after disasters like Imelda?",
+        "importance": "optional",
+        "keywords": [
+          "community support",
+          "recovery",
+          "disasters"
+        ]
+      }
+    ]
+  }
+]

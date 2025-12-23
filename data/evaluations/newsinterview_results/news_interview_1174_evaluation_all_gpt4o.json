@@ -1,0 +1,900 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.32543914685858055,
+                "avg_context_relevance": 0.3083170749088551,
+                "avg_outline_relevance": 0.46671763728273674,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.30976245800654095,
+                "avg_context_relevance": 0.2910265562434991,
+                "avg_outline_relevance": 0.5566396303474903,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 12.5,
+            "weighted_coverage_score": 14.285714285714285,
+            "covered_questions": 1,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "If you're a musician, it's one thing to have people tell you they don't like a particular song you wrote, but to receive death threats because of it, that's something all together different. Well, that's exactly what happened to singer, songwriter Janis Ian. As a teenager in 1965, she recorded \"Society's Child,\" a pop song about an interracial romance.",
+            "previous_answer": "(Singing) Come to my door, baby Face is clean and shining black as night. My mother went to answer you know That you looked so fine Now I could understand your tears and your shame, She called you boy instead of your name. When she wouldn't let you inside, When she turned and said But honey, he's not our kind. She says I can't see you any more, baby...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe how your own life experiences shaped the story told in this song?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.41613346338272095,
+                        "outline_relevance": 0.456766813993454,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you share how it felt emotionally for you to perform this song given its controversial themes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4031592905521393,
+                            "outline_relevance": 0.4831305146217346,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: What kinds of responses did you receive from audiences when you performed 'Society's Child' live?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3260963559150696,
+                            "outline_relevance": 0.6001877784729004,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: How did your personal interactions with people around you influence the lyrics you wrote in this song?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3436829447746277,
+                            "outline_relevance": 0.4366935193538666,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you describe how your own life experiences shaped the story told in this song?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.41613346338272095,
+                            "outline_relevance": 0.456766813993454,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Yup, this song was too much for the pop charts to handle in 1965, and it caused Ian a lot of grief. She went on to become on of the 1970's best loved artist with classics like the tune \"At Seventeen.\" But the impact of \"Society's Child\" has stayed with her to this day. It's the title of her recently released autobiography. I asked Janis Ian to share the story behind the \"Society's Child\" and how she came to write a song with so much insight at age 13.",
+            "previous_answer": "I was one of I think three white girls in my school. So, I was very much an outsider. And plus I was Jewish and all of my friends were black and Baptist because they listen to the coolest music. We were all listening to Ray Charles and what was then called race music. And I guess the other white kids were listening to Dick Clark and American Bandstand, which was pretty sanitized compared to what I was listening to. And we were all very conscious of race. My parents both were doing the Civil Rights Movement, were very involved with the civil rights to Congress. And my friends' parents were as well. And I was on the bus one day and I saw a black and white couple, must have been 15, 16. He was black. She was white. And they were obviously in love. And people on the bus were glaring at them, but they didn't notice. They were just looking at each other and I started thinking, was this going to work? And the more I thought about it, the more I became convinced that it wouldn't work ultimately. That she would cop out, that her parents and the school would just not allow it. And that's the song I wrote, and I had no idea, when we recorded it, that it would ignite that kind of firestorm.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "After the release of 'Society's Child,' what kind of backlash or challenges did you personally face, and how did you handle those situations?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.24653473496437073,
+                        "outline_relevance": 0.5844866037368774,
+                        "originality": 0.3144303560256958,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you share how it felt emotionally for you to perform this song given its controversial themes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.23952685296535492,
+                            "outline_relevance": 0.4831305146217346,
+                            "originality": -1.1920928955078125e-07,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: What kinds of responses did you receive from audiences when you performed 'Society's Child' live?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.25654298067092896,
+                            "outline_relevance": 0.6001877784729004,
+                            "originality": 0.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: How did your personal interactions with people around you influence the lyrics you wrote in this song?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2952381372451782,
+                            "outline_relevance": 0.4366935193538666,
+                            "originality": 2.980232238769531e-07,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "After the release of 'Society's Child,' what kind of backlash or challenges did you personally face, and how did you handle those situations?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.24653473496437073,
+                            "outline_relevance": 0.5844866037368774,
+                            "originality": 0.3144303560256958,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "At one point, someone tried to get you to change the words of the song as I understand it. What's that story?",
+            "previous_answer": "Well, Shadow, my producer, who up until then had been noted for producing the Shangri-las, he didn't really try to get me too so much as he gave me a choice. He said if you will change black as night, because the opening line is face is clean and shining black as night. He said if you change that word black to anything - anything else I can guarantee you a number one record. And he said, but it's your choice. And a friend of ours was standing there and he said, quote, unquote, \"you whore now, you'll whore forever,\" and that's a pretty strong words. I was 15 at that time. That was pretty strong. But from my point of view, hey, I was getting to make a record. How cool is that, you know?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you tell me more about the kind of backlash you encountered from people after 'Society's Child' was released?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.26107075810432434,
+                        "outline_relevance": 0.7032803297042847,
+                        "originality": 0.15846002101898193,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How did you reconcile the pressure to change your lyrics with your artistic vision?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.36496788263320923,
+                            "outline_relevance": 0.5069873332977295,
+                            "originality": 0.3634585738182068,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What kind of support or opposition did you receive from people close to you about keeping the original lyrics?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.30196529626846313,
+                            "outline_relevance": 0.49867719411849976,
+                            "originality": 0.20414531230926514,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think the music industry's commercial pressures affect artists who tackle controversial topics?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.19674596190452576,
+                            "outline_relevance": 0.3545587658882141,
+                            "originality": 0.5544193089008331,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you tell me more about the kind of backlash you encountered from people after 'Society's Child' was released?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.26107075810432434,
+                            "outline_relevance": 0.7032803297042847,
+                            "originality": 0.15846002101898193,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Yeah.",
+            "previous_answer": "When it was a hit or not was secondary.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What kind of backlash did you experience after releasing 'Society's Child' and how did it affect you personally and professionally?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2848101854324341,
+                        "outline_relevance": 0.6659929752349854,
+                        "originality": 0.08211588859558105,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe what motivated you to prioritize the message over commercial success with 'Society's Child'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.21810957789421082,
+                            "outline_relevance": 0.4440351724624634,
+                            "originality": 0.32983827590942383,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How did you handle any pressure to make your song more commercially appealing at the expense of its message?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.21460291743278503,
+                            "outline_relevance": 0.3753817081451416,
+                            "originality": 0.33103400468826294,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What do you think about how the music industry today handles artists who challenge societal norms?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.12549468874931335,
+                            "outline_relevance": 0.3227146863937378,
+                            "originality": 0.11635422706604004,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What kind of backlash did you experience after releasing 'Society's Child' and how did it affect you personally and professionally?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2848101854324341,
+                            "outline_relevance": 0.6659929752349854,
+                            "originality": 0.08211588859558105,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Let me ask you, is that a scar, or is it just a lesson learned from then that carries with you today?",
+            "previous_answer": "I think it's both. I was surprise when I started writing the book and I started with that chapter. I was surprised at how much emotion that incident stirred up, and I did quite literally go right into therapy, and just sit there and talk about it and try to come out the other side of it because it explained a lot of why audiences had always scared me a little bit. Well, of course, I mean, if you go on stage everyday thinking that you're not going to survive the hour, you're going to be frightened of your audience. So, in that sense, it was a scar but as my therapist said to me, you know, scar tissue is stronger that regular tissue.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "During your performance of 'Society's Child' in Encino, how did you feel on stage, and do any moments from that show stand out in your memory?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.496532142162323,
+                        "outline_relevance": 0.5611203908920288,
+                        "originality": 0.31217288970947266,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share more about how therapy helped you come to terms with your fear of audiences?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5832841992378235,
+                            "outline_relevance": 0.2868242859840393,
+                            "originality": 0.4656301736831665,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How has your perspective on performing and connecting with audiences changed since that time?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.37827959656715393,
+                            "outline_relevance": 0.45024389028549194,
+                            "originality": 0.32709842920303345,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways did this emotional scar shape your growth as an artist and individual?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3363475799560547,
+                            "outline_relevance": 0.32047656178474426,
+                            "originality": 0.4770781993865967,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "During your performance of 'Society's Child' in Encino, how did you feel on stage, and do any moments from that show stand out in your memory?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.496532142162323,
+                            "outline_relevance": 0.5611203908920288,
+                            "originality": 0.31217288970947266,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "You start the prologue of your autobiography with the scene of your singing \"Society's Child\" at a concert hall in Encino. You were 15 years old, that's out here in California. Tell us what happened that night.",
+            "previous_answer": "Well, the record had been out for about six months and was not getting played. And then, Leonard Bernstein had suddenly featured it in the special. And all of a sudden, KRLA went on it, a bunch of other stations went on it across the country and I started doing concerts, and by the time I hit in Encino, it was probably my fourth or fifth time on a concert stage. And I sang my first four or five songs, and then I got to \"Society's Child\" and I started to sing it and write around the first chorus somebody stood up in the audience and screamed, (bleep) your love or go home.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share more about the backlash you faced after 'Society's Child' was released and how it affected you personally and professionally?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2363138496875763,
+                        "outline_relevance": 0.6376646757125854,
+                        "originality": 0.0507206916809082,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How did you feel emotionally when someone shouted that during your performance, and how did it affect your confidence?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2923952341079712,
+                            "outline_relevance": 0.35430580377578735,
+                            "originality": 0.2972647547721863,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you describe more about the kinds of reactions you typically received performing this song across different venues?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.398786723613739,
+                            "outline_relevance": 0.5456488132476807,
+                            "originality": 0.3312098979949951,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: After that experience in Encino, how did you prepare for future performances to handle similar hostility?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.27510151267051697,
+                            "outline_relevance": 0.409359335899353,
+                            "originality": 0.4429823160171509,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share more about the backlash you faced after 'Society's Child' was released and how it affected you personally and professionally?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2363138496875763,
+                            "outline_relevance": 0.6376646757125854,
+                            "originality": 0.0507206916809082,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Mm hmm.",
+            "previous_answer": "And I stopped and then I just kept going and suddenly another person screaming it and after about 10 to 15 seconds there was a group of 10 or 20 people who started to chant it. And then they stood up and they were raising their fists and shaking them at me. And I remember one woman was just red and I thought she was going to keel over. The audience and I were stunned, I had no idea what to do.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking back, how do you think the reactions to 'Society's Child' have evolved over the years, and how do you see today's societal attitudes toward interracial relationships compared to when you first wrote the song?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.16363023221492767,
+                        "outline_relevance": 0.6060623526573181,
+                        "originality": 0.38077616691589355,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How did you feel emotionally when someone shouted that during your performance, and how did it affect your confidence?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5052712559700012,
+                            "outline_relevance": 0.35430580377578735,
+                            "originality": 5.960464477539063e-08,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you describe more about the kinds of reactions you typically received performing this song across different venues?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3349902629852295,
+                            "outline_relevance": 0.5456488132476807,
+                            "originality": -1.1920928955078125e-07,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: After that experience in Encino, how did you prepare for future performances to handle similar hostility?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1812719702720642,
+                            "outline_relevance": 0.409359335899353,
+                            "originality": 5.960464477539063e-08,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Looking back, how do you think the reactions to 'Society's Child' have evolved over the years, and how do you see today's societal attitudes toward interracial relationships compared to when you first wrote the song?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.16363023221492767,
+                            "outline_relevance": 0.6060623526573181,
+                            "originality": 0.38077616691589355,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "What did you do?",
+            "previous_answer": "You know, I started to cry and I put down the guitar because I didn't want the audience to see me crying and I walked off stage and then I ran through the ladies room and I really started to cry. And the words were just ringing in my ears. And the promoter came back and told me I had to go back out, and I said, look, now, I get death threats, you don't understand. I can't go back out there. And he said that I had to. And long story short, what he said in essence was if you let them drive you off the stage now they will do it to the next person and the next one and the next one. And then where will we be when the only people they agree with are allowed on stage? So I went back on stage, I was pretty sure that I was going to be killed. I was terrified. And I started to sing and they started to chant. And as I continued singing I just looked at them and members of the audience suddenly started taking in into their hands and going over and telling them to shut up and then - then all the ushers came down the aisle with their flashlights and shone them in these peoples faces and ordered them out. And what amazed me, Tony, was that they didn't walk out, they slunk out. And I realized that the power of just a little three and a half minute song, that it had quite literally conquer their hatred and shown them for the cowards and bullies that they were.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking back, how do you think that intense experience of hostility and your decision to keep performing influenced your outlook on using music as a tool for social change?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4040582776069641,
+                        "outline_relevance": 0.305905818939209,
+                        "originality": 0.331035852432251,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How did you summon the courage to return to the stage despite feeling terrified?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5012593269348145,
+                            "outline_relevance": 0.3562828600406647,
+                            "originality": 0.3593473434448242,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you share more examples of how audience reactions have varied for your performances?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.33909672498703003,
+                            "outline_relevance": 0.4487212300300598,
+                            "originality": 0.21661770343780518,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What support systems did you have in place during these challenging moments on stage?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2550346255302429,
+                            "outline_relevance": 0.2408192753791809,
+                            "originality": 0.41765499114990234,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Looking back, how do you think that intense experience of hostility and your decision to keep performing influenced your outlook on using music as a tool for social change?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4040582776069641,
+                            "outline_relevance": 0.305905818939209,
+                            "originality": 0.331035852432251,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "Amazing story. The issue of interracial romance it's come along way over the years. We have a president, as a matter of fact, who is the product of that kind of union…",
+            "previous_answer": "Mm hmm.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking back since you wrote 'Society's Child,' how do you perceive the changes in societal acceptance of interracial relationships?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.022872895002365112,
+                        "outline_relevance": 0.6815740466117859,
+                        "originality": 0.12001025676727295,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What are your thoughts on how society has changed in terms of acceptance of interracial relationships since you wrote 'Society's Child'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.017966147512197495,
+                            "outline_relevance": 0.6554766893386841,
+                            "originality": 0.14431285858154297,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share a personal memory about how public perception of interracial relationships affected your own experiences?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.0034156925976276398,
+                            "outline_relevance": 0.6234190464019775,
+                            "originality": 0.33740246295928955,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you feel when you see younger generations engaging with the themes of your song today?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2004813253879547,
+                            "outline_relevance": 0.36749082803726196,
+                            "originality": 0.3143559694290161,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Looking back since you wrote 'Society's Child,' how do you perceive the changes in societal acceptance of interracial relationships?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.022872895002365112,
+                            "outline_relevance": 0.6815740466117859,
+                            "originality": 0.12001025676727295,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "Interracial relationships, though, may still be controversial to some degree. How do you see the difference if you see one between interracial relationships today and the way they were when you were doing Society's Child?",
+            "previous_answer": "You know, it's a huge difference from my viewpoint. There will always be those people who are just backward and ignorant. There will always be those people. They need somebody to feel superior to. For my point of view, I live in Nashville, Tennessee, there's no way I could have lived in Nashville at 16 in 1966, '67. There's no way that Nashville would have had room for somebody like me then. I see interracial couples all the time in Nashville. I'm a Jew in Nashville. I'm a gay person in Nashville. It's a non-issue in most of the time. That's a huge leap forward. (Singing) You come to my door, baby, Your face is clean and shinning, black as night. My momma went to answer, You know, that you looked so kind. Now, I could understand the tears and the shame, She called you, boy, instead of your name, When she wouldn't let you inside, When she turned and said, \"But, honey, he's not our kind.\" She says I can't see you anymore, baby, I can't see you anymore. You walk me down to school, baby, And everybody's acting deaf and blind. Until they turn and say, Why don't you just stick to your own kind. My teachers all laugh, their smirking stares, And cutting deep down in our affairs. Preachers of equality, Think they believe it, Then why won't they just let us be…",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Despite the progress you've observed, what ongoing challenges related to racial issues do you believe society still faces today?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3410933017730713,
+                        "outline_relevance": 0.692906379699707,
+                        "originality": 0.4632369875907898,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think your identity as a Jewish and gay person in Nashville has influenced your views on social acceptance?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6572445631027222,
+                            "outline_relevance": 0.49379169940948486,
+                            "originality": 0.3492366671562195,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you describe an experience where you personally witnessed or felt a significant change in how interracial couples are perceived?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5115345120429993,
+                            "outline_relevance": 0.6270368695259094,
+                            "originality": 0.14481770992279053,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How have you incorporated your reflections on societal progress into your current songwriting and performances?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2729300856590271,
+                            "outline_relevance": 0.33481040596961975,
+                            "originality": 0.2653399705886841,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Despite the progress you've observed, what ongoing challenges related to racial issues do you believe society still faces today?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3410933017730713,
+                            "outline_relevance": 0.692906379699707,
+                            "originality": 0.4632369875907898,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "Singer, songwriter, Janis Ian, her new book is called \"Society's Child: My Autobiography.\" You can hear more from Janis Ian including a performance of her hit at 17, go to npr.newsandnotes.org.",
+            "previous_answer": "(Singing) One of these days I'm going to stop my listening, I'm going to raise my head up high. One of these days I'm going to, Raise up my glistening wings and fly. But that day will have to wait for a while…",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you share a time when you felt you were finally able to 'raise your wings and fly' in your artistic or personal life?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.4619224965572357,
+                        "outline_relevance": 0.22016341984272003,
+                        "originality": 0.4564889073371887,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you keep hope alive when progress seems slow or delayed?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.28176018595695496,
+                            "outline_relevance": 0.203104168176651,
+                            "originality": 0.5840741395950317,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share a time when you felt you were finally able to 'raise your wings and fly' in your artistic or personal life?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.4619224965572357,
+                            "outline_relevance": 0.22016341984272003,
+                            "originality": 0.4564889073371887,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How does this sense of waiting influence your creative process and message in your music?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4369913339614868,
+                            "outline_relevance": 0.28642138838768005,
+                            "originality": 0.3085464835166931,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 11,
+            "actual_question": "That's our show for today. Glad you could join us. To listen to the show or subscribe to the podcast, visit out Web site, nprnewsandnotes.org. To join the conversation or sign up for the newsletter, visit out blog at NPR newsandviews.org. New & Notes was created by NPR News and the African-American Public Radio consortium. Tomorrow, hate groups and hate crimes are on a steady rise according to a new study by the southern poverty law center. Is the economy to blame?",
+            "previous_answer": "(Singing) Baby, I can't see you anymore, No, I don't want to see you anymore…",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "After releasing 'Society's Child,' did you face any backlash or challenges, and how did you cope with them?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.15734633803367615,
+                        "outline_relevance": 0.563751757144928,
+                        "originality": 0.047701478004455566,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe what emotions you experience when singing 'Society's Child' live?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5097209811210632,
+                            "outline_relevance": 0.5002949237823486,
+                            "originality": 0.3072800636291504,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think live performances change the way audiences understand your songs?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.27575552463531494,
+                            "outline_relevance": 0.4660618007183075,
+                            "originality": 0.25479835271835327,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What role does music play in helping you communicate difficult social issues more effectively?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.17036297917366028,
+                            "outline_relevance": 0.4337710738182068,
+                            "originality": 0.33419203758239746,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "After releasing 'Society's Child,' did you face any backlash or challenges, and how did you cope with them?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.15734633803367615,
+                            "outline_relevance": 0.563751757144928,
+                            "originality": 0.047701478004455566,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,359 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.5020942836999893,
+                "avg_context_relevance": 0.34068733372259885,
+                "avg_outline_relevance": 0.6916479393839836,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4732467383146286,
+                "avg_context_relevance": 0.356955221388489,
+                "avg_outline_relevance": 0.834303617477417,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 5
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 40.0,
+            "weighted_coverage_score": 35.294117647058826,
+            "covered_questions": 2,
+            "total_questions": 5
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Sri Lankan authorities say at least 190 have been killed and hundreds more wounded in eight blasts across the country. The bombs targeted luxury hotels and churches as people gathered for Easter services. A curfew has now been imposed. Here to discuss the latest news is NPR's Lauren Frayer, who joins us from Mumbai. Lauren, what are you hearing from Colombo?",
+            "previous_answer": "Yeah. So as - the curfew has been imposed, as you said. Monday and Tuesday have been declared government holidays. That means offices and schools will be closed. Security is tightening around the country. We're seeing SWAT teams with these massive guns putting up security cordons around the capital, Colombo. They're searching buildings, and we're just getting word of seven arrests - no word on who those people are. Also, social media is shut down. Authorities are taking no chances about the terrorists, you know, using the Internet to communicate. These blasts, as you mentioned, hit churches when they were most packed, on Easter Sunday - Easter services. One church put out a notice on Facebook for relatives to come and rescue their loved ones in the debris. Local TV is showing footage of parishioners carrying out bodies of wounded people. Meanwhile, behind them, the church pews are smeared with blood, debris everywhere. The roof of one church was partially blown off. And it's not just the churches. There are also five-star hotels that have been hit, windows blown out at one. And the foreign minister has just given us an update; at least 27 foreigners are among those killed.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you provide insight into the backgrounds and motives of the individuals who were arrested in connection with these attacks?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3151727020740509,
+                        "outline_relevance": 0.695741593837738,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you share more about the profiles and backgrounds of those arrested in connection to the bombings?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.27551209926605225,
+                            "outline_relevance": 0.5959694385528564,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How has the social media blackout affected families trying to get information and the spread of news in Sri Lanka?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3828093409538269,
+                            "outline_relevance": 0.5133407115936279,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: What humanitarian efforts are currently underway to support victims and communities affected by the attacks, beyond the immediate security responses?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.37307366728782654,
+                            "outline_relevance": 0.5731804966926575,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you provide insight into the backgrounds and motives of the individuals who were arrested in connection with these attacks?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3151727020740509,
+                            "outline_relevance": 0.695741593837738,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "And we've been getting reaction. President Trump has tweeted his condolences. And there's reaction coming in from around the world on this Easter Sunday. Tell us what you've heard.",
+            "previous_answer": "Right. So this footage is just so disturbing. And so people in other time zones are waking up to the horror of this and sending in these messages of shock and condemnation. President Trump, as you mentioned, tweeted heartfelt condolences. He said, quote, \"we stand ready to help\" - exclamation point. Also, messages are coming in from European leaders and the prime minister of New Zealand, which sadly just suffered attacks on some of its own places of worship - mosques - last month. Pope Francis spoke at St. Peter's Square in Rome. He said he wants to express his affectionate closeness to the Christian community in Sri Lanka and to the victims there.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on the specific messages President Trump sent in response to the attacks, and how they might reflect the US government's stance or intended actions?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4490337371826172,
+                        "outline_relevance": 0.7705597281455994,
+                        "originality": 0.464072048664093,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you describe how the local communities in Sri Lanka are reacting alongside the global leaders to the bombings?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3637178838253021,
+                            "outline_relevance": 0.8600214719772339,
+                            "originality": 0.3993567228317261,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What specific actions have been announced or taken by governments or organizations following these condolences?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.43170782923698425,
+                            "outline_relevance": 0.5564916133880615,
+                            "originality": 0.4035246968269348,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How might the recent attacks in New Zealand shape international aid or political response to the Sri Lanka bombings?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.392400860786438,
+                            "outline_relevance": 0.7396768927574158,
+                            "originality": 0.31396251916885376,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you elaborate on the specific messages President Trump sent in response to the attacks, and how they might reflect the US government's stance or intended actions?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4490337371826172,
+                            "outline_relevance": 0.7705597281455994,
+                            "originality": 0.464072048664093,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Lauren, can you give us some background? There was a long civil war in Sri Lanka, which ended in 2009. What is the context for these attacks?",
+            "previous_answer": "That's right. So what's sad is that Sri Lanka was just about to celebrate 10 years of peace - almost to the day - since that civil war ended. It was a bloody war; it lasted 26 years. Sri Lanka is a mostly Buddhist country - about 70 percent. It also has significant religious minorities - Hindus, Muslims and Christians. And the war involved a separatist insurgency of ethnic minority Tamils. One of their groups was called the Tamil Tigers; you may remember that group. And they were fighting for independence from the Buddhist majority. The war was so bloody. Many tens of thousands of people were killed. And back then, blasts like this did happen pretty regularly at shopping malls, at temples, at tourist hotels. But this has not been the norm in Sri Lanka for a long, long while. And the prime minister says he worries that this - these attacks today are going to trigger instability.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain how the diverse demographic and religious landscape of Sri Lanka has influenced the patterns of violence and tensions historically?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6505372524261475,
+                        "outline_relevance": 0.9238835573196411,
+                        "originality": 0.36864525079727173,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Could you elaborate on how the ethnic and religious divisions have shaped Sri Lanka's recent history and violence?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6918841600418091,
+                            "outline_relevance": 0.848427951335907,
+                            "originality": 0.3355588912963867,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How are local communities in Sri Lanka coping with the shock of these attacks after a decade of peace?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6551721096038818,
+                            "outline_relevance": 0.7737845182418823,
+                            "originality": 0.14010024070739746,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: What have been the international responses beyond government statements, particularly in terms of aid or security assistance?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.19726711511611938,
+                            "outline_relevance": 0.6104261875152588,
+                            "originality": 0.3647192716598511,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you explain how the diverse demographic and religious landscape of Sri Lanka has influenced the patterns of violence and tensions historically?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6505372524261475,
+                            "outline_relevance": 0.9238835573196411,
+                            "originality": 0.36864525079727173,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "That's NPR's Lauren Frayer. Thank you so much.",
+            "previous_answer": "You're welcome, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How does the demographic and religious diversity in Sri Lanka influence the dynamics of the recent violence?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.01307719387114048,
+                        "outline_relevance": 0.9470295906066895,
+                        "originality": 0.06026965379714966,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: As you continue your reporting in Mumbai, how do you balance emotional sensitivity with the need to provide clear, factual information?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.0929541364312172,
+                            "outline_relevance": 0.37498098611831665,
+                            "originality": 0.5680108070373535,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Given the gravity of the situation in Sri Lanka, can you share more about the human stories that often get overshadowed by political reporting?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.07055054605007172,
+                            "outline_relevance": 0.6369583606719971,
+                            "originality": 0.3313608169555664,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How does your experience and background influence the way you approach covering conflicts like the one in Sri Lanka?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.09612670540809631,
+                            "outline_relevance": 0.645893931388855,
+                            "originality": 0.2839276194572449,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How does the demographic and religious diversity in Sri Lanka influence the dynamics of the recent violence?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.01307719387114048,
+                            "outline_relevance": 0.9470295906066895,
+                            "originality": 0.06026965379714966,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

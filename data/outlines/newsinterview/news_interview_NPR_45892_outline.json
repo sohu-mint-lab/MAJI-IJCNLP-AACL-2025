@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of China's Renewable Energy Commitment",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are China's goals regarding renewable energy by 2020?",
+        "importance": "critical",
+        "keywords": [
+          "China",
+          "renewable energy",
+          "commitment"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How significant is the solar project announced by China?",
+        "importance": "high",
+        "keywords": [
+          "solar project",
+          "significance",
+          "renewable energy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "eSolar's Technology and Project Details",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What unique technology does eSolar use to control solar panels?",
+        "importance": "critical",
+        "keywords": [
+          "eSolar",
+          "technology",
+          "control"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does eSolar plan to ensure round-the-clock energy production?",
+        "importance": "high",
+        "keywords": [
+          "round-the-clock",
+          "energy production",
+          "biomass"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges and Opportunities in Renewable Energy Implementation",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the challenges faced in permitting solar plants in California?",
+        "importance": "high",
+        "keywords": [
+          "permitting",
+          "challenges",
+          "California"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the land availability in California compare to other states?",
+        "importance": "optional",
+        "keywords": [
+          "land availability",
+          "California",
+          "energy production"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "The Future of Solar Energy and Market Dynamics",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What incentives does the U.S. government provide for solar energy projects?",
+        "importance": "high",
+        "keywords": [
+          "incentives",
+          "government",
+          "solar energy"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Bill Gross envision the competitive landscape between solar and fossil fuels evolving?",
+        "importance": "critical",
+        "keywords": [
+          "competitive landscape",
+          "solar",
+          "fossil fuels"
+        ]
+      }
+    ]
+  }
+]

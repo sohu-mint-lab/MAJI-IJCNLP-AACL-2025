@@ -1,0 +1,571 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4261676243373326,
+                "avg_context_relevance": 0.3384572443153177,
+                "avg_outline_relevance": 0.5734068815197263,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 37.5,
+            "weighted_coverage_score": 37.03703703703704,
+            "covered_questions": 3,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "The U.S. and China have been negotiating over the weekend to reach a trade deal before a March 1 deadline. And signs indicate the talks are going well, with the Chinese delegation extending their stay in Washington. Watching the progress of these talks very closely is Tiffany Williams. She's the co-owner of a luggage shop in Lubbock, Texas. And she joins me now on the line. Welcome to WEEKEND EDITION.",
+            "previous_answer": "Thank you so much for having me. I appreciate it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share more about how you first became involved in managing your family’s luggage business, and how that experience has influenced your perspective on the ongoing trade negotiations?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.15058252215385437,
+                        "outline_relevance": 0.4549960494041443,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share more about how you first became involved in managing your family’s luggage business, and how that experience has influenced your perspective on the ongoing trade negotiations?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.15058252215385437,
+                            "outline_relevance": 0.4549960494041443,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "So tell me a little bit about your store.",
+            "previous_answer": "I am the third-generation owner of my luggage store that my grandparents opened in 1951. I like to say I'm the granddaughter of the mom and pop...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Can you describe how your family's history with the store influences your approach to managing it today?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.5128602385520935,
+                        "outline_relevance": 0.35260337591171265,
+                        "originality": 0.43023747205734253,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you describe how your family's history with the store influences your approach to managing it today?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.5128602385520935,
+                            "outline_relevance": 0.35260337591171265,
+                            "originality": 0.43023747205734253,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "(Laughter).",
+            "previous_answer": "...Who started the store (laughter).",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share more about the history of your family’s luggage store and how that legacy influences the way you run the business today?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.41967934370040894,
+                        "outline_relevance": 0.41943615674972534,
+                        "originality": 0.21773093938827515,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share more about the history of your family’s luggage store and how that legacy influences the way you run the business today?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.41967934370040894,
+                            "outline_relevance": 0.41943615674972534,
+                            "originality": 0.21773093938827515,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "So the administration placed a 10 percent tariff on hundreds of billions of dollars' worth of goods from China. How has this affected your business?",
+            "previous_answer": "For us, it's a big deal because it is all luggage, all briefcases, all backpacks, all wallets. So, really, basically, it's 85 percent of what's in my store, with the bulk of that being imported from China, that's affected.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What strategies have you considered or implemented so far to handle the possibility of increased tariffs on your products?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.28585201501846313,
+                        "outline_relevance": 0.6947141885757446,
+                        "originality": 0.5643817782402039,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What strategies have you considered or implemented so far to handle the possibility of increased tariffs on your products?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.28585201501846313,
+                            "outline_relevance": 0.6947141885757446,
+                            "originality": 0.5643817782402039,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "So tell me how that sort of played out in your store. Have you had to raise prices? Have you had to buy less inventory?",
+            "previous_answer": "We definitely had some price increases right away. But coming into 2019 now, we've had lots and lots of our manufacturers increasing prices. But for us, you know, on the practical side, it's just trying to understand what our product assortment looks like going forward. And, certainly, with the threat of the 25 percent, that makes everything very different.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific strategies has Tiffany considered to manage or mitigate the impact of potential increased tariffs on your product lines?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.500988781452179,
+                        "outline_relevance": 0.9046828746795654,
+                        "originality": 0.2661888003349304,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What specific strategies has Tiffany considered to manage or mitigate the impact of potential increased tariffs on your product lines?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.500988781452179,
+                            "outline_relevance": 0.9046828746795654,
+                            "originality": 0.2661888003349304,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Right. President Trump has threatened to raise tariffs to 25 percent if the U.S. and China don't reach a new trade deal. Would you be able to sustain that?",
+            "previous_answer": "You know, that one is harder to know what happens if that really does happen. Does the bag that's $100 right now that goes to $125 - you know, maybe that one's not quite as hard. But I think when we get into our $400 bag that's now $500, now it becomes a luxury product. So it's - just all filters down in so many different ways of how it makes it hard for us to plan.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share any specific strategies or plans your company is considering to manage the challenges posed by these potential tariff increases and the changing perception of your products?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.32698118686676025,
+                        "outline_relevance": 0.651731014251709,
+                        "originality": 0.1380552053451538,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share any specific strategies or plans your company is considering to manage the challenges posed by these potential tariff increases and the changing perception of your products?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.32698118686676025,
+                            "outline_relevance": 0.651731014251709,
+                            "originality": 0.1380552053451538,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "But these tariffs are also affecting your customer base.",
+            "previous_answer": "They're affecting our customer base. So this was the first holiday in a really long time where we didn't meet our sales goals like we usually do. And so our business was off. Now, can I blame that all on the tariffs? I don't think that would be the appropriate thing to do. But at the same time, it definitely was a big - you know, was not expected.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How have your customers' purchasing habits shifted in response to the price changes caused by tariffs?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6001012325286865,
+                        "outline_relevance": 0.5206031799316406,
+                        "originality": 0.3238043785095215,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How have your customers' purchasing habits shifted in response to the price changes caused by tariffs?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6001012325286865,
+                            "outline_relevance": 0.5206031799316406,
+                            "originality": 0.3238043785095215,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "So I have to ask. You are Republican, and you voted for President Trump. You know, some of his supporters do believe that the short-term pain is worth it to get a fair trade relationship with China. What do you think?",
+            "previous_answer": "I definitely want to try to understand what the long-term goal is here and that, yes, we want to, you know, be a part of holding China accountable. But it definitely makes it difficult to know what the decisions are that it will affect us, you know, and our store.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking ahead, what positive outcomes do you envision from the current trade policies that make you hopeful despite the challenges?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.44324925541877747,
+                        "outline_relevance": 0.6223877668380737,
+                        "originality": 0.4426170587539673,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Looking ahead, what positive outcomes do you envision from the current trade policies that make you hopeful despite the challenges?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.44324925541877747,
+                            "outline_relevance": 0.6223877668380737,
+                            "originality": 0.4426170587539673,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "What do you think your message is then for the administration? I mean, if you were sitting down with them, what would you tell them?",
+            "previous_answer": "I guess we don't ever want to forget that the decisions they're making affect everybody. I mean - and affect consumers. It's not a tax on China. It's a tax on, you know, us. And, I mean, we're the - ultimately paying, you know, the price of the tariffs. And so does it have to be 85 percent of what's in my store? If it was only a smaller portion to take one for the team and knowing that we have to endure for the short term with a long-term goal in mind - I guess I just want to make sure I understand, you know, what the long-term goal is, though.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "In your opinion, how should small business owners like yourself be taken into account when the administration is deciding on tariff policies?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6183278560638428,
+                        "outline_relevance": 0.7887197136878967,
+                        "originality": 0.42435598373413086,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "In your opinion, how should small business owners like yourself be taken into account when the administration is deciding on tariff policies?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6183278560638428,
+                            "outline_relevance": 0.7887197136878967,
+                            "originality": 0.42435598373413086,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "Because it's hard being - I mean, a small business is hard. The margins are small. It's - you know, it's tough.",
+            "previous_answer": "It is tough. And I wish all of our product wasn't made in China, but I don't get to have a say in that matter. The supply chains can't be changed quickly. It takes time.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share some specific obstacles you've encountered when attempting to source materials or products from countries other than China?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5779008269309998,
+                        "outline_relevance": 0.47302794456481934,
+                        "originality": 0.5630725026130676,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share some specific obstacles you've encountered when attempting to source materials or products from countries other than China?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5779008269309998,
+                            "outline_relevance": 0.47302794456481934,
+                            "originality": 0.5630725026130676,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "Yeah. There's no supply chain fairy that can magically...",
+            "previous_answer": "No, there's not (laughter).",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share a specific example of how supply chain issues have directly impacted your inventory or sales recently?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.10077007114887238,
+                        "outline_relevance": 0.397779256105423,
+                        "originality": 0.35245072841644287,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share a specific example of how supply chain issues have directly impacted your inventory or sales recently?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.10077007114887238,
+                            "outline_relevance": 0.397779256105423,
+                            "originality": 0.35245072841644287,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 11,
+            "actual_question": "...Move it somewhere else.",
+            "previous_answer": "Exactly.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on what you meant by 'move it somewhere else' in the context of your business operations? For example, are you referring to relocating production, sourcing, or distribution?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.0878184363245964,
+                        "outline_relevance": 0.337102472782135,
+                        "originality": 0.49479222297668457,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you elaborate on what you meant by 'move it somewhere else' in the context of your business operations? For example, are you referring to relocating production, sourcing, or distribution?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.0878184363245964,
+                            "outline_relevance": 0.337102472782135,
+                            "originality": 0.49479222297668457,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 12,
+            "actual_question": "So when you're looking at the sort of uncertainty, what are you doing to mitigate it? What are you doing to sort of plan for it?",
+            "previous_answer": "I - at this point, I did not hire anybody new during the holidays like we normally do just because we weren't sure. I don't want to let anybody - any of my staff go, so I'm hoping we won't have to do that. But we just don't know what the future holds, so I'm hoping we can make it work with what we have.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe any recent changes or developments you've noticed in the U.S.-China trade negotiations that might be influencing your business decisions?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.16979604959487915,
+                        "outline_relevance": 0.8282787799835205,
+                        "originality": 0.3982906937599182,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you describe any recent changes or developments you've noticed in the U.S.-China trade negotiations that might be influencing your business decisions?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.16979604959487915,
+                            "outline_relevance": 0.8282787799835205,
+                            "originality": 0.3982906937599182,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 13,
+            "actual_question": "Tiffany Williams is the co-owner of the Luggage Shop Of Lubbock. Thank you so much.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: How do you generally feel about the current trade environment and its impact on your business?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.14503374695777893,
+                        "outline_relevance": 0.5816335678100586,
+                        "originality": 0.3503689765930176,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you generally feel about the current trade environment and its impact on your business?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.14503374695777893,
+                            "outline_relevance": 0.5816335678100586,
+                            "originality": 0.3503689765930176,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

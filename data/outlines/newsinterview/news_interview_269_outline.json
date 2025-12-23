@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Cody Weddle's Arrest in Venezuela",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the circumstances surrounding Cody Weddle's apprehension in Venezuela?",
+        "importance": "critical",
+        "keywords": [
+          "Cody Weddle",
+          "arrest",
+          "Venezuela"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did Weddle initially react to the officers' presence at his apartment?",
+        "importance": "high",
+        "keywords": [
+          "reaction",
+          "officers",
+          "surprise"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Interrogation Experience",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What was the nature of the interrogation that Weddle endured?",
+        "importance": "critical",
+        "keywords": [
+          "interrogation",
+          "questions",
+          "experience"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What unique methods did the officers use during the interrogation?",
+        "importance": "high",
+        "keywords": [
+          "methods",
+          "interrogation",
+          "techniques"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Context of Reporting Issues",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What were the implications of Weddle's reporting on the Venezuelan armed forces?",
+        "importance": "critical",
+        "keywords": [
+          "reporting",
+          "armed forces",
+          "implications"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the political situation in Venezuela relate to Weddle's experiences?",
+        "importance": "high",
+        "keywords": [
+          "political situation",
+          "Venezuela",
+          "context"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Current State of Venezuela's Military",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What role does the military play in supporting the Maduro government?",
+        "importance": "critical",
+        "keywords": [
+          "military",
+          "Maduro government",
+          "support"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are the potential consequences of military defections in Venezuela?",
+        "importance": "high",
+        "keywords": [
+          "consequences",
+          "military defections",
+          "Venezuela"
+        ]
+      }
+    ]
+  }
+]

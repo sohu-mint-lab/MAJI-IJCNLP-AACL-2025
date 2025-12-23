@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of 'Blowout' and Its Themes",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What central argument does Rachel Maddow present about Russia's influence through the oil industry?",
+        "importance": "critical",
+        "keywords": [
+          "Russia",
+          "oil industry",
+          "influence"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Maddow describe the connection between the oil industry and Russia's quest for global power?",
+        "importance": "high",
+        "keywords": [
+          "global power",
+          "oil",
+          "Putin"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Resource Curse Concept",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What is the 'resource curse' as explained by Rachel Maddow?",
+        "importance": "critical",
+        "keywords": [
+          "resource curse",
+          "economy",
+          "natural resources"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does the resource curse affect the political and economic landscape of resource-rich countries?",
+        "importance": "high",
+        "keywords": [
+          "political landscape",
+          "economics",
+          "resource-rich"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Implications for the United States and Global Democracy",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what ways does Maddow suggest the U.S. can influence the global oil industry for better corporate governance?",
+        "importance": "critical",
+        "keywords": [
+          "U.S.",
+          "corporate governance",
+          "oil industry"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What is Rachel Maddow's overall hope for the impact of her book in relation to democracy?",
+        "importance": "high",
+        "keywords": [
+          "democracy",
+          "impact",
+          "awareness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Reflections and Challenges in Writing",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What challenges did Maddow face while writing 'Blowout' alongside her television show?",
+        "importance": "optional",
+        "keywords": [
+          "writing challenges",
+          "television",
+          "commitment"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What message does Maddow want readers to take away from her book?",
+        "importance": "high",
+        "keywords": [
+          "message",
+          "readers",
+          "takeaway"
+        ]
+      }
+    ]
+  }
+]

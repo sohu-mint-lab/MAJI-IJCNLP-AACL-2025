@@ -1,0 +1,319 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.5910600253513881,
+                "avg_context_relevance": 0.4102485084107944,
+                "avg_outline_relevance": 0.6943491910185132,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 54.54545454545454,
+            "covered_questions": 5,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Donald Trump is at his New Jersey golf course today and is due back in Washington this afternoon. He's been followed all weekend by go back and send her back, the racist tweets and chants he's been alternately embracing and distancing himself from. NPR congressional correspondent Susan Davis has some thoughts on what this tells us about what's to come, and she joins us now. Hi, Susan.",
+            "previous_answer": "Good morning, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you interpret Donald Trump's recent engagement with racial issues in shaping his re-election strategy?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.038743019104003906,
+                        "outline_relevance": 0.9090970754623413,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you interpret Donald Trump's recent engagement with racial issues in shaping his re-election strategy?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.038743019104003906,
+                            "outline_relevance": 0.9090970754623413,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "All right. Is this past week a taste of what's next? Did we just see what the 2020 election is going to be run on or, at least, what Donald Trump wants the election to be run on?",
+            "previous_answer": "You know, it's certainly part of President Trump's reelection strategy. It might become the driving strategy, depending on what the Democratic ticket looks like next year. I don't think, in some ways, this comes as a surprise if you follow politics because Donald Trump has a long history of using racial divides in America to advance his brand and his political goals. I think this is happening because Trump's clearest path - and I would say maybe his only path to reelection - will require winning again in those so-called blue states - Michigan, Wisconsin and Pennsylvania. And those states are home to high numbers of Trump's strongest supporter. Who is that? The white working-class voter. So if those voters show up in force in 2020, that's his best shot at a second term. And I think this week just proves he's willing to say pretty much whatever he thinks to get him there.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Which voter demographic is most crucial for Donald Trump's chances in the 2020 election, and why does this group hold such significance?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.44252485036849976,
+                        "outline_relevance": 0.9137129783630371,
+                        "originality": 0.6428664922714233,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Which voter demographic is most crucial for Donald Trump's chances in the 2020 election, and why does this group hold such significance?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.44252485036849976,
+                            "outline_relevance": 0.9137129783630371,
+                            "originality": 0.6428664922714233,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "You say that this is Trump's only path, sort of appealing to this white racial resentment. Why? Because it's a sure bet? In that case, I do want to note that the midterms didn't exactly go his way.",
+            "previous_answer": "Oh, yeah. I mean, I say it's his only path because if you look at Trump's time in office, he has not done anything to expand his coalition in the time he's been there. It's much harder to see a 2020 in which he can improve his numbers with women, young people and Latinos then try to double down on the white support that he has very strongly and especially because white voters still cast most of the votes in this country. You are absolutely right, though, that this is a risky strategy. If you remember those three blue states, it was about 80,000 votes that swung those three states. That's really not a steep hill for Democrats to climb to win them back, especially if they can motivate voters on the other side. I also say the Republicans, a lot of time, act like 2018 didn't happen, where there was this huge blue wave. It was the most racially diverse electorate ever. It was sort of a glimpse into the future of what's to come. But I also think that the downside for Democrats - in that a lot of the demographic changes that are changing this country - are not happening in the places that matter much to presidential elections. For instance, in places like California, if Democrats win a million more votes in 2020, that doesn't change the electoral math. And that's what we're talking about here.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the narrow margins and the 2018 blue wave, how do recent election outcomes influence the adjustments or continuations in Trump's strategy moving into 2020?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5342895984649658,
+                        "outline_relevance": 0.780125617980957,
+                        "originality": 0.43934762477874756,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Given the narrow margins and the 2018 blue wave, how do recent election outcomes influence the adjustments or continuations in Trump's strategy moving into 2020?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5342895984649658,
+                            "outline_relevance": 0.780125617980957,
+                            "originality": 0.43934762477874756,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "I'm curious. Do you see much significance in Trump's approval rating? NBC and The Wall Street Journal have it at 45%. We get these approval rating check-ins almost daily. And that's despite the economy before this week's drama. But I wonder if it's an instructive measure anymore.",
+            "previous_answer": "I think it's significant because it speaks to one of the most fascinating aspects about the Trump presidency in that, despite all of the conflict and division, he has the most stable approval ratings of any president since we began polling presidents, you know? Presidents have seen 30, 40, 50-point swings in approval over the course of their presidencies. Trump's has stayed in about this 9-point range. That 45% is the high end of that. So, right now, he's actually enjoying some of his highest approval ratings. I think what that tells me is that this is a country that really has its mind made up about Donald Trump and that the 2020 election isn't going to be about persuading voters to change their mind. It's really about just getting them to show up.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think Trump's stable approval ratings will shape the messaging and strategies his campaign uses in the lead-up to the 2020 election?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7273190021514893,
+                        "outline_relevance": 0.8556525111198425,
+                        "originality": 0.35906481742858887,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you think Trump's stable approval ratings will shape the messaging and strategies his campaign uses in the lead-up to the 2020 election?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7273190021514893,
+                            "outline_relevance": 0.8556525111198425,
+                            "originality": 0.35906481742858887,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "And, finally, the U.S. is brushing up against the debt limit, again, which means Congress needs to allow financing for spending it has already approved. What are the negotiations right now looking like?",
+            "previous_answer": "Speaker Pelosi and Treasury Secretary Mnuchin have been in talks all week and through the course of the weekend. They need to get a deal soon because while we're not expected to hit the debt limit until early September, Congress is trying to adjourn for the August break, and they need to get it done. They've passed an informal deadline of Friday, so they're kind of working hard to get something done. And it's something we'll obviously be following very closely this week on Capitol Hill.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the urgency around the debt limit and Congress's aim to adjourn soon, what is the specific timeline Congress is working within to resolve the debt limit issue before the August break?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7049689888954163,
+                        "outline_relevance": 0.8135308027267456,
+                        "originality": 0.6370837092399597,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Given the urgency around the debt limit and Congress's aim to adjourn soon, what is the specific timeline Congress is working within to resolve the debt limit issue before the August break?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7049689888954163,
+                            "outline_relevance": 0.8135308027267456,
+                            "originality": 0.6370837092399597,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "And just one more question. I hear your daughter is having her first birthday today. Is that true?",
+            "previous_answer": "She's going to turn 1 tomorrow, but we're celebrating today.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do personal milestones like your daughter's first birthday influence your perspective on the political stories you cover?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.37330272793769836,
+                        "outline_relevance": 0.3334222733974457,
+                        "originality": 0.6700696349143982,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do personal milestones like your daughter's first birthday influence your perspective on the political stories you cover?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.37330272793769836,
+                            "outline_relevance": 0.3334222733974457,
+                            "originality": 0.6700696349143982,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Happy birthday to Lou (ph). Thank you so much.",
+            "previous_answer": "Oh, thank you so much.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Balancing a demanding political journalism career with personal life can be challenging. How do you manage to celebrate significant family moments, like your daughter's first birthday, while handling the pressures of your role?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.050591371953487396,
+                        "outline_relevance": 0.25490307807922363,
+                        "originality": 0.3889878988265991,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Balancing a demanding political journalism career with personal life can be challenging. How do you manage to celebrate significant family moments, like your daughter's first birthday, while handling the pressures of your role?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.050591371953487396,
+                            "outline_relevance": 0.25490307807922363,
+                            "originality": 0.3889878988265991,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

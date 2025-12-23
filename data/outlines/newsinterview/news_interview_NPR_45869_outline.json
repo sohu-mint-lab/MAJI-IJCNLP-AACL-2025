@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Doomsday Clock",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the significance of the Doomsday Clock and its recent reset?",
+        "importance": "critical",
+        "keywords": [
+          "Doomsday Clock",
+          "reset",
+          "significance"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How many times has the Doomsday Clock been moved since 1947?",
+        "importance": "high",
+        "keywords": [
+          "movement",
+          "1947",
+          "nuclear threats"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Factors Influencing the Clock's Reset",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What main factors influenced the decision to move the clock back one minute?",
+        "importance": "critical",
+        "keywords": [
+          "factors",
+          "reset",
+          "international cooperation"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How has President Obama's administration impacted international nuclear agreements?",
+        "importance": "high",
+        "keywords": [
+          "Obama",
+          "international agreements",
+          "nuclear policy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Global Threats and Nuclear Policy",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the three primary global threats to humanity recognized by the Bulletin?",
+        "importance": "critical",
+        "keywords": [
+          "global threats",
+          "nuclear weapons",
+          "climate change"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What challenges arise from increasing the number of nuclear power plants?",
+        "importance": "high",
+        "keywords": [
+          "nuclear power",
+          "bioterrorism",
+          "climate change"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Role of Scientists and Public Awareness",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What role do scientists have in influencing public opinion regarding nuclear weapons?",
+        "importance": "critical",
+        "keywords": [
+          "scientists",
+          "public opinion",
+          "nuclear weapons"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does the potential for global climate change relate to the risks of nuclear weapons?",
+        "importance": "high",
+        "keywords": [
+          "climate change",
+          "nuclear weapons",
+          "global issues"
+        ]
+      }
+    ]
+  }
+]

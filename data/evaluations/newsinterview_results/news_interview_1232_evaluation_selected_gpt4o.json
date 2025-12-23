@@ -1,0 +1,1147 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3222284505764643,
+                "avg_context_relevance": 0.40681555531919,
+                "avg_outline_relevance": 0.7243456830581029,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 87.5,
+            "weighted_coverage_score": 84.0,
+            "covered_questions": 7,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "This is SCIENCE FRIDAY. I'm Ira Flatow. It sounds like something from the movies, but it's true: Researchers unearth an organism frozen inside a glacier, take it back to the lab and discover it's still alive. In this case it's a plant called a bryophyte, a moss that survives being frozen in a glacier in the dark for some 400 years. Wow. That work is being described this week in the Proceedings of the National Academy of Sciences. Catherine La Farge is the director and curator of the Cryptogamic Herbarium in the Department of Biological Sciences at the University of Alberta. She's also one of the authors of the paper. Welcome to SCIENCE FRIDAY.",
+            "previous_answer": "Good afternoon.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you tell us a bit about how you first became interested in bryophytes and what inspired this research?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.06620962917804718,
+                        "outline_relevance": 0.6949969530105591,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you tell us a bit about how you first became interested in bryophytes and what inspired this research?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.06620962917804718,
+                            "outline_relevance": 0.6949969530105591,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "You just stumbled on this at a glacier? Tell us what happened.",
+            "previous_answer": "Well, it wasn't that we stumbled upon it. We had known that there was a lot of vegetation coming out from underneath the Tear Drop Glacier up in Sverdrup Pass on north - in central Ellesmere Island. And we were up there for a various number of different projects. And we thought that we would take a closer look at the margin of the glacier to see this vegetation. And what amazed us was that we did see large populations of bryophytes coming out from underneath the glacier that looked like they had a greenish tinge. And we thought, well, that was pretty weird that they still retained some greenish color. So we thought that we would gather up some of that material and bring it back down south to check out the age of it. And that we did, and we looked at it a little more closely by, you know, teasing it apart underneath a microscope in the lab and noticed that it looked like yes, indeed, some of the tips looked green, some of the - or some of the material looked like they were developing or had developed branches. So we decided to go back another year, back in 2009, to do a more systematic study of collecting a large number of samples. And so that's what we did.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you walk us through the specific methods and procedures you used to collect and study these bryophytes in the glacier fieldwork?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6379104256629944,
+                        "outline_relevance": 0.8594093918800354,
+                        "originality": 0.31206613779067993,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you walk us through the specific methods and procedures you used to collect and study these bryophytes in the glacier fieldwork?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6379104256629944,
+                            "outline_relevance": 0.8594093918800354,
+                            "originality": 0.31206613779067993,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Well, was this surprising to you?",
+            "previous_answer": "This is surprising to us to be able to regenerate material that has been covered by a glacier for 400 years, for sure. But I think it also is something that really distinguishes bryophytes from other land plants, in the sense that they have a very unique biology, in the sense that most of the cells of, you know, bryophytes are what we call totipotent. And that means that all of the cells of a particular plant can actually be reprogrammed to initiate the development of a whole new individual. And it's not that every single species can do that, but there are a large number that can.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on what specific biological features distinguish bryophytes from other land plants?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6278362274169922,
+                        "outline_relevance": 0.8945806622505188,
+                        "originality": 0.39716315269470215,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you elaborate on what specific biological features distinguish bryophytes from other land plants?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6278362274169922,
+                            "outline_relevance": 0.8945806622505188,
+                            "originality": 0.39716315269470215,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "So it's like they're stem cells.",
+            "previous_answer": "So they're similar to stem cells. They're - yeah, they're pretty neat in that way, in the sense that a cell that's in a leaf then can, you know, begin to develop the whole life cycle over again.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share which bryophyte species are known for particularly strong regenerative abilities and what factors contribute to their proficiency?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3855590224266052,
+                        "outline_relevance": 0.8045876622200012,
+                        "originality": 0.2808995246887207,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you share which bryophyte species are known for particularly strong regenerative abilities and what factors contribute to their proficiency?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3855590224266052,
+                            "outline_relevance": 0.8045876622200012,
+                            "originality": 0.2808995246887207,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "That's amazing, a little-known thing that you've educated us to, and I'm very happy that you did that. But I'm also fascinated by the fact that this glacier is like retreating three to four meters a year and uncovering all this stuff as it retreats.",
+            "previous_answer": "Yes, it's basically like taking a blanket and pulling it back and seeing a little Ice Age community intact underneath this glacier because it hasn't - being cold base, it's not destroying, you know, the terrain underneath the glacier. It's, you know, at high latitudes, where the temperatures inside the ice are a little bit colder than you would find in temperate glaciers.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe the methods the researchers used to collect and study the bryophytes they found beneath the glacier?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.44112956523895264,
+                        "outline_relevance": 0.9297710657119751,
+                        "originality": 0.10803824663162231,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you describe the methods the researchers used to collect and study the bryophytes they found beneath the glacier?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.44112956523895264,
+                            "outline_relevance": 0.9297710657119751,
+                            "originality": 0.10803824663162231,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "How did it survive with - you know, these are - they're photosynthesis, right. How did they survive in the dark for, you know, all these years?",
+            "previous_answer": "Well, I mean, if you think about what extreme environment that these bryophytes have to go through on an annual basis of, you know, six months of darkness or whatever, they're programmed to be able to do that.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you explain the biological mechanisms that enable bryophytes to survive such prolonged periods without light?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.5985580682754517,
+                        "outline_relevance": 0.6496540307998657,
+                        "originality": 0.39304953813552856,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you explain the biological mechanisms that enable bryophytes to survive such prolonged periods without light?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.5985580682754517,
+                            "outline_relevance": 0.6496540307998657,
+                            "originality": 0.39304953813552856,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "So did they - were they still growing in the ice?",
+            "previous_answer": "No, they...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Depth: Can you describe the physiological state of the bryophytes found in the ice? Were they alive but dormant or completely inactive?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.16236799955368042,
+                        "outline_relevance": 0.7046773433685303,
+                        "originality": 0.34725385904312134,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you describe the physiological state of the bryophytes found in the ice? Were they alive but dormant or completely inactive?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.16236799955368042,
+                            "outline_relevance": 0.7046773433685303,
+                            "originality": 0.34725385904312134,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "They stopped growing?",
+            "previous_answer": "They would stop growing in the ice. It would only be - and it's not like you're going to uncover a whole population of, you know, say a nice tuft of moss, and that whole tuft is going to turn green and grow. That's not, you know, what we did. It would be that there would be a number of cells in that tuft that actually have been preserved well enough to be able to, you know, regenerate. And what we did is we took the material back to the lab and actually ground it up and then seeded it on potting soil or on growth media in jars. And that's, you know, stimulated the growth for it to then develop.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What new understanding about climate change and glacier retreat can we gain from the survival of bryophytes beneath glaciers?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4322834014892578,
+                        "outline_relevance": 0.8514167666435242,
+                        "originality": 0.3307904005050659,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What new understanding about climate change and glacier retreat can we gain from the survival of bryophytes beneath glaciers?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4322834014892578,
+                            "outline_relevance": 0.8514167666435242,
+                            "originality": 0.3307904005050659,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "Could there be older samples, I mean older ice under there that goes back further than 400 years?",
+            "previous_answer": "Definitely, you know, their population's probably further south in the Arctic Archipelago of the Canadian Arctic, in which they're finding that in dating moss samples the samples are between 4,000 and 5,000 years old. Now whether that material could actually be, you know, regenerated, you know, that would - you'd have to try it and see and go and see what's happening around the margins of those glaciers.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What scientific methods are typically used to determine the age of these ancient moss samples found beneath glaciers?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7020652294158936,
+                        "outline_relevance": 0.6761979460716248,
+                        "originality": 0.2878912687301636,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What scientific methods are typically used to determine the age of these ancient moss samples found beneath glaciers?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7020652294158936,
+                            "outline_relevance": 0.6761979460716248,
+                            "originality": 0.2878912687301636,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "What does this tell you? What have you learned besides that these things can live for 400 years under the ice in the dark?",
+            "previous_answer": "Well, I think it really pushes back when we think about repopulating deglaciated landscapes, where is the genetic material coming from as far as, you know, the Arctic flora and probably in the Alpine areas, as well, you know, that we're not only dealing with populations that are above and beyond the margins of these glaciers, but we are also dealing with genetic material that goes back much further. And I think if you're thinking about, you know, trying to have a - any kind of plant material that say would be sent to extraterrestrial areas, like if you wanted to try something on the moon or on Mars or something like that, definitely bryophytes would have a great potential because they are programmed to be able to dry out, desiccate totally. They are programmed in the Arctic species anyway to be able to be frozen for long periods of time. I think the biology of bryophytes really needs to be emphasized in research, and hopefully this will give them - put them into the limelight a little bit.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share some specific ways bryophytes might support sustained human life during long-term space missions, especially on planets like Mars?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.31673720479011536,
+                        "outline_relevance": 0.8833088874816895,
+                        "originality": 0.4296581745147705,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you share some specific ways bryophytes might support sustained human life during long-term space missions, especially on planets like Mars?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.31673720479011536,
+                            "outline_relevance": 0.8833088874816895,
+                            "originality": 0.4296581745147705,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "Yeah, you sound like you're the defender. They're the Rodney Dangerfield of plants: They get no respect.",
+            "previous_answer": "Most people just refer to them as a green slime that occurs at the base of trees or cover rocks. That's about it. So...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Many people show interest in moss but might not know how to start. What are some simple experiments or activities that individuals can try at home to engage with moss?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1997734159231186,
+                        "outline_relevance": 0.9063144326210022,
+                        "originality": 0.5497104525566101,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Many people show interest in moss but might not know how to start. What are some simple experiments or activities that individuals can try at home to engage with moss?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1997734159231186,
+                            "outline_relevance": 0.9063144326210022,
+                            "originality": 0.5497104525566101,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 11,
+            "actual_question": "They don't have any pretty flowers coming out of them, people just walk on them, and you're here to give them their say, their...",
+            "previous_answer": "Their due.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are some simple ways that people interested in bryophytes can start experimenting with moss at home?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.03885477036237717,
+                        "outline_relevance": 0.8544031381607056,
+                        "originality": 0.1505439281463623,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What are some simple ways that people interested in bryophytes can start experimenting with moss at home?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.03885477036237717,
+                            "outline_relevance": 0.8544031381607056,
+                            "originality": 0.1505439281463623,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 12,
+            "actual_question": "Their due.",
+            "previous_answer": "That's right.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you share more about what makes bryophytes deserving of more attention than they currently receive?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.06617246568202972,
+                        "outline_relevance": 0.7782878875732422,
+                        "originality": 0.2923915386199951,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share more about what makes bryophytes deserving of more attention than they currently receive?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.06617246568202972,
+                            "outline_relevance": 0.7782878875732422,
+                            "originality": 0.2923915386199951,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 13,
+            "actual_question": "Their due, and they would make great traveling companions, you're saying. You know, we once had a piece of moss - we've done a show on moss before, and we got some samples of moss, and we've just stuck them out on the porch, and they lasted for years all by themselves just sitting there.",
+            "previous_answer": "They do, they do.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain in more detail the biological mechanisms that allow bryophytes to endure extended periods without care, especially in outdoor environments?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.05350569263100624,
+                        "outline_relevance": 0.6179372072219849,
+                        "originality": 0.18412995338439941,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you explain in more detail the biological mechanisms that allow bryophytes to endure extended periods without care, especially in outdoor environments?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.05350569263100624,
+                            "outline_relevance": 0.6179372072219849,
+                            "originality": 0.18412995338439941,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 14,
+            "actual_question": "Yeah, it's really interesting. Do they produce anything for humans? I mean if you took them along on the Mars trip, could you eat them? Why would you bring them along to Mars?",
+            "previous_answer": "I think it would be really, you know, testing that environment for any kind of plant material, plant life, and I wouldn't say that I know of anyone who actually eats plants. I know they've been used for medical use and that for sure. So they have, you know, special biochemistry that has been explored extensively.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on how bryophytes' biochemistry has been explored for medical applications and what potential benefits this research holds?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5260432958602905,
+                        "outline_relevance": 0.6931260824203491,
+                        "originality": 0.207694411277771,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you elaborate on how bryophytes' biochemistry has been explored for medical applications and what potential benefits this research holds?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5260432958602905,
+                            "outline_relevance": 0.6931260824203491,
+                            "originality": 0.207694411277771,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 15,
+            "actual_question": "I have to ask you about your name of - you're the curator of the Cryptogamic Herbarium.",
+            "previous_answer": "Yes.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe what your daily responsibilities are as the Curator of the Cryptogamic Herbarium?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1449653059244156,
+                        "outline_relevance": 0.49399062991142273,
+                        "originality": 0.5931403338909149,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you describe what your daily responsibilities are as the Curator of the Cryptogamic Herbarium?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1449653059244156,
+                            "outline_relevance": 0.49399062991142273,
+                            "originality": 0.5931403338909149,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 16,
+            "actual_question": "Wow, cryptogamic means - crypto means cold?",
+            "previous_answer": "It means hidden.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain more about why these plants were described as 'hidden'? Does this relate to where they grow or how they reproduce?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.43586257100105286,
+                        "outline_relevance": 0.582100510597229,
+                        "originality": 0.4330786466598511,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you explain more about why these plants were described as 'hidden'? Does this relate to where they grow or how they reproduce?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.43586257100105286,
+                            "outline_relevance": 0.582100510597229,
+                            "originality": 0.4330786466598511,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 17,
+            "actual_question": "Hidden.",
+            "previous_answer": "You know, hidden genes.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Could you explain what you mean by 'hidden genes' in bryophytes and why they are important?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.7151542901992798,
+                        "outline_relevance": 0.653425931930542,
+                        "originality": 0.3160959482192993,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you explain what you mean by 'hidden genes' in bryophytes and why they are important?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.7151542901992798,
+                            "outline_relevance": 0.653425931930542,
+                            "originality": 0.3160959482192993,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 18,
+            "actual_question": "Cryo would be called - right crypto would - wow.",
+            "previous_answer": "That's right. So we basically house lichens, mosses and fungi in this herbarium here. We have over 200,000 specimens here.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Depth: Could you describe how the herbarium specimens are preserved and studied to advance bryophyte research?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.5476597547531128,
+                        "outline_relevance": 0.7116982936859131,
+                        "originality": 0.27776122093200684,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Could you describe how the herbarium specimens are preserved and studied to advance bryophyte research?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.5476597547531128,
+                            "outline_relevance": 0.7116982936859131,
+                            "originality": 0.27776122093200684,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 19,
+            "actual_question": "Two hundred thousand? And are these specimens popping out of the ice? Are they new species?",
+            "previous_answer": "The ones that are coming out from underneath the glaciers?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given our thorough discussion on how bryophytes emerge from glaciers, could you share ways in which people can personally engage with moss research or experiments at home?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4111243188381195,
+                        "outline_relevance": 0.7287610173225403,
+                        "originality": 0.21377897262573242,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Given our thorough discussion on how bryophytes emerge from glaciers, could you share ways in which people can personally engage with moss research or experiments at home?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4111243188381195,
+                            "outline_relevance": 0.7287610173225403,
+                            "originality": 0.21377897262573242,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 20,
+            "actual_question": "Yeah.",
+            "previous_answer": "No, they are similar to the populations that are there today.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: What factors contribute to the bryophyte populations remaining similar over time despite environmental changes?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.45682069659233093,
+                        "outline_relevance": 0.7399678826332092,
+                        "originality": 0.2725871205329895,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: What factors contribute to the bryophyte populations remaining similar over time despite environmental changes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.45682069659233093,
+                            "outline_relevance": 0.7399678826332092,
+                            "originality": 0.2725871205329895,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 21,
+            "actual_question": "Would you find them in little pieces of Antarctica also, possibly, you know, on the peninsula, where they get some sunlight, and...?",
+            "previous_answer": "You definitely - I mean, mosses definitely occur down there and hepatics, as well. But as far as I understand, there's a very limited flora down there. It's not like the Canadian Arctic, where we're in an Alpine sector of the Canadian High Arctic. So there's a lot of diversity, a lot of meso- and microhabitats for the bryophytes to survive in.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific adaptations enable Antarctic bryophytes to endure the extreme cold and limited habitats compared to those in the Arctic?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.49802011251449585,
+                        "outline_relevance": 0.6776700615882874,
+                        "originality": 0.26257097721099854,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What specific adaptations enable Antarctic bryophytes to endure the extreme cold and limited habitats compared to those in the Arctic?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.49802011251449585,
+                            "outline_relevance": 0.6776700615882874,
+                            "originality": 0.26257097721099854,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 22,
+            "actual_question": "What would you - what would be a home run, a grand slam for you in this field? What would really you like to find? What would, you know, besides...?",
+            "previous_answer": "I think what would be really fascinating is that if you could go under a melting glacier that was 100,000, 150,000 years, maybe 200,000 years old, and you actually found macrofossils, what would be called macrofossils underneath the glacier and be able to rejuvenate them. That would be pretty amazing.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific techniques and precautions would scientists need to employ to safely extract and rejuvenate ancient macrofossils from beneath glaciers?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6137076616287231,
+                        "outline_relevance": 0.6075985431671143,
+                        "originality": 0.3142738342285156,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What specific techniques and precautions would scientists need to employ to safely extract and rejuvenate ancient macrofossils from beneath glaciers?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6137076616287231,
+                            "outline_relevance": 0.6075985431671143,
+                            "originality": 0.3142738342285156,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 23,
+            "actual_question": "Yeah, about the mosses that you found. Are all mosses like this, or is this a particularly hardy species of moss that you've discovered in the ice there?",
+            "previous_answer": "The mosses that we've been able to rejuvenate are hardy. There are definitely species that occur up there that I don't think would do the same thing or, you know, we haven't been able to rejuvenate them. So it - these species are definitely adapted to Arctic environments, and that I think gives them a jump start, you know, from coming out from underneath the glacier.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Many people are curious about how they might experiment with mosses themselves. What advice would you give to individuals who want to try growing or studying these moss species at home?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5185534954071045,
+                        "outline_relevance": 0.8464905023574829,
+                        "originality": 0.12157392501831055,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Many people are curious about how they might experiment with mosses themselves. What advice would you give to individuals who want to try growing or studying these moss species at home?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5185534954071045,
+                            "outline_relevance": 0.8464905023574829,
+                            "originality": 0.12157392501831055,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 24,
+            "actual_question": "Is it possible to go out in your backyard and find these same mosses?",
+            "previous_answer": "To find mosses? Everywhere.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What environmental conditions generally encourage mosses to thrive in residential backyards or similar areas?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.629290759563446,
+                        "outline_relevance": 0.6430395841598511,
+                        "originality": 0.3135221004486084,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What environmental conditions generally encourage mosses to thrive in residential backyards or similar areas?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.629290759563446,
+                            "outline_relevance": 0.6430395841598511,
+                            "originality": 0.3135221004486084,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 25,
+            "actual_question": "Well, to find the ones that you found in the ice or something similar to that?",
+            "previous_answer": "Not the particular species that we have here, no. You know, the - I would say that, you know, these would be more in mountainous areas and further north.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given that we've covered the discovery and geographical distribution of these bryophytes, could you discuss some of the unique biological features that enable them to survive in such extreme glacial environments?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5068683624267578,
+                        "outline_relevance": 0.7446574568748474,
+                        "originality": 0.19028866291046143,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Given that we've covered the discovery and geographical distribution of these bryophytes, could you discuss some of the unique biological features that enable them to survive in such extreme glacial environments?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5068683624267578,
+                            "outline_relevance": 0.7446574568748474,
+                            "originality": 0.19028866291046143,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 26,
+            "actual_question": "What's the best way, if people listening now are saying I want to grow some moss, I want to raise some moss, you've raised my consciousness?",
+            "previous_answer": "OK, well, you could just go out into your garden and find some moss and bring it in. What you could do to do an experiment is actually put them into a coffee grinder and grind them up and put them into a little dish with a little bit of soil and see what you can grow. The other really neat experiment probably for kids would be just go out and take some soil and water it, cover a Petri dish with a glass and see what comes out of that soil, and you'll be amazed.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: What are some easy and beginner-friendly ways for people to start growing moss indoors or in small urban spaces?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.5759007930755615,
+                        "outline_relevance": 0.7501654624938965,
+                        "originality": 0.2015395164489746,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What are some easy and beginner-friendly ways for people to start growing moss indoors or in small urban spaces?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.5759007930755615,
+                            "outline_relevance": 0.7501654624938965,
+                            "originality": 0.2015395164489746,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 27,
+            "actual_question": "Can we use a Mason jar instead?",
+            "previous_answer": "You could use a Mason jar, yeah, that would work.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Could you explain how the conditions inside a Mason jar might impact the health and growth of moss compared to other environments?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.6028397679328918,
+                        "outline_relevance": 0.5260182023048401,
+                        "originality": 0.38565248250961304,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you explain how the conditions inside a Mason jar might impact the health and growth of moss compared to other environments?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.6028397679328918,
+                            "outline_relevance": 0.5260182023048401,
+                            "originality": 0.38565248250961304,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 28,
+            "actual_question": "OK, there's our project for the weekend, a great one, summertime, going out...",
+            "previous_answer": "Sounds good.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share a memorable experience you had while conducting fieldwork on bryophytes during the summer?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.08727071434259415,
+                        "outline_relevance": 0.5285390615463257,
+                        "originality": 0.36299508810043335,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you share a memorable experience you had while conducting fieldwork on bryophytes during the summer?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.08727071434259415,
+                            "outline_relevance": 0.5285390615463257,
+                            "originality": 0.36299508810043335,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 29,
+            "actual_question": "Thank you very much, Dr. La Farge.",
+            "previous_answer": "You're welcome.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you share more about how your passion for bryophytes developed over the years?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.20542164146900177,
+                        "outline_relevance": 0.6975778937339783,
+                        "originality": 0.13671410083770752,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share more about how your passion for bryophytes developed over the years?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.20542164146900177,
+                            "outline_relevance": 0.6975778937339783,
+                            "originality": 0.13671410083770752,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

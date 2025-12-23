@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Impeachment Discussion",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the current status of the impeachment process against Donald Trump?",
+        "importance": "critical",
+        "keywords": [
+          "impeachment",
+          "Donald Trump",
+          "status"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has Robert Mueller's testimony impacted the impeachment dialogue?",
+        "importance": "high",
+        "keywords": [
+          "Robert Mueller",
+          "testimony",
+          "impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Congressional Behavior During August Recess",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How might the August recess affect Congressional members' views on impeachment?",
+        "importance": "high",
+        "keywords": [
+          "August recess",
+          "Congress",
+          "public opinion"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What historical precedents can inform us about public sentiment during recess?",
+        "importance": "optional",
+        "keywords": [
+          "historical precedent",
+          "public sentiment",
+          "recess"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Democratic Party Dynamics and the Upcoming Debates",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the main ideological divisions within the Democratic Party as it approaches the 2020 elections?",
+        "importance": "critical",
+        "keywords": [
+          "Democratic Party",
+          "ideological divisions",
+          "2020 elections"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How might the outcome of the Democratic debates influence issues like health care and immigration?",
+        "importance": "high",
+        "keywords": [
+          "Democratic debates",
+          "health care",
+          "immigration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Strategic Concerns for Democrats",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What fears do some Democrats have about their party moving too far left?",
+        "importance": "high",
+        "keywords": [
+          "Democrats",
+          "far left",
+          "concerns"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What lessons can be drawn from the 2016 Republican primaries about ideological positions in elections?",
+        "importance": "optional",
+        "keywords": [
+          "2016 Republican primaries",
+          "ideological positions",
+          "elections"
+        ]
+      }
+    ]
+  }
+]

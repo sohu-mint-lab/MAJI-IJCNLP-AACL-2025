@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Encounter at the U.S.-Mexico Border",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What circumstances led to John Moore capturing the emotional image of the Honduran girl?",
+        "importance": "critical",
+        "keywords": [
+          "U.S.-Mexico border",
+          "Honduran girl",
+          "photography"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Background and Journey of the Immigrants",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What did John Moore learn about the mother and daughter's journey from Honduras?",
+        "importance": "high",
+        "keywords": [
+          "Honduras",
+          "journey",
+          "immigrants"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How long had the mother and daughter been traveling before reaching the border?",
+        "importance": "optional",
+        "keywords": [
+          "travel time",
+          "immigration",
+          "mother and child"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impact of Policy Changes",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How have recent changes in immigration policy affected the treatment of families at the border?",
+        "importance": "critical",
+        "keywords": [
+          "immigration policy",
+          "family separation",
+          "Border Patrol"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are John Moore’s sentiments regarding the emotional impact of these policies as a father?",
+        "importance": "high",
+        "keywords": [
+          "emotional impact",
+          "father",
+          "photojournalism"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Aftermath and Unknowns",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What remains unknown about the fate of the Honduran girl and her mother after their brief encounter?",
+        "importance": "high",
+        "keywords": [
+          "fate",
+          "unknown",
+          "emotional weight"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How did John Moore feel about the uncertainty surrounding the family's future?",
+        "importance": "optional",
+        "keywords": [
+          "uncertainty",
+          "emotions",
+          "border story"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,120 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "This is SCIENCE FRIDAY. I am Ira Flatow. What if your entire household ran on nothing but a little water and sunlight? No more electric bills, no more heating costs, just clean, green power, straight from the sun. Is energy independence just a few sunbeams away? Some may tell you to just look up, not to the sun but to the trees. Since green life on Earth first began, organisms have harvested sunlight through photosynthesis. While solar cells may be old news, a new invention, an artificial leaf, may use that very same process to bring cheap, Earth-friendly energy to a rooftop near you and do it even more efficiently than natural photosynthesis. Researchers say that one of these card-sized devices could power, via a hydrogen fuel cell, an entire household in a developing country for an entire day, using inexpensive materials. This work was presented at the meeting of the American Chemical Society, and with me now is Daniel Nocera. He's professor of energy and chemistry at MIT in Cambridge. Welcome back to SCIENCE FRIDAY."
+    },
+    {
+      "speaker": "Dr. Daniel Nocera (Professor Of Chemistry",
+      "text": "Hi, Ira, nice to be here."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Tell us what this artificial leaf is that you've invented."
+    },
+    {
+      "speaker": "Dr. Daniel Nocera (Professor Of Chemistry",
+      "text": "Sure. What happens - first, what does a leaf do when you look up there? You might never have thought what's going on inside all those little guys. But what they do is they take light, and of course a leaf, it has trouble getting its hands around a photon. So what it does is it immediately turns it into a current, just like you get a current out of a wall. The difference is that the current inside a leaf has no wires. It's a wireless current. And then what the leaf does is it takes that wireless current and then stores the energy in what's called water-splitting. That's why you give a tree water. It then takes that water and with this wireless current converted from the sun, it splits water to hydrogen and oxygen. And what we did is the same fundamental, functional principles. We take silicon in place of the leaf, and then that can produce the wireless current, and we've created two new compounds or what are called catalysts that then split water to hydrogen and oxygen just like a leaf, and that's why we call it an artificial leaf."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Then theoretically you could store the hydrogen and use it to run a fuel cell and the oxygen for a fuel cell."
+    },
+    {
+      "speaker": "Dr. Daniel Nocera (Professor Of Chemistry",
+      "text": "Yeah, you could run a fuel cell. You can burn hydrogen directly in microturbines, we're looking at things like that. You can burn hydrogen even in generators and engines. And then for people who don't like hydrogen, some people don't because it is a gas, and you've got to compress it, then the other thing - you need the hydrogen from water. That's where all the energy is stored. But there's a big push now in the United States in the research community to take hydrogen and combine it with carbon dioxide and make a liquid fuel. So there's a lot of options to burn hydrogen or use hydrogen, once you get it from water."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Now, how efficient is your leaf compared to a natural leaf?"
+    },
+    {
+      "speaker": "Dr. Daniel Nocera (Professor Of Chemistry",
+      "text": "Yeah, my leaf right now, just the one I'm running, is 10 times more efficient than a leaf. But my efficiency isn't being limited by anything I've done. It's being limited by the silicon that catches the sun. So in this paper that I presented last week, the silicon operates at seven percent, and then if you look at what I'm doing, the total efficiency is five percent. So I'm basically running at around 80 percent of the input of the silicon. If I took a 20 percent silicon solar cell, then 80 percent of 20 percent, I should be able to run at 15 or 16 percent, and then that's even another factor of - that's almost 50 times, 100 times better than a leaf."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "How close, though, are you to making something practical, a practical leaf?"
+    },
+    {
+      "speaker": "Dr. Daniel Nocera (Professor Of Chemistry",
+      "text": "Yeah, so I should also mention the leaf was first really demonstrated in 1998 by a scientist named John Turner at National Renewable Energy Lab, and he's still there working away. And he showed that you could do what we did which is take light and then make this wireless current and then split water to hydrogen and oxygen. But he used basically space-age materials, literally materials that NASA uses when they send things up into space to harvest the sun. And so it was super, super expensive. And so what is the discovery that we have, it's made of all Earth-abundant materials. So it's just silicon, cobalt, phosphate and then a cheap metal alloy to make the hydrogen. And so once you - this is really the name of the game in the energy circles of research, it's to do things cheaply. And the fact that we're using basically commercial stuff and Earth-abundant materials means we're really closing in on something that could be practical and implemented in a pretty short time scale, we're hoping."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "What time scale are you focusing?"
+    },
+    {
+      "speaker": "Dr. Daniel Nocera (Professor Of Chemistry",
+      "text": "Yeah, that's what everybody always says. So once I was on CNN, and scientists always say 10 years, and the first call-in said: How come scientists always say 10 years? So I've gone to 8.1254 years, and being at MIT, when I started, that was a joke. And then, you know, this is always - you've got to be careful on the radio and in the news. People said: Wow, this is really going to happen because this guy has thought it out really well."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So you give out pi. See if anybody gets that, 3.14..."
+    },
+    {
+      "speaker": "Dr. Daniel Nocera (Professor Of Chemistry",
+      "text": "Well, I'm going to tell you: I think right now it's even below 8.1254 years. So I'm - we're building prototypes, and there's a lot to still do because you need to make sure this can go for years, right, not days. It's got to go for years. We haven't had the time to test for years yet. It's been going for days now with no drop in activity. So those are all the practical concerns of long-term because if you're a commercial buyer, you're a customer, you only use things that are reliable, and that can be the death knell of any technology. But we're well beyond the science, and now we're into the engineering and into the reliability game. The fact that..."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Do you have a commercial partner yet for this?"
+    },
+    {
+      "speaker": "Dr. Daniel Nocera (Professor Of Chemistry",
+      "text": "I do. There's lots of commercial partners. So as typical of MIT, there's a company that was spun off, which is really commercializing the discoveries that are coming out of this project. My lab, you know, I'm an MIT professor, and I educate and train graduate students. So I stayed in my day job. The engineering is being done by a company in Cambridge with lots of well-known people helping me. And then we have some really heavy-hitters in the world, industrialists and commercial partners, who are also involved with us."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so what needs to be figured out? What needs to, you know, make it commercially successful?"
+    },
+    {
+      "speaker": "Dr. Daniel Nocera (Professor Of Chemistry",
+      "text": "Yeah, right now, so in the little ditty that got us going, you mentioned that it's the size of a card. And it is. That's the laboratory demonstration. At the end of the day, you want it to be the size of, like two doors in a house. That's how big it would have to be. That I don't think we're going to have any problems with, but here's the thing we now need to do in terms of engineering is we're passing water over silicon, which is the blood and guts of a solar panel. But now I don't need any wires. Most of the cost of a solar panel is the wiring of it and all the other stuff, not the blood and guts, the silicon costs. So now we've sort of ripped out the inner core of a solar panel. We're just using the silicon. The catalysts that are cheap and Earth-abundant are on that silicon. But I'm making gases, hydrogen and oxygen, over the surface of the silicon. So what needs to be done now, specifically, in next steps is to engineering a gas collection system so that those gases can be collected and then used, as you mentioned, later on when the sun goes down to power your house or do what you need to do."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So you have the cell that has bubbling gas, oxygen, hydrogen, and you need to find a way to separate the two and collect them individually."
+    },
+    {
+      "speaker": "Dr. Daniel Nocera (Professor Of Chemistry",
+      "text": "Yeah, the separation happens - so this is another great thing about this discovery. It's working in just regular water. So you don't have to engineer. A lot of things work in concentrated base or a concentrated acid. That means really harsh conditions. And you get big engineering costs. So what I showed at the meeting and the movies that people have shown or pictures, it's just basically a card, a piece of silicon the size of a card with my catalyst sitting in a glass of water bubbling away. On one side of the card, oxygen is made. On the other side of the poker card, hydrogen is being made. So the gases right up front are separated. So that's not a big problem. But you've got to collect them because right now the picture just shows them bubbling off into the atmosphere."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Is there for - you know, when we talk about new alternative energies in cars and vehicles, it's always for some underdeveloped country, a third-world country where they would take this, but not good enough for we in this country. Is this something to be sold here or abroad?"
+    },
+    {
+      "speaker": "Dr. Daniel Nocera (Professor Of Chemistry",
+      "text": "So I'm right with you. I'm going into the developing world, and there's two reasons for that. One is at least to get your feet on the ground, make something so you can kick the tires and see how it works. It's a lot easier to do there because they don't have as big an energy need as we do here in America or in what I call the developed or legacy world. So it's easier as an entry point to impact the developing world because this sort of - it's snow with no footprints in it, and it's the snow with no footprints which is the real bugaboo. You guys and myself, we have a thing called the grid. And so we've invested in an energy infrastructure already, and we're going to be the slowest to accept change because we're tied like a lead weight to what we've had for the last hundred years, while when you go into the developing world, people without anything - no grid, especially India, rural China and Africa - a lot of those people have nothing in the ground. There are no wires. So they're much more quick to adapt."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You just leapfrog 100 years."
+    },
+    {
+      "speaker": "Dr. Daniel Nocera (Professor Of Chemistry",
+      "text": "Yeah, and my feeling has always been: Do it there, and then we'll all get jealous and want it. And I will tell you, I probably get 10 to 20 emails a day from people in America saying: Please do it at my house. So people in this country, there's an extra value added that I don't think we have figured out as a country of being energy independent. And I think that goes with the spirit of America, being independent. So I think it could go a lot faster. It doesn't have to just beat the price of coal - remember, coal is pretty inexpensive, and that's what you're battling with in the United States - because of this extra value of energy independence. It could go faster, but it's a lot easier to go into the developing world."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "All right, we'll keep track, Dr. Nocera."
+    },
+    {
+      "speaker": "Dr. Daniel Nocera (Professor Of Chemistry",
+      "text": "All right."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Thanks for taking time to be with us today."
+    },
+    {
+      "speaker": "Dr. Daniel Nocera (Professor Of Chemistry",
+      "text": "Okay, Ira. Bye-bye."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Daniel Nocera is Henry Dreyfus Professor of Energy and Professor of Chemistry at MIT in Cambridge. We're going to take a break and come back, talking about searching for genetic clues to Alzheimer's disease. A few more clues came out this week. We'll talk about it when we get back. Stay with us. I'm Ira Flatow. This is SCIENCE FRIDAY, from NPR."
+    }
+  ]
+}

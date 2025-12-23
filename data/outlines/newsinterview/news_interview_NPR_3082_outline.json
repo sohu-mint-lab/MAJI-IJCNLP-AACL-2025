@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to the McGuire Family",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What significance does the McGuire family hold in the history of the FBI?",
+        "importance": "critical",
+        "keywords": [
+          "McGuire family",
+          "FBI history",
+          "mother-daughter team"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Ethel McGuire's Journey",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What were some of the major career changes Ethel McGuire experienced before joining the FBI?",
+        "importance": "high",
+        "keywords": [
+          "career changes",
+          "Ethel McGuire",
+          "FBI"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Ethel describe her current responsibilities within the FBI?",
+        "importance": "high",
+        "keywords": [
+          "responsibilities",
+          "counter-terrorism",
+          "FBI"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Marlo McGuire's Perspective",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How did Marlo's understanding of her mother's job evolve over time?",
+        "importance": "critical",
+        "keywords": [
+          "Marlo McGuire",
+          "understanding mother's job",
+          "career day"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What challenges did Marlo face entering the FBI, and how did her mother's experience help her?",
+        "importance": "high",
+        "keywords": [
+          "challenges",
+          "FBI",
+          "mother's experience"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Advice for Future Trailblazers",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What essential advice did Marlo and Ethel share for individuals pursuing unconventional careers?",
+        "importance": "high",
+        "keywords": [
+          "advice",
+          "unconventional careers",
+          "preparedness"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Ethel view her role as a trailblazer in the context of the FBI's diversity issues?",
+        "importance": "optional",
+        "keywords": [
+          "trailblazer",
+          "diversity",
+          "FBI"
+        ]
+      }
+    ]
+  }
+]

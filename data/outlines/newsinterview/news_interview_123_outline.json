@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Upcoming Hearings",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the purpose of the hearings involving Robert Mueller?",
+        "importance": "critical",
+        "keywords": [
+          "hearings",
+          "Robert Mueller",
+          "Congress"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What committees are involved in these hearings?",
+        "importance": "high",
+        "keywords": [
+          "committees",
+          "Intelligence",
+          "Judiciary"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Challenges of the Hearing Format",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How do five-minute questioning increments impact the flow of the hearings?",
+        "importance": "high",
+        "keywords": [
+          "five-minute increments",
+          "questioning",
+          "flow"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Why do both parties prepare and rehearse for these hearings?",
+        "importance": "critical",
+        "keywords": [
+          "preparation",
+          "rehearsal",
+          "narrative"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Public Education and Political Strategy",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is the role of these hearings in educating the public about the president's actions?",
+        "importance": "critical",
+        "keywords": [
+          "education",
+          "public",
+          "president's actions"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the potential for viral moments influence members' participation in the hearings?",
+        "importance": "high",
+        "keywords": [
+          "viral moments",
+          "politics",
+          "attention"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Expectations for Robert Mueller’s Testimony",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the expectations surrounding Robert Mueller's willingness to testify?",
+        "importance": "high",
+        "keywords": [
+          "Robert Mueller",
+          "testimony",
+          "expectations"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What pressure is being placed on Mueller to defend his work beyond the report?",
+        "importance": "critical",
+        "keywords": [
+          "pressure",
+          "defend",
+          "work"
+        ]
+      }
+    ]
+  }
+]

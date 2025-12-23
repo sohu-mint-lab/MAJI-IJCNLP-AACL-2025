@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "David Reich",
+    "age": 50,
+    "personality": "Inquisitive and passionate about ancient human history, with a knack for explaining complex scientific concepts in an engaging manner.",
+    "employment": "Professor of Genetics",
+    "notes": "Currently involved in research on Denisovans and their genetic relationship to modern humans.",
+    "communication_style": "Clear and articulate, often using analogies to make complex topics accessible to a broader audience."
+  }
+}

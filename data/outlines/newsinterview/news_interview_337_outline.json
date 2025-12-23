@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Background on Voting Rights Restoration",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you explain the significance of Amendment 4 and its impact on voting rights for felons in Florida?",
+        "importance": "critical",
+        "keywords": [
+          "Amendment 4",
+          "voting rights",
+          "felons"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Personal Experience of Keith Ivey",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did your daughter feel about voting for the amendment that allows you to vote?",
+        "importance": "high",
+        "keywords": [
+          "daughter",
+          "vote",
+          "Amendment 4"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What emotions did you experience at the thought of being able to vote after so many years?",
+        "importance": "high",
+        "keywords": [
+          "emotions",
+          "voting",
+          "redemption"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges of Life After a Conviction",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are some of the challenges you face as a felon trying to reintegrate into society?",
+        "importance": "high",
+        "keywords": [
+          "challenges",
+          "reintegration",
+          "society"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do you believe the system can be improved to help individuals after serving their sentences?",
+        "importance": "optional",
+        "keywords": [
+          "system",
+          "improvement",
+          "recidivism"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Anticipation of Receiving Voter Registration Card",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How do you plan to celebrate when you finally receive your voter registration card?",
+        "importance": "high",
+        "keywords": [
+          "celebration",
+          "voter registration",
+          "joy"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What does receiving your voter registration card mean to you personally?",
+        "importance": "high",
+        "keywords": [
+          "personal meaning",
+          "voter registration",
+          "significance"
+        ]
+      }
+    ]
+  }
+]

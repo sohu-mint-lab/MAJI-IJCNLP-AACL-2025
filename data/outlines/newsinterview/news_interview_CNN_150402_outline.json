@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to the Political Climate",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the key topics being discussed in Washington on the day of the broadcast?",
+        "importance": "critical",
+        "keywords": [
+          "political climate",
+          "Washington",
+          "discussions"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Could you explain the significance of the Goldman Sachs testimony mentioned?",
+        "importance": "high",
+        "keywords": [
+          "Goldman Sachs",
+          "testimony",
+          "significance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Economic Reforms and Challenges",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the four economic pillars the president outlined, and how successful has he been in implementing them?",
+        "importance": "critical",
+        "keywords": [
+          "economic pillars",
+          "reform",
+          "implementation"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How are the ongoing health care and Wall Street reforms impacting small business and consumers?",
+        "importance": "high",
+        "keywords": [
+          "health care reform",
+          "Wall Street reform",
+          "impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Bipartisan Challenges Ahead",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What led to Senator Lindsey Graham's withdrawal from the bipartisan climate change deal?",
+        "importance": "high",
+        "keywords": [
+          "Lindsey Graham",
+          "bipartisan deal",
+          "climate change"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What implications does the Senate’s position on immigration reform have on other legislative efforts, like energy reform?",
+        "importance": "high",
+        "keywords": [
+          "immigration reform",
+          "energy reform",
+          "legislation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Wrap-Up and Connectivity",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What lighthearted interactions occurred between Velshi and Henry during the broadcast?",
+        "importance": "optional",
+        "keywords": [
+          "interactions",
+          "humor",
+          "broadcast"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does the personal rapport between the hosts affect the tone of the broadcast?",
+        "importance": "optional",
+        "keywords": [
+          "rapport",
+          "tone",
+          "broadcast"
+        ]
+      }
+    ]
+  }
+]

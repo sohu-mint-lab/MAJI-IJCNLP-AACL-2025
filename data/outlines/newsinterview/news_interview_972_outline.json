@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to White Passing",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What does the term 'white passers' mean in the context of Professor Dreisinger's book?",
+        "importance": "critical",
+        "keywords": [
+          "white passers",
+          "definition",
+          "cultural context"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the concept of proximity relate to the idea of white passing?",
+        "importance": "high",
+        "keywords": [
+          "proximity",
+          "blackness",
+          "contagious character"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Motivations for White Passing",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are some of the different motivations behind white individuals choosing to pass as black?",
+        "importance": "critical",
+        "keywords": [
+          "motivation",
+          "experiences",
+          "cultural identity"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Can you describe the difference between coerced and voluntary passing as discussed in the book?",
+        "importance": "high",
+        "keywords": [
+          "coerced passing",
+          "voluntary passing",
+          "historical context"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Cultural Impact and Historical Context",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "During which historical periods did the phenomenon of white passing become particularly prevalent?",
+        "importance": "critical",
+        "keywords": [
+          "historical periods",
+          "white passing",
+          "cultural significance"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do narratives of white passing differ from those of black passing in terms of cultural perception?",
+        "importance": "high",
+        "keywords": [
+          "narratives",
+          "cultural perception",
+          "shame"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Insights and Academic Exploration",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What motivated Professor Dreisinger to write this book about white passing?",
+        "importance": "critical",
+        "keywords": [
+          "motivation",
+          "academic exploration",
+          "personal insight"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Professor Dreisinger view the relationship between American and African-American studies?",
+        "importance": "high",
+        "keywords": [
+          "American studies",
+          "African-American studies",
+          "interconnectedness"
+        ]
+      }
+    ]
+  }
+]

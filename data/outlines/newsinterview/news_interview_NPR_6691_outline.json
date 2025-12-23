@@ -1,0 +1,86 @@
+[
+  {
+    "id": "S1",
+    "section": "Legacy of R.W. Apple, Jr.",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What distinguished R.W. Apple, Jr.'s career as a journalist?",
+        "importance": "critical",
+        "keywords": [
+          "R.W. Apple",
+          "journalism",
+          "legacy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Culinary Adventures with Betsey Apple",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did Betsey Apple influence Johnny's food writing?",
+        "importance": "high",
+        "keywords": [
+          "Betsey Apple",
+          "influence",
+          "food writing"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What were some memorable culinary experiences they shared?",
+        "importance": "high",
+        "keywords": [
+          "culinary experiences",
+          "adventures",
+          "food"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Cultural Insights from Their Travels",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what ways did their travels reveal cultural similarities in food?",
+        "importance": "high",
+        "keywords": [
+          "cultural insights",
+          "travels",
+          "food"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Anecdotes and Reflections",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "Can Betsey share an anecdote about Johnny's humorous food experiences?",
+        "importance": "optional",
+        "keywords": [
+          "anecdotes",
+          "humor",
+          "Johnny Apple"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are some of Betsey's reflections on her life with Johnny?",
+        "importance": "optional",
+        "keywords": [
+          "reflections",
+          "life",
+          "Betsey Apple"
+        ]
+      }
+    ]
+  }
+]

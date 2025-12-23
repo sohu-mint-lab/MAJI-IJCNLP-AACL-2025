@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Dr. Kathryn Wilson",
+    "age": 38,
+    "personality": "Inquisitive and analytical, with a passion for public health, she conveys complex scientific findings in an accessible manner.",
+    "employment": "Research Fellow at Harvard Medical School and Harvard School of Public Health",
+    "notes": "Conducted a significant study on the impact of coffee consumption on prostate cancer risks.",
+    "communication_style": "Clear and engaging, often using relatable analogies to elucidate scientific concepts."
+  }
+}

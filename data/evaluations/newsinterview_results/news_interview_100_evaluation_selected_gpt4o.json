@@ -1,0 +1,355 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.5505693517625332,
+                "avg_context_relevance": 0.37804125156253576,
+                "avg_outline_relevance": 0.5987741202116013,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 25.0,
+            "weighted_coverage_score": 31.818181818181817,
+            "covered_questions": 2,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "After the massacre last weekend in El Paso, Joaquin Castro, the Texas Democratic Representative and brother of presidential candidate Julian Castro, tweeted the names of 44 people. They were donors to President Trump's reelection campaign. Their contributions are fueling a campaign of hate, he wrote, noting - as many others did - that there were similarities between President Trump's rhetoric on immigration and an anti-Hispanic manifesto authorities say may be linked to the suspected shooter. A number of House Republicans have called for an ethics inquiry into the move. Castro's office says the information he released is, quote, \"routinely reported in media outlets of every political persuasion.\" But what did the donors on the list think? One of them was Israel Fogiel. He is the founder of Great America Companies, a real estate firm in San Antonio. I asked him how it felt to be on Representative Castro's list.",
+            "previous_answer": "I really feel disappointed that a member of the House took the time to attack the people that are contributing to the campaign of President Trump, an attack that we are fueling or helping to fuel hate among Hispanics. In my office, half my personnel is Hispanic. I love Hispanic people. They're family-oriented. My wife - all of us got scared. I said people are going to come to attack us.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the accusations linking Trump supporters to fueling hate, how do you justify your continued support for President Trump?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.46324047446250916,
+                        "outline_relevance": 0.655728280544281,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Given the accusations linking Trump supporters to fueling hate, how do you justify your continued support for President Trump?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.46324047446250916,
+                            "outline_relevance": 0.655728280544281,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "But you do know that this is public information.",
+            "previous_answer": "Yes. But we are not contributing to fuel any hate. We are contributing because we want President Trump to be reelected. I like the job he's doing as president. I love the way he loves America, the same way that I love America. I named my company Great America Companies in 1972 when I first immigrated to America because I felt this was a great place.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe the recent events in El Paso that prompted Representative Joaquin Castro to tweet the names of Trump donors?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.25717586278915405,
+                        "outline_relevance": 0.9376131296157837,
+                        "originality": 0.6330064833164215,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you describe the recent events in El Paso that prompted Representative Joaquin Castro to tweet the names of Trump donors?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.25717586278915405,
+                            "outline_relevance": 0.9376131296157837,
+                            "originality": 0.6330064833164215,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "President Trump has used the words invasion and killer, according to new statistics, over 500 times when speaking about immigration and immigrants since 2017. That is as president. People see his rhetoric as divisive and specifically when speaking about Latino immigrants. Does that not concern you?",
+            "previous_answer": "Not at all because he's not being taken in the full context of these expressions. What he wants is legal immigration. He's not objecting to immigration of Latinos or Hispanics. He only objects to illegal immigration.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you specify which controversial terms President Trump has used in relation to immigration that you believe are misunderstood?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5195125341415405,
+                        "outline_relevance": 0.9315162897109985,
+                        "originality": 0.5428775548934937,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you specify which controversial terms President Trump has used in relation to immigration that you believe are misunderstood?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5195125341415405,
+                            "outline_relevance": 0.9315162897109985,
+                            "originality": 0.5428775548934937,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "There's been a rise in hate crimes against Latinos since the president...",
+            "previous_answer": "No. I don't believe that.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you explain why you don’t believe there has been a rise in hate crimes against Latinos?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.20007771253585815,
+                        "outline_relevance": 0.3928918242454529,
+                        "originality": 0.5560866892337799,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you explain why you don’t believe there has been a rise in hate crimes against Latinos?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.20007771253585815,
+                            "outline_relevance": 0.3928918242454529,
+                            "originality": 0.5560866892337799,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "...Has been elected.",
+            "previous_answer": "If there is any hate crime, as happened in El Paso, it's by a disturbed individual. It has nothing to do with the president.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you elaborate on why you believe these hate crimes are not influenced by political leadership or rhetoric?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.5932400822639465,
+                        "outline_relevance": 0.4747122526168823,
+                        "originality": 0.277839720249176,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on why you believe these hate crimes are not influenced by political leadership or rhetoric?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.5932400822639465,
+                            "outline_relevance": 0.4747122526168823,
+                            "originality": 0.277839720249176,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "You came to this country from Peru many years ago. And while you say that the president is speaking about illegal immigration, he has been quoted as using words like infestation, which hark back to very dark periods in American history and history all over the world. When you hear those words, you don't hear him speaking about people like yourself?",
+            "previous_answer": "You know, the way I see it is he speaks his mind. And I take from there only what I want to hear.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share more about what specific statements you choose to focus on versus dismiss when listening to the president?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.449720561504364,
+                        "outline_relevance": 0.5768498778343201,
+                        "originality": 0.4873579740524292,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share more about what specific statements you choose to focus on versus dismiss when listening to the president?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.449720561504364,
+                            "outline_relevance": 0.5768498778343201,
+                            "originality": 0.4873579740524292,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Do you agree with his rhetoric, though, those words? Do you agree with him?",
+            "previous_answer": "You know what? I don't pay attention to it. I look at what he is doing to improve the country. That's what I look at.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you give specific examples of the president's actions that you believe have positively impacted the country?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.48436450958251953,
+                        "outline_relevance": 0.49788111448287964,
+                        "originality": 0.3465374708175659,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you give specific examples of the president's actions that you believe have positively impacted the country?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.48436450958251953,
+                            "outline_relevance": 0.49788111448287964,
+                            "originality": 0.3465374708175659,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Israel Fogiel is the founder of Great America Companies in San Antonio, Texas. Thank you very much for speaking with us.",
+            "previous_answer": "OK. Thank you for calling me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What first drew your attention to the recent events in El Paso and motivated you to voice your opinions?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.056998275220394135,
+                        "outline_relevance": 0.3230001926422119,
+                        "originality": 0.5608489215373993,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What first drew your attention to the recent events in El Paso and motivated you to voice your opinions?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.056998275220394135,
+                            "outline_relevance": 0.3230001926422119,
+                            "originality": 0.5608489215373993,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

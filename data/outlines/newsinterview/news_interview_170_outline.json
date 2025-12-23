@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Ivan Golunov's Case",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Who is Ivan Golunov, and what has he been investigating?",
+        "importance": "critical",
+        "keywords": [
+          "Ivan Golunov",
+          "investigative journalist",
+          "corruption"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What specific allegations have been made against him by the authorities?",
+        "importance": "high",
+        "keywords": [
+          "allegations",
+          "drug possession",
+          "arrest"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Circumstances Surrounding the Arrest",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What happened to Golunov after his arrest?",
+        "importance": "critical",
+        "keywords": [
+          "arrest",
+          "beating",
+          "lawyer"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are the accusations regarding the evidence against him?",
+        "importance": "high",
+        "keywords": [
+          "evidence",
+          "drug planting",
+          "confession pressure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Public Reaction and Implications",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How has the public reacted to Golunov's arrest?",
+        "importance": "high",
+        "keywords": [
+          "protests",
+          "public reaction",
+          "Moscow"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What does Golunov's situation indicate about the state of press freedom in Russia?",
+        "importance": "critical",
+        "keywords": [
+          "press freedom",
+          "Russia",
+          "journalist safety"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Historical Context and Future Implications",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Golunov's case compare to other attacks on journalists in Russia?",
+        "importance": "high",
+        "keywords": [
+          "journalist attacks",
+          "historical context",
+          "comparison"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What potential consequences could this case have for future journalists?",
+        "importance": "optional",
+        "keywords": [
+          "future implications",
+          "journalism",
+          "government pressure"
+        ]
+      }
+    ]
+  }
+]

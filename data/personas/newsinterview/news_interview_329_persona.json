@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Dr. Elisabeth Rosenthal",
+    "age": 50,
+    "personality": "Informed and assertive, deeply committed to transparency in healthcare, with a pragmatic yet optimistic approach.",
+    "employment": "Editor-in-chief of Kaiser Health News",
+    "notes": "Author of 'An American Sickness' and advocate for patient rights in healthcare pricing.",
+    "communication_style": "Clear and direct, using analogies and personal experience to illustrate complex topics."
+  }
+}

@@ -1,0 +1,762 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.41173758032994395,
+                "avg_context_relevance": 0.44873633245245004,
+                "avg_outline_relevance": 0.712324721690936,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.37196325957775117,
+                "avg_context_relevance": 0.3650552541017532,
+                "avg_outline_relevance": 0.8942757666110992,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 75.0,
+            "weighted_coverage_score": 75.0,
+            "covered_questions": 6,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "The Turkish British writer Elif Shafak has been writing of a city she loves. She tells of that city, Istanbul, Turkey, through one of its residents - one of its late residents. As the story begins, a woman has been killed. She had been working as a prostitute and was stuffed in a dumpster. She is dead - although, the author adds, not quite.",
+            "previous_answer": "I became very interested in these studies - medical and scientific studies - that show after the moment of death, after the heart has stopped beating, the human brain can remain active for another few minutes. And in some cases, this could go up to 10 minutes. To me, the whole thing was fascinating. And maybe the question that I wanted to ask was, what exactly happens inside our minds in that limited amount of time?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What initially motivated you to focus on the character Leila and her unique story within your novel?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1588505208492279,
+                        "outline_relevance": 0.9190809726715088,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on how the concept of brain activity after death influenced your portrayal of the character Leila and the narrative structure?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4598749279975891,
+                            "outline_relevance": 0.7493207454681396,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What inspired you to explore scientific studies in your storytelling, particularly the phenomenon of brain activity after death?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6495887041091919,
+                            "outline_relevance": 0.7816425561904907,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think the lingering brain activity after death shapes our understanding of life and mortality in the context of your book?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6390095949172974,
+                            "outline_relevance": 0.8557997941970825,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What initially motivated you to focus on the character Leila and her unique story within your novel?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1588505208492279,
+                            "outline_relevance": 0.9190809726715088,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "The book is titled \"10 Minutes And 38 Seconds In This Strange World.\" Leila is the main character. The madam she has worked for had given her the demeaning nickname Tequila Leila. Her heart has stopped beating after her murder, but for 10 minutes and 38 seconds, her mind continues working as she reflects on her life.",
+            "previous_answer": "I think I've always tried to give more voice to people who have been voiceless, whose stories have been erased, forgotten, pushed to the periphery. But I think in this novel, there's also a more personal element. I wrote it at a time when I, myself, could not travel to Istanbul. One of the questions that I asked myself was, how come I'm still carrying this city with me wherever I go?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you tell us more about how your own experiences shaped the way you depict Istanbul's atmosphere and cultural nuances in the novel?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6774124503135681,
+                        "outline_relevance": 0.9131101369857788,
+                        "originality": 0.4106748104095459,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Could you share more about how your personal feelings of displacement influenced the narrative voice in the book?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5569189190864563,
+                            "outline_relevance": 0.6419410705566406,
+                            "originality": 0.4148143529891968,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: In what ways do you think storytelling can help reclaim voices of those marginalized in society?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5163760781288147,
+                            "outline_relevance": 0.7411389350891113,
+                            "originality": 0.47489023208618164,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: How do you balance your personal experiences with broader social issues in your writing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3347285985946655,
+                            "outline_relevance": 0.4692533612251282,
+                            "originality": 0.5900406241416931,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you tell us more about how your own experiences shaped the way you depict Istanbul's atmosphere and cultural nuances in the novel?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6774124503135681,
+                            "outline_relevance": 0.9131101369857788,
+                            "originality": 0.4106748104095459,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Remind us. Why couldn't you travel to Istanbul?",
+            "previous_answer": "I think Turkey has become a very difficult place for almost everyone, but particularly for people who deal with words, for journalists, writers, academics. As you know the country has been going backwards, first gradually, but then with a bewildering speed. So we've seen an increase in populist authoritarianism. So it's a very difficult environment for authors as well. People understand that it's difficult to question political taboos, but they might not be aware that sometimes it's equally challenging to write about sexuality and to question gender violence.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific societal issues related to gender-based violence and child marriage does your book explore, and why did you choose to focus on these topics?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4201260805130005,
+                        "outline_relevance": 0.9618260860443115,
+                        "originality": 0.5199389457702637,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe some specific ways in which the political environment in Turkey has influenced your writing or publication opportunities?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7057976722717285,
+                            "outline_relevance": 0.715047299861908,
+                            "originality": 0.301749050617218,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think the rise of populist authoritarianism affects the broader cultural and intellectual community in Turkey?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7632524371147156,
+                            "outline_relevance": 0.7524460554122925,
+                            "originality": 0.4116556644439697,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways does censorship around topics like gender violence shape the stories you choose to tell?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.47309133410453796,
+                            "outline_relevance": 0.6340929865837097,
+                            "originality": 0.42630529403686523,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What specific societal issues related to gender-based violence and child marriage does your book explore, and why did you choose to focus on these topics?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4201260805130005,
+                            "outline_relevance": 0.9618260860443115,
+                            "originality": 0.5199389457702637,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Which is something that you do a lot in this book. I, in reading this book, grew angry because you begin with a woman who seems to have made a bad fate for herself. And you learn of a series of atrocities that were committed against her throughout her entire life from the moment of birth. What happened to her?",
+            "previous_answer": "Well, she grows up in a very patriarchal society - in a very closed, conservative society - in a polygamous family, with two mothers, without quite knowing who her mother is. And many of the side stories that you will see in this book were actually inspired by real events. So I've seen this happen again and again - polygamous families. It's not legal, but it's still done.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain what you mean by 'water family' and how this concept influences the relationships and dynamics within your story?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3726350665092468,
+                        "outline_relevance": 0.9352320432662964,
+                        "originality": 0.5705440938472748,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: How does the protagonist's upbringing in a polygamous family shape her identity and decisions throughout the novel?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6541341543197632,
+                            "outline_relevance": 0.4955078065395355,
+                            "originality": 0.5383484363555908,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: Can you elaborate on how real societal issues in Turkey informed your depiction of families and gender roles in the book?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5137511491775513,
+                            "outline_relevance": 0.6509764790534973,
+                            "originality": 0.3045113682746887,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: In what ways does the novel critique patriarchal traditions, and how do these critiques resonate with current societal debates?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.43082356452941895,
+                            "outline_relevance": 0.5335483551025391,
+                            "originality": 0.4433062672615051,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you explain what you mean by 'water family' and how this concept influences the relationships and dynamics within your story?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3726350665092468,
+                            "outline_relevance": 0.9352320432662964,
+                            "originality": 0.5705440938472748,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "It's something that is allowed under some interpretations of Islam, for a man to take more than one wife.",
+            "previous_answer": "That is true. And also, this government - the AKP government - recently, they passed a law which gives local imams the rights to perform marriage ceremonies. And women's rights organizations have been objecting this, saying, if you do this, you're going to increase the number of child brides. You're going to make it easier - particularly in the countryside, in rural areas - for families to marry off their children at a young age, and you will also increase cases of polygamy. So we have huge problems in Turkey when it comes to child brides. We have problems when it comes to gender-based violence. So that's the mentality that we have to fight against in Turkey.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you share how these societal issues of child marriage and polygamy are reflected in your novel’s characters and plot?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.36834269762039185,
+                        "outline_relevance": 0.7584024667739868,
+                        "originality": 0.19893473386764526,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share how these societal issues of child marriage and polygamy are reflected in your novel’s characters and plot?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.36834269762039185,
+                            "outline_relevance": 0.7584024667739868,
+                            "originality": 0.19893473386764526,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you see the role of religious authority evolving in Turkey and its impact on gender equality?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6493335962295532,
+                            "outline_relevance": 0.6700183153152466,
+                            "originality": 0.3102361559867859,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What kind of responses have women’s rights organizations had to the recent legal changes, and have any positive outcomes emerged from their activism?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.25120264291763306,
+                            "outline_relevance": 0.5376706123352051,
+                            "originality": 0.5258614122867584,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Well, in that respect, the young woman - she's still a girl in this book. She is sexually abused by her uncle. And the overriding concern of her family, including even her own father, is to make sure that the uncle is protected.",
+            "previous_answer": "Yes. And also, this abstract notion of family honor - that is what matters to them. And in the name of that abstract notion, women's lives can be sacrificed. But if I may add this, although this is a book that deals with heavy subjects, I honestly think it is an uplifting story because it's also a story about friendships. You know, if our blood family - the family we grow up in - is loving and kind and tender, we should count our blessings. That is wonderful. Not everyone is as lucky though. And particularly to those people, the book is saying, do not forget. As you keep living, you're going to have another family - your water family, your friends. And in that regard, I think, particularly in countries where democracy is lost and where the public space has become very intolerant, water families are even more important. The solidarity among people who have been pushed to the margins is even more important.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain the significance of the Cemetery of the Companionless in your story and how it relates to the themes of family and marginalization?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4405834674835205,
+                        "outline_relevance": 0.924228310585022,
+                        "originality": 0.45072710514068604,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you elaborate on how 'water families' function in your novel and their significance for marginalized people?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.49906614422798157,
+                            "outline_relevance": 0.7581577897071838,
+                            "originality": 0.22428417205810547,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: In societies with eroding democratic spaces, how do alternative family structures aid in social resilience?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.35348138213157654,
+                            "outline_relevance": 0.3914978504180908,
+                            "originality": 0.5302885472774506,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you discuss personal or cultural stories that inspired your idea of 'water families' in the book?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5153135061264038,
+                            "outline_relevance": 0.7720499038696289,
+                            "originality": 0.1857396364212036,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you explain the significance of the Cemetery of the Companionless in your story and how it relates to the themes of family and marginalization?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4405834674835205,
+                            "outline_relevance": 0.924228310585022,
+                            "originality": 0.45072710514068604,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Who are some of the five people who become the close friends, the water family, of Leila?",
+            "previous_answer": "They're all outcasts. You know, they're all trying to cling to the edge of the society. What is interesting, at least to me, is there's an actual place in Istanbul; it's a graveyard. It's called the Cemetery of the Companionless. Unlike any other cemetery, there are no names. There are no tombstones, no surnames - yeah? - nothing personal on the graves, just numbers. It is a place where actual people are turned into numbers. And nobody goes there. Nobody pays attention. It's completely neglected. I became very drawn to this place. You know, I've been doing research. Who are the people who are buried here? And when you do that, you realize there are many outcasts there, for instance, many LGBTQ members who have been shunned by their families. The families did not want to give them a proper funeral. There are also lots of sex workers there. There are also people who have died of AIDS - suicides. And then there is also a growing number of refugees. Every day in newspapers, we read about how refugees have drowned while they were trying to cross into Europe. But where are all these bodies taken? They are taken to the Cemetery of the Companionless. So it's a very sad and strange place. And I wanted to, as an author, at least take one of those numbers because in the book my main character is buried there.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share what inspired you to focus on the character Leila and her story as the entry point to your novel?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.17749354243278503,
+                        "outline_relevance": 0.9271104335784912,
+                        "originality": 0.053685784339904785,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you explain how the Cemetery of the Companionless serves as a metaphor for societal neglect in your novel?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4882035553455353,
+                            "outline_relevance": 0.8508807420730591,
+                            "originality": 0.15398722887039185,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "In what ways did you research the real Cemetery of the Companionless, and how did it shape your writing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4638746976852417,
+                            "outline_relevance": 0.8178344964981079,
+                            "originality": 0.22187119722366333,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do you think burial practices reflect broader social attitudes toward marginalized communities in Turkey?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6400609612464905,
+                            "outline_relevance": 0.6178255081176758,
+                            "originality": 0.41489505767822266,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you share what inspired you to focus on the character Leila and her story as the entry point to your novel?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.17749354243278503,
+                            "outline_relevance": 0.9271104335784912,
+                            "originality": 0.053685784339904785,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Yeah.",
+            "previous_answer": "I wanted to take at least one of those numbers and give it a name, a story, an individuality, and try to reverse that process.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What personal experiences have shaped your depiction of Istanbul and its rich cultural fabric in your storytelling?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1387287676334381,
+                        "outline_relevance": 0.9650155901908875,
+                        "originality": 0.10285532474517822,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share a specific story from your book where a number was transformed into a character?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5894919633865356,
+                            "outline_relevance": 0.47803443670272827,
+                            "originality": 0.4126824140548706,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think giving a name to statistics changes public perception and empathy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.33785131573677063,
+                            "outline_relevance": 0.4371437728404999,
+                            "originality": 0.5572848916053772,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In your writing process, how important is it to balance statistics with personal narratives to engage readers?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.35221385955810547,
+                            "outline_relevance": 0.4709528088569641,
+                            "originality": 0.2494494915008545,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What personal experiences have shaped your depiction of Istanbul and its rich cultural fabric in your storytelling?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1387287676334381,
+                            "outline_relevance": 0.9650155901908875,
+                            "originality": 0.10285532474517822,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "Do you think that Turkey is more or less welcoming to the kinds of outcasts you just described as the years have gone on?",
+            "previous_answer": "As the year's gone on, I wish I could tell you that we have made progress and we have become a much more democratic country, but I'm afraid it's just the opposite. It has become more and more difficult to be different in Turkey. And that's why I think democracy matters. It's not only about elections, ballot box, parliament. It's also the public space. It's also about diversity, appreciating diversity and coexistence. These are the things that we've lost in Turkey.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe a particular incident or moment that made you feel the loss of democratic values and diversity in Turkey?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7114173769950867,
+                        "outline_relevance": 0.7087836265563965,
+                        "originality": 0.3210147023200989,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you share a specific experience that illustrates how democracy and diversity have been suppressed in Turkey?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7816891670227051,
+                            "outline_relevance": 0.7468768358230591,
+                            "originality": 0.22274881601333618,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How do you think the loss of public space for diversity impacts Turkish society as a whole?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.753018319606781,
+                            "outline_relevance": 0.7270735502243042,
+                            "originality": 0.23292827606201172,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: What role do you believe artists and writers play in fostering appreciation for diversity and coexistence in times of political difficulty?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.32040202617645264,
+                            "outline_relevance": 0.5242573022842407,
+                            "originality": 0.3878602385520935,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you describe a particular incident or moment that made you feel the loss of democratic values and diversity in Turkey?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7114173769950867,
+                            "outline_relevance": 0.7087836265563965,
+                            "originality": 0.3210147023200989,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "Elif Shafak, thank you so much.",
+            "previous_answer": "Thank you so much.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you tell me more about what inspired you to create the character Leila and her particular journey?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.18496257066726685,
+                        "outline_relevance": 0.929967999458313,
+                        "originality": 0.09125709533691406,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What motivated you to focus on the marginalized voices in your writing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.0517490915954113,
+                            "outline_relevance": 0.7997879385948181,
+                            "originality": 0.30704355239868164,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you elaborate on how your personal experiences shaped the characters in your novel?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.08949151635169983,
+                            "outline_relevance": 0.6475037336349487,
+                            "originality": 0.23111242055892944,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you see the role of literature evolving in societies facing political and social challenges?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.016373544931411743,
+                            "outline_relevance": 0.5696254372596741,
+                            "originality": 0.26423823833465576,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you tell me more about what inspired you to create the character Leila and her particular journey?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.18496257066726685,
+                            "outline_relevance": 0.929967999458313,
+                            "originality": 0.09125709533691406,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

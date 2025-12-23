@@ -1,0 +1,319 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.39259482281548636,
+                "avg_context_relevance": 0.3785019469048296,
+                "avg_outline_relevance": 0.8103854741368975,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 83.33333333333334,
+            "weighted_coverage_score": 94.44444444444444,
+            "covered_questions": 5,
+            "total_questions": 6
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "We're going to update you now on the mass shooting yesterday in El Paso, Texas, that left 20 people dead and one suspect in custody. Joining us now is reporter Monica Ortiz Uribe, and she is in El Paso. Good morning, Monica.",
+            "previous_answer": "Hi. Good morning, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you give us a brief overview of what happened during the shooting in El Paso?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.06096924468874931,
+                        "outline_relevance": 0.8367393016815186,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you give us a brief overview of what happened during the shooting in El Paso?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.06096924468874931,
+                            "outline_relevance": 0.8367393016815186,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "What is the latest information that we have this morning?",
+            "previous_answer": "Well, as of Saturday evening, authorities reported 20 people dead and another 26 injured. These were people shopping on a Saturday morning at one of the busiest Walmarts in the city. We know a gunman with a rifle entered the store, wearing earmuffs and began shooting at random. A suspect is in custody. He's a 21-year-old male from a suburb outside Dallas. Police held up - held off from identifying him yesterday but said he surrendered to them at an intersection just behind the Walmart. The El Paso police chief said authorities are looking into this attack as a potential hate crime. There's a manifesto circulating online, possibly linked to this suspect, that reflects an anti-immigrant sentiment and mentions a, quote, \"Hispanic invasion of Texas.\"",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you provide more information about the suspect's background and any insights into his possible motivations?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4531032145023346,
+                        "outline_relevance": 0.6957912445068359,
+                        "originality": 0.5704158544540405,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you provide more information about the suspect's background and any insights into his possible motivations?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4531032145023346,
+                            "outline_relevance": 0.6957912445068359,
+                            "originality": 0.5704158544540405,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Well, speaking of that, why would he go to El Paso? We know it's a city with a large Hispanic population, and I think thousands of immigrant families come to the city - right? - and live there.",
+            "previous_answer": "Yes, that's correct. El Paso's population is more than 80% Hispanic. And, yes, currently, it's one of the cities where thousands of Central American families have been fleeing from extreme violence and poverty. And they've entered the U.S. One of the cities is - in the U.S. is here in El Paso. Now, El Paso didn't get its name out of thin air. This has been a central pathway for migration for centuries before the U.S. and Mexico even existed. And that history is reflected in the people who live here today. The shopping district where this mass killing happened is the perfect reflection of the binational, bicultural character of the city. There were probably parents shopping for back-to-school supplies from both sides of the border. On any given day, you'll hear both English and Spanish spoken in the aisles of any of the city's stores. It's normal here, and it's been that way for as long as the city has existed.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How does El Paso's demographic makeup relate to the motivations or circumstances surrounding the recent shooting incident?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6340628862380981,
+                        "outline_relevance": 0.9640384912490845,
+                        "originality": 0.2649837136268616,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How does El Paso's demographic makeup relate to the motivations or circumstances surrounding the recent shooting incident?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6340628862380981,
+                            "outline_relevance": 0.9640384912490845,
+                            "originality": 0.2649837136268616,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "And El Paso also has a reputation for being a safe city.",
+            "previous_answer": "Indeed. In his State of the Union Address this year, President Trump incorrectly attributed El Paso's safety record to the construction of the border wall. But statistics show El Paso has had a low crime rate compared to other cities its size well before the presence of a border wall. The number of people killed and injured in yesterday's mass shooting is higher than the average number of people murdered here in an entire year. And I should point out that a border wall would in no way have stopped the shooter from committing yesterday's massacre. Also, because of its location on the U.S.-Mexico border, the city is home to a plethora of law enforcement - federal, state and local - who keep a close watch on the city. And, finally, cities - studies show that cities like El Paso with a large immigrant population tend to have lower crime rates.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "In the aftermath of the mass shooting, how has the El Paso community come together, and what actions have residents taken to support each other and promote healing?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4860023558139801,
+                        "outline_relevance": 0.861465334892273,
+                        "originality": 0.2818394899368286,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "In the aftermath of the mass shooting, how has the El Paso community come together, and what actions have residents taken to support each other and promote healing?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4860023558139801,
+                            "outline_relevance": 0.861465334892273,
+                            "originality": 0.2818394899368286,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Do we know anything more about the victims? What have we learned?",
+            "previous_answer": "Not too much yet. Police have said that they range in all ages. Former El Paso congressman and now-presidential candidate Beto O'Rourke told reporters yesterday that he spoke to the wife of a soccer coach who was wounded while fundraising for his team at the Walmart. Mexican officials have also reported via Twitter that there are six Mexicans injured, including a 10-year-old girl, and three others are among the dead.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific information do we have about the suspect, including their background and motives?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2626022696495056,
+                        "outline_relevance": 0.8054836988449097,
+                        "originality": 0.10438567399978638,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What specific information do we have about the suspect, including their background and motives?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2626022696495056,
+                            "outline_relevance": 0.8054836988449097,
+                            "originality": 0.10438567399978638,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "I mean, this must be an incredibly difficult time in El Paso right now, you know, something this horrific happening. There were so many families at the Walmart, as you mentioned. And it is now being investigated as a potential hate crime. So I'm wondering - how have the people there reacted to this terrible tragedy?",
+            "previous_answer": "Well, El Pasoans have by and large reacted in the same way they've responded to the rush of Central American families who have arrived - who have been arriving at this city for months now. Hours after the shooting, there were long lines at blood donation centers. I visited a school where families were gathering to get information about missing loved ones. I saw El Pasoans show up to that school with truckloads of water. There is an interfaith vigil organized tonight at a local park. And both the mayor and the U.S. congresswoman who represent El Paso has said this is - that this crime isn't reflective of the welcoming character of this city.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share specific examples of how residents have supported each other and the victims' families in the days following the shooting?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5566005706787109,
+                        "outline_relevance": 0.7357814908027649,
+                        "originality": 0.2685813307762146,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share specific examples of how residents have supported each other and the victims' families in the days following the shooting?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5566005706787109,
+                            "outline_relevance": 0.7357814908027649,
+                            "originality": 0.2685813307762146,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "That's reporter Monica Ortiz Uribe in El Paso. Thank you very much.",
+            "previous_answer": "You're welcome.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Can you share more about how the community is coming together in response to the shooting?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.19617308676242828,
+                        "outline_relevance": 0.773398756980896,
+                        "originality": 0.25795769691467285,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you share more about how the community is coming together in response to the shooting?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.19617308676242828,
+                            "outline_relevance": 0.773398756980896,
+                            "originality": 0.25795769691467285,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

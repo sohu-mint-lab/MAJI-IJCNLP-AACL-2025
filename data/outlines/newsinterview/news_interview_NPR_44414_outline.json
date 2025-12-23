@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Kadanuumuu Discovery",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What does the discovery of Kadanuumuu add to our understanding of human evolution?",
+        "importance": "critical",
+        "keywords": [
+          "Kadanuumuu",
+          "discovery",
+          "human evolution"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Can you describe the significance of Kadanuumuu being 400,000 years older than Lucy?",
+        "importance": "high",
+        "keywords": [
+          "Lucy",
+          "age",
+          "significance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Details from the Fossil Findings",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What specific fossils were uncovered from Kadanuumuu, and how do they compare to Lucy's?",
+        "importance": "critical",
+        "keywords": [
+          "fossils",
+          "comparison",
+          "Lucy"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does the skeletal structure of Kadanuumuu contribute to our understanding of upright walking?",
+        "importance": "high",
+        "keywords": [
+          "skeletal structure",
+          "upright walking",
+          "evolution"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Shifts in Hominid Adaptation Interpretations",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How has the interpretation of Lucy's adaptation to upright walking changed with the discovery of Kadanuumuu?",
+        "importance": "critical",
+        "keywords": [
+          "interpretation",
+          "upright walking",
+          "Kadanuumuu"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What implications does Kadanuumuu have for our understanding of the relationship between humans and chimpanzees?",
+        "importance": "high",
+        "keywords": [
+          "humans",
+          "chimpanzees",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Skepticism and Future Research Directions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the main arguments of skeptics regarding the classification of Kadanuumuu?",
+        "importance": "high",
+        "keywords": [
+          "skepticism",
+          "classification",
+          "Kadanuumuu"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are the future research steps following the findings related to Kadanuumuu?",
+        "importance": "optional",
+        "keywords": [
+          "research",
+          "future steps",
+          "Kadanuumuu"
+        ]
+      }
+    ]
+  }
+]

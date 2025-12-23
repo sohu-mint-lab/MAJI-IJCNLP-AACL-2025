@@ -1,0 +1,497 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.35301802307367325,
+                "avg_context_relevance": 0.3096741976526876,
+                "avg_outline_relevance": 0.5762078004578749,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.25306399663289386,
+                "avg_context_relevance": 0.27784490088621777,
+                "avg_outline_relevance": 0.8767477969328562,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 33.33333333333333,
+            "weighted_coverage_score": 33.33333333333333,
+            "covered_questions": 2,
+            "total_questions": 6
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "One morning in early December, 23-year-old Andrew Black of Vermont bought a gun. And a few hours later, he used that gun to kill himself. We first spoke to Andrew's mother, Alyssa Black, shortly after her son's death. She was calling for Vermont to pass legislation requiring a cooling-off period between when a person can walk into a gun store and walk out with a firearm. A bill requiring a 24-hour waiting period moved to the top of the Vermont Senate's agenda earlier this year. It passed in both houses. And then last week, it was vetoed by Governor Phil Scott. Alyssa Black joins me now. Welcome to WEEKEND EDITION.",
+            "previous_answer": "Thank you for having me again.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share what events led up to Andrew Black's tragic decision in December?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.13023845851421356,
+                        "outline_relevance": 0.9627143144607544,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe your feelings right after Governor Scott vetoed the waiting period bill?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.18653500080108643,
+                            "outline_relevance": 0.7162845134735107,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think the community has reacted to both the bill's passing and its subsequent veto?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.04773765057325363,
+                            "outline_relevance": 0.5399678945541382,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are some of the key challenges you face in advocating for gun safety legislation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.025156322866678238,
+                            "outline_relevance": 0.5125018954277039,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share what events led up to Andrew Black's tragic decision in December?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.13023845851421356,
+                            "outline_relevance": 0.9627143144607544,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Vermont would have been one of a handful of states to mandate time between buying a firearm and actually receiving the firearm. What was your reaction to Governor Scott's veto?",
+            "previous_answer": "Well, we were deeply disappointed because I don't think he wanted to endorse it. We thought that he would just not sign it and not veto it, which would allow it to go into law. But he didn't do that. He vetoed it at the last minute. And we were very disappointed.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain what specific reasons Governor Scott gave for vetoing the waiting period bill and how you feel about those reasons?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4555116295814514,
+                        "outline_relevance": 0.7928866147994995,
+                        "originality": 0.10312783718109131,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe your feelings right after Governor Scott vetoed the waiting period bill?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4723776578903198,
+                            "outline_relevance": 0.7162845134735107,
+                            "originality": 5.960464477539063e-08,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think the community has reacted to both the bill's passing and its subsequent veto?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4427465796470642,
+                            "outline_relevance": 0.5399678945541382,
+                            "originality": 1.1920928955078125e-07,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are some of the key challenges you face in advocating for gun safety legislation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.10194170475006104,
+                            "outline_relevance": 0.5125018954277039,
+                            "originality": 1.7881393432617188e-07,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you explain what specific reasons Governor Scott gave for vetoing the waiting period bill and how you feel about those reasons?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4555116295814514,
+                            "outline_relevance": 0.7928866147994995,
+                            "originality": 0.10312783718109131,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "It took your son less than 30 minutes to buy a gun. And you told us before that you think he would have been alive if he'd had to wait 24 hours.",
+            "previous_answer": "Yeah. And, you know, even since speaking with you, I've become more convinced of that. And I've certainly learned an awful lot about suicide in the past six months. You know, there's a lot of misconceptions, this inevitability myth. And people think that if you're going to commit suicide, that you think long and hard, and you plan. Well, just the opposite is true. It is a very impulsive act. And your feelings are transient. They change from one day to the next. And, you know, if you can limit the most lethal means of suicide within just even a day, it can make all the difference in the world.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Now that the veto has taken place, can you share what your commitment moving forward looks like? How do you plan to continue advocating or making a difference?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2133142054080963,
+                        "outline_relevance": 0.6141889095306396,
+                        "originality": 0.3429728150367737,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share what misconceptions about suicide surprised you the most and how they changed your perspective?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7223225831985474,
+                            "outline_relevance": 0.511596143245697,
+                            "originality": 0.6777199506759644,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think public education on suicide prevention could complement legislative measures like the waiting period?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4627273380756378,
+                            "outline_relevance": 0.46122175455093384,
+                            "originality": 0.5704389214515686,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Given your growing understanding, how do you balance hope and frustration while advocating for gun safety laws?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2465697079896927,
+                            "outline_relevance": 0.4374745488166809,
+                            "originality": 0.11467647552490234,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Now that the veto has taken place, can you share what your commitment moving forward looks like? How do you plan to continue advocating or making a difference?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2133142054080963,
+                            "outline_relevance": 0.6141889095306396,
+                            "originality": 0.3429728150367737,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Governor Scott is a Republican. And he said, to explain his veto, that Vermont has already enacted numerous restrictions on gun ownership, including universal background checks, a ban on the sale of high-capacity magazines, raising the legal age to purchase a gun to 21. Do you take his point that he feels that there are already quite a few restrictions?",
+            "previous_answer": "Well, I know he's very proud of his accomplishments last year. In the governor's response to the veto, he didn't say one thing about this bill that he disagreed with. His only thoughts were, we did enough last year. Well, clearly we didn't do enough last year. And just because you do something one year doesn't mean that you can't do something the year after. You know, 90% of firearm deaths in the state of Vermont are suicide. Almost nothing that was done last year helps that number at all.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe the events that led to Andrew Black's tragic decision in December?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4075450301170349,
+                        "outline_relevance": 0.9774482250213623,
+                        "originality": 0.021952569484710693,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you explain more about why the previous legislation didn't address suicide prevention effectively?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5011423826217651,
+                            "outline_relevance": 0.4693267345428467,
+                            "originality": 0.2868824005126953,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What do you think would be necessary steps beyond waiting periods to reduce firearm suicides in Vermont?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4274899363517761,
+                            "outline_relevance": 0.41921356320381165,
+                            "originality": 0.3595787286758423,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you stay motivated to continue advocacy in face of setbacks like this veto?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.43837475776672363,
+                            "outline_relevance": 0.502274751663208,
+                            "originality": 0.2719227075576782,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you describe the events that led to Andrew Black's tragic decision in December?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4075450301170349,
+                            "outline_relevance": 0.9774482250213623,
+                            "originality": 0.021952569484710693,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "What happens now, in your view?",
+            "previous_answer": "We're going to keep going. When we went into this, my husband and I had a long conversation that, OK, if we're going to do this, we're going to see it through, and we're going to see it through to the end. And we understood that this was not easy. We were incredibly fortunate to get to the governor's desk. The Statehouse didn't want to deal with guns again. They'd had a very bitter year the year before, and nobody wanted to touch it again. The fact that we got it through the Senate and the House with broad support and got to the governor's desk, frankly, is a bit of a miracle. And we'll try again next year. And we'll keep trying until we have a governor that will sign it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe the key events leading up to Andrew Black's tragic decision in December?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3412126898765564,
+                        "outline_relevance": 0.968238890171051,
+                        "originality": 0.01365751028060913,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: What specific strategies do you plan to use to ensure the bill passes next year?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.47602829337120056,
+                            "outline_relevance": 0.3708535432815552,
+                            "originality": 0.41328614950180054,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you personally cope with the frustration and setbacks in this advocacy journey?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3498125672340393,
+                            "outline_relevance": 0.32278192043304443,
+                            "originality": 0.32037675380706787,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you share any moments of community support or encouragement that have fueled your determination?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.21669641137123108,
+                            "outline_relevance": 0.29182374477386475,
+                            "originality": 0.34856152534484863,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you describe the key events leading up to Andrew Black's tragic decision in December?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3412126898765564,
+                            "outline_relevance": 0.968238890171051,
+                            "originality": 0.01365751028060913,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Alyssa Black, thank you very much.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe the events that led up to Andrew Black's decision in December?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.11924739181995392,
+                        "outline_relevance": 0.9450098276138306,
+                        "originality": 0.03667324781417847,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How have you been feeling since our last discussion about the veto and your campaign?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.22594106197357178,
+                            "outline_relevance": 0.46848389506340027,
+                            "originality": 0.25008857250213623,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you elaborate on what motivates you every day to continue advocating for gun safety despite challenges?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.22213521599769592,
+                            "outline_relevance": 0.45805150270462036,
+                            "originality": 0.14698737859725952,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What role does your community play in supporting you throughout this advocacy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1993761658668518,
+                            "outline_relevance": 0.3178897202014923,
+                            "originality": 0.1935286521911621,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you describe the events that led up to Andrew Black's decision in December?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.11924739181995392,
+                            "outline_relevance": 0.9450098276138306,
+                            "originality": 0.03667324781417847,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

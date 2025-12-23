@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Vernor Vinge",
+    "age": 75,
+    "personality": "Inquisitive and visionary, with a deep understanding of technology and its implications for the future.",
+    "employment": "Retired Professor of Computer Science and Science Fiction Author",
+    "notes": "Renowned for his works exploring themes of augmented reality and the technological singularity.",
+    "communication_style": "Engaging and insightful, often contextualizing complex ideas in an accessible manner."
+  }
+}

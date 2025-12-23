@@ -1,0 +1,1477 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4306891639775868,
+                "avg_context_relevance": 0.3571694991728173,
+                "avg_outline_relevance": 0.507927034286004,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.44542251172519864,
+                "avg_context_relevance": 0.3855063720118432,
+                "avg_outline_relevance": 0.5384596926825387,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 25.0,
+            "weighted_coverage_score": 28.000000000000004,
+            "covered_questions": 2,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "It's Thursday, which means it's time to talk sports with our very own sports wunderkind, none other than New York Times Sports Columnist, Bill Rhoden. What's up, Bill?",
+            "previous_answer": "The great, Tony Cox, wunderkind. Listen. Funny guy.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Bill, switching gears to baseball, how do you assess Manny Ramirez's impact on The Dodgers since his return?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.20453481376171112,
+                        "outline_relevance": 0.8251363039016724,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think humor plays a role in your sports commentary, Bill?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.46784549951553345,
+                            "outline_relevance": 0.5411710739135742,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share a memorable anecdote where your humor impacted your writing or audience reception?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4119808077812195,
+                            "outline_relevance": 0.2764703631401062,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What qualities do you think make a sports columnist stand out in today’s media landscape?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2657926082611084,
+                            "outline_relevance": 0.40297797322273254,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Bill, switching gears to baseball, how do you assess Manny Ramirez's impact on The Dodgers since his return?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.20453481376171112,
+                            "outline_relevance": 0.8251363039016724,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Listen, Manny, Manny, Manny. He's really gone Hollywood, Bill. I guess you could say dragging out what could have, should have been a simple deal to return to The Dodgers months ago. Instead, he and agent Scott Boras and Dodger owner Frank McCourt and GM Ned Colletti strung their poor fans along all of this time. And just like that, Manny arrives in on a white horse and some stringy braids to save the day.",
+            "previous_answer": "He actually flew in. What happened was that, you know, Boras was talking to McCourt, the owner. And you know, McCourt said very earnestly, listen, you know, we really want Manny not just to be part of the team but we really want him to be part of the community. And Boras said, stop. I think you need to tell that to Manny. So, Manny got on a plane, he came in, flew in and they had a great face to face. And you know, Manny sort to say listen, yeah I know that I've got to do a little more. I've got to do a little better. And I think it was a great healing kind of - not a healing but, you know, conversation. And, you know, Manny is very comfortable on L.A. He's in a place where he's got a great fan base, they love him. And so I think - I think it's going to be a very powerful thing. I - injuries notwithstanding, Tony, I mean, I think that you guys there are going to be in for a really, really special season. I think The Dodgers are going to be tougher, they're going to be better, and Manny's going to really be engaged.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What was the significance of Manny Ramirez's return to The Dodgers both on and off the field?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5625902414321899,
+                        "outline_relevance": 0.9747390151023865,
+                        "originality": 0.15765392780303955,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on the specific ways Manny Ramirez's renewed commitment might affect team chemistry and performance?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.51651531457901,
+                            "outline_relevance": 0.661579966545105,
+                            "originality": 0.3060622811317444,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you see Manny's role evolving within the Dodgers community beyond just his on-field contributions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5587214231491089,
+                            "outline_relevance": 0.7007915377616882,
+                            "originality": 0.2261607050895691,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Considering the team's injuries, how realistic is the prediction of a 'really special season' with Manny back?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.500556468963623,
+                            "outline_relevance": 0.5707610249519348,
+                            "originality": 0.42749476432800293,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What was the significance of Manny Ramirez's return to The Dodgers both on and off the field?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5625902414321899,
+                            "outline_relevance": 0.9747390151023865,
+                            "originality": 0.15765392780303955,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Well, they need some pitching, but that's another story. Here's the question for you…",
+            "previous_answer": "What - you want them to do everything?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: How do you balance the expectations on key players like Manny Ramirez without overwhelming them?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.21240735054016113,
+                        "outline_relevance": 0.5508987903594971,
+                        "originality": 0.26781511306762695,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How do you balance the expectations on key players like Manny Ramirez without overwhelming them?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.21240735054016113,
+                            "outline_relevance": 0.5508987903594971,
+                            "originality": 0.26781511306762695,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What are some common misconceptions about a player's ability to single-handedly change team fortunes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.24606359004974365,
+                            "outline_relevance": 0.5718891620635986,
+                            "originality": 0.49675047397613525,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways can team management ensure a supportive environment that doesn't place too much pressure on star athletes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.21457278728485107,
+                            "outline_relevance": 0.5781418085098267,
+                            "originality": 0.427975058555603,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Hhere's a question for you Bill. We're in a down economy, right? So, where is all of this money coming from to pay these guys, these exorbitant salaries? And I'm not even thinking about Manny's 45 million over two years, but let's take your beloved Yankees whose multi, multi, multi-million dollar payroll is bigger than some countries'. Yankees' stocks not traded on the exchange, is it?",
+            "previous_answer": "I know it should be… But, you know, yeah something - I think the Yankees payroll is something like around 140 million or something like that. That's more than the entire like, all the National League or something - I mean - but at the same time now, they've got to pay payroll tax. They've got to pay sort of a revenue sharing tax. And so, yeah the system is unfair. There's no question about it. Where is all this money coming from, beside you and me?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the financial pressures you described, what potential impacts should fans expect on team budgets and operations if game attendance starts to decline?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3173860013484955,
+                        "outline_relevance": 0.9157739877700806,
+                        "originality": 0.35837841033935547,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Broad: Given the unfair system you mentioned, how do smaller market teams cope financially compared to giants like the Yankees?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5447173714637756,
+                            "outline_relevance": 0.5545414686203003,
+                            "originality": 0.496002197265625,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Depth: Could you elaborate on how revenue sharing and payroll taxes actually work and their impact on team finances?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5820159912109375,
+                            "outline_relevance": 0.46312567591667175,
+                            "originality": 0.5631809234619141,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: With fans footing much of the bill, how do you see fan loyalty holding up when ticket prices and salaries keep climbing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2599334418773651,
+                            "outline_relevance": 0.6112961173057556,
+                            "originality": 0.536890298128128,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Given the financial pressures you described, what potential impacts should fans expect on team budgets and operations if game attendance starts to decline?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3173860013484955,
+                            "outline_relevance": 0.9157739877700806,
+                            "originality": 0.35837841033935547,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Right.",
+            "previous_answer": "I think that - you know I think that there a lot of lower pay guys who are, you know, for contracts who are taking - because in other words, you're getting it from somewhere, and this - the money that they're getting paid now is coming from last year. You know, that's what baseball does. I think we will see, next year, we'll begin to see the push back in terms of the long-term contracts, which contracts are taking a hit. But right now, as long as television is there and fans are, you know…",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What potential impacts should fans expect regarding team budgets if attendance decreases?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5192950367927551,
+                        "outline_relevance": 1.0,
+                        "originality": 0.08422583341598511,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think the balance of power between players, teams, and broadcasters shapes the financial landscape of Major League Baseball?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6166113615036011,
+                            "outline_relevance": 0.5610203742980957,
+                            "originality": 0.3356724977493286,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you expand on how long-term contracts might affect player mobility and team flexibility in the coming years?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5473925471305847,
+                            "outline_relevance": 0.5431849360466003,
+                            "originality": 0.31468862295150757,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Given the current reliance on TV and fans for revenue, what changes might teams need to consider if either source declines?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.55109703540802,
+                            "outline_relevance": 0.7586765289306641,
+                            "originality": 0.225879967212677,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What potential impacts should fans expect regarding team budgets if attendance decreases?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5192950367927551,
+                            "outline_relevance": 1.0,
+                            "originality": 0.08422583341598511,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Well, yeah, but are the fans going to be there? Because I'm hearing that the NFL, NBA, major league baseball fans, they're worried that - the clubs are worried because people - season ticket holders who keep thing - whole thing going they may not be re-upping the way they've been in the past.",
+            "previous_answer": "And that's when you will see - you will see the effect of that next year. You know, right now, baseball is still going on in terms of the salaries. They're going on last year's income, which was record-setting. Now, if they've got a downturn at the turnstile, you were going to see it next year. This time next year, we could be talking about some serious, you know, shrinking, withdrawals, you know, there could be a couple of teams that aren't cutting it. And I'm talking about…",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific measures do you think teams and leagues could implement to stabilize their revenue streams in the face of potential declines in fan attendance?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.46538591384887695,
+                        "outline_relevance": 0.7985365390777588,
+                        "originality": 0.18924587965011597,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How might declining attendance affect the relationship between players and team management?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.36544033885002136,
+                            "outline_relevance": 0.8331734538078308,
+                            "originality": 0.16682642698287964,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you elaborate on which teams might be most vulnerable to financial issues if attendance drops?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3699992299079895,
+                            "outline_relevance": 0.8070732951164246,
+                            "originality": 0.19292676448822021,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What measures do you think teams and leagues could implement to stabilize revenue in the face of shrinking fan turnout?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4863618314266205,
+                            "outline_relevance": 0.7556451559066772,
+                            "originality": 0.20904672145843506,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What specific measures do you think teams and leagues could implement to stabilize their revenue streams in the face of potential declines in fan attendance?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.46538591384887695,
+                            "outline_relevance": 0.7985365390777588,
+                            "originality": 0.18924587965011597,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "That was danger.",
+            "previous_answer": "Yeah.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Could you expand on what you meant by 'that was danger' earlier?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.1789211928844452,
+                        "outline_relevance": 0.21722999215126038,
+                        "originality": 0.6655929684638977,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you expand on what you meant by 'that was danger' earlier?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.1789211928844452,
+                            "outline_relevance": 0.21722999215126038,
+                            "originality": 0.6655929684638977,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you typically assess risk and danger in sports situations you comment on?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.0848596841096878,
+                            "outline_relevance": 0.43219906091690063,
+                            "originality": 0.46103882789611816,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you share an example from your experience where recognizing danger changed the outcome of a sports event?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.10050948709249496,
+                            "outline_relevance": 0.5076873302459717,
+                            "originality": 0.41911113262176514,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Absolutely.",
+            "previous_answer": "Absolutely.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on why you chose to say 'Absolutely' in this context?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5060372948646545,
+                        "outline_relevance": 0.17816150188446045,
+                        "originality": 0.49232780933380127,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate more on why you chose to say 'Absolutely' in this context?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4916909635066986,
+                            "outline_relevance": 0.18579280376434326,
+                            "originality": 0.45208990573883057,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do short affirmations play a role in your communication style during interviews or commentary?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.07312141358852386,
+                            "outline_relevance": 0.3140554130077362,
+                            "originality": 0.5148827135562897,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In your opinion, how effective is using brief confirmations in engaging with your audience or interviewers?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.13830691576004028,
+                            "outline_relevance": 0.38935619592666626,
+                            "originality": 0.5100424885749817,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you elaborate on why you chose to say 'Absolutely' in this context?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5060372948646545,
+                            "outline_relevance": 0.17816150188446045,
+                            "originality": 0.49232780933380127,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "All right. Let's move on to another topic. It's March, that means, the madness is about to begin, Bill. I know you love college basketball but before we talk about who is going where in the tournament, let's talk about the tournament itself. If it works for college basketball, why in the world can it not work for college football?",
+            "previous_answer": "You just hit - you just - the nerve - You know, I mean, I hate it. That's why I can't look at college football. We've had this conversation before. I can't look at college football because it's a farce. The way the NCAA Men's Basketball and Women's Basketball Tournament is conducted is the way it's supposed to be. At the end of April you - you know, when the - one team walks off for the National Championship, we'll all be satisfied that you know what, the best team won, you know. They may have got hot but they won. They went to a trial by fire and the best team won. That is not what you have in college football where it's kind of heebee jeebee and, you know, abracadabra. You know, yes, so we can go on for hours on this…",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What factors do you think are most important for teams entering the NCAA basketball tournament to succeed?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.49023962020874023,
+                        "outline_relevance": 0.6048658490180969,
+                        "originality": 0.5393486022949219,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: What specific flaws in college football's postseason system make you call it a 'farce'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6990708112716675,
+                            "outline_relevance": 0.5632120370864868,
+                            "originality": 0.47292327880859375,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you compare how fans engage differently with college basketball tournaments versus college football playoffs?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5690230131149292,
+                            "outline_relevance": 0.6404075622558594,
+                            "originality": 0.4487189054489136,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What changes would you recommend to college football to create a tournament system similar to March Madness?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5760646462440491,
+                            "outline_relevance": 0.5683366656303406,
+                            "originality": 0.43803828954696655,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What factors do you think are most important for teams entering the NCAA basketball tournament to succeed?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.49023962020874023,
+                            "outline_relevance": 0.6048658490180969,
+                            "originality": 0.5393486022949219,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "But we don't do that. All right, so the South and the East seemed to have the big dogs this year. Connecticut, Pitt, Duke, North Carolina, let's not forget about Oklahoma, Memphis and Louisville. But regular season play in college basketball is not always a harbinger of what teams will do well in the tournament. So, who do you like?",
+            "previous_answer": "Yeah. Well, I like North Carolina, and I do think Tony, I know what you're saying, I do think the regular season is somewhat important even if it's for positioning. It's for momentum. Who goes in with a lot of momentum? And that's what the regular season is about - going downhill and gathering momentum and hitting March Madness with a full steam ahead. I like Connecticut a lot, not - you know, particularly sinceJim O'Brien is motivated to prove that he's worth the money he's getting paid. And I like North Carolina a lot, and I always reserve two spots for teams that we aren't even discussing now. That it's going to be probably the sweet 16.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You mentioned the significance of momentum going into March Madness. In your view, what are the most effective ways teams build and sustain this momentum throughout the regular season?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.42153793573379517,
+                        "outline_relevance": 0.6327478289604187,
+                        "originality": 0.45896899700164795,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Aside from North Carolina and Connecticut, are there other teams you think could surprise us in the tournament this year?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.41798606514930725,
+                            "outline_relevance": 0.47456085681915283,
+                            "originality": 0.47411203384399414,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How important do you think coaching motivation and leadership are in a team's success during March Madness?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4298037588596344,
+                            "outline_relevance": 0.6612399220466614,
+                            "originality": 0.4093245267868042,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: You mentioned momentum being key for March Madness; how do you think teams best build and maintain that momentum throughout the regular season?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5123597979545593,
+                            "outline_relevance": 0.6381628513336182,
+                            "originality": 0.38969123363494873,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You mentioned the significance of momentum going into March Madness. In your view, what are the most effective ways teams build and sustain this momentum throughout the regular season?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.42153793573379517,
+                            "outline_relevance": 0.6327478289604187,
+                            "originality": 0.45896899700164795,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "Like who?",
+            "previous_answer": "Well.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share some specific individuals or examples you had in mind when thinking about those influences?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.06670038402080536,
+                        "outline_relevance": 0.2423398792743683,
+                        "originality": 0.5544926524162292,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you share some specific individuals or examples you had in mind?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.13346609473228455,
+                            "outline_relevance": 0.23755791783332825,
+                            "originality": 0.47681546211242676,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What kind of figures typically influence the topics you discuss?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.128941610455513,
+                            "outline_relevance": 0.21763284504413605,
+                            "originality": 0.4803621172904968,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you decide which personalities to highlight in your commentary?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.21254178881645203,
+                            "outline_relevance": 0.26474031805992126,
+                            "originality": 0.36399996280670166,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you share some specific individuals or examples you had in mind when thinking about those influences?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.06670038402080536,
+                            "outline_relevance": 0.2423398792743683,
+                            "originality": 0.5544926524162292,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 11,
+            "actual_question": "You're not sure. I know who they all be…",
+            "previous_answer": "That's because they're dark horses, Tony. I don't who they are.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain what you mean by 'dark horses' here, and why these individuals might not be well known?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.710228681564331,
+                        "outline_relevance": 0.28751808404922485,
+                        "originality": 0.6375572085380554,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "breadth: Can you elaborate on what you mean by 'dark horses' in this context and why they might not be well known?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6394815444946289,
+                            "outline_relevance": 0.2578543424606323,
+                            "originality": 0.6385764479637146,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What characteristics make these 'dark horses' worth watching despite their obscurity?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5695216059684753,
+                            "outline_relevance": 0.28281188011169434,
+                            "originality": 0.6819508969783783,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do these 'dark horses' fit into the larger picture of the topic we're discussing, and what impact might they have?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.522373378276825,
+                            "outline_relevance": 0.3589051365852356,
+                            "originality": 0.587801456451416,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you explain what you mean by 'dark horses' here, and why these individuals might not be well known?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.710228681564331,
+                            "outline_relevance": 0.28751808404922485,
+                            "originality": 0.6375572085380554,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 12,
+            "actual_question": "I know who will not be in the final four this time around. My beloved Bruins from UCLA, they're not going anywhere this year.",
+            "previous_answer": "Serves then right.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you elaborate on the specific factors that contributed to UCLA Bruins' early exit this year?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.08378879725933075,
+                        "outline_relevance": 0.5079389810562134,
+                        "originality": 0.4640212059020996,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think UCLA's current season performance compares to previous years?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.24844974279403687,
+                            "outline_relevance": 0.5094133615493774,
+                            "originality": 0.5152918994426727,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you elaborate on what specific factors led to UCLA's early exit this year?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.09212786704301834,
+                            "outline_relevance": 0.440165638923645,
+                            "originality": 0.4784785509109497,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What does UCLA's elimination mean for the dynamics of this year's tournament?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.22221675515174866,
+                            "outline_relevance": 0.5362920165061951,
+                            "originality": 0.38020360469818115,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you elaborate on the specific factors that contributed to UCLA Bruins' early exit this year?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.08378879725933075,
+                            "outline_relevance": 0.5079389810562134,
+                            "originality": 0.4640212059020996,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 13,
+            "actual_question": "Yeah. They had their chance, right?",
+            "previous_answer": "Serves them right.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you explain what you meant by 'They had their chance' and why you think they missed it?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.25837165117263794,
+                        "outline_relevance": 0.32513272762298584,
+                        "originality": 0.5138489305973053,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you explain what you meant by 'They had their chance' and why you think they missed it?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.25837165117263794,
+                            "outline_relevance": 0.32513272762298584,
+                            "originality": 0.5138489305973053,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How common do you think it is in sports for teams or players to miss their opportunity, and what are the usual consequences?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.09455791115760803,
+                            "outline_relevance": 0.614431619644165,
+                            "originality": 0.2699171304702759,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Looking back, what lessons can teams learn from missed opportunities like this to improve in the future?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.21420830488204956,
+                            "outline_relevance": 0.600135326385498,
+                            "originality": 0.35099929571151733,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 14,
+            "actual_question": "One last thing before I'll let you get out here. I do want to talk about the NBA because we've had a lot of movement in the last few days with Joe Smith heading to the Cavaliers, Stephon Marbury going to the Celtics. Some people think that the Celtics are you know, a luck - to repeat at least in the Eastern Conference but if I were in Boston, I'd be very concerned about that Ohio team? What's their name?",
+            "previous_answer": "Yeah",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think recent player movements across NBA teams have influenced the playoff chances for this season?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.06573919206857681,
+                        "outline_relevance": 0.6818338632583618,
+                        "originality": 0.32621556520462036,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you share your overall perspective on how recent player movements might reshape the NBA playoff landscape this season?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.11947167664766312,
+                            "outline_relevance": 0.6689854860305786,
+                            "originality": 0.35796618461608887,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What specific challenges or strengths do you see in the Cleveland team that might concern other contenders like Boston?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.07520165294408798,
+                            "outline_relevance": 0.5909163951873779,
+                            "originality": 0.422603964805603,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think the Celtics should adapt their strategy in response to the rising competition from teams like Cleveland?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.06494375318288803,
+                            "outline_relevance": 0.6533342003822327,
+                            "originality": 0.37620365619659424,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do you think recent player movements across NBA teams have influenced the playoff chances for this season?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.06573919206857681,
+                            "outline_relevance": 0.6818338632583618,
+                            "originality": 0.32621556520462036,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 15,
+            "actual_question": "Oh, the Cavs.",
+            "previous_answer": "Right now, what we're talking about - Cleveland is a great team in January, February. You've got to be a great team in May, in June. So I think that it's not going to luck, it's not a luck, but I like Boston a lot and I'm really liking L.A. but guess what?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You've mentioned liking Boston a lot this season. How do you assess their current performance and chances as the playoffs approach?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6001114845275879,
+                        "outline_relevance": 0.6718130111694336,
+                        "originality": 0.34131544828414917,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you generally evaluate the strengths and weaknesses of NBA teams as the season progresses into playoffs?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3565174639225006,
+                            "outline_relevance": 0.6274843215942383,
+                            "originality": 0.3359050750732422,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you elaborate on why you think Cleveland struggles in the playoffs compared to their regular season performance?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5804580450057983,
+                            "outline_relevance": 0.5396043062210083,
+                            "originality": 0.23719900846481323,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What strategic changes would you recommend for the teams you favor like Boston and LA to secure playoff success?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4876555800437927,
+                            "outline_relevance": 0.5225841403007507,
+                            "originality": 0.270485520362854,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You've mentioned liking Boston a lot this season. How do you assess their current performance and chances as the playoffs approach?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6001114845275879,
+                            "outline_relevance": 0.6718130111694336,
+                            "originality": 0.34131544828414917,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 16,
+            "actual_question": "What?",
+            "previous_answer": "I like Portland too.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: What do you appreciate most about Portland in terms of its sports culture or community?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.6876472234725952,
+                        "outline_relevance": 0.32731401920318604,
+                        "originality": 0.49032217264175415,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What do you appreciate most about Portland in terms of its sports culture or community?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.6876472234725952,
+                            "outline_relevance": 0.32731401920318604,
+                            "originality": 0.49032217264175415,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How has Portland influenced your perspective on sports and social issues through your career?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.48169705271720886,
+                            "outline_relevance": 0.36759936809539795,
+                            "originality": 0.41642022132873535,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you compare Portland to other major sports cities you've observed or written about?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5609844326972961,
+                            "outline_relevance": 0.327841579914093,
+                            "originality": 0.4089381694793701,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 17,
+            "actual_question": "Portland is well, all right, I will see and we got to get out of here. If the Clippers can beat Boston with Mikki Moore then you know…",
+            "previous_answer": "Come on.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you share a memorable moment when an underdog team surprised you in the playoffs?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.22751133143901825,
+                        "outline_relevance": 0.4987431764602661,
+                        "originality": 0.39727067947387695,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you see the unpredictability of NBA games impacting fan engagement over the season?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.12909798324108124,
+                            "outline_relevance": 0.6091578006744385,
+                            "originality": 0.2209375500679016,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share a memorable moment when an underdog team surprised you in the playoffs?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.22751133143901825,
+                            "outline_relevance": 0.4987431764602661,
+                            "originality": 0.39727067947387695,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What role do player dynamics play in shaping the outcomes of crucial NBA games, like Clippers vs. Boston?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.09998811781406403,
+                            "outline_relevance": 0.539319634437561,
+                            "originality": 0.2957592010498047,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 18,
+            "actual_question": "All right. I'll leave it alone.",
+            "previous_answer": "You don't take them. They don't take them seriously.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What do you think causes people or organizations not to take certain matters seriously, and how does that affect the outcomes?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4959805905818939,
+                        "outline_relevance": 0.3208441734313965,
+                        "originality": 0.467046856880188,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: What do you think causes people or organizations not to take certain matters seriously, and how does that affect outcomes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.470916748046875,
+                            "outline_relevance": 0.3241564631462097,
+                            "originality": 0.4444863200187683,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you share some examples from sports where a lack of seriousness led to unexpected results or shifts?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.23171357810497284,
+                            "outline_relevance": 0.46143829822540283,
+                            "originality": 0.2294805645942688,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you balance the need to be taken seriously with maintaining a conversational or humorous tone in your commentary?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2988687753677368,
+                            "outline_relevance": 0.2495587170124054,
+                            "originality": 0.3002474904060364,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What do you think causes people or organizations not to take certain matters seriously, and how does that affect the outcomes?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4959805905818939,
+                            "outline_relevance": 0.3208441734313965,
+                            "originality": 0.467046856880188,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 19,
+            "actual_question": "All right.",
+            "previous_answer": "They can't play…",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you elaborate on what you mean by 'They can't play'? Which aspects of their performance do you find lacking?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7089415788650513,
+                        "outline_relevance": 0.4248160421848297,
+                        "originality": 0.4601666331291199,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on what you mean by 'They can't play'? Which aspects of their performance are lacking?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7200886011123657,
+                            "outline_relevance": 0.42381203174591064,
+                            "originality": 0.4563005566596985,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How does the quality of play affect the overall fan experience and sports culture in your view?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2758663296699524,
+                            "outline_relevance": 0.5518648624420166,
+                            "originality": 0.34699976444244385,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: From your perspective, how important is talent versus strategy in overcoming a team's inability to perform?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.29375672340393066,
+                            "outline_relevance": 0.4758414030075073,
+                            "originality": 0.28607314825057983,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you elaborate on what you mean by 'They can't play'? Which aspects of their performance do you find lacking?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7089415788650513,
+                            "outline_relevance": 0.4248160421848297,
+                            "originality": 0.4601666331291199,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 20,
+            "actual_question": "Bill Rhoden, we have to go. Thank you very much, sir.",
+            "previous_answer": "OK. Tony, it's always a pleasure.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Tony, reflecting on our discussion today, which topics or aspects would you be most interested in exploring more deeply in future conversations?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.31227749586105347,
+                        "outline_relevance": 0.32126978039741516,
+                        "originality": 0.48805785179138184,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you usually prepare for your interviews and conversations with other sports figures or journalists?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.03344222530722618,
+                            "outline_relevance": 0.3482562005519867,
+                            "originality": 0.42644166946411133,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share a memorable moment from a past interview that shaped your perspective on sports or culture?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.14097890257835388,
+                            "outline_relevance": 0.37714147567749023,
+                            "originality": 0.3618277311325073,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Considering our conversation today, what topics would you be interested in exploring more deeply in future discussions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.089692622423172,
+                            "outline_relevance": 0.2732144594192505,
+                            "originality": 0.33636754751205444,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Tony, reflecting on our discussion today, which topics or aspects would you be most interested in exploring more deeply in future conversations?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.31227749586105347,
+                            "outline_relevance": 0.32126978039741516,
+                            "originality": 0.48805785179138184,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

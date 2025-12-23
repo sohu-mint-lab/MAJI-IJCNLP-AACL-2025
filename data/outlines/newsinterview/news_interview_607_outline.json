@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to the Nassar Settlement",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was the significance of the $500 million settlement for the victims of Larry Nassar?",
+        "importance": "critical",
+        "keywords": [
+          "settlement",
+          "Larry Nassar",
+          "victims"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How many victims are acknowledged in the settlement, and what does the additional fund signify?",
+        "importance": "high",
+        "keywords": [
+          "victims",
+          "settlement",
+          "unidentified"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Personal Experiences of Victims",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did Kyle Stephens describe her feelings while listening to other victims' testimonies?",
+        "importance": "critical",
+        "keywords": [
+          "feelings",
+          "testimonies",
+          "Kyle Stephens"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What relief does Kyle express upon closing the legal chapter of her experience?",
+        "importance": "high",
+        "keywords": [
+          "relief",
+          "legal chapter",
+          "Kyle Stephens"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Cultural Reflection and Changes",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What does Kyle believe needs to change to prevent further incidents of sexual abuse?",
+        "importance": "critical",
+        "keywords": [
+          "change",
+          "sexual abuse",
+          "culture"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How has the shared experience among victims impacted the movement against sexual abuse?",
+        "importance": "high",
+        "keywords": [
+          "shared experience",
+          "movement",
+          "sexual abuse"
+        ]
+      }
+    ]
+  }
+]

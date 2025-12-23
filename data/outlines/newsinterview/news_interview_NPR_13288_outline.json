@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Fly Research",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was the focus of Michael Dickinson's recent research on flies?",
+        "importance": "critical",
+        "keywords": [
+          "fly research",
+          "Michael Dickinson",
+          "escape mechanisms"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the fruit fly react when it perceives an incoming fly swatter?",
+        "importance": "high",
+        "keywords": [
+          "fruit fly",
+          "reaction",
+          "fly swatter"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Visual Systems and Quick Movements",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What characteristics of the fly's visual system enable it to react so quickly?",
+        "importance": "critical",
+        "keywords": [
+          "visual system",
+          "quick reactions",
+          "neural processing"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does the resolution of a fly's visual system compare to that of humans?",
+        "importance": "high",
+        "keywords": [
+          "resolution",
+          "visual comparison",
+          "humans and flies"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Flight Mechanics and Simulations",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What innovative method does Dickinson use to study fly flight dynamics?",
+        "importance": "high",
+        "keywords": [
+          "flight simulator",
+          "study methods",
+          "fly dynamics"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are the goals of creating a robotic fly in Michael Dickinson's lab?",
+        "importance": "optional",
+        "keywords": [
+          "robotic fly",
+          "research goals",
+          "engineering"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Research Directions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What future research does Michael Dickinson plan to conduct on flies?",
+        "importance": "critical",
+        "keywords": [
+          "future research",
+          "electrophysiological studies",
+          "fly behavior"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does the research aim to understand the fly's brain activity during escape responses?",
+        "importance": "high",
+        "keywords": [
+          "brain activity",
+          "escape responses",
+          "neuron imaging"
+        ]
+      }
+    ]
+  }
+]

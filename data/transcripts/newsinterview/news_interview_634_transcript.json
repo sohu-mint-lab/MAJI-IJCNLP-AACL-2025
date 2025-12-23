@@ -1,0 +1,184 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "This is SCIENCE FRIDAY, I'm Ira Flatow. If you have a smartphone, you might take the Internet for granted, right? It's always there. But around the world, some four and a half billion people still are not connected. Google, being in the Internet business, has a plan to expand its reach, bring Internet to all these people, but it's not by spooling out fiber-optic cable or building cell towers. It's using a technology that, well, sort of sounds like it belongs in another century: free-floating balloons. They call it Project Loon. They've already launched a pilot system in New Zealand and plan to expand that to the entire 40th parallel south, a ring around the globe. Can it work? How loony is this idea? How do you ensure coverage with a network of thousands of balloons floating through the stratosphere? How do you control these things? Mike Cassidy is the leader of Project Loon, based at Google X, that's Google's secret lab in Mountain View, California. He joins us by phone. Welcome to SCIENCE FRIDAY, Dr. Cassidy."
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "Thanks so much."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Balloons, whose idea was it to have balloons?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "Well, I mean, Larry Page has talked about using balloons for Internet for a while. It's an older technology, as you pointed out. Chinese used them quite a while ago to signal from high up. So it's been around for - the idea's been around for a while, actually."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Tell me about the pilot program that's running now in New Zealand? How many balloons have you launched? How does it work?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "We launched about 30 balloons down in New Zealand, and they're about 20 kilometers up, twice as high as commercial airplanes fly, and they can bring 3G signal from that height all the way down to the ground."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "3G signal from how many feet, 30,000?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "Twenty kilometers up, more like 70,000, 70,000 feet, yeah."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Seventy thousand, and you can get 3G signals down there. Wow."
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "Yep."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And it's working?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "Yeah, it works great."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Are you expanding the program at all in a larger test?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "So, the one thing about balloons is they tend to move sort of west to east. So once we put balloons up there, they will float in a ring around the world, and they're - some of the balloons are right now on their way to Chile and Argentina. The goal of the project, once we roll it out further, is to have a continuous ring around the world at 40 degrees south latitude, and anyone under those - the path of the balloons would be able to use the trial service."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So it's like if I go up in a hot air balloon, I sort of - I go where the air current go. Is that the same thing here?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "And that's one of the cool things about the project. We can steer the balloons by increasing or decreasing the altitude of the balloon and finding a wind that's going the direction we want. So if we see we want to go a little bit further north, we perhaps drop down a half a kilometer, find a wind going that direction and then stop at that altitude, and that's the way we steer the balloons."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And how long can they stay up?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "We're hoping the balloons will stay up for 100 days. This design has lasted 58 days previously. So we need to make a few improvements to get to that 100-day duration."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Now we talked to Terry Hock, who is a senior engineer at the National Center for Atmospheric Research, and he has a lot of experience launching these sort of balloons. And he said, and let me quote him: \"It's very feasible to launch them and have them navigate the globe. In terms of trying to control them, steering the balloon by changing altitude is incredibly difficult to do. I wouldn't have a whole lot of faith in that part of it.\" Would you say that there are significant challenges in that?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "There's definitely challenges. It requires a pretty sophisticated computational algorithm to say, OK, balloon number one is now moving 10 miles an hour east over a certain spot; balloon number two, in order to take its place, it's moving slightly southeast. Balloon number three, which is going to take that one's place, is at 14 miles an hour moving a slightly different direction. But that's one of the things that Google has experience with, building a sort of large simulation, large computational ability and be able to program these thousands of balloons to go to right place at the right time."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And where is that right place?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "Well, for the pilot test, for example, if we want to have a continuous ring, we don't actually have them uniformly distributed around the globe. For example we don't need the same density over the middle of the Pacific Ocean as we do over Christ Church itself. But by steering them and planning, you can have them appear in the right density in the sky over the places that need coverage."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And where - would those - those are under-covered places around the world. Where are the prime places for that?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "There's lots of places. In the Southern Hemisphere alone, two-thirds of the countries, the cost of Internet access is higher than the average monthly income for people in those countries. Even in China and India, there's over a billion people that don't have good Internet coverage. So I think there's lots of places around the world where there's sort of remote and rural areas that don't have coverage, or it's unaffordable."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So would you have to keep relaunching new balloons as these go down just to keep that ring going?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "Yes, every 100 days you'd have to put up another balloon to take the place of the one that came down."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Now at those altitudes, aren't we talking about extremely cold temperatures, like minus-70 below Fahrenheit up there?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "It's a tough environment. In the daytime it's typically minus-40 Celsius, and at night it's minus-60 Celsius. It's also very low atmospheric density, only about 2 or 3 percent of the density of the air up there that it is down here. So it's closer to a space environment. It's also a high-ultraviolet environment. The sun beats down really hard on our balloons. So it is a tough environment to live in."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Why is this better than just putting a satellite up and doing it that way?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "So we don't think our solution or anyone's solution is the only solution. We think there are different approaches. One of the interesting things about our approach is we can continuously update our service every 100 days. With communications satellites, and I actually, I'm an aerospace engineer, I used to build communications satellites, it often takes quite a while, a number of years, to build the satellites. It can be quite expensive, hundreds of millions of dollars. And it's also on the order of a hundred million dollars to put the satellite up. And then the satellites sometimes will have a life of 10 years or so, and that's great except that also means the technology was - it's not easy to get the latest technology up into the satellite."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So you can - by launching a new balloon every 100 days, you can upgrade the hardware, too, by doing that."
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "That's right. You get the latest state-of-the-art technology every 100 days."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And what is - give us an idea of the costs involved here. What does a balloon and its package cost to get up there?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "So this is very early in the stage of the sort of pilot test. We're building these things by hand now. But the exciting thing is the envelope for the balloon is made out of polyethylene, plastic, so it's not a very exotic plastic, and the electronical components are mostly off the shelf, I mean, an off-the-shelf-type battery, an electronics GPS module. So we're hopeful that by using low-cost parts, off-the-shelf-type technology, we can make the system low cost and therefore very affordable for people when we roll out the service."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And when would that be rolled out?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "Well again, it's sort of early days. We've just launched last Saturday this sort of small pilot test. So it's really hard to predict how long it will take to expand, yet alone to other areas in New Zealand and other areas around the 40th degree latitude let alone sort of moving to other areas. But we hope soon."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And 40 degree latitude, would that be like where New Zealand is in the southern Pacific and head out there?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "That's right, that's right, and that was one of the reasons we thought it would be a good place to do our pilot test because it was an easy number of countries to do the test in, four countries: New Zealand, Australia, Chile and Argentina would be sort of flown over by the balloons. So it made it a more manageable size."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And I guess you write off the balloon when it comes down, right? No one's going to retrieve it. It might come down in the ocean."
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "No, we plan to retrieve - we hope to retrieve all the balloons. We have a very high retention and recovery rate right now. We can control where the balloons come down. So as they become near the end of their life, we open up a little valve at the top and bring the balloon down to a recovery area. We had a boat off the coast of New Zealand for some of the test balloons. When we were done with the test, we brought them down in the ocean and recovered them. But yes, we plan to recover almost all the balloons if we can."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And how many total number of balloons do you envision in the ring at any one time?"
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "For a ring around the 40th degree south latitude, we think it'll take about 300 balloons, spacing them out, depending on whether the coverage density is required. And obviously to expand beyond that ring of 40 degrees south latitude will take, you know, thousands of balloons to go more than that."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Sounds exciting. We wish you luck, Mike."
+    },
+    {
+      "speaker": "Mike Cassidy",
+      "text": "Thanks so much for having us on today."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You're welcome. Mike Cassidy, leader of Project Loon. That's based at Google X. He was joining us by phone to talk about that."
+    }
+  ]
+}

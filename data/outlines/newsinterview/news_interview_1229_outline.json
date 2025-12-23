@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Semiconducting Cement",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What discovery was made by researchers in Japan regarding cement?",
+        "importance": "critical",
+        "keywords": [
+          "cement",
+          "semiconductor",
+          "discovery"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What are some potential applications for semiconducting cement?",
+        "importance": "high",
+        "keywords": [
+          "applications",
+          "technology",
+          "semiconducting cement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Properties and Transformation of Cement",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does the process of transforming cement into a metal work?",
+        "importance": "critical",
+        "keywords": [
+          "transformation",
+          "metal",
+          "conductivity"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What changes occur in the cement when it is turned into a glass?",
+        "importance": "high",
+        "keywords": [
+          "glass",
+          "cement",
+          "properties"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Future Research Directions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the next steps in research for Chris Benmore and his team?",
+        "importance": "critical",
+        "keywords": [
+          "future research",
+          "materials",
+          "properties"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What other materials could potentially exhibit similar conductive properties?",
+        "importance": "high",
+        "keywords": [
+          "materials",
+          "conductive properties",
+          "research"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Scientific Techniques and Tools Used",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What scientific tools were utilized to study the properties of the transformed cement?",
+        "importance": "high",
+        "keywords": [
+          "X-rays",
+          "aerodynamic levitation",
+          "tools"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does the aerodynamic levitation furnace work in this research?",
+        "importance": "optional",
+        "keywords": [
+          "aerodynamic levitation",
+          "furnace",
+          "research"
+        ]
+      }
+    ]
+  }
+]

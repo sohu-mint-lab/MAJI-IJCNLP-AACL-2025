@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Global Financial Crisis",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the main factors that contributed to the global financial meltdown?",
+        "importance": "critical",
+        "keywords": [
+          "financial crisis",
+          "global meltdown",
+          "housing bubble"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did credit growth in multiple regions contribute to the crisis?",
+        "importance": "high",
+        "keywords": [
+          "credit growth",
+          "global crisis",
+          "economic impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Regional Impacts of the Recession",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How are Eastern European countries specifically affected by the credit crunch?",
+        "importance": "high",
+        "keywords": [
+          "Eastern Europe",
+          "credit crunch",
+          "financial impact"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What effects is the recession having on Asian economies in relation to exports?",
+        "importance": "critical",
+        "keywords": [
+          "Asia",
+          "exports",
+          "recession effects"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Effects on Emerging Economies and Immigration",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what ways are African and Latin American economies faring compared to Europe and the U.S. during the downturn?",
+        "importance": "high",
+        "keywords": [
+          "Africa",
+          "Latin America",
+          "economic impact"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What impact has the economic downturn had on immigration patterns?",
+        "importance": "high",
+        "keywords": [
+          "immigration",
+          "economic downturn",
+          "globalization"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Australia's Economic Position",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Australia's situation during the global recession compare to that of Western Europe?",
+        "importance": "high",
+        "keywords": [
+          "Australia",
+          "global recession",
+          "Western Europe"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are the specific challenges Australia faces due to the drop in commodity prices?",
+        "importance": "optional",
+        "keywords": [
+          "commodity prices",
+          "Australia",
+          "economic challenges"
+        ]
+      }
+    ]
+  }
+]

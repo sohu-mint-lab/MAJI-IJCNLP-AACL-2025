@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to the Mueller Report",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the key events surrounding the release of the Mueller report?",
+        "importance": "critical",
+        "keywords": [
+          "Mueller report",
+          "release",
+          "Attorney General"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How have the Democrats and Republicans responded to the report's findings?",
+        "importance": "high",
+        "keywords": [
+          "Democrats",
+          "Republicans",
+          "response"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Demands for Transparency",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Why do Democrats insist on having access to the underlying documents related to the investigation?",
+        "importance": "critical",
+        "keywords": [
+          "transparency",
+          "underlying documents",
+          "Democrats"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What precedent do Democrats cite for the release of investigative materials?",
+        "importance": "high",
+        "keywords": [
+          "precedent",
+          "investigative materials",
+          "special counsel"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Republican Perspective and Legislative Actions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are some Republican viewpoints on the release of the Mueller report?",
+        "importance": "high",
+        "keywords": [
+          "Republican views",
+          "release",
+          "Mueller report"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What actions can Congress take if the Attorney General does not make the report public?",
+        "importance": "critical",
+        "keywords": [
+          "Congress",
+          "Attorney General",
+          "subpoena"
+        ]
+      }
+    ]
+  }
+]

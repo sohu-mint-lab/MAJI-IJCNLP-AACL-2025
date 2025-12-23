@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Dr. Per Peterson",
+    "age": 50,
+    "personality": "Informed and engaging, with a strong emphasis on safety and innovation in nuclear technology, he balances technical knowledge with an approachable demeanor.",
+    "employment": "Professor and Chair of the Department of Nuclear Engineering",
+    "communication_style": "Clear and methodical, making complex topics accessible while inviting dialogue.",
+    "notes": "Has extensive experience in passive safety systems for nuclear reactors and is actively involved in policy discussions around nuclear waste management."
+  }
+}

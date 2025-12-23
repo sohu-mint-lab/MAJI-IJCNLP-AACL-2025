@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Study",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was the main focus of the early clinical trial using embryonic stem cells?",
+        "importance": "critical",
+        "keywords": [
+          "clinical trial",
+          "embryonic stem cells",
+          "macular degeneration"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How are embryonic stem cells being transformed for use in treating eye diseases?",
+        "importance": "high",
+        "keywords": [
+          "transform",
+          "retinal pigment epithelium",
+          "RPE cells"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Patients and Initial Results",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What improvements in vision were observed in the patients after the treatment?",
+        "importance": "critical",
+        "keywords": [
+          "vision improvement",
+          "patients",
+          "transplant"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Why is it important to interpret the initial results cautiously?",
+        "importance": "high",
+        "keywords": [
+          "caution",
+          "interpretation",
+          "preliminary data"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Future Research and Implications",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the next steps for the clinical trials and patient recruitment?",
+        "importance": "critical",
+        "keywords": [
+          "clinical trials",
+          "patient recruitment",
+          "future steps"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What safeguards are in place to ensure the safety of patients during these trials?",
+        "importance": "high",
+        "keywords": [
+          "safety",
+          "clinical trials",
+          "regulatory concerns"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Ethical Considerations and Challenges",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does the method of obtaining embryonic stem cells factor into ethical discussions?",
+        "importance": "high",
+        "keywords": [
+          "ethical considerations",
+          "embryonic stem cells",
+          "PGD"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What challenges have Advanced Cell Technology faced in moving the research forward?",
+        "importance": "optional",
+        "keywords": [
+          "challenges",
+          "research",
+          "funding"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "Context of Impeachment Inquiry",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is Chris Ruddy's perspective on the impeachment inquiry and its impact on President Trump's reelection?",
+        "importance": "critical",
+        "keywords": [
+          "impeachment",
+          "Trump",
+          "reelection",
+          "perspective"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Chris Ruddy's view differ from that of other advisers to the president?",
+        "importance": "high",
+        "keywords": [
+          "advisers",
+          "divergence",
+          "impeachment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Risk Assessment and Public Perception",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What risks does Ruddy associate with the current impeachment inquiry concerning the president?",
+        "importance": "critical",
+        "keywords": [
+          "risks",
+          "impeachment",
+          "public perception"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "In what ways does Ruddy believe the public might respond to the impeachment inquiry?",
+        "importance": "high",
+        "keywords": [
+          "public response",
+          "impeachment",
+          "poll data"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Role of Communication and Strategy",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How does Ruddy view President Trump's communication style regarding the impeachment allegations?",
+        "importance": "critical",
+        "keywords": [
+          "communication style",
+          "Trump",
+          "impeachment"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What concerns does Ruddy express regarding the White House's preparedness for the impeachment process?",
+        "importance": "high",
+        "keywords": [
+          "preparedness",
+          "White House",
+          "impeachment process"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Conclusion and Legislative Focus",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What does Ruddy believe should be the primary focus of the government amidst the impeachment inquiry?",
+        "importance": "high",
+        "keywords": [
+          "legislative focus",
+          "government",
+          "impeachment"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Ruddy characterize Nancy Pelosi's political acumen in relation to the impeachment process?",
+        "importance": "optional",
+        "keywords": [
+          "Nancy Pelosi",
+          "political acumen",
+          "impeachment"
+        ]
+      }
+    ]
+  }
+]

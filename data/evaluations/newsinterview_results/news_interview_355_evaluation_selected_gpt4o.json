@@ -1,0 +1,355 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.5240456648170948,
+                "avg_context_relevance": 0.38628397043794394,
+                "avg_outline_relevance": 0.6655304655432701,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 37.5,
+            "weighted_coverage_score": 40.909090909090914,
+            "covered_questions": 3,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "President Trump will spend this Christmas in Washington, forgoing another trip to Florida. He's presiding over a partially shutdown federal government. And there's been dissent within his own administration over his recently announced decision to withdraw U.S. troops from Syria and Afghanistan. This week, Brett McGurk, the top diplomat in charge of the global fight against ISIS, announced he has quit - this after Trump's well-respected Secretary of Defense Jim Mattis submitted a very public resignation. The president announced today that Mattis is out ahead of schedule, as of New Year's Day. Retired Gen. Jack Keane is chairman of the Institute for the Study of War. He personally recommended Gen. Mattis to President Trump. And he has been speaking to the president. He is with us now. General, welcome to the program.",
+            "previous_answer": "Good morning.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share the key factors that influenced President Trump's decision to stay in Washington for Christmas instead of traveling this year?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.06500230729579926,
+                        "outline_relevance": 0.6811828017234802,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you share the key factors that influenced President Trump's decision to stay in Washington for Christmas instead of traveling this year?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.06500230729579926,
+                            "outline_relevance": 0.6811828017234802,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "You've spoken with the president about his decisions in Syria and Afghanistan. You are against this drawdown. What did you tell him?",
+            "previous_answer": "Well, I don't discuss my conversations with the president with anybody but him. He hosts the meeting, so it's up to him to release that information. But I will tell you how I feel about it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Without revealing specific details of your discussions, could you share your personal concerns about the U.S. troop withdrawal from Syria and Afghanistan?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.42425960302352905,
+                        "outline_relevance": 0.8110453486442566,
+                        "originality": 0.6218040585517883,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Without revealing specific details of your discussions, could you share your personal concerns about the U.S. troop withdrawal from Syria and Afghanistan?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.42425960302352905,
+                            "outline_relevance": 0.8110453486442566,
+                            "originality": 0.6218040585517883,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Sure.",
+            "previous_answer": "I do think it's a huge strategic mistake. You know, how we end conflict, in many respects, is more important than how we start it. And I do think, in time, the president may find himself to regret this decision. I do hope he does reconsider it. My concerns are these. There are still the remnants of ISIS in southeastern Syria. And we have to finish that. And many people are confused by what role the soldiers or our troops are performing there. We have about 2,200. They are not the primary fighters. The primary fighters are Syrians, Kurds and Arabs. Our leaders there are assisting them in the planning of operations. And they're coordinating the use of artillery fire and air power, which, at times, can be very decisive when you have pitched foot infantry battles, which these are largely. And so to pull those forces out of there will deny them the opportunity of that artillery and airpower, which would put them at a disadvantage. And many people think that our forces are doing the primary fighting. They are not. They're assisting. But they are in a dangerous place to be sure. I don't want to deceive anybody of that. They're in a combat zone. They're right where the fighting is taking place. So clearly, there's danger and risk to them.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain what risks or consequences might arise from a power vacuum in eastern Syria after the U.S. troop withdrawal?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4939020574092865,
+                        "outline_relevance": 0.7520405054092407,
+                        "originality": 0.36809873580932617,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain what risks or consequences might arise from a power vacuum in eastern Syria after the U.S. troop withdrawal?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4939020574092865,
+                            "outline_relevance": 0.7520405054092407,
+                            "originality": 0.36809873580932617,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Are...",
+            "previous_answer": "I believe ISIS will indeed - this is not idle speculation. Our intelligence services have been forecasting, for some time, the resiliency that ISIS has and the huge potential they have to re-emerge not just as a terrorist organization but to begin to retake territory again. That's my No. 1 reason. The second one is we're giving all of Syria now - the eastern part of it - to Iran. And they have - and as such, they will achieve a strategic victory because they'll have established a Shia crescent from Iran through Iraq through Syria to Lebanon to the Mediterranean. This is a goal that they've been seeking for 35 years.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain the potential consequences of the power vacuum in eastern Syria for local groups, such as the Kurds and allied forces?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.49352139234542847,
+                        "outline_relevance": 0.777595043182373,
+                        "originality": 0.16930872201919556,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you explain the potential consequences of the power vacuum in eastern Syria for local groups, such as the Kurds and allied forces?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.49352139234542847,
+                            "outline_relevance": 0.777595043182373,
+                            "originality": 0.16930872201919556,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "General, I'm assuming that you told this to the president. I have no reason to believe you'd just be telling this to me. Our Tom Bowman is reporting that there are various people who are trying to moderate President Trump's decision on Syria and Afghanistan. Do you think that they will be able to change his mind?",
+            "previous_answer": "I don't know for sure. I've talked to other people in the administration, as well. I do know this - that the Saudis have come forward now with a sense of urgency, given the fact that we've announced our withdrawal, to fund the reconstruction effort in northeastern Syria. That's where the battle took place in Raqqa. And there's no electricity. The buildings have been destroyed - schools, hospitals, et cetera, by all that fierce fighting that took place for over a year. It takes - it'll take hundreds of millions of dollars to put that area back together. We committed ourselves to those people to do that. I would hope that - given that is taking place, that the president would reconsider and keep the forces there to ensure that that reconstruction effort will actually achieve its objectives. And we would be able to provide the stability and security to do that.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe what specific strategies or measures you believe the U.S. military should implement to effectively support and protect the reconstruction efforts in northeastern Syria?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6095302104949951,
+                        "outline_relevance": 0.7720710635185242,
+                        "originality": 0.38667404651641846,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you describe what specific strategies or measures you believe the U.S. military should implement to effectively support and protect the reconstruction efforts in northeastern Syria?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6095302104949951,
+                            "outline_relevance": 0.7720710635185242,
+                            "originality": 0.38667404651641846,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "So what I'm hearing from you is that maybe they're not trying to change his mind but perhaps moderate his decision.",
+            "previous_answer": "Yes. Yes. That's actually a better way to explain it. I think that's exactly what may indeed be going on.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you explain who might be involved in moderating the president’s decision and what their roles are?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.3166655898094177,
+                        "outline_relevance": 0.5927836298942566,
+                        "originality": 0.5904765129089355,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you explain who might be involved in moderating the president’s decision and what their roles are?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.3166655898094177,
+                            "outline_relevance": 0.5927836298942566,
+                            "originality": 0.5904765129089355,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "I have just one question in the few seconds we have left. You told my colleague Mary Louise Kelly on Thursday that you do not intend to go back into public service should you be asked to replace Gen. Mattis. I wonder who you would recommend to succeed the secretary of defense?",
+            "previous_answer": "Well, I'm not going to get into that. I mean, I made a decision in November of 2016 that I would not go back into public service. And I haven't changed this for personal reasons. But I have provided names to the president. But that's between the two of us.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share more about the personal considerations that led you to decide against returning to public service in November 2016?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6146993041038513,
+                        "outline_relevance": 0.5272034406661987,
+                        "originality": 0.5014115869998932,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you share more about the personal considerations that led you to decide against returning to public service in November 2016?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6146993041038513,
+                            "outline_relevance": 0.5272034406661987,
+                            "originality": 0.5014115869998932,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Retired Gen. Jack Keane, thank you so much for talking with us.",
+            "previous_answer": "Yeah. Thank you very much.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given your extensive experience, how do you typically prepare for interviews that delve into complex military and political issues?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.07269129902124405,
+                        "outline_relevance": 0.4103218913078308,
+                        "originality": 0.5545916557312012,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Given your extensive experience, how do you typically prepare for interviews that delve into complex military and political issues?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.07269129902124405,
+                            "outline_relevance": 0.4103218913078308,
+                            "originality": 0.5545916557312012,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

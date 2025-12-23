@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Kim Jong Un's Succession and Background",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What indications are there that Kim Jong Un is being groomed as Kim Jong Il's successor?",
+        "importance": "critical",
+        "keywords": [
+          "Kim Jong Un",
+          "succession",
+          "Kim Jong Il"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How uncertain is the situation surrounding Kim Jong Un's rise to leadership?",
+        "importance": "high",
+        "keywords": [
+          "uncertainty",
+          "leadership",
+          "succession"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Power Dynamics in North Korea",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What roles do Kim Kyong Hui and Jang Song Thaek play in the power structure of North Korea?",
+        "importance": "high",
+        "keywords": [
+          "power dynamics",
+          "Kim Kyong Hui",
+          "Jang Song Thaek"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does the promotion of Kim Jong Un to general influence military power in North Korea?",
+        "importance": "critical",
+        "keywords": [
+          "military power",
+          "promotion",
+          "Kim Jong Un"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "International Relations and Perceptions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is China's stance on the succession of Kim Jong Un?",
+        "importance": "high",
+        "keywords": [
+          "China",
+          "North Korea",
+          "Kim Jong Un"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do North Koreans perceive the leadership transition in light of the Kim family's history?",
+        "importance": "optional",
+        "keywords": [
+          "perception",
+          "leadership transition",
+          "Kim family"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Implications for North Korea",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What challenges might Kim Jong Un face as a young and inexperienced leader?",
+        "importance": "critical",
+        "keywords": [
+          "challenges",
+          "leadership",
+          "Kim Jong Un"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Will the succession of Kim Jong Un lead to any significant changes in North Korea's policies?",
+        "importance": "high",
+        "keywords": [
+          "policy changes",
+          "succession",
+          "North Korea"
+        ]
+      }
+    ]
+  }
+]

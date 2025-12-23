@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Syrian Conflict",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What events led to the ongoing Syrian civil war?",
+        "importance": "critical",
+        "keywords": [
+          "Syrian conflict",
+          "civil war",
+          "uprising"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has the role of foreign powers influenced the situation in Syria?",
+        "importance": "high",
+        "keywords": [
+          "foreign influence",
+          "foreign powers",
+          "Syria"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Current Situation in Syria",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What is the current state of the Syrian population after eight years of conflict?",
+        "importance": "critical",
+        "keywords": [
+          "Syrian population",
+          "current state",
+          "conflict impact"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What factors affect the return of refugees to Syria?",
+        "importance": "high",
+        "keywords": [
+          "refugees",
+          "return",
+          "Syria"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Justice and Accountability Issues",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What prospects are there for justice regarding war crimes committed during the conflict?",
+        "importance": "critical",
+        "keywords": [
+          "justice",
+          "war crimes",
+          "accountability"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How are European courts involved in addressing atrocities committed in Syria?",
+        "importance": "high",
+        "keywords": [
+          "European courts",
+          "atrocities",
+          "Syria"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Outlook for Syria",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What does the short-term future look like for the Syrian people?",
+        "importance": "critical",
+        "keywords": [
+          "future for Syria",
+          "short-term",
+          "Syrian people"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How might the current dynamics of communication among Syrians evolve in the future?",
+        "importance": "high",
+        "keywords": [
+          "communication",
+          "Syrians",
+          "dynamics"
+        ]
+      }
+    ]
+  }
+]

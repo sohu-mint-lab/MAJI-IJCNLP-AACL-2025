@@ -1,0 +1,86 @@
+[
+  {
+    "id": "S1",
+    "section": "Conflicting Messages from the Trump Administration",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What examples illustrate the conflicting messages coming from President Trump and his national security team?",
+        "importance": "critical",
+        "keywords": [
+          "conflicting messages",
+          "national security",
+          "Trump"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Impact on Policy and Administration Credibility",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does the discrepancy between President Trump's statements and his administration's actions affect policy credibility?",
+        "importance": "high",
+        "keywords": [
+          "policy",
+          "administration",
+          "credibility"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Can you provide details on how Congress has responded to the president’s stance on issues like NATO and Russian sanctions?",
+        "importance": "high",
+        "keywords": [
+          "Congress",
+          "NATO",
+          "sanctions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Role of the First Lady and Public Perception",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What role does the First Lady play in responding to President Trump's statements, and how does that influence public perception?",
+        "importance": "high",
+        "keywords": [
+          "First Lady",
+          "public perception",
+          "response"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Dynamics between the Trump Administration and the Press",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How has the relationship between the Trump administration and the press evolved, according to Mara Liasson?",
+        "importance": "high",
+        "keywords": [
+          "press",
+          "relationship",
+          "Trump administration"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "In what ways has President Trump’s rhetoric impacted the atmosphere in the White House briefing room?",
+        "importance": "optional",
+        "keywords": [
+          "briefing room",
+          "atmosphere",
+          "rhetoric"
+        ]
+      }
+    ]
+  }
+]

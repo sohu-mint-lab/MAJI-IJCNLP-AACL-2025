@@ -1,0 +1,79 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Summer Reading",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What type of books does Susan Davis prefer for summer reading?",
+        "importance": "critical",
+        "keywords": [
+          "summer reading",
+          "book preferences",
+          "page-turners"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What recommendations does Barrie Hardymon suggest alongside summer reads?",
+        "importance": "high",
+        "keywords": [
+          "recommendations",
+          "sunscreen"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Recommendations for Fiction Readers",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What is the premise of the book 'Pieces Of Her' by Karin Slaughter?",
+        "importance": "critical",
+        "keywords": [
+          "Pieces Of Her",
+          "Karin Slaughter",
+          "crime mystery"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Barrie describe the reading experience of 'Wolf Hall'?",
+        "importance": "high",
+        "keywords": [
+          "Wolf Hall",
+          "reading experience",
+          "historical fiction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Suggestions for Nonfiction Readers",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What nonfiction book does Barrie recommend for readers who prefer smart literature?",
+        "importance": "critical",
+        "keywords": [
+          "nonfiction",
+          "Murder By The Book",
+          "smart literature"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What unique perspective does 'Murder By The Book' offer in its narrative?",
+        "importance": "high",
+        "keywords": [
+          "Murder By The Book",
+          "perspective",
+          "class"
+        ]
+      }
+    ]
+  }
+]

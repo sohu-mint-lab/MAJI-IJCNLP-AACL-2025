@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of The Opportunity Scholarship",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is The Opportunity Scholarship proposed by Governor Lujan Grisham?",
+        "importance": "critical",
+        "keywords": [
+          "Opportunity Scholarship",
+          "tuition-free",
+          "higher education"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Economic Implications and Funding",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does Governor Lujan Grisham plan to fund the scholarship?",
+        "importance": "high",
+        "keywords": [
+          "funding",
+          "economic growth",
+          "oil and gas revenue"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What evidence supports the belief that this initiative will benefit New Mexico's economy?",
+        "importance": "high",
+        "keywords": [
+          "economic engine",
+          "evidence-based policies",
+          "job creation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Public Reaction and Political Landscape",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What kind of public reaction has the scholarship proposal received in New Mexico?",
+        "importance": "high",
+        "keywords": [
+          "public reaction",
+          "support",
+          "education challenges"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Governor Lujan Grisham address the varying opinions on government roles in education funding?",
+        "importance": "optional",
+        "keywords": [
+          "government role",
+          "political debate",
+          "education funding"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Outlook and Goals",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What long-term goals does Governor Lujan Grisham have for the Opportunity Scholarship?",
+        "importance": "high",
+        "keywords": [
+          "long-term goals",
+          "sustainability",
+          "education system"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Governor Lujan Grisham believe this initiative could influence other states?",
+        "importance": "optional",
+        "keywords": [
+          "influence",
+          "other states",
+          "national conversation"
+        ]
+      }
+    ]
+  }
+]

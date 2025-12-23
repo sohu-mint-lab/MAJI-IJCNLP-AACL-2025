@@ -1,0 +1,200 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "This is Talk of the Nation Science Friday, I'm Ira Flatow.  Coming up later in the hour, your summer science activities.  We want you to call in and tell us what you did on your summer vacation.  And a new high-resolution camera goes into orbit that'll probably make your Google, Google Earth and Google Map look a lot better.  But first, hold on. Got him?  I think.  No! Missed it, got away, you know.  Flies, it's almost impossible to swat them sometimes, and new research may explain why flies are so hard to whack and swat.  Super high-speed videos show that as a swatter - fly swatter comes into view, the fly stops what it's doing, and begins to reposition its body.  It's a sort of a little ballet moving its legs so that it's poised to take off in the opposite direction of the incoming swatter.  And here's the most amazing part, the fruit fly can pull off this escape moving in hundredths of milliseconds, a hundred milliseconds to do all of that.  How could an organism with a brain the size of a poppy seed think so fast?  Well, here to talk about it is Michael Dickinson, he's a professor bioengineering at the California Institute of Technology.  He published his research in the journal Current Biology this week.  Welcome to Science Friday."
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Thanks Ira, welcome."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You're welcome.   I want to let our listeners know that they can actually see this video we have that you've helped us provide some of the video with on  sciencefriday.com under  our video pick of the week.  They can watch these flies - they sort of do a ballet there, don't they?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Yeah, it's quite elegant footwork.  And as you said, especially giving that it takes place so quickly which is why of course that no one is able to see this before because our eyes are way too sluggish to observe these motions."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So give us a little thumbnail of what the fly does."
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Well, the first thing the fly does when it sees the looming swatter is to stop what  it's doing   Flies are quite active creatures, most people probably. If you watch  a fly on say,  a coffee table, you'll see that they're rubbing their little legs together to groom themselves, they're actually quite clean creatures.  But the first thing they'll do when they see the swatters is to stop moving.  And then their brain is able to calculate the direction from which the swatter is coming, and they'll move their legs and body in a new position so that when they push off with their legs they'll jump away from the swatter.  Right before they push off, they actually raise their wings very carefully so that when they jump they can coordinate that jump with their first downstroke of flight."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So they're actually watching the swatter is in motion while all of this is happening."
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "That's right."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Wow."
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "And flies have a visual system that is well-designed to do this, they have the fastest visual system known of any organism.  Their eyes don't see, by the way, a hundred fly swatters coming at them. They form a single image of the world just as our eyes do.  They just happen to use many lenses to do it.  And their  resolution is very poor. The fruit flies  we work with have the equivalent of about a 25 by 25 pixel camera.  But that camera is very, very fast, about 10 times faster than the human visual system."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "How are you able to able to capture the quick movements that you say happen faster than the blink of an eye?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Well, there are sort of two parts to it.  One is the - the fly wrangling part.  In order to capture a literally hundreds of video sequences, we had to - and this was mostly done by a very talented graduate student in my lab named Gwyneth Card.  She was able to lure flies one by one onto the top of a little platform.  And once they settle down on the platform, we would release our automated fly swatter which would fall down at the fly at the same time we are capturing the fly's motions with the high speed video."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "How high speed we are talking about?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "For these images, for this study, we use 5,400 frames per second.  And in other, another little trick is that we can't use bright lights during the filming process because that would basically blind the flies.  They're very visual creatures so all of this - all of these experiments were actually done under infrared lighting that neither the flies nor we can see but the camera can.  So it's a sort of night vision,"
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Wow.  And if you moved the swatter around, does the fly know it's moving around?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Yes. So if the swatter is coming from a different direction, the fly's brain is able to determine that and adjust its leg posture accordingly."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And what's the size of the brain of this fly that it can do these things and coordinate all these actions?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Well the brain is rather small, now they're - of course they're different species of flies, and the brain will scale accordingly.  But the fly has about 300,000 neurons in its brain, and that's almost exactly 300,000 times fewer than our brain."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Now what makes the fly able to react so quickly?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Well a lot of it has a lot to do with the visual processing. As I said, the fly's visual system is really specialized for rapidly analyzing the visual world, and they need very fast visual systems because they fly, and as the flying animals move for the world the world sort of runs across their retina very quickly."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Hmm.  So if you brought a fly to a movie, for example, it would see the flickering of the movie like to see each one of the frames?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "That's right. A typical movie is displayed at 24 images per second, which are sluggish.  A human visual system will just perceive as a smeared portion, that's why it looks like a moving picture whereas the fly would more likely perceive it as a sideshow."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Now your lab also looks at the flight of flies, and the aerodynamics are actually pretty complicated."
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Oh absolutely. It's very, very sophisticated.  That's mostly what my laboratory does is study the flight behavior. We spent a lot of time studying how the little tiny wings which flap back and forth more than up and down, how that back and forth motion is able to generate enough aerodynamic lift to keep the little guys in the air."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Are they different than, let's say how bees fly?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Actually, they turn out to be quite similar to bees and in both cases the wings sweeps through the air, flips over so that during one stroke the bottom part of the wing is actually facing up, and sweeps back,  rotates, sweeps, rotates.  And sort of a sculling motion, and they're actually - they generate a little tiny vortical structure called a leading edge vortex, like a little tiny tornado on top of their wings.  And that structure is really the means by which they can generate sufficient lift to stay in the air."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Now you actually built a fly-flight simulator, did you not?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "That's right.  So, this is a simulator for the flies, we actually tether the flies to it a very tiny tungsten pin.  And we have sensors that can detect how the fly's wings are moving so we can basically tell the intention of the fly, whether it's trying to go straight, turn left, turn right.  And we can surround the fly with a complicated visual display that changes depending upon what the fly does. So it basically enables the fly to play a video game, and by manipulating the rules of that video game, we can learn how the fly's brain is processing information as it flies."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So it's flying through sort of a virtual landscape that you create for, without actually moving."
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "That's right.  It's moving its wings. It's generating aerodynamic forces, but it's fixed in space."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so I understand you also built a robotic fly, is that right?  Is that something we can get at Radio Shack yet?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Not anytime soon, but there are many laboratories around the world that are trying to build a flapping robots on the actual spacial scale of an insect.  And they're using of course, research on real insects for inspiration."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so what is the robotic fly do? It mimics the wing motion of a real fly?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Well, the robotic fly that we actually make the most use of in our laboratory is actually not a small thing, it's a giant thing.  It has about a meter wing span, and it flaps in three metric tons of mineral oil.  And it is a so-called dynamically scaled fly.  So, just like an engineer at Boeing can study an aircraft by shrinking it down and putting in it a fast wind tunnel, we take a little tiny fruit fly, scale it up and let it flap in mineral oil."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "What would you like to know about the fly that you don't know yet?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "What wouldn't I like to know?  There's so many mysteries related to how flies are able to make their way through the world. I'd certainly like to know a lot more about how their brain works.  I'd certainly like to know a lot more about just how they're put together.  I mean, these animals are basically, topologically, spheres.  They don't have bones as we do of course.  Their entire body is really one continuous surface that sort of operates almost like fancy origami, and we're just beginning to understand how that works."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And finally, the 64 dollar question.  Now that you've done all of these research and spent all these money, what is the best way to swat a fly?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Well, the purpose of the research was really not to make it easier to swat flies, but the results would suggest that one key thing is to know that the fly is going to move away from your swatter, so you basically want to - to lead your strike.  You don't want to strike where you see the fly, you want to anticipate where the fly is going to move, and it's always going to try to move away from the direction of your swatter."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So, if you aim a little head - a little ahead of the fly, you anticipate it's got to go in that direction.  It's got to see your swatter coming from the rear, and does it turns itself to look at the swatter? Or does it - could it be pointed away from the swatter and be OK?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "It doesn't need to turn and look because in most flies have a rather panoramic view of the world and not entirely 360 degrees, but quite close. So, they can pretty much see the swatter no matter from which direction it's coming."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So, the bigger the swatter, I would think that would be helpful also."
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Depending on the swatter, although, sometimes smaller swatters are better because you can flick them more quickly."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so what's the next thing you're going to be doing in your research?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Well, we've got lots of, lots of work ahead but with respect to this take-off behavior, we'd really like to understand what circuits and that the flies tiny brain are actually responsible for turning this visual signal, the image of the swatter into a set of a very specific motor commands to the legs.  So, we hope to be doing actual imaging of the fly's brain while the fly is performing this behavior, and even using electrodes to record the activity of neurons in the fly's brain."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You can actually - you think you could actually see an image coming from the brain?"
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Well, we can make use of the fact that we study Drosophila Melangaster, which is a genetic model organism, and it's actually possible to genetically engineer a fly, such that the neurons in the fly's brain make a little, little proteins that would basically glow when those neurons become active."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Well, all I can think of Vincent Price at this point.  So, I want to thank you for taking time to be with us."
+    },
+    {
+      "speaker": "Mr. Michael Dickinson (Bioengineering Researcher",
+      "text": "Sure."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Good luck.  Michael Dickinson is the Zarem Professor of Bioengineering at Caltech and he's publish his research on flies in a journal Current Biology this week, and this offense to those folks who love that movie The Fly, one of my best.  We're going to take a short break and come back and switch gears, and talk about what you did on your summer vacation.  I mean, did you do anything Sciency or whatever, you'd like to share with us? Took a hike some place, maybe you built a robot, maybe have a fly simulator in your garage that you built this year.  So, you won't have to write any essays for us about what you did but share with us, 1-800-989-8255.  What kind of sciency thing that I do in my summer vacation.  Stay with us, we'll be right back after this short break.  I'm Ira Flatow, this is Talk of  the Nation Science Friday from NPR News."
+    }
+  ]
+}

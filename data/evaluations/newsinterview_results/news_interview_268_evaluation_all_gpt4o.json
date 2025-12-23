@@ -1,0 +1,624 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4401467538649036,
+                "avg_context_relevance": 0.42889334525792827,
+                "avg_outline_relevance": 0.6233976127639893,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.46496477723121643,
+                "avg_context_relevance": 0.4131503803655505,
+                "avg_outline_relevance": 0.6442407257854939,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 50.0,
+            "covered_questions": 4,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Next week marks eight years since the Syrian uprising that devolved into a bitter civil war. Hundreds of thousands of people have been killed, and millions are now refugees. And the war continues. Joining us now is Syrian-American journalist Alia Malek. She's also the author of \"The Home That Was Our Country,\" about Syria and the conflict. Welcome to the program.",
+            "previous_answer": "Hi, Lulu. Thanks for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking at the bigger picture, could you walk us through the key events that triggered the Syrian civil war?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.07127470523118973,
+                        "outline_relevance": 0.7967575192451477,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share what initially inspired you to write about the Syrian conflict?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2357417643070221,
+                            "outline_relevance": 0.6802356243133545,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How has your perspective on the Syrian uprising evolved since the beginning of the conflict?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.09765414893627167,
+                            "outline_relevance": 0.7534263730049133,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In your work, how do you balance the portrayal of suffering with stories of hope among Syrians?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.19685162603855133,
+                            "outline_relevance": 0.617189884185791,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Looking at the bigger picture, could you walk us through the key events that triggered the Syrian civil war?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.07127470523118973,
+                            "outline_relevance": 0.7967575192451477,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "So Bashar al-Assad, the president, it seems has prevailed with Russian and Iranian support. Only one major rebel area remains. Has he won?",
+            "previous_answer": "Well, it depends how you define victory. He has, for the moment, won the right to stay. And it does seem like the world, in many ways, wants to sort of normalize his presence. But I think it's pretty clear that it's not a victory of any real kind. And the damage that has been done and that has been wrought does not appear to be facing any kind of true reconciliation or any kind of true reckoning. There's a lack of justice. There's a lack of accountability. And there's the presence of an incredible amount of impunity.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain how European courts are contributing to addressing war crimes and human rights abuses committed during the Syrian conflict?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.34453099966049194,
+                        "outline_relevance": 0.9195960760116577,
+                        "originality": 0.5673412084579468,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on what forms of justice or accountability you believe are currently missing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.44600769877433777,
+                            "outline_relevance": 0.5715330839157104,
+                            "originality": 0.701580286026001,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think the international community's normalization of Assad affects the Syrian population's prospects?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3651109039783478,
+                            "outline_relevance": 0.7217922806739807,
+                            "originality": 0.333598792552948,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are the ramifications for Syrians if there is no genuine reconciliation or justice after the conflict?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5079086422920227,
+                            "outline_relevance": 0.670390248298645,
+                            "originality": 0.2714040279388428,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you explain how European courts are contributing to addressing war crimes and human rights abuses committed during the Syrian conflict?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.34453099966049194,
+                            "outline_relevance": 0.9195960760116577,
+                            "originality": 0.5673412084579468,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Well, take me into Syria. What are people feeling there now after these eight long years?",
+            "previous_answer": "You know, it really depends on where you're situated and how you're situated. And a lot of Syrians are now outside of Syria. I, myself, haven't been back since 2013. I think people right now are in a place of absolute exhaustion, whether they're, you know, see themselves as amongst the victors or not. It took an incredible toll. And the death and the destruction, as you've noted, is incredible. And then there's that sort of violence that nobody sees, and that's the disappearances and the constant threat of violence that is going to sort of keep everybody in line and determine whether they return, if they can return and under what - you know, sort of what circumstances they can really live their full lives, should they return.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "balanced: What factors do you see as most critical in shaping whether Syrians will be able to return and rebuild their lives in the near future?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.7131038904190063,
+                        "outline_relevance": 0.7436165809631348,
+                        "originality": 0.2222292423248291,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe more about the unseen violences like disappearances and how they affect daily life in Syria?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6867349743843079,
+                            "outline_relevance": 0.6103298664093018,
+                            "originality": 0.3155413269996643,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think the experience of Syrians inside the country differs from those in the diaspora?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6837680339813232,
+                            "outline_relevance": 0.7162464261054993,
+                            "originality": 0.2947501540184021,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What factors do you see as most critical in shaping whether Syrians will be able to return and rebuild their lives in the near future?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.7131038904190063,
+                            "outline_relevance": 0.7436165809631348,
+                            "originality": 0.2222292423248291,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Yeah. I mean, according to the U.N., there are 5.6 million refugees outside the country, around 6 million internally displaced. That's half the country leaving their homes. We are seeing, though, some of these people now returning as the war in certain parts of the country winds down. What are they coming back to?",
+            "previous_answer": "You know, I think it's undeniable that, in many ways, there is no place like home. And Syrians, depending on where they've landed, have been extended, you know, less-than-welcome welcomes. I think those who are returning home or choosing to go back have - are willing to live under the regime again and live under the sort of circumvention of their rights and their liberties just to be home. You know, and it depends. Not all of the country was destroyed to the same levels as other parts. I have a friend who is in Aleppo right now, and she managed to go back to her grandmother's apartment. And in many ways, some things, obviously, inside the apartment are absolutely unchanged. But the vista right outside her window is a completely new one.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on the kinds of challenges and restrictions that returnees face when living under the regime again?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.46696725487709045,
+                        "outline_relevance": 0.6175012588500977,
+                        "originality": 0.40535324811935425,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe more about the kinds of restrictions returnees face when living under the regime again?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4762524962425232,
+                            "outline_relevance": 0.6047406792640686,
+                            "originality": 0.4617499113082886,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do Syrians in different parts of the world perceive the decision to return home?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.8268864750862122,
+                            "outline_relevance": 0.751386284828186,
+                            "originality": 0.1944257616996765,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What support systems exist or are needed to help returnees rebuild their lives amid ongoing challenges?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.23503482341766357,
+                            "outline_relevance": 0.45474502444267273,
+                            "originality": 0.48214292526245117,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you elaborate on the kinds of challenges and restrictions that returnees face when living under the regime again?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.46696725487709045,
+                            "outline_relevance": 0.6175012588500977,
+                            "originality": 0.40535324811935425,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "How did she describe it?",
+            "previous_answer": "It happened to be a beautiful day when she posted this picture, but you see rubble side by side with, you know, people doing their shopping, people just going about their business, school kids returning to school. It's surreal.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do residents cope emotionally and psychologically with living amidst such a stark contrast between destruction and the continuation of daily life?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.35768818855285645,
+                        "outline_relevance": 0.3090939223766327,
+                        "originality": 0.5263643860816956,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How do residents cope emotionally and psychologically with this juxtaposition of normal life and destruction?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.39479249715805054,
+                            "outline_relevance": 0.2869183421134949,
+                            "originality": 0.5318125486373901,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Could you share more about stories of resilience you have encountered among people living in such environments?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.25898268818855286,
+                            "outline_relevance": 0.3065011203289032,
+                            "originality": 0.48028087615966797,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways does this surreal coexistence affect the community's view on the possibility of returning to peace and normalcy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3837254047393799,
+                            "outline_relevance": 0.34727492928504944,
+                            "originality": 0.49208658933639526,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do residents cope emotionally and psychologically with living amidst such a stark contrast between destruction and the continuation of daily life?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.35768818855285645,
+                            "outline_relevance": 0.3090939223766327,
+                            "originality": 0.5263643860816956,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "So there's the physical scars of this conflict, but what about the other one that you mentioned, which is justice? Will there be justice for anyone who committed atrocities? There's so much evidence of the chemical attacks, the murders, the torture, the disappearances. What happens to that?",
+            "previous_answer": "There are some bright spots of hope - the fact that we saw - that we're starting to see indictments in European courts. You know, interestingly enough, a lot of people who were perpetrators of some of the worst crimes inside Syria, whether they did it in the name of the regime or in the name of an opposition, have found themselves in Europe and, therefore, sort of subject to European justice because other Syrians have recognized them. Other Syrians have identified them. And there might be hopes that there can be an accountability in that sense. But I think inside Syria, you know, the actual architects of most of this - of this incredible disaster still remain at large. And not only at large or in power, but about to potentially be incredibly enriched by the reconstruction that, in theory, is coming to Syria.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are the main challenges within Syria that continue to prevent justice and accountability for those responsible for the atrocities?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5535410642623901,
+                        "outline_relevance": 0.6633028984069824,
+                        "originality": 0.24925005435943604,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you talk more about how Syrians living in Europe are contributing to the pursuit of justice for war crimes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7698934078216553,
+                            "outline_relevance": 0.7219723463058472,
+                            "originality": 0.20609807968139648,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What obstacles inside Syria are most significant in preventing justice and accountability for atrocities?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6042743921279907,
+                            "outline_relevance": 0.6694289445877075,
+                            "originality": 0.24155867099761963,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you see the balance between international justice efforts and the reality inside Syria shaping the future of accountability?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6169029474258423,
+                            "outline_relevance": 0.6807275414466858,
+                            "originality": 0.23068803548812866,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What are the main challenges within Syria that continue to prevent justice and accountability for those responsible for the atrocities?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5535410642623901,
+                            "outline_relevance": 0.6633028984069824,
+                            "originality": 0.24925005435943604,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "So what do you think the road ahead looks like for Syria?",
+            "previous_answer": "I think in the short term, people are so exhausted that they are going to accept anything just to be able to come back to their homes or to just be able to have some kind of normalcy to their lives again. But what is very different this time than in 2011 is for the 50 years that the Assad regime has been in power, has always acted as a chaperone between Syrians and has not allowed Syrians to talk to each other directly or to know each other directly. You know, the Syrian state telling you that your Sunni neighbors are all fundamentalists and are eventually going to come, you know, kill all the rest of you minorities, or that the minorities hate religiosity - I mean, now there's this opportunity for people to sort of talk to each other directly. Unfortunately, that's happening mostly outside of Syria. But I think, you know, in a few years, it'll be very hard for the state to control Syrians in the same way that it once did and which it used to its benefit to stay in power.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking ahead, how do you envision the ways Syrians communicate with each other evolving over the next several years, especially considering the increased opportunities for dialogue outside Syria?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7147194147109985,
+                        "outline_relevance": 0.8951231241226196,
+                        "originality": 0.25927865505218506,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you see the role of social media and digital platforms in reshaping how Syrians communicate and understand each other in exile and beyond?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5848709344863892,
+                            "outline_relevance": 0.7945895791053772,
+                            "originality": 0.25935137271881104,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share more about specific stories or examples where Syrians from different communities have started to bridge divides through dialogue?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6294535398483276,
+                            "outline_relevance": 0.7417292594909668,
+                            "originality": 0.23319023847579956,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are the biggest obstacles you foresee in turning this new communication into lasting societal change inside Syria?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6757527589797974,
+                            "outline_relevance": 0.8337734937667847,
+                            "originality": 0.2750730514526367,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Looking ahead, how do you envision the ways Syrians communicate with each other evolving over the next several years, especially considering the increased opportunities for dialogue outside Syria?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7147194147109985,
+                            "outline_relevance": 0.8951231241226196,
+                            "originality": 0.25927865505218506,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Alia Malek is a Syrian-American journalist and the author of \"The Home That Was Our Country.\" Thank you so much.",
+            "previous_answer": "Thank you so much.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share your reflections on the experience of conveying your personal journey through your journalism and writing?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.08337752521038055,
+                        "outline_relevance": 0.20893442630767822,
+                        "originality": 0.48990142345428467,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you reflect on the experience of sharing your personal journey through your journalism and writing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.08825406432151794,
+                            "outline_relevance": 0.2464386522769928,
+                            "originality": 0.5018084049224854,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What challenges do you face in maintaining hope and realism when covering the Syrian conflict?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.14235873520374298,
+                            "outline_relevance": 0.689396321773529,
+                            "originality": 0.19069361686706543,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you discuss how your background influences your perspective on the ongoing developments in Syria?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.08327770233154297,
+                            "outline_relevance": 0.7006338834762573,
+                            "originality": 0.22699648141860962,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you share your reflections on the experience of conveying your personal journey through your journalism and writing?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.08337752521038055,
+                            "outline_relevance": 0.20893442630767822,
+                            "originality": 0.48990142345428467,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

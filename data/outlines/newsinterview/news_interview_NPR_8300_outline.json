@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Space Needle",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you tell us about the significance of the Space Needle in Seattle's skyline?",
+        "importance": "critical",
+        "keywords": [
+          "Space Needle",
+          "Seattle",
+          "skyline"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What inspired the design of the Space Needle?",
+        "importance": "high",
+        "keywords": [
+          "design",
+          "inspiration",
+          "architecture"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Engineering Innovations",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What were some of the engineering challenges faced during the construction of the Space Needle?",
+        "importance": "critical",
+        "keywords": [
+          "engineering",
+          "construction",
+          "challenges"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How did the Space Needle incorporate a revolving restaurant into its design?",
+        "importance": "high",
+        "keywords": [
+          "revolving restaurant",
+          "design",
+          "innovation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Historical Context",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How did the Space Needle serve as a symbol during the Cold War?",
+        "importance": "high",
+        "keywords": [
+          "Cold War",
+          "symbol",
+          "history"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What role did the Space Needle play in the Seattle World's Fair?",
+        "importance": "critical",
+        "keywords": [
+          "World's Fair",
+          "Seattle",
+          "role"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Legacy and Modern Relevance",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "If the Space Needle were built today, what changes might be considered?",
+        "importance": "high",
+        "keywords": [
+          "modern",
+          "changes",
+          "design"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are some modern additions to the Space Needle since its original construction?",
+        "importance": "optional",
+        "keywords": [
+          "modern additions",
+          "renovations",
+          "history"
+        ]
+      }
+    ]
+  }
+]

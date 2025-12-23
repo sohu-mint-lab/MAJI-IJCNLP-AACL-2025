@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of U.S.-Mexico Remittances",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the estimated annual volume of remittances sent from the U.S. to Mexico?",
+        "importance": "critical",
+        "keywords": [
+          "remittances",
+          "U.S.-Mexico",
+          "volume"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How do remittances function as a financial support system for immigrants?",
+        "importance": "high",
+        "keywords": [
+          "financial support",
+          "immigrants",
+          "remittances"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Impact of Economic Conditions",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How has the current recession affected the ability of immigrants to send remittances?",
+        "importance": "critical",
+        "keywords": [
+          "recession",
+          "impact",
+          "remittances"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What challenges are families in Mexico facing due to changes in remittance flows?",
+        "importance": "high",
+        "keywords": [
+          "families",
+          "Mexico",
+          "challenges"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Local Economic Effects in Mexico",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what ways do remittances contribute to local economies in Mexican states like Michoacan and Jalisco?",
+        "importance": "critical",
+        "keywords": [
+          "local economy",
+          "Michoacan",
+          "Jalisco",
+          "remittances"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What percentage of remittances is typically spent on daily essentials by recipients?",
+        "importance": "high",
+        "keywords": [
+          "daily essentials",
+          "spending habits",
+          "remittances"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Trends and Considerations",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How is the strength of the dollar influencing the purchasing power of remittances in Mexico?",
+        "importance": "high",
+        "keywords": [
+          "dollar strength",
+          "purchasing power",
+          "remittances"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What might happen to the volume of remittances if economic conditions in the U.S. change further?",
+        "importance": "optional",
+        "keywords": [
+          "future trends",
+          "economic conditions",
+          "remittances"
+        ]
+      }
+    ]
+  }
+]

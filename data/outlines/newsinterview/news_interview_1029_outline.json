@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Mara Wilson's Journey as a Child Actor",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How did Mara Wilson's family background influence her decision to pursue acting?",
+        "importance": "critical",
+        "keywords": [
+          "Mara Wilson",
+          "child actor",
+          "family influence"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What motivated Mara Wilson to pursue acting, despite her mother's initial hesitation?",
+        "importance": "high",
+        "keywords": [
+          "career motivation",
+          "child acting",
+          "family support"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Challenges Faced by Child Actors",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What psychological challenges do child actors like Mara Wilson experience as they transition into adolescence?",
+        "importance": "high",
+        "keywords": [
+          "challenges",
+          "psychological impact",
+          "adolescence"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does the environment of child stardom affect the personal development of young actors?",
+        "importance": "high",
+        "keywords": [
+          "environment",
+          "personal development",
+          "child stardom"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Societal Perceptions and Pressures on Child Stars",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what ways do societal expectations shape the experiences of child actors?",
+        "importance": "high",
+        "keywords": [
+          "societal expectations",
+          "child actors",
+          "perceptions"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the public view and treat former child stars as they grow older?",
+        "importance": "high",
+        "keywords": [
+          "public perception",
+          "former child stars",
+          "celebrity culture"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Financial Consequences for Child Actors",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What protections are in place for the earnings of child actors, and how effective are they?",
+        "importance": "critical",
+        "keywords": [
+          "financial protections",
+          "child actors",
+          "Coogan Law"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are some common financial pitfalls that child actors encounter as they transition to adulthood?",
+        "importance": "high",
+        "keywords": [
+          "financial pitfalls",
+          "child actors",
+          "transition to adulthood"
+        ]
+      }
+    ]
+  }
+]

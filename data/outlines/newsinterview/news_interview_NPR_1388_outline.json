@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Deborah Cox's Musical Journey",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you describe the range of musical styles you have explored throughout your career?",
+        "importance": "critical",
+        "keywords": [
+          "musical journey",
+          "styles",
+          "career"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did your background influence your musical choices?",
+        "importance": "high",
+        "keywords": [
+          "background",
+          "influence",
+          "musical choices"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Inspiration from Dinah Washington",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What about Dinah Washington's music resonated with you growing up?",
+        "importance": "critical",
+        "keywords": [
+          "Dinah Washington",
+          "resonance",
+          "music"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How has Dinah Washington's turbulent life influenced your appreciation of her music?",
+        "importance": "high",
+        "keywords": [
+          "turbulent life",
+          "influence",
+          "appreciation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Making of 'Destination Moon'",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What motivated you to create an album dedicated to Dinah Washington?",
+        "importance": "critical",
+        "keywords": [
+          "Destination Moon",
+          "album",
+          "motivation"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What challenges did you face while transitioning from R&B to jazz?",
+        "importance": "high",
+        "keywords": [
+          "challenges",
+          "R&B",
+          "jazz"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Reflections on Risks and Future Plans",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How do you define the risks you've taken in your music career?",
+        "importance": "high",
+        "keywords": [
+          "risks",
+          "music career",
+          "definition"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Are there any upcoming projects or genres you are considering exploring next?",
+        "importance": "optional",
+        "keywords": [
+          "upcoming projects",
+          "genres",
+          "exploration"
+        ]
+      }
+    ]
+  }
+]

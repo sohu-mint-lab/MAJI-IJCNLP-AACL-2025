@@ -1,0 +1,355 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4846070446074009,
+                "avg_context_relevance": 0.26503665931522846,
+                "avg_outline_relevance": 0.7128301151096821,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 60.0,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "The Paradise High School class of 2019 has had a tragic year. In November, faulty power lines sparked a massive blaze, known as the Camp Fire, that devastated Northern California and burned most of Paradise to the ground. Days after the fire, we spoke with their principal, Loren Lighthall, who was trying to wrap his mind around what the future would be like for him and his students.",
+            "previous_answer": "Where will they live? There is literally no place to live in Paradise. There's no homes. There's no temporary shelters. There's no hotels. There's nothing.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did the decision to move classes online affect the students at Paradise High School, especially in terms of their learning experience and daily routines?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.20458030700683594,
+                        "outline_relevance": 0.8671548366546631,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How did the decision to move classes online affect the students at Paradise High School, especially in terms of their learning experience and daily routines?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.20458030700683594,
+                            "outline_relevance": 0.8671548366546631,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Now the senior class is getting ready to graduate, and Principal Lighthall joins us again. Welcome back to the program.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share some of the personal challenges you've encountered since losing your home in the Camp Fire, and how they've influenced your role as principal?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.22371166944503784,
+                        "outline_relevance": 0.7072364687919617,
+                        "originality": 0.667015939950943,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share some of the personal challenges you've encountered since losing your home in the Camp Fire, and how they've influenced your role as principal?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.22371166944503784,
+                            "outline_relevance": 0.7072364687919617,
+                            "originality": 0.667015939950943,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Walk us through the past few months for you. What happened with your students, and how did - how did you make the rest of the school year work?",
+            "previous_answer": "Well, we did an online school. And we only had three weeks left in the semester, so it was a great way to finish. And then we started at a second location in Chico. We had to move the entire high school to a different location. And we were able to pull that off. But as it's went on and we're into the seventh month of this, it's been very, very difficult for kids because they're living far away. And they're not vested in where they're living. So they're not making friends there. Most teenagers struggle with the teenage years. And when you add a trauma event like this, where you lose your entire community, your house, your church, your work and you lose all that support system, it's been very difficult mentally. And it's been very difficult for us to find enough counselors to be able to help students get to where they need to be.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What personal challenges have you faced after losing your home in the Camp Fire, and how have these experiences affected your role as principal?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.357785701751709,
+                        "outline_relevance": 0.7392281293869019,
+                        "originality": 0.038643717765808105,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What personal challenges have you faced after losing your home in the Camp Fire, and how have these experiences affected your role as principal?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.357785701751709,
+                            "outline_relevance": 0.7392281293869019,
+                            "originality": 0.038643717765808105,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Were you surprised at the level of outpouring of support from not only your community but people from all over the country?",
+            "previous_answer": "So many people have done so much. I mean, just individual people have given $25 to help them have a good grad night or not have to worry about buying a cap and gown, free prom, free winter formal, free senior trip, free yearbook. That's the silver lining I think, in all of this, that so many people do care. And you can really feel that.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did the outpouring of support from both inside and outside the community impact the morale of the students and staff during this difficult time?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.31856608390808105,
+                        "outline_relevance": 0.9204968810081482,
+                        "originality": 0.46052950620651245,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How did the outpouring of support from both inside and outside the community impact the morale of the students and staff during this difficult time?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.31856608390808105,
+                            "outline_relevance": 0.9204968810081482,
+                            "originality": 0.46052950620651245,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "We've been talking a lot about your students. But you and your family were also touched by this disaster. You lost your home. How's your family doing?",
+            "previous_answer": "They're doing pretty good. Yeah, I have seven children and five that still live at home. We did get an apartment. But it's an 1,100-square-foot upstairs apartment. And it's been cramped. We do feel lucky to get that, but it's certainly not what we need long-term.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share what ultimately influenced your choice to leave your role as principal during such a challenging time?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1676245480775833,
+                        "outline_relevance": 0.49160781502723694,
+                        "originality": 0.30879998207092285,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share what ultimately influenced your choice to leave your role as principal during such a challenging time?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1676245480775833,
+                            "outline_relevance": 0.49160781502723694,
+                            "originality": 0.30879998207092285,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "I understand you've made, also, a decision about your professional life.",
+            "previous_answer": "Yeah, I did make the decision to leave for two reasons - one, the housing. There's no housing here. You know, 18,000 homes burned. And there's 18,000 families looking for housing. And also leaving the trauma, where you're reminded of it every time you go to church, every time you go to work, every time you go to home. So I'm looking forward to kind of leaving that aspect of it - but really not looking forward to leaving the kids in Paradise High School.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What message do you hope to share with the graduating seniors as they move forward from such a challenging year?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.308416485786438,
+                        "outline_relevance": 0.7387968897819519,
+                        "originality": 0.5441531538963318,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What message do you hope to share with the graduating seniors as they move forward from such a challenging year?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.308416485786438,
+                            "outline_relevance": 0.7387968897819519,
+                            "originality": 0.5441531538963318,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "What is your message to your graduating seniors when they walk across the stage?",
+            "previous_answer": "That we've got to put this behind us. If we keep worrying about all that happened and all the things that have been unfair - the whole thing is unfair. We're going to have to move past it and look forward with hope so that we can move on with our lives.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you elaborate on the specific ways you suggest students should process and move on from the trauma they have experienced?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.37943094968795776,
+                        "outline_relevance": 0.7948712110519409,
+                        "originality": 0.4473038911819458,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you elaborate on the specific ways you suggest students should process and move on from the trauma they have experienced?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.37943094968795776,
+                            "outline_relevance": 0.7948712110519409,
+                            "originality": 0.4473038911819458,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Loren Lighthall is the principal of Paradise High School. Thank you very much, and we wish you so much luck in your next chapter.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking ahead, how do you envision the future of Paradise High School and its community, especially in light of the challenges you've faced?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.16017752885818481,
+                        "outline_relevance": 0.4432486891746521,
+                        "originality": 0.41041016578674316,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Looking ahead, how do you envision the future of Paradise High School and its community, especially in light of the challenges you've faced?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.16017752885818481,
+                            "outline_relevance": 0.4432486891746521,
+                            "originality": 0.41041016578674316,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

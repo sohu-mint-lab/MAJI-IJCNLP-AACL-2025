@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of U.S. Military Withdrawal Decisions",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What led to President Trump forgoing his traditional Christmas trip to Florida?",
+        "importance": "critical",
+        "keywords": [
+          "Trump",
+          "Christmas",
+          "withdrawal"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What are the implications of the U.S. troop withdrawal from Syria and Afghanistan?",
+        "importance": "high",
+        "keywords": [
+          "troop withdrawal",
+          "Syria",
+          "Afghanistan"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Concerns About ISIS and Regional Stability",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are General Jack Keane's main concerns regarding ISIS following U.S. troop withdrawal?",
+        "importance": "critical",
+        "keywords": [
+          "ISIS",
+          "military strategy",
+          "troop withdrawal"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does General Keane view the implications of a power vacuum in eastern Syria?",
+        "importance": "high",
+        "keywords": [
+          "power vacuum",
+          "Iran",
+          "Syria"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Potential Strategies for U.S. Involvement in Syria",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What kind of support do the Saudis plan to provide for reconstruction efforts in northeastern Syria?",
+        "importance": "high",
+        "keywords": [
+          "Saudi Arabia",
+          "reconstruction",
+          "Syria"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What approach does General Keane suggest may be taken regarding U.S. military presence in Syria?",
+        "importance": "optional",
+        "keywords": [
+          "military presence",
+          "strategic decision",
+          "reconstruction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future of U.S. Defense Leadership",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "Why has General Keane chosen not to return to public service?",
+        "importance": "optional",
+        "keywords": [
+          "public service",
+          "General Keane",
+          "defense leadership"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What role has General Keane played in advising President Trump about potential successors to Secretary of Defense?",
+        "importance": "high",
+        "keywords": [
+          "advice",
+          "successor",
+          "Secretary of Defense"
+        ]
+      }
+    ]
+  }
+]

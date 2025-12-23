@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Susan Boyle's Rising Fame",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What has contributed to Susan Boyle becoming a household name?",
+        "importance": "critical",
+        "keywords": [
+          "Susan Boyle",
+          "fame",
+          "household name"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How is Susan Boyle's journey being followed differently in Britain compared to America?",
+        "importance": "high",
+        "keywords": [
+          "Britain",
+          "America",
+          "journey"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Discussion of Susan Boyle's Makeover and Performance",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What changes did Susan Boyle undergo in her makeover, and how was it received?",
+        "importance": "critical",
+        "keywords": [
+          "makeover",
+          "reception",
+          "changes"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What opinions did Simon Cowell express regarding her new look?",
+        "importance": "high",
+        "keywords": [
+          "Simon Cowell",
+          "opinion",
+          "new look"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Comparison of Talent Shows",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the key differences between 'American Idol' and 'America's Got Talent' as discussed?",
+        "importance": "high",
+        "keywords": [
+          "American Idol",
+          "America's Got Talent",
+          "comparison"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did Jacqui Jeras describe the overall entertainment value of the shows?",
+        "importance": "optional",
+        "keywords": [
+          "entertainment",
+          "Jacqui Jeras",
+          "shows"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Preview of Upcoming Discussions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What topics are set to be discussed later in the program?",
+        "importance": "high",
+        "keywords": [
+          "topics",
+          "discussion",
+          "program"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How did Whitfield promote Larry King's upcoming interview?",
+        "importance": "optional",
+        "keywords": [
+          "Larry King",
+          "interview",
+          "promotion"
+        ]
+      }
+    ]
+  }
+]

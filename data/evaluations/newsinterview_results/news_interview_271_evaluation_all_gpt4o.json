@@ -1,0 +1,751 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3603800378347698,
+                "avg_context_relevance": 0.4374054572299907,
+                "avg_outline_relevance": 0.6091682032534951,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.2724035680294037,
+                "avg_context_relevance": 0.37443158477544786,
+                "avg_outline_relevance": 0.7718244194984436,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 44.44444444444444,
+            "covered_questions": 3,
+            "total_questions": 6
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "\"The Moon Within\" is a coming-of-age story centering around 11-year-old Celi Rivera. Written in verse, the story follows Celi as she learns how to navigate puberty and everything that comes with it. Aida Salazar wrote \"The Moon Within.\" And she joins us now to talk about it. Welcome to WEEKEND EDITION.",
+            "previous_answer": "Thank you so much, Lulu, for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Can you share with us what inspired you to write 'The Moon Within' and what you hope readers take away from it?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.23330247402191162,
+                        "outline_relevance": 0.6614284515380859,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you share with us what inspired you to write 'The Moon Within' and what you hope readers take away from it?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.23330247402191162,
+                            "outline_relevance": 0.6614284515380859,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How does your personal experience as a mother influence the themes and characters in 'The Moon Within'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.14955204725265503,
+                            "outline_relevance": 0.6429688930511475,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you see 'The Moon Within' bridging cultural gaps for young readers, particularly those from diverse backgrounds?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.11294883489608765,
+                            "outline_relevance": 0.5081079602241516,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "This book is about a moon ceremony. So explain what that is and where it comes from.",
+            "previous_answer": "Well, moon ceremonies are traditional gatherings that happen for women across the Americans. They date back to precolonial times. And they're ceremonies where women gather around the full moon or the new moon. And in this case, a moon ceremony for a young girl coming of age happens right after her first period, her first menstruation.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Why do you think Celi feels resistant to participating in the moon ceremony, and what does this resistance reveal about her personal journey?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4103552997112274,
+                        "outline_relevance": 0.9084791541099548,
+                        "originality": 0.5184045433998108,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share a personal story about the first moon ceremony you attended or heard about that deeply influenced you?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4861612617969513,
+                            "outline_relevance": 0.5280245542526245,
+                            "originality": 0.37916338443756104,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do moon ceremonies vary between different cultures or regions across the Americas?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7002788782119751,
+                            "outline_relevance": 0.5638353824615479,
+                            "originality": 0.4315164089202881,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What emotions or messages do you hope young girls take away from participating in a moon ceremony?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5574838519096375,
+                            "outline_relevance": 0.5646533966064453,
+                            "originality": 0.46148425340652466,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Why do you think Celi feels resistant to participating in the moon ceremony, and what does this resistance reveal about her personal journey?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4103552997112274,
+                            "outline_relevance": 0.9084791541099548,
+                            "originality": 0.5184045433998108,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "And like many girls her age, the main character Celi is intensely self-conscious. She's growing up in Oakland. And she's really resistant to having the moon ceremony. Tell us why.",
+            "previous_answer": "That's right. Celi is a secret-keeper. And she doesn't think that it's really anybody's business what happens to her body, which is in large contrast to her mother. Her mother wants her to broadcast it to her community because they come from a really strong community in Oakland that celebrates these rites of passages for girls.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share the central theme of 'The Moon Within' and how the story is structured to convey this theme?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.21884971857070923,
+                        "outline_relevance": 0.9296693801879883,
+                        "originality": 0.24803578853607178,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on why Celi feels the need to keep her changes private despite her community's celebration?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6738706827163696,
+                            "outline_relevance": 0.5499127507209778,
+                            "originality": 0.39288222789764404,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think young girls today navigate the tension between personal privacy and cultural expectations?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3768240809440613,
+                            "outline_relevance": 0.559608519077301,
+                            "originality": 0.49487853050231934,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways does the mother's perspective influence Celi's journey towards embracing her cultural identity?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5551865100860596,
+                            "outline_relevance": 0.5569922924041748,
+                            "originality": 0.44162416458129883,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share the central theme of 'The Moon Within' and how the story is structured to convey this theme?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.21884971857070923,
+                            "outline_relevance": 0.9296693801879883,
+                            "originality": 0.24803578853607178,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "What is your heritage? - if I may ask.",
+            "previous_answer": "I'm Mexican. But I wrote the story for my daughter, who is half Puerto Rican, half Mexican.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share with us what the central theme of 'The Moon Within' is and how you chose to structure the story?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3062688708305359,
+                        "outline_relevance": 0.8925814628601074,
+                        "originality": 0.03341472148895264,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How does having a bicultural family influence the themes you explore in your writing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.44143128395080566,
+                            "outline_relevance": 0.36007994413375854,
+                            "originality": 0.4599669575691223,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What unique perspectives do you think your daughter gains from growing up with both Mexican and Puerto Rican roots?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7135088443756104,
+                            "outline_relevance": 0.49161094427108765,
+                            "originality": 0.4407765865325928,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you share how your personal heritage impacts your advocacy for cultural heritage preservation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2065625786781311,
+                            "outline_relevance": 0.3635433614253998,
+                            "originality": 0.5465967655181885,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you share with us what the central theme of 'The Moon Within' is and how you chose to structure the story?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3062688708305359,
+                            "outline_relevance": 0.8925814628601074,
+                            "originality": 0.03341472148895264,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "And did you have something like a moon ceremony growing up or did you wish you had one? When - what was the inspiration here?",
+            "previous_answer": "Well, the inspiration began when my own daughter started to ask about her period, about her changing body as she grew into adolescence. And I wanted to reframe the conversation. I wanted to tell a different story to her. You know, my - I never had a moon ceremony. I wanted to have a moon ceremony. But like many women - Mexican women, many Latinx women who enter their periods with a certain amount of shame and silence. And I didn't want that to happen for my daughter. I wanted her to be grounded in our spirituality, our connection to the moon. And so we actually did give my daughter a moon ceremony.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share more about the specific elements and cultural meanings incorporated in the moon ceremony you held for your daughter?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6850546598434448,
+                        "outline_relevance": 0.5900927782058716,
+                        "originality": 0.24814683198928833,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you describe what the moon ceremony for your daughter involved and how it differed from traditional ceremonies?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6264787912368774,
+                            "outline_relevance": 0.666736900806427,
+                            "originality": 0.28391599655151367,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How do you think reclaiming these cultural rituals can impact young women’s perception of their bodies today?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4984297454357147,
+                            "outline_relevance": 0.7115222215652466,
+                            "originality": 0.49250149726867676,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: In what ways did your own experiences of silence and shame influence how you introduced the moon ceremony to your daughter?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6964215040206909,
+                            "outline_relevance": 0.5625565052032471,
+                            "originality": 0.27675753831863403,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you share more about the specific elements and cultural meanings incorporated in the moon ceremony you held for your daughter?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6850546598434448,
+                            "outline_relevance": 0.5900927782058716,
+                            "originality": 0.24814683198928833,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "I was about to ask.",
+            "previous_answer": "It was really beautiful. My daughter's a dancer. And so she - we invited her dance teachers. And we invited my family. And we gathered beneath the full moon. And we did many of the rituals that are described in the book. And we offered, and we created space. And we sat in circle together.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share what inspired you to host this moon ceremony and how you chose the specific rituals to include?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5858893394470215,
+                        "outline_relevance": 0.5938482284545898,
+                        "originality": 0.19825482368469238,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe in more detail what the moon ceremony for your daughter involved and how it may have differed from traditional ceremonies?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6031789779663086,
+                            "outline_relevance": 0.6132663488388062,
+                            "originality": 0.02581268548965454,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think reclaiming these cultural rituals can influence young women’s understanding and feeling about their bodies today?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3935275077819824,
+                            "outline_relevance": 0.7251763939857483,
+                            "originality": 0.010492682456970215,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways did your own experiences of silence and shame around these topics shape how you chose to introduce the moon ceremony to your daughter?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5909228920936584,
+                            "outline_relevance": 0.5383403301239014,
+                            "originality": 0.03256040811538696,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share what inspired you to host this moon ceremony and how you chose the specific rituals to include?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5858893394470215,
+                            "outline_relevance": 0.5938482284545898,
+                            "originality": 0.19825482368469238,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "This book is written in verse. And one of the most moving things that I saw is that you referenced a poem that I had never heard of until I read it in your book. I want you to read the last stanza of it.",
+            "previous_answer": "We stand at the heart of the forest beside the stone pool, waiting for Venus, the smoking star, to glimmer above the trees. Remove your clothes. Let down your hair. Bask in the moonlight, naked as the day of your birth - virgins, maidens, women.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think embracing traditions and rituals, like the one depicted in the poem, influences the way young women see their identity and place in the world?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3232208788394928,
+                        "outline_relevance": 0.751494824886322,
+                        "originality": 0.20857417583465576,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share what this poem means to you personally and how it influenced your writing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.299929141998291,
+                            "outline_relevance": 0.6010764837265015,
+                            "originality": 0.4362085461616516,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do traditional poems like this one help in preserving cultural rituals among younger generations?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2994190752506256,
+                            "outline_relevance": 0.5352647304534912,
+                            "originality": 0.3498867154121399,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways does the imagery in this poem mirror the themes you explore through Celi’s story?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.32517755031585693,
+                            "outline_relevance": 0.4665485918521881,
+                            "originality": 0.37868261337280273,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do you think embracing traditions and rituals, like the one depicted in the poem, influences the way young women see their identity and place in the world?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3232208788394928,
+                            "outline_relevance": 0.751494824886322,
+                            "originality": 0.20857417583465576,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "That poem is called \"A Flower Song For Maidens Coming Of Age.\" It was written in 1440 before European contact in Mexico. And it's from a collection of Mayan poems - extraordinary. Tell me about why this poem resonated for you. It describes a moon ceremony.",
+            "previous_answer": "It was such an important revelation to have come across this poem. I cried. I cried for two days - the whole week because, as you know, colonization basically eradicated all of our written documentation in the Americas. All of our traditions have been passed down through word of mouth. But to have written documentation that women have been honoring the moon and celebrating their bodies and their transitions, their milestones in this way, I really felt like my ancestors were watching over.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "In what ways do you believe the traditions described in the poem can influence and empower young women today?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5845311880111694,
+                        "outline_relevance": 0.7769959568977356,
+                        "originality": 0.13414394855499268,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How did this discovery of the poem affect your approach to writing and cultural preservation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6595675945281982,
+                            "outline_relevance": 0.6004478931427002,
+                            "originality": 0.19273591041564941,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you explain how oral traditions have sustained these cultural practices despite colonization?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3622809648513794,
+                            "outline_relevance": 0.4982588291168213,
+                            "originality": 0.3779001235961914,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What lessons from this poem do you hope young women will carry forward in today's world?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.533217191696167,
+                            "outline_relevance": 0.5171433687210083,
+                            "originality": 0.3592824935913086,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "In what ways do you believe the traditions described in the poem can influence and empower young women today?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5845311880111694,
+                            "outline_relevance": 0.7769959568977356,
+                            "originality": 0.13414394855499268,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "And you wrote in the afterword to this book that you really wanted young women to find their own way to connect with their roots. Why?",
+            "previous_answer": "Well, I think it's important for any person, really, but young girls in particular who come from marginalized communities to find their - not only their roots but the meaning and the legacy of wisdom and power that comes from those traditions. And Celi, because she's bicultural and multiracial, she has all of these beautiful intersections happening that I really tried to play up in the novel because I wanted children that are just like Celi, who are multiracial and bicultural, to see themselves and their hybridity in all of its beauty and all of its power.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you tell us about the main theme of 'The Moon Within' and how the story is structured to convey that theme?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.15272851288318634,
+                        "outline_relevance": 0.938866913318634,
+                        "originality": 0.019161641597747803,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How do you see the experience of bicultural and multiracial young women evolving in the future?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5562253594398499,
+                            "outline_relevance": 0.4991893470287323,
+                            "originality": 0.4500109553337097,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you share some examples of how cultural stories have empowered young women you know?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4872204065322876,
+                            "outline_relevance": 0.6667948961257935,
+                            "originality": 0.29384303092956543,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What role do you think family and community play in helping young girls embrace their cultural hybridity?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6175268888473511,
+                            "outline_relevance": 0.4632018208503723,
+                            "originality": 0.42165762186050415,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you tell us about the main theme of 'The Moon Within' and how the story is structured to convey that theme?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.15272851288318634,
+                            "outline_relevance": 0.938866913318634,
+                            "originality": 0.019161641597747803,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "Aida Salazar's new book is \"The Moon Within.\" Thank you very much.",
+            "previous_answer": "Thank you so much, Lulu, for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: What inspired you to share your story through 'The Moon Within'?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.24411490559577942,
+                        "outline_relevance": 0.6747870445251465,
+                        "originality": 0.11589920520782471,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What inspired you to share your story through 'The Moon Within'?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.24411490559577942,
+                            "outline_relevance": 0.6747870445251465,
+                            "originality": 0.11589920520782471,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How do your own experiences as a mother influence the themes in your book?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.106356680393219,
+                            "outline_relevance": 0.44983282685279846,
+                            "originality": 0.23584789037704468,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you describe a moment during the creation of 'The Moon Within' that was particularly meaningful to you?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2474023997783661,
+                            "outline_relevance": 0.6254520416259766,
+                            "originality": 0.3034197688102722,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

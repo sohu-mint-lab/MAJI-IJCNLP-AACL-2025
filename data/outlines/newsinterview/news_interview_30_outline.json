@@ -1,0 +1,97 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of 'Cantoras'",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the central premise of Carolina de Robertis' novel 'Cantoras'?",
+        "importance": "critical",
+        "keywords": [
+          "Cantoras",
+          "novel",
+          "premise"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Exploration of Identity and Language",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does the term 'cantora' function as a code for sexual identity among the characters?",
+        "importance": "high",
+        "keywords": [
+          "cantora",
+          "sexual identity",
+          "code"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What does Carolina de Robertis say about the vocabulary the characters develop over time?",
+        "importance": "high",
+        "keywords": [
+          "vocabulary",
+          "identity",
+          "character development"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Historical Context and Personal Connection",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What motivated Carolina de Robertis to set the novel during the Uruguayan dictatorship?",
+        "importance": "critical",
+        "keywords": [
+          "Uruguayan dictatorship",
+          "motivation",
+          "historical context"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did Carolina de Robertis' personal experiences inform her writing of 'Cantoras'?",
+        "importance": "high",
+        "keywords": [
+          "personal experience",
+          "writing",
+          "inspiration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Resonance of Historical Fiction Today",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "In what ways does Carolina see parallels between the past and the present in her writing?",
+        "importance": "high",
+        "keywords": [
+          "parallels",
+          "history",
+          "contemporary relevance"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What themes of resistance and survival does 'Cantoras' explore against the backdrop of repressive regimes?",
+        "importance": "high",
+        "keywords": [
+          "resistance",
+          "survival",
+          "themes",
+          "repressive regimes"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,283 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.5078167865673701,
+                "avg_context_relevance": 0.520076185464859,
+                "avg_outline_relevance": 0.7704349458217621,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 66.66666666666666,
+            "weighted_coverage_score": 77.77777777777779,
+            "covered_questions": 4,
+            "total_questions": 6
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "And now, it's letter time. Our editor Sasa Woodruff is here with me. Hey, Sasa.",
+            "previous_answer": "Hey Tony, how is it going?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Tony, what was the initial topic that sparked a significant response from listeners during your recent discussions?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.47771313786506653,
+                        "outline_relevance": 0.8053950071334839,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Tony, what was the initial topic that sparked a significant response from listeners during your recent discussions?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.47771313786506653,
+                            "outline_relevance": 0.8053950071334839,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "It's going well. Thank you. It sounds like our conversation about First Lady Michelle Obama's hair caused quite a stir this week.",
+            "previous_answer": "That's right. The segment triggered a flurry of comments by listeners who had pretty strong feelings about the conversation. We'll get to those comments in a second. First, we're going to go to a letter about a story we did on Washington D.C. trying to get a voting representative in Congress. Richard Golden in Thomasville, Georgia, wrote us this.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share some of the specific reactions listeners had about the discussion on D.C. voting rights and how it added to the overall conversation?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6915075182914734,
+                        "outline_relevance": 0.8513399362564087,
+                        "originality": 0.3644235134124756,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share some of the specific reactions listeners had about the discussion on D.C. voting rights and how it added to the overall conversation?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6915075182914734,
+                            "outline_relevance": 0.8513399362564087,
+                            "originality": 0.3644235134124756,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "(Reading) No, it was never intended that the District of Columbia be a state. It is a district. In theory no one should live in D.C., only work there. Everyone should be living in or have an address in Virginia and be eligible to vote there. If there are enough people in D.C. to think that they need a vote, then shrink the D.C. and give the rest back to Virginia. And then Mary Shepherd commented on another conversation I had with contributor Judge Lynn Toller that discussed if Rihanna should press charges in an alleged attack by her boyfriend Chris Brown.",
+            "previous_answer": "Mary wrote, (Reading) Judge Toller said that it was not Rihanna's responsibility; it's the state's responsibility to press charges. President Obama himself said that this is a new era of responsibility. Of course, Rihanna has a responsibility to follow through with this situation and press charges. And by the way, since she is in the public eye, she's got an opportunity to set a strong example. Now, into the comments for the conversation NPR's Allison Samuels had with celebrity stylist Marcia Hamilton where they talked about First Lady Michelle Obama's possible influence on how black women will style their hair. First stop, Lindsay Saunders.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "In what ways do you think Rihanna's choice to either press charges or not could impact public attitudes towards accountability and justice in similar situations?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7625856995582581,
+                        "outline_relevance": 0.3298758864402771,
+                        "originality": 0.6387573778629303,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "In what ways do you think Rihanna's choice to either press charges or not could impact public attitudes towards accountability and justice in similar situations?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7625856995582581,
+                            "outline_relevance": 0.3298758864402771,
+                            "originality": 0.6387573778629303,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "She wrote this on our Web site, (Reading) I've been hoping for some black hair talk. I've recently been struggling with my hair and have decided to get rid of it. I agree with Marcia about black women in the corporate world and how hairstyles can affect people's views of you. Thanks for the coverage.",
+            "previous_answer": "But Halley(ph) Richardson disagrees. She wrote, (Reading) I found the story to be utterly ridiculous during this economic downturn. When women are losing their jobs and fighting to keep their homes, we are advising them on spending the equivalent of a mortgage payment on a one-time service? Why not spend the time discussing alternate ways to keep your hair in good shape when money is tight?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe some of the differing opinions from listeners regarding the hair care discussion, particularly those critical of the advice given?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.388274610042572,
+                        "outline_relevance": 0.8631125092506409,
+                        "originality": 0.483630895614624,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you describe some of the differing opinions from listeners regarding the hair care discussion, particularly those critical of the advice given?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.388274610042572,
+                            "outline_relevance": 0.8631125092506409,
+                            "originality": 0.483630895614624,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "And Detroit listener Tracy Morris(ph) sent us this. (Reading) I found it sad that the story spent so much time talking about what steps to take in order to get a good weave, but didn't talk about where to go or what to do in order to get good styling options for our hair in its natural state. If we're going to get past the antiquated notion of good hair equals straight and bad hair equals kinky, then we need our community and our media, beauty magazines, et cetera, to promote and disseminate options and images showing the care and styling of natural hair.",
+            "previous_answer": "And finally, Gina Savalti(ph) in Saint Louis, Missouri sent us this send-off. (Reading) I'm impressed with the quality of your show as it winds down. The host is very professional and easy to listen to. The production quality has also been high. Thank you for going out in style. And thank you for writing, please keep your thoughts coming over the next couple of weeks.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Earlier, the host encouraged listeners to keep sharing their thoughts over the next couple of weeks. How important do you think this kind of ongoing audience participation is for the success and development of a show?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5961298942565918,
+                        "outline_relevance": 0.7728863954544067,
+                        "originality": 0.4232015609741211,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Earlier, the host encouraged listeners to keep sharing their thoughts over the next couple of weeks. How important do you think this kind of ongoing audience participation is for the success and development of a show?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5961298942565918,
+                            "outline_relevance": 0.7728863954544067,
+                            "originality": 0.4232015609741211,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "To write us, just log on to NPR and click on Contact Us. When you get there, you'll see lots of shows to choose from. Make sure you pick News and Notes when you write to us.",
+            "previous_answer": "And be sure to tell us where you're writing from and how to pronounce your name. Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What were some of the differing opinions from listeners regarding the hair discussion?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.20424625277519226,
+                        "outline_relevance": 0.9999999403953552,
+                        "originality": 0.13688737154006958,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What were some of the differing opinions from listeners regarding the hair discussion?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.20424625277519226,
+                            "outline_relevance": 0.9999999403953552,
+                            "originality": 0.13688737154006958,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

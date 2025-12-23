@@ -1,0 +1,283 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3975902199745178,
+                "avg_context_relevance": 0.33717837867637473,
+                "avg_outline_relevance": 0.8697104851404825,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 37.5,
+            "weighted_coverage_score": 39.285714285714285,
+            "covered_questions": 3,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "There is a lot at stake in the upcoming elections for the European Parliament. That's the governing body for the 28 countries in the European Union. It's been five years since the last election. And since then, there's been a surge in populist right-wing parties that are looking to change the European Union from within. Reporter Teri Schultz is in Brussels, and she joins us now. Teri, welcome.",
+            "previous_answer": "Hi, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Can you provide an overview of the key issues at stake in this European Parliament election?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.05015145242214203,
+                        "outline_relevance": 0.934552788734436,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you provide an overview of the key issues at stake in this European Parliament election?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.05015145242214203,
+                            "outline_relevance": 0.934552788734436,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Let's start with the United Kingdom. Since the last elections in 2014, the U.K. has voted to leave the European Union, so-called Brexit. It seems to be looming over this election. And the polls in the U.K. show Nigel Farage's Brexit Party is likely to sweep them.",
+            "previous_answer": "That's true, Lulu. But, you know, it's actually the fact that there hasn't been a Brexit that's created a huge problem for these elections because if the U.K. had gotten out in March, as was scheduled, it wouldn't be an issue at all. But as Brexit got delayed and delayed and delayed, by the time it got so close to the election time, the U.K. was required by law to run candidates. So now, as you mentioned, you've got these new pro-Brexit and anti-Brexit parties formed just to take part in this vote. And what a mess it's going to be because you've got 73 British seats out of 751 total. So once Brexit happens, presuming it does, you've got, you know, basically 10% of the Parliament that's just going to vanish. Some of those seats that will go to U.K. candidates now will be abolished altogether, and others will be redistributed to other member states, who also very much would've liked to have that happen before these elections. But the U.K. is going to play a huge role in electing a body that it won't even be a member of long-term.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are the main issues that voters across Europe are focusing on in this election, considering the complicated Brexit situation and other EU-wide concerns?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4819081425666809,
+                        "outline_relevance": 0.8434097766876221,
+                        "originality": 0.1730024218559265,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What are the main issues that voters across Europe are focusing on in this election, considering the complicated Brexit situation and other EU-wide concerns?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4819081425666809,
+                            "outline_relevance": 0.8434097766876221,
+                            "originality": 0.1730024218559265,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "It sounds incredibly messy. I want to ask also about these nationalist and far-right candidates more broadly across the European Union, since we're in a time where that sentiment is on the rise. How are those candidates expected to do in places like France and Italy?",
+            "previous_answer": "Well, France and Italy are two places where they're expected to do quite well. You've got Marine Le Pen running basically neck-and-neck with President Emmanuel Macron's party. So that certainly is disconcerting to the mainstream political parties. And, of course, Italy's Deputy Prime Minister Matteo Salvini is one of the most popular politicians in all of Europe. So some of those parties are expected to do quite well. And, in fact, they were just holding a meeting of 12 of these far-right parties this weekend, banding together trying to rally support ahead of the elections. And if you listen to them, they say that they could come in even second or a third political group, but polls show them still down around fourth.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What recent initiatives or tactics have these far-right parties employed to try and boost their political influence ahead of the European Parliament elections?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5269774198532104,
+                        "outline_relevance": 0.8418686389923096,
+                        "originality": 0.3368525505065918,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What recent initiatives or tactics have these far-right parties employed to try and boost their political influence ahead of the European Parliament elections?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5269774198532104,
+                            "outline_relevance": 0.8418686389923096,
+                            "originality": 0.3368525505065918,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Well, we can't talk about an election - right? - without bringing up security these days. This is an election that's happening over four days, from Thursday to next Sunday. Is there concern over interference?",
+            "previous_answer": "There's been huge concern about interference because you've got a lot of influence that Russia would like to have in Europe. Of course, there are heavy sanctions here. You've got countries that are very much tied to Russia with energy. And so what the European Union has done is put in place a rapid alert system so that if you see any huge disinformation campaigns happening in one country, they would alert other member states. But I was just at a background briefing just a couple of days ago where they said that it looks like until now, until the week before the election, there has not been any major attempt - any major successful attempt, that is - to interfere. But at the same time, experts tell me that if there are any of these big bombs yet to drop on the campaigns, they're likely to do it only a day or two before the vote so that fact-checkers simply couldn't get on top of the information. So it really will have to be down to the last minute before we see if any of these sort of malignant actors are successful.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Experts have mentioned the possibility of disinformation campaigns occurring right before voting. What specific types of disinformation are they most worried about appearing just before the election, and why might these be particularly damaging or hard to counteract?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.45120227336883545,
+                        "outline_relevance": 0.643568217754364,
+                        "originality": 0.6014146208763123,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Experts have mentioned the possibility of disinformation campaigns occurring right before voting. What specific types of disinformation are they most worried about appearing just before the election, and why might these be particularly damaging or hard to counteract?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.45120227336883545,
+                            "outline_relevance": 0.643568217754364,
+                            "originality": 0.6014146208763123,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Steve Bannon has been active in Europe and formally advising populist parties and has even set up a Brussels-based organization called The Movement. He gave an interview just recently that said a boost to populist parties in Europe could help Donald Trump in 2020. But what effect could it have on Europe itself if the far-right wins big?",
+            "previous_answer": "People here are afraid right now. There's a lot of fear in Europe because of insecurity over the migration issue, over - you know, there's still the terrorism fears. And I think that messages like Steve Bannon's still could carry a lot of impact. But like I said, the polls are still not putting the far-right as high as they say that they'll achieve. And so we'll just have to see it at the last minute. You've got 28 countries with a huge variety of electorates, and it's very hard to say in advance how things will turn out in the end a week from now.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What potential consequences could a victory for far-right parties have on political and social dynamics across Europe?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5637402534484863,
+                        "outline_relevance": 0.9702258110046387,
+                        "originality": 0.20528340339660645,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What potential consequences could a victory for far-right parties have on political and social dynamics across Europe?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5637402534484863,
+                            "outline_relevance": 0.9702258110046387,
+                            "originality": 0.20528340339660645,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Well, we'll be keeping our eye on it. That's reporter Teri Schultz in Brussels. Thanks so much, Teri.",
+            "previous_answer": "Pleasure to be with you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are the key issues at stake in the upcoming European Parliament elections that voters and political groups are focused on?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.050909269601106644,
+                        "outline_relevance": 0.9846376776695251,
+                        "originality": 0.06898832321166992,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What are the key issues at stake in the upcoming European Parliament elections that voters and political groups are focused on?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.050909269601106644,
+                            "outline_relevance": 0.9846376776695251,
+                            "originality": 0.06898832321166992,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

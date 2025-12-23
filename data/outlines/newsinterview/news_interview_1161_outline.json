@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction and Context of the Discussion",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was the initial topic that sparked a significant response from listeners?",
+        "importance": "critical",
+        "keywords": [
+          "Michelle Obama",
+          "hair",
+          "discussion"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the conversation about D.C. voting rights contribute to the overall discourse?",
+        "importance": "high",
+        "keywords": [
+          "D.C.",
+          "voting rights",
+          "discussion"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Listener Reactions and Opinions",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What were some of the differing opinions from listeners regarding the hair discussion?",
+        "importance": "critical",
+        "keywords": [
+          "listener comments",
+          "hair",
+          "opinions"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How did the economic concerns of listeners influence their feedback on the hair segment?",
+        "importance": "high",
+        "keywords": [
+          "economic downturn",
+          "feedback",
+          "hair segment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Concluding Remarks and Future Engagement",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What message did the host convey regarding audience participation in future discussions?",
+        "importance": "high",
+        "keywords": [
+          "audience participation",
+          "future discussions",
+          "engagement"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What were the final thoughts shared by listeners about the quality of the show?",
+        "importance": "optional",
+        "keywords": [
+          "quality",
+          "listener feedback",
+          "show conclusion"
+        ]
+      }
+    ]
+  }
+]

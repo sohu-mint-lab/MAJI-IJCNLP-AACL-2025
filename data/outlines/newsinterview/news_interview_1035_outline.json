@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Comet Lovejoy's Journey",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What makes Comet Lovejoy's encounter with the sun significant?",
+        "importance": "critical",
+        "keywords": [
+          "Comet Lovejoy",
+          "sun",
+          "significance"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did researchers capture the comet's behavior as it passed through the sun?",
+        "importance": "high",
+        "keywords": [
+          "research",
+          "imaging",
+          "sun"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Comet's Wiggle and Its Implications",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What does the wiggle of Comet Lovejoy's tail reveal about the sun's dynamics?",
+        "importance": "critical",
+        "keywords": [
+          "wiggle",
+          "sun dynamics",
+          "implications"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How do charged particles interact with the sun's magnetic field during this event?",
+        "importance": "high",
+        "keywords": [
+          "charged particles",
+          "magnetic field",
+          "interaction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Role of Luck in Astronomical Discoveries",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How does luck factor into the observation of comets like Lovejoy?",
+        "importance": "high",
+        "keywords": [
+          "luck",
+          "observation",
+          "comets"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What insight did Cooper Downs share regarding the naming of comets?",
+        "importance": "optional",
+        "keywords": [
+          "Cooper Downs",
+          "naming",
+          "comets"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Observations and Significance of Comet Ison",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the expectations for Comet Ison's approach to the sun?",
+        "importance": "high",
+        "keywords": [
+          "Comet Ison",
+          "expectations",
+          "sun"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Why is Comet Ison considered noteworthy in the context of future observations?",
+        "importance": "optional",
+        "keywords": [
+          "Comet Ison",
+          "noteworthy",
+          "observations"
+        ]
+      }
+    ]
+  }
+]

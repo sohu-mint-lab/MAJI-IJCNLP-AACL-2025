@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Nikky Finney's Journey and Background",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What significant experiences shaped Nikky Finney's journey as a poet?",
+        "importance": "critical",
+        "keywords": [
+          "journey",
+          "background",
+          "poetry"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did her early jobs influence her writing career?",
+        "importance": "high",
+        "keywords": [
+          "early jobs",
+          "influence",
+          "writing career"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Importance of the National Book Award",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did winning the National Book Award impact Finney's life?",
+        "importance": "critical",
+        "keywords": [
+          "National Book Award",
+          "impact",
+          "life changes"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What responsibilities does she feel as a judge for the National Book Awards?",
+        "importance": "high",
+        "keywords": [
+          "responsibilities",
+          "judge",
+          "National Book Awards"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Reflections on Poetry and Community",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What does Finney believe are the different ways poets earn a living?",
+        "importance": "high",
+        "keywords": [
+          "poets",
+          "earn a living",
+          "different ways"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Nikky Finney view her role in mentoring younger writers?",
+        "importance": "high",
+        "keywords": [
+          "mentoring",
+          "younger writers",
+          "role"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Aspirations and Projects",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What upcoming projects is Nikky Finney involved with, particularly concerning the end of the Civil War?",
+        "importance": "high",
+        "keywords": [
+          "upcoming projects",
+          "Civil War",
+          "Kronos Quartet"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What hopes and fears does she have regarding her move back to South Carolina?",
+        "importance": "high",
+        "keywords": [
+          "move",
+          "South Carolina",
+          "hopes and fears"
+        ]
+      }
+    ]
+  }
+]

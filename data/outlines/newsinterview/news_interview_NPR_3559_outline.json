@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Ruben Studdard's Journey Since American Idol",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How has Ruben Studdard's understanding of himself as an artist changed since his time on American Idol?",
+        "importance": "critical",
+        "keywords": [
+          "Ruben Studdard",
+          "American Idol",
+          "artist growth"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What are the key differences Studdard sees in his life now compared to three years ago?",
+        "importance": "high",
+        "keywords": [
+          "life changes",
+          "success",
+          "personal growth"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Return Album Insights",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What was the inspiration behind Ruben Studdard's gospel album and how does it differ from his latest album, The Return?",
+        "importance": "critical",
+        "keywords": [
+          "The Return",
+          "gospel album",
+          "inspiration"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What does Studdard consider the standout track on The Return, and why?",
+        "importance": "high",
+        "keywords": [
+          "standout track",
+          "Ain't No Party",
+          "album highlights"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Health and Fitness Journey",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What lifestyle changes did Ruben Studdard make to achieve his weight loss goal?",
+        "importance": "high",
+        "keywords": [
+          "weight loss",
+          "health",
+          "lifestyle changes"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Studdard perceive the importance of willpower in maintaining health and fitness?",
+        "importance": "optional",
+        "keywords": [
+          "willpower",
+          "health",
+          "fitness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Reflections on Fame and Friendship",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How has Ruben Studdard's success affected his friendships and relationships from before fame?",
+        "importance": "high",
+        "keywords": [
+          "friendship",
+          "success",
+          "relationships"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What does Studdard think about the competitive narrative portrayed in reality shows like American Idol?",
+        "importance": "optional",
+        "keywords": [
+          "competition",
+          "American Idol",
+          "reality shows"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Impeachment Inquiry",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What led to the scrutiny of Joe Biden and Hunter Biden in relation to the impeachment inquiry?",
+        "importance": "critical",
+        "keywords": [
+          "impeachment inquiry",
+          "Joe Biden",
+          "Hunter Biden"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Sarah Chayes perceive the implications of political families involved in questionable activities?",
+        "importance": "high",
+        "keywords": [
+          "political families",
+          "questionable activities",
+          "implications"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Corruption and Public Perception",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What concerns does Sarah Chayes raise about the public perception of wrongdoing in political contexts?",
+        "importance": "critical",
+        "keywords": [
+          "public perception",
+          "wrongdoing",
+          "political context"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Why does Chayes highlight the term 'no wrongdoing' within the context of the Bidens' situation?",
+        "importance": "high",
+        "keywords": [
+          "no wrongdoing",
+          "Bidens",
+          "public discourse"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Focus on Structural Issues in Corruption",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is Sarah Chayes' viewpoint on the risks of focusing too much on individual corrupt actors?",
+        "importance": "critical",
+        "keywords": [
+          "focus",
+          "individual corrupt actors",
+          "structural issues"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Chayes suggest citizens should engage with corruption beyond partisan divides?",
+        "importance": "high",
+        "keywords": [
+          "citizens",
+          "engagement",
+          "corruption",
+          "partisan divides"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Call for Increased Standards in Political Discourse",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What does Chayes propose as necessary actions citizens should take regarding political standards?",
+        "importance": "critical",
+        "keywords": [
+          "standards",
+          "citizens",
+          "political discourse"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "In what ways does Chayes believe the debate standard in the U.S. needs to improve?",
+        "importance": "high",
+        "keywords": [
+          "debate standard",
+          "improvement",
+          "U.S. politics"
+        ]
+      }
+    ]
+  }
+]

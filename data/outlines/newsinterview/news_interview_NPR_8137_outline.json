@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Project Loon",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is Project Loon and how does it aim to provide internet access?",
+        "importance": "critical",
+        "keywords": [
+          "Project Loon",
+          "internet access",
+          "balloons"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Can you explain how the pilot program in New Zealand is functioning?",
+        "importance": "high",
+        "keywords": [
+          "pilot program",
+          "New Zealand",
+          "balloons"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Technical Aspects and Challenges",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How do the balloons navigate and stay in position to provide coverage?",
+        "importance": "critical",
+        "keywords": [
+          "navigation",
+          "coverage",
+          "altitude"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are some of the environmental challenges faced by the balloons at high altitudes?",
+        "importance": "high",
+        "keywords": [
+          "environmental challenges",
+          "altitude",
+          "temperature"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Comparative Solutions and Costs",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How does Project Loon compare to traditional satellite internet solutions?",
+        "importance": "high",
+        "keywords": [
+          "satellite",
+          "comparison",
+          "cost"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are the estimated costs associated with launching and maintaining the balloons?",
+        "importance": "optional",
+        "keywords": [
+          "costs",
+          "launching",
+          "maintaining"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Plans and Expansion",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the future plans for expanding Project Loon beyond New Zealand?",
+        "importance": "high",
+        "keywords": [
+          "expansion",
+          "future plans",
+          "global coverage"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How many balloons will be needed to establish a complete coverage ring?",
+        "importance": "optional",
+        "keywords": [
+          "balloons",
+          "coverage ring",
+          "40 degrees"
+        ]
+      }
+    ]
+  }
+]

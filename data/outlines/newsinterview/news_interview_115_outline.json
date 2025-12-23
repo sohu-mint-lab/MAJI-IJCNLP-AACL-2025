@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Impeachment and Political Focus",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What arguments did Philip Mudd make regarding the impeachment process and its potential impact on America?",
+        "importance": "critical",
+        "keywords": [
+          "impeachment",
+          "politics",
+          "impact"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Mudd suggest the Democrats should redirect their focus?",
+        "importance": "high",
+        "keywords": [
+          "Democrats",
+          "focus",
+          "Russia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Robert Mueller's Role and Treatment",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What was Mudd's perspective on Robert Mueller's handling during the hearings?",
+        "importance": "critical",
+        "keywords": [
+          "Mueller",
+          "hearings",
+          "treatment"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "In what ways did Mudd criticize the political response to Mueller's testimony?",
+        "importance": "high",
+        "keywords": [
+          "criticism",
+          "politics",
+          "testimony"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Black Sites and Enhanced Interrogation",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What motivated Philip Mudd to write his book 'Black Site'?",
+        "importance": "high",
+        "keywords": [
+          "book",
+          "Black Site",
+          "motivation"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Mudd reflect on the decisions made regarding enhanced interrogation techniques?",
+        "importance": "high",
+        "keywords": [
+          "decisions",
+          "enhanced interrogation",
+          "reflection"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Lessons from the Past",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "According to Mudd, how should Americans understand the context of decisions made during the post-9/11 era?",
+        "importance": "critical",
+        "keywords": [
+          "context",
+          "decisions",
+          "9/11"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What changes would Mudd advocate for in future CIA operations based on past experiences?",
+        "importance": "high",
+        "keywords": [
+          "CIA",
+          "operations",
+          "changes"
+        ]
+      }
+    ]
+  }
+]

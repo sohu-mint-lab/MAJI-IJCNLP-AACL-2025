@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Wajahat Ali's Personal Journey",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you describe the recent challenges your daughter faced regarding her health?",
+        "importance": "critical",
+        "keywords": [
+          "Wajahat Ali",
+          "daughter",
+          "health"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What was your emotional state leading up to the liver transplant?",
+        "importance": "high",
+        "keywords": [
+          "emotional state",
+          "transplant",
+          "anticipation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Transplant Experience",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did you feel when you learned that your daughter received a liver transplant?",
+        "importance": "critical",
+        "keywords": [
+          "transplant",
+          "feelings",
+          "recovery"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What can you tell us about the anonymous donor who came forward to help your daughter?",
+        "importance": "high",
+        "keywords": [
+          "anonymous donor",
+          "help",
+          "gratitude"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Lessons Learned and Call to Action",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What important lesson did you take away from this experience?",
+        "importance": "critical",
+        "keywords": [
+          "lessons",
+          "goodness",
+          "community"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How can others get involved in organ donation or support families in similar situations?",
+        "importance": "high",
+        "keywords": [
+          "organ donation",
+          "support",
+          "involvement"
+        ]
+      }
+    ]
+  }
+]

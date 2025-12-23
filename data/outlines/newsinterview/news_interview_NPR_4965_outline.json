@@ -1,0 +1,70 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Horseshoe Crab Mating",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What unique behaviors do horseshoe crabs exhibit during their mating season?",
+        "importance": "critical",
+        "keywords": [
+          "horseshoe crabs",
+          "mating",
+          "behavior"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Scientific Research and Population Monitoring",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What challenges do scientists face when trying to estimate horseshoe crab populations?",
+        "importance": "high",
+        "keywords": [
+          "population monitoring",
+          "scientific research",
+          "challenges"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What findings have been reported regarding the population decline of horseshoe crabs?",
+        "importance": "high",
+        "keywords": [
+          "population decline",
+          "findings",
+          "research"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Ecological Role and Importance",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How do horseshoe crabs contribute to their ecosystem?",
+        "importance": "high",
+        "keywords": [
+          "ecosystem",
+          "ecological role",
+          "contribution"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are the commercial uses of horseshoe crabs despite their ecological significance?",
+        "importance": "optional",
+        "keywords": [
+          "commercial uses",
+          "fertilizer",
+          "significance"
+        ]
+      }
+    ]
+  }
+]

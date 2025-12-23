@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Impact of Tropical Storm Imelda",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was the extent of the flooding caused by Tropical Storm Imelda in Houston?",
+        "importance": "critical",
+        "keywords": [
+          "Tropical Storm Imelda",
+          "flooding",
+          "Houston"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the flooding in Houston compare to previous events like Hurricane Harvey?",
+        "importance": "high",
+        "keywords": [
+          "Hurricane Harvey",
+          "comparison",
+          "flooding"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Rescue Efforts and Community Response",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What was the situation in Huffman, Texas, regarding rescues during the storm?",
+        "importance": "critical",
+        "keywords": [
+          "Huffman",
+          "rescues",
+          "community"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How did residents affected by the flooding express their sentiments about repeated disasters?",
+        "importance": "high",
+        "keywords": [
+          "residents",
+          "sentiments",
+          "flooding"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Broader Implications of Recurring Flooding",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Are Houstonians beginning to perceive the flooding as a regular occurrence and what are they saying about it?",
+        "importance": "critical",
+        "keywords": [
+          "Houstonians",
+          "perception",
+          "recurring flooding"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What challenges do residents face in deciding to stay in affected neighborhoods?",
+        "importance": "high",
+        "keywords": [
+          "challenges",
+          "decisions",
+          "neighborhoods"
+        ]
+      }
+    ]
+  }
+]

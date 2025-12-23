@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Adam Mosseri's Background and Perspective on Bullying",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How did Adam Mosseri's personal experiences with bullying shape his views on online harassment?",
+        "importance": "critical",
+        "keywords": [
+          "Adam Mosseri",
+          "bullying",
+          "perspective"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What are Mosseri's thoughts on how social media could impact children today compared to his own childhood?",
+        "importance": "high",
+        "keywords": [
+          "social media",
+          "children",
+          "impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Instagram's Approach to Combating Bullying",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What features is Instagram implementing to help users handle bullying on the platform?",
+        "importance": "critical",
+        "keywords": [
+          "Instagram",
+          "features",
+          "bullying"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Why does Mosseri believe that giving targets of bullying more control can be beneficial?",
+        "importance": "high",
+        "keywords": [
+          "bullying",
+          "control",
+          "beneficial"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges and Controversies in Policy Changes",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the potential business implications of making likes private on Instagram?",
+        "importance": "high",
+        "keywords": [
+          "likes",
+          "private",
+          "business implications"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How are influencers reacting to the potential changes in Instagram's policy on likes?",
+        "importance": "optional",
+        "keywords": [
+          "influencers",
+          "reaction",
+          "policy changes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Directions and Goals for Instagram",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What is Mosseri's outlook on the future of Instagram in addressing social media abuse?",
+        "importance": "high",
+        "keywords": [
+          "future",
+          "Instagram",
+          "social media abuse"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What lessons from Mosseri's time at Facebook is he applying to his role at Instagram?",
+        "importance": "optional",
+        "keywords": [
+          "lessons",
+          "Facebook",
+          "Instagram"
+        ]
+      }
+    ]
+  }
+]

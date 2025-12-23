@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "E.O. Wilson's Scientific Philosophy",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What prompted E.O. Wilson to write 'Letters to a Young Scientist'?",
+        "importance": "critical",
+        "keywords": [
+          "scientific philosophy",
+          "advice",
+          "writing motivation"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Wilson describe the characteristics of an ideal scientist?",
+        "importance": "high",
+        "keywords": [
+          "ideal scientist",
+          "characteristics",
+          "personality traits"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Creativity and the Scientific Process",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What role does Wilson believe imagination plays in scientific discovery?",
+        "importance": "critical",
+        "keywords": [
+          "creativity",
+          "scientific discovery",
+          "imagination"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are 'dirty experiments' and why are they valuable according to Wilson?",
+        "importance": "high",
+        "keywords": [
+          "dirty experiments",
+          "value",
+          "scientific method"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Interdisciplinary Connections in Science and Humanities",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is Wilson's view on the connection between science and the humanities?",
+        "importance": "critical",
+        "keywords": [
+          "interdisciplinary connections",
+          "science",
+          "humanities"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Why does Wilson suggest that scientists need to broaden their horizons?",
+        "importance": "high",
+        "keywords": [
+          "broaden horizons",
+          "scientific specialization",
+          "collaboration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "The Importance of Unstructured Play for Children",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What does Wilson believe about the need for unstructured time for children?",
+        "importance": "high",
+        "keywords": [
+          "unstructured time",
+          "kids",
+          "creative play"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Wilson suggest children can benefit from exploration in natural environments?",
+        "importance": "optional",
+        "keywords": [
+          "exploration",
+          "natural environments",
+          "benefits"
+        ]
+      }
+    ]
+  }
+]

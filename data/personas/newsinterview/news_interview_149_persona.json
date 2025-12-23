@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Andrew Blum",
+    "age": 40,
+    "personality": "Inquisitive and knowledgeable, with a deep understanding of both the technical and societal implications of weather forecasting.",
+    "employment": "Author and Weather Expert",
+    "notes": "Wrote 'The Weather Machine: A Journey Inside The Forecast', highlighting the evolution of weather forecasting and its impact on society.",
+    "communication_style": "Clear and engaging, often drawing on both technical knowledge and relatable examples to illustrate complex ideas."
+  }
+}

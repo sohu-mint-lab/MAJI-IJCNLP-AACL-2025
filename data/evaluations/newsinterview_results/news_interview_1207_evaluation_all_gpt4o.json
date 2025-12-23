@@ -1,0 +1,1223 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.2836995010192578,
+                "avg_context_relevance": 0.26570803417036165,
+                "avg_outline_relevance": 0.6825784898721254,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.28089307336246266,
+                "avg_context_relevance": 0.22510764506809852,
+                "avg_outline_relevance": 0.7420453709714553,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 54.54545454545454,
+            "covered_questions": 4,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "With All Tech Considered. The head of Instagram, Adam Mosseri, knows what it's like to be bullied. He also knows that today kids are likely to be bullied on Instagram. That's why he says he wants to lead the industry in the fight against online bullying.",
+            "previous_answer": "I had, like, Coke bottle, Corbusier glasses at 5 years old that made my eyes as big as - I don't know - lemons.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think the experience of growing up in an earlier social media era has shaped your views on the challenges kids face with bullying today?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.13930609822273254,
+                        "outline_relevance": 0.6382166743278503,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share more about how your childhood experiences with bullying influenced your approach to addressing online harassment?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.08876249194145203,
+                            "outline_relevance": 0.7172411680221558,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think kids today face different challenges with bullying on social media compared to when you were young?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.08886633813381195,
+                            "outline_relevance": 0.6240870356559753,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What lessons from your own past do you apply when leading Instagram’s efforts against online bullying?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.04776696115732193,
+                            "outline_relevance": 0.8082644939422607,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do you think the experience of growing up in an earlier social media era has shaped your views on the challenges kids face with bullying today?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.13930609822273254,
+                            "outline_relevance": 0.6382166743278503,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "I can picture that.",
+            "previous_answer": "I had a haircut that made me look like Harry Potter long before Harry Potter existed or was cool. It was not a good look. I was made fun of a lot. But yeah, I probably would have been made fun of on Instagram.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given your experience with bullying during your childhood, how do you think social media today affects children differently compared to your own upbringing?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2731550931930542,
+                        "outline_relevance": 0.6641561388969421,
+                        "originality": 0.0863116979598999,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How did that experience of being made fun of affect you emotionally and influence your later work on social media bullying?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3628655672073364,
+                            "outline_relevance": 0.6802799701690674,
+                            "originality": 0.22514259815216064,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you tell us more about the differences you see between bullying during your childhood and bullying today on platforms like Instagram?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2971538305282593,
+                            "outline_relevance": 0.7002509236335754,
+                            "originality": 0.13639497756958008,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think sharing personal stories like your haircut helps raise awareness and empathy towards online harassment?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.41830599308013916,
+                            "outline_relevance": 0.6341803073883057,
+                            "originality": 0.291117787361145,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Given your experience with bullying during your childhood, how do you think social media today affects children differently compared to your own upbringing?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2731550931930542,
+                            "outline_relevance": 0.6641561388969421,
+                            "originality": 0.0863116979598999,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Yeah, there would have been an Instagram account that was like Adam's Glasses.",
+            "previous_answer": "Yeah. Oh, man. You're really bringing me back.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you share the story behind 'Adam's Glasses' and how it made you feel at the time?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.19106781482696533,
+                        "outline_relevance": 0.3691888451576233,
+                        "originality": 0.7301822304725647,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share the story behind 'Adam's Glasses' and how it made you feel at the time?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.19106781482696533,
+                            "outline_relevance": 0.3691888451576233,
+                            "originality": 0.7301822304725647,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think children's experiences with bullying have evolved from your childhood to today's social media environment?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.07303914427757263,
+                            "outline_relevance": 0.6175351142883301,
+                            "originality": 0.061214327812194824,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do personal childhood memories influence your approach to handling bullying on Instagram?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.16960561275482178,
+                            "outline_relevance": 0.7409427165985107,
+                            "originality": 0.18510198593139648,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "(Laughter) I'm just saying.",
+            "previous_answer": "(Laughter) I got to find those glasses.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share the story behind 'Adam's Glasses' and how that experience shaped your perspective on bullying both then and now?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.23011621832847595,
+                        "outline_relevance": 0.7186797857284546,
+                        "originality": 0.2807382345199585,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share the story behind 'Adam's Glasses' and how it made you feel at the time?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.37629055976867676,
+                            "outline_relevance": 0.3691888451576233,
+                            "originality": 1.7881393432617188e-07,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think children's experiences with bullying have evolved from your childhood to today's social media environment?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.024072090163826942,
+                            "outline_relevance": 0.6175351142883301,
+                            "originality": 1.1920928955078125e-07,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do personal childhood memories influence your approach to handling bullying on Instagram?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.05089597776532173,
+                            "outline_relevance": 0.7409427165985107,
+                            "originality": -2.384185791015625e-07,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share the story behind 'Adam's Glasses' and how that experience shaped your perspective on bullying both then and now?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.23011621832847595,
+                            "outline_relevance": 0.7186797857284546,
+                            "originality": 0.2807382345199585,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "I had a rough time of it, too. And I have to admit, I look at social media; I look at things like Instagram. And I say - thank God it wasn't around when I was a kid. It would have been worse.",
+            "previous_answer": "I don't quite feel that way. Obviously, I'm biased given that I'm sitting in the situation that I'm sitting in. I have two kids. They're too young to use Instagram. They're 3 and 1 right now, but they will use Instagram when they get older. I think that certain things would absolutely be worse. Other things would be better. For me right now, the way my kids appear on Instagram is they have private accounts. They don't use them; they're literally 3 and 1 years old. But I manage them, and I share basically their upbringing with my family who lives all around the world. I have family in Pittsburgh. I have family in New York. I have family in Israel. I have family in Germany. I have family in LA. And they can stay up to date on what my boys are doing and how they're growing in a way that they wouldn't have been able to do just 15 years ago. And so there's good and there's bad that comes from connecting people. Technology is not inherently good, and it's not inherently bad. For those of us who work in the industry, it's our responsibility to magnify the good and address the bad as effectively as we can.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Instagram has been considering and implementing various features to combat bullying. From your perspective, what specific tools or approaches has Instagram introduced to empower users facing bullying, and how effective do you believe they are?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.388008177280426,
+                        "outline_relevance": 0.824217677116394,
+                        "originality": 0.2584443688392639,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Broad: How do you balance protecting young users on Instagram while fostering a positive community culture?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6298239231109619,
+                            "outline_relevance": 0.7469054460525513,
+                            "originality": 0.25318443775177,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Depth: Could you share more about the measures Instagram takes to ensure children's privacy and safety?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6527539491653442,
+                            "outline_relevance": 0.688457190990448,
+                            "originality": 0.36944377422332764,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: In what ways can parents use social media positively for their children while mitigating risks?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5272240042686462,
+                            "outline_relevance": 0.697180986404419,
+                            "originality": 0.32399988174438477,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Instagram has been considering and implementing various features to combat bullying. From your perspective, what specific tools or approaches has Instagram introduced to empower users facing bullying, and how effective do you believe they are?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.388008177280426,
+                            "outline_relevance": 0.824217677116394,
+                            "originality": 0.2584443688392639,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Mosseri took the helm of Instagram almost a year ago, coming from its big brother Facebook. Shortly after, The Atlantic published a story headlined \"Instagram Has A Massive Harassment Problem.\" People said it was too easy to set up anonymous pages just to taunt someone. They said the company wasn't responsive when they tried to sound the alarm about abuse, so now Mosseri is overseeing a rollout of new features that Instagram hopes will protect its users from bullying and keep them on the site. I asked him what he learned about bullying on the platform over the past year.",
+            "previous_answer": "A few different things. One - a lot of it happens. Actually, most of it seems to happen between people who know each other in real life. Another is that the controls that we had before or have today are insufficient. So specifically, I and our researchers talked to a bunch of teens and we asked them, why don't you just block someone who is bullying you on the platform? Because you can block someone right now - they can't see you. You essentially don't exist on Instagram to them. And there were two reasons that came back. One was - often, that can actually escalate the situation. They'll figure that out. They'll know, and they will bully more, either on Instagram or elsewhere. And two is that you need, as a target of bullying, to see what the actor is actually doing. Teens would often say, like, they're talking about me. If I blocked them, I won't be able to see that. So I need to track what's actually happening. Which is why we've been developing this new control called restrict, which allows you to restrict an individual - it means that if they comment on your post, you'll see it, and it'll look to them as if they've - it's actually been commented on, but you have to approve it before anybody else sees it. It means that their messages are going to go into your other inbox, and you have to go there to see them and that they won't actually get read receipts - a whole bunch of different little nuanced ways to give a target of bullying a bit more power over the experience, which allows....",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe the specific features Instagram is currently rolling out to help users manage and respond to bullying behaviors on the platform?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5795516967773438,
+                        "outline_relevance": 0.9308040142059326,
+                        "originality": 0.22225475311279297,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on how the 'restrict' feature has been received and its impact on users experiencing bullying?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5701040029525757,
+                            "outline_relevance": 0.6509066820144653,
+                            "originality": 0.29721033573150635,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What challenges has Instagram faced in communicating these new bullying controls to its younger users?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6850584745407104,
+                            "outline_relevance": 0.8621633648872375,
+                            "originality": 0.15893471240997314,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you balance giving users more control with ensuring the platform doesn't become overly restrictive or impersonal?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3338596224784851,
+                            "outline_relevance": 0.3484964370727539,
+                            "originality": 0.6289577484130859,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you describe the specific features Instagram is currently rolling out to help users manage and respond to bullying behaviors on the platform?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5795516967773438,
+                            "outline_relevance": 0.9308040142059326,
+                            "originality": 0.22225475311279297,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "So it's not about changing their behavior. Right? It's about giving the person who's the victim a few more tools to protect themselves.",
+            "previous_answer": "Yeah. Restrict is not about changing their behavior. There are other things we're doing to try and adjust people's behavior by changing incentives.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on the specific features Instagram is rolling out to help users manage bullying directly on the platform?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.29935887455940247,
+                        "outline_relevance": 0.9471170902252197,
+                        "originality": 0.02982693910598755,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you go into more detail about the other initiatives Instagram is using to encourage positive behavior change?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4103128910064697,
+                            "outline_relevance": 0.7854568958282471,
+                            "originality": 0.2284783124923706,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you see the balance between protecting victims and reforming bullies evolving on the platform?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.44616758823394775,
+                            "outline_relevance": 0.574188232421875,
+                            "originality": 0.4560299515724182,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What challenges does Instagram face when trying to change user behavior as opposed to just giving victims tools to protect themselves?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3816644251346588,
+                            "outline_relevance": 0.744417130947113,
+                            "originality": 0.18399876356124878,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you elaborate on the specific features Instagram is rolling out to help users manage bullying directly on the platform?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.29935887455940247,
+                            "outline_relevance": 0.9471170902252197,
+                            "originality": 0.02982693910598755,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "One of them is very interesting. It's an alert that flags a mean-spirited post. Right? It essentially asks you - hey, are you sure you want to post this?",
+            "previous_answer": "Yes.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe how the alert that flags mean-spirited posts operates behind the scenes and how users typically react to these alerts?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.10716676712036133,
+                        "outline_relevance": 0.44013839960098267,
+                        "originality": 0.5522423982620239,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe how the alert that flags mean-spirited posts works behind the scenes and how users typically respond to it?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.15213707089424133,
+                            "outline_relevance": 0.4671757221221924,
+                            "originality": 0.4986879229545593,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: In your view, how important are these types of alerts compared to other measures Instagram uses to combat bullying?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.04277324303984642,
+                            "outline_relevance": 0.7693883180618286,
+                            "originality": 0.2048708200454712,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What challenges does Instagram face in implementing proactive measures like alerting users before posting potentially harmful content?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.058279938995838165,
+                            "outline_relevance": 0.768397867679596,
+                            "originality": 0.13251465559005737,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you describe how the alert that flags mean-spirited posts operates behind the scenes and how users typically react to these alerts?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.10716676712036133,
+                            "outline_relevance": 0.44013839960098267,
+                            "originality": 0.5522423982620239,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "It's very polite (laughter).",
+            "previous_answer": "It is.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you share any examples where a polite approach helped de-escalate a tense situation on Instagram?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.01016869954764843,
+                        "outline_relevance": 0.6229903101921082,
+                        "originality": 0.281177282333374,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think politeness or tone affects online interactions and bullying on social media?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.085996612906456,
+                            "outline_relevance": 0.6702772378921509,
+                            "originality": 0.216652512550354,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share any examples where a polite approach helped de-escalate a tense situation on Instagram?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.01016869954764843,
+                            "outline_relevance": 0.6229903101921082,
+                            "originality": 0.281177282333374,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How important is the role of communication style in combating bullying compared to technological solutions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.0702403262257576,
+                            "outline_relevance": 0.6638075113296509,
+                            "originality": 0.29074352979660034,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "Why do you think that will be effective? I mean, if someone's about to say something cruel (laughter), saying think about it - like, I don't know.",
+            "previous_answer": "I think it's going to be somewhat effective but not very effective. I actually think that's true of all of the work that we're going to do. All of these problems are not solved by any one solution. They are complicated. I've also seen in the actual data that a minority but a significant minority of people do rewrite their comments, and they rewrite them in a much more pleasant way. Now, do most people rewrite their comments? No - because if you have an intent that's really intense to harass an individual, a polite comment from Instagram is not going to prevent you from doing so. But sometimes people get caught up in the moment, and a lightweight reminder can actually help them rethink what they're doing or what they're saying. And so it's not supposed to be the solution that we hang our hat on for all of bullying. It's supposed to be one of many tools to try to prevent bullying from happening in the first place.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the complexity of the bullying issue, how do you evaluate and balance the effectiveness of multiple anti-bullying tools and strategies on Instagram?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.30822044610977173,
+                        "outline_relevance": 0.870701253414154,
+                        "originality": 0.14405488967895508,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you balance multiple tools and strategies to effectively address bullying on Instagram?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.23370245099067688,
+                            "outline_relevance": 0.8815599679946899,
+                            "originality": 0.12119680643081665,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you elaborate on the data that shows some users rewrite their comments, and what that implies about user behavior?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4984493851661682,
+                            "outline_relevance": 0.45399919152259827,
+                            "originality": 0.43172287940979004,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What role do you see technology versus community norms playing in reducing online harassment?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.368292897939682,
+                            "outline_relevance": 0.6625664234161377,
+                            "originality": 0.2408212423324585,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Given the complexity of the bullying issue, how do you evaluate and balance the effectiveness of multiple anti-bullying tools and strategies on Instagram?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.30822044610977173,
+                            "outline_relevance": 0.870701253414154,
+                            "originality": 0.14405488967895508,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "One controversial idea that I know you are thinking about is the idea of making the number of likes private. Right?",
+            "previous_answer": "Yeah.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Instagram's policy changes can have wide-reaching effects. How are influencers reacting to the potential changes in Instagram's policy on likes, and what feedback have they provided?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.02892795391380787,
+                        "outline_relevance": 0.9079445004463196,
+                        "originality": 0.22357791662216187,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: What concerns or benefits do you weigh when considering hiding likes on Instagram?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.06274554133415222,
+                            "outline_relevance": 0.7641927003860474,
+                            "originality": 0.23278707265853882,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How might making likes private reshape interactions among users, especially young people?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.12641236186027527,
+                            "outline_relevance": 0.6242231726646423,
+                            "originality": 0.3962714672088623,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What challenges do you anticipate in implementing this change, and how might Instagram address them?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1327981948852539,
+                            "outline_relevance": 0.6808615922927856,
+                            "originality": 0.1672736406326294,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Instagram's policy changes can have wide-reaching effects. How are influencers reacting to the potential changes in Instagram's policy on likes, and what feedback have they provided?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.02892795391380787,
+                            "outline_relevance": 0.9079445004463196,
+                            "originality": 0.22357791662216187,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 11,
+            "actual_question": "So when a person posts to Instagram their image, lots of people can click on a little heart that shows I love this thing. And some people get a high off of that - right? - when they - 'cause it's a big popularity contest in a way. If you make that private, doesn't that get to the heart of what Instagram is?",
+            "previous_answer": "In some ways, yeah. When I said before that...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How have influencers been responding to the possibility of Instagram hiding likes, and what impact might this have on their content strategies?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.14985358715057373,
+                        "outline_relevance": 0.8845571875572205,
+                        "originality": 0.1713193655014038,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you explain more about how hiding likes might influence user behavior, especially regarding popularity?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.18992525339126587,
+                            "outline_relevance": 0.6337162256240845,
+                            "originality": 0.26779621839523315,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What other aspects of Instagram do you think contribute to its unique social dynamic beyond the like feature?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.20543725788593292,
+                            "outline_relevance": 0.7235271334648132,
+                            "originality": 0.21472376585006714,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What challenges does Instagram face if it moves forward with making likes private, both from user and business perspectives?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.12321564555168152,
+                            "outline_relevance": 0.8613747358322144,
+                            "originality": 0.1925984025001526,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How have influencers been responding to the possibility of Instagram hiding likes, and what impact might this have on their content strategies?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.14985358715057373,
+                            "outline_relevance": 0.8845571875572205,
+                            "originality": 0.1713193655014038,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 12,
+            "actual_question": "That sounds bad for business.",
+            "previous_answer": "It might be. But ultimately, if we make decisions that are bad for business but that keep people safe or are good for well-being more broadly, I have to believe that those are going to be good for the business over the long run, and so I'm going to make those decisions. The idea with making like counts private is to try and depressurize the experience a bit. It can sometimes feel like a popularity contest, which is why we...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How have influencers on Instagram reacted to the changes around hiding like counts? Have these shifts affected their engagement strategies or content creation?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2571774423122406,
+                        "outline_relevance": 0.8646513819694519,
+                        "originality": 0.08180338144302368,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you elaborate on what led you to believe that prioritizing well-being over immediate business results will benefit Instagram in the long run?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.42458540201187134,
+                            "outline_relevance": 0.6667040586471558,
+                            "originality": 0.23752176761627197,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What kind of feedback have you received from users about the pressure of like counts and popularity on Instagram?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2689119577407837,
+                            "outline_relevance": 0.7748177647590637,
+                            "originality": 0.24635255336761475,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you balance Instagram's business objectives with the ethical responsibility to protect users, especially younger ones?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.33135250210762024,
+                            "outline_relevance": 0.6613439321517944,
+                            "originality": 0.17094409465789795,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How have influencers on Instagram reacted to the changes around hiding like counts? Have these shifts affected their engagement strategies or content creation?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2571774423122406,
+                            "outline_relevance": 0.8646513819694519,
+                            "originality": 0.08180338144302368,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 13,
+            "actual_question": "How likely is this to actually happen, though? Am I speculating with you right now, or is this something you're going to do?",
+            "previous_answer": "I'm bullish on it. It's a big change. We're working through all the challenges. One challenge is for creators. They use Instagram to make a living. Likes are a sign of how relevant they are, so we have to figure out some way to make sure we preserve that.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What feedback have you heard from influencers about the possibility of hiding likes, and how is that feedback shaping your approach?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3647322356700897,
+                        "outline_relevance": 0.6474506855010986,
+                        "originality": 0.22047239542007446,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share more about how Instagram plans to support creators if likes become private, especially regarding their income and engagement metrics?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7254850268363953,
+                            "outline_relevance": 0.8471561670303345,
+                            "originality": 0.16849106550216675,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you envision the balance between user well-being and creator business needs evolving over time on Instagram?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7366563677787781,
+                            "outline_relevance": 0.6661210060119629,
+                            "originality": 0.17817151546478271,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What feedback have you received so far from creators about the possibility of hiding likes, and how is that influencing your decisions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5430048704147339,
+                            "outline_relevance": 0.49236446619033813,
+                            "originality": 0.3335394859313965,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What feedback have you heard from influencers about the possibility of hiding likes, and how is that feedback shaping your approach?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3647322356700897,
+                            "outline_relevance": 0.6474506855010986,
+                            "originality": 0.22047239542007446,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 14,
+            "actual_question": "You're talking about influencers. Right? I mean, there are people who now essentially make a living off of their social media presence. And the way they show potential advertisers - look, I'm a good bet - is how many likes I get.",
+            "previous_answer": "Absolutely. We've actually had a pretty mixed response from influencers. So I think - I'm optimistic to answer your question very directly. We aren't there yet. We're still iterating on the experience. But I am personally optimistic and really personally invested in making it work.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking ahead, how do you envision Instagram evolving its strategies to better combat social media abuse?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.34243106842041016,
+                        "outline_relevance": 0.8276764154434204,
+                        "originality": 0.1830059289932251,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on what specific feedback from influencers has influenced your approach to the like visibility changes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4873998165130615,
+                            "outline_relevance": 0.6060620546340942,
+                            "originality": 0.23852282762527466,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you balance the evolving needs of influencers with Instagram’s goals of user well-being?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3159782886505127,
+                            "outline_relevance": 0.8100289702415466,
+                            "originality": 0.1617887020111084,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are the biggest challenges you foresee in making this change successful for both creators and users?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3174085319042206,
+                            "outline_relevance": 0.27221202850341797,
+                            "originality": 0.3276357650756836,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Looking ahead, how do you envision Instagram evolving its strategies to better combat social media abuse?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.34243106842041016,
+                            "outline_relevance": 0.8276764154434204,
+                            "originality": 0.1830059289932251,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 15,
+            "actual_question": "So the boss is bullish. (Laughter) That's the take so far.",
+            "previous_answer": "The boss is bullish, yes.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Can you share more about what makes you bullish on Instagram's future despite current challenges?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.17287439107894897,
+                        "outline_relevance": 0.6716278791427612,
+                        "originality": 0.26111114025115967,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you share more about what makes you bullish on Instagram's future despite current challenges?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.17287439107894897,
+                            "outline_relevance": 0.6716278791427612,
+                            "originality": 0.26111114025115967,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What key lessons from past experiences inform your optimistic outlook?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.028921717777848244,
+                            "outline_relevance": 0.2810003161430359,
+                            "originality": 0.5555123388767242,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you balance optimism with the realistic challenges Instagram faces in implementing new policies?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.013982275500893593,
+                            "outline_relevance": 0.6504764556884766,
+                            "originality": 0.11510980129241943,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 16,
+            "actual_question": "Well, Adam Mosseri, thank you so much for speaking with us.",
+            "previous_answer": "Absolutely. Thank you so much for the time.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking ahead, how do you envision Instagram evolving to better address issues like social media abuse, and what are the key goals driving this vision?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.04256930947303772,
+                        "outline_relevance": 0.7846530675888062,
+                        "originality": 0.048659324645996094,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you feel about the increasing responsibility social media platforms have in shaping societal behavior?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.11983902007341385,
+                            "outline_relevance": 0.626143217086792,
+                            "originality": 0.2696571350097656,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share a particularly memorable experience that influenced your perspective on social media's impact on children?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.18219584226608276,
+                            "outline_relevance": 0.7579939365386963,
+                            "originality": 0.20377683639526367,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways do you reconcile the optimistic vision for Instagram with the ongoing challenges you face in policy implementation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.09742317348718643,
+                            "outline_relevance": 0.6667175889015198,
+                            "originality": 0.05039083957672119,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Looking ahead, how do you envision Instagram evolving to better address issues like social media abuse, and what are the key goals driving this vision?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.04256930947303772,
+                            "outline_relevance": 0.7846530675888062,
+                            "originality": 0.048659324645996094,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Understanding Heart Attacks and Their Consequences",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the primary effects of a heart attack on heart muscle?",
+        "importance": "critical",
+        "keywords": [
+          "heart attack",
+          "blood flow",
+          "damage"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does scar formation affect heart function after a heart attack?",
+        "importance": "high",
+        "keywords": [
+          "scar formation",
+          "heart function",
+          "remodeling"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Current Treatments for Heart Damage",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What traditional methods are used to treat heart damage after a heart attack?",
+        "importance": "critical",
+        "keywords": [
+          "treatments",
+          "heart damage",
+          "transplant"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What is the significance of the phrase 'time is heart muscle' in treating heart attacks?",
+        "importance": "high",
+        "keywords": [
+          "time",
+          "treatment",
+          "heart attack"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Stem Cell Research and Heart Repair",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How have stem cells shown potential in repairing heart muscle?",
+        "importance": "critical",
+        "keywords": [
+          "stem cells",
+          "heart repair",
+          "research"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What preliminary results have been observed from stem cell treatments in heart patients?",
+        "importance": "high",
+        "keywords": [
+          "preliminary results",
+          "stem cell treatment",
+          "patients"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Prospects and Research Funding",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the potential implications of this research for other organs?",
+        "importance": "high",
+        "keywords": [
+          "other organs",
+          "regeneration",
+          "research implications"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How is the research being funded and what role does the NIH play?",
+        "importance": "optional",
+        "keywords": [
+          "funding",
+          "NIH",
+          "research support"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "The Humanitarian Crisis in Yemen",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the current humanitarian situation in Yemen regarding child starvation?",
+        "importance": "critical",
+        "keywords": [
+          "humanitarian crisis",
+          "Yemen",
+          "starvation"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How are civilians being affected by the ongoing conflict in Yemen?",
+        "importance": "high",
+        "keywords": [
+          "civilians",
+          "conflict",
+          "civilian casualties"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Plunder of Yemen's Antiquities",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What historical significance do Yemen's antiquities hold?",
+        "importance": "critical",
+        "keywords": [
+          "antiquities",
+          "historical significance",
+          "Yemen"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What kinds of illicit activities are occurring related to the sale of these antiquities?",
+        "importance": "high",
+        "keywords": [
+          "illicit trade",
+          "antiquities",
+          "criminal activities"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Impact of Illicit Antiquities Trade",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How are organizations like ISIS and Al-Qaida profiting from the trade of antiquities?",
+        "importance": "critical",
+        "keywords": [
+          "ISIS",
+          "Al-Qaida",
+          "profits",
+          "antiquities trade"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What evidence exists regarding the involvement of terrorist organizations in the antiquities black market?",
+        "importance": "high",
+        "keywords": [
+          "terrorist organizations",
+          "black market",
+          "evidence"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Proposals for Action",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What measures are being proposed to combat the antiquities trade in connection with terrorism?",
+        "importance": "critical",
+        "keywords": [
+          "proposals",
+          "antiquities trade",
+          "terrorism"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Why is the support of international conventions crucial for stopping the illicit trade?",
+        "importance": "high",
+        "keywords": [
+          "international conventions",
+          "illicit trade",
+          "support"
+        ]
+      }
+    ]
+  }
+]

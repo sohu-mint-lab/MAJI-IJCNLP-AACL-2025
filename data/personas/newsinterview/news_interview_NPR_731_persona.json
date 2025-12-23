@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Jason Barnes",
+    "age": 38,
+    "personality": "Inquisitive and analytical, deeply engaged with scientific questions and enthusiastic about sharing knowledge.",
+    "employment": "Assistant Professor of Physics",
+    "notes": "Involved with NASA's Kepler mission to find earth-sized planets.",
+    "communication_style": "Clear and detailed, using analogies to explain complex concepts effectively."
+  }
+}

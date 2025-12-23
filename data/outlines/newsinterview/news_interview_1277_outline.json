@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Context of National Hispanic Heritage Month",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the significance of National Hispanic Heritage Month?",
+        "importance": "critical",
+        "keywords": [
+          "Hispanic Heritage Month",
+          "significance",
+          "history"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the terminology used during this month impact the celebration?",
+        "importance": "high",
+        "keywords": [
+          "terminology",
+          "celebration",
+          "impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Debate Over the Term 'Hispanic'",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Why do many within the Latino community have reservations about the term 'Hispanic'?",
+        "importance": "critical",
+        "keywords": [
+          "Hispanic",
+          "reservations",
+          "Latino community"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What is the historical context behind the term 'Hispanic'?",
+        "importance": "high",
+        "keywords": [
+          "historical context",
+          "term evolution",
+          "colonial relationship"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Generational and Geographic Differences in Identity",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How do generational and geographic factors influence the preference for different terms like 'Hispanic' and 'Latino'?",
+        "importance": "high",
+        "keywords": [
+          "generational differences",
+          "geographic factors",
+          "identity"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are some preferred terms within the community, and how do they reflect individual identities?",
+        "importance": "optional",
+        "keywords": [
+          "preferred terms",
+          "individual identities",
+          "Latino"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Political Implications of Terminology",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the political implications of using more inclusive terms for the Latino community?",
+        "importance": "high",
+        "keywords": [
+          "political implications",
+          "inclusivity",
+          "Latino community"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How can organizations adapt their use of these terms to better serve their communities?",
+        "importance": "optional",
+        "keywords": [
+          "organization adaptation",
+          "community service",
+          "terminology use"
+        ]
+      }
+    ]
+  }
+]

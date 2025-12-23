@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Republican National Convention",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the current status of the convention and the nominations announced?",
+        "importance": "critical",
+        "keywords": [
+          "Republican National Convention",
+          "Donald Trump",
+          "Mike Pence"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Artemio Muniz's Perspective on Trump and Immigration",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the main concerns Artemio Muniz has regarding Trump's immigration policies?",
+        "importance": "high",
+        "keywords": [
+          "Artemio Muniz",
+          "immigration",
+          "Trump"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What specific changes does Muniz suggest could make him supportive of Trump?",
+        "importance": "high",
+        "keywords": [
+          "support",
+          "changes",
+          "Trump"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Legacy of Reagan and Republican Immigration Policy",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How does Muniz view the impact of Reagan's immigration policies on current Republican views?",
+        "importance": "high",
+        "keywords": [
+          "Reagan",
+          "immigration policy",
+          "Republican views"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What parallels does Muniz draw between past and present Republican strategies regarding immigration?",
+        "importance": "optional",
+        "keywords": [
+          "past",
+          "present",
+          "Republican strategies"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Potential Paths Forward for Trump's Immigration Strategy",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What does Muniz predict regarding Trump's potential immigration plan and its acceptance by the party base?",
+        "importance": "high",
+        "keywords": [
+          "Trump",
+          "immigration plan",
+          "party base"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How hopeful is Muniz about the possibility of a more inclusive immigration approach from Trump?",
+        "importance": "optional",
+        "keywords": [
+          "hopeful",
+          "inclusive approach",
+          "Trump"
+        ]
+      }
+    ]
+  }
+]

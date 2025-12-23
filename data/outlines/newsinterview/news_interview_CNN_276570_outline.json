@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Discussion on Guantanamo Bay and Immigration",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is your stance on the future of Guantanamo Bay and the transfer of detainees?",
+        "importance": "critical",
+        "keywords": [
+          "Guantanamo Bay",
+          "immigration",
+          "detainees"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How do you justify your position on immigration from countries like Syria?",
+        "importance": "high",
+        "keywords": [
+          "immigration",
+          "Syria",
+          "security"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Critique of Current Political Leadership",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What do you believe are the failures of previous administrations in handling terrorism?",
+        "importance": "critical",
+        "keywords": [
+          "terrorism",
+          "administration",
+          "failures"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How would you rate the negotiation skills of current political leaders?",
+        "importance": "high",
+        "keywords": [
+          "negotiation",
+          "political leaders",
+          "skills"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Campaign Strategy and Voter Engagement",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How do you plan to connect with voters in South Carolina as part of your campaign?",
+        "importance": "critical",
+        "keywords": [
+          "campaign strategy",
+          "South Carolina",
+          "voter engagement"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What differentiates you from your opponents in the eyes of voters?",
+        "importance": "high",
+        "keywords": [
+          "differentiation",
+          "opponents",
+          "voter perception"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Economic Policies and Healthcare Reforms",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What specific changes do you propose for healthcare in the U.S.?",
+        "importance": "critical",
+        "keywords": [
+          "healthcare",
+          "reforms",
+          "policies"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How do you plan to manage economic relations with countries like Mexico?",
+        "importance": "high",
+        "keywords": [
+          "economics",
+          "Mexico",
+          "relations"
+        ]
+      }
+    ]
+  }
+]

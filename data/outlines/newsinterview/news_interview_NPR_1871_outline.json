@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Lunar Research",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What recent discovery related to lunar crystals has been made by a team of scientists?",
+        "importance": "critical",
+        "keywords": [
+          "lunar crystals",
+          "discovery",
+          "Apollo 17"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Can you explain the significance of the orange soil discovered by astronaut Harrison Schmitt?",
+        "importance": "high",
+        "keywords": [
+          "orange soil",
+          "Harrison Schmitt",
+          "Apollo mission"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Technological Advances in Moon Sample Analysis",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did advancements in technology contribute to the analysis of Apollo samples after 40 years?",
+        "importance": "critical",
+        "keywords": [
+          "technology",
+          "Apollo samples",
+          "ion microprobe"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What role did melt inclusions play in the research findings on lunar water?",
+        "importance": "high",
+        "keywords": [
+          "melt inclusions",
+          "lunar water",
+          "research findings"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Implications of Water on the Moon",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What challenges do the findings about water on the moon present to the Giant Impact Theory?",
+        "importance": "critical",
+        "keywords": [
+          "Giant Impact Theory",
+          "water on moon",
+          "challenges"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the new research support or challenge existing theories about the origin of water on Earth?",
+        "importance": "high",
+        "keywords": [
+          "origin of water",
+          "Earth",
+          "theories"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future of Lunar Exploration",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How many lunar soil samples remain to be analyzed, and why is this significant?",
+        "importance": "high",
+        "keywords": [
+          "lunar soil samples",
+          "analysis",
+          "significance"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What potential does the moon hold for future research and exploration based on recent findings?",
+        "importance": "high",
+        "keywords": [
+          "moon",
+          "future research",
+          "exploration"
+        ]
+      }
+    ]
+  }
+]

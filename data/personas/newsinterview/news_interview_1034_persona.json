@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Dr. Stephen Miller",
+    "age": 50,
+    "personality": "Thoughtful and dedicated, with a focus on innovative solutions in medical research, demonstrating a collaborative spirit.",
+    "employment": "Professor of Microbiology-Immunology",
+    "notes": "Director of the Immunobiology Center at Northwestern University, has extensive experience in autoimmune disease research.",
+    "communication_style": "Clear and explanatory, often breaking down complex medical concepts into simpler terms for better understanding."
+  }
+}

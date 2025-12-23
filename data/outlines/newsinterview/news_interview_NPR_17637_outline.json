@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of 'Pride of Baghdad'",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you explain the premise of your graphic novel 'Pride of Baghdad'?",
+        "importance": "critical",
+        "keywords": [
+          "Pride of Baghdad",
+          "premise",
+          "graphic novel"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What inspired you to tell the story of the lions escaping from the Baghdad Zoo?",
+        "importance": "high",
+        "keywords": [
+          "inspiration",
+          "storytelling",
+          "Baghdad Zoo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Themes and Allegory",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does 'Pride of Baghdad' serve as an allegory for the Iraq war?",
+        "importance": "critical",
+        "keywords": [
+          "allegory",
+          "Iraq war",
+          "themes"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What message do you hope to convey regarding captivity and freedom through the lions' perspective?",
+        "importance": "high",
+        "keywords": [
+          "message",
+          "captivity",
+          "freedom"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Collaboration and Creation Process",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What was the collaboration process like with artist Niko Henrichon for this project?",
+        "importance": "high",
+        "keywords": [
+          "collaboration",
+          "Niko Henrichon",
+          "graphic novel"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did the timeframe for creating 'Pride of Baghdad' differ from your previous monthly comics?",
+        "importance": "optional",
+        "keywords": [
+          "timeframe",
+          "creation",
+          "monthly comics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Impact and Future Projects",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What impact are you hoping 'Pride of Baghdad' will have on readers?",
+        "importance": "high",
+        "keywords": [
+          "impact",
+          "readers",
+          "Pride of Baghdad"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are your plans for future projects following 'Y: The Last Man'?",
+        "importance": "optional",
+        "keywords": [
+          "future projects",
+          "Y: The Last Man",
+          "graphic novels"
+        ]
+      }
+    ]
+  }
+]

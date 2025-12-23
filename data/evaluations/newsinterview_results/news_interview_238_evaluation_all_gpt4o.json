@@ -1,0 +1,566 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.29524652447019306,
+                "avg_context_relevance": 0.42058159889919416,
+                "avg_outline_relevance": 0.7229969767587525,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.2459693125316075,
+                "avg_context_relevance": 0.4107507978166853,
+                "avg_outline_relevance": 0.9073709760393415,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 37.5,
+            "weighted_coverage_score": 36.36363636363637,
+            "covered_questions": 3,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Fisher-Price has officially recalled 4.7 million Rock 'n Play sleepers, which have had a devoted following among parents of newborns. The Rock 'n Play is a portable sleeper that props a baby up at a slight incline. But last week, the American Academy of Pediatrics called the product deadly. In about the last eight years, 32 babies have died while sleeping in Rock 'n Plays - most because they couldn't breathe after rolling over while they weren't buckled in. Alexis Dubief is a baby sleep consultant and runs a Facebook group called Precious Little Sleep. She joins me now. And welcome, Alexis, despite the grim topic.",
+            "previous_answer": "Thank you for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "From your perspective, what were the main reasons that led to the recall of the Rock 'n Play sleeper?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.17473620176315308,
+                        "outline_relevance": 0.9298514127731323,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How have you seen parent communities respond emotionally to the recall of the Rock 'n Play sleeper?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.12433589994907379,
+                            "outline_relevance": 0.7049671411514282,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share more about your personal journey as a baby sleep consultant regarding infant sleep safety challenges?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.17188099026679993,
+                            "outline_relevance": 0.5511981248855591,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In your experience, what are some key factors that influence parents' choices of infant sleep products?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.0402352511882782,
+                            "outline_relevance": 0.6403003334999084,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "From your perspective, what were the main reasons that led to the recall of the Rock 'n Play sleeper?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.17473620176315308,
+                            "outline_relevance": 0.9298514127731323,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "For people who haven't seen one of these, could you explain in more detail what a Rock 'n Play is and does and why it's been so popular?",
+            "previous_answer": "So the reason why it's so popular is that it's a fairly inexpensive, small, sort of snuggly sleep option for infants. But they are not a flat surface. So the baby is sort of cradled in this mesh material. Newborns do not sleep well. They have a poorly regulated system. And so they need a lot of assistance to fall asleep and stay asleep. And babies do tend to sleep fairly well in them.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain some of the safety concerns that ultimately resulted in the Rock 'n Play sleeper being recalled?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.31651121377944946,
+                        "outline_relevance": 0.8116464614868164,
+                        "originality": 0.17391455173492432,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you explain some of the safety issues that led to the Rock 'n Play being recalled?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.17266030609607697,
+                            "outline_relevance": 0.7587859630584717,
+                            "originality": 0.22752022743225098,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do parents typically balance safety concerns with the convenience that products like the Rock 'n Play offer?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3822896480560303,
+                            "outline_relevance": 0.849974513053894,
+                            "originality": 0.43088406324386597,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways have parents adapted their sleep routines for their babies since the recall of the Rock 'n Play?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6035757064819336,
+                            "outline_relevance": 0.6999965906143188,
+                            "originality": 0.19125771522521973,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you explain some of the safety concerns that ultimately resulted in the Rock 'n Play sleeper being recalled?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.31651121377944946,
+                            "outline_relevance": 0.8116464614868164,
+                            "originality": 0.17391455173492432,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "So in some ways, it sounds like the Rock 'n Play has been a godsend for a lot of parents. But what are the conditions that make it dangerous?",
+            "previous_answer": "What we know from the recall is very little. Thirty-two deaths in almost 10 years is concerning. And I am very concerned. And I respect the American Academy of Pediatrics. So, of course, we've said stop using the Rock 'n Play. But we also know that infants die on all sleep surfaces. So what we really are trying to understand - and what I would love to understand better - is, what is the relative risk of the Rock 'n Play compared to the crib or, what often is the fallback position, co-sleeping with an adult?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Since the recall, how have parents typically adjusted their baby's sleep arrangements to ensure safety?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6035006046295166,
+                        "outline_relevance": 0.8457357287406921,
+                        "originality": 0.2299448847770691,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you elaborate on what specific safety concerns led to the Rock 'n Play being recalled?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6251108646392822,
+                            "outline_relevance": 0.7534925937652588,
+                            "originality": 0.016152262687683105,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do parents generally weigh the convenience of products like Rock 'n Play against safety warnings?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.558815598487854,
+                            "outline_relevance": 0.8366974592208862,
+                            "originality": 0.03536355495452881,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Since the recall, what strategies have parents used to adjust their baby's sleep environments safely?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5832545757293701,
+                            "outline_relevance": 0.8285081386566162,
+                            "originality": 0.1358467936515808,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Since the recall, how have parents typically adjusted their baby's sleep arrangements to ensure safety?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6035006046295166,
+                            "outline_relevance": 0.8457357287406921,
+                            "originality": 0.2299448847770691,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "What are the other impacts of this recall for parents who had relied on this product?",
+            "previous_answer": "Well, I think the big impact is going to be just sleeplessness and possibly an increase in co-sleeping. I think there's a lot of stress because for many parents, they understand that sleep in the crib is the gold standard for safety. They understand that. These are not parents who are uninformed. But they're also miserably sleep deprived. The reality is people suffer seriously from sleep deprivation. What happens is we fall back into kind of desperation-based, unsafe behaviors. It's not a logical decision. It's a desperation decision. And that's where we end up co-sleeping - in many cases, co-sleeping on a couch or a chair, which is something that we know is, you know, associated with a 12x increase in the risk of SIDS. Highly risky situations occur when we're desperately sleep deprived and it's 2, 3, 4 in the morning and we've been up every 45, 60, you know, minutes for the entire evening.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe the key reasons that led to the recall of the Rock 'n Play sleeper?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.39248985052108765,
+                        "outline_relevance": 0.9569411277770996,
+                        "originality": 0.021834969520568848,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you explain more about how sleep deprivation influences parents' decision-making around infant sleep safety?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7725354433059692,
+                            "outline_relevance": 0.705218493938446,
+                            "originality": 0.16089296340942383,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What kinds of safe sleep alternatives do you suggest to parents struggling to cope post-recall?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6723858118057251,
+                            "outline_relevance": 0.8293819427490234,
+                            "originality": 0.1783198118209839,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think the community and healthcare providers can better support parents dealing with these risks and challenges?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.39354512095451355,
+                            "outline_relevance": 0.4183688461780548,
+                            "originality": 0.47844862937927246,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you describe the key reasons that led to the recall of the Rock 'n Play sleeper?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.39248985052108765,
+                            "outline_relevance": 0.9569411277770996,
+                            "originality": 0.021834969520568848,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "I'm wondering if this recall has a disproportionate effect on parents who earn less because the Rock 'n Play, at the lower end, was relatively affordable. If you're going back to work in about two weeks or so after giving birth, which you might do if you don't have maternity leave or paternity leave, then you're even more tired. Do you feel like there's an income inequality aspect to this?",
+            "previous_answer": "Yes (laughter). Yes. A lot of the sort of things we use to help babies sleep better cost money - you know, swaddling blankets, fancy cribs. The Rock 'n Play was a relatively inexpensive and effective - in terms of helping children sleep better - tool to be used for a few months after birth that probably helped a lot of people who maybe couldn't afford other options. So absolutely, there's a huge amount of privilege in having the resources to get access to postpartum doulas and night nurses and have a spouse who has a job that would get them paid leave so they can help out at night.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do parents generally feel about the safety risks now associated with the Rock 'n Play, especially after the recall?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.48914486169815063,
+                        "outline_relevance": 0.9474195837974548,
+                        "originality": 0.18638139963150024,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think broader community resources or policy changes could help alleviate the financial burdens associated with infant sleep safety?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.636500358581543,
+                            "outline_relevance": 0.5455570220947266,
+                            "originality": 0.2142067551612854,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you elaborate on the emotional and psychological effects that economic disparities have on parents dealing with infant sleep safety and recalls?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5394922494888306,
+                            "outline_relevance": 0.6535413265228271,
+                            "originality": 0.15877968072891235,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What practical advice would you give to parents with limited resources to ensure safe infant sleep post-recall?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.565120279788971,
+                            "outline_relevance": 0.7344474792480469,
+                            "originality": 0.10758709907531738,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do parents generally feel about the safety risks now associated with the Rock 'n Play, especially after the recall?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.48914486169815063,
+                            "outline_relevance": 0.9474195837974548,
+                            "originality": 0.18638139963150024,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "In general, what kind of reaction are you hearing from the parents you know, your clients? Are people in a lot of distress about this?",
+            "previous_answer": "I think people are very distressed about this because it never feels good to feel that you might have unintentionally put your child at risk. I think, also, a lot of people in the group are reasonably looking at the Rock 'n Play and saying, if this product is recalled, then all infant swings and similar devices should also be recalled and are expecting for that to happen. I would love to see more research and insights from the AAP about the relative risk of various sleep options because simply telling people that the crib is the only option for your child in practicality is not a reasonable response.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe what specific events or findings you believe contributed to the decision to recall the Rock 'n Play sleepers?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5587318539619446,
+                        "outline_relevance": 0.8859942555427551,
+                        "originality": 0.07279765605926514,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What kinds of emotional support or community resources do you think would best help parents cope with these distressing safety concerns?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3844294250011444,
+                            "outline_relevance": 0.5078515410423279,
+                            "originality": 0.28908592462539673,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How do you think more detailed research from the AAP regarding sleep options could change parental behaviors or industry regulations?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6732871532440186,
+                            "outline_relevance": 0.6816495656967163,
+                            "originality": 0.18137532472610474,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Have you observed any differences in parental reactions based on their access to information or social support networks?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.33196741342544556,
+                            "outline_relevance": 0.4843140244483948,
+                            "originality": 0.3308299779891968,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you describe what specific events or findings you believe contributed to the decision to recall the Rock 'n Play sleepers?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5587318539619446,
+                            "outline_relevance": 0.8859942555427551,
+                            "originality": 0.07279765605926514,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Alexis Dubief is the author of \"Precious Little Sleep.\" And she runs a Facebook group by the same name. Thanks for talking with us.",
+            "previous_answer": "Thank you so much for covering this story.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you tell me what specifically led to the recall of the Rock 'n Play sleepers?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3401409983634949,
+                        "outline_relevance": 0.9740082621574402,
+                        "originality": 0.036911725997924805,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share a bit about what motivated you to become involved in infant sleep safety advocacy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3117009401321411,
+                            "outline_relevance": 0.5332710146903992,
+                            "originality": 0.1334623098373413,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How do you think the public's understanding of infant sleep safety has evolved over recent years, and what role do you see your work playing in that?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.19816917181015015,
+                            "outline_relevance": 0.5322414040565491,
+                            "originality": 0.17020058631896973,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In your experience, how do parents balance the challenges of ensuring infant sleep safety with their everyday realities and constraints?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1597369760274887,
+                            "outline_relevance": 0.6425549983978271,
+                            "originality": 0.10490381717681885,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you tell me what specifically led to the recall of the Rock 'n Play sleepers?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3401409983634949,
+                            "outline_relevance": 0.9740082621574402,
+                            "originality": 0.036911725997924805,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

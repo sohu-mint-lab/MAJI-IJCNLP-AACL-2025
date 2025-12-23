@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Brazil's Presidential Election",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the current context of Brazil's presidential election?",
+        "importance": "critical",
+        "keywords": [
+          "Brazil",
+          "presidential election",
+          "current context"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Who is the frontrunner, and what controversies surround him?",
+        "importance": "high",
+        "keywords": [
+          "frontrunner",
+          "Bolsonaro",
+          "controversies"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Public Sentiment and Support for Bolsonaro",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What factors have contributed to Bolsonaro's rising support in recent days?",
+        "importance": "critical",
+        "keywords": [
+          "support",
+          "Bolsonaro",
+          "public sentiment"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does the population's mood reflect the divisions within Brazil?",
+        "importance": "high",
+        "keywords": [
+          "divisions",
+          "population mood",
+          "Brazil"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Concerns from Opponents of Bolsonaro",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What specific concerns do various groups have regarding Bolsonaro’s potential presidency?",
+        "importance": "critical",
+        "keywords": [
+          "concerns",
+          "opponents",
+          "groups"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Why are there fears about Bolsonaro's admiration for Brazil's past military dictatorship?",
+        "importance": "high",
+        "keywords": [
+          "military dictatorship",
+          "admiration",
+          "fears"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Potential Policies and Implications",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What policy changes might Bolsonaro implement if he wins the election?",
+        "importance": "critical",
+        "keywords": [
+          "policies",
+          "Bolsonaro",
+          "election implications"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How could Bolsonaro's presidency affect Brazil's international relations?",
+        "importance": "high",
+        "keywords": [
+          "international relations",
+          "Bolsonaro",
+          "impact"
+        ]
+      }
+    ]
+  }
+]

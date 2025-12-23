@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Project Loon",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is Project Loon and what unique approach does it utilize for providing Internet access?",
+        "importance": "critical",
+        "keywords": [
+          "Project Loon",
+          "Internet",
+          "balloons"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Pilot Program in New Zealand",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How many balloons have been launched in the pilot program in New Zealand, and what is their altitude?",
+        "importance": "critical",
+        "keywords": [
+          "New Zealand",
+          "balloons",
+          "pilot program"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What is the goal of the pilot program concerning the balloon's geographical coverage?",
+        "importance": "high",
+        "keywords": [
+          "coverage",
+          "geographical",
+          "40 degrees south"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges and Technical Considerations",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are some challenges faced in steering the balloons effectively?",
+        "importance": "high",
+        "keywords": [
+          "challenges",
+          "steering",
+          "navigation"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Why is it necessary to replace balloons every 100 days?",
+        "importance": "high",
+        "keywords": [
+          "replacement",
+          "100 days",
+          "balloons"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Plans and Technology Development",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does the technology of Project Loon allow for updates and improvements over time?",
+        "importance": "optional",
+        "keywords": [
+          "technology",
+          "updates",
+          "improvements"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What is the anticipated cost structure for launching and maintaining the balloons?",
+        "importance": "optional",
+        "keywords": [
+          "cost structure",
+          "launching",
+          "maintaining"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Current Situation in Sudan",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the implications of the arrest warrant issued for Sudan's president, Omar al-Bashir?",
+        "importance": "critical",
+        "keywords": [
+          "Sudan",
+          "Omar al-Bashir",
+          "arrest warrant"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the ongoing violence impact peacekeepers and humanitarian efforts in the region?",
+        "importance": "high",
+        "keywords": [
+          "violence",
+          "peacekeepers",
+          "humanitarian efforts"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Political Complexity Surrounding Al-Bashir",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Why does Bill Fletcher believe that the situation in Sudan cannot be resolved simply by the indictment of al-Bashir?",
+        "importance": "critical",
+        "keywords": [
+          "political solution",
+          "al-Bashir",
+          "indictment"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What role does Bill Fletcher suggest the United States should play in the Darfur crisis?",
+        "importance": "high",
+        "keywords": [
+          "United States",
+          "Darfur crisis",
+          "political settlement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Incident Involving Zimbabwe's Prime Minister",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the potential repercussions of the car accident involving Zimbabwe's Prime Minister Morgan Tsvangirai?",
+        "importance": "critical",
+        "keywords": [
+          "Tsvangirai",
+          "car accident",
+          "impact"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the broader opposition in Zimbabwe view the power-sharing agreement amidst recent events?",
+        "importance": "high",
+        "keywords": [
+          "Zimbabwe",
+          "power-sharing",
+          "opposition"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Skepticism Towards Power-Sharing Arrangements",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What concerns do opposition groups have regarding President Mugabe's intentions regarding the power-sharing agreement?",
+        "importance": "high",
+        "keywords": [
+          "opposition",
+          "Mugabe",
+          "power-sharing agreement"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "In what ways do internal divisions among opposition groups affect the power-sharing dynamics in Zimbabwe?",
+        "importance": "optional",
+        "keywords": [
+          "internal divisions",
+          "opposition groups",
+          "Zimbabwe"
+        ]
+      }
+    ]
+  }
+]

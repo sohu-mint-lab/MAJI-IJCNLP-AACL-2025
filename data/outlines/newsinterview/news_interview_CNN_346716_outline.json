@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to LeBron James and His Advocacy",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What inspired LeBron James to open the 'I Promise' school?",
+        "importance": "critical",
+        "keywords": [
+          "LeBron James",
+          "I Promise school",
+          "inspiration"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does LeBron relate to the kids he aims to help?",
+        "importance": "high",
+        "keywords": [
+          "kids",
+          "relatability",
+          "personal experience"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Challenges Faced by Children in Akron",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What sort of challenges do children in Akron face according to LeBron?",
+        "importance": "critical",
+        "keywords": [
+          "challenges",
+          "Akron",
+          "youth"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What does LeBron suggest as solutions to these challenges?",
+        "importance": "high",
+        "keywords": [
+          "solutions",
+          "support system",
+          "school hours"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Role of Sports in Community and Unity",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How does LeBron view the role of sports in breaking down racial barriers?",
+        "importance": "high",
+        "keywords": [
+          "sports",
+          "unity",
+          "racial barriers"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are LeBron's thoughts on the political climate and its impact on sports?",
+        "importance": "high",
+        "keywords": [
+          "politics",
+          "sports",
+          "division"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Vision for the Future",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What aspirations does LeBron have for the children attending the 'I Promise' school?",
+        "importance": "critical",
+        "keywords": [
+          "aspirations",
+          "future",
+          "children"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What message does LeBron hope to convey to the students at his school?",
+        "importance": "high",
+        "keywords": [
+          "message",
+          "inspiration",
+          "hope"
+        ]
+      }
+    ]
+  }
+]

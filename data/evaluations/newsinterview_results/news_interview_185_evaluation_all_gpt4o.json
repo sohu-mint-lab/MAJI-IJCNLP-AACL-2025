@@ -1,0 +1,635 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.42308897338807583,
+                "avg_context_relevance": 0.3271424821577966,
+                "avg_outline_relevance": 0.6104404656216502,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.35720090568065643,
+                "avg_context_relevance": 0.26503665931522846,
+                "avg_outline_relevance": 0.7128301151096821,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 60.0,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "The Paradise High School class of 2019 has had a tragic year. In November, faulty power lines sparked a massive blaze, known as the Camp Fire, that devastated Northern California and burned most of Paradise to the ground. Days after the fire, we spoke with their principal, Loren Lighthall, who was trying to wrap his mind around what the future would be like for him and his students.",
+            "previous_answer": "Where will they live? There is literally no place to live in Paradise. There's no homes. There's no temporary shelters. There's no hotels. There's nothing.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did the decision to move classes online affect the students at Paradise High School, especially in terms of their learning experience and daily routines?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.20458030700683594,
+                        "outline_relevance": 0.8671548366546631,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How is the community planning to address the critical housing shortage in Paradise?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.48563021421432495,
+                            "outline_relevance": 0.4853493869304657,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What specific challenges do you and your students face daily due to the lack of housing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3551907539367676,
+                            "outline_relevance": 0.5187321901321411,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What resources or assistance are being sought to provide immediate shelter and support for displaced families?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.29569801688194275,
+                            "outline_relevance": 0.5516144037246704,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How did the decision to move classes online affect the students at Paradise High School, especially in terms of their learning experience and daily routines?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.20458030700683594,
+                            "outline_relevance": 0.8671548366546631,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Now the senior class is getting ready to graduate, and Principal Lighthall joins us again. Welcome back to the program.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share some of the personal challenges you've encountered since losing your home in the Camp Fire, and how they've influenced your role as principal?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.22371166944503784,
+                        "outline_relevance": 0.7072364687919617,
+                        "originality": 0.3936750888824463,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: As the senior class prepares to graduate, how do you envision the community coming together to support them during this transition?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.13626885414123535,
+                            "outline_relevance": 0.5911768078804016,
+                            "originality": 0.57487952709198,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share your personal reflections on what this graduating class has taught you through these difficult times?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.20706051588058472,
+                            "outline_relevance": 0.4989135265350342,
+                            "originality": 0.5400257706642151,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are some hopeful signs you see for the graduating seniors despite the hardships faced?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.17445063591003418,
+                            "outline_relevance": 0.5549333095550537,
+                            "originality": 0.5453780293464661,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share some of the personal challenges you've encountered since losing your home in the Camp Fire, and how they've influenced your role as principal?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.22371166944503784,
+                            "outline_relevance": 0.7072364687919617,
+                            "originality": 0.3936750888824463,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Walk us through the past few months for you. What happened with your students, and how did - how did you make the rest of the school year work?",
+            "previous_answer": "Well, we did an online school. And we only had three weeks left in the semester, so it was a great way to finish. And then we started at a second location in Chico. We had to move the entire high school to a different location. And we were able to pull that off. But as it's went on and we're into the seventh month of this, it's been very, very difficult for kids because they're living far away. And they're not vested in where they're living. So they're not making friends there. Most teenagers struggle with the teenage years. And when you add a trauma event like this, where you lose your entire community, your house, your church, your work and you lose all that support system, it's been very difficult mentally. And it's been very difficult for us to find enough counselors to be able to help students get to where they need to be.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What personal challenges have you faced after losing your home in the Camp Fire, and how have these experiences affected your role as principal?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.357785701751709,
+                        "outline_relevance": 0.7392281293869019,
+                        "originality": 0.038643717765808105,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What were some creative ways the school community tried to maintain connection among students despite the displacement?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5143646597862244,
+                            "outline_relevance": 0.6015145778656006,
+                            "originality": 0.42672109603881836,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you elaborate on the mental health challenges faced by students and how the school tried to address them?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3745080828666687,
+                            "outline_relevance": 0.5398919582366943,
+                            "originality": 0.4428061246871948,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways have the students shown resilience or hope in these difficult months?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4231050908565521,
+                            "outline_relevance": 0.621867299079895,
+                            "originality": 0.36917078495025635,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What personal challenges have you faced after losing your home in the Camp Fire, and how have these experiences affected your role as principal?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.357785701751709,
+                            "outline_relevance": 0.7392281293869019,
+                            "originality": 0.038643717765808105,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Were you surprised at the level of outpouring of support from not only your community but people from all over the country?",
+            "previous_answer": "So many people have done so much. I mean, just individual people have given $25 to help them have a good grad night or not have to worry about buying a cap and gown, free prom, free winter formal, free senior trip, free yearbook. That's the silver lining I think, in all of this, that so many people do care. And you can really feel that.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did the outpouring of support from both inside and outside the community impact the morale of the students and staff during this difficult time?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.31856608390808105,
+                        "outline_relevance": 0.9204968810081482,
+                        "originality": 0.3001965880393982,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Broad: Can you tell me more about how the community's support has come together to help the students beyond just financial contributions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4009425938129425,
+                            "outline_relevance": 0.81645268201828,
+                            "originality": 0.3339419960975647,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Depth: How did the outpouring of support affect the morale of the students and staff during such a challenging time?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3286018967628479,
+                            "outline_relevance": 0.8462492227554321,
+                            "originality": 0.26272571086883545,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: In what ways has the community's generosity influenced the school culture and students' outlook toward their future?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3786357641220093,
+                            "outline_relevance": 0.6345160603523254,
+                            "originality": 0.3637077212333679,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How did the outpouring of support from both inside and outside the community impact the morale of the students and staff during this difficult time?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.31856608390808105,
+                            "outline_relevance": 0.9204968810081482,
+                            "originality": 0.3001965880393982,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "We've been talking a lot about your students. But you and your family were also touched by this disaster. You lost your home. How's your family doing?",
+            "previous_answer": "They're doing pretty good. Yeah, I have seven children and five that still live at home. We did get an apartment. But it's an 1,100-square-foot upstairs apartment. And it's been cramped. We do feel lucky to get that, but it's certainly not what we need long-term.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share what ultimately influenced your choice to leave your role as principal during such a challenging time?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1676245480775833,
+                        "outline_relevance": 0.49160781502723694,
+                        "originality": 0.3087998628616333,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How has the experience of living in a cramped space with your large family affected your day-to-day life and interactions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.49913662672042847,
+                            "outline_relevance": 0.3936806321144104,
+                            "originality": 0.480243444442749,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What specific challenges have you and your family faced while adjusting to the apartment after losing your home?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6269975900650024,
+                            "outline_relevance": 0.5801660418510437,
+                            "originality": 0.2871098518371582,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Given the cramped housing situation, how are you balancing your responsibilities as a principal with your family’s needs?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5608985424041748,
+                            "outline_relevance": 0.5282254219055176,
+                            "originality": 0.3553076982498169,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share what ultimately influenced your choice to leave your role as principal during such a challenging time?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1676245480775833,
+                            "outline_relevance": 0.49160781502723694,
+                            "originality": 0.3087998628616333,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "I understand you've made, also, a decision about your professional life.",
+            "previous_answer": "Yeah, I did make the decision to leave for two reasons - one, the housing. There's no housing here. You know, 18,000 homes burned. And there's 18,000 families looking for housing. And also leaving the trauma, where you're reminded of it every time you go to church, every time you go to work, every time you go to home. So I'm looking forward to kind of leaving that aspect of it - but really not looking forward to leaving the kids in Paradise High School.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What message do you hope to share with the graduating seniors as they move forward from such a challenging year?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.308416485786438,
+                        "outline_relevance": 0.7387968897819519,
+                        "originality": 0.21550267934799194,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share more about how the trauma you experience daily affects your work as a principal?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2615758776664734,
+                            "outline_relevance": 0.5812836289405823,
+                            "originality": 0.23111772537231445,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What kinds of support have helped you cope with the housing crisis and emotional stress?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4703037142753601,
+                            "outline_relevance": 0.552994966506958,
+                            "originality": 0.2700176239013672,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How are you planning to stay connected with the Paradise High School community after your departure?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5383766889572144,
+                            "outline_relevance": 0.500945508480072,
+                            "originality": 0.40671485662460327,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What message do you hope to share with the graduating seniors as they move forward from such a challenging year?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.308416485786438,
+                            "outline_relevance": 0.7387968897819519,
+                            "originality": 0.21550267934799194,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "What is your message to your graduating seniors when they walk across the stage?",
+            "previous_answer": "That we've got to put this behind us. If we keep worrying about all that happened and all the things that have been unfair - the whole thing is unfair. We're going to have to move past it and look forward with hope so that we can move on with our lives.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you elaborate on the specific ways you suggest students should process and move on from the trauma they have experienced?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.37943094968795776,
+                        "outline_relevance": 0.7948712110519409,
+                        "originality": 0.33587217330932617,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How do you help students cultivate hope and resilience after such traumatic events?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.29618126153945923,
+                            "outline_relevance": 0.6862198710441589,
+                            "originality": 0.25329291820526123,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are some examples of steps students have taken to move forward positively after the fire?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.29307690262794495,
+                            "outline_relevance": 0.6169792413711548,
+                            "originality": 0.31345683336257935,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you see the role of a principal in guiding a community through recovery and loss?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2260388731956482,
+                            "outline_relevance": 0.5811349153518677,
+                            "originality": 0.2784265875816345,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you elaborate on the specific ways you suggest students should process and move on from the trauma they have experienced?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.37943094968795776,
+                            "outline_relevance": 0.7948712110519409,
+                            "originality": 0.33587217330932617,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Loren Lighthall is the principal of Paradise High School. Thank you very much, and we wish you so much luck in your next chapter.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking ahead, how do you envision the future of Paradise High School and its community, especially in light of the challenges you've faced?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.16017752885818481,
+                        "outline_relevance": 0.4432486891746521,
+                        "originality": 0.26491713523864746,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Given these challenging times, how do you envision the future for Paradise High School and its community?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.15735292434692383,
+                            "outline_relevance": 0.45626503229141235,
+                            "originality": 0.25204604864120483,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Reflecting on your journey, what personal strengths have helped you navigate these hardships?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.22084587812423706,
+                            "outline_relevance": 0.48267224431037903,
+                            "originality": 0.3201609253883362,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What advice would you offer other school leaders facing similar community crises?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.12302419543266296,
+                            "outline_relevance": 0.6096750497817993,
+                            "originality": 0.37398862838745117,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Looking ahead, how do you envision the future of Paradise High School and its community, especially in light of the challenges you've faced?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.16017752885818481,
+                            "outline_relevance": 0.4432486891746521,
+                            "originality": 0.26491713523864746,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Hurricane Michael's Impact",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What regions were most affected by Hurricane Michael?",
+        "importance": "critical",
+        "keywords": [
+          "Hurricane Michael",
+          "impact",
+          "Florida panhandle"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the residents describe their situation post-hurricane?",
+        "importance": "high",
+        "keywords": [
+          "resident experiences",
+          "devastation",
+          "survival"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Current Status of Relief Efforts",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What types of assistance are currently being provided to affected communities?",
+        "importance": "critical",
+        "keywords": [
+          "relief efforts",
+          "assistance",
+          "food and water"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How has the local utility company responded to the power outages?",
+        "importance": "high",
+        "keywords": [
+          "Gulf Power",
+          "electricity restoration",
+          "power outages"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges Faced by Residents",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the major challenges residents face regarding supplies and basic necessities?",
+        "importance": "critical",
+        "keywords": [
+          "supplies",
+          "basic necessities",
+          "challenges"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How has the lack of communication affected rescue and relief efforts?",
+        "importance": "high",
+        "keywords": [
+          "communication issues",
+          "rescue efforts",
+          "relief response"
+        ]
+      }
+    ]
+  }
+]

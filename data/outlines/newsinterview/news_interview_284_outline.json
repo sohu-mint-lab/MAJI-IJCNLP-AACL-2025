@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Pope's Initiative Against Abuse",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What does the Pope's call for an all-out battle against priest abuse entail?",
+        "importance": "critical",
+        "keywords": [
+          "Pope",
+          "abuse",
+          "initiative"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Archbishop Scicluna interpret the Pope's call for a change of heart among clergy?",
+        "importance": "high",
+        "keywords": [
+          "change of heart",
+          "clergy",
+          "theological language"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Implementation of Zero Tolerance Policy",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What steps are being taken to ensure zero tolerance for priests found guilty of abuse?",
+        "importance": "critical",
+        "keywords": [
+          "zero tolerance",
+          "policy",
+          "abuse"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What is the significance of Saint John Paul II's words regarding clerical abuse?",
+        "importance": "high",
+        "keywords": [
+          "Saint John Paul II",
+          "priesthood",
+          "abuse"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges and Reflection on Past Actions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Why has the issue of clerical sex abuse persisted despite efforts made over the years?",
+        "importance": "high",
+        "keywords": [
+          "persistent issue",
+          "sex abuse",
+          "efforts"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What does Archbishop Scicluna mean when he refers to crisis as an opportunity?",
+        "importance": "optional",
+        "keywords": [
+          "crisis",
+          "opportunity",
+          "victims"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Building Credibility and Trust",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What strategies does Archbishop Scicluna suggest to restore trust in the Church?",
+        "importance": "critical",
+        "keywords": [
+          "credibility",
+          "trust",
+          "Church"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Archbishop Scicluna respond to concerns about the Church's previous failures in addressing abuse?",
+        "importance": "high",
+        "keywords": [
+          "concerns",
+          "previous failures",
+          "addressing abuse"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Background on FLDS and the 2008 Raids",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What led to the Texas law enforcement raid on the Yearning for Zion Church in 2008?",
+        "importance": "critical",
+        "keywords": [
+          "FLDS",
+          "2008 raids",
+          "Texas law enforcement"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the media coverage portray the FLDS community following the raids?",
+        "importance": "high",
+        "keywords": [
+          "media coverage",
+          "FLDS community",
+          "court cases"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Stephanie Sinclair's Access and Experience",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What challenges did Sinclair face in gaining access to the FLDS community?",
+        "importance": "high",
+        "keywords": [
+          "Stephanie Sinclair",
+          "access",
+          "FLDS community"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What unique access did Sinclair gain during her time documenting the community?",
+        "importance": "high",
+        "keywords": [
+          "access",
+          "funeral",
+          "photography"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Perceptions and Misconceptions of the FLDS",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How did Sinclair's work challenge preconceived notions about the FLDS community?",
+        "importance": "critical",
+        "keywords": [
+          "preconceived notions",
+          "FLDS community",
+          "media portrayal"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What insights did Sinclair gain about the community's self-perception?",
+        "importance": "high",
+        "keywords": [
+          "self-perception",
+          "community",
+          "judgment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Broader Context and Societal Role of Women",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What parallels did Sinclair draw between the women in the FLDS community and women in other cultures?",
+        "importance": "high",
+        "keywords": [
+          "women",
+          "FLDS community",
+          "cultural parallels"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does the accompanying article in National Geographic emphasize the role of women in these communities?",
+        "importance": "optional",
+        "keywords": [
+          "role of women",
+          "National Geographic",
+          "communities"
+        ]
+      }
+    ]
+  }
+]

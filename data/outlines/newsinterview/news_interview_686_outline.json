@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Phase One Trade Deal",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the main components of the phase one trade deal between the United States and China?",
+        "importance": "critical",
+        "keywords": [
+          "phase one",
+          "trade deal",
+          "United States",
+          "China"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What specifically has been agreed upon regarding tariffs?",
+        "importance": "high",
+        "keywords": [
+          "tariffs",
+          "agreement",
+          "suspension"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Implications and Future Steps",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What does phase one indicate about possible future agreements?",
+        "importance": "high",
+        "keywords": [
+          "phase one",
+          "future agreements",
+          "progress"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What timeline has President Trump suggested for finalizing the deal?",
+        "importance": "high",
+        "keywords": [
+          "timeline",
+          "finalization",
+          "details"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Outstanding Issues and Challenges",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What major outstanding issues remain after the phase one deal?",
+        "importance": "critical",
+        "keywords": [
+          "outstanding issues",
+          "intellectual property",
+          "China"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How has Huawei been impacted by this trade deal negotiation?",
+        "importance": "high",
+        "keywords": [
+          "Huawei",
+          "trade negotiation",
+          "sticking point"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Market Reaction to the Announcement",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How did the stock market react to the announcement of the trade deal?",
+        "importance": "high",
+        "keywords": [
+          "stock market",
+          "reaction",
+          "announcement"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What does the market's reaction say about the perceived effectiveness of the deal?",
+        "importance": "optional",
+        "keywords": [
+          "market perception",
+          "effectiveness",
+          "trade deal"
+        ]
+      }
+    ]
+  }
+]

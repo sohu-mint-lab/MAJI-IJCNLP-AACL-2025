@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Thomas Dolby",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you share how you transitioned from music to the tech industry?",
+        "importance": "critical",
+        "keywords": [
+          "Thomas Dolby",
+          "music industry",
+          "tech"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Evolution of Music and Technology",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How have advancements in technology changed the music creation process?",
+        "importance": "high",
+        "keywords": [
+          "technology",
+          "music creation",
+          "advancements"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What impact does social media have on artists trying to break into the industry?",
+        "importance": "high",
+        "keywords": [
+          "social media",
+          "artists",
+          "music industry"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Return to Music: New EP and Creative Process",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What inspired the sound of your new EP 'Oceanea'?",
+        "importance": "critical",
+        "keywords": [
+          "Oceanea",
+          "EP",
+          "inspiration"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does your unique recording environment influence your music?",
+        "importance": "high",
+        "keywords": [
+          "recording environment",
+          "influence",
+          "music"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "The Future of the Music Industry",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What do you believe is necessary for a healthy future in the music industry?",
+        "importance": "high",
+        "keywords": [
+          "future",
+          "music industry",
+          "health"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "In what ways do you think songwriting remains a rare commodity today?",
+        "importance": "high",
+        "keywords": [
+          "songwriting",
+          "rare commodity",
+          "music"
+        ]
+      }
+    ]
+  }
+]

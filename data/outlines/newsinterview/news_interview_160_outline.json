@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Recent Attacks in the Persian Gulf",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What led to the accusations against Iran regarding the attacks on oil tankers?",
+        "importance": "critical",
+        "keywords": [
+          "Persian Gulf",
+          "attacks",
+          "Iran"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has the U.S. presented evidence for its claims against Iran?",
+        "importance": "high",
+        "keywords": [
+          "U.S.",
+          "evidence",
+          "surveillance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Iran's Motives and Response",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the potential reasons behind Iran's involvement in the attacks?",
+        "importance": "critical",
+        "keywords": [
+          "Iran",
+          "response",
+          "oil exports"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Why would Iran choose to attack during a meeting with the Japanese Prime Minister?",
+        "importance": "high",
+        "keywords": [
+          "Japan",
+          "Prime Minister",
+          "diplomacy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Regional Implications and Military Responses",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What role are Saudi Arabia and other regional players taking in this situation?",
+        "importance": "critical",
+        "keywords": [
+          "Saudi Arabia",
+          "military",
+          "regional players"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How is the U.S. administration divided regarding its military strategy in relation to Iran?",
+        "importance": "high",
+        "keywords": [
+          "U.S. administration",
+          "military strategy",
+          "Bolton"
+        ]
+      }
+    ]
+  }
+]

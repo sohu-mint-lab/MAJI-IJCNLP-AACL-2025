@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Ann Nesby's Musical Journey",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How did Ann Nesby transition from Sounds of Blackness to a solo career?",
+        "importance": "critical",
+        "keywords": [
+          "Ann Nesby",
+          "musical journey",
+          "Sounds of Blackness"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What motivated Ann Nesby to return to her gospel roots with her new album?",
+        "importance": "high",
+        "keywords": [
+          "gospel roots",
+          "new album",
+          "motivation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The New Album 'In the Spirit'",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What themes and messages are reflected in Ann Nesby's new album?",
+        "importance": "critical",
+        "keywords": [
+          "album themes",
+          "messages",
+          "In the Spirit"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Ann Nesby incorporate her personal history into her music?",
+        "importance": "high",
+        "keywords": [
+          "personal history",
+          "music incorporation",
+          "gospel"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Balancing Gospel and Secular Music",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is Ann Nesby's perspective on the blending of secular and gospel music?",
+        "importance": "high",
+        "keywords": [
+          "gospel vs secular",
+          "blending music",
+          "perspective"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Ann Nesby respond to criticism regarding this blending in her work?",
+        "importance": "optional",
+        "keywords": [
+          "criticism",
+          "response",
+          "blending"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Life and Health Journey",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What prompted Ann Nesby to focus on her health and undergo weight loss surgery?",
+        "importance": "critical",
+        "keywords": [
+          "health journey",
+          "weight loss",
+          "surgery"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How has Ann Nesby's personal experiences influenced her music and ambitions?",
+        "importance": "high",
+        "keywords": [
+          "personal experiences",
+          "music influence",
+          "ambitions"
+        ]
+      }
+    ]
+  }
+]

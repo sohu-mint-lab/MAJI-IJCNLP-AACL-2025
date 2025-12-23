@@ -1,0 +1,264 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "You're listening to SCIENCE FRIDAY. I'm Ira Flatow. We are about to get one step closer to commercial space travel. This November, the SpaceX Corporation is planning to launch its new Dragon spacecraft from Cape Canaveral. If all goes well, the craft will rendezvous with the International Space Station about nine days later and seal its place in history as the first privately built spacecraft to dock with the space station. Now that the shuttle program is over, NASA hopes that private companies like SpaceX will fill the void and be a cheaper, better way to deliver supplies to the space station. Whether they will also deliver astronauts, well, who knows? That remains to be seen. And you can take some of that credit too, if you ever bought anything online and paid with PayPal, because the founder of the SpaceX company owned PayPal, sold it and took the money to start up this private space venture, among other companies. We'll talk about some of those too, with Elon Musk. He is the founder, CEO and chief technology officer for the Space Exploration Technologies Corporation - SpaceX - also CEO and product architect of Tesla Motors. Maybe we'll ask him how Tesla is doing. He's with us on the phone. Welcome back to SCIENCE FRIDAY."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Oh, thanks for having me back."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Tell us about the Dragon spacecraft. How big is it?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Well, it's about 13 feet in diameter and a little - maybe 15 feet tall, and it has - it does have sort of a capsule, a gumdrop shape. It's capable of carrying seven astronauts - same as the shuttle - and up to six tons of cargo to the space station."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Wow. And you - it is working so well that your flight schedule got upgraded?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Yeah. We've been able to advance the schedule and combine the next two test flights into one. So the current plan of action is to dock with the space station in December."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so the launch - you don't have a specific launch date. You just have a launch window in December."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Well, we have a nominal launch date, which is actually November 30th, and then it'll - we'll do a series of maneuvers in orbit. The Dragon is a robotic spacecraft, so there's no one onboard. It's doing all this automatically. So we're going to go up there, conduct a series of maneuvers, essentially virtually dock with a virtual space station. If that looks good, then we'll go and dock with the real thing."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Mm-hmm. And how much money does this save NASA over launching its own?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Well, we're about a tenth of the cost of the space shuttle per flight. However, the space shuttle is a bigger vehicle, but we carry the same number of people as the space shuttle, and there's no longer a need to carry space station modules up there as there was in the past. So this is - you know, it's an order of magnitude improvement in NASA's ability to get to the space station with cargo and then, in a few years, with astronauts. And so we're really happy to be doing this in partnership with NASA."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Do you think NASA will allow you to carry astronauts?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Oh, yeah. No, absolutely."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "We're working closely with the commercial crew team at NASA, and we're - we have a whole game plan of, as they say, of milestones that we have to achieve over the next few years, and we're steadily addressing all of them."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Mm-hmm. What about going beyond the space station? Any plans to the moon or to Mars?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Well, long term, the goal of SpaceX is to create the technology that's necessary to make life multi-planetary. So Mars is really the only viable candidate for making life multi-planetary, and so that's our focus in the long term. And I - you know, I'm maybe a little too optimistic sometimes or overconfident, but I think we've got a shot of making that happen in 10 to 20 years."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Going - a round trip."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Correct. Yeah, a round trip."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Because we do have scientists who come on and say it's not feasible to go in both directions."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Well, it's certainly difficult, but it - it's difficult, but feasible."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Mm-hmm. And would you try to go to the moon before you went to Mars?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Well, I don't personally have a huge interest in the moon. But if there was a customer, NASA or a private customer that wanted to go to the moon, we would be happy to take them there."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Mm-hmm. Any chance that you could turn taking astronauts to the space station as a tourist business?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Well, that has been the case to date with the Soyuz. The Soyuz has taken up several private astronauts, if you will, that have paid anywhere from 20 to 35 million dollars per flight, per seat, and - which I think would be great to bring that business to the United States instead of having the Russians have that business because usually it's Americans that are paying the Russians to do it. It's better if the Americans pay an American company to do it."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Mm-hmm. Let's talk about the rocket ship that you built, the Dragon spacecraft that's gonna fly on the Falcon 9. Tell us about that rocket."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Sure. So Falcon 9 is - it's a pretty big rocket. It's about a million pounds of thrust, which is four times the thrust of a 747. It weighs about as much as a fully loaded 47 - 747 on takeoff. The nine refers to the nine engines on the base. It's designed for super-reliability so that you can lose any of the engines, including right after lift-off and still complete your mission. It's really the only rocket that can do that. And then later in flight, you can actually lose more than one engine and still complete the mission. So I think that's a pretty significant reliability improvement. It's designed to have higher structural safety margins than other rockets, so we designed our rocket to 40 percent above flight loads instead of 25 percent. And..."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And it will have an escape system which the shuttle really did not have a practical one."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Yes. The escape system is actually on the Dragon spacecraft. So Falcon 9 is the booster that delivers the spacecraft to orbit, and then the Dragon spacecraft maneuvers over to the space station, docks and comes back here with people or with a cargo. The - but we are doing something that is very new. We are pushing the state of the art with Dragon, which is we're building the launch escape engines into the sidewall of the Dragon spacecraft. So rather than having this big solid rocket motor tractor on the nose of the spacecraft, which is how it's been done in the past, we're actually integrating the engines into the spacecraft. If you go to our website, spacex.com, you can see what I'm talking about. It's still a hard thing to describe..."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Well, so the capsule, as we used to call them, the capsule will fly - be able to fly on its own, to escape, is basically what you're saying, with its own rocket engines on it."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Yes. And the Dragon has - Dragon spacecraft has on-board propellant for orbital maneuvering and de-orbit and for controlling its re-entry.  And - but you either need to do - to escape - to do launch escape or you need to do orbital maneuvering, but not both. And so we're getting dual use of the propellant. And it ends up being a much lighter, I think, much more reliable system by doing that. And it solves two reliability issues that (unintelligible)  from the past. One is that that launch - that tractor tower, escape tower, has to always be jettisoned on every mission or all the crew will die. It's sort of like having a fighter jet with an ejection seat that's got to work on every flight or you die. And that - I think that's unwise. And then because that tractor tower is so heavy, it has to be discarded a few minutes into the launch. And so you don't actually have escape capability all the way to orbit. But in our case, with the integrated engines, we avoid those issues. And then there's an added advantage, which is we can use those same engines to do a propulsive landing. So you can actually land Dragon with the accuracy of a helicopter, and anywhere on Earth."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Wow. You mean - so it's a reusable spacecraft?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Yeah. That's the intent, yeah. In fact, the Dragon that we were - the Dragon that came back in our December flight, we could re-fly that same Dragon with minimal refurbishment."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so if it's reusable and it comes back, how many launches could you do in a year, theoretically?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Well, with Dragon, we could probably do - well, I think we'd want to do some upgrades. But in the current configuration, we could probably do a launch a week, I guess, with Dragon. But we do need to make the rockets reusable as well, the first and second stage of the rockets."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Hmm. So they will be recoverable."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "The intent is to - I mean, the Holy Grail in space is to have a fully and completely - sorry, fully and rapidly reusable rocket. No one has ever achieved this. The space shuttle is partly reusable, but the main tank is thrown away every time. And even the parts that are reusable are extremely difficult to refurbish. And so the space shuttle costs about  well, anywhere from four to eight times as much an expendable rocket of equivalent payload capability. So it's - yes, it's - so there's - and all the other rockets are just fully expendable. So whether it's SpaceX or some other company, whoever invents the first fully and rapidly reusable rocket will have - that'll be a huge, huge breakthrough because it would allow the costs of launch to drop by about  100."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Hmm. And you aim to be the people who do that, the company who does that."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "We - that's our aspiration."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Yeah. Let's talk about some of your other aspirations in the few minutes I have left, because you're into so many things, like tell us about SolarCity. You're making solar-powered electric vehicle charging available across - tell us what that project is. It sounds fascinating."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Well, so SolarCity is - well, SolarCity is currently the largest provider of solar-powered systems in the county, providing for rooftop installations. So they have customers like Wal-Mart, Intel, eBay and then do a huge number of residential solar systems. They have a - the best cost structure and the best service, I think, of any solar company. Just did a big deal with Google to provide solar financing for customers. Yeah. They're doing incredibly well. Fortunately(ph) , I don't run the company on a day-to-day basis. That's done by Lyndon and Peter Rive, the co-founders. And so I just show up at board meetings to hear the good news."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Yeah. You are the chairman, right?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Uh-huh. Well, let's talk about something more that you do know about, your car company. When do we expect to see a Tesla that's come down, your second-generation car?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "So that's all looking really good. We're planning to deliver the Model S to the customers in the middle of next year. And then on October 1, we're going to have a big customer ride event and factory tour, so - it's exclusively for customers that have put down a deposit on our Model S sedan. And I think they'll be really blown away by the capabilities of the car. It's, yeah, I think it's really going to be - really going to love it when they see what it's like. You know, the Model S sedan has a range of up to 300 miles, pure electric. It's got - and there's a performance version that's as - (unintelligible) beat a  BMW M5 around a track. So it's got great, great performance handling. I think the styling is great. We're also aiming for it to be the safest car in the world in terms of being five star in every single category, which - that there isn't - no car is five star in every category."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And what's the price you're asking for this car?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "It starts at $50,000."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "It's kind of like a, you know, priced similar to a BMW 5 series."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Mm-hmm."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "We're talking with Elon Musk this hour at SCIENCE FRIDAY from NPR, and talking about that Tesla. 'Cause I did see your profile in \"The Revenge of the Electric Car.\" So it's kind of interesting to watch you dealing with your customers there."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And can you bring it on time and on schedule, as they always ask?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Yeah. It's, I mean, at this point there's really not a lot of uncertainty associated with the Model S. We've sourced all of the components in the car. The factory is making great progress. I think the car is actually better than what people expect it to be."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so why have you succeeded? When everybody says can't do - you can do? What is your secret to making this work?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Well, I think it's like - we've got a tremendous team at both Tesla and SpaceX. We've really tried to recruit the best engineers in the world and provide an environment that is conducive to rapid innovation and kind of just really applying the, kind of the Silicon Valley operating system to companies. And..."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Is it - a lot have - does it have a lot of to do with just attitude that we can do this and we'll just do it?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Well, I think, certainly a positive attitude is a good idea, but you have to have outstanding engineering that's coupled with that. And you know, I think generally a company that can attract the best engineers and motivate them and have them work together well will result in the best product. So that's how it is where technology is concerned."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Let me ask you one final question. As we know, getting back to space travel, it can be dangerous. Would an accident that resulted in the loss of life just about put you out of business if that ever happened?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "No, I don't think so. You know, one always has to take that into account. And in early days of SpaceX, we did have some launch failures as we were developing with the Falcon 1 rocket, which is sort of a small kind of subscale rocket. We recovered from those, figured out what went wrong and then applied those lessons with the Falcon 9, the much larger rocket. So we could certainly withstand several failures."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "All right. I want to thank you very much for taking time to be with us. Do you have any other plans we don't know about? Do you have anything else on the drawing board that we should be looking forward to? Are you not afraid of your competitors?"
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "No. No. I believe in just staying really focused on creating the best possible product and just - creating products that amaze and delight customers. And if you do that, then I think you create a valuable company. And I think people sort of forget that great companies are built on great products. And so our focus is just making the best products in the world."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "All right. Elon, thank you for taking time to be with us today, and good luck to you."
+    },
+    {
+      "speaker": "Elon Musk",
+      "text": "Alright, thank you."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "..COST: $00.00"
+    }
+  ]
+}

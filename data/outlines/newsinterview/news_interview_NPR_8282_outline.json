@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Nikky Finney and Her Journey",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What significant recognition did Nikky Finney receive and how did it affect her life?",
+        "importance": "critical",
+        "keywords": [
+          "National Book Award",
+          "recognition",
+          "life change"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Can you describe the transition from her past job to becoming a professor?",
+        "importance": "high",
+        "keywords": [
+          "transition",
+          "professor",
+          "writing career"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Challenges and Responsibilities of Being a Poet",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does Nikky Finney view the challenges faced by contemporary poets in America?",
+        "importance": "critical",
+        "keywords": [
+          "challenges",
+          "contemporary poets",
+          "America"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What responsibilities does Finney feel towards her community and the literary tradition?",
+        "importance": "high",
+        "keywords": [
+          "responsibility",
+          "community",
+          "literary tradition"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "New Opportunities and Creative Projects",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What upcoming project is Nikky Finney involved in to commemorate the end of the Civil War?",
+        "importance": "high",
+        "keywords": [
+          "Civil War",
+          "poetry project",
+          "collaboration"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Finney feel about her involvement in creative endeavors like the one with the Kronos Quartet?",
+        "importance": "optional",
+        "keywords": [
+          "creative endeavors",
+          "Kronos Quartet",
+          "excitement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Legacy and Impact on Future Generations",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "In what ways does Nikky Finney aim to inspire the next generation of poets?",
+        "importance": "critical",
+        "keywords": [
+          "inspiration",
+          "next generation",
+          "poets"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Finney reflect on the influence her predecessors had on her career?",
+        "importance": "high",
+        "keywords": [
+          "influence",
+          "predecessors",
+          "career"
+        ]
+      }
+    ]
+  }
+]

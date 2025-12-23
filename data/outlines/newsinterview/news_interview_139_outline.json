@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Epstein's Arrest",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What prompted Jeffrey Epstein's recent arrest by federal prosecutors in New York?",
+        "importance": "critical",
+        "keywords": [
+          "Epstein",
+          "arrest",
+          "federal prosecutors"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How was Epstein's arrest received by his attorneys and the victims' lawyers?",
+        "importance": "high",
+        "keywords": [
+          "attorneys",
+          "victims",
+          "reception"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Details of the New Charges",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the specific nature and implications of the new sex trafficking charges against Epstein?",
+        "importance": "critical",
+        "keywords": [
+          "charges",
+          "sex trafficking",
+          "implications"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How might the abolishment of the federal statute of limitations for sex trafficking affect Epstein's case?",
+        "importance": "high",
+        "keywords": [
+          "statute of limitations",
+          "federal",
+          "case"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Victims' Perspectives and Reactions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What was the reaction of the victims' lawyers to the news of Epstein's arrest?",
+        "importance": "high",
+        "keywords": [
+          "victims",
+          "reaction",
+          "lawyers"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Why were the victims reportedly elated following Epstein's arrest?",
+        "importance": "optional",
+        "keywords": [
+          "victims",
+          "elated",
+          "arrest"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Understanding Concussions",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the primary concerns related to concussions and their long-term effects on the brain?",
+        "importance": "critical",
+        "keywords": [
+          "concussions",
+          "long-term effects",
+          "brain damage"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How do medical professionals determine if someone has sustained a concussion?",
+        "importance": "high",
+        "keywords": [
+          "diagnosis",
+          "concussion symptoms",
+          "medical evaluation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Research Findings and Brain Changes",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What structural changes were noted in the brains of concussion patients in recent studies?",
+        "importance": "critical",
+        "keywords": [
+          "brain scans",
+          "atrophy",
+          "MRI technology"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Which areas of the brain are most affected by concussions, according to recent research?",
+        "importance": "high",
+        "keywords": [
+          "brain regions",
+          "concussion effects",
+          "cingulate"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Prevention and Management of Concussions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What measures should be taken to ensure the safety of children participating in contact sports?",
+        "importance": "high",
+        "keywords": [
+          "safety measures",
+          "contact sports",
+          "parenting advice"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What should coaches and parents do if they suspect a player has a concussion?",
+        "importance": "critical",
+        "keywords": [
+          "concussion protocol",
+          "suspicion of injury",
+          "team management"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Treatment and Specialist Care",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What is the recommended approach for treating a concussion and when should one seek specialist care?",
+        "importance": "critical",
+        "keywords": [
+          "treatment",
+          "symptoms",
+          "concussion specialist"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How can comprehensive multidisciplinary care enhance recovery outcomes for concussion patients?",
+        "importance": "high",
+        "keywords": [
+          "multidisciplinary care",
+          "recovery",
+          "outcome improvement"
+        ]
+      }
+    ]
+  }
+]

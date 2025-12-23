@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to the Voter Profile",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you tell us a bit about your background and how you identify as a voter?",
+        "importance": "critical",
+        "keywords": [
+          "voter profile",
+          "background",
+          "identity"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Undecided Voter Dynamics",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How often do you find your decisions switch between supporting McCain and Obama?",
+        "importance": "critical",
+        "keywords": [
+          "undecided voter",
+          "switch",
+          "support"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What factors lead to your indecision between the two candidates?",
+        "importance": "high",
+        "keywords": [
+          "indecision",
+          "factors",
+          "candidates"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Perceptions of Candidates",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What do you find appealing about John McCain?",
+        "importance": "high",
+        "keywords": [
+          "McCain",
+          "appeal",
+          "perspective"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are your thoughts on Barack Obama's optimism and proposed plans?",
+        "importance": "high",
+        "keywords": [
+          "Obama",
+          "optimism",
+          "plans"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Experiences and Economic Concerns",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How have your personal financial experiences influenced your voting decisions?",
+        "importance": "critical",
+        "keywords": [
+          "financial experiences",
+          "voting decisions",
+          "influence"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What do you believe needs to change regarding the economy to support voters like yourself?",
+        "importance": "high",
+        "keywords": [
+          "economy",
+          "change",
+          "voters"
+        ]
+      }
+    ]
+  }
+]

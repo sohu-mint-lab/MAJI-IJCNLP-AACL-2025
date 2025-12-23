@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Background on Raccoons in Toronto",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What prompted the city of Toronto to invest in new trash bins?",
+        "importance": "critical",
+        "keywords": [
+          "Toronto",
+          "raccoons",
+          "investment"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did local residents initially perceive the impact of the new bins on raccoon populations?",
+        "importance": "high",
+        "keywords": [
+          "raccoon population",
+          "green bins",
+          "community"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Investigation Launch and Methodology",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did Amy Dempsey's inquiry evolve into a larger investigation?",
+        "importance": "critical",
+        "keywords": [
+          "investigation",
+          "inquiry",
+          "Amy Dempsey"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What methods did Amy Dempsey use to conduct her hidden camera investigation?",
+        "importance": "high",
+        "keywords": [
+          "hidden camera",
+          "investigation methods",
+          "surveillance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Findings from the Investigation",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What was the outcome of Amy's investigation regarding raccoon behavior?",
+        "importance": "critical",
+        "keywords": [
+          "findings",
+          "raccoon behavior",
+          "investigation outcome"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Did the new bins ultimately deter raccoons as intended?",
+        "importance": "high",
+        "keywords": [
+          "bins",
+          "effectiveness",
+          "raccoons"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Conclusions and Implications",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What insights did Amy Dempsey share regarding the intelligence of raccoons?",
+        "importance": "critical",
+        "keywords": [
+          "intelligence",
+          "raccoons",
+          "insights"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What ongoing research efforts are being conducted by Suzanne MacDonald?",
+        "importance": "high",
+        "keywords": [
+          "Suzanne MacDonald",
+          "ongoing research",
+          "raccoons"
+        ]
+      }
+    ]
+  }
+]

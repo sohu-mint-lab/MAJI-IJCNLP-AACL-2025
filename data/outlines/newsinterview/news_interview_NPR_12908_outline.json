@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Nuclear Reactor Development",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What recent developments have occurred regarding the licensing of new nuclear reactors in the U.S.?",
+        "importance": "critical",
+        "keywords": [
+          "nuclear reactors",
+          "licensing",
+          "NRC"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How long has it been since the last nuclear reactor was approved for construction in the U.S.?",
+        "importance": "high",
+        "keywords": [
+          "nuclear history",
+          "Three Mile Island",
+          "approval"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Economic Considerations in Reactor Construction",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the estimated construction costs for the new reactors, and how do they impact overall energy pricing?",
+        "importance": "critical",
+        "keywords": [
+          "construction costs",
+          "energy pricing",
+          "electricity"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How do the operations and maintenance costs compare to the construction costs of these nuclear reactors?",
+        "importance": "high",
+        "keywords": [
+          "operations",
+          "maintenance",
+          "cost comparison"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Safety Features and Innovations in New Reactor Designs",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What passive safety systems have been integrated into the new reactor designs to enhance safety?",
+        "importance": "critical",
+        "keywords": [
+          "passive safety",
+          "reactor designs",
+          "Fukushima"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do the safety standards of new reactors address past reactor failures, such as those seen in Fukushima?",
+        "importance": "high",
+        "keywords": [
+          "safety standards",
+          "reactor failures",
+          "Fukushima"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future of Nuclear Power and Waste Management",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What challenges exist regarding the management and disposal of nuclear waste?",
+        "importance": "high",
+        "keywords": [
+          "nuclear waste",
+          "disposal challenges",
+          "policy"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "When can we expect to see advancements in the deployment of generation four nuclear reactors?",
+        "importance": "optional",
+        "keywords": [
+          "generation four",
+          "nuclear technology",
+          "advancements"
+        ]
+      }
+    ]
+  }
+]

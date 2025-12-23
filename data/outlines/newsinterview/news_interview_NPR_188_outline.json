@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Synthetic Windpipe Transplants",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was the significance of the synthetic windpipe transplant performed in Sweden?",
+        "importance": "critical",
+        "keywords": [
+          "synthetic windpipe",
+          "transplant",
+          "cancer"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Who is Dr. Paolo Macchiarini and what role did he play in this procedure?",
+        "importance": "high",
+        "keywords": [
+          "Dr. Paolo Macchiarini",
+          "transplant",
+          "lead surgeon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Process of Creating a Synthetic Trachea",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How is the scaffold for the synthetic trachea constructed?",
+        "importance": "critical",
+        "keywords": [
+          "scaffold",
+          "synthetic trachea",
+          "construction"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What is the role of patient’s stem cells in the transplant procedure?",
+        "importance": "high",
+        "keywords": [
+          "stem cells",
+          "tissue regeneration",
+          "transplant"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Regeneration Process after Transplantation",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How quickly do stem cells begin to differentiate into tracheal cells after transplantation?",
+        "importance": "critical",
+        "keywords": [
+          "differentiation",
+          "stem cells",
+          "transplantation"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What factors influence the time required for the complete regeneration of the trachea?",
+        "importance": "high",
+        "keywords": [
+          "regeneration",
+          "factors",
+          "trachea"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Applications and Potential",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What other organs does Dr. Macchiarini envision for potential regeneration using similar techniques?",
+        "importance": "high",
+        "keywords": [
+          "future applications",
+          "organs",
+          "regeneration"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What challenges remain before broader applications of this technique can be realized?",
+        "importance": "high",
+        "keywords": [
+          "challenges",
+          "broader applications",
+          "regenerative medicine"
+        ]
+      }
+    ]
+  }
+]

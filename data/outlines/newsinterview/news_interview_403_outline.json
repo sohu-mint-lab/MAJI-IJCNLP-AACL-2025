@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the California Fires",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What areas in California have been impacted by the recent fires?",
+        "importance": "critical",
+        "keywords": [
+          "California",
+          "fires",
+          "impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Personal Impact on the Community",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How has the fire affected the lives of individuals like Loren Lighthall?",
+        "importance": "critical",
+        "keywords": [
+          "personal impact",
+          "community",
+          "Loren Lighthall"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "In what ways has the faith community supported those affected by the fire?",
+        "importance": "high",
+        "keywords": [
+          "faith community",
+          "support",
+          "disaster recovery"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges Faced by Paradise High School",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is the current condition of Paradise High School following the fires?",
+        "importance": "high",
+        "keywords": [
+          "Paradise High School",
+          "condition",
+          "fires"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What challenges does the principal foresee for the school's reopening?",
+        "importance": "critical",
+        "keywords": [
+          "challenges",
+          "reopening",
+          "education"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Community and Future Outlook",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the long-term implications for the community of Paradise?",
+        "importance": "high",
+        "keywords": [
+          "community",
+          "long-term implications",
+          "Paradise"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does the socioeconomic status of families in Paradise influence their recovery process?",
+        "importance": "optional",
+        "keywords": [
+          "socioeconomic status",
+          "recovery",
+          "families"
+        ]
+      }
+    ]
+  }
+]

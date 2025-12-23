@@ -1,0 +1,566 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.398593433201313,
+                "avg_context_relevance": 0.37123189041657106,
+                "avg_outline_relevance": 0.6381868964859417,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3999198419707162,
+                "avg_context_relevance": 0.3502212432878358,
+                "avg_outline_relevance": 0.6882093293326241,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 46.42857142857143,
+            "covered_questions": 4,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "The impeachment inquiry into President Donald Trump is drawing attention to the questionable activities of more than one major political family. Former Vice President Joe Biden and his son Hunter are under scrutiny for Hunter's work in the Ukrainian energy industry. The writer Sarah Chayes is the author of the book \"Thieves Of The State: Why Corruption Threatens Global Security\" (ph). And she argues this scrutiny is a good thing.",
+            "previous_answer": "You know, when the son of a vice president gets a job in a field he knows nothing about while his father is vice president in a country that just had a revolution that, you know, typically, in that part of the world, post-revolution, all the oligarchs steal all the crown jewels, and the industry is one of the crown jewels - that is to say, gas - since when is that doing nothing wrong?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you interpret the potential consequences when political family members become involved in controversial business dealings?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2122255265712738,
+                        "outline_relevance": 0.7219890356063843,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How do you think the pattern of post-revolutionary oligarchic control shapes the potential for corruption in countries like Ukraine?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.43951094150543213,
+                            "outline_relevance": 0.6274569034576416,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you elaborate on how citizen oversight could help mitigate such corruption risks within politically connected families?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3110598921775818,
+                            "outline_relevance": 0.6947421431541443,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What lessons from historical post-revolution corruption cases could inform current discussions around political family scrutiny?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3934714198112488,
+                            "outline_relevance": 0.6682767868041992,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do you interpret the potential consequences when political family members become involved in controversial business dealings?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2122255265712738,
+                            "outline_relevance": 0.7219890356063843,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Now, wrong does not necessarily mean illegal, Sarah Chayes told me. But she said too often these days, people with political ties or prominent political names are getting involved where they shouldn't be.",
+            "previous_answer": "Almost any senior name that I start researching, I run into practices like this. It is extraordinarily widespread. And that's my question. How did we all convince ourselves that this isn't corrupt? And it seems to me that we're not going to recover, you know, even an approximation of the ideals on which we were founded as a nation unless each of us, as citizens, begins to make it less comfortable for our political and economic leaders to behave this way.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You mentioned encountering widespread corrupt practices among senior political figures. Could you share some specific examples that illustrate the patterns you’ve seen?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.629621148109436,
+                        "outline_relevance": 0.6336432695388794,
+                        "originality": 0.31429219245910645,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you share specific examples of corrupt practices you’ve found among senior political figures?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6487759351730347,
+                            "outline_relevance": 0.6772942543029785,
+                            "originality": 0.3001512885093689,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: What do you think are the main reasons society becomes tolerant or accepting of widespread corruption?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6220204830169678,
+                            "outline_relevance": 0.6749756932258606,
+                            "originality": 0.32436656951904297,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: How can citizens effectively hold political and economic leaders accountable without falling into partisan retaliation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4357963800430298,
+                            "outline_relevance": 0.6293208599090576,
+                            "originality": 0.36130785942077637,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You mentioned encountering widespread corrupt practices among senior political figures. Could you share some specific examples that illustrate the patterns you’ve seen?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.629621148109436,
+                            "outline_relevance": 0.6336432695388794,
+                            "originality": 0.31429219245910645,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Well, let me ask you this, then. If it is not unusual, why focus on this case of Hunter Biden and Joe Biden specifically?",
+            "previous_answer": "Because it's in the news and because of the word that I kept seeing apply in this context, which is, no wrongdoing, or, they didn't do anything wrong. And I'm looking at that, saying, what? And if we can say that now, in this context, then there's something awry.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain what concerns you most about focusing too much on individual actors in corruption cases rather than the broader system?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.22558937966823578,
+                        "outline_relevance": 0.6826280355453491,
+                        "originality": 0.2995505928993225,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think media coverage shapes public understanding of political corruption cases like Biden's?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.39060452580451965,
+                            "outline_relevance": 0.5797556638717651,
+                            "originality": 0.4073566198348999,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you elaborate on what you find suspicious or 'awry' when claims of 'no wrongdoing' are made?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.588241457939148,
+                            "outline_relevance": 0.5227789878845215,
+                            "originality": 0.5373828113079071,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways can citizens critically assess official claims of innocence in political scandals?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3688809275627136,
+                            "outline_relevance": 0.5993137955665588,
+                            "originality": 0.32526904344558716,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you explain what concerns you most about focusing too much on individual actors in corruption cases rather than the broader system?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.22558937966823578,
+                            "outline_relevance": 0.6826280355453491,
+                            "originality": 0.2995505928993225,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "President Trump's critics would say it's in the news because he put it there and that the media, by focusing on it, would be helping President Trump distract from his own actions. What do you make of that argument?",
+            "previous_answer": "I am not saying that what the Bidens have done is the equivalent in any way to what President Trump has done and is doing. But what concerns me is too exclusive a focus on the individual at the top. I have researched anti-corruption, you know, uprisings around the world, you know, in places from Guatemala to Burkina Faso to South Korea. There's intense activity to basically provoke regime change - right? - to overthrow or get investigated or impeach the chief of state. And when that happens, the activists all go home, normally. The problem is that the practices often continue. The networks reconfigure themselves. And the country finds itself in just as bad a state afterwards as before. Too much exclusive focus on the individual is likely not to be conducive to, really, the types of reforms that we need in the United States.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You've mentioned the risk of activists focusing solely on top leaders and the subsequent persistence of corrupt networks. How do you think citizens should engage with corruption issues beyond partisan divides to create lasting systemic change?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.49600642919540405,
+                        "outline_relevance": 0.703789234161377,
+                        "originality": 0.25286781787872314,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share examples from your research where focusing beyond individual leaders has led to more effective anti-corruption reforms?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5017420649528503,
+                            "outline_relevance": 0.6722512245178223,
+                            "originality": 0.23168355226516724,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What kinds of structural changes do you believe are necessary to prevent corruption networks from re-emerging after leadership changes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.39689427614212036,
+                            "outline_relevance": 0.5926790237426758,
+                            "originality": 0.32802581787109375,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How can citizens balance attention between individual accountability and systemic reforms in combating corruption?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.39866387844085693,
+                            "outline_relevance": 0.7147500514984131,
+                            "originality": 0.2005445957183838,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You've mentioned the risk of activists focusing solely on top leaders and the subsequent persistence of corrupt networks. How do you think citizens should engage with corruption issues beyond partisan divides to create lasting systemic change?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.49600642919540405,
+                            "outline_relevance": 0.703789234161377,
+                            "originality": 0.25286781787872314,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Well, I just want to work this through with you. I mean, you said that it really troubled you when you would hear people in the news media say that there was no wrongdoing when it came to the Bidens. And, I mean, in truth, some of what President Trump has said sort of pushing this storyline about Joe Biden pressuring the Ukrainian government to fire a prosecutor who was investigating Hunter Biden - that part of the story has been widely debunked, which may be why you hear journalists saying, you know, no wrongdoing. So I guess I'm wondering is there a risk in that bringing this up will cause people to take parts of the story of the Bidens more seriously, even if they're just not true?",
+            "previous_answer": "Not if they make the right distinctions. You are exactly right. Vice President Biden did not pressure the government of Ukraine to remove a prosecutor because he was doing too much anti-corruption investigation, including into his son's company. Rather, he pressured the government of Ukraine as a part of concerted U.S. policy, in line with the views of all of the civil society groups that were engaged and our Western partners, right? That's a completely different situation from President Trump's phone call. Vice President Biden did not commit the act of corruption that President Trump is accusing him of - on the contrary. That doesn't mean that there's no wrongdoing here. And I think it is critical in these polarized days that as we American citizens consider corruption in our system, we not only point the finger at the opposing party or the opposing identity group. That's too easy. We have to, each of us, first hold our own groups to account first - all of us.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific actions do you believe citizens should take to raise the standards of political discourse and accountability in today's polarized environment?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2539321780204773,
+                        "outline_relevance": 0.7077879905700684,
+                        "originality": 0.33223891258239746,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How can ordinary citizens cultivate the ability to critically distinguish between genuine corruption and politically motivated accusations in the media?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.28560179471969604,
+                            "outline_relevance": 0.6664276719093323,
+                            "originality": 0.2232072353363037,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What are some practical steps citizens can take to hold their own political groups accountable without deepening polarization?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.30680644512176514,
+                            "outline_relevance": 0.6282514333724976,
+                            "originality": 0.2221277952194214,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In today’s political climate, how can media outlets responsibly cover corruption allegations to prevent misinformation while maintaining public trust?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.26405787467956543,
+                            "outline_relevance": 0.5683785676956177,
+                            "originality": 0.23685860633850098,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What specific actions do you believe citizens should take to raise the standards of political discourse and accountability in today's polarized environment?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2539321780204773,
+                            "outline_relevance": 0.7077879905700684,
+                            "originality": 0.33223891258239746,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Let me finish by just asking you this. I mean, what I hear you saying that your desire - and, again, this is an issue of politics, corruption you've written about, you've reported on in Afghanistan, the United States. I mean, you're saying, here is an issue and a name in the news. You want to use it to draw attention to a huge problem that you think is so important to our democracy, shine light on it and push to do something about it. But given our media and political environment today, is it overly optimistic and overly, dare I say, idealist to think that that's what's going to happen - that people will get the nuance and understand what specific reforms are necessary and the politics will just stay out of it?",
+            "previous_answer": "I think we have to raise the standards. And to say, oh, OK, I am going to completely whitewash my own side - you know, because the standard of debate is so low in the United States that I'm going to contribute to keeping it that low by not calling on us to think and act as citizens - I'm not willing to give up on the United States to that extent.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you elaborate on specific aspects where you believe the political debate standards in the U.S. must be elevated to make a meaningful impact?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6446012854576111,
+                        "outline_relevance": 0.7816609144210815,
+                        "originality": 0.31539154052734375,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How might citizens practically raise the standards of political debate in their communities?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5970190763473511,
+                            "outline_relevance": 0.6402359008789062,
+                            "originality": 0.2675207853317261,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share examples where raising debate standards made a tangible difference in combating corruption?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.47812509536743164,
+                            "outline_relevance": 0.6440458297729492,
+                            "originality": 0.2828487753868103,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What role do you see for media and education in elevating the quality of political discourse nationally?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.451163113117218,
+                            "outline_relevance": 0.48489853739738464,
+                            "originality": 0.37346339225769043,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you elaborate on specific aspects where you believe the political debate standards in the U.S. must be elevated to make a meaningful impact?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6446012854576111,
+                            "outline_relevance": 0.7816609144210815,
+                            "originality": 0.31539154052734375,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Sarah Chayes, thanks so much. Really appreciate it.",
+            "previous_answer": "My pleasure.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share a specific instance where citizen-led accountability sparked a significant political change in your experience?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.010427244007587433,
+                        "outline_relevance": 0.5859668254852295,
+                        "originality": 0.2850978374481201,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What motivated you to become deeply involved in anti-corruption work and governance reform?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.004304185509681702,
+                            "outline_relevance": 0.6199984550476074,
+                            "originality": 0.1666421890258789,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you share an example where citizen accountability directly led to a meaningful political change?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.01577133685350418,
+                            "outline_relevance": 0.6312569379806519,
+                            "originality": 0.25297337770462036,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you balance your principles with the complexities of real-world political environments in your work?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.0530414953827858,
+                            "outline_relevance": 0.5146790742874146,
+                            "originality": 0.3194469213485718,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you share a specific instance where citizen-led accountability sparked a significant political change in your experience?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.010427244007587433,
+                            "outline_relevance": 0.5859668254852295,
+                            "originality": 0.2850978374481201,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

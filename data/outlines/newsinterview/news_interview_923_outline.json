@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Bernie Sanders' Health Situation",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What specific health issues did Bernie Sanders experience that led to his heart procedure?",
+        "importance": "critical",
+        "keywords": [
+          "Bernie Sanders",
+          "heart procedure",
+          "health issues"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What was the nature of the treatment he received?",
+        "importance": "high",
+        "keywords": [
+          "treatment",
+          "stents",
+          "heart disease"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Impact on Campaign and Voter Perception",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How might Sanders' health issue affect his campaign moving forward?",
+        "importance": "critical",
+        "keywords": [
+          "campaign",
+          "voter perception",
+          "health impact"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What concerns do voters have regarding Sanders' age and health as the campaign intensifies?",
+        "importance": "high",
+        "keywords": [
+          "age",
+          "voter concerns",
+          "campaign"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Context of Sanders' Health in Relation to Rivals",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How does Sanders' age and health compare to that of his main rivals in the campaign?",
+        "importance": "high",
+        "keywords": [
+          "rivals",
+          "age comparison",
+          "health"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What recent achievements in his campaign might Sanders highlight to reassure voters?",
+        "importance": "optional",
+        "keywords": [
+          "campaign achievements",
+          "reassurance",
+          "voter engagement"
+        ]
+      }
+    ]
+  }
+]

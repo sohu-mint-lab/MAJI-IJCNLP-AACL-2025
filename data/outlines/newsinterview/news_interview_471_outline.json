@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "The State of Photojournalism",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What percentage of news imagery is created by men according to Kainaz Amaria?",
+        "importance": "critical",
+        "keywords": [
+          "photojournalism",
+          "demographics",
+          "gender"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the representation of women in photojournalism compare to that in written journalism?",
+        "importance": "high",
+        "keywords": [
+          "representation",
+          "written journalism",
+          "outrage"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Sexual Harassment and Discrimination",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What types of harassment and discrimination have women faced in the photojournalism industry?",
+        "importance": "critical",
+        "keywords": [
+          "harassment",
+          "discrimination",
+          "women"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What was the response of the VII agency regarding the allegations made against its co-founder?",
+        "importance": "high",
+        "keywords": [
+          "VII agency",
+          "allegations",
+          "response"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Industry Reactions and Accountability",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How did institutions react to the reports of harassment in the photojournalism industry?",
+        "importance": "high",
+        "keywords": [
+          "industry reactions",
+          "accountability",
+          "responsibility"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What challenges do female photographers face when speaking out about their experiences?",
+        "importance": "critical",
+        "keywords": [
+          "female photographers",
+          "challenges",
+          "speaking out"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Impact on Representation in Media",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What implications does the lack of women in photojournalism have on media representation and storytelling?",
+        "importance": "critical",
+        "keywords": [
+          "media representation",
+          "storytelling",
+          "gender lens"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Why does Kainaz Amaria believe it's important to have more women behind the camera?",
+        "importance": "high",
+        "keywords": [
+          "women",
+          "camera",
+          "perspectives"
+        ]
+      }
+    ]
+  }
+]

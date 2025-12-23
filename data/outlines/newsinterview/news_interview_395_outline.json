@@ -1,0 +1,92 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the California Fires",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the current statistics regarding the casualties and destruction caused by the California fires?",
+        "importance": "critical",
+        "keywords": [
+          "California",
+          "fires",
+          "casualties",
+          "destruction"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Sean Abrams' Heroic Efforts",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Can you describe the situation you faced while evacuating patients from the hospital?",
+        "importance": "critical",
+        "keywords": [
+          "evacuation",
+          "patients",
+          "hospital",
+          "danger"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What steps did you take to protect the patients and yourself during the fire?",
+        "importance": "high",
+        "keywords": [
+          "safety",
+          "protection",
+          "patients",
+          "fire"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Emotional Impact and Reflection",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What was your experience like when you finally reunited with your family?",
+        "importance": "high",
+        "keywords": [
+          "family",
+          "reunion",
+          "emotional",
+          "impact"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do you feel about the ongoing situation for others affected by the fires?",
+        "importance": "high",
+        "keywords": [
+          "impact",
+          "community",
+          "concerns",
+          "fire"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Continuing the Emergency Response",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How has your experience influenced your perspective on the work you do as a paramedic?",
+        "importance": "optional",
+        "keywords": [
+          "experience",
+          "perspective",
+          "paramedic",
+          "work"
+        ]
+      }
+    ]
+  }
+]

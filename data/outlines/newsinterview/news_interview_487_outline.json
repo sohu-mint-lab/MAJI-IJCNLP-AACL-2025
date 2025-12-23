@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Cash Bail Legislation",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What changes did California make to the cash bail system?",
+        "importance": "critical",
+        "keywords": [
+          "California",
+          "cash bail",
+          "legislation"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Governor Jerry Brown justify the abolition of cash bail?",
+        "importance": "high",
+        "keywords": [
+          "Governor Jerry Brown",
+          "abolition",
+          "justification"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Pretrial Release in Washington, D.C.",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does the risk assessment process work for pretrial release in D.C.?",
+        "importance": "critical",
+        "keywords": [
+          "Washington D.C.",
+          "risk assessment",
+          "pretrial release"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What statistics were shared regarding court appearances and recidivism rates?",
+        "importance": "high",
+        "keywords": [
+          "statistics",
+          "court appearances",
+          "recidivism"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Risks and Controversies of Risk Assessments",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are some concerns related to bias in risk assessment algorithms?",
+        "importance": "critical",
+        "keywords": [
+          "bias",
+          "risk assessment",
+          "controversy"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Judge Morrison address the inherent risks in release decisions?",
+        "importance": "high",
+        "keywords": [
+          "Judge Morrison",
+          "release decisions",
+          "inherent risks"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Philosophy of Justice and Liberty",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What philosophical stance does Judge Morrison take regarding safety and liberty in the justice system?",
+        "importance": "high",
+        "keywords": [
+          "justice system",
+          "safety",
+          "liberty",
+          "philosophy"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Judge Morrison relate historical cases to modern bail practices?",
+        "importance": "optional",
+        "keywords": [
+          "historical cases",
+          "bail practices",
+          "Justice Jackson"
+        ]
+      }
+    ]
+  }
+]

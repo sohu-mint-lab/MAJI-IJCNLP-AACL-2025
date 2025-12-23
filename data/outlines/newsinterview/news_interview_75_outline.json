@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of New Tariffs",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What items are impacted by the new 15% tariffs implemented by the Trump administration?",
+        "importance": "critical",
+        "keywords": [
+          "tariffs",
+          "Trump administration",
+          "Chinese imports"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Why were certain products postponed from the tariff implementation?",
+        "importance": "high",
+        "keywords": [
+          "postponed tariffs",
+          "holiday shopping",
+          "consumer items"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "China's Reaction and Trade Negotiations",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How has China responded to the new tariffs and what might it signal for future negotiations?",
+        "importance": "critical",
+        "keywords": [
+          "China",
+          "retaliation",
+          "trade negotiations"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What impact did the back-and-forth of tariffs have on the stock market?",
+        "importance": "high",
+        "keywords": [
+          "stock market",
+          "S&P 500",
+          "tariff impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impact on Consumers and Businesses",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How are the new tariffs affecting consumer spending?",
+        "importance": "critical",
+        "keywords": [
+          "consumer spending",
+          "tariffs",
+          "economic impact"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What challenges do businesses face in response to the tariffs and potential relocation?",
+        "importance": "high",
+        "keywords": [
+          "business challenges",
+          "relocation",
+          "production"
+        ]
+      }
+    ]
+  }
+]

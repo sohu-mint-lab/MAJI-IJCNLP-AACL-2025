@@ -1,0 +1,98 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to the New Gonorrhea Strain",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the concerns raised about the new strain of gonorrhea found in Japan?",
+        "importance": "critical",
+        "keywords": [
+          "gonorrhea",
+          "strain",
+          "Japan",
+          "antibiotic resistance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Antibiotic Resistance and Implications",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does the new strain of gonorrhea compare in resistance levels to previous strains?",
+        "importance": "critical",
+        "keywords": [
+          "antibiotic resistance",
+          "treatment",
+          "high resistance"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What would be the required treatment approach for individuals infected with this new strain?",
+        "importance": "high",
+        "keywords": [
+          "treatment",
+          "IV dosing",
+          "gonorrhea"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges in Detection and Treatment",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the challenges associated with diagnosing gonorrhea in non-urethral locations?",
+        "importance": "high",
+        "keywords": [
+          "diagnosis",
+          "gonorrhea",
+          "throat",
+          "rectum"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How is the current public health infrastructure impacting STD treatment and awareness?",
+        "importance": "critical",
+        "keywords": [
+          "public health",
+          "infrastructure",
+          "STD treatment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Proactive Measures and Recommendations",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What proactive measures should at-risk populations take in light of the new gonorrhea strain?",
+        "importance": "high",
+        "keywords": [
+          "proactive measures",
+          "screening",
+          "HIV"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How can individuals increase their awareness and prevent the spread of STDs?",
+        "importance": "optional",
+        "keywords": [
+          "awareness",
+          "prevention",
+          "STDs"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,577 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3860996139460596,
+                "avg_context_relevance": 0.4238679647959512,
+                "avg_outline_relevance": 0.7035314296853954,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.35424124343054636,
+                "avg_context_relevance": 0.34798239011849674,
+                "avg_outline_relevance": 0.8316000955445426,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 63.63636363636363,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "We're going to Southeast Texas now, where floodwaters caused by Tropical Depression Imelda are slowly beginning to recede in Houston and surrounding areas. This storm dropped massive amounts of rain, drawing comparisons to the devastation wrecked in the same area by Hurricane Harvey two years ago. The National Weather Service says some parts of Southeast Texas saw as much as 43 inches of rain. Mike Morris is a City Hall reporter for the Houston Chronicle. He's been covering the recent storm and also how the city has struggled to implement some of the lessons learned in the wake of Hurricane Harvey in 2017. Mike Morris, thanks so much for joining us.",
+            "previous_answer": "Yeah, thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you describe which specific communities in Southeast Texas were hit hardest by Tropical Depression Imelda?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.041327569633722305,
+                        "outline_relevance": 0.9321353435516357,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you describe which specific communities in Southeast Texas were hit hardest by Tropical Depression Imelda?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.041327569633722305,
+                            "outline_relevance": 0.9321353435516357,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: In what ways has the flooding caused by Imelda differed from what was experienced during Hurricane Harvey?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.04305684566497803,
+                            "outline_relevance": 0.9230319261550903,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think the city’s preparations and responses have evolved since Harvey, especially in terms of infrastructure and community readiness?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.06678122282028198,
+                            "outline_relevance": 0.6525157690048218,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "So, first of all, how is the city doing today? I mean, are there still rescues? How do things look?",
+            "previous_answer": "I don't know that there are a lot of rescues right now, but things are still flooded on the east side because the water flows east and south to the gulf. There are plenty of areas where people can't really get back into their homes because there's still standing water. But most of the city, the water has drained away, and people are recovering their possessions and looking for pets. Wouldn't surprise me if plenty of people are already mucking and gutting their houses. It's not just Harvey and Imelda. We've had pretty severe flooding in at least some areas of the region every year since 2015, so people are getting pretty proficient at cleaning up.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How does the flooding caused by Tropical Depression Imelda compare to previous major flood events in Southeast Texas, such as Hurricane Harvey?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5275095701217651,
+                        "outline_relevance": 0.8657311797142029,
+                        "originality": 0.1731523871421814,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you share more about which neighborhoods are still dealing with significant flooding and challenges today? This will help us understand the spatial impact better.",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5661905407905579,
+                            "outline_relevance": 0.6408436298370361,
+                            "originality": 0.4246833324432373,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How has the experience of dealing with repeated flooding since 2015 shaped the community’s approach to recovery and resilience?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6684949398040771,
+                            "outline_relevance": 0.7668401002883911,
+                            "originality": 0.40230292081832886,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Given that people are already 'mucking and gutting,' how effective do you think current city resources and support systems are in helping residents recover from floods like Imelda?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.610750675201416,
+                            "outline_relevance": 0.6864266395568848,
+                            "originality": 0.3044045567512512,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How does the flooding caused by Tropical Depression Imelda compare to previous major flood events in Southeast Texas, such as Hurricane Harvey?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5275095701217651,
+                            "outline_relevance": 0.8657311797142029,
+                            "originality": 0.1731523871421814,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "I was going to ask you about that. I mean, have there been infrastructure improvements since Harvey? Or, as you're telling us, is - this sort of cycle of flooding and sort of severe flooding has been going on since 2015? Has something changed in that time period, since this is - seems to have become more frequent?",
+            "previous_answer": "No. There have not been significant infrastructure improvements since that storm. County voters passed a $2.5 billion bond a year ago, but these projects take time, and most are still in the design phase. They haven't started construction. And the city of Houston doesn't have a comparable funding source, and so the city and county are both mostly waiting on federal aid for disaster recovery. And that's been extremely slow to arrive.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Are there any political agreements or disagreements among local officials on the best approach to address the recurring flooding problems?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.49776411056518555,
+                        "outline_relevance": 0.8515501022338867,
+                        "originality": 0.3152642846107483,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you describe some of the key infrastructure projects included in the county’s $2.5 billion bond and their expected timelines?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6146502494812012,
+                            "outline_relevance": 0.5280901193618774,
+                            "originality": 0.4920077919960022,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What are the main obstacles delaying the start of construction on these projects?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.36109060049057007,
+                            "outline_relevance": 0.43001455068588257,
+                            "originality": 0.578453928232193,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do local officials and communities perceive the reliance on federal aid for disaster recovery?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5246725082397461,
+                            "outline_relevance": 0.6596291065216064,
+                            "originality": 0.3049512505531311,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Are there any alternative funding sources being considered by the city of Houston to address infrastructure needs?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6299389004707336,
+                            "outline_relevance": 0.6042060852050781,
+                            "originality": 0.45566320419311523,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How has the slow arrival of federal aid impacted the pace of recovery for flood-affected neighborhoods?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5923919081687927,
+                            "outline_relevance": 0.5958950519561768,
+                            "originality": 0.2860349416732788,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Are there any political agreements or disagreements among local officials on the best approach to address the recurring flooding problems?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.49776411056518555,
+                            "outline_relevance": 0.8515501022338867,
+                            "originality": 0.3152642846107483,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Help me understand this a little bit better here. Is there a political consensus in the area about what needs to be done? Does that exist?",
+            "previous_answer": "Probably mostly yes to that. I think people agree that we need to do more projects, dig more detention basins, accelerate widening and deepening of the bayous, the streams and rivers that run through the area. I think most people are generally on the same page about that. It's just a question of money. But you've got to remember that our infrastructure, even at current standards, is only designed to accommodate maybe one or two inches of rain per hour, and the county got four, five, six inches of rain in one hour. And some areas got 30 inches in little more than a day, when our region usually - the city usually gets 50 inches of rain in a year. No infrastructure system is going to be able to handle that kind of storm without flooding.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe how residents of Southeast Texas perceive the relationship between climate change and the increasing frequency or severity of these flooding events?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.37644195556640625,
+                        "outline_relevance": 0.8655157089233398,
+                        "originality": 0.2955859303474426,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: What are the primary funding challenges that local governments face when trying to implement these flood control projects?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5645967721939087,
+                            "outline_relevance": 0.6797910332679749,
+                            "originality": 0.21583491563796997,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do different communities within the county feel about the urgency and scope of the needed infrastructure improvements?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5484691858291626,
+                            "outline_relevance": 0.5644615888595581,
+                            "originality": 0.32430481910705566,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways do local politicians and community leaders collaborate to overcome financial and technical obstacles for flood mitigation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.508797287940979,
+                            "outline_relevance": 0.6783452033996582,
+                            "originality": 0.1970386505126953,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you describe how residents of Southeast Texas perceive the relationship between climate change and the increasing frequency or severity of these flooding events?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.37644195556640625,
+                            "outline_relevance": 0.8655157089233398,
+                            "originality": 0.2955859303474426,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Maybe people aren't ready for this conversation yet. Are people marrying the bigger conversation about climate change with the local conversation about infrastructure? Are people ready to talk about that?",
+            "previous_answer": "I think the answer is broadly yes. I think government officials are talking about it. I think there is the kids' climate strike that happened all over the world. And I think even people who would reject the role of climate change in strengthening storms can't deny the new data that we have here from the federal government that shows that there is statistical agreement that our understanding of what a severe storm was for this region was incomplete.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Would you say that residents in Southeast Texas feel an urgent need to respond to the increasing risks of flooding and climate change? Why or why not?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.37075498700141907,
+                        "outline_relevance": 0.8278931379318237,
+                        "originality": 0.17391210794448853,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Broad: How have local government conversations influenced actual policy changes or infrastructure projects in response to climate data?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4841533601284027,
+                            "outline_relevance": 0.5948708057403564,
+                            "originality": 0.30504274368286133,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Depth: Can you share examples of how climate activism among youth has impacted community awareness or local government actions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5773418545722961,
+                            "outline_relevance": 0.6164611577987671,
+                            "originality": 0.5019333064556122,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: What challenges do you see in bridging the gap between climate change data and public acceptance in Southeast Texas?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.48274022340774536,
+                            "outline_relevance": 0.7904052138328552,
+                            "originality": 0.2701009511947632,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Would you say that residents in Southeast Texas feel an urgent need to respond to the increasing risks of flooding and climate change? Why or why not?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.37075498700141907,
+                            "outline_relevance": 0.8278931379318237,
+                            "originality": 0.17391210794448853,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "And before I let you go, I want to end up where we started, which is on an individual level. Do you have any sense of whether this storm feels, like, particularly wearing on people? Or do they see it as just, you know, part of life living in the area?",
+            "previous_answer": "There's a broad mix. I mean, there are some people who flooded three years in a row within the last five years who were spared yesterday. And there are people who flooded yesterday who flooded six months ago. I think that's a broad range across the region of people who are fed up. They've had enough. They're angry, and they want out. There are other people who can't possibly imagine leaving the city. There's other people who are stuck. I mean, there in many low-income neighborhoods, you can't possibly tell whether the black mold is from Imelda, Harvey, Ike, Allison. And so, you know, I think that if there's any positive to it, a lot of people sort of turn to the sense of community that is fostered when these things happen as one reason why they want to stick it out.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share some examples of how community support has helped residents recover and cope after repeated flooding events like those caused by Imelda?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5829441547393799,
+                        "outline_relevance": 0.8635635375976562,
+                        "originality": 0.1870746612548828,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do different communities within Houston vary in their emotional responses to repeated flooding?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.635666012763977,
+                            "outline_relevance": 0.8215996026992798,
+                            "originality": 0.28066861629486084,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you describe the kinds of community support that have been most effective in helping residents cope after repeated floods?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5942647457122803,
+                            "outline_relevance": 0.7385751008987427,
+                            "originality": 0.19556140899658203,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do economic challenges influence residents’ decisions to stay or leave after repeated flooding events?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6510729193687439,
+                            "outline_relevance": 0.7694883346557617,
+                            "originality": 0.2745019197463989,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share some examples of how community support has helped residents recover and cope after repeated flooding events like those caused by Imelda?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5829441547393799,
+                            "outline_relevance": 0.8635635375976562,
+                            "originality": 0.1870746612548828,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "That's Mike Morris with the Houston Chronicle. Mike, thanks so much for talking to us.",
+            "previous_answer": "Yeah, sure.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share how residents in different neighborhoods emotionally responded to Tropical Depression Imelda?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.03913438320159912,
+                        "outline_relevance": 0.6148116588592529,
+                        "originality": 0.3346993327140808,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you share how residents in different neighborhoods responded emotionally to Tropical Depression Imelda?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.049298543483018875,
+                            "outline_relevance": 0.6203303337097168,
+                            "originality": 0.3139667510986328,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What were some of the most challenging aspects you encountered while covering the flooding events in Southeast Texas?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.03269292786717415,
+                            "outline_relevance": 0.5885244607925415,
+                            "originality": 0.29614412784576416,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How have the local government's infrastructure projects impacted community resilience since Imelda?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.04918202385306358,
+                            "outline_relevance": 0.6308649778366089,
+                            "originality": 0.2935999631881714,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share how residents in different neighborhoods emotionally responded to Tropical Depression Imelda?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.03913438320159912,
+                            "outline_relevance": 0.6148116588592529,
+                            "originality": 0.3346993327140808,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

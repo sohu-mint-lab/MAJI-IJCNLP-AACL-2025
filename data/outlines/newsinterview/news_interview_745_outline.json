@@ -1,0 +1,81 @@
+[
+  {
+    "id": "S1",
+    "section": "National Security Adviser Dynamics",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What does the current search for a new national security adviser indicate about the position's significance in the Trump administration?",
+        "importance": "critical",
+        "keywords": [
+          "national security adviser",
+          "Trump administration",
+          "position dynamics"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How do Bolton's clashes with the president reflect the overall approach of the White House?",
+        "importance": "high",
+        "keywords": [
+          "clashes",
+          "Bolton",
+          "Trump",
+          "White House approach"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Democratic Debate Insights",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did the latest Democratic debate differ from previous ones in terms of candidate engagement?",
+        "importance": "critical",
+        "keywords": [
+          "Democratic debate",
+          "candidate engagement",
+          "comparison"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What impact did Beto O'Rourke's promise about assault weapon buybacks have on the debate's perception?",
+        "importance": "high",
+        "keywords": [
+          "Beto O'Rourke",
+          "assault weapons",
+          "debate impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impeachment Proceedings Status",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is the current stance of House Democrats on the impeachment inquiry against the president?",
+        "importance": "critical",
+        "keywords": [
+          "impeachment",
+          "House Democrats",
+          "current status"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the upcoming election influence the impeachment process for Democrats?",
+        "importance": "high",
+        "keywords": [
+          "upcoming election",
+          "impeachment process",
+          "Democrats"
+        ]
+      }
+    ]
+  }
+]

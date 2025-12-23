@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Upcoming Lunar Eclipse",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What makes the upcoming lunar eclipse significant for North America?",
+        "importance": "critical",
+        "keywords": [
+          "lunar eclipse",
+          "significance",
+          "North America"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How many people are estimated to view this lunar eclipse?",
+        "importance": "high",
+        "keywords": [
+          "viewership",
+          "population",
+          "eclipse"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Details of the Lunar Eclipse Viewing",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What time is the lunar eclipse expected to start and end?",
+        "importance": "critical",
+        "keywords": [
+          "timing",
+          "eclipse",
+          "Eastern Standard Time"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What safety considerations are involved in watching a lunar eclipse?",
+        "importance": "high",
+        "keywords": [
+          "safety",
+          "naked eye",
+          "viewing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Astronomical Events and Viewing Tips",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What other celestial objects and constellations can be observed during the eclipse?",
+        "importance": "high",
+        "keywords": [
+          "constellations",
+          "Orion",
+          "Jupiter"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How can local planetariums and observatories enhance the viewing experience?",
+        "importance": "optional",
+        "keywords": [
+          "planetariums",
+          "events",
+          "community"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Looking Ahead to Future Astronomical Events",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "When is the next opportunity to see a significant astronomical event after the lunar eclipse?",
+        "importance": "high",
+        "keywords": [
+          "future events",
+          "astronomy",
+          "next opportunities"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What factors affect the visibility of upcoming meteor showers?",
+        "importance": "optional",
+        "keywords": [
+          "visibility",
+          "meteor showers",
+          "full moon"
+        ]
+      }
+    ]
+  }
+]

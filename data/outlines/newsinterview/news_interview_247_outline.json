@@ -1,0 +1,86 @@
+[
+  {
+    "id": "S1",
+    "section": "Context of the Mueller Report Summary",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the key political circumstances surrounding the release of William Barr's summary of the Mueller report?",
+        "importance": "critical",
+        "keywords": [
+          "Mueller report",
+          "William Barr",
+          "political context"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Public Perception and Reactions",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did voters in Iowa react to the findings of the Mueller investigation according to the focus groups?",
+        "importance": "critical",
+        "keywords": [
+          "Iowa voters",
+          "Mueller investigation",
+          "public perception"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What insights did the focus groups provide regarding the support for the investigation among different political affiliations?",
+        "importance": "high",
+        "keywords": [
+          "focus groups",
+          "political affiliations",
+          "support"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Poll Results and Public Opinion",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What did the NPR poll reveal about the shift in public opinion following the Mueller report summary?",
+        "importance": "high",
+        "keywords": [
+          "NPR poll",
+          "public opinion",
+          "Mueller report"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How consistent is the public's demand for the full release of the Mueller report across different political groups?",
+        "importance": "high",
+        "keywords": [
+          "full report",
+          "public demand",
+          "political groups"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Conclusion on Narrative and Investigation",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What conclusions can be drawn about public understanding of the Mueller investigation amidst competing narratives?",
+        "importance": "optional",
+        "keywords": [
+          "public understanding",
+          "narrative",
+          "Mueller investigation"
+        ]
+      }
+    ]
+  }
+]

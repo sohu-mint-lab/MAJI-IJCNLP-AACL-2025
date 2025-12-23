@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "The Need for Enhanced Urban Accessibility",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are some key changes proposed by Claudia Folska to improve urban navigation for people with disabilities?",
+        "importance": "critical",
+        "keywords": [
+          "urban accessibility",
+          "disabilities",
+          "proposals"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Why are audible signals important for emergency telephones and light rail crossings?",
+        "importance": "high",
+        "keywords": [
+          "audible signals",
+          "safety",
+          "transportation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Research Findings on Navigation and Environmental Design",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What similarities were found in the navigation maps created by individuals who are blind?",
+        "importance": "critical",
+        "keywords": [
+          "mapping",
+          "navigation",
+          "blind"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How do the environmental features impact the usability of urban paths for blind individuals?",
+        "importance": "high",
+        "keywords": [
+          "environmental features",
+          "paths",
+          "usability"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Role of Technology in Urban Planning",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What challenges does technology pose for individuals who are blind in navigating urban environments?",
+        "importance": "high",
+        "keywords": [
+          "technology",
+          "blind navigation",
+          "challenges"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "In what ways can modern technology be integrated into urban design to benefit all users?",
+        "importance": "optional",
+        "keywords": [
+          "technology integration",
+          "urban design",
+          "benefits"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Claudia Folska's Future Projects and Initiatives",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What is the concept behind Claudia Folska's cooking show idea, 'Cooking in the Dark'?",
+        "importance": "optional",
+        "keywords": [
+          "cooking show",
+          "community connection",
+          "project"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Claudia Folska plan to combine her interests in cooking and connecting communities?",
+        "importance": "optional",
+        "keywords": [
+          "cooking",
+          "community",
+          "connection"
+        ]
+      }
+    ]
+  }
+]

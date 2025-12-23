@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Irving Picard",
+    "age": 70,
+    "personality": "Empathetic and determined, with a strong sense of moral responsibility towards his clients, while maintaining professionalism.",
+    "employment": "Bankruptcy Trustee and Attorney",
+    "notes": "Has been involved in complex financial recoveries for over a decade, especially in cases involving Ponzi schemes.",
+    "communication_style": "Clear and straightforward, balancing technical explanations with an understanding of human stories behind financial losses."
+  }
+}

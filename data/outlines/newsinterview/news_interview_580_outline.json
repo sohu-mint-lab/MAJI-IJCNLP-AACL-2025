@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Reactions to the G-7 Summit",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are your thoughts on President Trump's disavowal of the G-7 communique?",
+        "importance": "critical",
+        "keywords": [
+          "G-7",
+          "Trump",
+          "communique"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How do you view the implications of Trump's request to re-admit Russia into the G-7?",
+        "importance": "high",
+        "keywords": [
+          "Russia",
+          "G-7",
+          "implications"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Trade Policies and Congressional Oversight",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Do you think Congress should take a more active role in overseeing trade policies?",
+        "importance": "critical",
+        "keywords": [
+          "Congress",
+          "trade policies",
+          "oversight"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are the potential consequences of allowing products from countries with lower labor and environmental standards?",
+        "importance": "high",
+        "keywords": [
+          "labor standards",
+          "environmental standards",
+          "consequences"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "North Korea Negotiations",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is your outlook on the upcoming meeting between President Trump and Kim Jong Un?",
+        "importance": "critical",
+        "keywords": [
+          "Trump",
+          "Kim Jong Un",
+          "meeting"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What challenges do you foresee in achieving denuclearization with North Korea?",
+        "importance": "high",
+        "keywords": [
+          "denuclearization",
+          "challenges",
+          "North Korea"
+        ]
+      }
+    ]
+  }
+]

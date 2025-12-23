@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Aging and Longevity",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What factors do we commonly associate with longevity, and how do they relate to genetics?",
+        "importance": "critical",
+        "keywords": [
+          "aging",
+          "longevity",
+          "genetics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Findings from the Centenarian Study",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What were the main genetic factors identified in centenarians that contribute to exceptional longevity?",
+        "importance": "critical",
+        "keywords": [
+          "centenarians",
+          "genetic factors",
+          "longevity"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How do the genetic predispositions of centenarians compare to the general population?",
+        "importance": "high",
+        "keywords": [
+          "genetic predisposition",
+          "general population",
+          "centenarians"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Health and Lifestyle Implications",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What health habits are suggested to increase the potential for achieving longevity?",
+        "importance": "high",
+        "keywords": [
+          "health habits",
+          "longevity",
+          "lifestyle"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are some of the findings regarding the health status of centenarians?",
+        "importance": "optional",
+        "keywords": [
+          "health status",
+          "centenarians",
+          "disease"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Research Directions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the next steps in understanding the genetics of aging beyond the current study?",
+        "importance": "high",
+        "keywords": [
+          "future research",
+          "genetics",
+          "aging"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How might research on non-Caucasian populations enhance our understanding of longevity genetics?",
+        "importance": "optional",
+        "keywords": [
+          "non-Caucasian",
+          "populations",
+          "longevity genetics"
+        ]
+      }
+    ]
+  }
+]

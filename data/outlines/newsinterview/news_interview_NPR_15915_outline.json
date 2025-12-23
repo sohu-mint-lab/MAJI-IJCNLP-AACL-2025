@@ -1,0 +1,114 @@
+[
+  {
+    "id": "S1",
+    "section": "Personal Accounts of Hurricane Harvey",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were Stephen Lipp's initial reactions to the flooding from Hurricane Harvey?",
+        "importance": "critical",
+        "keywords": [
+          "Hurricane Harvey",
+          "Stephen Lipp",
+          "flooding",
+          "reaction"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did Stephen and his wife cope during the night as the water rose?",
+        "importance": "high",
+        "keywords": [
+          "coping",
+          "water rise",
+          "night",
+          "safety"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Comparisons with Hurricane Katrina",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did Stephen's experience with Hurricane Katrina influence his response to Harvey?",
+        "importance": "critical",
+        "keywords": [
+          "Hurricane Katrina",
+          "experience",
+          "influence",
+          "response"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What key decisions did Stephen and his family make after Hurricane Katrina?",
+        "importance": "high",
+        "keywords": [
+          "decisions",
+          "recovery",
+          "Hurricane Katrina",
+          "impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Insurance and Future Planning",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Why did Stephen and his wife choose not to get flood insurance in Katy?",
+        "importance": "critical",
+        "keywords": [
+          "flood insurance",
+          "decision",
+          "Katy",
+          "arrogance"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are Stephen's current thoughts on how to move forward after the flood?",
+        "importance": "high",
+        "keywords": [
+          "future plans",
+          "recovery",
+          "flood",
+          "moving forward"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Resilience and Humor in Adversity",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Stephen use humor as a coping mechanism after disasters like Katrina and Harvey?",
+        "importance": "high",
+        "keywords": [
+          "humor",
+          "coping mechanism",
+          "adversity",
+          "resilience"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What message does Stephen convey about surviving and rebuilding after disasters?",
+        "importance": "optional",
+        "keywords": [
+          "survival",
+          "rebuilding",
+          "message",
+          "disasters"
+        ]
+      }
+    ]
+  }
+]

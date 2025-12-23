@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Ocean's Importance",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are some ways in which our society depends on the ocean?",
+        "importance": "critical",
+        "keywords": [
+          "ocean",
+          "importance",
+          "dependencies"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the ocean contribute to our climate stability?",
+        "importance": "high",
+        "keywords": [
+          "climate",
+          "stability",
+          "ocean"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Challenges in the Fishing Industry",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the hidden costs associated with the global fishing industry?",
+        "importance": "critical",
+        "keywords": [
+          "fishing industry",
+          "hidden costs",
+          "issues"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Can you explain the concept of sea slavery as discussed in the interview?",
+        "importance": "high",
+        "keywords": [
+          "sea slavery",
+          "labor",
+          "abuse"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Environmental and Human Rights Issues",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How are human rights abuses linked to the health of the ocean?",
+        "importance": "critical",
+        "keywords": [
+          "human rights",
+          "ocean health",
+          "abuses"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are the major environmental challenges facing the ocean today?",
+        "importance": "high",
+        "keywords": [
+          "environmental challenges",
+          "ocean",
+          "pollution"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Solutions and Personal Impact",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What actions can consumers take to support sustainable practices in the fishing industry?",
+        "importance": "critical",
+        "keywords": [
+          "sustainability",
+          "consumer actions",
+          "fishing"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How has Ian Urbina's work influenced his personal choices regarding food?",
+        "importance": "high",
+        "keywords": [
+          "personal impact",
+          "food choices",
+          "journalism"
+        ]
+      }
+    ]
+  }
+]

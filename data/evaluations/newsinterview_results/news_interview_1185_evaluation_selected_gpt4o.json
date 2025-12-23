@@ -1,0 +1,535 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3888875337747427,
+                "avg_context_relevance": 0.41004539338442,
+                "avg_outline_relevance": 0.6826357635167929,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 60.0,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "President Trump has said that impeachment might help him win reelection. One of his informal advisers Chris Ruddy, CEO of the conservative website Newsmax, disagrees. I spoke to Ruddy this morning, moments after the whistleblower complaint was released. Now I want to talk to you about your communications, if any, with the president in the last 48 hours. What has he been thinking about all of this?",
+            "previous_answer": "Well, I'm not going to reveal all of my communications with the president. I...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "From your perspective, what are the main risks the impeachment inquiry poses to President Trump's reelection campaign?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2741469144821167,
+                        "outline_relevance": 0.8249650001525879,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "From your perspective, what are the main risks the impeachment inquiry poses to President Trump's reelection campaign?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2741469144821167,
+                            "outline_relevance": 0.8249650001525879,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "But can I confirm there were any before I launch into a series of questions? You have spoken to him.",
+            "previous_answer": "Well, yeah. I have spoken to him. I spoke to him yesterday by phone. But I - you know, I'm not here to represent his views on the current matter. And, obviously, I give my own perspective on things.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share any themes or insights from your recent conversations with the president, especially regarding the impeachment inquiry?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5081976056098938,
+                        "outline_relevance": 0.7064570188522339,
+                        "originality": 0.2919715642929077,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share any themes or insights from your recent conversations with the president, especially regarding the impeachment inquiry?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5081976056098938,
+                            "outline_relevance": 0.7064570188522339,
+                            "originality": 0.2919715642929077,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "And Ruddy has a very definite perspective on whether or not he thinks the impeachment inquiry is helpful to President Trump.",
+            "previous_answer": "I don't. I think there are people around the president that believe this is going to be helpful for his reelection or will backfire on the Democrats. I think that's a very risky belief. And I think that the way the public looks at this, even if they side with the president on some of the legal issues and they don't feel - and the poll data shows - that's out there - that it's - nothing that he's done is worthy of impeachment, although we don't fully know the impact of the latest polling.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How does Chris Ruddy's perspective on the impeachment inquiry differ from those of other advisers close to the president?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5467106699943542,
+                        "outline_relevance": 0.9132965803146362,
+                        "originality": 0.28662967681884766,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How does Chris Ruddy's perspective on the impeachment inquiry differ from those of other advisers close to the president?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5467106699943542,
+                            "outline_relevance": 0.9132965803146362,
+                            "originality": 0.28662967681884766,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Right. This is still quite new.",
+            "previous_answer": "Right.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Considering this is a new and evolving situation, how do you balance the need to be cautious with the importance of staying informed and proactive?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.0964348167181015,
+                        "outline_relevance": 0.32329627871513367,
+                        "originality": 0.7008581161499023,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Considering this is a new and evolving situation, how do you balance the need to be cautious with the importance of staying informed and proactive?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.0964348167181015,
+                            "outline_relevance": 0.32329627871513367,
+                            "originality": 0.7008581161499023,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "You said that you differ from the White House advisers or the Republicans who are out there saying this could be good. When you share your point of view with the president, what is his response? I mean, it sounds like you're saying something that maybe the people around him may not.",
+            "previous_answer": "Well, I would say that he is a guy that tends to see silver linings in dark clouds. And, you know, this is a man that, in private business, had 10,000 lawsuits over his career, so I think he has a unique ability to sort of quarantine in his mind the impact some of these things have.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What risks do you think are associated with the current impeachment inquiry for the president?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3094141483306885,
+                        "outline_relevance": 0.8763772249221802,
+                        "originality": 0.07400286197662354,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What risks do you think are associated with the current impeachment inquiry for the president?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3094141483306885,
+                            "outline_relevance": 0.8763772249221802,
+                            "originality": 0.07400286197662354,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "And what's the risk in that?",
+            "previous_answer": "Well, I think the implications, again, is that it's not just about Zelenskiy. It's not about the Ukraine. It's not about Rudy. It's - the can has been opened. Now we have to see if there's good soup inside or worms, right? They're going to be looking for stuff - the House Democrats - that are not going to be very glowing and positive about the president. So if we think these revelations are not good - and now they might get an expedited subpoena power with the impeachment process under way. It's not good.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think the public is likely to react to the ongoing impeachment inquiry, and what implications might that have for political dynamics?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5443221926689148,
+                        "outline_relevance": 0.8207676410675049,
+                        "originality": 0.2636117935180664,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you think the public is likely to react to the ongoing impeachment inquiry, and what implications might that have for political dynamics?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5443221926689148,
+                            "outline_relevance": 0.8207676410675049,
+                            "originality": 0.2636117935180664,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Does the seriousness of this cast a shadow on the White House? Are they concerned about what, for instance, is going to be coming out today?",
+            "previous_answer": "I think it casts a huge shadow over the White House. I think it's very serious. I want Congress to conduct full oversight on it. And I think we need to look at it. I think Congress and I think Republicans and Democrats have a duty, no matter who's in the White House, to ask tough questions, and the president can push back when they think they overreach.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: How do you think the public is reacting to the seriousness of this situation surrounding the White House?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.6196460723876953,
+                        "outline_relevance": 0.6383205652236938,
+                        "originality": 0.29329395294189453,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think the public is reacting to the seriousness of this situation surrounding the White House?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.6196460723876953,
+                            "outline_relevance": 0.6383205652236938,
+                            "originality": 0.29329395294189453,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Finally, with the president calling this a hoax and a scam, do you think that is wise?",
+            "previous_answer": "Well, I - you know, I'm not going to comment on every description the president...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific concerns do you have about the White House's preparedness for handling the impeachment process?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.46707895398139954,
+                        "outline_relevance": 0.8775187730789185,
+                        "originality": 0.16053175926208496,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What specific concerns do you have about the White House's preparedness for handling the impeachment process?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.46707895398139954,
+                            "outline_relevance": 0.8775187730789185,
+                            "originality": 0.16053175926208496,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "No, not at all. But just as a news person, I - you know, I'd love your point of view, I mean, given...",
+            "previous_answer": "Well...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You seemed hesitant before responding. Could you share what was going through your mind at that moment?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.25885331630706787,
+                        "outline_relevance": 0.27850544452667236,
+                        "originality": 0.6127943396568298,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "You seemed hesitant before responding. Could you share what was going through your mind at that moment?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.25885331630706787,
+                            "outline_relevance": 0.27850544452667236,
+                            "originality": 0.6127943396568298,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "...As we talked about, the seriousness of the allegations.",
+            "previous_answer": "We all know his style, right? It's not my style. It's not your style. It's seemingly worked for him. I think that we'd be better off if the level of rhetoric was brought up and more presidential. I also think...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific concerns do you have about the White House's preparedness for handling the impeachment process?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.45358654856681824,
+                        "outline_relevance": 0.8775187730789185,
+                        "originality": -2.384185791015625e-07,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What specific concerns do you have about the White House's preparedness for handling the impeachment process?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.45358654856681824,
+                            "outline_relevance": 0.8775187730789185,
+                            "originality": -2.384185791015625e-07,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "But does it undermine his case - right? - if he's, you know, just kind of saying, this is fake, and then you have...",
+            "previous_answer": "Well...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You began with 'Well...' but didn't elaborate further. Could you share your thoughts on whether calling the allegations fake might affect the president's overall defense strategy or public perception?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.26821762323379517,
+                        "outline_relevance": 0.5954616069793701,
+                        "originality": 0.4238165616989136,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "You began with 'Well...' but didn't elaborate further. Could you share your thoughts on whether calling the allegations fake might affect the president's overall defense strategy or public perception?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.26821762323379517,
+                            "outline_relevance": 0.5954616069793701,
+                            "originality": 0.4238165616989136,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 11,
+            "actual_question": "...National security officers out there speaking about it?",
+            "previous_answer": "I could tell you a couple of dozen major news reports that turned out to be false based on the actual report that Robert Mueller issued. So when the president called those stories fake news at the time, you know, folks like you dismissed it, but it turned out he was right. Now, it does seem like he's dismissing it, and he's being dismissive of it. I'm not sure he completely understands the implications of the impeachment inquiry. I think Nancy Pelosi is the smartest person in Washington right now. And I think she didn't pull the trigger on this without knowing that she had more ammunition in her guns. And so I think this is just the beginning. And I'm not sure this White House is prepared for it. It doesn't have the communications staff or the response that's going to be necessary for an impeachment ordeal. There's six committees opening guns up on the president. And there's been, you know, staff that still needs to be appointed in the White House. It's just not a good situation. And I believe that the focus for the country should be on doing legislation that improves the quality of life and improves our security.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe in more detail what makes Nancy Pelosi particularly effective or strategic in handling the impeachment inquiry?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5155619978904724,
+                        "outline_relevance": 0.8348156809806824,
+                        "originality": 0.3321384787559509,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you describe in more detail what makes Nancy Pelosi particularly effective or strategic in handling the impeachment inquiry?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5155619978904724,
+                            "outline_relevance": 0.8348156809806824,
+                            "originality": 0.3321384787559509,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 12,
+            "actual_question": "Chris Ruddy is the CEO of Newsmax. Thank you so much for speaking with us.",
+            "previous_answer": "I always liked NPR. Bye.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: What draws you to NPR’s content and style compared to other news sources?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.46841925382614136,
+                        "outline_relevance": 0.30696433782577515,
+                        "originality": 0.6158890724182129,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What draws you to NPR’s content and style compared to other news sources?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.46841925382614136,
+                            "outline_relevance": 0.30696433782577515,
+                            "originality": 0.6158890724182129,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

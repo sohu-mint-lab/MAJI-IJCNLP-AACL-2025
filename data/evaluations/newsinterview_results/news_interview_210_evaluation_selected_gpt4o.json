@@ -1,0 +1,319 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4945953232901437,
+                "avg_context_relevance": 0.3976892807653972,
+                "avg_outline_relevance": 0.777396423476083,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 48.0,
+            "covered_questions": 4,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "OK, so what happened at the Kentucky Derby? Maximum Security was the favorite to win. So it was no surprise that the thoroughbred claimed an early lead going into the first turn and held onto it. But then officials announced an objection, and the race results were labeled as unofficial. The objection held, pushing Maximum Security back to 17th place and handing the win to a longshot colt named Country House. That resulted in the second-highest payout in Derby history. Joining us now from member station WFPL in Louisville is reporter Ryan Van Velzer. Good morning.",
+            "previous_answer": "Good morning.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you walk us through your experience covering the Kentucky Derby this year, especially the events leading up to the controversy surrounding Maximum Security?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.09560883045196533,
+                        "outline_relevance": 0.5581244826316833,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you walk us through your experience covering the Kentucky Derby this year, especially the events leading up to the controversy surrounding Maximum Security?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.09560883045196533,
+                            "outline_relevance": 0.5581244826316833,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "All right, so how did it feel in those moments after the race? Take us there.",
+            "previous_answer": "Picture this. There are about 150,000 people at Churchill Downs rooting for this race, plus millions more watching at home. But from the vantage point of the people in the stands, all they see are the pink silks of Maximum Security's jockey pulling out ahead and crossing the finish line on a muddy track. So first, there was cheering. I mean, Maximum Security was the favorite to win, and a lot of people were betting on that horse. Then there was 20 minutes of confusion. You have the objection. You had these unofficial results on the board, saying that Maximum Security won. You have people trying to cash in their tickets at the betting windows. Other people are leaving not knowing who won. And in the press room, we were just sitting there stunned, waiting for the official call.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you walk us through the key events and decisions that ultimately led to Maximum Security's disqualification?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4694572389125824,
+                        "outline_relevance": 0.8579927682876587,
+                        "originality": 0.46862703561782837,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you walk us through the key events and decisions that ultimately led to Maximum Security's disqualification?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4694572389125824,
+                            "outline_relevance": 0.8579927682876587,
+                            "originality": 0.46862703561782837,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Why did racing officials disqualify Maximum Security?",
+            "previous_answer": "Yeah, so in the final bend, Maximum Security drifted wide into another horse's lane. That caused a domino effect, disrupting the progress of three other horses. Country House's jockey, Flavien Prat, was the one who filed the objection after the race. So three stewards, which are basically, like, referees, reviewed the footage and interviewed the affected jockeys. Eventually, steward Barbara Borden gave a brief statement saying that they unanimously decided to disqualify Maximum Security, then walked away without taking any questions.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you tell us who exactly were the officials responsible for reviewing the race and making the decision to disqualify Maximum Security?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5543093681335449,
+                        "outline_relevance": 0.7314897179603577,
+                        "originality": 0.3185838460922241,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you tell us who exactly were the officials responsible for reviewing the race and making the decision to disqualify Maximum Security?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5543093681335449,
+                            "outline_relevance": 0.7314897179603577,
+                            "originality": 0.3185838460922241,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Wow, it sounds like a political conference. All right. Has anything like this ever happened before?",
+            "previous_answer": "So one other horse was stripped of his title after the fact. That was because he essentially failed a drug test back in 1968. But no, this - this was a first. And the outcome of this year's Derby was just so unpredictable. The original horse couldn't even compete. And the second favorite, Maximum Security, lost even though he crossed the finish line first.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you tell us about the odds for Country House before the race and how his performance surprised people?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.40809059143066406,
+                        "outline_relevance": 0.8886966705322266,
+                        "originality": 0.5989785194396973,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you tell us about the odds for Country House before the race and how his performance surprised people?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.40809059143066406,
+                            "outline_relevance": 0.8886966705322266,
+                            "originality": 0.5989785194396973,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "All right, so give us the story with Country House briefly. His trainer is named Bill Mott. Did you hear from him?",
+            "previous_answer": "Yeah, so Country House is a chestnut colt, bred in Kentucky. He was a longshot, with 65 to 1 odds of winning ahead of the race. The payout for his winning ticket was $132.40. That's the second-highest in Derby history. He started out the race slow but picked up momentum throughout. He definitely saw his opportunity going into that last turn. And he took it. In a press conference after the announcement, Mott himself said he was a little bit surprised to see how well the horse was doing. He called the victory bittersweet and said it's not how he wanted to win, but he knows it's a race that will be remembered for years to come.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe in more detail how Bill Mott felt about winning the Derby under such unexpected circumstances, and how this affected his perspective on the race?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6145588159561157,
+                        "outline_relevance": 0.6321895122528076,
+                        "originality": 0.42417293787002563,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you describe in more detail how Bill Mott felt about winning the Derby under such unexpected circumstances, and how this affected his perspective on the race?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6145588159561157,
+                            "outline_relevance": 0.6321895122528076,
+                            "originality": 0.42417293787002563,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "So I can't imagine this is done. Is there any chance for an appeal?",
+            "previous_answer": "There is. It's possible that the trainers or the owners could file an appeal with the Kentucky Horse Racing Commission. And in the meantime, Country House has a chance at the second jewel in the Triple Crown at the Preakness Stakes later this month.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What opportunities lie ahead for Country House after the Derby?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.551732063293457,
+                        "outline_relevance": 1.0000001192092896,
+                        "originality": 0.44187551736831665,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What opportunities lie ahead for Country House after the Derby?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.551732063293457,
+                            "outline_relevance": 1.0000001192092896,
+                            "originality": 0.44187551736831665,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "That's Ryan Van Velzer of member station WFPL in Louisville. Ryan, thank you.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you tell us who the officials were that made the decision to disqualify Maximum Security, and how the decision-making process unfolded?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.09006805717945099,
+                        "outline_relevance": 0.7732816934585571,
+                        "originality": 0.20992940664291382,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you tell us who the officials were that made the decision to disqualify Maximum Security, and how the decision-making process unfolded?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.09006805717945099,
+                            "outline_relevance": 0.7732816934585571,
+                            "originality": 0.20992940664291382,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

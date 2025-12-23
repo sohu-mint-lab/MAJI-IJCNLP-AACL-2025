@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Background of the Incident",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What events led to Andrew Black's tragic decision in December?",
+        "importance": "critical",
+        "keywords": [
+          "Andrew Black",
+          "gun purchase",
+          "suicide"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What legislative action was prompted by Andrew's death?",
+        "importance": "high",
+        "keywords": [
+          "legislation",
+          "cooling-off period",
+          "Vermont"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Reactions to the Veto",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did Alyssa Black respond to Governor Scott's veto of the waiting period bill?",
+        "importance": "critical",
+        "keywords": [
+          "Alyssa Black",
+          "veto",
+          "reaction"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What reasons did Governor Scott give for his veto regarding existing gun restrictions?",
+        "importance": "high",
+        "keywords": [
+          "Governor Scott",
+          "gun restrictions",
+          "veto"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Perspectives on Suicide and Legislative Change",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What does Alyssa Black believe about the nature of suicide and the potential impact of a cooling-off period?",
+        "importance": "critical",
+        "keywords": [
+          "suicide",
+          "impulsivity",
+          "cooling-off period"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What is Alyssa Black's commitment moving forward after the veto?",
+        "importance": "high",
+        "keywords": [
+          "commitment",
+          "legislative action",
+          "advocacy"
+        ]
+      }
+    ]
+  }
+]

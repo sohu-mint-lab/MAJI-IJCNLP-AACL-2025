@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Maria Popova and Brainpickings.org",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you explain what inspired you to start the website Brainpickings?",
+        "importance": "critical",
+        "keywords": [
+          "Brainpickings",
+          "inspiration",
+          "curiosity"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has the audience response shaped Brainpickings over the years?",
+        "importance": "high",
+        "keywords": [
+          "audience",
+          "response",
+          "development"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Curator's Code Concept",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What is the Curator's Code, and what inspired its creation?",
+        "importance": "critical",
+        "keywords": [
+          "Curator's Code",
+          "attribution",
+          "inspiration"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How do you see the difference between attribution of source and attribution of discovery?",
+        "importance": "high",
+        "keywords": [
+          "attribution",
+          "source",
+          "discovery"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges of Digital Attribution",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What pushback have you encountered regarding the Curator's Code?",
+        "importance": "high",
+        "keywords": [
+          "pushback",
+          "Curator's Code",
+          "challenges"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do you feel about the current state of journalism and the issue of plagiarism online?",
+        "importance": "optional",
+        "keywords": [
+          "journalism",
+          "plagiarism",
+          "ethics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Insights and Future Plans",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What drives you to dedicate so much time to curating content for Brainpickings?",
+        "importance": "critical",
+        "keywords": [
+          "dedication",
+          "content curation",
+          "motivation"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Are there any plans for a book or other media outside of the web?",
+        "importance": "high",
+        "keywords": [
+          "book",
+          "media",
+          "plans"
+        ]
+      }
+    ]
+  }
+]

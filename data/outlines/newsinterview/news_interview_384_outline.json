@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Discovery of Manuscripts in Auschwitz Archives",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What prompted you to explore the archives at the Auschwitz-Birkenau state museum?",
+        "importance": "critical",
+        "keywords": [
+          "archives",
+          "Auschwitz",
+          "manuscripts"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What was your initial reaction to the song titles you found?",
+        "importance": "high",
+        "keywords": [
+          "song titles",
+          "reaction",
+          "discovery"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Importance of the Music Manuscript",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Why were you particularly drawn to the piece titled 'The Most Beautiful Time Of Life'?",
+        "importance": "critical",
+        "keywords": [
+          "music manuscript",
+          "most beautiful time",
+          "irony"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How do you feel this music reflects the human spirit despite its origins?",
+        "importance": "high",
+        "keywords": [
+          "human spirit",
+          "music",
+          "reflection"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Identifying the Composers",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How were you able to identify two of the three men who arranged the music?",
+        "importance": "high",
+        "keywords": [
+          "identification",
+          "composers",
+          "manuscript"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What efforts have you made to learn more about the third unnamed composer?",
+        "importance": "optional",
+        "keywords": [
+          "composer",
+          "mystery",
+          "research"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Emotional Impact of Researching Music from Auschwitz",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What emotional challenges did you face while conducting research in Auschwitz archives?",
+        "importance": "critical",
+        "keywords": [
+          "emotional challenges",
+          "research",
+          "Auschwitz"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does it feel to have brought this music to life through performance?",
+        "importance": "high",
+        "keywords": [
+          "music performance",
+          "emotional experience",
+          "life"
+        ]
+      }
+    ]
+  }
+]

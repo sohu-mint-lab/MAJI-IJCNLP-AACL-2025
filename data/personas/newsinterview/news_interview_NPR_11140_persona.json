@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Peter Wayner",
+    "age": 50,
+    "personality": "Inquisitive and knowledgeable, passionate about the nuances of information security while maintaining a light-hearted approach to complex topics.",
+    "employment": "Author and Cryptography Expert",
+    "notes": "Recently released an interactive iPad version of his book 'Disappearing Cryptography.'",
+    "communication_style": "Engaging and approachable, often using analogies and real-world examples to explain intricate concepts."
+  }
+}

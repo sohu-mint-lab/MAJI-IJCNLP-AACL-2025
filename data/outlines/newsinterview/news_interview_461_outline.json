@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Context of Sexual Assault Allegations",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the allegations made by Christine Blasey Ford against Brett Kavanaugh?",
+        "importance": "critical",
+        "keywords": [
+          "Christine Blasey Ford",
+          "Brett Kavanaugh",
+          "allegations"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Jessica Knoll relate her own experiences to the current discussions surrounding these allegations?",
+        "importance": "high",
+        "keywords": [
+          "Jessica Knoll",
+          "experiences",
+          "allegations"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Impact of Rape Culture",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does Jessica Knoll describe the societal response to her sexual assault?",
+        "importance": "critical",
+        "keywords": [
+          "societal response",
+          "sexual assault",
+          "narrative"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What themes of power dynamics and silence are reflected in Knoll's experience?",
+        "importance": "high",
+        "keywords": [
+          "power dynamics",
+          "silence",
+          "shame"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges in Speaking Out",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What factors contribute to sexual assault survivors' reluctance to name their assaulters?",
+        "importance": "high",
+        "keywords": [
+          "reluctance",
+          "name",
+          "assaulters"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "In what ways does Jessica Knoll highlight the need for societal change regarding the treatment of survivors?",
+        "importance": "high",
+        "keywords": [
+          "societal change",
+          "treatment",
+          "survivors"
+        ]
+      }
+    ]
+  }
+]

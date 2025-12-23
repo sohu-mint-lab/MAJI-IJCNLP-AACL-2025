@@ -1,0 +1,497 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.467260683576266,
+                "avg_context_relevance": 0.34489290819813806,
+                "avg_outline_relevance": 0.6587717942893505,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4609939455986023,
+                "avg_context_relevance": 0.3456307277083397,
+                "avg_outline_relevance": 0.8349554985761642,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 54.166666666666664,
+            "covered_questions": 4,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Our Mara Liasson is here to tell us more. Good morning, Mara.",
+            "previous_answer": "Good morning, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Mara, could you provide a brief overview of where the government shutdown currently stands and what are the main obstacles in the ongoing negotiations?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.18479162454605103,
+                        "outline_relevance": 0.4977620542049408,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Mara, could you provide an overview of the current political landscape regarding the government shutdown?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.25276869535446167,
+                            "outline_relevance": 0.3706240952014923,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you walk us through the key negotiation points and their potential consequences if unresolved?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.03613271564245224,
+                            "outline_relevance": 0.6041089296340942,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do the latest political developments impact various stakeholder groups involved in the government shutdown?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.07208779454231262,
+                            "outline_relevance": 0.4490533471107483,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Mara, could you provide a brief overview of where the government shutdown currently stands and what are the main obstacles in the ongoing negotiations?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.18479162454605103,
+                            "outline_relevance": 0.4977620542049408,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "OK. So the shutdown is over for now. There's just about three weeks to come to an agreement. What happens next?",
+            "previous_answer": "What happens next is that House and Senate negotiators from both parties start talking to each other. The president has said that at the end of three weeks, if he doesn't get money for a wall, he will either declare a national emergency - in other words, build the wall himself with unobligated Pentagon funds - or shut down the government again. But no one I've talked to on either side of the aisle thinks that he will actually shut down the government again. Some people do think that declaring an emergency is still his endgame. But many Republicans are against that because they say it'll set a precedent. And a future Democratic president could declare an emergency for gun safety or health care or climate change. And these Republicans say that any kind of an emergency declaration would be tied up in court, and he would end up getting no wall after all.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What is the expected timeline for the negotiations between the House and Senate on wall funding, and how might this influence the chances of reaching an agreement before the president's three-week deadline?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6823699474334717,
+                        "outline_relevance": 0.8520128726959229,
+                        "originality": 0.49283647537231445,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you elaborate on the key negotiation challenges between House and Senate leaders in this context?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5095404386520386,
+                            "outline_relevance": 0.639833927154541,
+                            "originality": 0.33701908588409424,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How might different groups of voters perceive the possibility of an emergency declaration?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.41576245427131653,
+                            "outline_relevance": 0.6559731960296631,
+                            "originality": 0.544398307800293,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Considering both parties' positions, what potential compromises could realistically emerge in these negotiations?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4820244610309601,
+                            "outline_relevance": 0.6520746350288391,
+                            "originality": 0.24846285581588745,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What is the expected timeline for the negotiations between the House and Senate on wall funding, and how might this influence the chances of reaching an agreement before the president's three-week deadline?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6823699474334717,
+                            "outline_relevance": 0.8520128726959229,
+                            "originality": 0.49283647537231445,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "This was such a bruising fight, Mara. Over the last month, as we talked about the possibility of declaring a national emergency, you said it was kind of like a life vest. He could use it to show his base he did everything that he could, and that would satisfy them. Do you think, after all this, it still holds?",
+            "previous_answer": "I think some of the dynamic on that has changed a bit because he took a big hit with his base this week. He went into a macho standoff and lost to Madam Speaker. And some of his base is angry with him because they think he had no strategy. They think he wimped out. And don't forget this was a kind of two-step capitulation. First, he played brinksmanship (ph) on the State of the Union address, then retreated on that. And Nancy Pelosi had a strategy. As she reportedly told a group of columnists this week, she says, you start with a feather. Then you get to the sledgehammer. So her \"Art Of The Deal\" was smarter and more strategic than the president's. His critics say his strategy was more whining than winning.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on why some Republicans are hesitant or opposed to declaring a national emergency in this context?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3466464877128601,
+                        "outline_relevance": 0.9296292066574097,
+                        "originality": 0.2686103582382202,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe how the mood within Trump’s base has evolved since this negotiation setback?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.49052703380584717,
+                            "outline_relevance": 0.7330958843231201,
+                            "originality": 0.4882346987724304,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What lessons could future political leaders learn from Nancy Pelosi’s approach in this standoff?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5664075613021851,
+                            "outline_relevance": 0.7129894495010376,
+                            "originality": 0.465600848197937,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How might this negotiation episode influence the dynamics of the upcoming elections for both parties?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4065243601799011,
+                            "outline_relevance": 0.5417433977127075,
+                            "originality": 0.1560612916946411,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you elaborate on why some Republicans are hesitant or opposed to declaring a national emergency in this context?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3466464877128601,
+                            "outline_relevance": 0.9296292066574097,
+                            "originality": 0.2686103582382202,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "It's interesting to hear you say that because, elsewhere in the show, we spoke with a conservative talk show host who said that his base is, quote, \"very forgiving.\" So what gives?",
+            "previous_answer": "I think that's right. His hardcore base will never desert him. As he said, he could shoot someone on Fifth Avenue and not lose any votes. The big question is, how big is his hardcore base? We know from polling, including NPR's polling, that his approval rating was starting to slip with white, working-class voters who are the core of his base. And we know that in every shutdown - shutdowns end because one side reaches their pain threshold first. In this case, it was the Republicans and Donald Trump. Maybe it was the long lines at the airport, that angry video statement from the FBI director or all those Senate Republicans who were starting to jump ship. But he had a weak hand and played it poorly. And his base is angry at him. What I've heard is not so much because he capitulated, not so much because they won't get the wall - because, after all, immigration restrictionists don't put the wall as their No. 1 priority. But they're angry because he seemed weak and feckless and in over his head. And what we learned this week, also, is Democrats, at least for now, do not have an Herbal Tea Party problem. In other words, Pelosi was able to control her left flank a lot better than John Boehner or Paul Ryan ever did with the Freedom Caucus. So far, the Democrats are hanging together more than the White House thought they would.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are the main reasons some Republicans strongly oppose declaring a national emergency to fund the border wall?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.32131749391555786,
+                        "outline_relevance": 0.8123786449432373,
+                        "originality": 0.22542989253997803,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: How have shifts among white, working-class voters influenced Trump's overall political strategy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.46326687932014465,
+                            "outline_relevance": 0.4950169026851654,
+                            "originality": 0.4129854440689087,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How does the internal dynamic within the Republican party, especially defections, affect its negotiating strength?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.326328843832016,
+                            "outline_relevance": 0.6528217792510986,
+                            "originality": 0.27928459644317627,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: In what ways might Democratic cohesion under Pelosi change the legislative landscape going forward?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2667316198348999,
+                            "outline_relevance": 0.6281718015670776,
+                            "originality": 0.31766557693481445,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What are the main reasons some Republicans strongly oppose declaring a national emergency to fund the border wall?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.32131749391555786,
+                            "outline_relevance": 0.8123786449432373,
+                            "originality": 0.22542989253997803,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "And seeming tough while they do it - I like that, an Herbal Tea Party problem. Well, to add to the pain of the president's week, we would be remiss not to mention his longtime friend Roger Stone was indicted this week.",
+            "previous_answer": "That's right. His longtime friend Roger Stone, who is a self-described dirty trickster. I can't think of another president who's had a fixer and a dirty trickster in their orbit. But Roger Stone was invited - indicted. That increases the number of close associates to the president who have pled guilty or been indicted. Stone says he won't plead. He won't cooperate. He won't turn on the president. Maybe he's banking on a pardon. But what it seems like is that Robert Mueller is doing what most organized crime prosecutions do, working their way up the food chain, starting with small fry like Papadopoulos and then going up the ladder to people who are closer to the president. So it was a bad day for the president. But on the other hand, his capitulation on the shutdown took some of the attention away from the Robert - Roger Stone indictment. It was a bit of a distraction.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you provide a detailed update on how Robert Mueller's investigation is progressing with regard to President Trump's close associates?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.45148760080337524,
+                        "outline_relevance": 0.9371586441993713,
+                        "originality": 0.4873267412185669,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: How might Roger Stone's refusal to cooperate impact the trajectory of Mueller's investigation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.614423930644989,
+                            "outline_relevance": 0.791426956653595,
+                            "originality": 0.5327973961830139,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: Can you elaborate on how legal challenges faced by Trump's associates are influencing public opinion and political dynamics?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.422044575214386,
+                            "outline_relevance": 0.6121854782104492,
+                            "originality": 0.4359387159347534,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: Given the increasing number of indictments around the president, what might be the long-term implications for his political capital?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.497122585773468,
+                            "outline_relevance": 0.5995660424232483,
+                            "originality": 0.38145577907562256,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you provide a detailed update on how Robert Mueller's investigation is progressing with regard to President Trump's close associates?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.45148760080337524,
+                            "outline_relevance": 0.9371586441993713,
+                            "originality": 0.4873267412185669,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "NPR national political reporter Mara Liasson - thank you so much, Mara.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How effective has Nancy Pelosi been in managing the Democratic party compared to previous leaders?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.08717121183872223,
+                        "outline_relevance": 0.9807915687561035,
+                        "originality": 0.2917602062225342,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you share your overall perspective on the current political climate given recent events?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.14531993865966797,
+                            "outline_relevance": 0.484552800655365,
+                            "originality": 0.3887462615966797,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How do you assess the impact of the ongoing legal challenges on the president's ability to govern?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.14846810698509216,
+                            "outline_relevance": 0.5680764317512512,
+                            "originality": 0.2276344895362854,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What might be the consequences if negotiations fail and the government shutdown continues?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.08816343545913696,
+                            "outline_relevance": 0.6094750165939331,
+                            "originality": 0.23200738430023193,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How effective has Nancy Pelosi been in managing the Democratic party compared to previous leaders?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.08717121183872223,
+                            "outline_relevance": 0.9807915687561035,
+                            "originality": 0.2917602062225342,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

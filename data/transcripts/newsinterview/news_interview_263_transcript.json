@@ -1,0 +1,60 @@
+{
+  "transcript": [
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "The cars we buy, the drugs we're prescribed, even the air conditioning at the office - it's all influenced by data, and that data is incomplete thanks to a long legacy of researchers overlooking women. Caroline Criado-Perez lays it out in her new book \"Invisible Women: Data Bias In A World Designed For Men.\" And she joins us now from London. Welcome to WEEKEND EDITION."
+    },
+    {
+      "speaker": "Caroline Criado-Perez",
+      "text": "Hello. Thank you for having me."
+    },
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "So why did you write this book?"
+    },
+    {
+      "speaker": "Caroline Criado-Perez",
+      "text": "So the reason I wrote the book, actually, was I discovered that female heart attack symptoms are different to male heart attack symptoms. And I was just incredibly shocked that I had never known this, that I hadn't been taught this. So women don't tend to experience chest pain, pain down the left arm. So for a lot of women, when they are having a heart attack, they don't even realize they're having a heart attack. But it's not just women - it's also doctors. Doctors are misdiagnosing women. Women are 50 percent more likely to be misdiagnosed when they have a heart attack. And the result is that women are dying. Since 1984, women in the U.S. and the U.K. have been more likely to die following a heart attack than men. We're used to the idea that women aren't represented in our culture and media and politics and films. The idea that this extended to what was sold as objective - the idea of medicine and science, that they were also underrepresenting women - was just mind-blowing to me."
+    },
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "You talk about a world designed by men for men, and you say that that's created a data gap. Can you explain?"
+    },
+    {
+      "speaker": "Caroline Criado-Perez",
+      "text": "It's really my way of explaining how we've got to this position. So you have to sort of think about, well, why is this happening? Why are we not representing women? And it seems to tie in with the way that when we think of a human being, generally, we think of a man. One of the studies that came across in the book got people to draw what they pictured when they were told a list of gender-neutral words, one of which was person. And men drew a man 80 percent of the time when they heard this word. And, you know, women were actually pretty good on person. They were - it was about 50/50 men and women. But for all sorts of words, like participant, user, researcher, all of which are supposedly gender-neutral words, women are much more likely to draw men as well. So it's a really strong cultural bias."
+    },
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "Right. And this has real-world implications. You write in your book - for example, you cite that when a woman is involved in a car crash, she is 47 percent more likely to be seriously injured and 17 percent more likely to die than a man. Explain why."
+    },
+    {
+      "speaker": "Caroline Criado-Perez",
+      "text": "So essentially, it's because we've designed the car around a typical male body. So the most commonly used car crash test dummy is based on the fiftieth percentile male, and that is too tall and too heavy. It doesn't account for things like the differences between male and female pelvises. Women often don't sit in what's called the standard seating position. They have to sit much further forward in order for their legs to be able to reach the pedals. And we haven't developed a seatbelt to account for pregnancy. So there were basically just all these ways that we have designed a car to ignore female bodies. This isn't a conspiracy. This isn't people wanting women to die. No one wants their mum to get into a car and be in much more danger than they are. So the only way I think you can really explain it is this incredibly pervasive cultural bias that we just don't realize that we're forgetting women. We just don't notice it."
+    },
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "One of the things that I found interesting in your book, among many, is that obviously, data in the modern world is so important. We have quantum computers shaping all sorts of things in our life. But if the data is faulty that is being fed into these computers, then it could have an enormous impact on the algorithms that deal with so many things."
+    },
+    {
+      "speaker": "Caroline Criado-Perez",
+      "text": "Yeah. I mean, that is a huge concern. You know, I have no confidence that the tech community really has a handle on how male-biased the data is upon which they are training their supposedly objective algorithms. One example that I cited in the book was this company had this special algorithm that they said found the best coders. And one of the factors they had found that identifies a top coder is someone who hangs out a lot in this specific Japanese manga site. Well, anyone who knows anything about manga and the internet knows that those kinds of spaces are not very welcoming for women. Also, women do 75 percent of the world's unpaid care work. So not only are these manga sites not welcoming for women - also, women just don't really have the time to be spending in them. And so you have this code which presents is this really exciting neutral, data-based way of discovering who is a good coder. But it turns out that the data that they're using are basically geared towards producing male coders. And, you know, that's before we even start thinking about the fact that people are talking about introducing machine learning into the medical world - the idea that we're going to unleash algorithms on the incredibly male-biased medical data that we have is incredibly frightening."
+    },
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "What needs to be done?"
+    },
+    {
+      "speaker": "Caroline Criado-Perez",
+      "text": "Well, it's very simple. We just need to start collecting sex-disaggregated data. I mean, you know, I'm sorry. That's not a very exciting answer. It's not a very involved answer. But it really is that simple. We need to collect data on women, we need to make sure that we separate the male and the female data, and then we need to use it. I mean, that is one of the other things that I found is that sometimes, even when we have the data, we aren't using it. But the first step has to be that we collect it because if you don't have it, you can't even put pressure on anyone to use it."
+    },
+    {
+      "speaker": "Lulu Garcia-Navarro",
+      "text": "That's Caroline Criado-Perez. Her new book is \"Invisible Women: Data Bias In A World Designed For Men.\" Thank you very much."
+    },
+    {
+      "speaker": "Caroline Criado-Perez",
+      "text": "Thank you."
+    }
+  ]
+}

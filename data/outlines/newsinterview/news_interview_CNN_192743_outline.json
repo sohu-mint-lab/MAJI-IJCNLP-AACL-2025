@@ -1,0 +1,70 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Fast Food Consumption",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are some common attitudes towards fast food among consumers?",
+        "importance": "high",
+        "keywords": [
+          "fast food",
+          "attitudes",
+          "consumers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Caloric and Sodium Content of Fast Food",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does the calorie count of popular fast food items influence consumer choices?",
+        "importance": "critical",
+        "keywords": [
+          "calorie count",
+          "consumer choices",
+          "fast food"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What were some surprising sodium levels found in fast food items?",
+        "importance": "high",
+        "keywords": [
+          "sodium levels",
+          "surprising",
+          "fast food"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Perceptions of Healthier Options",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What misconceptions do consumers have about salads as healthier fast food options?",
+        "importance": "high",
+        "keywords": [
+          "healthier options",
+          "salads",
+          "misconceptions"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do consumers react to the idea of calorie counts being displayed on menus?",
+        "importance": "optional",
+        "keywords": [
+          "calorie counts",
+          "menu",
+          "consumer reaction"
+        ]
+      }
+    ]
+  }
+]

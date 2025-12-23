@@ -1,0 +1,486 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4810575959475144,
+                "avg_context_relevance": 0.2963396546471378,
+                "avg_outline_relevance": 0.680864621763644,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.37216775119304657,
+                "avg_context_relevance": 0.2779948487877846,
+                "avg_outline_relevance": 0.8945622940858206,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 66.66666666666666,
+            "weighted_coverage_score": 65.0,
+            "covered_questions": 4,
+            "total_questions": 6
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "According to the Democrats, the president creates a crisis, the president gets everyone talking about that crisis, and then he declares victory over the crisis he created. According to the Democrats, the president creates a crisis, the president gets everyone talking about that crisis, and then he declares victory over the crisis he created. According to the Democrats, the president creates a crisis, the president gets everyone talking about that crisis, and then he declares victory over the crisis he created. According to the Democrats, the president creates a crisis, the president gets everyone talking about that crisis, and then he declares victory over the crisis he created. And so it was again with the tussle with Mexico over tariffs and immigration. And so it was again with the tussle with Mexico over tariffs and immigration. And so it was again with the tussle with Mexico over tariffs and immigration. And so it was again with the tussle with Mexico over tariffs and immigration. In an abrupt turnaround, President Trump did back off a plan to impose punishing tariffs on all Mexican goods, touting an agreement with Mexico to reduce the number of migrants coming over the border. In an abrupt turnaround, President Trump did back off a plan to impose punishing tariffs on all Mexican goods, touting an agreement with Mexico to reduce the number of migrants coming over the border. In an abrupt turnaround, President Trump did back off a plan to impose punishing tariffs on all Mexican goods, touting an agreement with Mexico to reduce the number of migrants coming over the border. In an abrupt turnaround, President Trump did back off a plan to impose punishing tariffs on all Mexican goods, touting an agreement with Mexico to reduce the number of migrants coming over the border. On the Republican side, there is relief, as the tariffs were unpopular. On the Republican side, there is relief, as the tariffs were unpopular. On the Republican side, there is relief, as the tariffs were unpopular. On the Republican side, there is relief, as the tariffs were unpopular. Now the question. Now the question. Now the question. Now the question. Will the measures actually reduce the flow of migrants into the U.S., as the president wants? Will the measures actually reduce the flow of migrants into the U.S., as the president wants? Will the measures actually reduce the flow of migrants into the U.S., as the president wants? Will the measures actually reduce the flow of migrants into the U.S., as the president wants? NPR's national political correspondent Mara Liasson is here to tell us more. NPR's national political correspondent Mara Liasson is here to tell us more. NPR's national political correspondent Mara Liasson is here to tell us more. NPR's national political correspondent Mara Liasson is here to tell us more. Good morning. Good morning. Good morning. Good morning.",
+            "previous_answer": "Hi, Lulu. Hi, Lulu. Hi, Lulu. Hi, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain the key elements of the recent U.S.-Mexico agreement on immigration and tariffs?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.06485044211149216,
+                        "outline_relevance": 0.8053603172302246,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you explain the key points of the recent U.S.-Mexico agreement regarding immigration and tariffs?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.10442996025085449,
+                            "outline_relevance": 0.7810124158859253,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What are the main challenges in ensuring that the tariffs and immigration policies effectively reduce migrant flow?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.008885236456990242,
+                            "outline_relevance": 0.7662835717201233,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do different political factions view the president's approach to handling the crisis over tariffs and immigration?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.044532712548971176,
+                            "outline_relevance": 0.7869094610214233,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you explain the key elements of the recent U.S.-Mexico agreement on immigration and tariffs?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.06485044211149216,
+                            "outline_relevance": 0.8053603172302246,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Hi, Mara. Hi, Mara. Hi, Mara. Hi, Mara. We heard for days that there was no agreement. We heard for days that there was no agreement. We heard for days that there was no agreement. We heard for days that there was no agreement. Then suddenly, a deal was announced. Then suddenly, a deal was announced. Then suddenly, a deal was announced. Then suddenly, a deal was announced. What happened here? What happened here? What happened here? What happened here?",
+            "previous_answer": "What happened was that Trump climbed down. What happened was that Trump climbed down. What happened was that Trump climbed down. What happened was that Trump climbed down. He had created a crisis, as you said. He had created a crisis, as you said. He had created a crisis, as you said. He had created a crisis, as you said. He threatened tariffs, got a lot of pushback from the business community, from Republicans in Congress, from his own advisers in the White House who were worried about damaging the economy. He threatened tariffs, got a lot of pushback from the business community, from Republicans in Congress, from his own advisers in the White House who were worried about damaging the economy. He threatened tariffs, got a lot of pushback from the business community, from Republicans in Congress, from his own advisers in the White House who were worried about damaging the economy. He threatened tariffs, got a lot of pushback from the business community, from Republicans in Congress, from his own advisers in the White House who were worried about damaging the economy. And then he found a way out of the box he put himself in. And then he found a way out of the box he put himself in. And then he found a way out of the box he put himself in. And then he found a way out of the box he put himself in. As you said, we don't know yet if this declaration between Mexico and the U.S. will actually lead to the numbers of migrants coming down. As you said, we don't know yet if this declaration between Mexico and the U.S. will actually lead to the numbers of migrants coming down. As you said, we don't know yet if this declaration between Mexico and the U.S. will actually lead to the numbers of migrants coming down. As you said, we don't know yet if this declaration between Mexico and the U.S. will actually lead to the numbers of migrants coming down. There are no metrics to measure success in this agreement. There are no metrics to measure success in this agreement. There are no metrics to measure success in this agreement. There are no metrics to measure success in this agreement. But we do know that Mexico had made some of the concessions in this agreement already. But we do know that Mexico had made some of the concessions in this agreement already. But we do know that Mexico had made some of the concessions in this agreement already. But we do know that Mexico had made some of the concessions in this agreement already. Back in December, the former DHS Secretary Kirstjen Nielsen had announced that Mexico was going to allow more asylum-seekers to stay in Mexico while they wait for their U.S. court date. Back in December, the former DHS Secretary Kirstjen Nielsen had announced that Mexico was going to allow more asylum-seekers to stay in Mexico while they wait for their U.S. court date. Back in December, the former DHS Secretary Kirstjen Nielsen had announced that Mexico was going to allow more asylum-seekers to stay in Mexico while they wait for their U.S. court date. Back in December, the former DHS Secretary Kirstjen Nielsen had announced that Mexico was going to allow more asylum-seekers to stay in Mexico while they wait for their U.S. court date. That's just reaffirmed in this agreement. That's just reaffirmed in this agreement. That's just reaffirmed in this agreement. That's just reaffirmed in this agreement. Mexico also agreed to send 6,000 National Guard troops to the Guatemalan border. Mexico also agreed to send 6,000 National Guard troops to the Guatemalan border. Mexico also agreed to send 6,000 National Guard troops to the Guatemalan border. Mexico also agreed to send 6,000 National Guard troops to the Guatemalan border. They didn't agree to a U.S. demand to force asylum-seekers to apply for asylum in Mexico instead - for asylum to stay in Mexico instead of the U.S. They didn't agree to a U.S. demand to force asylum-seekers to apply for asylum in Mexico instead - for asylum to stay in Mexico instead of the U.S. They didn't agree to a U.S. demand to force asylum-seekers to apply for asylum in Mexico instead - for asylum to stay in Mexico instead of the U.S. They didn't agree to a U.S. demand to force asylum-seekers to apply for asylum in Mexico instead - for asylum to stay in Mexico instead of the U.S. But one thing that could be significant, the U.S. and Mexico agreed to a goal of, quote, \"building a more prosperous and secure Central America to address the underlying causes of migration.\" But one thing that could be significant, the U.S. and Mexico agreed to a goal of, quote, \"building a more prosperous and secure Central America to address the underlying causes of migration.\" But one thing that could be significant, the U.S. and Mexico agreed to a goal of, quote, \"building a more prosperous and secure Central America to address the underlying causes of migration.\" But one thing that could be significant, the U.S. and Mexico agreed to a goal of, quote, \"building a more prosperous and secure Central America to address the underlying causes of migration.\" That would be significant, but recently the Trump administration actually cut funding to Guatemala, El Salvador and Honduras - the opposite. That would be significant, but recently the Trump administration actually cut funding to Guatemala, El Salvador and Honduras - the opposite. That would be significant, but recently the Trump administration actually cut funding to Guatemala, El Salvador and Honduras - the opposite. That would be significant, but recently the Trump administration actually cut funding to Guatemala, El Salvador and Honduras - the opposite.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific concerns exist regarding the potential effectiveness of the U.S.-Mexico agreement in actually reducing migrant flows?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.056353434920310974,
+                        "outline_relevance": 0.8868283629417419,
+                        "originality": 0.23821955919265747,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you elaborate on how different Republican leaders and business groups reacted to President Trump's tariff threats and his eventual backing down?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.52044677734375,
+                            "outline_relevance": 0.7718552350997925,
+                            "originality": 0.3899078369140625,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What are the metrics or indicators you would look for to assess whether this U.S.-Mexico agreement succeeds in reducing migration flows?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.09784018248319626,
+                            "outline_relevance": 0.7770743370056152,
+                            "originality": 0.2245866060256958,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Given the conflicting actions of cutting funding to Central America while agreeing to support the region’s prosperity, how do these mixed signals impact the effectiveness of U.S. immigration policy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.17630186676979065,
+                            "outline_relevance": 0.6290571689605713,
+                            "originality": 0.3754380941390991,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What specific concerns exist regarding the potential effectiveness of the U.S.-Mexico agreement in actually reducing migrant flows?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.056353434920310974,
+                            "outline_relevance": 0.8868283629417419,
+                            "originality": 0.23821955919265747,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Yeah. Yeah. Yeah. Yeah. And that's something that the president of Mexico has really been pushing. And that's something that the president of Mexico has really been pushing. And that's something that the president of Mexico has really been pushing. And that's something that the president of Mexico has really been pushing. Not just enforcement, but trying to bolster these Central American countries. Not just enforcement, but trying to bolster these Central American countries. Not just enforcement, but trying to bolster these Central American countries. Not just enforcement, but trying to bolster these Central American countries. But, Mara, you know, what is the wider context here? But, Mara, you know, what is the wider context here? But, Mara, you know, what is the wider context here? But, Mara, you know, what is the wider context here? Because the president has started battles with so many of the country's largest trading partners. Because the president has started battles with so many of the country's largest trading partners. Because the president has started battles with so many of the country's largest trading partners. Because the president has started battles with so many of the country's largest trading partners.",
+            "previous_answer": "Well, going forward I think the question is, in other negotiations, such as with China, do other countries, does China, conclude that Donald Trump is worried enough about the softening of the U.S. economy as he enters his reelection campaign that he can be forced to back off of tariff threats with minimal concessions - that he likes to create a crisis, whether it's the government shutdown, or a threat to completely close the border or putting tariffs on, and then he either accepts no results or minimal concessions and declares victory? Well, going forward I think the question is, in other negotiations, such as with China, do other countries, does China, conclude that Donald Trump is worried enough about the softening of the U.S. economy as he enters his reelection campaign that he can be forced to back off of tariff threats with minimal concessions - that he likes to create a crisis, whether it's the government shutdown, or a threat to completely close the border or putting tariffs on, and then he either accepts no results or minimal concessions and declares victory? Well, going forward I think the question is, in other negotiations, such as with China, do other countries, does China, conclude that Donald Trump is worried enough about the softening of the U.S. economy as he enters his reelection campaign that he can be forced to back off of tariff threats with minimal concessions - that he likes to create a crisis, whether it's the government shutdown, or a threat to completely close the border or putting tariffs on, and then he either accepts no results or minimal concessions and declares victory? Well, going forward I think the question is, in other negotiations, such as with China, do other countries, does China, conclude that Donald Trump is worried enough about the softening of the U.S. economy as he enters his reelection campaign that he can be forced to back off of tariff threats with minimal concessions - that he likes to create a crisis, whether it's the government shutdown, or a threat to completely close the border or putting tariffs on, and then he either accepts no results or minimal concessions and declares victory? If that's what other countries conclude, that that's his MO, they might think he can be manipulated. If that's what other countries conclude, that that's his MO, they might think he can be manipulated. If that's what other countries conclude, that that's his MO, they might think he can be manipulated. If that's what other countries conclude, that that's his MO, they might think he can be manipulated.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What was the reaction within the Republican Party when the president decided to step back from his tariff threats?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5297595262527466,
+                        "outline_relevance": 0.9009658098220825,
+                        "originality": 0.21275603771209717,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Broad: How do you think these negotiation tactics impact the overall image of the U.S. in the international community?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.39858752489089966,
+                            "outline_relevance": 0.4978838562965393,
+                            "originality": 0.45309579372406006,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Depth: Can you provide examples from past negotiations where similar tactics led to different outcomes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2997051477432251,
+                            "outline_relevance": 0.48271986842155457,
+                            "originality": 0.4788626432418823,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: How might this pattern of crisis creation and minimal concessions influence future trade agreements beyond China?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5876734256744385,
+                            "outline_relevance": 0.48172396421432495,
+                            "originality": 0.4118765592575073,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What was the reaction within the Republican Party when the president decided to step back from his tariff threats?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5297595262527466,
+                            "outline_relevance": 0.9009658098220825,
+                            "originality": 0.21275603771209717,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "All right. All right. All right. All right. Speaking of reelection, let's look at the Democrats and their intramural party disputes. Speaking of reelection, let's look at the Democrats and their intramural party disputes. Speaking of reelection, let's look at the Democrats and their intramural party disputes. Speaking of reelection, let's look at the Democrats and their intramural party disputes. Former VP Joe Biden is coming to grips with the party as he works for the Democratic nomination. Former VP Joe Biden is coming to grips with the party as he works for the Democratic nomination. Former VP Joe Biden is coming to grips with the party as he works for the Democratic nomination. Former VP Joe Biden is coming to grips with the party as he works for the Democratic nomination. He made an about-face on the Hyde Amendment. He made an about-face on the Hyde Amendment. He made an about-face on the Hyde Amendment. He made an about-face on the Hyde Amendment. Tell us what happened there. Tell us what happened there. Tell us what happened there. Tell us what happened there.",
+            "previous_answer": "He made an awkward about-face after his campaign had said he was for the Hyde Amendment, which prohibits federal funds like Medicare and Medicaid from paying for abortions. He made an awkward about-face after his campaign had said he was for the Hyde Amendment, which prohibits federal funds like Medicare and Medicaid from paying for abortions. He made an awkward about-face after his campaign had said he was for the Hyde Amendment, which prohibits federal funds like Medicare and Medicaid from paying for abortions. He made an awkward about-face after his campaign had said he was for the Hyde Amendment, which prohibits federal funds like Medicare and Medicaid from paying for abortions. Now Biden has moved to get more in line with the modern Democratic Party, which is very pro-choice. Now Biden has moved to get more in line with the modern Democratic Party, which is very pro-choice. Now Biden has moved to get more in line with the modern Democratic Party, which is very pro-choice. Now Biden has moved to get more in line with the modern Democratic Party, which is very pro-choice. And we see that other candidates are attacking him for this. And we see that other candidates are attacking him for this. And we see that other candidates are attacking him for this. And we see that other candidates are attacking him for this. It sounds like we're at the point in the campaign where the other Democratic candidates understand they have to stop Biden. It sounds like we're at the point in the campaign where the other Democratic candidates understand they have to stop Biden. It sounds like we're at the point in the campaign where the other Democratic candidates understand they have to stop Biden. It sounds like we're at the point in the campaign where the other Democratic candidates understand they have to stop Biden. People think if he can make it through Iowa, he will be an unstoppable front-runner. People think if he can make it through Iowa, he will be an unstoppable front-runner. People think if he can make it through Iowa, he will be an unstoppable front-runner. People think if he can make it through Iowa, he will be an unstoppable front-runner. The question is can he get in line with the modern Democratic Party without looking feckless and out of touch? The question is can he get in line with the modern Democratic Party without looking feckless and out of touch? The question is can he get in line with the modern Democratic Party without looking feckless and out of touch? The question is can he get in line with the modern Democratic Party without looking feckless and out of touch? And No. And No. And No. And No. 2, if he ends up being the nominee, can he get there without having to move too far to the left in a way that would hurt him in a general election? 2, if he ends up being the nominee, can he get there without having to move too far to the left in a way that would hurt him in a general election? 2, if he ends up being the nominee, can he get there without having to move too far to the left in a way that would hurt him in a general election? 2, if he ends up being the nominee, can he get there without having to move too far to the left in a way that would hurt him in a general election?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How does the rivalry between Bernie Sanders and Elizabeth Warren influence the dynamics within the Democratic primaries, and what implications might it have for the party's direction?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.35935962200164795,
+                        "outline_relevance": 0.929711103439331,
+                        "originality": 0.5876740515232086,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How do you think Biden's about-face on the Hyde Amendment will influence his support among moderate Democratic voters?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.636139452457428,
+                            "outline_relevance": 0.9053333401679993,
+                            "originality": 0.5538004636764526,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What does Biden's position shift indicate about the current ideological spectrum within the Democratic Party?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.40713298320770264,
+                            "outline_relevance": 0.6904938220977783,
+                            "originality": 0.5541035532951355,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Considering the attacks from other candidates, how significant is intraparty conflict in shaping the Democratic primary outcome?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.27550286054611206,
+                            "outline_relevance": 0.5695186257362366,
+                            "originality": 0.42372000217437744,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How does the rivalry between Bernie Sanders and Elizabeth Warren influence the dynamics within the Democratic primaries, and what implications might it have for the party's direction?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.35935962200164795,
+                            "outline_relevance": 0.929711103439331,
+                            "originality": 0.5876740515232086,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "And just briefly, though, I mean, there is a left wing of the party. And just briefly, though, I mean, there is a left wing of the party. And just briefly, though, I mean, there is a left wing of the party. And just briefly, though, I mean, there is a left wing of the party. And we're seeing two candidates really fighting for who will occupy the progressive spot, right? And we're seeing two candidates really fighting for who will occupy the progressive spot, right? And we're seeing two candidates really fighting for who will occupy the progressive spot, right? And we're seeing two candidates really fighting for who will occupy the progressive spot, right?",
+            "previous_answer": "That is one of the most interesting things to me, the primary within a primary. That is one of the most interesting things to me, the primary within a primary. That is one of the most interesting things to me, the primary within a primary. That is one of the most interesting things to me, the primary within a primary. Bernie Sanders versus Elizabeth Warren. Bernie Sanders versus Elizabeth Warren. Bernie Sanders versus Elizabeth Warren. Bernie Sanders versus Elizabeth Warren. It's kind of the progressive primary, revolutionary Sanders versus reformer Warren. It's kind of the progressive primary, revolutionary Sanders versus reformer Warren. It's kind of the progressive primary, revolutionary Sanders versus reformer Warren. It's kind of the progressive primary, revolutionary Sanders versus reformer Warren. And this rivalry is getting more intense. And this rivalry is getting more intense. And this rivalry is getting more intense. And this rivalry is getting more intense. As a matter of fact, on Wednesday, Bernie Sanders is going to deliver a major address, called, \"How Democratic Socialism Is The Only Way To Defeat Oligarchy And Authoritarianism.\" As a matter of fact, on Wednesday, Bernie Sanders is going to deliver a major address, called, \"How Democratic Socialism Is The Only Way To Defeat Oligarchy And Authoritarianism.\" As a matter of fact, on Wednesday, Bernie Sanders is going to deliver a major address, called, \"How Democratic Socialism Is The Only Way To Defeat Oligarchy And Authoritarianism.\" As a matter of fact, on Wednesday, Bernie Sanders is going to deliver a major address, called, \"How Democratic Socialism Is The Only Way To Defeat Oligarchy And Authoritarianism.\" That's a mouthful. That's a mouthful. That's a mouthful. That's a mouthful. Sounds like an academic lecture. Sounds like an academic lecture. Sounds like an academic lecture. Sounds like an academic lecture. But he clearly is understanding he has to push back against Warren. But he clearly is understanding he has to push back against Warren. But he clearly is understanding he has to push back against Warren. But he clearly is understanding he has to push back against Warren.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: How do you think this intense rivalry between Sanders and Warren shapes voter turnout and engagement in the Democratic primaries?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.5370618104934692,
+                        "outline_relevance": 0.8755748867988586,
+                        "originality": 0.10422557592391968,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think this intense rivalry between Sanders and Warren shapes voter turnout and engagement in the Democratic primaries?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.5370618104934692,
+                            "outline_relevance": 0.8755748867988586,
+                            "originality": 0.10422557592391968,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you elaborate on the key ideological differences between Sanders' democratic socialism and Warren's reform approach?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5476999878883362,
+                            "outline_relevance": 0.7482277154922485,
+                            "originality": 0.2299034595489502,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Given this evolving rivalry, how might it influence the overall strategy of the Democratic Party moving forward?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.282265305519104,
+                            "outline_relevance": 0.5440011024475098,
+                            "originality": 0.21065044403076172,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "NPR national political correspondent Mara Liasson. NPR national political correspondent Mara Liasson. NPR national political correspondent Mara Liasson. NPR national political correspondent Mara Liasson. Thank you. Thank you. Thank you. Thank you.",
+            "previous_answer": "Thank you. Thank you. Thank you. Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did the Republican side react to the president's decision to back off on implementing tariffs during the political crisis?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.12058425694704056,
+                        "outline_relevance": 0.9689332842826843,
+                        "originality": 0.09013128280639648,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you typically approach wrapping up such detailed political discussions in your role?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.13114696741104126,
+                            "outline_relevance": 0.3128741979598999,
+                            "originality": 0.40566861629486084,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share any memorable moments from your career where a simple 'thank you' carried significant meaning?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.442806214094162,
+                            "outline_relevance": 0.1607118546962738,
+                            "originality": 0.717145562171936,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What role does rapport and politeness play in political journalism and interviews?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.18674635887145996,
+                            "outline_relevance": 0.38683199882507324,
+                            "originality": 0.4025585651397705,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How did the Republican side react to the president's decision to back off on implementing tariffs during the political crisis?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.12058425694704056,
+                            "outline_relevance": 0.9689332842826843,
+                            "originality": 0.09013128280639648,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

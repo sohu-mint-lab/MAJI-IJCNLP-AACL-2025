@@ -1,0 +1,70 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Andrew Black's Story",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you tell us about Andrew and the circumstances surrounding his death?",
+        "importance": "critical",
+        "keywords": [
+          "Andrew Black",
+          "circumstances",
+          "death"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Impact of Gun Legislation",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Do you believe a waiting period for gun purchases could have saved Andrew's life?",
+        "importance": "critical",
+        "keywords": [
+          "waiting period",
+          "gun legislation",
+          "savings lives"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What kind of changes in gun laws are you advocating for, and why?",
+        "importance": "high",
+        "keywords": [
+          "gun laws",
+          "advocacy",
+          "waiting period"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Personal Reflection and Advocacy",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How do you want Andrew to be remembered, particularly in light of the tragedy?",
+        "importance": "high",
+        "keywords": [
+          "memory",
+          "remembrance",
+          "suicide"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What do you hope to accomplish by sharing your story?",
+        "importance": "optional",
+        "keywords": [
+          "story sharing",
+          "advocacy",
+          "change"
+        ]
+      }
+    ]
+  }
+]

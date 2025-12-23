@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to South Sudan's Independence",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you explain the circumstances leading to South Sudan becoming the world's newest nation?",
+        "importance": "critical",
+        "keywords": [
+          "South Sudan",
+          "independence",
+          "referendum"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What role has the United States played in this process?",
+        "importance": "high",
+        "keywords": [
+          "United States",
+          "role",
+          "negotiations"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Challenges Facing the New Nation",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the primary challenges South Sudan faces as it establishes its government?",
+        "importance": "critical",
+        "keywords": [
+          "challenges",
+          "government",
+          "constitution"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How do territorial disputes impact the negotiations between North and South Sudan?",
+        "importance": "high",
+        "keywords": [
+          "territorial disputes",
+          "negotiations",
+          "Abyei"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Situation in Darfur",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is the current situation in Darfur compared to previous years?",
+        "importance": "high",
+        "keywords": [
+          "Darfur",
+          "situation",
+          "refugees"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Why is the issue of Darfur still a priority for the U.S. government?",
+        "importance": "high",
+        "keywords": [
+          "Darfur",
+          "U.S. priority",
+          "peace"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Political Landscape and International Relations",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does President Bashir's indictment impact Sudan's negotiations?",
+        "importance": "high",
+        "keywords": [
+          "Bashir",
+          "indictment",
+          "negotiations"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What lessons from past African separations influence the current situation?",
+        "importance": "optional",
+        "keywords": [
+          "Eritrea",
+          "Ethiopia",
+          "African Union"
+        ]
+      }
+    ]
+  }
+]

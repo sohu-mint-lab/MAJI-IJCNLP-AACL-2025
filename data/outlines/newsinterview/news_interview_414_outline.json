@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Background on Saudi Arabia's International Relations",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What recent actions by Saudi Arabia have drawn international censure?",
+        "importance": "critical",
+        "keywords": [
+          "Saudi Arabia",
+          "international censure",
+          "Khashoggi"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has the Saudi-U.S. relationship evolved under the current administration?",
+        "importance": "high",
+        "keywords": [
+          "Saudi-U.S. relationship",
+          "Trump administration",
+          "Iran"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Khashoggi Investigation",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What were the implications of the Turkish leader's op-ed regarding the Khashoggi case?",
+        "importance": "critical",
+        "keywords": [
+          "Khashoggi investigation",
+          "Turkish leader",
+          "Crown Prince"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How has Crown Prince Mohammed bin Salman’s reputation been affected by the Khashoggi incident?",
+        "importance": "high",
+        "keywords": [
+          "Crown Prince",
+          "reputation",
+          "Khashoggi"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The War in Yemen",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What role has Crown Prince Mohammed played in the ongoing war in Yemen?",
+        "importance": "critical",
+        "keywords": [
+          "Yemen war",
+          "Crown Prince",
+          "defense minister"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are the current humanitarian implications of the war in Yemen?",
+        "importance": "high",
+        "keywords": [
+          "Yemen",
+          "humanitarian disaster",
+          "UN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "U.S. Leverage and Foreign Policy Goals",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does the U.S. administration plan to use leverage regarding Saudi involvement in Yemen?",
+        "importance": "critical",
+        "keywords": [
+          "U.S. leverage",
+          "Saudi Arabia",
+          "Yemen"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What are the implications of Saudi Arabia's stance on the Israeli-Palestinian conflict for U.S. policy?",
+        "importance": "high",
+        "keywords": [
+          "Saudi Arabia",
+          "Israeli-Palestinian conflict",
+          "U.S. foreign policy"
+        ]
+      }
+    ]
+  }
+]

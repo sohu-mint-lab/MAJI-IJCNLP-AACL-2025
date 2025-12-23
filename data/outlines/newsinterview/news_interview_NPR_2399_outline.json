@@ -1,0 +1,104 @@
+[
+  {
+    "id": "S1",
+    "section": "Bill Withers' Journey to Music",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What motivated Bill Withers to pursue a career in music?",
+        "importance": "critical",
+        "keywords": [
+          "Bill Withers",
+          "career",
+          "music",
+          "motivation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Signature Songs and Themes",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What personal experiences influenced Bill Withers' songwriting?",
+        "importance": "critical",
+        "keywords": [
+          "songs",
+          "personal experiences",
+          "themes",
+          "writing"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Bill Withers define the themes in songs like 'Lean on Me'?",
+        "importance": "high",
+        "keywords": [
+          "Lean on Me",
+          "themes",
+          "friendship",
+          "definition"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges in the Music Industry",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What setbacks did Bill Withers face with record labels during his career?",
+        "importance": "critical",
+        "keywords": [
+          "challenges",
+          "record labels",
+          "setbacks",
+          "career"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did these experiences shape his view of the music industry?",
+        "importance": "high",
+        "keywords": [
+          "music industry",
+          "view",
+          "experience",
+          "impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Reflections on Life and Choices",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What does Bill Withers consider his best and worst choices in life?",
+        "importance": "critical",
+        "keywords": [
+          "choices",
+          "best",
+          "worst",
+          "reflections",
+          "life"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Bill Withers view the impact of compromising principles?",
+        "importance": "high",
+        "keywords": [
+          "compromise",
+          "principles",
+          "impact",
+          "reflections"
+        ]
+      }
+    ]
+  }
+]

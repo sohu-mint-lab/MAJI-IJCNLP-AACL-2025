@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Michael Jackson's Death and Medical Circumstances",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were some shocking autopsy details revealed about Michael Jackson?",
+        "importance": "critical",
+        "keywords": [
+          "Michael Jackson",
+          "death",
+          "autopsy"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the doctors involved in Michael Jackson's care contribute to his situation?",
+        "importance": "high",
+        "keywords": [
+          "doctors",
+          "care",
+          "negligence"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Legal Implications for Dr. Murray",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What charges has Dr. Murray faced in relation to Michael Jackson's death?",
+        "importance": "critical",
+        "keywords": [
+          "Dr. Murray",
+          "charges",
+          "involuntary manslaughter"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "In what ways did the circumstances surrounding Jackson's death exceed typical malpractice?",
+        "importance": "high",
+        "keywords": [
+          "malpractice",
+          "negligence",
+          "criminal justice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Cultural and Societal Reactions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How have societal perceptions of Michael Jackson changed following the details about his health?",
+        "importance": "high",
+        "keywords": [
+          "societal perceptions",
+          "Michael Jackson",
+          "health"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What does the discussion reveal about societal attitudes toward celebrity health issues?",
+        "importance": "optional",
+        "keywords": [
+          "celebrity",
+          "health issues",
+          "societal attitudes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Comparative Scandals: Tiger Woods and John Edwards",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the parallels drawn between Michael Jackson's situation and that of other public figures like Tiger Woods?",
+        "importance": "high",
+        "keywords": [
+          "Tiger Woods",
+          "scandal",
+          "public figures"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How do these scandals reflect societal values regarding marriage and fidelity?",
+        "importance": "optional",
+        "keywords": [
+          "marriage",
+          "fidelity",
+          "societal values"
+        ]
+      }
+    ]
+  }
+]

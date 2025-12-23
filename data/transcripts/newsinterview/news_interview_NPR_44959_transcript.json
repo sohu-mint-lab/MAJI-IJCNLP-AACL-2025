@@ -1,0 +1,152 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "You're listening to SCIENCE FRIDAY from NPR. I'm Ira Flatow. A bit later in the hour, we'll talk about the offshore wind farms and the future of them. But first, remember in the old days when you had a problem with your car? You could pop the hood, bang on the carburetor, maybe jiggle the starter? I knew people who hit them with golf clubs to get it to start. Well, these days those days are fading into baby boomer memories because these days more and more of our cars, our car functions, are controlled by electronics. Starter buttons are replacing keys. The throttle may be hooked to a chip instead of a cable. Features like stability control, automatic parallel parking mean even more electronics and software under the hood. Many of these innovations have improved safety and fuel economy, but some critics are wondering if these electronics are becoming too complex, or if bugs in the system are leading to safety problems. Earlier this month, Lexus voluntarily recalled 9,000-plus Lexus GX460s after the car testers at Consumer Reports showed that faulty software in the vehicles could lead to rollover accidents. NAS - the National Academy of Sciences - going to be investigating other Toyota vehicles to see whether faulty electronics might be at the root of the unintended acceleration problems. Just how much of our cars are controlled by electronics? I don't know. Should we be worried about that? Somebody who has looked into that is Ingolf Krueger. He's a professor of computer science at the University of California, San Diego and directs the university's Software and Systems Engineering Laboratory there. Thanks for being with us today, Dr. Krueger."
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "Thanks for having me."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "I know you aren't involved in the Toyota investigations, but could electronics be to blame there?"
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "We cannot rule it out. The accidents that we've seen in the context of the Toyota and unintended acceleration problems are very multifaceted. So any car system is both an electronic system and a mechanical system, as you know, and then we have the driver and passengers also involved in the overall system car, if you will. And so any investigation will have to look at the full spectrum of possibilities, ranging from the mechanical to the electric and electronics components and the overall environment with the driver."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Don't they have a black box in them like airplanes have?"
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "You would be surprised to know that actually starting with 2005, roughly, more and more of these black boxes have found their way into the car, and they record short bursts of information before the airbag goes off or before a crash is detected. But the information that is recorded is fairly little. If you think about the whole set of events that can lead up to an electronic glitch - so it's very difficult to have a - even with a black box in a car - to have the full spectrum of information available that you need to reconstruct the accident."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "When you say a whole sequence of events, give us an idea of what you're talking about."
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "In a typical car today, you have on the order of 80 electronic control units in the luxury segment, and if you're in the mid-range segment you have anywhere between 15 to 30 to 55 electronic control units, and they have thousands of software functions which aggregate to offer about 200 to 300 functions that the driver is using."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Wow."
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "Let's look at an example, a central locking system or your stability control. Both of these actually combine electronic features from multiple computers to deliver the functions that the driver and passenger expect, and it is - all of these functions communicate over the networks that are in the car. In the upper segment you have five different types of networks that all transport the information from one electronic box to another electronic box, and so you have to look at the entire spectrum of events that happen in these interactions to see whether there's a condition that leads to an accident, for instance."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so if the black box only records a very small time segment, you may never know, given the complexity of all of this."
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "You may never know, and so if you think about it, once you switch off your vehicle, most of the fleeting information that sits on these electronic networks is lost. There's a little bit of information left in each of the electronic control units, and that's what the investigators surely are looking at to find out what states these electronic control units, the little computers that sit in your car, have recorded. But to reconstruct all of the events that led up to the incident is very different. You have to look ultimately into the code of the software that sits on these computers, and even then you may not be able to reconstruct all the event sequences that lead up to the incident."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So it's up to the car companies themselves because the code they use is priority, it's a priority code that's in there."
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "Yes, but..."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And it's not open to anybody else to look at and say, ah, here's a problem."
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "Yeah, right. And you also have to understand basically the whole business of automotive, because automotive companies rely on a multi-tiered system of suppliers who deliver the individual boxes, including the software and the electronics, to the car manufacturer, who then ultimately becomes a system integrator and takes these boxes and the electronics and integrates them, makes them work together so that the vehicle ultimately can drive. And so many car companies have a limited purview into what the actual software code is. Of course, if they want to, they can look into it, but there is a lot of intellectual property that sits also with the multi-tiered supplier base, and that is understandable because a lot of the innovations come today from software in the vehicle. So there's a lot of intellectual property that sits in the software and has the innovations that we like, such as assisted parking, for instance."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Right, like the parking. I've seen some cars now that will detect when you're getting too close to other cars, right? Sideways, frontways?"
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "Right, right."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And that's their competitive advantage, is keeping that software and hardware secret."
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "Yes, and you see always this, these functions travel from the luxury segment via the mid-range segment to the lower end of the cost segment in the vehicle."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "What about electronic interference from outside? You mentioned the systems in the car. More of these cars are having - we have Wi-Fi in them, and we're going to have satellite systems, things like that. Can they cause electromagnetic interference?"
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "Electromagnetic interference is and has been a problem in cars that both the suppliers and the car manufacturers address already for decades, because simply the coexistence of many electromagnetic devices in the car has required them to build shielding around these electronic control units to prevent this interference from occurring. And I'm not a statistician, but if the cosmic rays or aliens were the cause, I think we would know more about it."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Yeah, we might look at their systems. It's almost impossible, it's getting impossible to buy a car that doesn't have, you know, you can try to get as cheap as you want in some of the cars, but they're getting installed - if you don't like technology, to not have these things in there. But the car companies are saying that these make the cars safer when they're working."
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "Correct. Not only safer, I mean you have to look at saving energy, reducing emissions, and of course improving safety, and all of this is happening to a large degree because of software, because of electronics in the vehicles. So for instance, the stability control systems that are now again in the news, if you will, they are attributed to a reduction of about 26 to 46 percent of single-car accidents, fatal single-car accidents after they were introduced into the car lineups. And so this is a significant contribution to safety. Much of the unintended acceleration, as grave as it is, has not changed that statistic, if you will."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And we have other examples of safety. Remember, there was a case about an air bag going off."
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "Yes, so there - in - this is a case from Europe about 10 years ago. So there was problems in the software of an airbag controller where a baby was actually killed by an airbag that shouldn't have gone off because the parents had the airbag controller for the side or passenger airbag switched off by a dealership. And because of a software glitch, that passenger-side airbag went off; the rear-mounted baby was killed in the process."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So where do you see this - where should it be heading, all these innovations in the safety and..."
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "Where it should be heading is hard to tell. I mean, it will be heading towards even increased electronics in the car, and this is for a very simple reason. We will have to be even more fuel-efficient in the future. We'll have to be more environmentally conscious, and we will see much more interaction between the vehicles themselves to reduce the congestion, but also between the vehicles and the infrastructure to have guided driving, and ultimately we'll see interactions between the car and dealerships so that they can observe problems ahead of time."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You know, all the airplanes - systems controlled by the FAA - and things have to pass muster and things have to be tested. If cars are going to be as complex as airplanes, shouldn't we have testing, you know, government testing bureaus to make sure that the software and hardware is working too?"
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "That's an interesting idea, and it is being pondered. We will have a similar thing ultimately as we see it in airplanes and as we see it on railroad systems. However, you have to also consider the cost margins that are very different in the automotive domain and in the other mentioned domains. Airplanes cost per unit much more than an individual car, and tiny savings in the automotive domain with multiple million cars sold have a huge impact, of course, on jobs lost or not lost or saved, and hires you can make. And therefore the cost margins are very different, and you have to consider this in your analysis of whether we would have to have government regulation there."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Well, of course all that goes out the window when we have a death or an airplane crash."
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "Absolutely."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And then not only the lives that are lost but what happens to the reputation of the company gets factored in."
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "Exactly. And that's what we're seeing with the current events. We have about nine million Toyotas recalled right now, and we see an impact on how the brand is perceived, of course."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Yeah. Dr. Krueger, thank you very much for taking time to be with us today."
+    },
+    {
+      "speaker": "Dr. Ingolf Krueger (Uc San Diego)",
+      "text": "Thank you very much again for having me."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You're welcome. Ingolf Krueger is a professor of computer science at the University of California, San Diego, where he directs the university's Software and Systems Engineering Laboratory."
+    }
+  ]
+}

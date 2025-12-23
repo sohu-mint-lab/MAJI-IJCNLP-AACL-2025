@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Background on Protests in Tunisia",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you elaborate on the events leading to the recent protests in Tunisia?",
+        "importance": "critical",
+        "keywords": [
+          "protests",
+          "Tunisia",
+          "events"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Case Study: Abderrazak Zorgui",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What makes Abderrazak Zorgui's case particularly significant?",
+        "importance": "critical",
+        "keywords": [
+          "Abderrazak Zorgui",
+          "significance",
+          "self-immolation"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How has the public reacted to Zorgui's action?",
+        "importance": "high",
+        "keywords": [
+          "public reaction",
+          "self-immolation",
+          "protests"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Trends in Self-Immolation and Suicide",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What trends have you observed regarding self-immolation in Tunisia?",
+        "importance": "high",
+        "keywords": [
+          "self-immolation",
+          "trends",
+          "Tunisia"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What do these trends suggest about the current social climate in Tunisia?",
+        "importance": "critical",
+        "keywords": [
+          "social climate",
+          "trends",
+          "suicide"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Political Context and Future Prospects",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How do the recent protests reflect on the Tunisian government’s performance?",
+        "importance": "high",
+        "keywords": [
+          "protests",
+          "government performance",
+          "political context"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Is Tunisia still viewed as a success story in the Arab Spring narrative?",
+        "importance": "optional",
+        "keywords": [
+          "success story",
+          "Arab Spring",
+          "Tunisia"
+        ]
+      }
+    ]
+  }
+]

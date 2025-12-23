@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Study Overview and Methodology",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was the main focus of Dr. Wilson's study on coffee and prostate cancer?",
+        "importance": "critical",
+        "keywords": [
+          "study focus",
+          "coffee",
+          "prostate cancer"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How many participants were involved in the study and over what time period was it conducted?",
+        "importance": "high",
+        "keywords": [
+          "participants",
+          "time period",
+          "study"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Key Findings and Implications",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What were the significant findings regarding coffee consumption and prostate cancer risk?",
+        "importance": "critical",
+        "keywords": [
+          "findings",
+          "coffee consumption",
+          "risk"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What potential biological mechanisms were proposed to explain the association between coffee and prostate cancer?",
+        "importance": "high",
+        "keywords": [
+          "biological mechanisms",
+          "association",
+          "coffee"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Future Research Directions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the next steps for Dr. Wilson's research team following the initial findings?",
+        "importance": "high",
+        "keywords": [
+          "future research",
+          "next steps",
+          "findings"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Is there any interest in studying the effects of coffee on women in relation to cancer?",
+        "importance": "optional",
+        "keywords": [
+          "women",
+          "coffee effects",
+          "cancer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Broader Health Considerations of Coffee",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What other health benefits associated with coffee consumption were discussed?",
+        "importance": "high",
+        "keywords": [
+          "health benefits",
+          "coffee",
+          "discussion"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Were there any noted negative effects of drinking coffee in relation to health?",
+        "importance": "optional",
+        "keywords": [
+          "negative effects",
+          "coffee",
+          "health"
+        ]
+      }
+    ]
+  }
+]

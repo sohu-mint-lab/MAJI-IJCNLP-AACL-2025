@@ -1,0 +1,70 @@
+[
+  {
+    "id": "S1",
+    "section": "Background on the Bordelon Family",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you share your experience during Hurricane Katrina?",
+        "importance": "critical",
+        "keywords": [
+          "Hurricane Katrina",
+          "Bordelon family",
+          "experience"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Current Life and Community Events",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How is the community celebrating Mardi Gras this year?",
+        "importance": "high",
+        "keywords": [
+          "Mardi Gras",
+          "celebration",
+          "community"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What changes have you seen in the number of parades over the years?",
+        "importance": "high",
+        "keywords": [
+          "parades",
+          "changes",
+          "community events"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Remembering Family and Traditions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How has the passing of Mr. Bordelon's father impacted the family traditions?",
+        "importance": "critical",
+        "keywords": [
+          "family traditions",
+          "father's passing",
+          "impact"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What was the atmosphere like at your father's funeral?",
+        "importance": "high",
+        "keywords": [
+          "funeral",
+          "celebration",
+          "family"
+        ]
+      }
+    ]
+  }
+]

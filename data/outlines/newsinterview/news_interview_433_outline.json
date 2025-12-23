@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Zombie Course",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What inspired you to create a course focused on zombies?",
+        "importance": "critical",
+        "keywords": [
+          "zombies",
+          "course",
+          "inspiration"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has the class structure changed since it started?",
+        "importance": "high",
+        "keywords": [
+          "class structure",
+          "change",
+          "midnight"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Consciousness and Zombies",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How do you connect the concept of zombies to the study of consciousness?",
+        "importance": "critical",
+        "keywords": [
+          "consciousness",
+          "zombies",
+          "connection"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Can you explain what you mean by the 'reptilian brain' and its relation to zombies?",
+        "importance": "high",
+        "keywords": [
+          "reptilian brain",
+          "zombies",
+          "awareness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Real-World Implications",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What real-world cases illustrate the concept of 'zoning out' in relation to criminal responsibility?",
+        "importance": "critical",
+        "keywords": [
+          "criminal responsibility",
+          "zoning out",
+          "cases"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the Kenneth Parks case relate to the themes discussed in your class?",
+        "importance": "high",
+        "keywords": [
+          "Kenneth Parks",
+          "case",
+          "homicidal somnambulism"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Preparedness for Zombie Apocalypse",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What specific advice do you give people for surviving a hypothetical zombie apocalypse?",
+        "importance": "high",
+        "keywords": [
+          "zombie apocalypse",
+          "survival tips",
+          "advice"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Why do you recommend Walmart as a potential refuge during a zombie apocalypse?",
+        "importance": "optional",
+        "keywords": [
+          "Walmart",
+          "refuge",
+          "zombie apocalypse"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Current Employment Landscape",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How do the latest unemployment figures compare to historical data?",
+        "importance": "critical",
+        "keywords": [
+          "unemployment",
+          "economy",
+          "job loss"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What industries are currently experiencing job growth despite overall losses?",
+        "importance": "high",
+        "keywords": [
+          "job growth",
+          "industries",
+          "employment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Challenges in the Job Market",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the implications of the current labor market for job seekers?",
+        "importance": "critical",
+        "keywords": [
+          "challenges",
+          "job seekers",
+          "labor market"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Should job seekers continue to attend job fairs in the current climate?",
+        "importance": "high",
+        "keywords": [
+          "job fairs",
+          "seekers",
+          "employment opportunities"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Stock Market Analysis",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What factors are contributing to the decline in stock prices?",
+        "importance": "high",
+        "keywords": [
+          "stock market",
+          "decline",
+          "valuation"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What should investors consider before buying penny stocks?",
+        "importance": "optional",
+        "keywords": [
+          "penny stocks",
+          "investment",
+          "valuation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Mortgage Relief and Foreclosure Issues",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What is a mortgage cram-down, and who qualifies for this relief?",
+        "importance": "critical",
+        "keywords": [
+          "mortgage cram-down",
+          "foreclosure",
+          "relief"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How do equity questions in mortgage relief affect neighborhoods?",
+        "importance": "high",
+        "keywords": [
+          "equity",
+          "mortgage relief",
+          "neighborhood impact"
+        ]
+      }
+    ]
+  }
+]

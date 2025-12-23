@@ -1,0 +1,81 @@
+[
+  {
+    "id": "S1",
+    "section": "Discussion on State Funding for COVID-19 Response",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the key financial needs that states face in response to the Coronavirus?",
+        "importance": "critical",
+        "keywords": [
+          "state funding",
+          "COVID-19",
+          "testing",
+          "tracing"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the lack of federal funding impact states' abilities to manage the pandemic?",
+        "importance": "high",
+        "keywords": [
+          "federal funding",
+          "state management",
+          "pandemic"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Political Dynamics in COVID-19 Funding",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What challenges do governors face in obtaining necessary funding for their states?",
+        "importance": "critical",
+        "keywords": [
+          "governors",
+          "funding challenges",
+          "politics"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Can partisan politics hinder effective government response during a crisis?",
+        "importance": "high",
+        "keywords": [
+          "partisan politics",
+          "government response",
+          "crisis management"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Implications for Leadership and Governance",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How might the current crisis change public perceptions of political leadership?",
+        "importance": "critical",
+        "keywords": [
+          "leadership",
+          "governance",
+          "public perception"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "In what ways does the management of the pandemic influence the upcoming elections?",
+        "importance": "high",
+        "keywords": [
+          "elections",
+          "pandemic management",
+          "political future"
+        ]
+      }
+    ]
+  }
+]

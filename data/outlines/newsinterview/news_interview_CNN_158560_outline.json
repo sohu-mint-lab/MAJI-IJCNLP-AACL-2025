@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Discussion on NFL Teams",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the key moments from the Jets' recent game against the Texans?",
+        "importance": "critical",
+        "keywords": [
+          "Jets",
+          "Texans",
+          "game analysis"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How are the Falcons performing this season compared to the Eagles?",
+        "importance": "high",
+        "keywords": [
+          "Falcons",
+          "Eagles",
+          "season performance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Impact of Michael Vick",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What changes have you observed in Michael Vick's gameplay post-incarceration?",
+        "importance": "critical",
+        "keywords": [
+          "Michael Vick",
+          "gameplay",
+          "comeback"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Could Vick's performance lead to a playoff matchup against the Falcons?",
+        "importance": "high",
+        "keywords": [
+          "playoff matchup",
+          "Vick",
+          "Falcons"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Jimmie Johnson's Dominance in NASCAR",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What does Jimmie Johnson's fifth consecutive win mean for NASCAR?",
+        "importance": "high",
+        "keywords": [
+          "Jimmie Johnson",
+          "NASCAR",
+          "dominance"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the repeated success of a driver like Johnson affect public perception of NASCAR?",
+        "importance": "optional",
+        "keywords": [
+          "public perception",
+          "dominance",
+          "NASCAR"
+        ]
+      }
+    ]
+  }
+]

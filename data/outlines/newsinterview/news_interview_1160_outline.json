@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Manny Ramirez's Impact on The Dodgers",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was the significance of Manny Ramirez's return to The Dodgers?",
+        "importance": "critical",
+        "keywords": [
+          "Manny Ramirez",
+          "The Dodgers",
+          "impact"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did Manny's face-to-face meeting with Dodger owner Frank McCourt affect the team dynamics?",
+        "importance": "high",
+        "keywords": [
+          "meeting",
+          "team dynamics",
+          "Frank McCourt"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Financial Concerns in Major League Baseball",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Where is the funding for exorbitant MLB salaries coming from amidst a down economy?",
+        "importance": "critical",
+        "keywords": [
+          "MLB",
+          "salaries",
+          "down economy"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What potential impacts should fans expect regarding team budgets if attendance decreases?",
+        "importance": "high",
+        "keywords": [
+          "attendance",
+          "team budgets",
+          "financial impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Comparison Between College Basketball and College Football",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Why does Bill Rhoden believe the NCAA basketball tournament format is superior to college football's system?",
+        "importance": "critical",
+        "keywords": [
+          "NCAA",
+          "basketball tournament",
+          "college football"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What factors does Bill consider important for teams entering March Madness?",
+        "importance": "high",
+        "keywords": [
+          "March Madness",
+          "team momentum",
+          "regular season"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "NBA Team Dynamics and Predictions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are Bill Rhoden's thoughts on the current NBA teams and their playoff potential?",
+        "importance": "high",
+        "keywords": [
+          "NBA",
+          "playoff potential",
+          "team dynamics"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Rhoden assess the performance and chances of the Boston Celtics this season?",
+        "importance": "optional",
+        "keywords": [
+          "Boston Celtics",
+          "performance",
+          "NBA season"
+        ]
+      }
+    ]
+  }
+]

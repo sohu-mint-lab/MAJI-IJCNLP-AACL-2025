@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "Background and Personal Struggles",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How did T Kira Madden's upbringing in Boca Raton shape her experiences discussed in the memoir?",
+        "importance": "critical",
+        "keywords": [
+          "Boca Raton",
+          "upbringing",
+          "memoir"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What personal challenges did T Kira face regarding her parents' struggles with addiction?",
+        "importance": "high",
+        "keywords": [
+          "addiction",
+          "challenges",
+          "parents"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Themes of Absence and Acceptance",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What central question did T Kira grapple with regarding her father's absence and their relationship?",
+        "importance": "critical",
+        "keywords": [
+          "father",
+          "absence",
+          "relationship",
+          "questions"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "In what ways does T Kira discuss the complexities of friendship among the 'fatherless girls'?",
+        "importance": "high",
+        "keywords": [
+          "friendship",
+          "fatherless girls",
+          "complexity"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Reflections on Trauma and Healing",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How does T Kira recount her experience of addressing her sexual assault in her writing?",
+        "importance": "critical",
+        "keywords": [
+          "sexual assault",
+          "writing",
+          "experience"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are T Kira's thoughts on the impact of discussing her trauma after reconnecting with her assailant?",
+        "importance": "high",
+        "keywords": [
+          "trauma",
+          "reconnection",
+          "impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Cultural Context and Momentum in Women's Narratives",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What does T Kira believe about the current cultural moment surrounding women's narratives?",
+        "importance": "high",
+        "keywords": [
+          "cultural moment",
+          "women's narratives",
+          "T Kira"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does T Kira feel about the attention being paid to stories like hers in the current literary landscape?",
+        "importance": "optional",
+        "keywords": [
+          "attention",
+          "literary landscape",
+          "stories"
+        ]
+      }
+    ]
+  }
+]

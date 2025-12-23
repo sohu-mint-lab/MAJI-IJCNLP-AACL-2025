@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Dr. Ingolf Krueger",
+    "age": 50,
+    "personality": "Analytical and knowledgeable, balances technical expertise with clear communication about complex topics.",
+    "employment": "Professor of Computer Science",
+    "communication_style": "Direct and informative, employs a logical approach in explaining technical concepts to a general audience.",
+    "notes": "Directs the Software and Systems Engineering Laboratory at UC San Diego, focused on automotive electronics and safety."
+  }
+}

@@ -1,0 +1,247 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4708775460720062,
+                "avg_context_relevance": 0.31813989095389844,
+                "avg_outline_relevance": 0.8345909118652344,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 47.61904761904761,
+            "covered_questions": 3,
+            "total_questions": 6
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "We're going to begin this hour discussing how President Trump is handling a whistleblower complaint from within his administration. It involves allegations - allegations that he tried to encourage or even pressure a foreign government to investigate a political rival in his family. Yesterday, the president dismissed the complaint as a political hack job. But House Intelligence Committee Chair Adam Schiff has reacted strongly, demanding that the acting director of National Intelligence, Joseph McGuire, release the contents of the complaint to Congress. Mr. Schiff has issued a subpoena to obtain the complaint, and Mr. McGuire has not complied. We wanted to understand more about this, why all this matters, so we've called someone who has served in all of these relevant areas. Leon Panetta is a former director of the CIA and a former secretary of defense - that was in the Obama administration - as well as a former chief of staff in the Clinton administration, as well as a former member of Congress and, before that, an Army intelligence officer. Mr. Secretary, Mr. Panetta, thank you so much for coming on once again.",
+            "previous_answer": "Good to be with you, Michel.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "To start our discussion, could you provide an overview of the main allegations outlined in the whistleblower complaint and why they are significant?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.012632632628083229,
+                        "outline_relevance": 0.9121770858764648,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "To start our discussion, could you provide an overview of the main allegations outlined in the whistleblower complaint and why they are significant?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.012632632628083229,
+                            "outline_relevance": 0.9121770858764648,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "So let me just walk through it briefly. This is what we understand - that there was a whistleblower complaint. It went to the intelligence community's inspector general, who took it to the director of National Intelligence, who then took it to the Justice Department but not to Congress. Can I just get your top-line reaction to all of this?",
+            "previous_answer": "Well, it - this behavior is all unheard of, frankly. The whistleblower law was intended to obviously protect those inside the government who saw some kind of abuse or fraud or crime and brought it to the attention of officials in government and the Congress and the public. In the intelligence arena, this law is there to allow the individual to forward that complaint through the IG. And if the IG finds it credible and urgent, which this IG found it to be, he then forwards it to the DNI, who shall then forward the complaint to the House and Senate intelligence committees. That did not happen. And that is totally unprecedented.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How might executive privilege be used to affect or limit the release of the whistleblower complaint?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.663081169128418,
+                        "outline_relevance": 0.8829469680786133,
+                        "originality": 0.37028592824935913,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How might executive privilege be used to affect or limit the release of the whistleblower complaint?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.663081169128418,
+                            "outline_relevance": 0.8829469680786133,
+                            "originality": 0.37028592824935913,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "As you said, the inspector general, Michael Atkinson, determined that the complaint was of, quote-unquote, \"urgent concern.\" The Democrats are saying, as you just said, that the whistleblower law requires that it go to Congress. But the Justice Department - I don't know - seems to be interpreting the law differently. I'm not sure what the legal basis is for their deciding not to turn it over. Perhaps they felt knowing the contents of it that they say it doesn't rise to that level. So what should happen now? Who mediates this?",
+            "previous_answer": "Well, you know, you've raised some very good questions that raise the whole issue of whether or not presidents of the United States can truly be held accountable. I mean, in addition to the whistleblower issue is whether or not there's evidence of a crime here by the president. Did he extort the head of the Ukraine by holding back foreign assistance unless that individual helped him do a political investigation into a possible opponent, Joe Biden? And in addition to that, there are obviously violations of election laws that involve foreign help in the course of an election. The defense to all of this is executive privilege. But even under U.S. v. Nixon, where the president, Nixon, exerted executive privilege to try to prevent access to the tapes, the court said that executive privilege cannot be used to shield the evidence of a crime. The problem here is that the Justice Department also has a memo that says you cannot indict sitting presidents. So the issue then becomes impeachment. Does this create an issue where the president abused the power of the presidency by, instead of serving the interests of the nation, used a national security approach to trying to push for something that was in his political interest, which I think is a violation of his duties as president? But then you have the problem of a Senate that is controlled by the Republicans that doesn't seem inclined to impeach the president. So the biggest issue I think we're all dealing with is if presidents are not above the law, then how do we hold presidents accountable if you can indict a president and you're in a situation where you can't impeach the president?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "From a historical perspective, how have past impeachment processes influenced the way current political dynamics play out when considering holding a president accountable?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5998667478561401,
+                        "outline_relevance": 0.4537586569786072,
+                        "originality": 0.6647870242595673,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "From a historical perspective, how have past impeachment processes influenced the way current political dynamics play out when considering holding a president accountable?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5998667478561401,
+                            "outline_relevance": 0.4537586569786072,
+                            "originality": 0.6647870242595673,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "This points to the question I wanted to speak about next, which is this seems to be being received in the moment, in the current moment, as another, you know, partisan conflict - as a partisan conflict as opposed to a conflict around, you know, substance or of national security. I mean, Republicans to this point haven't really been heard from - except for, say, George Conway, who's the husband of a Trump adviser, Kellyanne Conway. And along with the former acting solicitor general, Neal Katyal, who - they've written an op-ed saying - the headline of which is, Trump has done plenty to warrant impeachment, but the Ukraine allegations are over-the-top. Ukraine is, according to sources, believed to have been the foreign government implicated here. So how do you think we should be thinking about this? I mean, are you personally prepared to say this warrants an impeachment inquiry at this point? And we only have - I beg your pardon - about 30 seconds left.",
+            "previous_answer": "Well, I don't think there's any question that this whole issue needs to be investigated. And frankly, the Republicans ought to be working with the Democrats on this issue. This is a question of checks and balances. Are we going to prevent a president and limit a president from abusing his powers as president? That's something that's not just in the Democrats' interest. It's in the Republicans' interests because one of these days, there'll be a Democratic president, and they will be very concerned if that president behaves as this president is and is not held accountable.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How has the political landscape responded to the whistleblower allegations, and what impact might this have on bipartisan efforts going forward?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.40100282430648804,
+                        "outline_relevance": 0.9544428586959839,
+                        "originality": 0.24388515949249268,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How has the political landscape responded to the whistleblower allegations, and what impact might this have on bipartisan efforts going forward?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.40100282430648804,
+                            "outline_relevance": 0.9544428586959839,
+                            "originality": 0.24388515949249268,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "That was Leon Panetta. He's a former director of central intelligence. He's a former secretary of defense and has held a number of important posts, as we have said. Mr. Secretary, thank you so much for speaking with us once again.",
+            "previous_answer": "Good to be with you, Michel.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe the main allegations that were detailed in the whistleblower complaint?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.060618653893470764,
+                        "outline_relevance": 0.9696289896965027,
+                        "originality": 0.07542961835861206,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you describe the main allegations that were detailed in the whistleblower complaint?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.060618653893470764,
+                            "outline_relevance": 0.9696289896965027,
+                            "originality": 0.07542961835861206,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

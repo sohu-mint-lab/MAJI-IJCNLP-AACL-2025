@@ -1,0 +1,544 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.40010532622153944,
+                "avg_context_relevance": 0.3912350059701846,
+                "avg_outline_relevance": 0.6874216955441695,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.44385622228894916,
+                "avg_context_relevance": 0.41450932728392736,
+                "avg_outline_relevance": 0.7440701041902814,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 25.0,
+            "weighted_coverage_score": 21.428571428571427,
+            "covered_questions": 2,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "The cars we buy, the drugs we're prescribed, even the air conditioning at the office - it's all influenced by data, and that data is incomplete thanks to a long legacy of researchers overlooking women. Caroline Criado-Perez lays it out in her new book \"Invisible Women: Data Bias In A World Designed For Men.\" And she joins us now from London. Welcome to WEEKEND EDITION.",
+            "previous_answer": "Hello. Thank you for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you share what first inspired you to write 'Invisible Women' and how you discovered the underrepresentation of women in data?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.10160577297210693,
+                        "outline_relevance": 0.5959670543670654,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share what first inspired you to write 'Invisible Women' and how you discovered the underrepresentation of women in data?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.10160577297210693,
+                            "outline_relevance": 0.5959670543670654,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What are some concrete examples where data bias has directly affected women’s health and safety?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.11647500097751617,
+                            "outline_relevance": 0.7671266794204712,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think society can start to change its approach to collecting and using gender-disaggregated data?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.10290162265300751,
+                            "outline_relevance": 0.7248853445053101,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "So why did you write this book?",
+            "previous_answer": "So the reason I wrote the book, actually, was I discovered that female heart attack symptoms are different to male heart attack symptoms. And I was just incredibly shocked that I had never known this, that I hadn't been taught this. So women don't tend to experience chest pain, pain down the left arm. So for a lot of women, when they are having a heart attack, they don't even realize they're having a heart attack. But it's not just women - it's also doctors. Doctors are misdiagnosing women. Women are 50 percent more likely to be misdiagnosed when they have a heart attack. And the result is that women are dying. Since 1984, women in the U.S. and the U.K. have been more likely to die following a heart attack than men. We're used to the idea that women aren't represented in our culture and media and politics and films. The idea that this extended to what was sold as objective - the idea of medicine and science, that they were also underrepresenting women - was just mind-blowing to me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on how the underrepresentation of women in medical research affects their overall health outcomes and well-being?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.48215121030807495,
+                        "outline_relevance": 0.941288411617279,
+                        "originality": 0.33968067169189453,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on how the healthcare system's education and training contribute to the persistent misdiagnosis of women?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5443347692489624,
+                            "outline_relevance": 0.63736492395401,
+                            "originality": 0.42111462354660034,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Are there other examples from your research where gender bias in medical data has had fatal consequences?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.541279673576355,
+                            "outline_relevance": 0.7693122029304504,
+                            "originality": 0.15177440643310547,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What steps can medical institutions take to better integrate gender-specific data into diagnosis and treatment?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4435833692550659,
+                            "outline_relevance": 0.7654850482940674,
+                            "originality": 0.2780665159225464,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you elaborate on how the underrepresentation of women in medical research affects their overall health outcomes and well-being?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.48215121030807495,
+                            "outline_relevance": 0.941288411617279,
+                            "originality": 0.33968067169189453,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "You talk about a world designed by men for men, and you say that that's created a data gap. Can you explain?",
+            "previous_answer": "It's really my way of explaining how we've got to this position. So you have to sort of think about, well, why is this happening? Why are we not representing women? And it seems to tie in with the way that when we think of a human being, generally, we think of a man. One of the studies that came across in the book got people to draw what they pictured when they were told a list of gender-neutral words, one of which was person. And men drew a man 80 percent of the time when they heard this word. And, you know, women were actually pretty good on person. They were - it was about 50/50 men and women. But for all sorts of words, like participant, user, researcher, all of which are supposedly gender-neutral words, women are much more likely to draw men as well. So it's a really strong cultural bias.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share an example of how male-centered design has had serious real-world consequences, particularly in areas like car safety?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.42439529299736023,
+                        "outline_relevance": 0.6942026019096375,
+                        "originality": 0.538415253162384,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe more studies or evidence that show how cultural bias shapes perceptions of gender in other everyday contexts?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5437701940536499,
+                            "outline_relevance": 0.5966169834136963,
+                            "originality": 0.31996577978134155,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think this ingrained male-default perception influences the design of public spaces and services?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4825561046600342,
+                            "outline_relevance": 0.45790034532546997,
+                            "originality": 0.5262092649936676,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Given this cultural bias, what practical steps can institutions take to change perceptions and ensure data representation is more balanced?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2732989192008972,
+                            "outline_relevance": 0.5182693004608154,
+                            "originality": 0.3197261691093445,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share an example of how male-centered design has had serious real-world consequences, particularly in areas like car safety?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.42439529299736023,
+                            "outline_relevance": 0.6942026019096375,
+                            "originality": 0.538415253162384,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Right. And this has real-world implications. You write in your book - for example, you cite that when a woman is involved in a car crash, she is 47 percent more likely to be seriously injured and 17 percent more likely to die than a man. Explain why.",
+            "previous_answer": "So essentially, it's because we've designed the car around a typical male body. So the most commonly used car crash test dummy is based on the fiftieth percentile male, and that is too tall and too heavy. It doesn't account for things like the differences between male and female pelvises. Women often don't sit in what's called the standard seating position. They have to sit much further forward in order for their legs to be able to reach the pedals. And we haven't developed a seatbelt to account for pregnancy. So there were basically just all these ways that we have designed a car to ignore female bodies. This isn't a conspiracy. This isn't people wanting women to die. No one wants their mum to get into a car and be in much more danger than they are. So the only way I think you can really explain it is this incredibly pervasive cultural bias that we just don't realize that we're forgetting women. We just don't notice it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think the neglect of sex-specific data in technology, such as algorithms and AI, affects women’s experiences and outcomes?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3237611949443817,
+                        "outline_relevance": 0.8069927096366882,
+                        "originality": 0.2949889898300171,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you elaborate on how the design of car safety features could be adapted to better protect women, including pregnant passengers?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5627866983413696,
+                            "outline_relevance": 0.6544644832611084,
+                            "originality": 0.4785744547843933,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How do cultural biases in design extend beyond cars to other everyday products and services?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2887502908706665,
+                            "outline_relevance": 0.49099528789520264,
+                            "originality": 0.3782116770744324,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: What role do you think manufacturers and regulators should play in addressing these gender biases in design?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3389757573604584,
+                            "outline_relevance": 0.5341036915779114,
+                            "originality": 0.3597167134284973,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do you think the neglect of sex-specific data in technology, such as algorithms and AI, affects women’s experiences and outcomes?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3237611949443817,
+                            "outline_relevance": 0.8069927096366882,
+                            "originality": 0.2949889898300171,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "One of the things that I found interesting in your book, among many, is that obviously, data in the modern world is so important. We have quantum computers shaping all sorts of things in our life. But if the data is faulty that is being fed into these computers, then it could have an enormous impact on the algorithms that deal with so many things.",
+            "previous_answer": "Yeah. I mean, that is a huge concern. You know, I have no confidence that the tech community really has a handle on how male-biased the data is upon which they are training their supposedly objective algorithms. One example that I cited in the book was this company had this special algorithm that they said found the best coders. And one of the factors they had found that identifies a top coder is someone who hangs out a lot in this specific Japanese manga site. Well, anyone who knows anything about manga and the internet knows that those kinds of spaces are not very welcoming for women. Also, women do 75 percent of the world's unpaid care work. So not only are these manga sites not welcoming for women - also, women just don't really have the time to be spending in them. And so you have this code which presents is this really exciting neutral, data-based way of discovering who is a good coder. But it turns out that the data that they're using are basically geared towards producing male coders. And, you know, that's before we even start thinking about the fact that people are talking about introducing machine learning into the medical world - the idea that we're going to unleash algorithms on the incredibly male-biased medical data that we have is incredibly frightening.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You mentioned an example of an algorithm that identified top coders based on their activity on a male-dominated manga site. Could you elaborate more on this example and its broader implications for gender inclusion in tech?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7511763572692871,
+                        "outline_relevance": 0.6380143165588379,
+                        "originality": 0.4078648090362549,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think the technology industry can be encouraged to recognize and address gender biases in their data more effectively?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.518462598323822,
+                            "outline_relevance": 0.6317694187164307,
+                            "originality": 0.2662878632545471,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you provide more examples of how male-biased data in algorithms has affected outcomes in sectors other than coding and medicine?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5591621994972229,
+                            "outline_relevance": 0.784982442855835,
+                            "originality": 0.3214758038520813,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What steps can be taken to ensure that machine learning in healthcare adequately represents female physiological data?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2786827087402344,
+                            "outline_relevance": 0.6645135879516602,
+                            "originality": 0.27907711267471313,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You mentioned an example of an algorithm that identified top coders based on their activity on a male-dominated manga site. Could you elaborate more on this example and its broader implications for gender inclusion in tech?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7511763572692871,
+                            "outline_relevance": 0.6380143165588379,
+                            "originality": 0.4078648090362549,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "What needs to be done?",
+            "previous_answer": "Well, it's very simple. We just need to start collecting sex-disaggregated data. I mean, you know, I'm sorry. That's not a very exciting answer. It's not a very involved answer. But it really is that simple. We need to collect data on women, we need to make sure that we separate the male and the female data, and then we need to use it. I mean, that is one of the other things that I found is that sometimes, even when we have the data, we aren't using it. But the first step has to be that we collect it because if you don't have it, you can't even put pressure on anyone to use it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Why do you believe collecting sex-disaggregated data is so essential for achieving better outcomes specifically for women?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7802414894104004,
+                        "outline_relevance": 0.9498652219772339,
+                        "originality": 0.20016658306121826,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What do you think are the biggest obstacles organizations face in collecting and using sex-disaggregated data consistently?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6596258282661438,
+                            "outline_relevance": 0.7353979349136353,
+                            "originality": 0.2815852761268616,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you share examples where collected sex-disaggregated data led to tangible improvements for women?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7279578447341919,
+                            "outline_relevance": 0.9149205088615417,
+                            "originality": 0.2301194667816162,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How can policymakers and researchers be incentivized not just to collect but also meaningfully utilize sex-disaggregated data?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6239029169082642,
+                            "outline_relevance": 0.7094449996948242,
+                            "originality": 0.18964415788650513,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Why do you believe collecting sex-disaggregated data is so essential for achieving better outcomes specifically for women?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7802414894104004,
+                            "outline_relevance": 0.9498652219772339,
+                            "originality": 0.20016658306121826,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "That's Caroline Criado-Perez. Her new book is \"Invisible Women: Data Bias In A World Designed For Men.\" Thank you very much.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you describe a moment when you realized just how pervasive data bias is in everyday life?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.03823397308588028,
+                        "outline_relevance": 0.5821604132652283,
+                        "originality": 0.32587724924087524,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you approach educating people about the importance of gender representation in data in your activism and writing?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.09579368680715561,
+                            "outline_relevance": 0.5937367677688599,
+                            "originality": 0.33402520418167114,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you describe a moment when you realized just how pervasive data bias is in everyday life?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.03823397308588028,
+                            "outline_relevance": 0.5821604132652283,
+                            "originality": 0.32587724924087524,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What do you see as the next step in addressing gender bias beyond just collecting data?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.006997928023338318,
+                            "outline_relevance": 0.7131834030151367,
+                            "originality": 0.16017043590545654,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

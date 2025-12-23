@@ -1,0 +1,148 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "This is SCIENCE FRIDAY. I am Ira Flatow. This week, we're going to talk about national policy on Web privacy. And President Obama proposed a national policy, and we're going to talk about whether it's going to be working or not and what kinds of things have been left out, how you can protect your privacy. We're also going to be talking about a shrinking transistor, the basic building blocks of computers. There is news that a scientist, a bunch of scientists have created a transistor out of a single, a single atom, one transistor, one atom. You know, if you can shrink those down into one chip, the holy grail of making powerful computers is to get as many transistors as you can on one chip, of course without melting the chip because each of those transistors gives off a lot of heat when you get billions of them stuck together. And also we're going to talk about the moon. Is the moon quite dead, as we thought? But it's - it's not dead yet, because there's actually evidence of activity on the far side of the moon, recent activity, and I guess in geological time scale, 50 million years is recent activity. So first we're going to go - let's go right to that - let's go right to the moon - the transistor piece. And waiting to talk with us about that, the transistor piece is - who do we have on? Michelle Simmons, of course. Michelle Simmons is here. She is lead author on the report of the journal Nature Nanotechnology. She's professor of physics at the University of New South Wales, and she joins us by phone from Sydney, Australia, where it's really early in the morning. And we want to thank you, Dr. Simmons, for getting up early to talk to us. DR. MICHELLE"
+    },
+    {
+      "speaker": "Simmons",
+      "text": "That's a pleasure. Now, you actually have built a transistor out of a single atom."
+    },
+    {
+      "speaker": "Simmons",
+      "text": "That's right. We've actually put down a single atom as the functional element of a transistor. So we've put a phosphorus atom into silicon, and the phosphorus atom has one extra electron compared to silicon, and we actually use that phosphorus atom as essentially the on and off states of the transistor."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so on and off state meaning you can store ones and zeros in the..."
+    },
+    {
+      "speaker": "Simmons",
+      "text": "Yeah, essentially. In conventional computing, you switch it between on and off, and that's the one and zero. But when you get down to a single atom, you start to actually look at the energy levels of that single atom. And you conduct when the energy levels of the single atom are aligned with the source and the drain leads, and you're (unintelligible) when they're not aligned."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So we're not talking about quantum computing here, are we?"
+    },
+    {
+      "speaker": "Simmons",
+      "text": "Well, essentially that's what we're heading for. So in our team here in Australia, we're actually trying to build the kind of functional element, the unit cell of a quantum computer, using that phosphorus atom, yes."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And now that you've gotten one atom, you need to have billions of them, don't you, to really make a functioning computer?"
+    },
+    {
+      "speaker": "Simmons",
+      "text": "No, no. So for classical computing, yes, you absolutely have billions of transistors on a chip. For quantum computing, it's predicted that you only need tens to hundreds of atoms in order to be able to do a quantum computation."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So in your quest to do quantum computation, you don't need as many."
+    },
+    {
+      "speaker": "Simmons",
+      "text": "Hopefully you don't need as many, yeah, sorry."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "I like the way you said hopefully."
+    },
+    {
+      "speaker": "Simmons",
+      "text": "Yeah, so one of the big challenges for quantum computation is to build up the number of the fundamental units. They call them quantum bits or qubits. And basically they - if you want to make a quantum computer, you have to build up these number of qubits to make a functional system. And one of the big questions internationally is how big can you keep quantum coherence across those qubits. And that's the critical thing. And if you have to have billions of them, then it's quite likely it's going to be very difficult to do that. But if you only need, you know, hundreds of them, it's quite likely you should be able to keep the coherence across the whole system."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So then do you have to physically place, sort of by hand, each one of those single atoms to make your computer?"
+    },
+    {
+      "speaker": "Simmons",
+      "text": "So if you want to make - using the route that we're taking now, where we're using the electron, the extra electron on the phosphorus atom as the qubit, then eventually you do need to be able to scale that up, and that means you have to place each individual phosphorus atom with atomic precision within the silicon crystal."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And how difficult - and how difficult is that?"
+    },
+    {
+      "speaker": "Simmons",
+      "text": "Well, I guess the paper that we've just published is really the first time where anyone's been able to put that phosphorus atom in with, you know, one lattice spacing precision and then align the electrodes to the atom to be able to measure its electronic energy levels. And so we've done it for one, and now that we've developed the technology to do it for one, actually the technology we've developed is very easy to go from one to two to three to four to five. So we're very hopeful that it's going to be possible. But like I said, the big question is whether the actual material allows you to keep this quantum coherence over a large distance or not. And that really comes down to nature, whether it will happen or not."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Can you explain that a little bit more to us, what the difficulty there is?"
+    },
+    {
+      "speaker": "Simmons",
+      "text": "So if you imagine in the real world, you're using an electron in a transistor, and you're carrying charge. So you switch, like we said, between on and off states. It's like - you know, you can kind of imagine a tennis ball. You throw it against a wall and it bounces back in the real world, and you understand that. It's quite a robust system. Whereas when you make things very, very small, you enter the quantum world, and instead of looking at it as a kind of physical object, you start to look at it as a wave-like object. And there you can imagine if the tennis ball was very, very small, and you'd throw it against the wall, it would actually come out the other side. So it would tunnel through, in the quantum world when you make things small. And I guess that's the critical thing is in the quantum world, things behave counterintuitively and very differently to the way we expect. And in the quantum world, you really want to be able to control those quantum states, and they're much more fragile and much more able to interact with other things around them."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And how long have you been working on this?"
+    },
+    {
+      "speaker": "Simmons",
+      "text": "So we've - really, it's about - it's a 10-year program so far. So we started about 10 years ago with the idea could we make a single-atom transistor, and then could we actually start to measure instead of the charge of the atom, the electron, we actually measure the electron spin. And so really that's what we've been doing very recently is trying to measure the spin state of the electron. But the question at the beginning was can you actually make it. Can you adapt technology that exists out there to be actual - to be able to put a single atom in with that kind of precision and then measure its energy levels electronically?"
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So can you give me an idea of the steps now that you need to go to, go through, in order to make something practical?"
+    },
+    {
+      "speaker": "Simmons",
+      "text": "Yeah, well, so the technology we've developed is we take a silicon wafer, which you normally get from industry, and we put down a hydrogen layer on the surface that acts as a kind of a mask state. And then we come along with a very fine metal tip in a scanning tunneling microscope, it's a very fine metal tip that we use to pattern the hydrogen layer. And we open up regions on the surface where we dissolve the hydrogen and expose the silicon underneath. And then we bring in precursors, to bring in the phosphorus atoms. We use phosphine gas, and that will only adhere to the holes in the resist layer. And so in such a way we actually pattern the phosphorus into the silicon on that one atomic surface. And then we encapsulate that with silicon. And so basically the phosphorus atoms will stay where we've patterned them on the surface, and then we encapsulate them in a nice, robust, crystalline environment of silicon, and that keeps it protected from the outside world."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "It's like a silicon sandwich you've got there with phosphorus."
+    },
+    {
+      "speaker": "Simmons",
+      "text": "It is. It is, yes. So the phosphorus is really nicely protected inside, and it's surrounded by lots of silicon atoms, and that really - we call it the host material, and that really protects it. And so really when we're going to expand to large numbers of qubits, we literally use the same process. Instead of patterning a hole for one phosphorus atom, we will pattern a hole for many phosphorus atoms at the same time."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And why phosphorus? What's so - what's unique about phosphorus that you've chosen that?"
+    },
+    {
+      "speaker": "Simmons",
+      "text": "Well, the phosphorus is great, but there's a couple of reasons. The first one is literally it has one extra electron compared to silicon. So silicon has four electrons in its outer shell, phosphorus has five. And so when you put phosphorus in silicon, four of those electrons are used to bond to the silicon atoms, and the extra one is free. And that extra one is what we use as the conventional bit, the quantum bit or qubit. So that's one reason. The other reason why we use phosphorus in silicon is that silicon itself is a nice host material. So it has no free spins in it. So all the electrons are used for bonding. And so they basically don't interact with that one extra electron, whereas the phosphorus just literally has one extra electron, which we then control in the quantum bit or qubit."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You know what I'm picturing here, if you're talking about using a few hundred or a few thousand of these electrons, and you're depositing them one at a time, in - I'm sort of - a picture. You could make your logo out of the..."
+    },
+    {
+      "speaker": "Simmons",
+      "text": "Yeah, that's exactly what people have done. So there's a technique of scanning tunneling microscopy is about 30 years old now. It was invented in the U.S. by some researchers at IBM. And they actually pretty quickly realized that they could pick up atoms on a surface and put them down - excuse me - in different locations. And they actually formed the world's smallest logo, IBM, out of individual atoms. But really they were picking up atoms and placing them on a surface, and I guess that's been a great technique, and they've done lots of beautiful studies of that, but really what we're trying to do is to adapt the same kind of technology to a silicon device. And the key difference there is in silicon, all the atoms bond very, very strongly in the surface. So you can't pick them up and place them. And this is why we've had to kind of develop this technique with the hydrogen resist layer, to open up a little hole and then put the phosphorus atoms in."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Now, we know why it's impressive to have small things, like the size of an atom, but does that also help you speed things up at that level that you're working at?"
+    },
+    {
+      "speaker": "Simmons",
+      "text": "Well, say - I mean, conventionally, the silicon industry, the devices get smaller, and because they're smaller, the electrons have less distance to travel, so essentially they get faster, and that's really what's, you know, pushed the existing semiconductor industry. I guess in the world of quantum computing, you are actually using a completely different way of doing the computing. So you're using what's called parallelism, quantum parallelism. So instead of doing calculations in the classical world one after the other, albeit very fast, you actually do these calculations in parallel. And there are certain kinds of calculations where if you can do things in parallel, you can get a predicted exponential speed-up in the computation. And I guess that's one of the reasons why quantum computations is quite an exciting field at the moment. If you can actually realize them, then there are certain tasks that you can do which would be much faster than you can do with classical computers."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And finally, what advantage did you have in beating everybody else to doing this?"
+    },
+    {
+      "speaker": "Simmons",
+      "text": "Look, I think partly because we looked at a very long-term project, so we, with the Australian Research Council here, and we actually get funding from the U.S. Army Research Office, we set up this program 10 years ago with the view that it was going to be at least a 10-year project. So having funding for a long period of time, sustained funding, has been essential. But I guess also, we got into the field when a lot of people were not in the silicon field. So we basically got in right at the beginning and said look, you know, you can watch Moore's Law, which is the law that kind of dictates the silicon industry, and you can see that, you know, within a couple of decades from the time that we started that we're going to hit the level of single atoms. And so we basically said, you know, we're going to literally look at the technology that exists out there and adapt it to make devices in silicon. And I think it was just that we were looking a long term ahead and with the view that we were going to have relatively sustained funding. So we just literally went for it."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Well, good luck to you."
+    },
+    {
+      "speaker": "Simmons",
+      "text": "Thank you very much."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "We'll be in touch. Dr. Michelle Simmons is the lead author in the report in the journal Nature Technology. [POST-BROADCAST CORRECTION: The report is in the journal Nature Nanotechnology.] She's also director of the Australian Centre of Excellence for Quantum Computation and Communication Technology, professor of physics at the University of New South Wales, joining us from Sydney, Australia. We're going to take a break, and when we come back, we're going to talk about digital privacy. President Obama, the White House announced a proposed policy for digital privacy. What do you think? Our number, 1-800-989-8255. You can tweet us, @scifri, @-S-C-I-F-R-I. We'll talk to you right after the break. Stay with us. I'm Ira Flatow. This is SCIENCE FRIDAY from NPR."
+    }
+  ]
+}

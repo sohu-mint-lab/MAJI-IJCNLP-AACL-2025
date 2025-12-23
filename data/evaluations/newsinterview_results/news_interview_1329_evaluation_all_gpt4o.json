@@ -1,0 +1,624 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3415113437560297,
+                "avg_context_relevance": 0.4496662894323949,
+                "avg_outline_relevance": 0.7294670151126,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.343587264418602,
+                "avg_context_relevance": 0.439639026299119,
+                "avg_outline_relevance": 0.8550586551427841,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 58.333333333333336,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "From NPR News, this is News and Notes. I'm Tony Cox. The world's global crisis continues to deepen as high unemployment rates hits Spain, Ireland, France, and the United States. Just last week, European leaders met in Berlin to devise a plan to kick start the economy on the other side of the Atlantic. While here at home, President Barack Obama signed a $787 billion stimulus package. But how did we get here? And which nations are hurting, and which are not? Joining me now to explain more is Nariman Behravesh. He is chief economist and executive vice president of IHS Global Insight, a forecasting company that provides analysis on the world's economic and financial markets. Nariman, welcome.",
+            "previous_answer": "Thank you very much.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you provide an overview of the key factors that led to the global financial crisis?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.1407235860824585,
+                        "outline_relevance": 0.7802137136459351,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you provide an overview of the key factors that led to the global financial crisis?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.1407235860824585,
+                            "outline_relevance": 0.7802137136459351,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How did the rapid credit expansion across different regions intensify the financial meltdown?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.056488774716854095,
+                            "outline_relevance": 0.8253103494644165,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are the main differences in how various countries have been impacted by the recession so far?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.05667630583047867,
+                            "outline_relevance": 0.7064887285232544,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "This financial crisis, that began here in this country, was triggered largely by issues tied to the housing and credit markets, but its impact is certainly not limited to our borders. Briefly tell us about the main factors that have led to this global meltdown.",
+            "previous_answer": "Well, as you say the meltdown is global and the sources were global. Certainly, the U.S. played a big role in it, no debate about that, and the housing bubble and the related subprime crisis that came with it were a big factor. But it wasn't the only factor. In fact, if you look at credit growth everywhere in the world - Europe, Asia, China in particular, even parts of the Middle East - that credit growth and that credit bubble were huge, arguably the biggest in history. But again, the emphasis is on global. Everybody participated in this binge, if you want to call it that, in terms of very rapid growth in credit. And it showed up, again, not just in housing in the U.S., but house prices in the U.K. shot up, Ireland, Spain, you saw stock markets in - in many emerging markets shoot up. And last but not least, we saw commodity prices shoot up. So, these were all bubbles that were inflated by this global sort of credit binge, if you want to put it that way.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You mentioned rapid credit growth in various regions globally. Could you elaborate on how this credit growth specifically fueled the financial crisis in different parts of the world, such as Europe, Asia, and the Middle East?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.732667863368988,
+                        "outline_relevance": 0.8591934442520142,
+                        "originality": 0.199587881565094,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: From your global perspective, how did the financial crisis differently affect various regions like Europe, Asia, and emerging markets?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.567702054977417,
+                            "outline_relevance": 0.6634448766708374,
+                            "originality": 0.17544984817504883,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you explain how the credit booms in regions like China and the Middle East differed in their causes and consequences?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7049926519393921,
+                            "outline_relevance": 0.7883592844009399,
+                            "originality": 0.2235640287399292,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How did these simultaneous credit bubbles in housing, stocks, and commodities interact to intensify the overall crisis?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6345921158790588,
+                            "outline_relevance": 0.7138121128082275,
+                            "originality": 0.29409152269363403,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You mentioned rapid credit growth in various regions globally. Could you elaborate on how this credit growth specifically fueled the financial crisis in different parts of the world, such as Europe, Asia, and the Middle East?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.732667863368988,
+                            "outline_relevance": 0.8591934442520142,
+                            "originality": 0.199587881565094,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Well, it appears that the fall-out from the recession is being felt hardest at the moment in both Europe and parts of Asia, specifically Japan, Taiwan, South Korea - all major trading partners with the U.S. My question is - are these problems fueled by lower exports as opposed to a subprime mortgage crisis?",
+            "previous_answer": "You're absolutely right that some of the problems, especially Asia, it's more a question of the fact that world trade has collapsed. In part, that's been triggered by, you know, deep recessions in the U.S., now deep recessions in Europe. So, you know, a lot of Asian countries that export to Europe and to the U.S. just are seeing their export orders just plummet and it's hurting them. So, they are getting hurt by this. In other parts of the emerging world, in Eastern Europe let's say in particular, there it's much more this credit crunch where these are countries that have borrowed a lot, borrowed a lot in dollars and Euros and Swiss francs, and they're getting clobbered by now high interest rates and this tightening up of credit that's occurring worldwide.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain why Eastern European countries are particularly vulnerable to the credit crunch, especially in comparison to Asian economies facing export challenges?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6210302114486694,
+                        "outline_relevance": 0.9162158966064453,
+                        "originality": 0.27740478515625,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you elaborate on how different regions are managing the fallout from falling exports and credit tightening?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5787231922149658,
+                            "outline_relevance": 0.6738684773445129,
+                            "originality": 0.31296348571777344,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What mechanisms cause the credit crunch to hit Eastern European countries particularly hard compared to Asia?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5451993346214294,
+                            "outline_relevance": 0.9478653073310852,
+                            "originality": 0.21213579177856445,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do the problems caused by collapsing world trade and credit crunch interplay to shape the broader global economic outlook?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6306087970733643,
+                            "outline_relevance": 0.6300516128540039,
+                            "originality": 0.2865886092185974,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you explain why Eastern European countries are particularly vulnerable to the credit crunch, especially in comparison to Asian economies facing export challenges?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6210302114486694,
+                            "outline_relevance": 0.9162158966064453,
+                            "originality": 0.27740478515625,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Now, the economies in Africa, let's say, in the Caribbean are different, are they not, from either the U.S., Europe, or Asia? And I'm thinking, for example, of the $1 million notes being printed up willy-nilly in Zimbabwe. How has the global downturn affected them?",
+            "previous_answer": "Well, just on Zimbabwe for a minute. Zimbabwe has a whole host of problems that are really quite unrelated to the credit crunch and the financial crisis. These are big problems that have been in the making for a long, long time because of an economy that's been run into the ground. But more generally, Africa and Latin America are being hurt, but it doesn't seem quite as bad for example, as those in Eastern Europe, their debt levels are not as high. While they're hurting some because of the big fall in commodity prices - I mean, we've seen for example the first negative growth in South Africa since 1998. But I don't think these are as hard hit because the financial exposure in this part of the world is not as great as let's say it is in the U.S. certainly, in Europe, and parts of emerging Europe.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How has the economic downturn influenced immigration patterns, particularly in regions like Africa, Latin America, and Eastern Europe?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.45044276118278503,
+                        "outline_relevance": 0.8830274343490601,
+                        "originality": 0.42969608306884766,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you give more details on how commodity price declines are impacting various sectors within African and Latin American economies?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5045332908630371,
+                            "outline_relevance": 0.6665694713592529,
+                            "originality": 0.3659205436706543,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What are the primary economic mismanagement factors that led Zimbabwe to its current crisis state, independent of the global financial downturn?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7127866744995117,
+                            "outline_relevance": 0.5722212791442871,
+                            "originality": 0.3460429906845093,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do the different levels of financial exposure in various emerging economies influence their resilience or vulnerability during a global recession?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4707016348838806,
+                            "outline_relevance": 0.600433886051178,
+                            "originality": 0.2829707860946655,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How has the economic downturn influenced immigration patterns, particularly in regions like Africa, Latin America, and Eastern Europe?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.45044276118278503,
+                            "outline_relevance": 0.8830274343490601,
+                            "originality": 0.42969608306884766,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Is that what is allowing some countries to be - I hesitate to use the word financially successful at the moment, but allowing them to compete in a way that they had not been able to before?",
+            "previous_answer": "Well, it's possible, I think. I - you know, I think everybody is getting hurt. The only question is how much. And as we were saying earlier, the - many of the countries in Africa and Latin America seem to be, for the moment at least, being hurt less than countries in other regions like, say, Russia or Ukraine or Hungary. So, it's a matter of relative hurt rather than success.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How has the economic downturn influenced immigration patterns in these emerging economies, particularly in regions less affected like Africa and Latin America?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.34357964992523193,
+                        "outline_relevance": 0.8380135893821716,
+                        "originality": 0.07645165920257568,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: What specific economic factors are causing some African and Latin American countries to be less affected compared to Eastern Europe?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.42563337087631226,
+                            "outline_relevance": 0.7468940019607544,
+                            "originality": 0.23824220895767212,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you explain how the concept of 'relative hurt' shapes international economic recovery strategies?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6334564089775085,
+                            "outline_relevance": 0.5176843404769897,
+                            "originality": 0.3730257749557495,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How might the different levels of impact on various regions influence global economic policy coordination?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2621082663536072,
+                            "outline_relevance": 0.49339932203292847,
+                            "originality": 0.28084689378738403,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How has the economic downturn influenced immigration patterns in these emerging economies, particularly in regions less affected like Africa and Latin America?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.34357964992523193,
+                            "outline_relevance": 0.8380135893821716,
+                            "originality": 0.07645165920257568,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Ah, that's a good way of putting it. Now, when trouble strikes immigrants and their families may choose to head home or they could be forced to return if their visas depend on having a job. What impact has the economic downturn had on immigration?",
+            "previous_answer": "It's been quite large, and immigration is one measure of globalization. Others are of course investment flows and trade, and they've all fallen. But immigrants in particular often get hurt first, if you will, partly because the jobs dry ups so they voluntarily leave as you were saying. But partly because some of them are guest workers that are sent home because the host country, if you will, has no jobs for them and use them in a way, possibly as a threat to local workers. So, they often - immigrants that is to say - often will get hit first before the local workers.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on how different types of immigrants, such as guest workers versus permanent settlers, are affected differently during economic downturns?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6918452978134155,
+                        "outline_relevance": 0.7438950538635254,
+                        "originality": 0.2888002395629883,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you elaborate on how different types of immigrants are affected differently during economic downturns?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6705596446990967,
+                            "outline_relevance": 0.8223016858100891,
+                            "originality": 0.20832538604736328,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How have government policies in host countries evolved in response to these immigration challenges during recessions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5597952604293823,
+                            "outline_relevance": 0.6797518730163574,
+                            "originality": 0.3304864168167114,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What might be the longer-term economic and social impacts of these immigration shifts on both host and home countries?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.631157636642456,
+                            "outline_relevance": 0.7143304347991943,
+                            "originality": 0.2554308772087097,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you elaborate on how different types of immigrants, such as guest workers versus permanent settlers, are affected differently during economic downturns?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6918452978134155,
+                            "outline_relevance": 0.7438950538635254,
+                            "originality": 0.2888002395629883,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "But - the final thing is this, we've hit all the continents except for Australia, and I don't know what their circumstance is economically, is it as - I would assume that perhaps it is like it is in Western Europe, am I correct?",
+            "previous_answer": "I think you're right. There are some differences between Australia and Western Europe. You're right in the sense that it is a mature economy, but it's also a country that exports a lot of commodities. So, Australia, for example, has been hit pretty hard by the - the huge drops - 80 percent drop in commodity prices, you know, all kinds of things - coal, metals, and so on. So, Australia as well is being hurt, not because it had its own sort of inherent financial problems, but this is a global recession.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific challenges has Australia encountered as a result of the significant drop in commodity prices, and how have these challenges affected its overall economy?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6289501190185547,
+                        "outline_relevance": 0.9552764296531677,
+                        "originality": 0.39016616344451904,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you explain how Australia's economic structure influences its resilience or vulnerability to global recessions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5607292056083679,
+                            "outline_relevance": 0.8045470714569092,
+                            "originality": 0.2779926061630249,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What are the main factors behind the 80 percent drop in commodity prices, and how might this trend continue?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4562684893608093,
+                            "outline_relevance": 0.6800278425216675,
+                            "originality": 0.26708245277404785,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do Australia's economic challenges compare to those of other commodity-exporting nations during the global downturn?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7137459516525269,
+                            "outline_relevance": 0.7727013826370239,
+                            "originality": 0.24711185693740845,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What specific challenges has Australia encountered as a result of the significant drop in commodity prices, and how have these challenges affected its overall economy?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6289501190185547,
+                            "outline_relevance": 0.9552764296531677,
+                            "originality": 0.39016616344451904,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Nariman, thank you very much.",
+            "previous_answer": "My pleasure.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you walk me through how rapid credit expansion in various regions played a role in triggering the global financial crisis?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.09212727844715118,
+                        "outline_relevance": 0.8646336793899536,
+                        "originality": 0.08659130334854126,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share some insights on current global economic trends that interest you?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.040423497557640076,
+                            "outline_relevance": 0.5585713386535645,
+                            "originality": 0.35254180431365967,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How do you see the role of international cooperation evolving in response to economic crises?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.01302541047334671,
+                            "outline_relevance": 0.563910186290741,
+                            "originality": 0.29724371433258057,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What lessons from past financial crises are most relevant to understanding today's economic challenges?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": -0.0073652081191539764,
+                            "outline_relevance": 0.6304633617401123,
+                            "originality": 0.21009594202041626,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you walk me through how rapid credit expansion in various regions played a role in triggering the global financial crisis?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.09212727844715118,
+                            "outline_relevance": 0.8646336793899536,
+                            "originality": 0.08659130334854126,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

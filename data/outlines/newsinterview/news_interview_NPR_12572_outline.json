@@ -1,0 +1,110 @@
+[
+  {
+    "id": "S1",
+    "section": "Background of the Falklands Conflict",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What historical events led to the Falklands conflict between Britain and Argentina?",
+        "importance": "critical",
+        "keywords": [
+          "Falklands",
+          "conflict",
+          "history"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Why is the Falklands Islands' sovereignty a contentious issue for both nations today?",
+        "importance": "high",
+        "keywords": [
+          "sovereignty",
+          "dispute",
+          "Argentina",
+          "Britain"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Current Political Climate in Argentina",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does the current Argentine government use the Falklands issue to address domestic challenges?",
+        "importance": "critical",
+        "keywords": [
+          "Argentina",
+          "government",
+          "domestic",
+          "challenges"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What economic pressures is Argentina applying on Britain concerning the Falklands?",
+        "importance": "high",
+        "keywords": [
+          "economic pressure",
+          "Argentina",
+          "Britain"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impact of Oil Discoveries",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How does the discovery of oil affect Argentina's claims over the Falklands?",
+        "importance": "critical",
+        "keywords": [
+          "oil",
+          "discovery",
+          "claim",
+          "Falklands"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What potential challenges do Argentina's own oil resources pose in relation to the Falklands dispute?",
+        "importance": "high",
+        "keywords": [
+          "oil resources",
+          "Argentina",
+          "dispute"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Prospects of the Dispute",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the long-term prospects for resolving the Falklands conflict?",
+        "importance": "critical",
+        "keywords": [
+          "prospects",
+          "resolution",
+          "Falklands",
+          "conflict"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does public opinion on the islands affect potential negotiations over their status?",
+        "importance": "high",
+        "keywords": [
+          "public opinion",
+          "negotiations",
+          "islands"
+        ]
+      }
+    ]
+  }
+]

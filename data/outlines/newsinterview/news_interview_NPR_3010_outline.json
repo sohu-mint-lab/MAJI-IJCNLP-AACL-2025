@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Marie and Pierre Curie",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What significance did Marie and Pierre Curie have in scientific history?",
+        "importance": "critical",
+        "keywords": [
+          "Marie Curie",
+          "Pierre Curie",
+          "scientific discovery"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Can you describe the premise of the book 'Radioactive: Marie and Pierre Curie, a Tale of Love and Fallout'?",
+        "importance": "high",
+        "keywords": [
+          "book summary",
+          "radioactivity",
+          "biography"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Curies' Collaborative Work",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did the unique layout of the book reflect the Curies' notebooks?",
+        "importance": "high",
+        "keywords": [
+          "notebooks",
+          "book design",
+          "collaboration"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What dual potential did the Curies recognize in radium during their research?",
+        "importance": "critical",
+        "keywords": [
+          "radium",
+          "double potential",
+          "scientific ethics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Marie Curie's Legacy and Scandals",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What scandal surrounded Marie Curie's personal life, and how did it impact her career?",
+        "importance": "high",
+        "keywords": [
+          "Marie Curie",
+          "scandal",
+          "Nobel Prize"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did the public perception of Marie Curie change after her affair with Paul Langevin was disclosed?",
+        "importance": "optional",
+        "keywords": [
+          "public perception",
+          "Marie Curie",
+          "affair"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Broader Implications of Radium and Radioactivity",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "In what ways did the Curies' discoveries blur the lines between science and magic?",
+        "importance": "high",
+        "keywords": [
+          "science",
+          "magic",
+          "discovery implications"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What were some of the consequences of the public's misunderstanding of radium's properties?",
+        "importance": "critical",
+        "keywords": [
+          "public misunderstanding",
+          "health effects",
+          "radium"
+        ]
+      }
+    ]
+  }
+]

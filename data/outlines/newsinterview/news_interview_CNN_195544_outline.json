@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Tyler Perry's Role in 'Alex Cross'",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What motivated you to take on the role of an action hero in 'Alex Cross'?",
+        "importance": "critical",
+        "keywords": [
+          "Tyler Perry",
+          "Alex Cross",
+          "action hero"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did you feel about replacing Morgan Freeman in this role?",
+        "importance": "high",
+        "keywords": [
+          "Morgan Freeman",
+          "replacement",
+          "role"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Weight Loss Journey",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What was your approach to losing 30 pounds and how did you stay motivated?",
+        "importance": "high",
+        "keywords": [
+          "weight loss",
+          "motivation",
+          "fitness"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Can you share more about the specific training methods you used?",
+        "importance": "optional",
+        "keywords": [
+          "training",
+          "Krav Maga",
+          "fitness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Personal Relationships and Love",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How has your past experience with love influenced your current relationship perspective?",
+        "importance": "critical",
+        "keywords": [
+          "love",
+          "relationships",
+          "perspective"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What do you hope to find in love as you move forward?",
+        "importance": "high",
+        "keywords": [
+          "hope",
+          "love",
+          "future"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Casting Kim Kardashian in 'The Marriage Counselor'",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What was your reasoning behind casting Kim Kardashian in your film?",
+        "importance": "high",
+        "keywords": [
+          "Kim Kardashian",
+          "casting",
+          "The Marriage Counselor"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How do you think her role impacts the message of the film?",
+        "importance": "optional",
+        "keywords": [
+          "impact",
+          "message",
+          "film"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Understanding Blood Types and Transfusion Challenges",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the key differences between blood types that can complicate transfusions?",
+        "importance": "critical",
+        "keywords": [
+          "blood types",
+          "transfusion",
+          "antigens"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Why are non-ABO blood group antigens particularly concerning for chronically transfused patients?",
+        "importance": "high",
+        "keywords": [
+          "non-ABO antigens",
+          "chronically transfused",
+          "problems"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Innovative Research in Blood Camouflage",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does the amino camouflage technique work to protect red blood cells?",
+        "importance": "critical",
+        "keywords": [
+          "amino camouflage",
+          "red blood cells",
+          "polyethylene glycol"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are the properties of polyethylene glycol that make it suitable for this application?",
+        "importance": "high",
+        "keywords": [
+          "polyethylene glycol",
+          "properties",
+          "application"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Applications Beyond Blood Transfusions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what other medical treatments could this camouflage technology potentially be used?",
+        "importance": "high",
+        "keywords": [
+          "medical treatments",
+          "camouflage technology",
+          "applications"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What preliminary results have been observed with pancreatic islet transplantation using this technology?",
+        "importance": "high",
+        "keywords": [
+          "pancreatic islet transplantation",
+          "results",
+          "technology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Prospects and Challenges",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the long-term goals for the research on camouflaged blood cells?",
+        "importance": "optional",
+        "keywords": [
+          "long-term goals",
+          "research",
+          "camouflaged blood cells"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How might this technology change the landscape of blood transfusion and transplantation in the future?",
+        "importance": "optional",
+        "keywords": [
+          "technology",
+          "blood transfusion",
+          "transplantation"
+        ]
+      }
+    ]
+  }
+]

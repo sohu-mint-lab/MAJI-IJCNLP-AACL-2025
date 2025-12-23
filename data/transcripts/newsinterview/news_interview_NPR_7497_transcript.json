@@ -1,0 +1,144 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "This is SCIENCE FRIDAY. I'm Ira Flatow. Meet Flame, every PC owner's worst nightmare. This newly discovered malware gives an attacker remote access to your computer. It can listen in on your conversations, look through your webcam. It was first detected in the Middle East and has been infecting computers for at least two years. Antivirus experts are calling Flame one of the most complex threats ever discovered. Once a machine is infected, the operator of the malware can expand its functionality almost like adding apps to a smartphone. Its operators sent out another app with orders to erase it this week, leaving no tracks behind. Much like Stuxnet, Flame is also believed to be the handiwork of a nation-state. Why are antivirus experts so concerned about Flame? How does this malware tool, spy kit(ph) and eavesdrop? Who's behind Flame, and who are they targeting, and why is it being compared to Stuxnet? That's what we're going to be talking about this hour. Our number is 1-800-989-8255, 1-800-989-TALK. My guest is Kim Zetter. She is senior reporter at Wired covering cybercrime, privacy, security and civil liberties. She's currently writing a book about Stuxnet and joins us from Oakland, California. Welcome to SCIENCE FRIDAY."
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "What makes Flame different?"
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "Well, different from the average run-of-the-mill malware that criminals use?"
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Yeah."
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "Well, that's a good question because when it first was discovered a lot of people were saying, well, this isn't new because there is a lot of spyware out there already used by criminals. The difference here is the complexity of the malware in this case. It does some of the same things that other malware does, you know, stealing passwords, taking screenshots, that kind of thing. But the motivation is obviously different, and it comes with just a multitude of functions, much more than something that cybercriminals would use. Cybercriminals, usually their malware is very compact in the sense that it's doing only the precise thing that they want to do, which is often just stealing your banking credentials or credit card numbers. So Flame has - so far they've found about 20 modules that can be swapped in and out, and they do everything from turning on the internal microphone and webcam on your computer, this way that they could record conversations that you have over Skype or conversations that you have in the room, in the vicinity of the computer. It takes screenshots of your communications. They seem particularly interested in any email communications or instant messaging communication that you do. It also turns your computer into a Bluetooth beacon. So if you have Bluetooth enabled on your computer, they will turn that on and do a discovery for other Bluetooth-enabled devices in the vicinity, such as a phone, and they will use your computer to then siphon the contact information that is in any phone in the area."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Wow. Wow. Why all those things? I mean, what's the reason for that?"
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "Well, it's a toolkit, and so what we think it is it's multifunctional, depending on what the particular need is for the attackers. They probably use this in multiple operations, a variety of operations, and so depending on what they need for a specific target, what they want to steal, they will only download those particular modules to the system. So in some cases they may be wanting just documents, and so they'll just, you know, download a module that does that. If they want to be listening to meetings that are happening in a room, want to be monitoring email of who's communicating with who, then they would download, you know, those kinds of modules."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Who's the they behind this?"
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "Well, that's the mystery. You know, if we look at where the infections are occurring, and you mentioned that it's primarily in the Middle East, there have been a scattering of infections in Hungary, Austria, Hong Kong, but they're mostly in Iran, places like Syria, Sudan as well, Lebanon, and some cases in occupied West Bank and inside Israel. But the inside Israel ones may be unique for specific reasons. So if you look at where it's infecting geographically, that can tell you something about who might be interested in those particular areas. And since there seem to be some correlations between Flame and Stuxnet, and we're pretty sure that Stuxnet - well, actually, I guess the U.S. has copped(ph) to Stuxnet - we're pretty sure that Flame is done by the same people or at least backed by the same people. It's not programmed by the same programmers, but it's done by people who had the same resources behind Stuxnet, and of course Stuxnet was Israel and the U.S."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So this is the next generation of a Stuxnet and a much more complex version?"
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "No, I actually think that this was a precursor to Stuxnet. So when you do a, you know, a mission like Stuxnet, where you are sabotaging a system, you need to gather information about that system first. And the New York Times had an article last week in which they talked about how Stuxnet was conducted, and they said that a program was planted on the target machines first in order to conduct espionage and siphon out information about the system before they designed an attack for it. So Flame could be used for something like that, but this - I don't think Flame was. Flame is pretty bulky, and, you know, it's not elegant for that kind of activity, but it would probably be used maybe in conjunction with something like that, a pre-stage of a mission."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Does it attack all operating systems, your iPad, your iPhone, your Mac, your PC, all those?"
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "It's focusing on Windows systems. So it's, you know, we're talking about computers here, and it's very - it's doing a lot of steps before it actually infects a system. It's making sure that - you know, it's checking what kind of antivirus you have installed, and so it's going to make decisions based on that to try and thwart the antivirus. It's looking for other capabilities on the system that might help it spread to other systems on the network. So it wants to spread, but in a limited manner, not like Stuxnet spread."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Yeah, usually your malware is, what, 10 to 15 kilobytes. This is a 20 megabyte piece of software. So it's intelligent on its own, it's making decisions as it goes through there about what - whom to attack, what to take out, what to do along those lines?"
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "It's not making a lot of decisions on its own. It's making some decisions on its own. When it first gets on a system - there are three versions that have been found so far of different size, and one of them is about six megabytes, and that's a pretty bulky one. And the others are more pared-down versions with fewer modules. So the six-megabyte one has a lot of modules in it, and what the system does - what it does once it gets on a system is it installs itself, and then it calls home to a command and control center. And the command and control center then can pull down - can send down other modules. So it's basically - it can be controlled remotely. So it has some autonomous capability inside, but it's also looking for additional functionality to come from the attackers."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Is there any way to protect your PC from this?"
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "Well, yes, antivirus systems, antivirus engines are now equipped with signatures to detect this and toolkits to eliminate it. So Flame, you know, for any system that's up-to-date with antivirus, it's not at risk of this."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Didn't the controllers try to snuff out the flame this week, telling it sort of to get rid of its tracks (unintelligible) send out another little app?"
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "Well, it sent out a new version last week to three systems that were in Iran - I think it was Iran, Iraq and Lebanon. And it basically updated itself with a new version. There is a module that will erase Flame, but a lot of the systems were already taken offline last week. Flame was discovered, or Flame was exposed a week ago on Monday, a week ago last Monday, and antivirus companies already had signatures out there. So for most infections out there, you know, the systems probably would have already been - erased Flame. So sending out a module at that point wouldn't have helped much."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "If it's already in your computer, how do we know it's just not sitting there waiting to do something else?"
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "Well, it could be. I mean, if you don't have detection for your system, it could indeed still be sitting there. And there are actually - so the antivirus companies, Kaspersky in particular in Russia, set up a sinkhole to actually intercept the traffic that would have gone to the attackers' command and control centers. And so they are still seeing activity from infected machines. So there are machines out there that either don't have antivirus installed on them at all or don't have updated versions, and so they still are infected, and they're communicating now with Kaspersky's sinkhole."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And we don't know what the reason. I mean, you say it's got all kind of purposes that it could do, but we don't know exactly - for example, with Stuxnet it attacked the centrifuges. It had a specific job to do. We don't know what that job in this case is."
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "No, but we believe that it's probably multiple jobs, depending on who the target is. I mean, you've got targets in the occupied West Bank, you've got targets in Syria and Lebanon. They may be targeted for different reasons. So, you know, they could be looking at maybe suspected terrorist cells to see the communications between them. But one of the interesting things about Flame is the documents that they're stealing, one of the primary interests they have are in AutoCAD documents. And AutoCAD is a software that's used to do - create a computer rendition of things like building plans, factory layouts, things like that."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And could there be other sophisticated malware out there that's waiting to be discovered?"
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "No doubt, yes."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Even more powerful than Flame?"
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "Possibly more powerful or an offshoot of these, yes. Yeah, there's no doubt. This has been - Flame has, looks like, created probably around maybe 2007, 2008. So you know, we're talking five years ago, and Stuxnet was created a little bit after that. And then you've got Duqu that came out a year after Stuxnet. So these are just three of them, and yeah, there's no doubt that there are others."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And once again you say that for people who are concerned, if you update your Windows, Microsoft has a patch out now too, doesn't it, it should remove it from your PC?"
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "Well, Microsoft's patch is different. Microsoft patches the vulnerabilities that the Flame used to spread on a machine or to get on a machine. But if you have antivirus updates, that's the thing that will prevent you from getting infected as well."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And is there any possibility that this was done by a bunch of hobbyists or people who wanted, you know, to just show that they wanted to get into systems?"
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "No, no, not - the amount of work that went into this is not hobbyists. The targets, the geographical regions of the infections, and there are some parallels to Stuxnet in this. And on - this week there were a couple of researchers that discovered - well, Microsoft revealed this week that the attackers had been using a vulnerability in Windows Update to spread. And the way that they took advantage of that vulnerability is quite sophisticated, and in fact there were a couple of cryptographers who came out with a report saying this week that it was beyond the abilities of an attack that they had developed."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Kim Zetter, thank you very much for taking time to be with us."
+    },
+    {
+      "speaker": "Kim Zetter",
+      "text": "You're welcome."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Kim is a senior reporter at Wired, and she's writing a book about Stuxnet. We're going to take a break. When we come back, we're going to talk about why stem cells may be the real culprit behind clogged arteries and arthrosclerosis and might upset and overturn what we think about how hardening of the arteries and clogging of the arteries happens. So stay with us. We'll be right back after this break."
+    }
+  ]
+}

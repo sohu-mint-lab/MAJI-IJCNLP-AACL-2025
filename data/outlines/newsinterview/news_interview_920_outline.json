@@ -1,0 +1,112 @@
+[
+  {
+    "id": "S1",
+    "section": "Congressman Jim Banks' Stance on Impeachment Inquiry",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What reasons does Congressman Jim Banks give for opposing the impeachment inquiry?",
+        "importance": "critical",
+        "keywords": [
+          "Jim Banks",
+          "impeachment",
+          "inquiry",
+          "opposition"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Congressman Banks describe the impeachment process currently being undertaken?",
+        "importance": "high",
+        "keywords": [
+          "impeachment process",
+          "political",
+          "committees"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Interpretation of the Transcript and Accusations",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does Congressman Banks interpret the transcript related to the president's conversation with the Ukrainian president?",
+        "importance": "critical",
+        "keywords": [
+          "transcript",
+          "interpretation",
+          "Ukraine",
+          "president"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What specific accusations does Banks make regarding Adam Schiff's handling of the whistleblower complaint?",
+        "importance": "high",
+        "keywords": [
+          "Adam Schiff",
+          "whistleblower",
+          "accusations",
+          "truth"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Congressional Oversight and the Role of Congress",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is Congressman Banks' view on the cooperation of the White House with Congress?",
+        "importance": "high",
+        "keywords": [
+          "Congress",
+          "oversight",
+          "White House",
+          "cooperation"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Does Congressman Banks believe Congress has an independent role apart from party support for the president?",
+        "importance": "high",
+        "keywords": [
+          "independent role",
+          "Congress",
+          "political parties"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Defense Strategies of the President",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are Congressman Banks' thoughts on how the president is defending himself through social media?",
+        "importance": "optional",
+        "keywords": [
+          "president",
+          "defense",
+          "social media",
+          "tweets"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What actions did Congressman Banks take regarding Adam Schiff's conduct during the impeachment process?",
+        "importance": "high",
+        "keywords": [
+          "Adam Schiff",
+          "censure",
+          "action",
+          "conduct"
+        ]
+      }
+    ]
+  }
+]

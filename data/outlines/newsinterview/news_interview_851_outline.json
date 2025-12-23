@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Listener Success Stories",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What prompted the discussion about listeners sharing their job loss success stories?",
+        "importance": "critical",
+        "keywords": [
+          "job loss",
+          "success stories",
+          "listeners"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did Steve Proffitt characterize the responses from the listeners?",
+        "importance": "high",
+        "keywords": [
+          "responses",
+          "characterization",
+          "optimism"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Entrepreneurial Ventures by Listeners",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What kind of business did Jenny De Angelo start after losing her job?",
+        "importance": "critical",
+        "keywords": [
+          "business",
+          "organizing angel",
+          "downsizing"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What unique transportation service did Mike Parcialli offer?",
+        "importance": "high",
+        "keywords": [
+          "shuttle service",
+          "Grease Bus",
+          "vegetable oil"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Job Transitions and Networking Strategies",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What advice did Theresa Tomas give to job seekers regarding networking?",
+        "importance": "critical",
+        "keywords": [
+          "networking",
+          "advice",
+          "former employers"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What type of job did Luke Butler secure after his job loss?",
+        "importance": "high",
+        "keywords": [
+          "dream job",
+          "biology professor",
+          "liberal arts college"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Effective Business Strategies During Economic Downturns",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How did Stephanie Cecine adjust her business model to attract more clients?",
+        "importance": "high",
+        "keywords": [
+          "yoga center",
+          "price cut",
+          "attendance increase"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What does Marilyn McFee suggest about the storytelling business during tough economic times?",
+        "importance": "optional",
+        "keywords": [
+          "storytelling",
+          "comfort entertainment",
+          "business"
+        ]
+      }
+    ]
+  }
+]

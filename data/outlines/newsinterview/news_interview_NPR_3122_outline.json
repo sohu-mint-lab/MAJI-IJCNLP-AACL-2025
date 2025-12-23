@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Apollo Moon Missions",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What was the purpose of placing seismometers on the moon during the Apollo missions?",
+        "importance": "critical",
+        "keywords": [
+          "Apollo missions",
+          "seismometers",
+          "moon"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the limitations of computing power affect the analysis of the Apollo data?",
+        "importance": "high",
+        "keywords": [
+          "computing power",
+          "data analysis",
+          "limitations"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Recent Discoveries from Seismic Data",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What significant findings were revealed about the core of the moon?",
+        "importance": "critical",
+        "keywords": [
+          "moon core",
+          "seismic data",
+          "discoveries"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How is the moon's core comparable and different from Earth's core?",
+        "importance": "high",
+        "keywords": [
+          "moon core",
+          "Earth core",
+          "comparisons"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Nature of Moonquakes and Tidal Effects",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What types of moonquake activities have been detected and how do they differ from earthquakes?",
+        "importance": "high",
+        "keywords": [
+          "moonquakes",
+          "earthquakes",
+          "activity types"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do tidal interactions between the Earth and moon contribute to moonquakes?",
+        "importance": "high",
+        "keywords": [
+          "tidal interactions",
+          "moonquakes",
+          "seismic activity"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Research Prospects",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the possibilities for future missions to study the moon's geology and seismic activity?",
+        "importance": "high",
+        "keywords": [
+          "future missions",
+          "geology",
+          "seismic activity"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What additional insights could be gained from deploying seismometers on the far side of the moon?",
+        "importance": "optional",
+        "keywords": [
+          "far side",
+          "seismometers",
+          "research potential"
+        ]
+      }
+    ]
+  }
+]

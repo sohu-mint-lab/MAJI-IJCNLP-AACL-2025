@@ -1,0 +1,762 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.32721583201335025,
+                "avg_context_relevance": 0.3160675971362835,
+                "avg_outline_relevance": 0.6668631625481141,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.30198875069618225,
+                "avg_context_relevance": 0.29460198283195493,
+                "avg_outline_relevance": 0.8426940560340881,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 42.857142857142854,
+            "weighted_coverage_score": 50.0,
+            "covered_questions": 3,
+            "total_questions": 7
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Forty-six-year-old Keith Ivey of Jacksonville, Fla., will be doing something this year he's never done before - vote. Ivey is a felon. He committed property crimes and served 8 1/2 years in prison. Florida had permanently banned people convicted of a felony from voting - until this past week when Amendment 4, passed in November, went into effect. Now almost 1 1/2 million Floridians, including Ivey, can register to vote. Ivey joins us now from his family's car dealership in Jacksonville. Welcome.",
+            "previous_answer": "Thank you. I really appreciate the opportunity.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Can you share more about what it means to you personally to be part of this conversation today?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.3106473982334137,
+                        "outline_relevance": 0.2888364791870117,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you share more about what it means to you personally to be part of this conversation today?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.3106473982334137,
+                            "outline_relevance": 0.2888364791870117,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How has your perspective on voting changed since you registered recently?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.06864319741725922,
+                            "outline_relevance": 0.738060712814331,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What message would you like to give to others who might be in your situation about the significance of voting?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.15822064876556396,
+                            "outline_relevance": 0.5991744995117188,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Did you ever think this day would come?",
+            "previous_answer": "I really had given up on it. It's been over 20 years. So to actually get to that date, it's been a long time coming.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did your daughter feel about voting for the amendment that allowed you to regain your voting rights?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1014755442738533,
+                        "outline_relevance": 0.9406832456588745,
+                        "originality": 0.4198732376098633,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you tell me more about what kept you going emotionally during the long wait for this day?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3098251223564148,
+                            "outline_relevance": 0.5407404899597168,
+                            "originality": 0.5353003740310669,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How has your outlook on life changed since you were able to register to vote again?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.22443687915802002,
+                            "outline_relevance": 0.681824803352356,
+                            "originality": 0.1409696340560913,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What advice would you give to someone who might feel hopeless about regaining their voting rights?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.06476321071386337,
+                            "outline_relevance": 0.6198710203170776,
+                            "originality": 0.20984423160552979,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How did your daughter feel about voting for the amendment that allowed you to regain your voting rights?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1014755442738533,
+                            "outline_relevance": 0.9406832456588745,
+                            "originality": 0.4198732376098633,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "You're married, and you've got kids. Have you been talking about this with them?",
+            "previous_answer": "Not in detail. My daughter is 19, so she definitely knows what I've been through. So this year, she was able to vote. And she was very proud to tell me that she voted for Amendment 4.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the significance of Amendment 4 and how it has impacted voting rights for people with felony convictions in Florida?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6167526245117188,
+                        "outline_relevance": 0.9851744174957275,
+                        "originality": 0.4566279649734497,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How did it feel knowing your daughter voted for Amendment 4, and what does that mean to you personally?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.8116074800491333,
+                            "outline_relevance": 0.8822430968284607,
+                            "originality": 0.1514262557029724,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you share more about how your family talks about the importance of voting and civic responsibility?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5018739700317383,
+                            "outline_relevance": 0.48682597279548645,
+                            "originality": 0.3231486678123474,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What lessons about justice and redemption do you hope to pass on to your children?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.32743412256240845,
+                            "outline_relevance": 0.5076198577880859,
+                            "originality": 0.5244957804679871,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you explain the significance of Amendment 4 and how it has impacted voting rights for people with felony convictions in Florida?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6167526245117188,
+                            "outline_relevance": 0.9851744174957275,
+                            "originality": 0.4566279649734497,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "That must have been amazing. She voted for the amendment that would allow you to vote.",
+            "previous_answer": "Yes, she did.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the significance of Amendment 4 and what impact it has on voting rights for felons in Florida?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.04783588647842407,
+                        "outline_relevance": 0.9984800815582275,
+                        "originality": 0.016135990619659424,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How did it feel when you realized your daughter voted for Amendment 4, and how did that moment affect your relationship?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.29519015550613403,
+                            "outline_relevance": 0.8355452418327332,
+                            "originality": 0.051109492778778076,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: Can you describe the conversations you have with your family about the importance of voting and civic participation?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.006368597969412804,
+                            "outline_relevance": 0.4771811366081238,
+                            "originality": 0.05649089813232422,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What hopes do you have for future generations regarding voting rights and justice reform?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.022991081699728966,
+                            "outline_relevance": 0.5234054327011108,
+                            "originality": 0.2847970724105835,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you explain the significance of Amendment 4 and what impact it has on voting rights for felons in Florida?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.04783588647842407,
+                            "outline_relevance": 0.9984800815582275,
+                            "originality": 0.016135990619659424,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Why are you so passionate about the right to vote?",
+            "previous_answer": "Personally, I feel like it's a redemption. It's a chance to be a part of society and have a voice. It's almost like we are having taxation without representation. Our debt has been paid to society. We just want to get back on track with life and want the general public to know that we're just like every other person. We've made mistakes like any other person. But that does not define us. That does not define me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the significance of Amendment 4 and how it has impacted your ability to regain voting rights in Florida?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3108585774898529,
+                        "outline_relevance": 0.9188628196716309,
+                        "originality": 0.08236485719680786,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you tell me more about what voting means to you personally beyond just redemption?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5261412858963013,
+                            "outline_relevance": 0.6780108213424683,
+                            "originality": 0.26452773809432983,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think your participation in voting can influence others who have faced similar challenges?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.27912503480911255,
+                            "outline_relevance": 0.5596626996994019,
+                            "originality": 0.15266454219818115,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What changes do you hope to see in society as more people regain their voting rights?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4950377941131592,
+                            "outline_relevance": 0.535718560218811,
+                            "originality": 0.24121558666229248,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you explain the significance of Amendment 4 and how it has impacted your ability to regain voting rights in Florida?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3108585774898529,
+                            "outline_relevance": 0.9188628196716309,
+                            "originality": 0.08236485719680786,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "I understand that you have registered to vote. But you still haven't gotten your card in your hands. And there's been a lot of back and forth, since this amendment was passed in November, about how these restored voting rights will be rolled out. Are you worried that perhaps this won't yet come to pass?",
+            "previous_answer": "There is a little bit of worry there. I just have to ask God to direct me, to lead my path. And I'm still waiting. When I get my voter registration card in the mail, then I will actually have a shout of joy. I've been happy but still reserved because I know that there's a waiting period. But we do know that there's an election coming up in March, and we definitely want to be there to vote. We're just hoping and waiting that they will send the card out faster than normal.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "When you finally receive your voter registration card, how do you think you might celebrate or mark that moment?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6770836710929871,
+                        "outline_relevance": 0.9020799994468689,
+                        "originality": 0.3688199520111084,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share more about what voting will represent for you personally when you cast your first ballot?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5174664855003357,
+                            "outline_relevance": 0.6188856959342957,
+                            "originality": 0.25128912925720215,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you see your role in encouraging others with restored voting rights to participate in elections?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.495327889919281,
+                            "outline_relevance": 0.5369336605072021,
+                            "originality": 0.20144134759902954,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What experiences during this waiting period have reinforced or challenged your hopes about voting rights restoration?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5752651691436768,
+                            "outline_relevance": 0.6612871885299683,
+                            "originality": 0.21674764156341553,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "When you finally receive your voter registration card, how do you think you might celebrate or mark that moment?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6770836710929871,
+                            "outline_relevance": 0.9020799994468689,
+                            "originality": 0.3688199520111084,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "And right now you are at your place of business. Right? You've been paying taxes. You've been working. You've been a member of society, and this is kind of the last piece of the puzzle.",
+            "previous_answer": "Yes, ma'am. We've been paying taxes and doing everything that every other member of society does and, you know, trying to live an upstanding life, trying to be a mentor to people that have gone through what I've gone through. There's no blueprint for life after a conviction, so you're just trying to figure it out as you go. And there are so many disappointments, so many opportunities lost - housing, employment - just so much that comes with life after a conviction. And no one ever speaks about it. And you wonder why recidivism is so high. It's - the opportunity to get back on track isn't there, and the system is broken.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific changes or supports do you think are most important to help people successfully rebuild their lives after incarceration?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.47888946533203125,
+                        "outline_relevance": 0.6617004871368408,
+                        "originality": 0.48154211044311523,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you describe some specific instances where you faced discrimination or lost opportunities after your conviction?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4952160120010376,
+                            "outline_relevance": 0.5848746299743652,
+                            "originality": 0.5839369595050812,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How do you think mentoring others who have been through the system can help reduce recidivism?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4345797002315521,
+                            "outline_relevance": 0.6027138233184814,
+                            "originality": 0.4778469204902649,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: What kinds of support do you believe are most critical from the system to help felons successfully reintegrate?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4561258554458618,
+                            "outline_relevance": 0.7368274927139282,
+                            "originality": 0.34626591205596924,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What specific changes or supports do you think are most important to help people successfully rebuild their lives after incarceration?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.47888946533203125,
+                            "outline_relevance": 0.6617004871368408,
+                            "originality": 0.48154211044311523,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Do you have any celebration planned when you do finally get that card in the mail?",
+            "previous_answer": "(Laughter) Hopefully, I'll be by myself 'cause I'm probably going to scream a loud shout of joy. I'm going to give God his praise.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the significance of Amendment 4 and how it has affected your ability to participate in the voting process?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.00041935592889785767,
+                        "outline_relevance": 0.7511190176010132,
+                        "originality": 0.17904478311538696,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share more about why you feel the need to be alone for this celebration? What personal significance does that have for you?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3271113336086273,
+                            "outline_relevance": 0.46755439043045044,
+                            "originality": 0.5078975260257721,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How did your family react when you told them about your plan to celebrate receiving your voter registration card?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.20145286619663239,
+                            "outline_relevance": 0.7914429306983948,
+                            "originality": 0.21975082159042358,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How does your faith influence your journey toward voting and restoration of rights?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.22014003992080688,
+                            "outline_relevance": 0.440796822309494,
+                            "originality": 0.2939203977584839,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you explain the significance of Amendment 4 and how it has affected your ability to participate in the voting process?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.00041935592889785767,
+                            "outline_relevance": 0.7511190176010132,
+                            "originality": 0.17904478311538696,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "(Laughter).",
+            "previous_answer": "I probably will do a kick in the air and clap my feet together once I see my voter registration card in the mail.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the significance of Amendment 4 and its impact on voting rights for felons in Florida?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.258127361536026,
+                        "outline_relevance": 0.9999999403953552,
+                        "originality": 0.001519918441772461,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you imagine sharing this moment of celebration with your family or friends?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.24357542395591736,
+                            "outline_relevance": 0.4743097424507141,
+                            "originality": 0.24048256874084473,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you talk more about what emotions come up for you when you think about finally being able to vote?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5332072973251343,
+                            "outline_relevance": 0.799983024597168,
+                            "originality": 0.285125732421875,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways do you think celebrating this milestone might affect your sense of identity or community connection?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.27555882930755615,
+                            "outline_relevance": 0.5278615355491638,
+                            "originality": 0.33500707149505615,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you explain the significance of Amendment 4 and its impact on voting rights for felons in Florida?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.258127361536026,
+                            "outline_relevance": 0.9999999403953552,
+                            "originality": 0.001519918441772461,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "Keith Ivey of Jacksonville, Fla., thank you so much.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain the significance of Amendment 4 and how it has affected voting rights for people who have been convicted of felonies in Florida?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.14392994344234467,
+                        "outline_relevance": 0.980004072189331,
+                        "originality": 0.01395869255065918,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you feel about the support you've received from your family throughout this journey?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2294912338256836,
+                            "outline_relevance": 0.34937140345573425,
+                            "originality": 0.4410972595214844,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share more about the moment you first realized you could finally participate in voting?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1555251181125641,
+                            "outline_relevance": 0.6967008113861084,
+                            "originality": 0.1967645287513733,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What changes in your daily life do you anticipate now that you are a registered voter?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.12891462445259094,
+                            "outline_relevance": 0.6252952814102173,
+                            "originality": 0.20796585083007812,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you explain the significance of Amendment 4 and how it has affected voting rights for people who have been convicted of felonies in Florida?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.14392994344234467,
+                            "outline_relevance": 0.980004072189331,
+                            "originality": 0.01395869255065918,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

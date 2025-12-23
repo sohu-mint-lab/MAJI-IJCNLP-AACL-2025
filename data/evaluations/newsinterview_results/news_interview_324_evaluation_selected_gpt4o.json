@@ -1,0 +1,283 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.5397698630889257,
+                "avg_context_relevance": 0.4383666676779588,
+                "avg_outline_relevance": 0.8217705686887106,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 60.0,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Let's go now to NPR's national political correspondent, Mara Liasson. Hey, Mara.",
+            "previous_answer": "Hi there.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Mara, from your perspective, what are the most prominent changes in President Trump's negotiation tactics recently, especially in the context of ongoing policy discussions?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.05330967903137207,
+                        "outline_relevance": 0.7019696235656738,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Mara, from your perspective, what are the most prominent changes in President Trump's negotiation tactics recently, especially in the context of ongoing policy discussions?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.05330967903137207,
+                            "outline_relevance": 0.7019696235656738,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "So the stalemate continues. What are you hearing behind closed doors?",
+            "previous_answer": "Well, on the positive side, the president did make a real shift. He's now using the language of compromise. He's trying to reach out beyond his base. He tried to make the negotiations bigger by adding DACA in an attempt to solve the problem. Republican members of Congress are generally positive about this. But Trump's anti-immigration conservative base is still against this. They consider it amnesty. And Democrats have been pretty negative so far, even though liberal members like Jamie Raskin of Maryland told NPR recently - after the speech that there - this is actually a positive sign. The president moved off the 2,000-mile wall. There should be room for compromise. But the bottom line for Democrats is the president has to open the government first before these negotiations continue.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How are congressional Democrats responding to the president's new approach to negotiations?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6206768155097961,
+                        "outline_relevance": 0.910322368144989,
+                        "originality": 0.40139341354370117,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How are congressional Democrats responding to the president's new approach to negotiations?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6206768155097961,
+                            "outline_relevance": 0.910322368144989,
+                            "originality": 0.40139341354370117,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "But this is a strange kind of negotiation, isn't it? It's all happening sort of by spectacle. Most of the time, these negotiations happen behind closed doors. There are these meetings. And now we're getting these big, public addresses. Is that about President Trump's style, or is it a symptom of how broken the relationship is between congressional Democrats and the White House?",
+            "previous_answer": "Well, their relationship is broken. But it's mostly about Trump's style. This is how he likes to operate. It turns out he's not much of a master dealmaker after all. We don't know if this is the sign of a new kind of progress or if they're still just stuck. But the other thing to remember is that Mitch McConnell, the Senate majority leader, said he would never bring anything up on the floor the Democrats and the White House didn't agree with or something that couldn't pass. And he's going ahead anyway with this with no guarantee he's going to get 60 votes. The other thing to remember is the Democrats say this is hostage-taking squared. In other words, first, the president ended the DACA program. Then he shut down the government. Now he's saying, oh, I'll temporarily restore the program I ended and reopen the government I once said I was happy to close if you just give me money for a wall that most of the country opposes. The other thing to remember is that the backdrop for this is that Trump's poll numbers were dropping even with parts of his base. And he had recently lost some leverage with the Supreme Court because he was hoping to have the court take up the DACA case and uphold his decision to terminate DACA, which is temporary deportation relief for certain young people. Now his leverage is gone because the Supreme Court probably won't take this up until the summer of 2020.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain Mitch McConnell's role in advancing legislation without confirmed support and how this affects the overall negotiation process?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.627241313457489,
+                        "outline_relevance": 0.8698791265487671,
+                        "originality": 0.39546895027160645,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain Mitch McConnell's role in advancing legislation without confirmed support and how this affects the overall negotiation process?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.627241313457489,
+                            "outline_relevance": 0.8698791265487671,
+                            "originality": 0.39546895027160645,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Mara, this idea of, you know, governing by spectacle could also apply to Trump's foreign policy. The White House just announced the president will be meeting again with North Korean leader Kim Jong Un in February, even though many argue there's been little tangible progress made since the last summit.",
+            "previous_answer": "That's right. For Trump, the meeting is the message. There hasn't been progress. North Korea has not dismantled its weapons program. The sanctions regime has been weakened because of - partially because of the meeting that already happened between the two leaders. And the - North Korea has reaped tremendous public relations benefits from these meetings because they've been able to have their leader on the same stage as the president of the United States. But Donald Trump would argue better to be talking than threatening war.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How have Trump's foreign policy actions been interpreted in terms of public relations for North Korea, and what impact might this have had domestically in the U.S.?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6493796110153198,
+                        "outline_relevance": 0.9684054851531982,
+                        "originality": 0.45680296421051025,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How have Trump's foreign policy actions been interpreted in terms of public relations for North Korea, and what impact might this have had domestically in the U.S.?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6493796110153198,
+                            "outline_relevance": 0.9684054851531982,
+                            "originality": 0.45680296421051025,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Let's talk about the latest in the Mueller investigation. BuzzFeed News came out with a report a couple of days ago that President Trump directed Michael Cohen, his former lawyer, to lie to Congress. But then the special counsel's office issued a rare statement Friday disputing the claims in those - in that article. So where does that leave us?",
+            "previous_answer": "I think if you looked at the scorecard from this bizarre episode, BuzzFeed, of course, got a black eye. No other news organization could match their story. The president got a boost because he was able to say, look at the press. They're always - they're full of fake news. But Democrats got an assist from Bob Mueller, who helped restrain them from rushing toward impeachment before his report was out. And Mueller also really helped himself. He went out of his way to point out an inaccuracy. He rarely, rarely talks. So he strengthened his own credibility. And I think he made it harder for the president to say that he is conducting a witch hunt.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think the recent media coverage and reporting errors have shaped the overall public perception and trust in the Mueller investigation?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6143087148666382,
+                        "outline_relevance": 0.9163485169410706,
+                        "originality": 0.5619552433490753,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you think the recent media coverage and reporting errors have shaped the overall public perception and trust in the Mueller investigation?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6143087148666382,
+                            "outline_relevance": 0.9163485169410706,
+                            "originality": 0.5619552433490753,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "That's NPR national political correspondent Mara Liasson breaking it down. Thank you, Mara, as always.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: How do you view the evolving media landscape affecting political reporting today?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.0652838721871376,
+                        "outline_relevance": 0.5636982917785645,
+                        "originality": 0.4229986071586609,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you view the evolving media landscape affecting political reporting today?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.0652838721871376,
+                            "outline_relevance": 0.5636982917785645,
+                            "originality": 0.4229986071586609,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

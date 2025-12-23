@@ -1,0 +1,773 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.38307033851742744,
+                "avg_context_relevance": 0.3546201139688492,
+                "avg_outline_relevance": 0.6297436833381653,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.36447038054466246,
+                "avg_context_relevance": 0.3590503536164761,
+                "avg_outline_relevance": 0.7333203971385955,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 59.25925925925925,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "It's been less than a week. Has the country moved on from the testimony of special counsel Robert Mueller? Philip Mudd was the deputy director of the CIA's Counterterrorist Center and the FBI's National Security Branch and met daily with Mr. Mueller in that position. He's got a new book out this week. It's called \"Black Site: The CIA In The Post-9/11 World.\" And we'll talk about that as well. Good morning.",
+            "previous_answer": "Good morning. Thanks for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are your initial reflections on Robert Mueller's role and demeanor during his testimony?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.12275371700525284,
+                        "outline_relevance": 0.7900987863540649,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you perceive the current political climate in relation to the Mueller testimony?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.07412911206483841,
+                            "outline_relevance": 0.7226192951202393,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share your initial reflections on Robert Mueller's role and demeanor during the hearings?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.11954610049724579,
+                            "outline_relevance": 0.8381859064102173,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What lessons from your experience might shed light on how the country is processing recent political events?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.09914827346801758,
+                            "outline_relevance": 0.4658752381801605,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What are your initial reflections on Robert Mueller's role and demeanor during his testimony?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.12275371700525284,
+                            "outline_relevance": 0.7900987863540649,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "As someone who's been quite critical of the president, who's an admirer of Mr. Mueller and who's warned very often of the Russia threat, you've also said that the Democrats need to move on, forget about impeachment and focus on the issues such as health care. Why?",
+            "previous_answer": "If you look at some of the characteristics I think that would define a successful process for impeachment and you compare that to what we saw with Director Mueller, he had more resources. He had more access to things like documents, emails. He had more access to the technical capabilities of the FBI, and he had more time. Remember; that was 2 1/2 years he spent coming to conclusions that didn't lead us too far down the path. The Democrats come at this from a partisan approach. He was nonpartisan with less time, fewer people, less technical capability. It's hard for me to see how in the next 15 months you can resolve this in a way that leaves us in the summer of 2020 looking back saying that was really good for America.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You mentioned that the Democrats approach impeachment with a partisan mindset. How do you think they should redirect their focus to make a more constructive political impact?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6919361352920532,
+                        "outline_relevance": 0.7406269311904907,
+                        "originality": 0.4759756326675415,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think the current partisan divide impacts the ability to address major national issues effectively?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4322979748249054,
+                            "outline_relevance": 0.5311390161514282,
+                            "originality": 0.3247271180152893,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you elaborate on what you believe would constitute an effective impeachment process under the current political system?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6968172788619995,
+                            "outline_relevance": 0.6527929306030273,
+                            "originality": 0.4704280495643616,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Given your assessment of resources and time, what alternative political strategies would you suggest for the Democrats to achieve meaningful progress?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5404514074325562,
+                            "outline_relevance": 0.573603630065918,
+                            "originality": 0.35707783699035645,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You mentioned that the Democrats approach impeachment with a partisan mindset. How do you think they should redirect their focus to make a more constructive political impact?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6919361352920532,
+                            "outline_relevance": 0.7406269311904907,
+                            "originality": 0.4759756326675415,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "But meanwhile, you have a Senate report of election interference that says literally all 50 states were targeted. And on that very same day, the Senate Republicans block an electoral security bill. If we move on from the central message that Mr. Muller was trying to impart, that we were and are indeed still being attacked by Russia, as someone who has worked in intelligence, isn't that a problem?",
+            "previous_answer": "Yes, but we're talking about two different issues where one is an issue where we're going after people for lying during the investigative process. The other is an issue that was lost mostly during the hearings last week that we should focus on that you just discussed, which is how we think about Russia. If we spend a little less time on an impeachment process that won't succeed and maybe more time talking about how we help states defend themselves and how we talk to the American people about how they look at Facebook messages next year during the campaign, I think we'd be better off.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Shifting to another topic, how do you view Robert Mueller's role and the political reactions during his hearings?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5158891677856445,
+                        "outline_relevance": 0.8200654983520508,
+                        "originality": 0.08865606784820557,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think the current partisan divide impacts the ability to address major national issues effectively?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5293706059455872,
+                            "outline_relevance": 0.5311390161514282,
+                            "originality": 1.1920928955078125e-07,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you elaborate on the specific measures states should take to defend against election interference?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.42184337973594666,
+                            "outline_relevance": 0.4749869406223297,
+                            "originality": 0.39636874198913574,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What role do you believe social media platforms should play in securing elections and informing the public?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.42105215787887573,
+                            "outline_relevance": 0.3012937605381012,
+                            "originality": 0.5155139267444611,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Shifting to another topic, how do you view Robert Mueller's role and the political reactions during his hearings?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5158891677856445,
+                            "outline_relevance": 0.8200654983520508,
+                            "originality": 0.08865606784820557,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "I know that you feel a particular admiration and closeness to Director Mueller. He appointed you to do your job at the FBI, right?",
+            "previous_answer": "He did. He did.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you describe any criticisms you had regarding the political response to Robert Mueller's testimony and its impact?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.13785527646541595,
+                        "outline_relevance": 0.7982590198516846,
+                        "originality": 0.14424985647201538,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe the circumstances around Robert Mueller appointing you to your position at the FBI and what that signified for your career?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1284763067960739,
+                            "outline_relevance": 0.6374435424804688,
+                            "originality": 0.2545970678329468,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How did your working relationship with Mueller influence your approach to counterterrorism analysis?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.12641672790050507,
+                            "outline_relevance": 0.6698968410491943,
+                            "originality": 0.25148701667785645,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: In what ways do you think leadership styles like Mueller's affect organizational culture in intelligence agencies?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.0974830761551857,
+                            "outline_relevance": 0.465484082698822,
+                            "originality": 0.4189608097076416,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you describe any criticisms you had regarding the political response to Robert Mueller's testimony and its impact?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.13785527646541595,
+                            "outline_relevance": 0.7982590198516846,
+                            "originality": 0.14424985647201538,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "So how do you feel about how he was treated at the hearings and how he chose to handle them?",
+            "previous_answer": "Boy, I feel disappointed. If you look at this in context, a man who served both Democrats and Republicans - remember; he was renominated for FBI director by a Democratic president, President Obama - a man who served honorably in Vietnam, a Princeton graduate who decided to go overseas to a war not a lot of people liked at that time, and you looked at some of the attacks he took from Republicans and some of the way he was used by Democrats, I looked at the man I served - and I know people who are listening don't know him - he was an honorable, great man. I mean, I'm 57, and I still have a hero, and that's Robert Mueller. I just don't think he was treated very well during the hearing and, by the way, afterward when people talked about his performance.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You mentioned feeling disappointed about how Robert Mueller was treated. Can you share more about the specific political responses to his testimony that you found particularly unfair or troubling?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6121978163719177,
+                        "outline_relevance": 0.7181212902069092,
+                        "originality": 0.11505937576293945,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on some specific instances where Robert Mueller was unfairly treated during the hearings?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.559302568435669,
+                            "outline_relevance": 0.7777894735336304,
+                            "originality": 0.15243613719940186,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think bipartisan respect for figures like Mueller can be preserved in today’s polarized political environment?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.560444712638855,
+                            "outline_relevance": 0.6352652311325073,
+                            "originality": 0.23834776878356934,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways did Mueller’s background and experience shape his approach to the hearings and his public responses?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5643188953399658,
+                            "outline_relevance": 0.8360314965248108,
+                            "originality": 0.11227613687515259,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "You mentioned feeling disappointed about how Robert Mueller was treated. Can you share more about the specific political responses to his testimony that you found particularly unfair or troubling?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6121978163719177,
+                            "outline_relevance": 0.7181212902069092,
+                            "originality": 0.11505937576293945,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "All right. Let's turn to the book. It's called \"Black Site,\" and it's really a kind of oral history of the post-9/11 CIA. In particular, it was known internally as the program which was the use of black sites in interrogations - still very controversial. Why did you want to write this book?",
+            "previous_answer": "Well, first, I like words. My mom was a teacher, and she taught the family to love words. But in terms of the subject matter, you go back in time and you realize the immediacy of what we lived through. I still remember it almost every day. For years, I thought we were losing the battle against al-Qaida. And I thought if I didn't talk to my friends who will never speak and tell their story, try to have people - even if they don't like what we did, have people stand in our shoes, that the story, the immediacy, would be lost. So I wanted to use the words that my mom taught me and talk about a program in a time in American history that might be lost if I didn't write it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking back, how do you personally reflect on the decisions made regarding enhanced interrogation techniques during that period?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.31373870372772217,
+                        "outline_relevance": 0.7441555261611938,
+                        "originality": 0.4890477657318115,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share a particular story from your colleagues that you felt needed to be told?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3319045901298523,
+                            "outline_relevance": 0.37196093797683716,
+                            "originality": 0.5566372871398926,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think the public's understanding of post-9/11 intelligence operations has evolved since the book's publication?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.35659220814704895,
+                            "outline_relevance": 0.639144778251648,
+                            "originality": 0.4784024953842163,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In what ways did your personal background influence how you approached writing about such a sensitive subject?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3160044550895691,
+                            "outline_relevance": 0.4371472895145416,
+                            "originality": 0.5378873348236084,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Looking back, how do you personally reflect on the decisions made regarding enhanced interrogation techniques during that period?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.31373870372772217,
+                            "outline_relevance": 0.7441555261611938,
+                            "originality": 0.4890477657318115,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Those black sites, rendition sites, were deemed illegal, were vilified, and it seemed to many Americans that there was sort of a collective passing of the buck when it came to these kinds of decisions. You talked to people who worked in the black sites. What don't we understand about the people who made those decisions?",
+            "previous_answer": "I don't think we had any good decisions. I think it's OK for Americans to judge us harshly, but it's not OK for them to judge without stepping back in time and trying to understand why we made those decisions. It's hard for people to acknowledge - all these people I spoke with, or most of them, were my friends. Whether you liked the program or not, the people who participated, created it - I'm not going to pass the buck. I was there. I lost my career over that program. They live next door to you. They're like you and me, and they were faced with choices at a time when we thought we would face a second wave that might lead to thousands of deaths at a time where we thought we didn't have many options.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Reflecting on your experience, what are some key lessons you believe future intelligence operations should learn to handle crises better?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2568392753601074,
+                        "outline_relevance": 0.5969107151031494,
+                        "originality": 0.43607908487319946,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe the specific types of pressures and constraints that shaped these decisions?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.20314520597457886,
+                            "outline_relevance": 0.5568295121192932,
+                            "originality": 0.5677984952926636,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think the public's perception of these operatives has changed over time?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3898359537124634,
+                            "outline_relevance": 0.5330394506454468,
+                            "originality": 0.4059096574783325,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What lessons about leadership and accountability can be drawn from your experience with these programs?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.428584486246109,
+                            "outline_relevance": 0.3275187015533447,
+                            "originality": 0.3904668092727661,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Reflecting on your experience, what are some key lessons you believe future intelligence operations should learn to handle crises better?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2568392753601074,
+                            "outline_relevance": 0.5969107151031494,
+                            "originality": 0.43607908487319946,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "And we should say, we're talking about sleep deprivation, waterboarding and what has been referred to as enhanced interrogation but is torture. It was a dark period in the history of the CIA, and some could argue that it opened the door for the tactic to be used again as President Trump has suggested.",
+            "previous_answer": "I don't think that's true. I think that despite what the president has said, I think - and I don't apologize for what we did all those years ago, but America's learned a lot. It's learned that - some people in this country, including members of Congress, don't like what we did. It's given people across this country a chance to reflect on what we did. But that reflection, I think, requires people also to step back to the spring of 2002 when we got our first prisoner and say, am I sure? Am I sure, before I critique the CIA, that I know what it was like? And I wanted to give them a chance to have that opportunity.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Based on what’s been learned from past CIA interrogation practices, what specific changes or improvements would you suggest for future operations to avoid similar controversies?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.34260883927345276,
+                        "outline_relevance": 0.8114874362945557,
+                        "originality": 0.33189064264297485,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on the specific lessons learned about enhanced interrogation techniques since 2002?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.30982375144958496,
+                            "outline_relevance": 0.7589120864868164,
+                            "originality": 0.17482101917266846,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think the American public's understanding of CIA interrogation practices has changed over the years?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5152859687805176,
+                            "outline_relevance": 0.6868105530738831,
+                            "originality": 0.2709212303161621,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In your view, what is a balanced way to critically assess past CIA actions while supporting current intelligence efforts?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3152449131011963,
+                            "outline_relevance": 0.6440234184265137,
+                            "originality": 0.3729526400566101,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Based on what’s been learned from past CIA interrogation practices, what specific changes or improvements would you suggest for future operations to avoid similar controversies?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.34260883927345276,
+                            "outline_relevance": 0.8114874362945557,
+                            "originality": 0.33189064264297485,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "When you look back, yourself at that time, would you do anything differently?",
+            "previous_answer": "If we relived it again - and we never will - I don't think anybody in a leadership position at CIA would ever accept a presidential order to reopen a black site. If - there's a few things one would change. The White House, for example, restricted the members of Congress we could speak with. I think that was a mistake, and I think future CIA leaders would push back on that and say, this is so momentous, more members need to know about it. But by and large, you know, on September 12, 2001, you'd've (ph) said there will be another catastrophic attack. There wasn't, and this might have been one of the reasons why.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you believe the political response to Robert Mueller's testimony influenced public trust in intelligence agencies and impacted subsequent investigations?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.45436474680900574,
+                        "outline_relevance": 0.7109512090682983,
+                        "originality": 0.23986071348190308,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you expand on how broader Congressional knowledge might have changed CIA operations or oversight?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5755287408828735,
+                            "outline_relevance": 0.7074284553527832,
+                            "originality": 0.2003638744354248,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How do you think lessons from restricted communication between the CIA and Congress influence current intelligence practices?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5644816160202026,
+                            "outline_relevance": 0.6779900193214417,
+                            "originality": 0.16802829504013062,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In reflecting on past CIA-White House dynamics, what balance should be struck between operational secrecy and Congressional oversight?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.614274799823761,
+                            "outline_relevance": 0.6102874279022217,
+                            "originality": 0.262739360332489,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do you believe the political response to Robert Mueller's testimony influenced public trust in intelligence agencies and impacted subsequent investigations?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.45436474680900574,
+                            "outline_relevance": 0.7109512090682983,
+                            "originality": 0.23986071348190308,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "Philip Mudd is a CNN counterterrorism analyst and the author of \"Black Site: The CIA In A Post-9/11 World.\" Thank you very much for coming in.",
+            "previous_answer": "Thanks for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share what initially drew you to become a CNN counterterrorism analyst after your experience with the CIA?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.14231985807418823,
+                        "outline_relevance": 0.6025275588035583,
+                        "originality": 0.32388466596603394,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What motivated you to take on the role of CNN counterterrorism analyst after your CIA career?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.10086553543806076,
+                            "outline_relevance": 0.5970561504364014,
+                            "originality": 0.3126789927482605,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you describe a significant experience from your time at the CIA that influenced your views on counterterrorism?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.11333136260509491,
+                            "outline_relevance": 0.6861066818237305,
+                            "originality": 0.253572940826416,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you balance your responsibilities as an analyst with your role as an author reflecting on CIA operations?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.08829885721206665,
+                            "outline_relevance": 0.5087414979934692,
+                            "originality": 0.23270857334136963,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you share what initially drew you to become a CNN counterterrorism analyst after your experience with the CIA?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.14231985807418823,
+                            "outline_relevance": 0.6025275588035583,
+                            "originality": 0.32388466596603394,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

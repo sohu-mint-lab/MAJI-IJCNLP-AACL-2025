@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "The Role of the Moon in Earth's Climate",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How does the moon influence the tilt of the Earth and consequently affect our seasons?",
+        "importance": "critical",
+        "keywords": [
+          "moon",
+          "tilt",
+          "seasons",
+          "climate"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What would the variations in Earth's axial tilt be like without the moon?",
+        "importance": "high",
+        "keywords": [
+          "variation",
+          "axial tilt",
+          "without moon"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Implications for Life on Earth and Exoplanets",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How would the absence of a moon potentially affect the development of life on Earth?",
+        "importance": "critical",
+        "keywords": [
+          "life",
+          "absence of moon",
+          "development"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What does recent research suggest about the necessity of moons for habitable exoplanets?",
+        "importance": "high",
+        "keywords": [
+          "exoplanets",
+          "habitability",
+          "moons"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Fermi's Paradox and the Rare Earth Hypothesis",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is Fermi's Paradox, and how does it relate to the search for extraterrestrial life?",
+        "importance": "high",
+        "keywords": [
+          "Fermi's Paradox",
+          "extraterrestrial life",
+          "search"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the Rare Earth Hypothesis attempt to explain the lack of discovered extraterrestrial civilizations?",
+        "importance": "optional",
+        "keywords": [
+          "Rare Earth Hypothesis",
+          "civilizations",
+          "lack of proof"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future of Exoplanet Research",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What techniques are being employed by the Kepler mission to discover Earth-like exoplanets?",
+        "importance": "high",
+        "keywords": [
+          "Kepler mission",
+          "techniques",
+          "exoplanets"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What timeline can we expect for the discovery of Earth-sized planets around other stars?",
+        "importance": "optional",
+        "keywords": [
+          "discovery",
+          "Earth-sized planets",
+          "timeline"
+        ]
+      }
+    ]
+  }
+]

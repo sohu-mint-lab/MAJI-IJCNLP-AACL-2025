@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Beyonce and the September Vogue Cover",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How did the collaboration between Beyonce and Tyler Mitchell for the Vogue cover come about?",
+        "importance": "critical",
+        "keywords": [
+          "Beyonce",
+          "Vogue cover",
+          "collaboration"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What significance does landing the Vogue cover have for Tyler Mitchell as a young photographer?",
+        "importance": "high",
+        "keywords": [
+          "Vogue cover",
+          "significance",
+          "young photographer"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Historical Context of Black Photographers in Fashion",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Why has it taken so long for a Black photographer to shoot the Vogue cover?",
+        "importance": "critical",
+        "keywords": [
+          "history",
+          "Black photographers",
+          "Vogue"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How has the democratization of photography changed opportunities for emerging photographers?",
+        "importance": "high",
+        "keywords": [
+          "democratization",
+          "photography",
+          "opportunities"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Tyler Mitchell's Artistic Vision and Style",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what ways did Tyler Mitchell's trip to Cuba influence his photographic style?",
+        "importance": "high",
+        "keywords": [
+          "Cuba",
+          "photographic style",
+          "influence"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What thematic elements does Tyler Mitchell incorporate into his photography?",
+        "importance": "high",
+        "keywords": [
+          "thematic elements",
+          "photography",
+          "style"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Aspirations and Projects",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What future projects does Tyler Mitchell envision after shooting the Vogue cover?",
+        "importance": "high",
+        "keywords": [
+          "future projects",
+          "Vogue cover",
+          "aspirations"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Tyler Mitchell see his career evolving in the context of recent accomplishments?",
+        "importance": "optional",
+        "keywords": [
+          "career evolution",
+          "accomplishments",
+          "photography"
+        ]
+      }
+    ]
+  }
+]

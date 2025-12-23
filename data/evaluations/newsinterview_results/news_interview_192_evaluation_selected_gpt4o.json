@@ -1,0 +1,319 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3986932209559849,
+                "avg_context_relevance": 0.4703147794519152,
+                "avg_outline_relevance": 0.9023140924317496,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 50.0,
+            "weighted_coverage_score": 44.0,
+            "covered_questions": 4,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Congress has yet to hear the testimony of special counsel Robert Mueller or former White House counsel Don McGahn. The treasury secretary, Steve Mnuchin, just rejected the subpoena demanding Trump's tax returns. And now Democrats are weighing how to respond. For more on the standoff, we're joined by NPR national political correspondent Mara Liasson. Good morning, Mara.",
+            "previous_answer": "Hi, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you share your initial thoughts on the current political standoff involving congressional subpoenas?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.11461175978183746,
+                        "outline_relevance": 0.6432734727859497,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share your initial thoughts on the current political standoff involving congressional subpoenas?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.11461175978183746,
+                            "outline_relevance": 0.6432734727859497,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "All right. Do Democrats have a strategy here?",
+            "previous_answer": "They thought they had one. Remember; the mantra before the election was that Trump's world would change because the House of Representatives would have subpoena power. But now we're finding out, what if they issued a subpoena and no one came? I don't think that the House anticipated that he would really stiff them across the board. And in some ways, the very idea of Congress holding oversight over the executive branch is being challenged. So this is a combination of Bill Barr, the attorney general's, long-standing belief in a very strong executive. He really doesn't think Congress should be investigating the president. And that fits nicely with Trump's, really, lifelong instinct, which is if you're not fighting, you're losing. He also doesn't want the exposure and the optics of having Mueller testify before the cameras. And, of course, he has a career-long history of litigiousness - take his enemies to court, cost them some money and, above all, run out the clock.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How has Attorney General Barr's approach affected Congress's ability to conduct investigations and oversight of the president?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6023138761520386,
+                        "outline_relevance": 0.9565737843513489,
+                        "originality": 0.484070360660553,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How has Attorney General Barr's approach affected Congress's ability to conduct investigations and oversight of the president?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6023138761520386,
+                            "outline_relevance": 0.9565737843513489,
+                            "originality": 0.484070360660553,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "All right, so what can the Democrats do then?",
+            "previous_answer": "The Democrats can take people who refuse to testify to court. They can find them. But, of course, that takes a very long time. You know, Eric Holder, Barack Obama's attorney general, was held in contempt by Congress, and it took seven years to resolve the issue. But what they can't do, Democrats say, is nothing. They don't want to lay down a precedent that the Congress can't conduct oversight over the executive branch. And that has left a lot of members really frustrated. You have more talk about impeachment now, even though they were pretty comfortable with Nancy Pelosi's formula - let's investigate and legislate and leave impeachment for down the road. But I also should add that this weekend, the first Republican member of Congress - Justin Amash of Michigan became the first Republican to say that Trump's conduct meets the threshold of impeachment.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How are Democrats internally debating the potential political and policy consequences of moving forward with impeachment discussions at this time?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5993528366088867,
+                        "outline_relevance": 0.9007389545440674,
+                        "originality": 0.31454402208328247,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How are Democrats internally debating the potential political and policy consequences of moving forward with impeachment discussions at this time?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5993528366088867,
+                            "outline_relevance": 0.9007389545440674,
+                            "originality": 0.31454402208328247,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Meanwhile, Attorney General Barr has appointed a federal prosecutor to review aspects of the investigation into contacts between Russia and the Trump campaign. What is he doing?",
+            "previous_answer": "He's doing what President Trump wants him to do, which is investigate the investigators. There are now three Justice Department inquiries, and to see if anything inappropriate happened when that counterintelligence investigation of Trump's campaign advisers and their contacts with Russia started. And Barr has been adopting President Trump's language, saying spying occurred. Spying implies an abuse of power. It's quite different than saying there was legally approved surveillance. And that has revived criticisms that Barr is acting more as the president's private defense lawyer than as the top law enforcement officer in the U.S.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What is the broader significance of the Justice Department's ongoing investigations into the Trump campaign's contacts with Russia?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7607580423355103,
+                        "outline_relevance": 0.9912748336791992,
+                        "originality": 0.43638086318969727,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What is the broader significance of the Justice Department's ongoing investigations into the Trump campaign's contacts with Russia?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7607580423355103,
+                            "outline_relevance": 0.9912748336791992,
+                            "originality": 0.43638086318969727,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Mara, there's also this report in The New York Times that Trump is considering pardoning some service members who committed war crimes. What do you make of that?",
+            "previous_answer": "Well, it could be a trial balloon. Sometimes he floats the idea of a pardon and it doesn't happen. But critics are saying that if he goes ahead with this, it will only encourage more war crimes.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How has Attorney General Barr's stance influenced Congress's ability to investigate the president?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4200490117073059,
+                        "outline_relevance": 1.0,
+                        "originality": 0.04342621564865112,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How has Attorney General Barr's stance influenced Congress's ability to investigate the president?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4200490117073059,
+                            "outline_relevance": 1.0,
+                            "originality": 0.04342621564865112,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "And meanwhile, the Democratic field in 2020 continues to grow. There are now 23 people in this field. The sheer size of it - does it pose a problem?",
+            "previous_answer": "I think it poses a problem to the Democratic debate planners because it's really hard to cram that many people on one stage, even in two bunches. But I think very quickly, the field will be winnowed. Already, you can see a kind of normal-sized Democratic field. Top five candidates - that's Biden, Sanders, Warren, Harris, Buttigieg. So I do think that, eventually, this field will start looking a lot more normal than it does right now.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share your thoughts on which candidates are currently leading in the Democratic primary field and how you expect that to evolve as the campaign progresses?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6983211040496826,
+                        "outline_relevance": 0.8846918940544128,
+                        "originality": 0.4524751901626587,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share your thoughts on which candidates are currently leading in the Democratic primary field and how you expect that to evolve as the campaign progresses?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6983211040496826,
+                            "outline_relevance": 0.8846918940544128,
+                            "originality": 0.4524751901626587,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "That's NPR national political correspondent Mara Liasson. Thank you so much, Mara.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you assess the implications of the Justice Department's investigations into the Trump campaign's contacts with Russia for the upcoming election cycle?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.09679682552814484,
+                        "outline_relevance": 0.9396457076072693,
+                        "originality": 0.059955894947052,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you assess the implications of the Justice Department's investigations into the Trump campaign's contacts with Russia for the upcoming election cycle?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.09679682552814484,
+                            "outline_relevance": 0.9396457076072693,
+                            "originality": 0.059955894947052,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

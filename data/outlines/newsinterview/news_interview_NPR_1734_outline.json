@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to the Study of Rocking and Sleep",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What observations led Dr. Muhlethaler to investigate the effects of rocking on sleep?",
+        "importance": "critical",
+        "keywords": [
+          "rocking",
+          "sleep",
+          "research"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What is a potential practical application of the findings from this study?",
+        "importance": "high",
+        "keywords": [
+          "rocking beds",
+          "insomnia",
+          "practical application"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Key Findings from the Rocking Sleep Experiment",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What were the main findings regarding how rocking affects sleep duration and depth?",
+        "importance": "critical",
+        "keywords": [
+          "findings",
+          "brainwaves",
+          "sleep depth"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does rocking change brainwave patterns during sleep according to the study?",
+        "importance": "high",
+        "keywords": [
+          "brainwave patterns",
+          "EEG",
+          "rocking"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Implications and Future Research Directions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What implications do the results have for treatment options for sleep disorders?",
+        "importance": "high",
+        "keywords": [
+          "treatment",
+          "sleep disorders",
+          "implications"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are the next steps in Dr. Muhlethaler's research on rocking and sleep?",
+        "importance": "optional",
+        "keywords": [
+          "future research",
+          "long-term effects",
+          "data collection"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Technological and Commercial Interest",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How have bed manufacturers reacted to the preliminary findings of the study?",
+        "importance": "high",
+        "keywords": [
+          "manufacturers",
+          "interest",
+          "commercial"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What unique aspects are being considered in the design of rocking bedding products?",
+        "importance": "optional",
+        "keywords": [
+          "bedding design",
+          "rocking motion",
+          "innovation"
+        ]
+      }
+    ]
+  }
+]

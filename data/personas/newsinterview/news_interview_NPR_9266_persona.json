@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Dr. David Blake",
+    "age": 50,
+    "personality": "Enthusiastic and inquisitive, deeply fascinated by the potential for life beyond Earth, with a pragmatic approach to scientific exploration.",
+    "employment": "Research Scientist at NASA Ames Research Center",
+    "notes": "Principal investigator for the CheMin instrument on the Curiosity Rover, actively involved in analyzing Martian soil and the potential for past life.",
+    "communication_style": "Clear and engaging, often using analogies and detailed explanations to convey complex scientific concepts."
+  }
+}

@@ -1,0 +1,566 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.44793902497206417,
+                "avg_context_relevance": 0.3877914245905621,
+                "avg_outline_relevance": 0.6258760946137565,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.502278711114611,
+                "avg_context_relevance": 0.4102485084107944,
+                "avg_outline_relevance": 0.6943491910185132,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 54.54545454545454,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Donald Trump is at his New Jersey golf course today and is due back in Washington this afternoon. He's been followed all weekend by go back and send her back, the racist tweets and chants he's been alternately embracing and distancing himself from. NPR congressional correspondent Susan Davis has some thoughts on what this tells us about what's to come, and she joins us now. Hi, Susan.",
+            "previous_answer": "Good morning, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you interpret Donald Trump's recent engagement with racial issues in shaping his re-election strategy?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.038743019104003906,
+                        "outline_relevance": 0.9090970754623413,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Broad: How do you interpret Trump's recent public behavior in the context of his overall re-election strategy?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.02632107585668564,
+                            "outline_relevance": 0.681113064289093,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Depth: Can you elaborate on the significance of Trump's engagement with racial issues in his campaign?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.11929046362638474,
+                            "outline_relevance": 0.8109551072120667,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: What are the potential impacts of Trump's latest moves on his support base and electoral prospects?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.02854175493121147,
+                            "outline_relevance": 0.759835958480835,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do you interpret Donald Trump's recent engagement with racial issues in shaping his re-election strategy?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.038743019104003906,
+                            "outline_relevance": 0.9090970754623413,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "All right. Is this past week a taste of what's next? Did we just see what the 2020 election is going to be run on or, at least, what Donald Trump wants the election to be run on?",
+            "previous_answer": "You know, it's certainly part of President Trump's reelection strategy. It might become the driving strategy, depending on what the Democratic ticket looks like next year. I don't think, in some ways, this comes as a surprise if you follow politics because Donald Trump has a long history of using racial divides in America to advance his brand and his political goals. I think this is happening because Trump's clearest path - and I would say maybe his only path to reelection - will require winning again in those so-called blue states - Michigan, Wisconsin and Pennsylvania. And those states are home to high numbers of Trump's strongest supporter. Who is that? The white working-class voter. So if those voters show up in force in 2020, that's his best shot at a second term. And I think this week just proves he's willing to say pretty much whatever he thinks to get him there.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Which voter demographic is most crucial for Donald Trump's chances in the 2020 election, and why does this group hold such significance?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.44252485036849976,
+                        "outline_relevance": 0.9137129783630371,
+                        "originality": 0.46202993392944336,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: How might the Democratic ticket shape Trump's strategic focus for 2020?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6131129264831543,
+                            "outline_relevance": 0.6717631220817566,
+                            "originality": 0.3088972568511963,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: What other voter demographics could become pivotal in the upcoming election beyond the white working-class?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5040910840034485,
+                            "outline_relevance": 0.6126240491867065,
+                            "originality": 0.47717708349227905,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: Could you discuss the broader implications of focusing on racial divides for the political climate and election outcomes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5425324440002441,
+                            "outline_relevance": 0.7418739795684814,
+                            "originality": 0.32645124197006226,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Which voter demographic is most crucial for Donald Trump's chances in the 2020 election, and why does this group hold such significance?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.44252485036849976,
+                            "outline_relevance": 0.9137129783630371,
+                            "originality": 0.46202993392944336,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "You say that this is Trump's only path, sort of appealing to this white racial resentment. Why? Because it's a sure bet? In that case, I do want to note that the midterms didn't exactly go his way.",
+            "previous_answer": "Oh, yeah. I mean, I say it's his only path because if you look at Trump's time in office, he has not done anything to expand his coalition in the time he's been there. It's much harder to see a 2020 in which he can improve his numbers with women, young people and Latinos then try to double down on the white support that he has very strongly and especially because white voters still cast most of the votes in this country. You are absolutely right, though, that this is a risky strategy. If you remember those three blue states, it was about 80,000 votes that swung those three states. That's really not a steep hill for Democrats to climb to win them back, especially if they can motivate voters on the other side. I also say the Republicans, a lot of time, act like 2018 didn't happen, where there was this huge blue wave. It was the most racially diverse electorate ever. It was sort of a glimpse into the future of what's to come. But I also think that the downside for Democrats - in that a lot of the demographic changes that are changing this country - are not happening in the places that matter much to presidential elections. For instance, in places like California, if Democrats win a million more votes in 2020, that doesn't change the electoral math. And that's what we're talking about here.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the narrow margins and the 2018 blue wave, how do recent election outcomes influence the adjustments or continuations in Trump's strategy moving into 2020?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5342895984649658,
+                        "outline_relevance": 0.780125617980957,
+                        "originality": 0.3094356060028076,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: What obstacles have prevented Trump from broadening his appeal beyond his core white voter base?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6342244148254395,
+                            "outline_relevance": 0.691347599029541,
+                            "originality": 0.34195607900619507,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: How might shifts in voter turnout patterns among younger and minority groups impact the 2020 election outcome?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.37472158670425415,
+                            "outline_relevance": 0.6408445835113525,
+                            "originality": 0.31316518783569336,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: Could you elaborate on the strategic risks Trump faces by concentrating heavily on his existing voter demographic, especially given recent election results?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5477275252342224,
+                            "outline_relevance": 0.7175980806350708,
+                            "originality": 0.20214760303497314,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Given the narrow margins and the 2018 blue wave, how do recent election outcomes influence the adjustments or continuations in Trump's strategy moving into 2020?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5342895984649658,
+                            "outline_relevance": 0.780125617980957,
+                            "originality": 0.3094356060028076,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "I'm curious. Do you see much significance in Trump's approval rating? NBC and The Wall Street Journal have it at 45%. We get these approval rating check-ins almost daily. And that's despite the economy before this week's drama. But I wonder if it's an instructive measure anymore.",
+            "previous_answer": "I think it's significant because it speaks to one of the most fascinating aspects about the Trump presidency in that, despite all of the conflict and division, he has the most stable approval ratings of any president since we began polling presidents, you know? Presidents have seen 30, 40, 50-point swings in approval over the course of their presidencies. Trump's has stayed in about this 9-point range. That 45% is the high end of that. So, right now, he's actually enjoying some of his highest approval ratings. I think what that tells me is that this is a country that really has its mind made up about Donald Trump and that the 2020 election isn't going to be about persuading voters to change their mind. It's really about just getting them to show up.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think Trump's stable approval ratings will shape the messaging and strategies his campaign uses in the lead-up to the 2020 election?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7273190021514893,
+                        "outline_relevance": 0.8556525111198425,
+                        "originality": 0.27559947967529297,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How might Trump's stable approval ratings affect his campaign tactics this election cycle?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7275776863098145,
+                            "outline_relevance": 0.8512070775032043,
+                            "originality": 0.1960374116897583,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What role do you think voter turnout strategies will play considering the fixed nature of Trump's voter base?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5445153117179871,
+                            "outline_relevance": 0.7236558198928833,
+                            "originality": 0.2242363691329956,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Can you discuss how the entrenched approval ratings might influence both parties' strategies leading up to the 2020 election?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4848784804344177,
+                            "outline_relevance": 0.7428884506225586,
+                            "originality": 0.32611536979675293,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do you think Trump's stable approval ratings will shape the messaging and strategies his campaign uses in the lead-up to the 2020 election?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7273190021514893,
+                            "outline_relevance": 0.8556525111198425,
+                            "originality": 0.27559947967529297,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "And, finally, the U.S. is brushing up against the debt limit, again, which means Congress needs to allow financing for spending it has already approved. What are the negotiations right now looking like?",
+            "previous_answer": "Speaker Pelosi and Treasury Secretary Mnuchin have been in talks all week and through the course of the weekend. They need to get a deal soon because while we're not expected to hit the debt limit until early September, Congress is trying to adjourn for the August break, and they need to get it done. They've passed an informal deadline of Friday, so they're kind of working hard to get something done. And it's something we'll obviously be following very closely this week on Capitol Hill.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the urgency around the debt limit and Congress's aim to adjourn soon, what is the specific timeline Congress is working within to resolve the debt limit issue before the August break?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7049689888954163,
+                        "outline_relevance": 0.8135308027267456,
+                        "originality": 0.5891866087913513,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What are the broader implications for government operations if the debt limit isn't increased on time?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4041917324066162,
+                            "outline_relevance": 0.6592108011245728,
+                            "originality": 0.5515010952949524,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you explain the key obstacles that are preventing a timely agreement on the debt limit?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.503008246421814,
+                            "outline_relevance": 0.7651875019073486,
+                            "originality": 0.5590446591377258,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How are different political factions within Congress influencing the debt limit negotiations and their urgency?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.582680344581604,
+                            "outline_relevance": 0.8233855366706848,
+                            "originality": 0.4288148880004883,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Given the urgency around the debt limit and Congress's aim to adjourn soon, what is the specific timeline Congress is working within to resolve the debt limit issue before the August break?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7049689888954163,
+                            "outline_relevance": 0.8135308027267456,
+                            "originality": 0.5891866087913513,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "And just one more question. I hear your daughter is having her first birthday today. Is that true?",
+            "previous_answer": "She's going to turn 1 tomorrow, but we're celebrating today.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do personal milestones like your daughter's first birthday influence your perspective on the political stories you cover?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.37330272793769836,
+                        "outline_relevance": 0.3334222733974457,
+                        "originality": 0.5978026390075684,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you balance your demanding role as a congressional correspondent with your family life during such important milestones?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.12410052120685577,
+                            "outline_relevance": 0.36377036571502686,
+                            "originality": 0.49836283922195435,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share any personal reflections on what your daughter's first birthday means to you amidst your busy career?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.34855619072914124,
+                            "outline_relevance": 0.15524281561374664,
+                            "originality": 0.7965200394392014,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do personal milestones like your daughter's birthday influence your perspective on political events or stories you cover?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4080740511417389,
+                            "outline_relevance": 0.3662846088409424,
+                            "originality": 0.47591471672058105,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do personal milestones like your daughter's first birthday influence your perspective on the political stories you cover?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.37330272793769836,
+                            "outline_relevance": 0.3334222733974457,
+                            "originality": 0.5978026390075684,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Happy birthday to Lou (ph). Thank you so much.",
+            "previous_answer": "Oh, thank you so much.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Balancing a demanding political journalism career with personal life can be challenging. How do you manage to celebrate significant family moments, like your daughter's first birthday, while handling the pressures of your role?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.050591371953487396,
+                        "outline_relevance": 0.25490307807922363,
+                        "originality": 0.281896710395813,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you balance your demanding role as a congressional correspondent with your family life during such important milestones?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.1775728464126587,
+                            "outline_relevance": 0.36377036571502686,
+                            "originality": 0.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share any personal reflections on what your daughter's first birthday means to you amidst your busy career?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.19433963298797607,
+                            "outline_relevance": 0.15524281561374664,
+                            "originality": 0.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do personal milestones like your daughter's birthday influence your perspective on political events or stories you cover?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.09636200964450836,
+                            "outline_relevance": 0.3662846088409424,
+                            "originality": -1.1920928955078125e-07,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balancing a demanding political journalism career with personal life can be challenging. How do you manage to celebrate significant family moments, like your daughter's first birthday, while handling the pressures of your role?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.050591371953487396,
+                            "outline_relevance": 0.25490307807922363,
+                            "originality": 0.281896710395813,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Understanding Alzheimer's Disease",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the recent statistics regarding Alzheimer's disease's prevalence and impact in the United States?",
+        "importance": "critical",
+        "keywords": [
+          "Alzheimer's disease",
+          "statistics",
+          "impact"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Why is early diagnosis important despite the lack of effective treatment for Alzheimer's disease?",
+        "importance": "high",
+        "keywords": [
+          "early diagnosis",
+          "importance",
+          "treatment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Changes in Diagnostic Guidelines",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How have the diagnostic guidelines for Alzheimer's disease changed over the past 27 years?",
+        "importance": "critical",
+        "keywords": [
+          "diagnostic guidelines",
+          "changes",
+          "Alzheimer's disease"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are the three stages of Alzheimer's disease as defined by the new guidelines?",
+        "importance": "high",
+        "keywords": [
+          "stages",
+          "guidelines",
+          "diagnosis"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Biomarkers and Research Initiatives",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What types of biomarkers are being researched to identify Alzheimer's disease at earlier stages?",
+        "importance": "critical",
+        "keywords": [
+          "biomarkers",
+          "research",
+          "Alzheimer's disease"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How is the Alzheimer's Disease Neuroimaging Initiative (ADNI) contributing to understanding the disease?",
+        "importance": "high",
+        "keywords": [
+          "ADNI",
+          "research study",
+          "longitudinal"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Public Involvement and Future Perspectives",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How can the public participate in clinical trials related to Alzheimer's disease?",
+        "importance": "high",
+        "keywords": [
+          "public involvement",
+          "clinical trials",
+          "Alzheimer's disease"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What potential benefits could arise from knowing the early signs of Alzheimer's disease?",
+        "importance": "optional",
+        "keywords": [
+          "early signs",
+          "benefits",
+          "awareness"
+        ]
+      }
+    ]
+  }
+]

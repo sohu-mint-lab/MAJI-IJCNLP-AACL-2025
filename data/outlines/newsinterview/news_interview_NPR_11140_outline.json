@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Steganography",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is steganography and how has it been exemplified in recent investigations?",
+        "importance": "high",
+        "keywords": [
+          "steganography",
+          "investigation",
+          "information hiding"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Can you explain the importance of hidden messages in communication?",
+        "importance": "high",
+        "keywords": [
+          "hidden messages",
+          "communication",
+          "importance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Mechanics of Information Hiding",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What techniques are used to hide information within files?",
+        "importance": "critical",
+        "keywords": [
+          "techniques",
+          "information hiding",
+          "files"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How much information can typically be hidden within a standard file?",
+        "importance": "high",
+        "keywords": [
+          "information capacity",
+          "file size",
+          "hiding"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Statistical Analysis and Detection",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How can statistical analysis be used to detect steganography?",
+        "importance": "high",
+        "keywords": [
+          "statistical analysis",
+          "detection",
+          "steganography"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are the challenges involved in ensuring the effectiveness of steganography?",
+        "importance": "high",
+        "keywords": [
+          "challenges",
+          "effectiveness",
+          "steganography"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Applications and Ethical Considerations",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "In what non-malicious contexts is steganography used?",
+        "importance": "high",
+        "keywords": [
+          "applications",
+          "non-malicious",
+          "steganography"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What distinguishes steganography from encryption, and why is this distinction important?",
+        "importance": "critical",
+        "keywords": [
+          "distinction",
+          "steganography",
+          "encryption"
+        ]
+      }
+    ]
+  }
+]

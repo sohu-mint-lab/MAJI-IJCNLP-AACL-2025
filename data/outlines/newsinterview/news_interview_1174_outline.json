@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Context of 'Society's Child'",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What societal issues does Janis Ian address in her song 'Society's Child'?",
+        "importance": "critical",
+        "keywords": [
+          "Society's Child",
+          "interracial romance",
+          "societal issues"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did Janis Ian's personal experiences influence the writing of 'Society's Child'?",
+        "importance": "high",
+        "keywords": [
+          "personal experiences",
+          "writing",
+          "influence"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Challenges Faced by Janis Ian",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What kind of backlash did Janis Ian receive after the release of 'Society's Child'?",
+        "importance": "critical",
+        "keywords": [
+          "backlash",
+          "death threats",
+          "reception"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What was the response from her producer regarding the lyrics of the song?",
+        "importance": "high",
+        "keywords": [
+          "producer",
+          "lyrics",
+          "choice"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Performing 'Society's Child'",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How did Janis Ian react during her performance of 'Society's Child' in Encino?",
+        "importance": "critical",
+        "keywords": [
+          "performance",
+          "reaction",
+          "encounter"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What did Janis Ian learn about her audience after the encounter at the concert?",
+        "importance": "high",
+        "keywords": [
+          "audience",
+          "learning",
+          "encounter"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Reflections on Change",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Janis Ian perceive the progress of interracial relationships from her time to today?",
+        "importance": "critical",
+        "keywords": [
+          "progress",
+          "interracial relationships",
+          "perception"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What does Janis Ian see as ongoing challenges in society regarding racial issues?",
+        "importance": "high",
+        "keywords": [
+          "challenges",
+          "racial issues",
+          "society"
+        ]
+      }
+    ]
+  }
+]

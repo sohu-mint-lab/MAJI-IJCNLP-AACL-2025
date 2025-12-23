@@ -1,0 +1,114 @@
+[
+  {
+    "id": "S1",
+    "section": "Khashoggi's Disappearance and U.S. Response",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What has been President Trump's stance regarding Saudi Arabia's involvement in Khashoggi's disappearance?",
+        "importance": "critical",
+        "keywords": [
+          "Khashoggi",
+          "Trump",
+          "Saudi Arabia",
+          "response"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the U.S. response contribute to fears among journalists and dissidents in the Middle East?",
+        "importance": "high",
+        "keywords": [
+          "U.S. response",
+          "fear",
+          "journalists",
+          "dissidents"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Personal Connection to Jamal Khashoggi",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What insights does Joseph Bahout provide about his relationship with Khashoggi?",
+        "importance": "high",
+        "keywords": [
+          "Bahout",
+          "Khashoggi",
+          "relationship",
+          "journalism"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "In what ways did Khashoggi's views change over time according to Bahout?",
+        "importance": "high",
+        "keywords": [
+          "views",
+          "change",
+          "Khashoggi",
+          "Saudi Arabia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impact on the Dissident Community",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How has Khashoggi's disappearance affected activists and the dissident community in the Middle East?",
+        "importance": "critical",
+        "keywords": [
+          "impact",
+          "dissidents",
+          "activists",
+          "Khashoggi"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What fears do dissidents have regarding their safety after the Khashoggi incident?",
+        "importance": "high",
+        "keywords": [
+          "dissidents",
+          "safety",
+          "Khashoggi",
+          "fear"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Global Implications of Inaction",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What consequences does Bahout believe could arise if the West does not react to Khashoggi's situation?",
+        "importance": "critical",
+        "keywords": [
+          "West",
+          "reaction",
+          "consequences",
+          "Khashoggi"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Bahout characterize the potential transformation of the Arab region without Western action?",
+        "importance": "high",
+        "keywords": [
+          "Arab region",
+          "transformation",
+          "Western action",
+          "prison"
+        ]
+      }
+    ]
+  }
+]

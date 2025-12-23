@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Advancements in Weather Forecasting",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What advancements have contributed to the accuracy of today's weather forecasts?",
+        "importance": "critical",
+        "keywords": [
+          "advancements",
+          "weather forecasting",
+          "accuracy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Role of Technology in Weather Models",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How do modern weather models utilize observations to generate forecasts?",
+        "importance": "critical",
+        "keywords": [
+          "weather models",
+          "observations",
+          "forecasts"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What is the significance of the collaboration between different nations in weather observation?",
+        "importance": "high",
+        "keywords": [
+          "collaboration",
+          "nations",
+          "weather observation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges and Threats in Weather Forecasting",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what ways is privatization seen as a threat to the public good of weather forecasting?",
+        "importance": "critical",
+        "keywords": [
+          "privatization",
+          "threat",
+          "public good"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Can you provide an example of how a privatized forecasting system might create disparities?",
+        "importance": "high",
+        "keywords": [
+          "privatized forecasting",
+          "disparities",
+          "example"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future of Weather Prediction and Societal Impact",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What concerns do experts have regarding the societal implications of accurate long-term weather forecasts?",
+        "importance": "high",
+        "keywords": [
+          "societal implications",
+          "accurate forecasts",
+          "concerns"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How can society better prepare for and respond to catastrophic weather events predicted in advance?",
+        "importance": "high",
+        "keywords": [
+          "prepare",
+          "society",
+          "catastrophic events"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Current Status of Government Shutdown",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the latest developments regarding the government shutdown and negotiations between Congress and the White House?",
+        "importance": "critical",
+        "keywords": [
+          "government shutdown",
+          "negotiations",
+          "Congress"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What immediate impacts is the government shutdown having on services and citizens?",
+        "importance": "high",
+        "keywords": [
+          "impact",
+          "services",
+          "citizens"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "President Trump's Position on the Wall",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How has President Trump's message about the wall evolved during the shutdown?",
+        "importance": "critical",
+        "keywords": [
+          "Trump",
+          "wall",
+          "message"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are the implications of Trump's insistence on wall funding for his political standing and negotiations?",
+        "importance": "high",
+        "keywords": [
+          "political standing",
+          "negotiations",
+          "wall funding"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Democratic and Republican Responses",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How are congressional Republicans reacting to the pressure from the government shutdown?",
+        "importance": "high",
+        "keywords": [
+          "Republicans",
+          "pressure",
+          "shutdown"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What strategies are Democrats employing in response to the shutdown and the impeachment discussions?",
+        "importance": "high",
+        "keywords": [
+          "Democrats",
+          "strategies",
+          "impeachment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Impact of Controversies on Political Messaging",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How did Congresswoman Tlaib's comments affect the Democratic messaging around the shutdown?",
+        "importance": "high",
+        "keywords": [
+          "Tlaib",
+          "comments",
+          "Democratic messaging"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "In what ways do political controversies shape the dynamics of negotiations in Congress?",
+        "importance": "optional",
+        "keywords": [
+          "political controversies",
+          "negotiations",
+          "Congress"
+        ]
+      }
+    ]
+  }
+]

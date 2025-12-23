@@ -1,0 +1,643 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.26169240195304155,
+                "avg_context_relevance": 0.3847918687388301,
+                "avg_outline_relevance": 0.8397785257548094,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 59.09090909090909,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Flora Lichtman is here with our Video Pick of the Week. Hi, Flora. What have you got for us today?",
+            "previous_answer": "Ira, today we have the story of a comet that has a tale to tell.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How exactly did researchers track Comet Lovejoy's behavior as it made its close approach to the sun, and what tools or techniques were pivotal in capturing these observations?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4489207863807678,
+                        "outline_relevance": 0.8480044603347778,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How exactly did researchers track Comet Lovejoy's behavior as it made its close approach to the sun, and what tools or techniques were pivotal in capturing these observations?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4489207863807678,
+                            "outline_relevance": 0.8480044603347778,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Comets...",
+            "previous_answer": "Get it?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What does the wiggle of Comet Lovejoy's tail tell us about the behavior of the sun's magnetic field?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.14629031717777252,
+                        "outline_relevance": 0.9063608646392822,
+                        "originality": 0.30846208333969116,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What does the wiggle of Comet Lovejoy's tail tell us about the behavior of the sun's magnetic field?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.14629031717777252,
+                            "outline_relevance": 0.9063608646392822,
+                            "originality": 0.30846208333969116,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "I get it. Straight pun.",
+            "previous_answer": "It's even better, Ira, because actually the part of - what the comet is telling us comes from its tail. OK, so let me...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What does the wiggle in Comet Lovejoy's tail reveal about the sun's magnetic dynamics?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5372674465179443,
+                        "outline_relevance": 0.9467799663543701,
+                        "originality": 0.03261905908584595,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What does the wiggle in Comet Lovejoy's tail reveal about the sun's magnetic dynamics?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5372674465179443,
+                            "outline_relevance": 0.9467799663543701,
+                            "originality": 0.03261905908584595,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Go for it.",
+            "previous_answer": "OK. One-man band in here. OK. Back in 2011, a comet called Lovejoy - Comet Lovejoy - grazed the sun, went through the sun's corona. And space geeks probably already know this because it happened in 2011. But the neat thing was that it was imaged from all of these different angles. And what researchers like Cooper Downs - he's an astrophysicist of Predictive Science in San Diego, California - saw was that this comet, when it passed through the sun, which is really hot, right? So most comets don't even make it through. And this comet lived to tell the tale. Anyway, it did this wiggle. The tail wiggled behind it. And what they were reporting on this week in Science is they're trying to explain that wiggle, tie that wiggle to the sun's dynamics.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "The tail of Comet Lovejoy exhibited a unique wiggle as it passed close to the sun, which is quite intriguing. Could you delve into what physical processes or forces might be causing this distinctive motion of the comet's tail?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6031306982040405,
+                        "outline_relevance": 0.7871948480606079,
+                        "originality": 0.24104881286621094,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "The tail of Comet Lovejoy exhibited a unique wiggle as it passed close to the sun, which is quite intriguing. Could you delve into what physical processes or forces might be causing this distinctive motion of the comet's tail?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6031306982040405,
+                            "outline_relevance": 0.7871948480606079,
+                            "originality": 0.24104881286621094,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "This is SCIENCE FRIDAY from NPR. I'm Ira Flatow here with Flora Lichtman, our Video Pick of the Week. And in the video you can actually see the wiggle of the tail as it goes through the sun's corona.",
+            "previous_answer": "You can.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What does observing the comet's tail wiggle tell us about the conditions in the sun's corona?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.09219707548618317,
+                        "outline_relevance": 0.8465272188186646,
+                        "originality": 0.20646774768829346,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What does observing the comet's tail wiggle tell us about the conditions in the sun's corona?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.09219707548618317,
+                            "outline_relevance": 0.8465272188186646,
+                            "originality": 0.20646774768829346,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "It's just amazing.",
+            "previous_answer": "I love the STO. This is the observatory from NASA that's doing a lot of this imaging. The video is just beautiful. And you can - yeah, you can actually see this little wiggle. And what's happening is that the charged particles from the comet are getting moved around by the sun's magnetic field, sort of like iron filings near a magnet, really. And what this allows people like Cooper Downs to do is check their models of the sun's magnetic field against observational data of the field. And of course this is of interest to even us earthlings because solar weather, you know, what the sun sends towards us and can interfere with electrical grids, is all part of this process. So that's sort of the idea behind this week's paper. But you can see it for yourself on our website.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific information about the sun's dynamics can scientists learn from observing the wiggle in Comet Lovejoy's tail?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6266469955444336,
+                        "outline_relevance": 0.9128729104995728,
+                        "originality": 0.1265174150466919,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What specific information about the sun's dynamics can scientists learn from observing the wiggle in Comet Lovejoy's tail?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6266469955444336,
+                            "outline_relevance": 0.9128729104995728,
+                            "originality": 0.1265174150466919,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "And it's up there in our website at sciencefriday.com. Augmented, of course, by Flora's original and unique animation on the video.",
+            "previous_answer": "And rudimentary.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Could you elaborate on what aspect you consider rudimentary and why?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.5719932317733765,
+                        "outline_relevance": 0.20094206929206848,
+                        "originality": 0.8061841279268265,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you elaborate on what aspect you consider rudimentary and why?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.5719932317733765,
+                            "outline_relevance": 0.20094206929206848,
+                            "originality": 0.8061841279268265,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "(Unintelligible) What's interesting also that you mentioned - about what you mentioned in the video is how much luck played into this discovery, right?",
+            "previous_answer": "That's right. You can't send spacecraft there because the weather is really bad on the sun as you might imagine. It's a little bit hot.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you tell us about the insight Cooper Downs shared regarding how comets are named?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.33909040689468384,
+                        "outline_relevance": 0.9400663375854492,
+                        "originality": 0.3324604034423828,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you tell us about the insight Cooper Downs shared regarding how comets are named?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.33909040689468384,
+                            "outline_relevance": 0.9400663375854492,
+                            "originality": 0.3324604034423828,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "Too hot.",
+            "previous_answer": "So you have to wait for these celestial explorers, as Cooper Downs calls them, to just happen to go by. And you get the sense - I get the sense from him, there's more than a little bit of personification going on, which, of course, I amplify in the video because why not. But let me just give you a sense of how he describes them. DR. COOPER DOWNS: These comments are in a sense sacrificing themselves and providing us with a rich amount of information. The fact that we name comets after the discoverer, or at least the large comets, really does add this human element to these celestial objects. But after I've been staring at this data for almost a year, I certainly feel a personal attachment to it. That's Cooper Downs from Predictive Science in San Diego.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking ahead, what makes Comet Ison particularly interesting to astronomers as it approaches the sun?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.46078091859817505,
+                        "outline_relevance": 0.8801929950714111,
+                        "originality": 0.27561551332473755,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Looking ahead, what makes Comet Ison particularly interesting to astronomers as it approaches the sun?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.46078091859817505,
+                            "outline_relevance": 0.8801929950714111,
+                            "originality": 0.27561551332473755,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "He's very proud of his work, it looks like.",
+            "previous_answer": "Absolutely. And, you know, so I asked this about luck too. And he said, yes, well, we have to take what we can get, but it turns out that Comet Ison is headed towards the sun in November. So they're hoping for another batch of data coming up this fall, something to keep an eye out for, he said, because it's going to look really full too, even for us.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What makes Comet Ison particularly noteworthy compared to other comets in terms of what scientists hope to learn from it?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5956292152404785,
+                        "outline_relevance": 0.8571591377258301,
+                        "originality": 0.12825322151184082,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What makes Comet Ison particularly noteworthy compared to other comets in terms of what scientists hope to learn from it?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5956292152404785,
+                            "outline_relevance": 0.8571591377258301,
+                            "originality": 0.12825322151184082,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "For us. That's supposed to be a super comet we'll see with the naked eye up in the sky.",
+            "previous_answer": "Yeah.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What does the wiggle in Comet Lovejoy's tail tell us about the behavior of the sun and its environment?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1778552234172821,
+                        "outline_relevance": 0.9502429962158203,
+                        "originality": 0.09828871488571167,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What does the wiggle in Comet Lovejoy's tail tell us about the behavior of the sun and its environment?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1778552234172821,
+                            "outline_relevance": 0.9502429962158203,
+                            "originality": 0.09828871488571167,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 11,
+            "actual_question": "So this comet actually was not gobbled up by the sun. It was - it's made its journey and went back out again.",
+            "previous_answer": "It went back out - it did get - it did break a little bit later.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain what the wiggle of Comet Lovejoy's tail indicates about the sun's dynamics?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.15439996123313904,
+                        "outline_relevance": 0.9878705143928528,
+                        "originality": 0.0627976655960083,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain what the wiggle of Comet Lovejoy's tail indicates about the sun's dynamics?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.15439996123313904,
+                            "outline_relevance": 0.9878705143928528,
+                            "originality": 0.0627976655960083,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 12,
+            "actual_question": "Oh, yeah?",
+            "previous_answer": "(Unintelligible) just a little bit amount of time. But that was a history maker. I don't think we've ever seen a comet do that before. So even though it survived only for a few days, it did survived.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain more about what makes Comet Lovejoy's survival such a historic event compared to previous comet observations?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7175801992416382,
+                        "outline_relevance": 0.789704442024231,
+                        "originality": 0.23412984609603882,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain more about what makes Comet Lovejoy's survival such a historic event compared to previous comet observations?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7175801992416382,
+                            "outline_relevance": 0.789704442024231,
+                            "originality": 0.23412984609603882,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 13,
+            "actual_question": "If you want to see what a tail of a comet looks like as - it's almost like lighting strikes. You know, it's like lightning bolts?",
+            "previous_answer": "Mm-hmm.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on how the comet tail’s movements resemble lightning bolts and what causes this striking visual effect?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2379665970802307,
+                        "outline_relevance": 0.7694965600967407,
+                        "originality": 0.21086770296096802,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you elaborate on how the comet tail’s movements resemble lightning bolts and what causes this striking visual effect?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2379665970802307,
+                            "outline_relevance": 0.7694965600967407,
+                            "originality": 0.21086770296096802,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 14,
+            "actual_question": "Lightning bolts as it goes by around the sun, it makes its pass, and its tails wiggles in the magnetic field. It's really kind of neat.",
+            "previous_answer": "The sun imagery is really - it's worth looking at. It's really cool.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the significance of the wiggle in Comet Lovejoy's tail and what it reveals about the sun's magnetic field or other solar phenomena?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.38009896874427795,
+                        "outline_relevance": 0.8915972709655762,
+                        "originality": 0.07255756855010986,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain the significance of the wiggle in Comet Lovejoy's tail and what it reveals about the sun's magnetic field or other solar phenomena?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.38009896874427795,
+                            "outline_relevance": 0.8915972709655762,
+                            "originality": 0.07255756855010986,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 15,
+            "actual_question": "Yeah. The sun stuff is terrific. Go to our website at sciencefriday.com. It's our Video Pick of the Week up there on the website. It'll also be available, you know, if you want to download it and look on it with your Web browser, or on your app on your iPhone or Android app. Thank you, Flora.",
+            "previous_answer": "Thanks, Ira.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "The wiggle in Comet Lovejoy's tail seems fascinating. Could you explain what this feature reveals about the sun's behavior and its magnetic environment?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.0668218582868576,
+                        "outline_relevance": 0.9214438199996948,
+                        "originality": 0.05080854892730713,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "The wiggle in Comet Lovejoy's tail seems fascinating. Could you explain what this feature reveals about the sun's behavior and its magnetic environment?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.0668218582868576,
+                            "outline_relevance": 0.9214438199996948,
+                            "originality": 0.05080854892730713,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

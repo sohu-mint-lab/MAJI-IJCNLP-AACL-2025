@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Impact of the Camp Fire on Paradise High School",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What challenges did the principal face in the aftermath of the Camp Fire?",
+        "importance": "critical",
+        "keywords": [
+          "Camp Fire",
+          "Paradise High School",
+          "challenges"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the decision to move classes online affect students?",
+        "importance": "high",
+        "keywords": [
+          "online school",
+          "students",
+          "impact"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Community Support and Resources",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What types of support have community members provided for the students?",
+        "importance": "high",
+        "keywords": [
+          "community support",
+          "students",
+          "resources"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How has the support from outside the community affected the morale of students and staff?",
+        "importance": "optional",
+        "keywords": [
+          "morale",
+          "support",
+          "community"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Personal Impact on Principal Loren Lighthall",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What personal challenges has Principal Lighthall faced after losing his home?",
+        "importance": "critical",
+        "keywords": [
+          "personal challenges",
+          "home loss",
+          "Loren Lighthall"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What led to Loren Lighthall's decision to leave his position at the school?",
+        "importance": "high",
+        "keywords": [
+          "decision",
+          "leave",
+          "school"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Message of Hope to Graduating Seniors",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What message does Principal Lighthall wish to convey to the graduating seniors?",
+        "importance": "critical",
+        "keywords": [
+          "message",
+          "graduating seniors",
+          "hope"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Lighthall suggest students should deal with past trauma?",
+        "importance": "high",
+        "keywords": [
+          "trauma",
+          "coping",
+          "students"
+        ]
+      }
+    ]
+  }
+]

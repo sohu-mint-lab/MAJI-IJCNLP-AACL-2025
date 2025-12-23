@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "Background on Bernie Madoff's Ponzi Scheme",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the initial reactions following Bernie Madoff's arrest?",
+        "importance": "critical",
+        "keywords": [
+          "Madoff",
+          "arrest",
+          "investors",
+          "panic"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How much money was estimated to have been lost in Madoff's Ponzi scheme?",
+        "importance": "high",
+        "keywords": [
+          "Ponzi scheme",
+          "lost money",
+          "estimation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Recovery Efforts and Successes",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What methods did Irving Picard use to recover money for Madoff's investors?",
+        "importance": "critical",
+        "keywords": [
+          "recovery",
+          "methods",
+          "lawsuits"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How much money has been recovered from Madoff's scheme to date?",
+        "importance": "high",
+        "keywords": [
+          "recovered money",
+          "Madoff",
+          "total"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impact on Victims and Charities",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What challenges have victims faced while waiting for recovery of their investments?",
+        "importance": "high",
+        "keywords": [
+          "victims",
+          "challenges",
+          "investment recovery"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did Irving Picard handle settlements with charities affected by the scheme?",
+        "importance": "optional",
+        "keywords": [
+          "charities",
+          "settlements",
+          "Madoff"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Ethical Considerations in Recovery Efforts",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What moral dilemmas did Irving Picard encounter while dealing with victims?",
+        "importance": "high",
+        "keywords": [
+          "moral dilemmas",
+          "ethical considerations",
+          "recovery"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does managing the recovery process differ from a typical bankruptcy case?",
+        "importance": "optional",
+        "keywords": [
+          "bankruptcy",
+          "recovery process",
+          "differences"
+        ]
+      }
+    ]
+  }
+]

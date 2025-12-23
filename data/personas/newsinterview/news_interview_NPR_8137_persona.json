@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Mike Cassidy",
+    "age": 38,
+    "personality": "Innovative and pragmatic, with a strong belief in using technology to solve global issues, while remaining grounded and realistic about challenges.",
+    "employment": "Project Lead at Google X",
+    "notes": "Aerospace engineer with experience in communications satellites, passionate about expanding internet access through unconventional methods.",
+    "communication_style": "Clear and technical, with the ability to simplify complex concepts for a general audience."
+  }
+}

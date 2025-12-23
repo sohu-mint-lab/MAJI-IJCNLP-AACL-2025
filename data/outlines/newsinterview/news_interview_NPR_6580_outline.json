@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Shemekia Copeland and Her Music",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the central theme of your song 'Breakin' Out'?",
+        "importance": "critical",
+        "keywords": [
+          "Shemekia Copeland",
+          "music",
+          "Breakin' Out"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Empowerment in Music",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How do you aim to empower women through your music?",
+        "importance": "high",
+        "keywords": [
+          "empowerment",
+          "women",
+          "music"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Why do you think younger artists hesitate to identify as blues musicians?",
+        "importance": "high",
+        "keywords": [
+          "young artists",
+          "blues",
+          "identity"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Musical Influences and Inspirations",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What role did your father's musical career play in your development as an artist?",
+        "importance": "critical",
+        "keywords": [
+          "father",
+          "musical influence",
+          "artist"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did growing up in Harlem during the hip-hop era shape your musical tastes?",
+        "importance": "high",
+        "keywords": [
+          "Harlem",
+          "hip-hop",
+          "musical tastes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Tributes and Strong Female Role Models",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "Can you share how your grandmother influenced your perception of self-worth?",
+        "importance": "high",
+        "keywords": [
+          "grandmother",
+          "self-worth",
+          "influence"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What does it mean to you to be surrounded by strong women in your life?",
+        "importance": "optional",
+        "keywords": [
+          "strong women",
+          "influence",
+          "family"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,427 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4676199615001678,
+                "avg_context_relevance": 0.5080413222312927,
+                "avg_outline_relevance": 0.6989968359470368,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 62.5,
+            "weighted_coverage_score": 54.54545454545454,
+            "covered_questions": 5,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Look around town for your member of Congress because they're long gone from here in Washington. Today is the first Sunday of what the House calls August recess, which lasts six weeks. And before heading out of town, Democrats inched a little closer to the impeachment process. NPR's congressional correspondent Susan Davis joins us now. Hi, Susan.",
+            "previous_answer": "Good morning, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you provide an overview of how the August recess traditionally impacts Congressional activities?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.18242549896240234,
+                        "outline_relevance": 0.7682311534881592,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you provide an overview of how the August recess traditionally impacts Congressional activities?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.18242549896240234,
+                            "outline_relevance": 0.7682311534881592,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "So Robert Mueller testified. The House adjourned. And yet, the idea of impeaching Donald Trump lives on.",
+            "previous_answer": "It lives on. And as you said, it is inching forward. I was checking this morning - NPR has an impeachment tracker where we've been tracking every member that comes forward for impeachment - and it's now at an even 100. Although, I should say that before Robert Mueller testified, it was at about 95. So we haven't exactly seen a big groundswell of impeachment following his testimony. I think the Congress reflects, right now, where the country is - there's a bunch of people really for it, a bunch of people really against it and not much moving in one direction or the other. The Congress is largely stuck on the question of impeachment.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How would you characterize the main obstacles within Congress that are causing the stalemate on impeachment proceedings?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.642358660697937,
+                        "outline_relevance": 0.6930950880050659,
+                        "originality": 0.44048571586608887,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How would you characterize the main obstacles within Congress that are causing the stalemate on impeachment proceedings?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.642358660697937,
+                            "outline_relevance": 0.6930950880050659,
+                            "originality": 0.44048571586608887,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "How do you think this six-week break will change the dynamics of the situation? What do you think Democrats and Republicans are going to hear from their constituents? And is that going to change how they act when they get back here?",
+            "previous_answer": "It's really interesting because August recess can be funny things. You know, we do sort of see groundswells sometimes that happen when members are home. Remember; the Tea Party movement in 2010 really started to rise up during the August recess when members were home. I don't think we're going to see something like that along the lines of impeachment, but I do think you would have to see a groundswell of a public opinion change or Democrats going home and realizing that this is not what their constituents want. We don't know the answer to that question yet. One thing I think we do know the answer to is that we're not going to really see any Republicans budge on the question of impeachment. And so that threshold that the House speaker has set for her to want to move forward - that it would be overwhelming and bipartisan - seems almost certainly to be an impossible standard.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking back at past August recess periods, what historical examples best illustrate how public sentiment has influenced congressional actions?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6549569368362427,
+                        "outline_relevance": 0.820999026298523,
+                        "originality": 0.1832716464996338,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Looking back at past August recess periods, what historical examples best illustrate how public sentiment has influenced congressional actions?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6549569368362427,
+                            "outline_relevance": 0.820999026298523,
+                            "originality": 0.1832716464996338,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "And some won't return - right? - some of these Congress people. Or at least they're going to be deciding that they won't run for reelection, and that's always an interesting signifier.",
+            "previous_answer": "Yeah. I mean, August is a - usually a time where members start to think about whether they want to run again. You know, it seems like election is a far way away, but a lot of members start to have filing deadlines. A lot of their campaign committees tell them if you don't want to do this, get out now so we can find and recruit candidates. One interesting thing we've already seen happening on the Republican side of the aisle, where there's been five retirements, two of them have been women. Now, that might not seem like a lot of members of Congress, but when you consider there's only 13 women left...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think the retirement of several women Republicans could affect the party's image and electoral prospects moving forward?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5463409423828125,
+                        "outline_relevance": 0.5908004641532898,
+                        "originality": 0.6177510619163513,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you think the retirement of several women Republicans could affect the party's image and electoral prospects moving forward?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5463409423828125,
+                            "outline_relevance": 0.5908004641532898,
+                            "originality": 0.6177510619163513,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "I was about to say...",
+            "previous_answer": "...In the House Republican conference - yeah, they are now - they will be down, unless they elect more women, to just 11 women, which would be essentially the lowest watermark part it's been since they've started electing women. Just 20 years ago, there was more than double that. So it does speak to the sort of recruiting challenges and appeal to women that the Republican Party has that is one of these big, structural problems that they need to address.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What internal party structures or cultural factors within the House Republican conference might be contributing to the difficulties in recruiting and supporting women candidates?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7659714221954346,
+                        "outline_relevance": 0.6250645518302917,
+                        "originality": 0.27619773149490356,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What internal party structures or cultural factors within the House Republican conference might be contributing to the difficulties in recruiting and supporting women candidates?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7659714221954346,
+                            "outline_relevance": 0.6250645518302917,
+                            "originality": 0.27619773149490356,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "This week - another set of Democratic debates. We'll have a look from the candidates' side of the equation elsewhere in the program. But I want to ask you something from the viewers' perspective. If you're in the kitchen right now, and you're worried about health care or the environment, whatever, what are you going to learn about that by watching the debates this week?",
+            "previous_answer": "Lulu, I will confess to you I am a bit of a debate curmudgeon on this question...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Depth: You mentioned being a bit of a curmudgeon about debates — could you elaborate on what you think debates fail to deliver to voters?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.37137845158576965,
+                        "outline_relevance": 0.57660311460495,
+                        "originality": 0.4271605610847473,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: You mentioned being a bit of a curmudgeon about debates — could you elaborate on what you think debates fail to deliver to voters?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.37137845158576965,
+                            "outline_relevance": 0.57660311460495,
+                            "originality": 0.4271605610847473,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "(Laughter).",
+            "previous_answer": "...Because I am...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "You started saying \"Because I am...\" but didn’t finish your thought. Could you complete that statement and explain what you meant in more detail?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5323590636253357,
+                        "outline_relevance": 0.20461583137512207,
+                        "originality": 0.6934765577316284,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "You started saying \"Because I am...\" but didn’t finish your thought. Could you complete that statement and explain what you meant in more detail?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5323590636253357,
+                            "outline_relevance": 0.20461583137512207,
+                            "originality": 0.6934765577316284,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Doesn't surprise me.",
+            "previous_answer": "...Skeptical that the style of these debates does much. It does kind of feed the reality TV-ification (ph) of our politics in the sense that it's more about entertainment. One thing I do think we're all watching for, though, is to see where - what the Democratic Party ultimately is going to stand for in the 2020 election. You still have this immense sort of intellectual debate going on in the party of whether it's going to move more to the left and be a more progressive party or hold on and try to reclaim or be the party of the center. And we simply don't know the answer to that question yet. And whether the nominee is someone like a Joe Biden or someone like a Bernie Sanders or an Elizabeth Warren is going to be two dramatically different Democratic parties and two dramatically different general elections. So I think the big topics that we've been hearing a lot in these debates is health care. One thing I think we're going to hear a lot more about in this debate is immigration just because that is an issue that has increasingly been captivating the public because of what's been happening at the U.S.-Mexico border and because of President Trump's immigration policies.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What concerns do some Democrats have about their party potentially moving too far to the left, and how might these fears impact their strategy for the 2020 election?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6427711844444275,
+                        "outline_relevance": 0.9080049395561218,
+                        "originality": 0.38276100158691406,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What concerns do some Democrats have about their party potentially moving too far to the left, and how might these fears impact their strategy for the 2020 election?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6427711844444275,
+                            "outline_relevance": 0.9080049395561218,
+                            "originality": 0.38276100158691406,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "And just briefly, what do you make of the fear that some Democrats have expressed that much of what's being talked about at these debates are sort of the pet causes of the left, which are just not relevant to the general electorate?",
+            "previous_answer": "Yeah, and we've heard that from especially Democratic governors in some swing states and purple states, saying we're - you're moving too far to the left, you will alienate the general election. I've asked Democrats that, and they will also - you know, they're a little skeptical of that because if you look back to the 2016 Republican primaries, Republican candidates were also talking about very, very conservative policies on social and fiscal matters, and it didn't really matter when it came to the general election. I think once you elect a nominee, a lot of people think you sort of erase the chalkboard and star all over again.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Reflecting on the 2016 Republican primaries, what key lessons about ideological positioning do you think Democrats might apply or avoid in their current strategy?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6307926177978516,
+                        "outline_relevance": 0.8537318706512451,
+                        "originality": 0.2715568542480469,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Reflecting on the 2016 Republican primaries, what key lessons about ideological positioning do you think Democrats might apply or avoid in their current strategy?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6307926177978516,
+                            "outline_relevance": 0.8537318706512451,
+                            "originality": 0.2715568542480469,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "That's NPR congressional correspondent Susan Davis. Susan, thank you so much.",
+            "previous_answer": "You're welcome.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What is your assessment of the current status of the impeachment process against Donald Trump?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.11105844378471375,
+                        "outline_relevance": 0.9488223195075989,
+                        "originality": 0.38353848457336426,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What is your assessment of the current status of the impeachment process against Donald Trump?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.11105844378471375,
+                            "outline_relevance": 0.9488223195075989,
+                            "originality": 0.38353848457336426,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to New Hospital Pricing Transparency Law",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the main changes introduced by the new law requiring hospitals to make their pricing public?",
+        "importance": "critical",
+        "keywords": [
+          "transparency",
+          "hospital pricing",
+          "law"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Current Compliance and Challenges",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How are hospitals currently complying with the new pricing law?",
+        "importance": "high",
+        "keywords": [
+          "compliance",
+          "hospital pricing",
+          "data dump"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are some of the issues patients face in comparing prices among hospitals?",
+        "importance": "critical",
+        "keywords": [
+          "comparison shopping",
+          "price discrepancies",
+          "hospital billing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Critique of Compliance and Utility of Price Listings",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Why do some hospital administrators argue that the new pricing law is confusing?",
+        "importance": "high",
+        "keywords": [
+          "hospital administrators",
+          "confusion",
+          "insurance"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "In what ways might the new data become more useful to patients over time?",
+        "importance": "optional",
+        "keywords": [
+          "data utility",
+          "long-term benefits",
+          "patient access"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Patient Rights and the Importance of Price Transparency",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What is Dr. Rosenthal's stance on the necessity of hospitals showing their prices?",
+        "importance": "critical",
+        "keywords": [
+          "patient rights",
+          "price disclosure",
+          "hospital transparency"
+        ]
+      }
+    ]
+  }
+]

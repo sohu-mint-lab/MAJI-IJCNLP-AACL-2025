@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Video Pick of the Week: Jellyfish Research",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What techniques did John Dabiri use to study the motion of jellyfish?",
+        "importance": "critical",
+        "keywords": [
+          "jellyfish",
+          "research",
+          "techniques"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Why is the jellyfish's motion described as more complicated than previously thought?",
+        "importance": "high",
+        "keywords": [
+          "motion",
+          "complicated",
+          "research"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Fluorescent Dye and Vortex Creation",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does the use of fluorescent dye help in understanding jellyfish movement?",
+        "importance": "critical",
+        "keywords": [
+          "fluorescent dye",
+          "movement",
+          "understanding"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What is the significance of the doughnut-shaped vortex created by jellyfish?",
+        "importance": "high",
+        "keywords": [
+          "vortex",
+          "doughnut",
+          "significance"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impact of Aquatic Animal Movement on Marine Environment",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What did the recent study reveal about the role of aquatic animals in the ocean?",
+        "importance": "critical",
+        "keywords": [
+          "ocean",
+          "aquatic animals",
+          "role"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the movement of jellyfish and similar animals contribute to nutrient distribution in the ocean?",
+        "importance": "high",
+        "keywords": [
+          "nutrients",
+          "distribution",
+          "ocean"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Research on Other Species",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What other marine animals might John Dabiri study in the future?",
+        "importance": "optional",
+        "keywords": [
+          "future research",
+          "marine animals",
+          "John Dabiri"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What potential discoveries could arise from studying squid as Dabiri plans?",
+        "importance": "optional",
+        "keywords": [
+          "squid",
+          "discoveries",
+          "study"
+        ]
+      }
+    ]
+  }
+]

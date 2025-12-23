@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Joshua Foer and Memory Championships",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you explain how you became involved in the U.S. Memory Championship?",
+        "importance": "critical",
+        "keywords": [
+          "Joshua Foer",
+          "Memory Championship",
+          "involvement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Memory Techniques and Training",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What ancient techniques did you use to enhance your memory for the competition?",
+        "importance": "critical",
+        "keywords": [
+          "memory techniques",
+          "ancient methods",
+          "training"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How did you prepare for the memory competition in terms of practice and training?",
+        "importance": "high",
+        "keywords": [
+          "preparation",
+          "practice",
+          "memory training"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Memory Competitions and Their Implications",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What types of tasks are involved in memory competitions, and how do they challenge participants?",
+        "importance": "high",
+        "keywords": [
+          "memory competitions",
+          "tasks",
+          "challenges"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are potential real-life applications of memory techniques beyond competitions?",
+        "importance": "optional",
+        "keywords": [
+          "real-life applications",
+          "memory techniques",
+          "education"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Insights and Future Endeavors",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "After experiencing the memory competitions, how has your view on memory changed?",
+        "importance": "high",
+        "keywords": [
+          "personal insights",
+          "memory view",
+          "experience"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Do you plan to continue participating in memory competitions, and what motivates you now?",
+        "importance": "optional",
+        "keywords": [
+          "future competitions",
+          "motivation",
+          "goals"
+        ]
+      }
+    ]
+  }
+]

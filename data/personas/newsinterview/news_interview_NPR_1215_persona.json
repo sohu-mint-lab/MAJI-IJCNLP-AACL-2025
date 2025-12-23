@@ -1,0 +1,10 @@
+{
+  "persona": {
+    "name": "Dr. Steven Squyres",
+    "age": 58,
+    "personality": "Enthusiastic and insightful, with a blend of humility and excitement for space exploration, he conveys passion for his work and a deep curiosity about life beyond Earth.",
+    "employment": "Professor of Astronomy",
+    "communication_style": "Conversational and approachable, he balances technical jargon with layman's terms to ensure clarity.",
+    "notes": "Principal investigator of the Mars Exploration Rover Mission, proud of the Rover's unexpected durability and eager for future discoveries."
+  }
+}

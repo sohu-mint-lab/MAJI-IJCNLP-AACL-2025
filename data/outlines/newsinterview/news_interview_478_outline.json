@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "James Graham's Discovery of His Biological Father",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What led James Graham to uncover the truth about his biological father?",
+        "importance": "critical",
+        "keywords": [
+          "James Graham",
+          "biological father",
+          "discovery"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did Graham react upon learning that John Graham was not his biological father?",
+        "importance": "high",
+        "keywords": [
+          "reaction",
+          "shock",
+          "family"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "The Journey to Find Father Sullivan",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What obstacles did Graham face in his quest to learn about Father Sullivan?",
+        "importance": "critical",
+        "keywords": [
+          "obstacles",
+          "quest",
+          "Father Sullivan"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What role did the Catholic Church play in Graham's search for answers?",
+        "importance": "high",
+        "keywords": [
+          "Catholic Church",
+          "answers",
+          "search"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Exhumation and Emotional Revelation",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What prompted Graham to exhume Father Sullivan's body?",
+        "importance": "critical",
+        "keywords": [
+          "exhumation",
+          "body",
+          "Father Sullivan"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did Graham feel upon confirming his relationship with Father Sullivan through DNA testing?",
+        "importance": "high",
+        "keywords": [
+          "DNA testing",
+          "emotional",
+          "confirmation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Advocacy and Future Aspirations",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What steps does Graham plan to take as an advocate for children of priests?",
+        "importance": "critical",
+        "keywords": [
+          "advocacy",
+          "children of priests",
+          "future"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Does Graham feel that his search for identity is complete now?",
+        "importance": "high",
+        "keywords": [
+          "identity",
+          "search",
+          "completion"
+        ]
+      }
+    ]
+  }
+]

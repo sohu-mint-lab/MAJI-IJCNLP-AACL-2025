@@ -1,0 +1,96 @@
+[
+  {
+    "id": "S1",
+    "section": "Michael Moore's Views on Capitalism",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What key themes does Michael Moore address in his movie 'Capitalism: A Love Story'?",
+        "importance": "critical",
+        "keywords": [
+          "Capitalism",
+          "democracy",
+          "workplace"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Critique of Banking Practices",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What concerns does Moore express about the banking industry's practices regarding ATM fees?",
+        "importance": "high",
+        "keywords": [
+          "Banking",
+          "ATM fees",
+          "public good"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Michael Moore view the role of banks in the economy?",
+        "importance": "high",
+        "keywords": [
+          "banks",
+          "economy",
+          "public service"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Obama's Economic Policies",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is Moore's opinion on the decisions made by Presidents Bush and Obama regarding bank bailouts?",
+        "importance": "critical",
+        "keywords": [
+          "Obama",
+          "bailouts",
+          "economy"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What disappointing elements does Moore point out regarding Obama's economic advisers?",
+        "importance": "high",
+        "keywords": [
+          "advisers",
+          "economy",
+          "disappointment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Call for Health Care Reform",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What does Moore urge President Obama to do regarding health care reform?",
+        "importance": "high",
+        "keywords": [
+          "health care",
+          "reform",
+          "Obama"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What prediction does Moore make concerning the president's political future related to foreign policy?",
+        "importance": "optional",
+        "keywords": [
+          "troops",
+          "Afghanistan",
+          "political consequences"
+        ]
+      }
+    ]
+  }
+]

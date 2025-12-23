@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Current Situation in South Sudan",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the primary humanitarian issues currently facing South Sudan?",
+        "importance": "critical",
+        "keywords": [
+          "South Sudan",
+          "humanitarian issues",
+          "conflict"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has the situation evolved since South Sudan gained independence?",
+        "importance": "high",
+        "keywords": [
+          "independence",
+          "evolution",
+          "South Sudan"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "U.S. Foreign Policy and Aid Review",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What prompted the Trump administration to review aid to South Sudan?",
+        "importance": "critical",
+        "keywords": [
+          "Trump administration",
+          "aid review",
+          "foreign policy"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What impact could cutting humanitarian aid have in South Sudan?",
+        "importance": "high",
+        "keywords": [
+          "aid impact",
+          "humanitarian aid",
+          "South Sudan"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Legacy of South Sudan's Independence",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Was the independence of South Sudan ultimately a mistake based on current circumstances?",
+        "importance": "high",
+        "keywords": [
+          "independence",
+          "mistake",
+          "current circumstances"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How could the post-independence period have been managed better?",
+        "importance": "optional",
+        "keywords": [
+          "post-independence",
+          "management",
+          "South Sudan"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Proposed Actions and Consequences",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What actions can the U.S. take to create consequences for South Sudan's leadership?",
+        "importance": "high",
+        "keywords": [
+          "U.S. actions",
+          "consequences",
+          "leadership"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What financial tools are available to the U.S. to address corruption in South Sudan?",
+        "importance": "optional",
+        "keywords": [
+          "financial tools",
+          "corruption",
+          "South Sudan"
+        ]
+      }
+    ]
+  }
+]

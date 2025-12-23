@@ -1,0 +1,107 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of iRobot's Military Applications",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What roles do iRobot's PacBots serve in military operations?",
+        "importance": "critical",
+        "keywords": [
+          "iRobot",
+          "PacBot",
+          "military",
+          "applications"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has iRobot adapted its technology for military use since its inception?",
+        "importance": "high",
+        "keywords": [
+          "technology",
+          "adaptation",
+          "military"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Advancements in Robotic Capabilities",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What new functionalities are being developed for the latest generation of robots?",
+        "importance": "critical",
+        "keywords": [
+          "new functionalities",
+          "robots",
+          "development"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How do the enhanced features of the new robots improve military operations?",
+        "importance": "high",
+        "keywords": [
+          "features",
+          "improvements",
+          "operations"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Human-Robot Interaction and Bonding",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What anecdotes illustrate the bonding between soldiers and iRobot's robots?",
+        "importance": "high",
+        "keywords": [
+          "bonding",
+          "anecdotes",
+          "soldiers"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "In what ways do soldiers perceive the robots as more than just tools?",
+        "importance": "optional",
+        "keywords": [
+          "perception",
+          "tools",
+          "robots"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future of Robotics and Challenges",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What challenges does iRobot face in designing practical and affordable robots?",
+        "importance": "high",
+        "keywords": [
+          "challenges",
+          "designing",
+          "affordability"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How might advancements in robotics change civilian life in the future?",
+        "importance": "optional",
+        "keywords": [
+          "advancements",
+          "civilian life",
+          "future"
+        ]
+      }
+    ]
+  }
+]

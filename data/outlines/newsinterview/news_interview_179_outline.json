@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Trump's State Visit to the U.K.",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the key events leading up to President Trump's state visit to the U.K.?",
+        "importance": "critical",
+        "keywords": [
+          "Trump",
+          "state visit",
+          "U.K. events"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What is the significance of this visit during a delicate political moment in the U.K.?",
+        "importance": "high",
+        "keywords": [
+          "Brexit",
+          "political significance",
+          "leadership"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Trump's Impact on U.K. Political Landscape",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How have Donald Trump's remarks influenced public opinion and politics in the U.K.?",
+        "importance": "high",
+        "keywords": [
+          "Trump remarks",
+          "public opinion",
+          "politics"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What is the British government's stance on Trump’s opinions regarding potential successors to Theresa May?",
+        "importance": "critical",
+        "keywords": [
+          "government stance",
+          "Theresa May",
+          "successor"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Protests and Controversies Surrounding the Visit",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What kind of protests are expected during Trump's visit, and what do they signify?",
+        "importance": "high",
+        "keywords": [
+          "protests",
+          "Trump visit",
+          "public sentiment"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How is the Trump blimp and its symbolism perceived in London?",
+        "importance": "optional",
+        "keywords": [
+          "Trump blimp",
+          "symbolism",
+          "London culture"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Diplomatic Relations and Future Prospects",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the potential diplomatic outcomes of Trump's visit for the U.K.?",
+        "importance": "critical",
+        "keywords": [
+          "diplomatic outcomes",
+          "Trump visit",
+          "U.K. relationship"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How do analysts view Trump's behavior during international visits and its implications for the U.K.?",
+        "importance": "high",
+        "keywords": [
+          "analysts view",
+          "international visits",
+          "implications"
+        ]
+      }
+    ]
+  }
+]

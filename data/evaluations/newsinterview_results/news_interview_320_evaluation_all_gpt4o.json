@@ -1,0 +1,624 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4286124379404129,
+                "avg_context_relevance": 0.38008172581753424,
+                "avg_outline_relevance": 0.623112884259993,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4332343377172947,
+                "avg_context_relevance": 0.3901761691085994,
+                "avg_outline_relevance": 0.6916194260120392,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 25.0,
+            "weighted_coverage_score": 21.428571428571427,
+            "covered_questions": 2,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "The Islamberg plot wasn't the only threat that was thwarted last week. In Utah, a 27-year-old man was arrested on a terrorism charge after posting on social media about being a virgin and saying he wanted to become, quote, \"the next mass shooter.\" What both in New York and Utah incidents have in common is the profile of those involved - young, white men. According to a recent report by the Anti-Defamation League, 98 percent of the extremist-related murders in the United States in 2018 were carried out by right-wing extremists, a large portion white supremacists. We wanted to explore further this issue of men, particularly young men in the U.S., who turn to violent extremism. And we're joined now by a man who understands this firsthand - Tony McAleer. He's a former organizer for the White Aryan Resistance. He left that life behind and helped then start Life After Hate. It's a group of former violent extremists committed to education and countering violent ideologies. Welcome to the program.",
+            "previous_answer": "Thank you for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you share what initially drew you to the White Aryan Resistance and how that shaped your early views?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.1491820365190506,
+                        "outline_relevance": 0.393043577671051,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you share what initially drew you to the White Aryan Resistance and how that shaped your early views?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.1491820365190506,
+                            "outline_relevance": 0.393043577671051,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What was the turning point in your life that motivated you to leave extremist ideology behind?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.14463388919830322,
+                            "outline_relevance": 0.5806745886802673,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think personal transformation stories like yours can influence public perceptions about deradicalization?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.043860241770744324,
+                            "outline_relevance": 0.4717201590538025,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "How did it work for you? How were you lured into that world?",
+            "previous_answer": "I wasn't so much lured. In a way, I went seeking it out. And I'm not saying that to excuse any of the things I did because I've done a lot of horrible things. But I'm trying to share with you the lens through which I made those decisions. I grew up in a middle-class family. My father was a psychiatrist. But, you know, I walked in on my father when I was 10 with another woman. And that turned my world upside down. I rejected all the authority figures in my life. I went into sort of rebellion mode. And I went from this A, B student to a C, D student. My parents and the teachers got together and said, well, let's beat the grades into him. And so they tried to - you know, I got hit on the rear end with a yardstick every time I didn't get an A or B on major tests and assignments. And all those times that I spent in that teacher's office getting hit on the rear end, to this day, I don't think I've ever felt more powerless in my entire life. So I got involved in the punk scene because I was really angry. And then, you know, when I came across the skinheads, they had what I didn't. And that was toughness. And that's what drew me to them initially was - my bullying survival skill growing up was befriend the bully, become the bully. And that's what I did because when I was with them, I was safe.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you elaborate on how your childhood emotional environment and experiences with authority figures shaped your sense of identity as you grew up?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5028004050254822,
+                        "outline_relevance": 0.530012845993042,
+                        "originality": 0.4993255138397217,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate more on how your childhood experiences influenced your sense of identity and choices later on?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.49950146675109863,
+                            "outline_relevance": 0.5277684926986694,
+                            "originality": 0.4901611804962158,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How did you find the punk scene contrasted with the skinhead groups in terms of meeting your emotional needs?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.26884347200393677,
+                            "outline_relevance": 0.4565455913543701,
+                            "originality": 0.5387684404850006,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What role did your schooling experience play in your trajectory towards extremism and how might alternative approaches have changed your path?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.36173009872436523,
+                            "outline_relevance": 0.5800524950027466,
+                            "originality": 0.3174399137496948,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you elaborate on how your childhood emotional environment and experiences with authority figures shaped your sense of identity as you grew up?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5028004050254822,
+                            "outline_relevance": 0.530012845993042,
+                            "originality": 0.4993255138397217,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "So when you hear these stories of these alleged attackers supposedly planning these attacks, what do you think?",
+            "previous_answer": "Well, I think that when I was in the depths of my involvement with Aryan Nations and White Aryan Resistance and all of that, I had stockpiled weapons. Once you're that far into it, you become that far disconnected from your own humanity in the process of getting there - that human life, especially if it's not white, doesn't mean anything. You know, if you see yourself as very small and insignificant in the world deep down inside - you look at, you know, anyone who's done these mass killings in the name of the white race. They become legendary. And people want to emulate them. You know, when you've got nothing going on in your life, you know, the fantasy of going out in a blaze of glory to have your name forever etched in the history books, that can be enticing.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share some specific personal experiences that initially led you to become involved with extremist groups?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.42477813363075256,
+                        "outline_relevance": 0.6957278251647949,
+                        "originality": 0.29329895973205566,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you explain more about how feelings of insignificance contribute to someone embracing extremist violence?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.45897239446640015,
+                            "outline_relevance": 0.7214888334274292,
+                            "originality": 0.4105648994445801,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What personal or community resources do you think help individuals reconnect with their humanity and avoid extremist paths?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4030889868736267,
+                            "outline_relevance": 0.5559945702552795,
+                            "originality": 0.3973594903945923,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: How have you seen the desire for 'legendary' status impact extremist recruitment and propaganda?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.43649691343307495,
+                            "outline_relevance": 0.6116840839385986,
+                            "originality": 0.38169407844543457,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Could you share some specific personal experiences that initially led you to become involved with extremist groups?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.42477813363075256,
+                            "outline_relevance": 0.6957278251647949,
+                            "originality": 0.29329895973205566,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "How did you get out of this? - because it seems that young, white men, in many ways - on social media specifically nowadays, but in other ways - are sort of being targeted. And they're vulnerable to this kind of messaging. How do we prevent young men and boys from falling into extreme camps?",
+            "previous_answer": "I mean, my case, ultimately, it was the birth of my children. You know, at the age of 20, I thought I'd be dead or in jail as a white revolutionary by the time I was 30. I was a father at 23. For the first time in my life, I started to make decisions for someone other than myself because I was a complete narcissist. And the crazy thing about children is their love is unconditional. They didn't care that I was a neo-Nazi. They didn't care that I had assault rifles in the closet. They don't see that. They just see the human that's interacting with them. And that's sort of what compassion does. And it allowed me to thaw. And when we're compassionate with someone, we hold up a mirror and allow them to see their humanity reflected back at them when they're incapable of seeing it on their own. And I think that's the power of compassion. It's at the power - it's - compassion is at the root of, you know, what we do at Life After Hate.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "From your experience, how do you think society as a whole can foster and implement compassion to help prevent young men from being drawn into violent ideologies?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3268265128135681,
+                        "outline_relevance": 0.9470221400260925,
+                        "originality": 0.4564472436904907,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you describe a specific moment or interaction with your children that made you realize you wanted to change?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4072318971157074,
+                            "outline_relevance": 0.46703365445137024,
+                            "originality": 0.2973836660385132,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: In your experience, how can communities support young men in developing compassion before they encounter extremist ideologies?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.34287941455841064,
+                            "outline_relevance": 0.8379195332527161,
+                            "originality": 0.3559430241584778,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: What do you think social media platforms could do better to reduce young men's vulnerability to extremist messaging?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.07781439274549484,
+                            "outline_relevance": 0.755721926689148,
+                            "originality": 0.496044397354126,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "From your experience, how do you think society as a whole can foster and implement compassion to help prevent young men from being drawn into violent ideologies?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3268265128135681,
+                            "outline_relevance": 0.9470221400260925,
+                            "originality": 0.4564472436904907,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "What I'm hearing you say, perhaps, also, is that there is a problem with the way we teach young men, specifically white, young men, that they need to be in the world, that there might not be a model for them to deal with these difficult feelings.",
+            "previous_answer": "That's definitely part of it. I mean, who teaches white men? Most of the time, it's fathers. And who teaches those fathers? Their fathers' fathers. And so the thing about, you know, these negative attitudes is they cascade through generations, right? If my father is misogynist, if I observe my father belittling and treating my mom poorly and, you know, he puts stuff onto me, chances are I'm going to continue the family tradition. And, you know, I've seen that the way roles are transferred through generations that people and families have to play. The job, I think, we have to do is we have to break these cycles.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share a personal experience from your life that made you realize the importance of breaking these inherited negative cycles?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4122547507286072,
+                        "outline_relevance": 0.37697136402130127,
+                        "originality": 0.5156767666339874,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you think broader society, beyond just families, can help offer new role models to young men struggling with these inherited attitudes?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5338029265403748,
+                            "outline_relevance": 0.6200315952301025,
+                            "originality": 0.33785557746887207,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share a personal example from your life when you recognized these harmful patterns and decided to break the cycle?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.18671420216560364,
+                            "outline_relevance": 0.33257246017456055,
+                            "originality": 0.49754828214645386,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What types of community programs or educational efforts do you believe are most effective in helping young men move past these negative generational influences?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3835994601249695,
+                            "outline_relevance": 0.5794044733047485,
+                            "originality": 0.36901313066482544,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you share a personal experience from your life that made you realize the importance of breaking these inherited negative cycles?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4122547507286072,
+                            "outline_relevance": 0.37697136402130127,
+                            "originality": 0.5156767666339874,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "I can see someone hearing this and thinking, these men are violent. They profess violence. And we normally don't say compassion is enough when we talk about Islamist terrorists, for example. Isn't it a double standard?",
+            "previous_answer": "Well, I think - and I'm remiss a little bit here. Compassion only works when it's accompanied with healthy boundaries and consequences. It has to have that component of healthy boundaries and consequences. Otherwise, it's an invitation for abuse and re-abuse.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How can society effectively implement compassion in a way that prevents young men from turning to violent ideologies?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6520507335662842,
+                        "outline_relevance": 0.9817936420440674,
+                        "originality": 0.060289740562438965,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you elaborate on what you mean by 'healthy boundaries and consequences' in the process of compassionate intervention?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.646272599697113,
+                            "outline_relevance": 0.5053951740264893,
+                            "originality": 0.4552721381187439,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How do you think organizations like Life After Hate incorporate boundaries and consequences while maintaining a compassionate approach?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5645847916603088,
+                            "outline_relevance": 0.5766253471374512,
+                            "originality": 0.33445024490356445,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: In your experience, what are common pitfalls when people try to show compassion without enforcing appropriate limits in extremist contexts?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6788865923881531,
+                            "outline_relevance": 0.6490068435668945,
+                            "originality": 0.2732606530189514,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How can society effectively implement compassion in a way that prevents young men from turning to violent ideologies?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6520507335662842,
+                            "outline_relevance": 0.9817936420440674,
+                            "originality": 0.060289740562438965,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Do you see that there's a spike right now, though? Do you see that there are a lot more of these kinds of attacks and people that are being drawn to this ideology? And does it concern you?",
+            "previous_answer": "Absolutely, because it's growing. The polarization of our society is growing - and, you know, from that polarized part on the violent far right, I think, is growing. And the attacks are becoming more frequent. And in a strange way, it's almost becoming normalized. You know, it's not normal. But it's happened with such a frequency that we don't react the same way after five or six or seven of them as we did at the first one or two. That's a concern.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What implications do you think the normalization of extremist attacks has on society as a whole?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6024553775787354,
+                        "outline_relevance": 0.9735523462295532,
+                        "originality": 0.38253045082092285,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you describe how you think media coverage contributes to the normalization of extremist attacks and public desensitization?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5164856910705566,
+                            "outline_relevance": 0.7803323268890381,
+                            "originality": 0.4199334383010864,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Broad: What societal factors do you believe are driving the growing polarization and violent extremism you mentioned?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.7369357943534851,
+                            "outline_relevance": 0.700810968875885,
+                            "originality": 0.3500114679336548,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: How might we as a society better respond to repeated extremist attacks to prevent them from becoming normalized and ignored?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5573750138282776,
+                            "outline_relevance": 0.812072217464447,
+                            "originality": 0.3442597985267639,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What implications do you think the normalization of extremist attacks has on society as a whole?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6024553775787354,
+                            "outline_relevance": 0.9735523462295532,
+                            "originality": 0.38253045082092285,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "Tony McAleer of the group Life After Hate. Thank you so much.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you usually share your experiences with new audiences who may not be familiar with the reality of violent extremism?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.05106140300631523,
+                        "outline_relevance": 0.6348316669464111,
+                        "originality": 0.25830602645874023,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: How do you typically approach conversations about your past extremist involvement with new audiences?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.09995464980602264,
+                            "outline_relevance": 0.6013092994689941,
+                            "originality": 0.30367398262023926,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share a defining moment when you first decided to leave extremist groups?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.13447554409503937,
+                            "outline_relevance": 0.62518310546875,
+                            "originality": 0.1857060194015503,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What do you hope listeners take away from your story about transformation and hope?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.17698371410369873,
+                            "outline_relevance": 0.43419626355171204,
+                            "originality": 0.264767050743103,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "How do you usually share your experiences with new audiences who may not be familiar with the reality of violent extremism?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.05106140300631523,
+                            "outline_relevance": 0.6348316669464111,
+                            "originality": 0.25830602645874023,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

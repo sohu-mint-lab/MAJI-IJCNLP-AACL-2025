@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Kentucky Derby Incident",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the events leading to the disqualification of Maximum Security?",
+        "importance": "critical",
+        "keywords": [
+          "Kentucky Derby",
+          "Maximum Security",
+          "disqualification"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did the audience react during and after the race?",
+        "importance": "high",
+        "keywords": [
+          "audience reaction",
+          "race results",
+          "confusion"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Reasons Behind the Disqualification",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What specific actions by Maximum Security led to the objection?",
+        "importance": "critical",
+        "keywords": [
+          "objection",
+          "disqualification",
+          "steeplechase rules"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Who were the officials responsible for making the decision on the disqualification?",
+        "importance": "high",
+        "keywords": [
+          "stewards",
+          "decision",
+          "racing officials"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Country House's Unexpected Victory",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What were the odds for Country House before the race, and how did he perform?",
+        "importance": "critical",
+        "keywords": [
+          "Country House",
+          "odds",
+          "performance"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How did Country House's trainer feel about winning under such circumstances?",
+        "importance": "high",
+        "keywords": [
+          "trainer",
+          "Bill Mott",
+          "bittersweet victory"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Implications and Appeals",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What options exist for an appeal regarding the disqualification?",
+        "importance": "high",
+        "keywords": [
+          "appeal",
+          "Kentucky Horse Racing Commission",
+          "disqualification process"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What opportunities lie ahead for Country House after the Derby?",
+        "importance": "optional",
+        "keywords": [
+          "Country House",
+          "Preakness Stakes",
+          "Triple Crown"
+        ]
+      }
+    ]
+  }
+]

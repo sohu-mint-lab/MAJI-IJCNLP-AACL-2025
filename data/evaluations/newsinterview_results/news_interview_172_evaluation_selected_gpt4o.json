@@ -1,0 +1,283 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.6316937655210495,
+                "avg_context_relevance": 0.23951989660660425,
+                "avg_outline_relevance": 0.7089548508326212,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 42.857142857142854,
+            "weighted_coverage_score": 52.38095238095239,
+            "covered_questions": 3,
+            "total_questions": 7
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "On October 13, 1972, Uruguayan Air Force Flight 571 went down in the Andes along the Argentine-Chilean border. Onboard was an Uruguayan rugby team, along with friends and relatives. Twenty-nine people initially survived that crash, and their story of struggle in the mountains became the subject of books and movies, most famously \"Alive.\" Among those survivors was a young architect named Eduardo Strauch, who held off writing about the tragedy until now. \"Out Of The Silence: After The Crash\" is a story of endurance and the spiritual awakening that came after 72 days trapped in the Andes. Eduardo Strauch joins me now from Montevideo in Uruguay. Welcome to the program.",
+            "previous_answer": "Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you provide an overview of the events surrounding the Uruguayan Air Force Flight 571 and what happened during the crash?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.13020455837249756,
+                        "outline_relevance": 0.9602329730987549,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you provide an overview of the events surrounding the Uruguayan Air Force Flight 571 and what happened during the crash?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.13020455837249756,
+                            "outline_relevance": 0.9602329730987549,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Eduardo, the group of survivors quickly formed a community, sharing tasks, rotating sleeping positions so everyone would get a chance at a more comfortable spot in the wrecked plane. Can you talk a little bit about that? - those first few days.",
+            "previous_answer": "Yeah. As you can imagine, it has been the most awful, terrible days of my life. It was awful and long nights. We have a very small space. We were 29 people at the first. And we have no warm clothes (ph), no water. We have to melt snow. It was very difficult because the weather was very cold. And the snow was all over the kerosene of the engines of the plane. We are surrounded with our friends, who died. And that first night was really impossible to describe.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain how the group came to the decision to consume the bodies of those who had died, and what thoughts or feelings accompanied that process?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.27345719933509827,
+                        "outline_relevance": 0.8627608418464661,
+                        "originality": 0.6862832307815552,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain how the group came to the decision to consume the bodies of those who had died, and what thoughts or feelings accompanied that process?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.27345719933509827,
+                            "outline_relevance": 0.8627608418464661,
+                            "originality": 0.6862832307815552,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Of course, the aspect of the story that has gained the most notoriety was the decision you all made that in order to survive, you would have to start eating your dead friends. And you didn't flinch from describing this in the book. Fairly early on, you say that hearing your cousin Adolfo say out loud what many were thinking - that you were going to have to eat the bodies - gave you a kind of relief. How so?",
+            "previous_answer": "Yeah. We have just some chocolates and biscuits for 29 people, so we start getting very weak immediately. So maybe a week, we try to eat the leather shoes and the leather belts. But it was impossible to get the proteins from there, so we start a mental process to convince our minds that was the only way. We're not going to do nothing wrong. And at last, I was convinced that it was the only way to live. I want to live. I was very young. And at the beginning, when I realized it was what I was going to do, my mind and my conscience was OK. But physically, it was very difficult to get it in the first day. Even to us, they were very small pieces of frozen meat. It doesn't taste anything. I get used to. And at the end - absolutely disconnected with the origin of that food.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share an overview of what happened during the crash and its immediate aftermath?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": -0.0790901780128479,
+                        "outline_relevance": 0.4887927770614624,
+                        "originality": 0.3978995084762573,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share an overview of what happened during the crash and its immediate aftermath?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": -0.0790901780128479,
+                            "outline_relevance": 0.4887927770614624,
+                            "originality": 0.3978995084762573,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "At one point, you hear on the little radio that you have that the search for you all has been called off. That must have been devastating.",
+            "previous_answer": "Absolutely devastating - so we felt abandoned, and we felt so angry with everybody, with - even with our families, with the world, with God, with nature, with everything. We were absolutely angry. But very fast, very quick, we realized that the only way to get out would be by doing it by ourselves.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share how Eduardo Strauch experienced spiritual growth during and after this ordeal? Were there specific moments or realizations that shaped his views?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2105265110731125,
+                        "outline_relevance": 0.9395624399185181,
+                        "originality": 0.6362336277961731,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you share how Eduardo Strauch experienced spiritual growth during and after this ordeal? Were there specific moments or realizations that shaped his views?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2105265110731125,
+                            "outline_relevance": 0.9395624399185181,
+                            "originality": 0.6362336277961731,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "And so two members of the team, dressed in only street clothes, miraculously were able to make it over the mountains and find help. And after almost 2 1/2 months, the 16 survivors were rescued. But the hard part was not over for Eduardo Strauch. He says reintegrating himself back into society was hard. It took him years. But at the same time, he found that he had grown spiritually during his ordeal in the mountains.",
+            "previous_answer": "My body and my mind start expanding in the universe. It was really amazing just to manage my mind, my thoughts. I realized the power of our minds. Our minds are amazing. And we can change the direction of our life if we propose to do it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you share specific ways or practices that helped you manage your mind during and after the ordeal?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.46907371282577515,
+                        "outline_relevance": 0.49063408374786377,
+                        "originality": 0.5007776618003845,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share specific ways or practices that helped you manage your mind during and after the ordeal?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.46907371282577515,
+                            "outline_relevance": 0.49063408374786377,
+                            "originality": 0.5007776618003845,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "Strauch finally decided to tell his story publicly after a mountaineer discovered his jacket and wallet at the crash site years later and returned it to him. Once he held those items in his hands, he felt himself transported back to the mountains. He decided his story was so important that he had to share it beyond just his family and friends.",
+            "previous_answer": "Even now, 47 years later, people - when they connect with our story, they get so many positive things for their lives. We have many cases of people who - they decided to commit suicide. And when they crossed with our story, it changed their thoughts. And they continue living. People who are lost in alcohol and drugs - the same. We helped many, many cases, and it's really amazing that so much suffering, 47 years later, became something so positive for me and for so many people.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What inspired you to share your story publicly after so many years of keeping it private?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.43294757604599,
+                        "outline_relevance": 0.5117459893226624,
+                        "originality": 0.5689685642719269,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What inspired you to share your story publicly after so many years of keeping it private?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.43294757604599,
+                            "outline_relevance": 0.5117459893226624,
+                            "originality": 0.5689685642719269,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

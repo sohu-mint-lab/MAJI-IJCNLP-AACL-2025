@@ -1,0 +1,108 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "This is SCIENCE FRIDAY. I'm Ira Flatow. In the disease multiple sclerosis, the body's own immune cells stage a mutiny. Those cells, white cells, normally go after foreigners in the body like bacteria or other invaders that make us sick. But in MS, the immune cells go after the body itself, attacking the myelin covering that wraps around nerve cells. As that myelin gets degraded, nerve signals don't get transferred properly, and that's what leads to the symptoms of MS. For years, scientists have been trying to figure out how to stop the myelin attack, to get the body to stop going after itself. This week, researchers say they have some very early promising results for a new approach. Essentially, they have a way to teach the body not to go after itself, and a small preliminary study says the technique is at least safe to use in a larger test. Stephen Miller is professor of microbiology-immunology at the Northwestern University Feinberg School of Medicine. He's also a director of the Immunobiology Center at Northwestern in Chicago. Welcome to SCIENCE FRIDAY. DR. STEPHEN"
+    },
+    {
+      "speaker": "Miller",
+      "text": "Thank you, Ira. It's a pleasure to be here. You're welcome. Let's begin a little bit - before you tell us what you did, explain very simplistically what MS is. Did I get that right?"
+    },
+    {
+      "speaker": "Miller",
+      "text": "You did a great job, yeah. It's an autoimmune disease in which immune cells enter the central nervous system and attack the myelin membrane, the consequence being disruption of electrical signaling and the ensuing paralytic and other clinical symptoms of the disease."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "How do they know - what exactly on the myelin in the cells, in the nerves are they attaching onto?"
+    },
+    {
+      "speaker": "Miller",
+      "text": "Well, myelin is a very complex membrane made by a cell called an oligodendrocyte, and the oligodendrocyte puts out processes that wrap around nerve axons. And the real thing that myelin does is it facilitates the electrical conduction down those nerve axons. And being a complex membrane, there are multiple lipid and protein components within that membrane that end up being attacked by our immune system in this disease."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Mm-hmm. So what you have done, at least in these early tests of nine people, seeing that it doesn't really hurt the people, is that you trick the body in a way into saying all those antigens that we normally attack, those are part of us. Let's not attack them."
+    },
+    {
+      "speaker": "Miller",
+      "text": "That's correct. Yeah. This study (unintelligible) many years of work at our laboratory trying to develop efficient ways to induce what immunologists call tolerance, which would be only inactivating the immune cells that are carrying out the autoimmune disease - in this case multiple sclerosis - without down-regulating responses to bacterial antigens, viral antigens, et cetera, that we really depend upon to keep us healthy. Most of the current therapies that are used in multiple sclerosis are in one way or another collectively called immunosuppressive therapies that act in one way or another to try to suppress the immune response to dampen the autoimmune disease, but in the consequence of use over a long term make people more susceptible to everyday infections and to higher rates of cancer. So our approach is to, you know, sort of use the magic bullet to specifically target the autoreactive cells in the immune system and leave everything else alone."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so you are, at least in this phase one trial, you were successful in doing that, in telling the body, look, just attack these cells and don't attack some other cells."
+    },
+    {
+      "speaker": "Miller",
+      "text": "That's correct. In a small number of patients, as you started out, we determined that the therapy was safe. You know, obviously, a concern when you're injecting a autoimmune individual with the same proteins that are under attack in the disease; the concern is that you might exacerbate the disease or make it worse. And we found out that what we were doing was safe, really no significant adverse events. And then by structuring this phase one trial such that we could carry out mechanistic assays on t-cells from the blood of these individuals, we were able to show, at least with the patients receiving the highest dose of the therapy - there were four of them in that category - that compared to a month prior to the treatment, three months after the treatment we were able to knock down, to some extent or another, the immune responses directed against myelin antigens but had no effect on an immune response that we all have, and that's to a protein called tetanus. We've all been immunized with tetanus vaccine. So that's really what immunologists define as tolerance, that specific ability to only knock down immune response against the antigens that we re-introduce back into the individuals."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Right. Well, let's just get into the nuts and bolts of this a little bit, in layman's terms if you can. You took white blood cells out. And what did you do with that?"
+    },
+    {
+      "speaker": "Miller",
+      "text": "Yes. We essentially hooked patients up to a leukocyte-apheresis machine, and when I say we, I'd like to bring out that I had some fantastic clinical collaborators led by Dr. Roland Martin at the University of Hamburg and a fellow in his lab, Andreas Lutterotti and Mireia Sospedra. And those people were, you know, just tremendous in engineering our way through all the regulatory and pre-clinical..."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Dr. Miller, I know you want to give credit, but we don't have time to give everybody the credit (unintelligible) know what you did."
+    },
+    {
+      "speaker": "Miller",
+      "text": "OK. So what we did is we removed the white blood cells from the patient and introduced the red cells and plasma, which is the liquid part of the blood. And then in a blood bag we took seven different myelin antigens that we knew were targets of the autoimmune attack in patients. And we - using a chemical reaction, we attached those antigens onto the patient's white blood cells and then re-introduced those cells intravenously back into the patient. Now, this attachment did one other critical thing. In addition to attaching the antigens, it also made the blood cells die by a particular process that's called apoptosis. And when these antigen-coupled cells, as we call them, purple blood cells, were re-introduced it back into the patient, they are then targeted to cells of the immune system that perceive cells dying by apoptosis as being nothing to be concerned about. And it essentially then tricks the immune system or the auto-reactive cells that are carrying out the autoimmune disease and to be turned down rather than turned on."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So they see like these phony cells that you've brought back in, you know, as being the same kind of cells that are still active in the body. But these phony cells tell the body's immune system, nothing to worry about, these guys. Don't worry about them. And then they turn down the immune system for these types of cells and then don't attack the ones that are resident in the body."
+    },
+    {
+      "speaker": "Miller",
+      "text": "That's correct. And that's really tapping into a mechanism that the immune system evolved many eons ago. As you might know, in our (unintelligible) our hematopoietic system, our blood system, there are millions of red cells and nutria cells and other kinds of white blood cells that are dying every day. And there are cells that are - whose job is to pick up and dispose of that cellular debris which is a normal consequence of, you know, the way the immune system works and to do so in a way that doesn't alert the immune system that this cell death of this kind is anything to be worried about."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "I want to get into one other really fascinating part because we're running out of time, and that's is when you did this preliminary work in mice before you did it in humans, you used nanoparticles instead of white blood cells."
+    },
+    {
+      "speaker": "Miller",
+      "text": "Well, we used both, actually. We developed over many years the use of the white blood cells as carriers for the antigens to knock down the autoimmune response. But more recently, we used nanoparticles that we think are surrogates of these apoptotic white blood cells. So they actually have the same efficacy in mouse models of both preventing and treating animal models of multiple sclerosis. The advantage, of course, being that these nanoparticles can be manufactured under FDA-approved conditions and can be pulled off the shelf, the therapy is less intrusive than withdrawing, you know, billions of cells from a patient and manipulating them in a blood bag and re-introducing them."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So when do we get to a human trial of whether your technique works, in this phase two where you actually..."
+    },
+    {
+      "speaker": "Miller",
+      "text": "Right. Obviously we have to go to a phase two and to try this in more patients and observe those patients over a longer period of time to see whether we have any lasting effect. So as it stands right now, we are in the process of trying to secure funding to go on to a phase two trial. And at the same time, we're also in discussions and trying to partner with larger biotech and pharma companies to, at the same time, bring the nanoparticle platform into, obviously first the phase one clinical trials and then continue with that."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so you're looking for funding. You're looking for partners. But your nanoparticle idea - this is 30 years of work that you've been working on it?"
+    },
+    {
+      "speaker": "Miller",
+      "text": "That's correct. And we started out, you know, by attaching the antigens onto cells and then, you know..."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Could it work with other autoimmune diseases like diabetes, or what, whatever we have there?"
+    },
+    {
+      "speaker": "Miller",
+      "text": "That's correct. And that's the beauty of the technique because by just simply varying the antigens that are attached to the cells or the nanoparticles, we've shown, again, in mouse models of Type-1 diabetes and even in mouse models of allergy that we can attach the relevant antigen in Type-1 diabetes. We have used insulin, which is a protein that's lost in Type-1 diabetes because the autoimmune disease kills the beta cells that make that antigen. And we showed that we can both prevent and turn off new onset Type-1 diabetes."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Dr. Miller, good luck in your work, and thank you for taking time to be with us today."
+    },
+    {
+      "speaker": "Miller",
+      "text": "Thank you."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Dr. Stephen Miller, professor of microbiology and immunology at Northwestern University Feinberg School of Medicine."
+    }
+  ]
+}

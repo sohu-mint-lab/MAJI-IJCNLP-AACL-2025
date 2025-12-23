@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Denisovans",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What makes the discovery of Denisovans significant compared to Neanderthals?",
+        "importance": "critical",
+        "keywords": [
+          "Denisovans",
+          "Neanderthals",
+          "discovery"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What archaeological evidence do we have for the Denisovans?",
+        "importance": "high",
+        "keywords": [
+          "archaeological evidence",
+          "Denisovans",
+          "Siberia"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "DNA Analysis Methods",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How has the field of ancient DNA analysis evolved to allow for the sequencing of such old bones?",
+        "importance": "high",
+        "keywords": [
+          "ancient DNA",
+          "sequencing",
+          "technology"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What challenges do scientists face when extracting DNA from ancient remains?",
+        "importance": "high",
+        "keywords": [
+          "DNA extraction",
+          "challenges",
+          "ancient remains"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Relationship with Modern Humans",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what ways are Denisovans genetically related to modern humans and Neanderthals?",
+        "importance": "critical",
+        "keywords": [
+          "genetic relationship",
+          "modern humans",
+          "Neanderthals"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Is there evidence that modern humans interbred with Denisovans, and if so, who are their descendants?",
+        "importance": "high",
+        "keywords": [
+          "interbreeding",
+          "descendants",
+          "modern humans"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Research Directions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What ongoing research efforts are being made to explore Denisovan remains?",
+        "importance": "high",
+        "keywords": [
+          "research",
+          "Denisovans",
+          "future directions"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How can further discoveries about Denisovans enhance our understanding of human evolution?",
+        "importance": "high",
+        "keywords": [
+          "human evolution",
+          "Denisovans",
+          "understanding"
+        ]
+      }
+    ]
+  }
+]

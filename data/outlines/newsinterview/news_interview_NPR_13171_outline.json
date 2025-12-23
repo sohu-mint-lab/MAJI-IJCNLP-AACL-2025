@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of 'The Red Car' and Its Themes",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the central themes of Marcy Dermansky's novel 'The Red Car'?",
+        "importance": "critical",
+        "keywords": [
+          "themes",
+          "novel",
+          "control"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the car function as a character within the story?",
+        "importance": "high",
+        "keywords": [
+          "car",
+          "character",
+          "haunted"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Character Analysis of Leah",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What kind of character is Leah, and how does her lack of control manifest in her life?",
+        "importance": "critical",
+        "keywords": [
+          "Leah",
+          "character",
+          "control"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "In what ways does Leah's relationship with her boss Judy influence her character development?",
+        "importance": "high",
+        "keywords": [
+          "Judy",
+          "influence",
+          "development"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Ambiguity and Reader Interpretation",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Why does Marcy Dermansky leave certain plot points, like Judy's death, ambiguous?",
+        "importance": "high",
+        "keywords": [
+          "ambiguity",
+          "interpretation",
+          "death"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the writing style affect the reader's connection to Leah's character?",
+        "importance": "optional",
+        "keywords": [
+          "writing style",
+          "reader connection",
+          "character"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Exoplanets and the Kepler Mission",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the criteria for identifying potentially habitable exoplanets in the Milky Way?",
+        "importance": "critical",
+        "keywords": [
+          "exoplanets",
+          "habitable zone",
+          "Kepler Mission"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Recent Discoveries and Key Findings",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What makes Kepler-22B significant among the newly discovered exoplanets?",
+        "importance": "high",
+        "keywords": [
+          "Kepler-22B",
+          "exoplanets",
+          "discovery"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How many confirmed exoplanets have been found so far, and what does this indicate?",
+        "importance": "high",
+        "keywords": [
+          "confirmed exoplanets",
+          "statistics",
+          "discovery rate"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Challenges in Planetary Detection and Future Missions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What challenges does the Kepler Mission face in detecting Earth-like planets?",
+        "importance": "high",
+        "keywords": [
+          "detection challenges",
+          "Kepler Mission",
+          "Earth-like planets"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are the expectations for upcoming missions regarding the study of exoplanet atmospheres?",
+        "importance": "optional",
+        "keywords": [
+          "future missions",
+          "exoplanet atmospheres",
+          "TESS",
+          "PLATO"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,2770 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.89375,
+                "avg_originality": 0.39359742030501366,
+                "avg_context_relevance": 0.34068733372259885,
+                "avg_outline_relevance": 0.6916479393839836,
+                "avg_persona_alignment": 0.86875,
+                "avg_coherence": 0.68125
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.925,
+                "avg_originality": 0.3496680408716202,
+                "avg_context_relevance": 0.356955221388489,
+                "avg_outline_relevance": 0.834303617477417,
+                "avg_persona_alignment": 0.85,
+                "avg_coherence": 0.6625000000000001
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_Motivational": 0.5,
+                "profile_SurfaceLevel": 0.25,
+                "profile_Connecting": 0.25,
+                "avg_insight_score_first_half": 2.0,
+                "avg_insight_score_second_half": 3.5,
+                "insight_improvement_rate_pct": 75.0
+            }
+        },
+        "dcagent_v2": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.913793103448276,
+                "avg_originality": 0.4254207981043848,
+                "avg_context_relevance": 0.3020597651665067,
+                "avg_outline_relevance": 0.6383340661895687,
+                "avg_persona_alignment": 0.8974137931034484,
+                "avg_coherence": 0.6741379310344829
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.975,
+                "avg_originality": 0.37314343452453613,
+                "avg_context_relevance": 0.36310024256817997,
+                "avg_outline_relevance": 0.7496358752250671,
+                "avg_persona_alignment": 0.9125,
+                "avg_coherence": 0.7000000000000001
+            },
+            "strategic_analysis": {
+                "source_diversity": 0.5,
+                "option_set_richness": 0.0,
+                "profile_Motivational": 0.5,
+                "profile_Connecting": 0.5,
+                "avg_insight_score_first_half": 3.0,
+                "avg_insight_score_second_half": 4.0,
+                "insight_improvement_rate_pct": 33.33333333333333
+            }
+        },
+        "dcagent_v3": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.9155555555555555,
+                "avg_originality": 0.41520126130845814,
+                "avg_context_relevance": 0.2867676997350322,
+                "avg_outline_relevance": 0.6747933619552189,
+                "avg_persona_alignment": 0.8833333333333332,
+                "avg_coherence": 0.6722222222222223
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.95,
+                "avg_originality": 0.35960395634174347,
+                "avg_context_relevance": 0.34903167374432087,
+                "avg_outline_relevance": 0.7653126120567322,
+                "avg_persona_alignment": 0.9,
+                "avg_coherence": 0.65
+            },
+            "strategic_analysis": {
+                "source_diversity": 0.5,
+                "option_set_richness": 0.0,
+                "profile_Connecting": 1.0,
+                "avg_insight_score_first_half": 4.0,
+                "avg_insight_score_second_half": 4.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        },
+        "llm_base": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.8999999999999999,
+                "avg_originality": 0.3289650268852711,
+                "avg_context_relevance": 0.25537025230005383,
+                "avg_outline_relevance": 0.6604661531746387,
+                "avg_persona_alignment": 0.875,
+                "avg_coherence": 0.6875
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.9,
+                "avg_originality": 0.31563426554203033,
+                "avg_context_relevance": 0.2154343780130148,
+                "avg_outline_relevance": 0.6744232475757599,
+                "avg_persona_alignment": 0.8500000000000001,
+                "avg_coherence": 0.7000000000000001
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.521989643573761,
+                "profile_SurfaceLevel": 0.25,
+                "profile_Motivational": 0.5,
+                "profile_Challenging": 0.25,
+                "avg_insight_score_first_half": 2.0,
+                "avg_insight_score_second_half": 3.5,
+                "insight_improvement_rate_pct": 75.0
+            }
+        },
+        "llm_cot": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.8812500000000001,
+                "avg_originality": 0.3265719562768936,
+                "avg_context_relevance": 0.2676089875167236,
+                "avg_outline_relevance": 0.7020097356289625,
+                "avg_persona_alignment": 0.9,
+                "avg_coherence": 0.6843750000000001
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.85,
+                "avg_originality": 0.3033609688282013,
+                "avg_context_relevance": 0.1393883414566517,
+                "avg_outline_relevance": 0.6419235244393349,
+                "avg_persona_alignment": 0.875,
+                "avg_coherence": 0.6749999999999999
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.5003039091825485,
+                "profile_SurfaceLevel": 0.5,
+                "profile_Challenging": 0.5,
+                "avg_insight_score_first_half": 1.0,
+                "avg_insight_score_second_half": 4.0,
+                "insight_improvement_rate_pct": 300.0
+            }
+        },
+        "llm_rag": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.9,
+                "avg_originality": 0.34205957874655724,
+                "avg_context_relevance": 0.273378370096907,
+                "avg_outline_relevance": 0.6571999825537205,
+                "avg_persona_alignment": 0.884375,
+                "avg_coherence": 0.659375
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.875,
+                "avg_originality": 0.277152881026268,
+                "avg_context_relevance": 0.1531301261857152,
+                "avg_outline_relevance": 0.6473384127020836,
+                "avg_persona_alignment": 0.8500000000000001,
+                "avg_coherence": 0.675
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.5193052962422371,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 1.0,
+                "avg_insight_score_second_half": 1.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        },
+        "llm_tot": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.8866666666666667,
+                "avg_originality": 0.38740083773930867,
+                "avg_context_relevance": 0.24666874532898267,
+                "avg_outline_relevance": 0.6545508066813152,
+                "avg_persona_alignment": 0.8866666666666668,
+                "avg_coherence": 0.6633333333333333
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.8666666666666667,
+                "avg_originality": 0.42739208539326984,
+                "avg_context_relevance": 0.2857902447382609,
+                "avg_outline_relevance": 0.6658056577046713,
+                "avg_persona_alignment": 0.8666666666666667,
+                "avg_coherence": 0.6333333333333334
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.5264020785689354,
+                "profile_SurfaceLevel": 0.75,
+                "profile_Connecting": 0.25,
+                "avg_insight_score_first_half": 0.5,
+                "avg_insight_score_second_half": 2.5,
+                "insight_improvement_rate_pct": 400.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 20.0,
+            "weighted_coverage_score": 23.52941176470588,
+            "covered_questions": 1,
+            "total_questions": 5
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 40.0,
+            "weighted_coverage_score": 35.294117647058826,
+            "covered_questions": 2,
+            "total_questions": 5
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 20.0,
+            "weighted_coverage_score": 17.647058823529413,
+            "covered_questions": 1,
+            "total_questions": 5
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 20.0,
+            "weighted_coverage_score": 17.647058823529413,
+            "covered_questions": 1,
+            "total_questions": 5
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 20.0,
+            "weighted_coverage_score": 23.52941176470588,
+            "covered_questions": 1,
+            "total_questions": 5
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 40.0,
+            "weighted_coverage_score": 35.294117647058826,
+            "covered_questions": 2,
+            "total_questions": 5
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 20.0,
+            "weighted_coverage_score": 23.52941176470588,
+            "covered_questions": 1,
+            "total_questions": 5
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Sri Lankan authorities say at least 190 have been killed and hundreds more wounded in eight blasts across the country. The bombs targeted luxury hotels and churches as people gathered for Easter services. A curfew has now been imposed. Here to discuss the latest news is NPR's Lauren Frayer, who joins us from Mumbai. Lauren, what are you hearing from Colombo?",
+            "previous_answer": "Yeah. So as - the curfew has been imposed, as you said. Monday and Tuesday have been declared government holidays. That means offices and schools will be closed. Security is tightening around the country. We're seeing SWAT teams with these massive guns putting up security cordons around the capital, Colombo. They're searching buildings, and we're just getting word of seven arrests - no word on who those people are. Also, social media is shut down. Authorities are taking no chances about the terrorists, you know, using the Internet to communicate. These blasts, as you mentioned, hit churches when they were most packed, on Easter Sunday - Easter services. One church put out a notice on Facebook for relatives to come and rescue their loved ones in the debris. Local TV is showing footage of parishioners carrying out bodies of wounded people. Meanwhile, behind them, the church pews are smeared with blood, debris everywhere. The roof of one church was partially blown off. And it's not just the churches. There are also five-star hotels that have been hit, windows blown out at one. And the foreign minister has just given us an update; at least 27 foreigners are among those killed.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you provide insight into the backgrounds and motives of the individuals who were arrested in connection with these attacks?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3151727020740509,
+                        "outline_relevance": 0.695741593837738,
+                        "originality": 1.0,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.8,
+                        "qualitative_elaboration": 0.8
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you share more about the profiles and backgrounds of those arrested in connection to the bombings?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.27551209926605225,
+                            "outline_relevance": 0.5959694385528564,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "Broad: How has the social media blackout affected families trying to get information and the spread of news in Sri Lanka?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3828093409538269,
+                            "outline_relevance": 0.5133407115936279,
+                            "originality": 1.0,
+                            "persona_alignment": 0.8,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Balanced: What humanitarian efforts are currently underway to support victims and communities affected by the attacks, beyond the immediate security responses?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.37307366728782654,
+                            "outline_relevance": 0.5731804966926575,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Can you provide insight into the backgrounds and motives of the individuals who were arrested in connection with these attacks?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3151727020740509,
+                            "outline_relevance": 0.695741593837738,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.8
+                        }
+                    ],
+                    "insight_category": "Motivational",
+                    "insight_score": 3
+                },
+                "dcagent_v2": {
+                    "source_name": "dcagent_v2",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think the targeting of both religious sites and high-end hotels serves the perpetrators' objectives in terms of messaging and impact domestically and internationally? Considering if these attacks convey a symbolic message about Sri Lanka's society or divisions, how would you interpret that symbolically?",
+                        "source": "dcagent_v2_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2415037751197815,
+                        "outline_relevance": 0.5690691471099854,
+                        "originality": 1.0,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.9,
+                        "qualitative_elaboration": 1.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Given the swift and comprehensive security measures like curfews, building searches, and social media shutdowns, what does this suggest about the government's preparedness and previous experiences with similar threats?",
+                            "source": "dcagent_v2_Logic and Causality",
+                            "was_selected": false,
+                            "context_relevance": 0.5948230028152466,
+                            "outline_relevance": 0.5235759019851685,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How do you think the targeting of both religious sites and high-end hotels together serves the perpetrators' objectives in terms of messaging and impact domestically and internationally?",
+                            "source": "dcagent_v2_Logic and Causality",
+                            "was_selected": false,
+                            "context_relevance": 0.23327578604221344,
+                            "outline_relevance": 0.4330730140209198,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What might be the social and psychological impacts within the local communities, especially among religious groups and foreign nationals, given the nature and spread of these attacks?",
+                            "source": "dcagent_v2_Logic and Causality",
+                            "was_selected": false,
+                            "context_relevance": 0.24872708320617676,
+                            "outline_relevance": 0.6036689281463623,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "Can you describe how witnessing or reporting on such tragic scenes, like the aftermath at the churches, has affected you personally?",
+                            "source": "dcagent_v2_Emotional Depth",
+                            "was_selected": false,
+                            "context_relevance": 0.09769932180643082,
+                            "outline_relevance": 0.5184101462364197,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What feelings do you think these security measures and shutdowns have instilled in the local population?",
+                            "source": "dcagent_v2_Emotional Depth",
+                            "was_selected": false,
+                            "context_relevance": 0.5091514587402344,
+                            "outline_relevance": 0.4465487599372864,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "Given your focus on providing context and humanity, how do you balance conveying the gravity of the situation with maintaining your own emotional resilience?",
+                            "source": "dcagent_v2_Emotional Depth",
+                            "was_selected": false,
+                            "context_relevance": 0.052262067794799805,
+                            "outline_relevance": 0.3268231749534607,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Can you share how global leaders have responded to the attacks and what messages of solidarity or condemnation have been conveyed?",
+                            "source": "dcagent_v2_StructuredProgression",
+                            "was_selected": false,
+                            "context_relevance": 0.321306049823761,
+                            "outline_relevance": 0.8476988673210144,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Could you provide some historical background on the violence in Sri Lanka that helps explain the context and significance of these recent attacks?",
+                            "source": "dcagent_v2_StructuredProgression",
+                            "was_selected": false,
+                            "context_relevance": 0.3114287257194519,
+                            "outline_relevance": 0.7606649398803711,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How does Sri Lanka's demographic and religious makeup play a role in the ongoing tensions and recent violence?",
+                            "source": "dcagent_v2_StructuredProgression",
+                            "was_selected": false,
+                            "context_relevance": 0.2605452537536621,
+                            "outline_relevance": 0.9390989542007446,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.75,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Can you share more about how the local communities in Sri Lanka are coping with the aftermath of these attacks?",
+                            "source": "dcagent_v2_Role-playing",
+                            "was_selected": false,
+                            "context_relevance": 0.34035250544548035,
+                            "outline_relevance": 0.7545780539512634,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How do the increased security measures and social media shutdown affect your ability to report the unfolding events on the ground?",
+                            "source": "dcagent_v2_Role-playing",
+                            "was_selected": false,
+                            "context_relevance": 0.43926501274108887,
+                            "outline_relevance": 0.49098092317581177,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "Could you provide more historical insight into the conflicts in Sri Lanka that might shed light on the motivations or significance behind these attacks?",
+                            "source": "dcagent_v2_Role-playing",
+                            "was_selected": false,
+                            "context_relevance": 0.3097497820854187,
+                            "outline_relevance": 0.7327502965927124,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.75,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "If you were to describe the emotional atmosphere in Colombo right now using a metaphor or an image, what would it be?",
+                            "source": "dcagent_v2_Creative Surprise",
+                            "was_selected": false,
+                            "context_relevance": 0.08031114190816879,
+                            "outline_relevance": 0.4303644299507141,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "Imagine you could interview someone from each community affected by these bombings—a parishioner, a hotel worker, and a member of the security forces. What surprising or unexpected insight do you think each might share?",
+                            "source": "dcagent_v2_Creative Surprise",
+                            "was_selected": false,
+                            "context_relevance": 0.23961637914180756,
+                            "outline_relevance": 0.4603410065174103,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.7,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Considering the simultaneous targeting of religious and luxury sites, do you think the attacks convey a symbolic message about Sri Lanka's society or divisions? How would you interpret that symbolically?",
+                            "source": "dcagent_v2_Creative Surprise",
+                            "was_selected": false,
+                            "context_relevance": 0.2501288056373596,
+                            "outline_relevance": 0.6158836483955383,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How do you think the targeting of both religious sites and high-end hotels serves the perpetrators' objectives in terms of messaging and impact domestically and internationally? Considering if these attacks convey a symbolic message about Sri Lanka's society or divisions, how would you interpret that symbolically?",
+                            "source": "dcagent_v2_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2415037751197815,
+                            "outline_relevance": 0.5690691471099854,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 1.0
+                        }
+                    ],
+                    "insight_category": "Motivational",
+                    "insight_score": 3
+                },
+                "dcagent_v3": {
+                    "source_name": "dcagent_v3",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the historical conflicts in Sri Lanka, including ethnic and religious divisions, that have contributed to the current tensions and recent Easter Sunday attacks?",
+                        "source": "dcagent_v3_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3320137858390808,
+                        "outline_relevance": 0.7369929552078247,
+                        "originality": 1.0,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.8,
+                        "qualitative_elaboration": 0.9
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain the historical conflicts in Sri Lanka that have contributed to the current tensions and violence?",
+                            "source": "dcagent_v3_dcagent_Contextual_Historian",
+                            "was_selected": false,
+                            "context_relevance": 0.3048476576805115,
+                            "outline_relevance": 0.7650468945503235,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.4,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How have ethnic and religious divisions historically influenced incidents of violence in Sri Lanka?",
+                            "source": "dcagent_v3_dcagent_Contextual_Historian",
+                            "was_selected": false,
+                            "context_relevance": 0.23323708772659302,
+                            "outline_relevance": 0.9070613384246826,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.7,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How do historical grievances of different communities in Sri Lanka relate to the recent Easter Sunday blasts?",
+                            "source": "dcagent_v3_dcagent_Contextual_Historian",
+                            "was_selected": false,
+                            "context_relevance": 0.3250281810760498,
+                            "outline_relevance": 0.6879074573516846,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.7,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "In what ways have international organizations like the United Nations or Interpol responded to the Sri Lanka bombings?",
+                            "source": "dcagent_v3_dcagent_Global_Response_Analyst",
+                            "was_selected": false,
+                            "context_relevance": 0.30966562032699585,
+                            "outline_relevance": 0.8230898976325989,
+                            "originality": 1.0,
+                            "persona_alignment": 0.8,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "Have there been any notable diplomatic actions, such as statements or visits, by foreign governments in response to these attacks?",
+                            "source": "dcagent_v3_dcagent_Global_Response_Analyst",
+                            "was_selected": false,
+                            "context_relevance": 0.3714195489883423,
+                            "outline_relevance": 0.735930860042572,
+                            "originality": 1.0,
+                            "persona_alignment": 0.6,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "How have global leaders framed the implications of these attacks in terms of international terrorism or regional stability?",
+                            "source": "dcagent_v3_dcagent_Global_Response_Analyst",
+                            "was_selected": false,
+                            "context_relevance": 0.37663644552230835,
+                            "outline_relevance": 0.805997371673584,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Can you elaborate on the specific measures the government has taken to enforce the curfew and what impact this has had on daily life for residents?",
+                            "source": "dcagent_v3_dcagent_Government_Response_Expert",
+                            "was_selected": false,
+                            "context_relevance": 0.5600066184997559,
+                            "outline_relevance": 0.33083561062812805,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What challenges are emergency responders facing on the ground in terms of rescue and medical aid, and how is the government coordinating these efforts?",
+                            "source": "dcagent_v3_dcagent_Government_Response_Expert",
+                            "was_selected": false,
+                            "context_relevance": 0.3390945792198181,
+                            "outline_relevance": 0.3670026659965515,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How has the shutdown of social media affected communication among citizens and the dissemination of information during this emergency?",
+                            "source": "dcagent_v3_dcagent_Government_Response_Expert",
+                            "was_selected": false,
+                            "context_relevance": 0.490179181098938,
+                            "outline_relevance": 0.4468086063861847,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "Can you share some personal stories of victims or survivors that you have encountered during your reporting in Sri Lanka?",
+                            "source": "dcagent_v3_dcagent_Human_Impact_Reporter",
+                            "was_selected": false,
+                            "context_relevance": 0.09747626632452011,
+                            "outline_relevance": 0.537714958190918,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How are local communities coping with the aftermath of the bombings, especially those who lost loved ones or their places of worship?",
+                            "source": "dcagent_v3_dcagent_Human_Impact_Reporter",
+                            "was_selected": false,
+                            "context_relevance": 0.24905356764793396,
+                            "outline_relevance": 0.5088728666305542,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "What are some of the challenges faced by emergency responders and humanitarian groups in dealing with the scale and nature of these attacks?",
+                            "source": "dcagent_v3_dcagent_Human_Impact_Reporter",
+                            "was_selected": false,
+                            "context_relevance": 0.3669911026954651,
+                            "outline_relevance": 0.5746572017669678,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Can you explain the historical conflicts in Sri Lanka, including ethnic and religious divisions, that have contributed to the current tensions and recent Easter Sunday attacks?",
+                            "source": "dcagent_v3_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3320137858390808,
+                            "outline_relevance": 0.7369929552078247,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "Connecting",
+                    "insight_score": 4
+                },
+                "llm_base": {
+                    "source_name": "llm_base",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you elaborate on the current security measures in place and how they are affecting everyday life for Sri Lankan citizens?",
+                        "source": "llm_base",
+                        "was_selected": true,
+                        "context_relevance": 0.41168004274368286,
+                        "outline_relevance": 0.5907853841781616,
+                        "originality": 1.0,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.9,
+                        "qualitative_elaboration": 0.8
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you elaborate on the current security measures in place and how they are affecting everyday life for Sri Lankan citizens?",
+                            "source": "llm_base",
+                            "was_selected": true,
+                            "context_relevance": 0.41168004274368286,
+                            "outline_relevance": 0.5907853841781616,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "What groups or individuals are suspected to be behind these coordinated attacks, and what motives have been suggested so far?",
+                            "source": "llm_base",
+                            "was_selected": false,
+                            "context_relevance": 0.34110379219055176,
+                            "outline_relevance": 0.7123860716819763,
+                            "originality": 1.0,
+                            "persona_alignment": 0.7,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How are local communities, particularly religious groups, responding to these attacks and the heightened tensions?",
+                            "source": "llm_base",
+                            "was_selected": false,
+                            "context_relevance": 0.3367657959461212,
+                            "outline_relevance": 0.607559859752655,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "In your reporting, have you encountered any stories that highlight the human impact of the bombings beyond the immediate casualties?",
+                            "source": "llm_base",
+                            "was_selected": false,
+                            "context_relevance": 0.23036472499370575,
+                            "outline_relevance": 0.6149872541427612,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 1
+                },
+                "llm_cot": {
+                    "source_name": "llm_cot",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you provide more details about the groups or individuals suspected to be behind these attacks and their possible motives?",
+                        "source": "llm_cot",
+                        "was_selected": true,
+                        "context_relevance": 0.3008240759372711,
+                        "outline_relevance": 0.7140167951583862,
+                        "originality": 1.0,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.9,
+                        "qualitative_elaboration": 0.9
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you provide more details about the groups or individuals suspected to be behind these attacks and their possible motives?",
+                            "source": "llm_cot",
+                            "was_selected": true,
+                            "context_relevance": 0.3008240759372711,
+                            "outline_relevance": 0.7140167951583862,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How are local communities in Sri Lanka, especially those directly affected, responding and coping in the aftermath of these bombings?",
+                            "source": "llm_cot",
+                            "was_selected": false,
+                            "context_relevance": 0.3201935291290283,
+                            "outline_relevance": 0.7520924210548401,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What role does Sri Lanka’s complex ethnic and religious makeup play in both the violence and the efforts toward peace and reconciliation?",
+                            "source": "llm_cot",
+                            "was_selected": false,
+                            "context_relevance": 0.18110305070877075,
+                            "outline_relevance": 0.8572244048118591,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "From your perspective on the ground, how are journalists and media outlets in Sri Lanka managing to report on these sensitive events amid security restrictions and social media shutdowns?",
+                            "source": "llm_cot",
+                            "was_selected": false,
+                            "context_relevance": 0.48035168647766113,
+                            "outline_relevance": 0.6228781938552856,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 1
+                },
+                "llm_tot": {
+                    "source_name": "llm_tot",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you share more about the atmosphere and mood in Colombo right now as the country grapples with these attacks?",
+                        "source": "llm_tot",
+                        "was_selected": true,
+                        "context_relevance": 0.3603324890136719,
+                        "outline_relevance": 0.6657648086547852,
+                        "originality": 1.0,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.9,
+                        "qualitative_elaboration": 0.9
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you share more about the atmosphere and mood in Colombo right now as the country grapples with these attacks?",
+                            "source": "llm_tot",
+                            "was_selected": true,
+                            "context_relevance": 0.3603324890136719,
+                            "outline_relevance": 0.6657648086547852,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What are the challenges Sri Lankan authorities face in identifying and apprehending those responsible for the bombings?",
+                            "source": "llm_tot",
+                            "was_selected": false,
+                            "context_relevance": 0.36389660835266113,
+                            "outline_relevance": 0.7896596193313599,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "How might the recent attacks impact the religious and ethnic tensions that have existed in Sri Lanka historically?",
+                            "source": "llm_tot",
+                            "was_selected": false,
+                            "context_relevance": 0.30339887738227844,
+                            "outline_relevance": 0.8007716536521912,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What role is the international community playing in supporting Sri Lanka during this crisis, and how are global responses shaping local realities?",
+                            "source": "llm_tot",
+                            "was_selected": false,
+                            "context_relevance": 0.28210732340812683,
+                            "outline_relevance": 0.7497215867042542,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 1
+                },
+                "llm_rag": {
+                    "source_name": "llm_rag",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you elaborate on which groups or individuals are suspected to be behind these attacks, and what their possible motives might be?",
+                        "source": "llm_rag",
+                        "was_selected": true,
+                        "context_relevance": 0.306722491979599,
+                        "outline_relevance": 0.7089175581932068,
+                        "originality": 1.0,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.8,
+                        "qualitative_elaboration": 0.9
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you elaborate on which groups or individuals are suspected to be behind these attacks, and what their possible motives might be?",
+                            "source": "llm_rag",
+                            "was_selected": true,
+                            "context_relevance": 0.306722491979599,
+                            "outline_relevance": 0.7089175581932068,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How are the local communities, particularly those affected directly by the bombings, responding and coping with this tragedy?",
+                            "source": "llm_rag",
+                            "was_selected": false,
+                            "context_relevance": 0.3154242932796478,
+                            "outline_relevance": 0.5774986743927002,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What impact do these attacks have on Sri Lanka’s fragile peace and the efforts toward reconciliation since the end of the civil war?",
+                            "source": "llm_rag",
+                            "was_selected": false,
+                            "context_relevance": 0.36019012331962585,
+                            "outline_relevance": 0.7393758296966553,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How is the international community responding beyond official statements—are there any offers of aid or support for Sri Lanka in the aftermath of these bombings?",
+                            "source": "llm_rag",
+                            "was_selected": false,
+                            "context_relevance": 0.3433564007282257,
+                            "outline_relevance": 0.8087531328201294,
+                            "originality": 1.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 1
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "And we've been getting reaction. President Trump has tweeted his condolences. And there's reaction coming in from around the world on this Easter Sunday. Tell us what you've heard.",
+            "previous_answer": "Right. So this footage is just so disturbing. And so people in other time zones are waking up to the horror of this and sending in these messages of shock and condemnation. President Trump, as you mentioned, tweeted heartfelt condolences. He said, quote, \"we stand ready to help\" - exclamation point. Also, messages are coming in from European leaders and the prime minister of New Zealand, which sadly just suffered attacks on some of its own places of worship - mosques - last month. Pope Francis spoke at St. Peter's Square in Rome. He said he wants to express his affectionate closeness to the Christian community in Sri Lanka and to the victims there.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you elaborate on the specific messages President Trump sent in response to the attacks, and how they might reflect the US government's stance or intended actions?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4490337371826172,
+                        "outline_relevance": 0.7705597281455994,
+                        "originality": 0.2853347063064575,
+                        "persona_alignment": 0.7,
+                        "coherence": 0.9,
+                        "qualitative_elaboration": 0.9
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you describe how the local communities in Sri Lanka are reacting alongside the global leaders to the bombings?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3637178838253021,
+                            "outline_relevance": 0.8600214719772339,
+                            "originality": 0.08000040054321289,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "depth: What specific actions have been announced or taken by governments or organizations following these condolences?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.43170782923698425,
+                            "outline_relevance": 0.5564916133880615,
+                            "originality": 0.380847692489624,
+                            "persona_alignment": 0.8,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "balanced: How might the recent attacks in New Zealand shape international aid or political response to the Sri Lanka bombings?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.392400860786438,
+                            "outline_relevance": 0.7396768927574158,
+                            "originality": 0.21119564771652222,
+                            "persona_alignment": 0.8,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Could you elaborate on the specific messages President Trump sent in response to the attacks, and how they might reflect the US government's stance or intended actions?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4490337371826172,
+                            "outline_relevance": 0.7705597281455994,
+                            "originality": 0.2853347063064575,
+                            "persona_alignment": 0.7,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 1
+                },
+                "dcagent_v2": {
+                    "source_name": "dcagent_v2",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think the global messages of shock, condemnation, and solidarity, including those from international leaders and religious figures like Pope Francis, influence the local communities' response and collective healing in Sri Lanka following these attacks?",
+                        "source": "dcagent_v2_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5567851066589355,
+                        "outline_relevance": 0.7890831232070923,
+                        "originality": 0.24212217330932617,
+                        "persona_alignment": 0.95,
+                        "coherence": 0.9,
+                        "qualitative_elaboration": 1.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you think the global messages of shock and condemnation influence the local community's response to the attacks in Sri Lanka?",
+                            "source": "dcagent_v2_Logic and Causality",
+                            "was_selected": false,
+                            "context_relevance": 0.4274628460407257,
+                            "outline_relevance": 0.8105020523071289,
+                            "originality": 0.19328439235687256,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "Can you explain the process by which governments decide on measures like curfews and social media shutdowns following such terrorist attacks?",
+                            "source": "dcagent_v2_Logic and Causality",
+                            "was_selected": false,
+                            "context_relevance": 0.3075515031814575,
+                            "outline_relevance": 0.533624529838562,
+                            "originality": 0.20170104503631592,
+                            "persona_alignment": 0.8,
+                            "coherence": 0.4,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "Given the recent attacks on places of worship in different countries, how do you see these events influencing global policy or cooperation on counter-terrorism?",
+                            "source": "dcagent_v2_Logic and Causality",
+                            "was_selected": false,
+                            "context_relevance": 0.49129486083984375,
+                            "outline_relevance": 0.6275008320808411,
+                            "originality": 0.2828793525695801,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How do you personally process and cope with the emotional weight of reporting on such tragic and disturbing events?",
+                            "source": "dcagent_v2_Emotional Depth",
+                            "was_selected": false,
+                            "context_relevance": 0.3569983243942261,
+                            "outline_relevance": 0.5129967927932739,
+                            "originality": 0.32434654235839844,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Can you share an experience during your coverage when you felt the global reactions brought a sense of solidarity or hope amid the tragedy?",
+                            "source": "dcagent_v2_Emotional Depth",
+                            "was_selected": false,
+                            "context_relevance": 0.45277169346809387,
+                            "outline_relevance": 0.6254655122756958,
+                            "originality": 0.2658824324607849,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "What emotional effect do you think Pope Francis’s message of affectionate closeness has on the Christian community in Sri Lanka and other victims?",
+                            "source": "dcagent_v2_Emotional Depth",
+                            "was_selected": false,
+                            "context_relevance": 0.5209211111068726,
+                            "outline_relevance": 0.5072896480560303,
+                            "originality": 0.42589396238327026,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "Can you provide some historical context about the conflicts in Sri Lanka that might help explain why these recent attacks happened?",
+                            "source": "dcagent_v2_StructuredProgressionAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.310183584690094,
+                            "outline_relevance": 0.769180178642273,
+                            "originality": 0.04526406526565552,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How does the religious and demographic makeup of Sri Lanka contribute to the tensions and violence in the country?",
+                            "source": "dcagent_v2_StructuredProgressionAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.280714213848114,
+                            "outline_relevance": 0.9440115690231323,
+                            "originality": 0.026505768299102783,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.6,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Can you elaborate on how the global community's reactions, including that of religious leaders like Pope Francis, impact the local communities affected by these attacks in Sri Lanka?",
+                            "source": "dcagent_v2_Role-playing",
+                            "was_selected": false,
+                            "context_relevance": 0.5342568159103394,
+                            "outline_relevance": 0.8069155812263489,
+                            "originality": 0.219463050365448,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Given your empathetic approach to reporting, how do you balance conveying the disturbing nature of the footage with maintaining respect for the victims and their families in your coverage?",
+                            "source": "dcagent_v2_Role-playing",
+                            "was_selected": false,
+                            "context_relevance": 0.3955974876880646,
+                            "outline_relevance": 0.4536951184272766,
+                            "originality": 0.3763158917427063,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How do the recent attacks in Sri Lanka fit into the broader historical and regional conflicts you mentioned? Could you give examples of previous incidents that shed light on the current situation?",
+                            "source": "dcagent_v2_Role-playing",
+                            "was_selected": false,
+                            "context_relevance": 0.2928234934806824,
+                            "outline_relevance": 0.7176580429077148,
+                            "originality": 0.09736394882202148,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "If the recent attacks in Sri Lanka were a tragic chapter in a long and complex book, what would you say the previous chapters have revealed about the underlying tensions?",
+                            "source": "dcagent_v2_Creative Surprise",
+                            "was_selected": false,
+                            "context_relevance": 0.28819936513900757,
+                            "outline_relevance": 0.6050399541854858,
+                            "originality": 0.24122512340545654,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.6,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Considering the global reactions, including from leaders and religious figures, how might these responses shape the collective healing or future relations between communities affected by the violence?",
+                            "source": "dcagent_v2_Creative Surprise",
+                            "was_selected": false,
+                            "context_relevance": 0.36482498049736023,
+                            "outline_relevance": 0.6495299339294434,
+                            "originality": 0.24478179216384888,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Given the recent attacks on both Christian and Muslim places of worship in the region, how do you perceive the role of religious identity in the ongoing violence, and could this be a path toward either deeper division or unexpected alliances?",
+                            "source": "dcagent_v2_Creative Surprise",
+                            "was_selected": false,
+                            "context_relevance": 0.341590017080307,
+                            "outline_relevance": 0.5702106952667236,
+                            "originality": 0.2655264735221863,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "How do you think the global messages of shock, condemnation, and solidarity, including those from international leaders and religious figures like Pope Francis, influence the local communities' response and collective healing in Sri Lanka following these attacks?",
+                            "source": "dcagent_v2_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5567851066589355,
+                            "outline_relevance": 0.7890831232070923,
+                            "originality": 0.24212217330932617,
+                            "persona_alignment": 0.95,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 1.0
+                        }
+                    ],
+                    "insight_category": "Motivational",
+                    "insight_score": 3
+                },
+                "dcagent_v3": {
+                    "source_name": "dcagent_v3",
+                    "selected_suggestion_metrics": {
+                        "question": "How do the diverse religious and ethnic demographics of Sri Lanka influence the dynamics of violence and intercommunal relations, and what role do religious figures, like Pope Francis, play in addressing the impact of attacks on places of worship and influencing interfaith relations and community healing?",
+                        "source": "dcagent_v3_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3536093235015869,
+                        "outline_relevance": 0.8295566439628601,
+                        "originality": 0.15727776288986206,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.8,
+                        "qualitative_elaboration": 1.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain the historical conflicts in Sri Lanka that have shaped the current sociopolitical climate leading up to these bombings?",
+                            "source": "dcagent_v3_dcagent_Contextual_Historian",
+                            "was_selected": false,
+                            "context_relevance": 0.2899991571903229,
+                            "outline_relevance": 0.7526391744613647,
+                            "originality": 0.10848879814147949,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "How do the diverse religious and ethnic demographics of Sri Lanka influence the dynamics of violence and intercommunal relations in the country?",
+                            "source": "dcagent_v3_dcagent_Contextual_Historian",
+                            "was_selected": false,
+                            "context_relevance": 0.17957451939582825,
+                            "outline_relevance": 0.905350923538208,
+                            "originality": 0.08961993455886841,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.7,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What historical tensions or incidents involving extremist groups in Sri Lanka might illuminate the motives behind these coordinated attacks?",
+                            "source": "dcagent_v3_dcagent_Contextual_Historian",
+                            "was_selected": false,
+                            "context_relevance": 0.32910066843032837,
+                            "outline_relevance": 0.7367379665374756,
+                            "originality": 0.09551084041595459,
+                            "persona_alignment": 0.95,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How do you assess the significance of the international community's rapid expressions of solidarity, such as those from President Trump and Pope Francis, in shaping the global narrative around the Sri Lanka bombings?",
+                            "source": "dcagent_v3_dcagent_Global_Reaction_Analyst",
+                            "was_selected": false,
+                            "context_relevance": 0.5198564529418945,
+                            "outline_relevance": 0.7115029692649841,
+                            "originality": 0.27141231298446655,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Can you elaborate on the varying responses from different countries, particularly how nations with recent similar experiences, like New Zealand, frame their condolences and support in relation to Sri Lanka's situation?",
+                            "source": "dcagent_v3_dcagent_Global_Reaction_Analyst",
+                            "was_selected": false,
+                            "context_relevance": 0.3855094611644745,
+                            "outline_relevance": 0.742548942565918,
+                            "originality": 0.245907723903656,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What role do religious figures like Pope Francis play in addressing the impact of attacks on places of worship, and how might their messages influence interfaith relations and community healing following such tragedies?",
+                            "source": "dcagent_v3_dcagent_Global_Reaction_Analyst",
+                            "was_selected": false,
+                            "context_relevance": 0.550150990486145,
+                            "outline_relevance": 0.46518465876579285,
+                            "originality": 0.3208944797515869,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "Can you describe the experiences of survivors and how their stories have influenced public perception and response to the bombings?",
+                            "source": "dcagent_v3_dcagent_Human_Impact_Explorer",
+                            "was_selected": false,
+                            "context_relevance": 0.3127949833869934,
+                            "outline_relevance": 0.5504521131515503,
+                            "originality": 0.21509623527526855,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What role have local communities played in the rescue, recovery, and support efforts following the attacks?",
+                            "source": "dcagent_v3_dcagent_Human_Impact_Explorer",
+                            "was_selected": false,
+                            "context_relevance": 0.23726701736450195,
+                            "outline_relevance": 0.5802660584449768,
+                            "originality": 0.23957955837249756,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.7,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How have the attacks affected the daily lives and emotional well-being of those living in the targeted communities, especially the Christian and other religious groups?",
+                            "source": "dcagent_v3_dcagent_Human_Impact_Explorer",
+                            "was_selected": false,
+                            "context_relevance": 0.38523921370506287,
+                            "outline_relevance": 0.5251020193099976,
+                            "originality": 0.16741794347763062,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How do the diverse religious and ethnic demographics of Sri Lanka influence the dynamics of violence and intercommunal relations, and what role do religious figures, like Pope Francis, play in addressing the impact of attacks on places of worship and influencing interfaith relations and community healing?",
+                            "source": "dcagent_v3_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3536093235015869,
+                            "outline_relevance": 0.8295566439628601,
+                            "originality": 0.15727776288986206,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 1.0
+                        }
+                    ],
+                    "insight_category": "Connecting",
+                    "insight_score": 4
+                },
+                "llm_base": {
+                    "source_name": "llm_base",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you provide more insight into the groups or individuals suspected of carrying out these attacks, and what motives might be driving them?",
+                        "source": "llm_base",
+                        "was_selected": true,
+                        "context_relevance": 0.33251479268074036,
+                        "outline_relevance": 0.6990065574645996,
+                        "originality": 0.031604766845703125,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.9,
+                        "qualitative_elaboration": 0.9
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you provide more insight into the groups or individuals suspected of carrying out these attacks, and what motives might be driving them?",
+                            "source": "llm_base",
+                            "was_selected": true,
+                            "context_relevance": 0.33251479268074036,
+                            "outline_relevance": 0.6990065574645996,
+                            "originality": 0.031604766845703125,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How are local communities in Sri Lanka, particularly those from different religious backgrounds, responding to the bombings and the ensuing security measures?",
+                            "source": "llm_base",
+                            "was_selected": false,
+                            "context_relevance": 0.34335482120513916,
+                            "outline_relevance": 0.7608119249343872,
+                            "originality": 0.09514486789703369,
+                            "persona_alignment": 0.85,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What challenges do journalists face when reporting on such sensitive and traumatic events, especially in a country with a complex history like Sri Lanka?",
+                            "source": "llm_base",
+                            "was_selected": false,
+                            "context_relevance": 0.39874646067619324,
+                            "outline_relevance": 0.5841240882873535,
+                            "originality": 0.1710459589958191,
+                            "persona_alignment": 0.95,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "In what ways can the international community support Sri Lanka beyond immediate security assistance to help promote long-term peace and reconciliation?",
+                            "source": "llm_base",
+                            "was_selected": false,
+                            "context_relevance": 0.20065101981163025,
+                            "outline_relevance": 0.604576587677002,
+                            "originality": 0.16667091846466064,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "Motivational",
+                    "insight_score": 3
+                },
+                "llm_cot": {
+                    "source_name": "llm_cot",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you provide more insight into the identities or affiliations of the suspects who have been arrested so far?",
+                        "source": "llm_cot",
+                        "was_selected": true,
+                        "context_relevance": 0.18928855657577515,
+                        "outline_relevance": 0.4575783312320709,
+                        "originality": 0.18091309070587158,
+                        "persona_alignment": 0.8,
+                        "coherence": 0.6,
+                        "qualitative_elaboration": 0.8
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you provide more insight into the identities or affiliations of the suspects who have been arrested so far?",
+                            "source": "llm_cot",
+                            "was_selected": true,
+                            "context_relevance": 0.18928855657577515,
+                            "outline_relevance": 0.4575783312320709,
+                            "originality": 0.18091309070587158,
+                            "persona_alignment": 0.8,
+                            "coherence": 0.6,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "How are local communities in Sri Lanka, particularly those affected by the bombings, responding to the tragedy?",
+                            "source": "llm_cot",
+                            "was_selected": false,
+                            "context_relevance": 0.3345189690589905,
+                            "outline_relevance": 0.7579081058502197,
+                            "originality": 0.04230964183807373,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "Could you elaborate on how the historical tensions between different ethnic and religious groups in Sri Lanka have shaped the current security situation?",
+                            "source": "llm_cot",
+                            "was_selected": false,
+                            "context_relevance": 0.2863219678401947,
+                            "outline_relevance": 0.7520560026168823,
+                            "originality": 0.11406439542770386,
+                            "persona_alignment": 0.95,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What challenges do journalists face when reporting on sensitive and violent events like these in Sri Lanka, and how do you approach balancing factual reporting with empathy?",
+                            "source": "llm_cot",
+                            "was_selected": false,
+                            "context_relevance": 0.38989266753196716,
+                            "outline_relevance": 0.5900192260742188,
+                            "originality": 0.1702999472618103,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 1
+                },
+                "llm_tot": {
+                    "source_name": "llm_tot",
+                    "selected_suggestion_metrics": null,
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How are local communities in Sri Lanka responding to the attacks, especially given the targeting of both religious sites and luxury hotels?",
+                            "source": "llm_tot",
+                            "was_selected": false,
+                            "context_relevance": 0.3923613131046295,
+                            "outline_relevance": 0.7438434958457947,
+                            "originality": 0.18514752388000488,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Could you elaborate on how Sri Lanka's history of ethnic and religious tensions might have contributed to the context of these attacks?",
+                            "source": "llm_tot",
+                            "was_selected": false,
+                            "context_relevance": 0.36383894085884094,
+                            "outline_relevance": 0.7950303554534912,
+                            "originality": 0.07186520099639893,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "From your perspective on the ground, how are survivors and families coping, and what kind of support or aid is being made available to them?",
+                            "source": "llm_tot",
+                            "was_selected": false,
+                            "context_relevance": 0.274737685918808,
+                            "outline_relevance": 0.3692818284034729,
+                            "originality": 0.3233690857887268,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                },
+                "llm_rag": {
+                    "source_name": "llm_rag",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you tell us more about the groups or individuals suspected to be behind these attacks and their possible motives?",
+                        "source": "llm_rag",
+                        "was_selected": true,
+                        "context_relevance": 0.36374056339263916,
+                        "outline_relevance": 0.7025905847549438,
+                        "originality": 0.010612249374389648,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.8,
+                        "qualitative_elaboration": 0.9
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you tell us more about the groups or individuals suspected to be behind these attacks and their possible motives?",
+                            "source": "llm_rag",
+                            "was_selected": true,
+                            "context_relevance": 0.36374056339263916,
+                            "outline_relevance": 0.7025905847549438,
+                            "originality": 0.010612249374389648,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How are the local communities in Sri Lanka coping with the aftermath of these bombings, especially the religious groups targeted?",
+                            "source": "llm_rag",
+                            "was_selected": false,
+                            "context_relevance": 0.4095343351364136,
+                            "outline_relevance": 0.7462860941886902,
+                            "originality": 0.0682324767112732,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What challenges do Sri Lankan authorities face in investigating and preventing further attacks in such a tense environment?",
+                            "source": "llm_rag",
+                            "was_selected": false,
+                            "context_relevance": 0.3225186765193939,
+                            "outline_relevance": 0.6959379315376282,
+                            "originality": 0.16940248012542725,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Given the shutdown of social media and increased security measures, how is information flowing within the country and to the outside world?",
+                            "source": "llm_rag",
+                            "was_selected": false,
+                            "context_relevance": 0.2964898943901062,
+                            "outline_relevance": 0.39066973328590393,
+                            "originality": 0.22357869148254395,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.4,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 1
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "Lauren, can you give us some background? There was a long civil war in Sri Lanka, which ended in 2009. What is the context for these attacks?",
+            "previous_answer": "That's right. So what's sad is that Sri Lanka was just about to celebrate 10 years of peace - almost to the day - since that civil war ended. It was a bloody war; it lasted 26 years. Sri Lanka is a mostly Buddhist country - about 70 percent. It also has significant religious minorities - Hindus, Muslims and Christians. And the war involved a separatist insurgency of ethnic minority Tamils. One of their groups was called the Tamil Tigers; you may remember that group. And they were fighting for independence from the Buddhist majority. The war was so bloody. Many tens of thousands of people were killed. And back then, blasts like this did happen pretty regularly at shopping malls, at temples, at tourist hotels. But this has not been the norm in Sri Lanka for a long, long while. And the prime minister says he worries that this - these attacks today are going to trigger instability.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain how the diverse demographic and religious landscape of Sri Lanka has influenced the patterns of violence and tensions historically?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.6505372524261475,
+                        "outline_relevance": 0.9238835573196411,
+                        "originality": 0.05306786298751831,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.85,
+                        "qualitative_elaboration": 1.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Could you elaborate on how the ethnic and religious divisions have shaped Sri Lanka's recent history and violence?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6918841600418091,
+                            "outline_relevance": 0.848427951335907,
+                            "originality": 0.07810837030410767,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "Broad: How are local communities in Sri Lanka coping with the shock of these attacks after a decade of peace?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6551721096038818,
+                            "outline_relevance": 0.7737845182418823,
+                            "originality": 0.0643957257270813,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "Balanced: What have been the international responses beyond government statements, particularly in terms of aid or security assistance?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.19726711511611938,
+                            "outline_relevance": 0.6104261875152588,
+                            "originality": 0.29478931427001953,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "Can you explain how the diverse demographic and religious landscape of Sri Lanka has influenced the patterns of violence and tensions historically?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.6505372524261475,
+                            "outline_relevance": 0.9238835573196411,
+                            "originality": 0.05306786298751831,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 1.0
+                        }
+                    ],
+                    "insight_category": "Connecting",
+                    "insight_score": 4
+                },
+                "dcagent_v2": {
+                    "source_name": "dcagent_v2",
+                    "selected_suggestion_metrics": {
+                        "question": "How has the end of the civil war affected the relationships among the different religious and ethnic groups in Sri Lanka over the past decade?",
+                        "source": "dcagent_v2_Logic and Causality",
+                        "was_selected": true,
+                        "context_relevance": 0.6626179814338684,
+                        "outline_relevance": 0.756090521812439,
+                        "originality": 0.18801385164260864,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.9,
+                        "qualitative_elaboration": 0.9
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How has the end of the civil war affected the relationships among the different religious and ethnic groups in Sri Lanka over the past decade?",
+                            "source": "dcagent_v2_Logic and Causality",
+                            "was_selected": true,
+                            "context_relevance": 0.6626179814338684,
+                            "outline_relevance": 0.756090521812439,
+                            "originality": 0.18801385164260864,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What are the specific concerns of the prime minister regarding potential instability following these recent attacks?",
+                            "source": "dcagent_v2_Logic and Causality",
+                            "was_selected": false,
+                            "context_relevance": 0.18318457901477814,
+                            "outline_relevance": 0.5572163462638855,
+                            "originality": 0.3398771286010742,
+                            "persona_alignment": 0.8,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How do you personally process and cope with reporting on such tragic and violent events, especially given your empathetic approach?",
+                            "source": "dcagent_v2_Emotional Depth",
+                            "was_selected": false,
+                            "context_relevance": 0.21540530025959015,
+                            "outline_relevance": 0.4676111936569214,
+                            "originality": 0.0553775429725647,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.7,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Can you share a moment while reporting on this story that particularly moved you or changed your perspective on the conflict in Sri Lanka?",
+                            "source": "dcagent_v2_Emotional Depth",
+                            "was_selected": false,
+                            "context_relevance": 0.6228227615356445,
+                            "outline_relevance": 0.644956111907959,
+                            "originality": 0.18659257888793945,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What emotions do you think the people of Sri Lanka are experiencing as they face the resurgence of violence after a decade of peace?",
+                            "source": "dcagent_v2_Emotional Depth",
+                            "was_selected": false,
+                            "context_relevance": 0.7111160159111023,
+                            "outline_relevance": 0.7120760679244995,
+                            "originality": 0.21088498830795288,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Could you elaborate on how Sri Lanka's religious and ethnic diversity has influenced both the civil war and the recent attacks?",
+                            "source": "dcagent_v2_Structured Progression",
+                            "was_selected": false,
+                            "context_relevance": 0.6426910161972046,
+                            "outline_relevance": 0.8190480470657349,
+                            "originality": 0.1188962459564209,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "What are the potential impacts of these attacks on Sri Lanka's religious minorities, given the country's majority Buddhist population?",
+                            "source": "dcagent_v2_Structured Progression",
+                            "was_selected": false,
+                            "context_relevance": 0.5756896734237671,
+                            "outline_relevance": 0.7523216605186462,
+                            "originality": 0.11251604557037354,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Could you elaborate on how the religious and ethnic diversity in Sri Lanka influences the current political and social tensions?",
+                            "source": "dcagent_v2_Role-playing",
+                            "was_selected": false,
+                            "context_relevance": 0.6187946796417236,
+                            "outline_relevance": 0.7840152382850647,
+                            "originality": 0.10323810577392578,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "In your experience reporting on this conflict, have you observed any changes in how the media portrays the different groups involved over time?",
+                            "source": "dcagent_v2_Role-playing",
+                            "was_selected": false,
+                            "context_relevance": 0.2050425410270691,
+                            "outline_relevance": 0.5061701536178589,
+                            "originality": 0.37381815910339355,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How do you think the memories and trauma of the 26-year civil war continue to affect the people and politics of Sri Lanka today?",
+                            "source": "dcagent_v2_Role-playing",
+                            "was_selected": false,
+                            "context_relevance": 0.625934362411499,
+                            "outline_relevance": 0.6509710550308228,
+                            "originality": 0.2585822343826294,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "If Sri Lanka had a national symbol or metaphor that embodies its 10 years of peace and the tragic resurgence of violence, what do you think it would be, and why?",
+                            "source": "dcagent_v2_Creative Surprise",
+                            "was_selected": false,
+                            "context_relevance": 0.6984577775001526,
+                            "outline_relevance": 0.6024549603462219,
+                            "originality": 0.30991679430007935,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "If you could interview a survivor from the recent bombings, what is one unexpected question you would ask them to understand their personal experience beyond the immediate facts?",
+                            "source": "dcagent_v2_Creative Surprise",
+                            "was_selected": false,
+                            "context_relevance": 0.11278849840164185,
+                            "outline_relevance": 0.4361990690231323,
+                            "originality": 0.23309779167175293,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How might the 26-year civil war and the recent attacks in Sri Lanka resonate or parallel conflicts and instability in other regions around the world?",
+                            "source": "dcagent_v2_Creative Surprise",
+                            "was_selected": false,
+                            "context_relevance": 0.5621931552886963,
+                            "outline_relevance": 0.6660748720169067,
+                            "originality": 0.19185882806777954,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "Connecting",
+                    "insight_score": 4
+                },
+                "dcagent_v3": {
+                    "source_name": "dcagent_v3",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think the historical grievances of the Tamil minority still influence the current political and social climate in Sri Lanka?",
+                        "source": "dcagent_v3_dcagent_Contextual_Historian",
+                        "was_selected": true,
+                        "context_relevance": 0.6524701118469238,
+                        "outline_relevance": 0.6992194056510925,
+                        "originality": 0.2209460735321045,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.9,
+                        "qualitative_elaboration": 0.9
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you think the historical grievances of the Tamil minority still influence the current political and social climate in Sri Lanka?",
+                            "source": "dcagent_v3_dcagent_Contextual_Historian",
+                            "was_selected": true,
+                            "context_relevance": 0.6524701118469238,
+                            "outline_relevance": 0.6992194056510925,
+                            "originality": 0.2209460735321045,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Can you elaborate on the role religious minorities like Christians and Muslims have played in either mitigating or exacerbating tensions in Sri Lanka's post-war period?",
+                            "source": "dcagent_v3_dcagent_Contextual_Historian",
+                            "was_selected": false,
+                            "context_relevance": 0.5827280282974243,
+                            "outline_relevance": 0.7350456118583679,
+                            "originality": 0.16771602630615234,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "Given the history of violence in public and religious spaces, how have Sri Lankan communities' relationships with these spaces changed since the war ended?",
+                            "source": "dcagent_v3_dcagent_Contextual_Historian",
+                            "was_selected": false,
+                            "context_relevance": 0.6389344930648804,
+                            "outline_relevance": 0.7995920181274414,
+                            "originality": 0.15804815292358398,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Can you share any stories about how the recent bombings have affected individual survivors and their families emotionally and psychologically?",
+                            "source": "dcagent_v3_dcagent_Human_Impact_Seeker",
+                            "was_selected": false,
+                            "context_relevance": 0.25369083881378174,
+                            "outline_relevance": 0.5375199317932129,
+                            "originality": 0.10263395309448242,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "In what ways has the local community come together to support victims and foster resilience in the aftermath of these tragic events?",
+                            "source": "dcagent_v3_dcagent_Human_Impact_Seeker",
+                            "was_selected": false,
+                            "context_relevance": 0.2635622024536133,
+                            "outline_relevance": 0.45487427711486816,
+                            "originality": 0.18205583095550537,
+                            "persona_alignment": 0.95,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How have the bombings affected the everyday lives and sense of security of religious minorities, considering the country's diverse religious composition?",
+                            "source": "dcagent_v3_dcagent_Human_Impact_Seeker",
+                            "was_selected": false,
+                            "context_relevance": 0.3554539382457733,
+                            "outline_relevance": 0.5854088068008423,
+                            "originality": 0.24797874689102173,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How have international organizations like the United Nations and regional bodies responded to the blasts in Sri Lanka?",
+                            "source": "dcagent_v3_dcagent_Global_Response_Analyst",
+                            "was_selected": false,
+                            "context_relevance": 0.4434059262275696,
+                            "outline_relevance": 0.8448639512062073,
+                            "originality": 0.07354670763015747,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "What have been the reactions of foreign governments with citizens affected by the bombings, and how might this impact diplomatic relations with Sri Lanka?",
+                            "source": "dcagent_v3_dcagent_Global_Response_Analyst",
+                            "was_selected": false,
+                            "context_relevance": 0.4676693081855774,
+                            "outline_relevance": 0.8179697394371033,
+                            "originality": 0.15300589799880981,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "In what ways could these attacks influence global security dynamics, particularly in relation to counter-terrorism efforts and regional stability in South Asia?",
+                            "source": "dcagent_v3_dcagent_Global_Response_Analyst",
+                            "was_selected": false,
+                            "context_relevance": 0.19264769554138184,
+                            "outline_relevance": 0.6035473942756653,
+                            "originality": 0.20364761352539062,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What specific security measures has the Sri Lankan government implemented since the attacks to prevent further violence?",
+                            "source": "dcagent_v3_dcagent_Security_and_Policy_Investigator",
+                            "was_selected": false,
+                            "context_relevance": 0.40746626257896423,
+                            "outline_relevance": 0.6827056407928467,
+                            "originality": 0.19556576013565063,
+                            "persona_alignment": 0.7,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "Can you discuss the role of intelligence operations in identifying the perpetrators and how effective these operations have been amidst concerns of renewed instability?",
+                            "source": "dcagent_v3_dcagent_Security_and_Policy_Investigator",
+                            "was_selected": false,
+                            "context_relevance": 0.05482767894864082,
+                            "outline_relevance": 0.6171634793281555,
+                            "originality": 0.329833447933197,
+                            "persona_alignment": 0.8,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How have curfews and social media restrictions impacted the public's daily life and the authorities' ability to control false information or unrest?",
+                            "source": "dcagent_v3_dcagent_Security_and_Policy_Investigator",
+                            "was_selected": false,
+                            "context_relevance": 0.12210102379322052,
+                            "outline_relevance": 0.39696282148361206,
+                            "originality": 0.24060571193695068,
+                            "persona_alignment": 0.85,
+                            "coherence": 0.7,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "Connecting",
+                    "insight_score": 4
+                },
+                "llm_base": {
+                    "source_name": "llm_base",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you tell us more about the groups or individuals who might be responsible for these bombings and what their possible motives are?",
+                        "source": "llm_base",
+                        "was_selected": true,
+                        "context_relevance": 0.15737605094909668,
+                        "outline_relevance": 0.6719326972961426,
+                        "originality": 0.19707828760147095,
+                        "persona_alignment": 0.8,
+                        "coherence": 0.9,
+                        "qualitative_elaboration": 0.9
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you tell us more about the groups or individuals who might be responsible for these bombings and what their possible motives are?",
+                            "source": "llm_base",
+                            "was_selected": true,
+                            "context_relevance": 0.15737605094909668,
+                            "outline_relevance": 0.6719326972961426,
+                            "originality": 0.19707828760147095,
+                            "persona_alignment": 0.8,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How are local communities, especially minority religious groups, responding to these attacks and the heightened security measures?",
+                            "source": "llm_base",
+                            "was_selected": false,
+                            "context_relevance": 0.21378810703754425,
+                            "outline_relevance": 0.573973536491394,
+                            "originality": 0.07172238826751709,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What challenges do Sri Lankan authorities face in preventing further violence and maintaining stability after such a devastating incident?",
+                            "source": "llm_base",
+                            "was_selected": false,
+                            "context_relevance": 0.5448919534683228,
+                            "outline_relevance": 0.7124438285827637,
+                            "originality": 0.11643129587173462,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "From your experience reporting on conflict zones, what are the long-term social and political impacts that such attacks can have on a country like Sri Lanka?",
+                            "source": "llm_base",
+                            "was_selected": false,
+                            "context_relevance": 0.4845079779624939,
+                            "outline_relevance": 0.6669552326202393,
+                            "originality": 0.1626439094543457,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "Motivational",
+                    "insight_score": 3
+                },
+                "llm_cot": {
+                    "source_name": "llm_cot",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you tell us more about the groups or individuals suspected to be behind these attacks and their possible motives?",
+                        "source": "llm_cot",
+                        "was_selected": true,
+                        "context_relevance": 0.09259623289108276,
+                        "outline_relevance": 0.7025905847549438,
+                        "originality": 0.0,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.9,
+                        "qualitative_elaboration": 0.8
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you tell us more about the groups or individuals suspected to be behind these attacks and their possible motives?",
+                            "source": "llm_cot",
+                            "was_selected": true,
+                            "context_relevance": 0.09259623289108276,
+                            "outline_relevance": 0.7025905847549438,
+                            "originality": 0.0,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "How are Sri Lankan communities, particularly minority religious groups, coping and responding in the immediate aftermath of the bombings?",
+                            "source": "llm_cot",
+                            "was_selected": false,
+                            "context_relevance": 0.6022129058837891,
+                            "outline_relevance": 0.7466663718223572,
+                            "originality": 0.06292533874511719,
+                            "persona_alignment": 0.95,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What measures is the Sri Lankan government taking to prevent further violence and to ensure long-term stability?",
+                            "source": "llm_cot",
+                            "was_selected": false,
+                            "context_relevance": 0.4780438542366028,
+                            "outline_relevance": 0.6586365699768066,
+                            "originality": 0.22666186094284058,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "How has the international community, beyond the initial statements, been involved in providing support or aid to Sri Lanka following these attacks?",
+                            "source": "llm_cot",
+                            "was_selected": false,
+                            "context_relevance": 0.5004112720489502,
+                            "outline_relevance": 0.7937906980514526,
+                            "originality": 0.10833358764648438,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.85,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "Challenging",
+                    "insight_score": 4
+                },
+                "llm_tot": {
+                    "source_name": "llm_tot",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the delicate religious and ethnic tensions in Sri Lanka, how are communities there responding to these attacks on Easter Sunday?",
+                        "source": "llm_tot",
+                        "was_selected": true,
+                        "context_relevance": 0.533927321434021,
+                        "outline_relevance": 0.7012518644332886,
+                        "originality": 0.16534793376922607,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.9,
+                        "qualitative_elaboration": 0.9
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Given the delicate religious and ethnic tensions in Sri Lanka, how are communities there responding to these attacks on Easter Sunday?",
+                            "source": "llm_tot",
+                            "was_selected": true,
+                            "context_relevance": 0.533927321434021,
+                            "outline_relevance": 0.7012518644332886,
+                            "originality": 0.16534793376922607,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What have you learned about the identities or motivations of the suspects who were recently arrested?",
+                            "source": "llm_tot",
+                            "was_selected": false,
+                            "context_relevance": 0.02546408772468567,
+                            "outline_relevance": 0.5292788147926331,
+                            "originality": 0.10458433628082275,
+                            "persona_alignment": 0.8,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "How are Sri Lankan authorities balancing security measures with maintaining civil liberties, especially with the social media shutdown?",
+                            "source": "llm_tot",
+                            "was_selected": false,
+                            "context_relevance": 0.4066620469093323,
+                            "outline_relevance": 0.6000261306762695,
+                            "originality": 0.2577970027923584,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.8,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "In your reporting, have you noticed any efforts from local leaders or civil society to promote healing and prevent further violence after such tragic events?",
+                            "source": "llm_tot",
+                            "was_selected": false,
+                            "context_relevance": 0.28721630573272705,
+                            "outline_relevance": 0.49640411138534546,
+                            "originality": 0.2528398633003235,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "Connecting",
+                    "insight_score": 4
+                },
+                "llm_rag": {
+                    "source_name": "llm_rag",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you tell us more about the suspects who have been arrested and what is known about their possible motives or affiliations?",
+                        "source": "llm_rag",
+                        "was_selected": true,
+                        "context_relevance": -0.03966902196407318,
+                        "outline_relevance": 0.4892297685146332,
+                        "originality": 0.07374334335327148,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.9,
+                        "qualitative_elaboration": 0.8
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you tell us more about the suspects who have been arrested and what is known about their possible motives or affiliations?",
+                            "source": "llm_rag",
+                            "was_selected": true,
+                            "context_relevance": -0.03966902196407318,
+                            "outline_relevance": 0.4892297685146332,
+                            "originality": 0.07374334335327148,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "How are local communities in Sri Lanka, especially those belonging to minority religious groups, coping with the aftermath of these attacks?",
+                            "source": "llm_rag",
+                            "was_selected": false,
+                            "context_relevance": 0.5807155966758728,
+                            "outline_relevance": 0.7250484228134155,
+                            "originality": 0.08567237854003906,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What measures are the Sri Lankan government and security forces taking to prevent further violence or retaliation?",
+                            "source": "llm_rag",
+                            "was_selected": false,
+                            "context_relevance": 0.41902902722358704,
+                            "outline_relevance": 0.6334648728370667,
+                            "originality": 0.22425949573516846,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "In your reporting, have you encountered any voices or stories that highlight efforts toward reconciliation or peacebuilding in Sri Lanka following these attacks?",
+                            "source": "llm_rag",
+                            "was_selected": false,
+                            "context_relevance": 0.564899206161499,
+                            "outline_relevance": 0.733583390712738,
+                            "originality": 0.162756085395813,
+                            "persona_alignment": 0.85,
+                            "coherence": 0.9,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 1
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "That's NPR's Lauren Frayer. Thank you so much.",
+            "previous_answer": "You're welcome, Lulu.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How does the demographic and religious diversity in Sri Lanka influence the dynamics of the recent violence?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.01307719387114048,
+                        "outline_relevance": 0.9470295906066895,
+                        "originality": 0.06026959419250488,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.1,
+                        "qualitative_elaboration": 1.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: As you continue your reporting in Mumbai, how do you balance emotional sensitivity with the need to provide clear, factual information?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.0929541364312172,
+                            "outline_relevance": 0.37498098611831665,
+                            "originality": 0.3403177857398987,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.2,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "depth: Given the gravity of the situation in Sri Lanka, can you share more about the human stories that often get overshadowed by political reporting?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.07055054605007172,
+                            "outline_relevance": 0.6369583606719971,
+                            "originality": 0.18403220176696777,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "balanced: How does your experience and background influence the way you approach covering conflicts like the one in Sri Lanka?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.09612670540809631,
+                            "outline_relevance": 0.645893931388855,
+                            "originality": 0.2651994228363037,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.2,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How does the demographic and religious diversity in Sri Lanka influence the dynamics of the recent violence?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.01307719387114048,
+                            "outline_relevance": 0.9470295906066895,
+                            "originality": 0.06026959419250488,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        }
+                    ],
+                    "insight_category": "Motivational",
+                    "insight_score": 3
+                },
+                "dcagent_v2": {
+                    "source_name": "dcagent_v2",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you elaborate on how the demographic and religious composition of Sri Lanka has influenced historical and recent conflicts?",
+                        "source": "dcagent_v2_Logic and Causality",
+                        "was_selected": true,
+                        "context_relevance": -0.00850589293986559,
+                        "outline_relevance": 0.884300708770752,
+                        "originality": 0.06243771314620972,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.1,
+                        "qualitative_elaboration": 1.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you elaborate on how the demographic and religious composition of Sri Lanka has influenced historical and recent conflicts?",
+                            "source": "dcagent_v2_Logic and Causality",
+                            "was_selected": true,
+                            "context_relevance": -0.00850589293986559,
+                            "outline_relevance": 0.884300708770752,
+                            "originality": 0.06243771314620972,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "In what ways have the government responses, such as curfews and social media shutdowns, affected both the immediate security situation and the local population's perception of the crisis?",
+                            "source": "dcagent_v2_Logic and Causality",
+                            "was_selected": false,
+                            "context_relevance": 0.019163906574249268,
+                            "outline_relevance": 0.5158997178077698,
+                            "originality": 0.20312559604644775,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "How have international expressions of solidarity, including those from religious figures like Pope Francis, impacted the local and global narrative around these attacks?",
+                            "source": "dcagent_v2_Logic and Causality",
+                            "was_selected": false,
+                            "context_relevance": -0.01924332045018673,
+                            "outline_relevance": 0.6603039503097534,
+                            "originality": 0.17644363641738892,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.2,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How have you personally been affected emotionally by reporting on such tragic and violent events in Sri Lanka?",
+                            "source": "dcagent_v2_Emotional Depth",
+                            "was_selected": false,
+                            "context_relevance": 0.06857568025588989,
+                            "outline_relevance": 0.680460512638092,
+                            "originality": 0.17084503173828125,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Can you share a moment during your reporting that profoundly changed your perspective on the conflict or the people involved?",
+                            "source": "dcagent_v2_Emotional Depth",
+                            "was_selected": false,
+                            "context_relevance": 0.0718204528093338,
+                            "outline_relevance": 0.4954500198364258,
+                            "originality": 0.23915529251098633,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.7,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How do you balance the need to report with compassion while conveying the harsh realities of the events and their broader historical context?",
+                            "source": "dcagent_v2_Emotional Depth",
+                            "was_selected": false,
+                            "context_relevance": 0.01918327435851097,
+                            "outline_relevance": 0.4937887191772461,
+                            "originality": 0.2224879264831543,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.2,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Could you explain how the demographic and religious makeup of Sri Lanka contributes to the tensions that led to these attacks?",
+                            "source": "dcagent_v2_Structured Progression",
+                            "was_selected": false,
+                            "context_relevance": -0.016928046941757202,
+                            "outline_relevance": 0.8801615238189697,
+                            "originality": 0.06256210803985596,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "Can you share more about how global leaders have reacted to the attacks and what this means for Sri Lanka's international relations?",
+                            "source": "dcagent_v2_Structured Progression",
+                            "was_selected": false,
+                            "context_relevance": 0.060678429901599884,
+                            "outline_relevance": 0.9511022567749023,
+                            "originality": 0.14165663719177246,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.2,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "Given your reporting style that emphasizes context and humanity, how do you approach telling the stories of victims and survivors in such a sensitive situation?",
+                            "source": "dcagent_v2_Role-playing",
+                            "was_selected": false,
+                            "context_relevance": 0.1412947177886963,
+                            "outline_relevance": 0.4926101863384247,
+                            "originality": 0.17000579833984375,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.2,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "In your experience, how do the recent events in Sri Lanka compare to your previous coverage of regional conflicts, particularly in terms of public and government reactions?",
+                            "source": "dcagent_v2_Role-playing",
+                            "was_selected": false,
+                            "context_relevance": 0.06097494065761566,
+                            "outline_relevance": 0.6935766339302063,
+                            "originality": 0.15857011079788208,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.2,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How do you consider the impact of global reactions, such as statements by world leaders or figures like Pope Francis, on the local communities affected by these bombings?",
+                            "source": "dcagent_v2_Role-playing",
+                            "was_selected": false,
+                            "context_relevance": -0.051338717341423035,
+                            "outline_relevance": 0.713990330696106,
+                            "originality": 0.16648495197296143,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "If you were to describe the recent bombings through the lens of a natural disaster, what metaphor would you use and why?",
+                            "source": "dcagent_v2_Creative Surprise",
+                            "was_selected": false,
+                            "context_relevance": 0.10559360682964325,
+                            "outline_relevance": 0.5342200994491577,
+                            "originality": 0.3536437749862671,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "Imagine you had to write a letter from the perspective of a Sri Lankan citizen experiencing these events. What key emotions and concerns would you highlight?",
+                            "source": "dcagent_v2_Creative Surprise",
+                            "was_selected": false,
+                            "context_relevance": 0.19124139845371246,
+                            "outline_relevance": 0.5840116739273071,
+                            "originality": 0.22286343574523926,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How might the recent bombings in Sri Lanka be interpreted as a chapter in a larger global story about religious and ethnic conflict?",
+                            "source": "dcagent_v2_Creative Surprise",
+                            "was_selected": false,
+                            "context_relevance": -0.011903948150575161,
+                            "outline_relevance": 0.7120604515075684,
+                            "originality": 0.188897967338562,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        }
+                    ],
+                    "insight_category": "Connecting",
+                    "insight_score": 4
+                },
+                "dcagent_v3": {
+                    "source_name": "dcagent_v3",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you elaborate on how the ethnic and religious divisions in Sri Lanka have historically contributed to tensions and violence, and how the intersection of these identities affects current reconciliation efforts?",
+                        "source": "dcagent_v3_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.058033473789691925,
+                        "outline_relevance": 0.7954814434051514,
+                        "originality": 0.060191988945007324,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.1,
+                        "qualitative_elaboration": 1.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you elaborate on how the ethnic and religious divisions in Sri Lanka have historically contributed to tensions and violence?",
+                            "source": "dcagent_v3_dcagent_Historical_Context_Analyst",
+                            "was_selected": false,
+                            "context_relevance": -0.01805456355214119,
+                            "outline_relevance": 0.8682628273963928,
+                            "originality": 0.03767174482345581,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.2,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "In what ways has the legacy of the 26-year civil war influenced current socio-political dynamics and security policies in Sri Lanka?",
+                            "source": "dcagent_v3_dcagent_Historical_Context_Analyst",
+                            "was_selected": false,
+                            "context_relevance": -0.042513035237789154,
+                            "outline_relevance": 0.6848374009132385,
+                            "originality": 0.1685631275177002,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "How do religious identities intersect with ethnic identities in Sri Lanka, and how might this intersection affect violence and reconciliation efforts?",
+                            "source": "dcagent_v3_dcagent_Historical_Context_Analyst",
+                            "was_selected": false,
+                            "context_relevance": 0.09309567511081696,
+                            "outline_relevance": 0.7619065046310425,
+                            "originality": 0.14867770671844482,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "Can you elaborate on how international leaders' responses have impacted Sri Lanka's political climate and its relationships with neighboring countries?",
+                            "source": "dcagent_v3_dcagent_Global_Reactions_Investigator",
+                            "was_selected": false,
+                            "context_relevance": 0.09638093411922455,
+                            "outline_relevance": 0.8295880556106567,
+                            "originality": 0.2045358419418335,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "In what ways have expressions of solidarity from other nations translated into practical support or policy changes for Sri Lanka in the aftermath of the bombings?",
+                            "source": "dcagent_v3_dcagent_Global_Reactions_Investigator",
+                            "was_selected": false,
+                            "context_relevance": 0.1489449143409729,
+                            "outline_relevance": 0.7324200868606567,
+                            "originality": 0.2044123411178589,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How have the Sri Lanka bombings affected the global discourse on terrorism and security, particularly among regional powers and international organizations?",
+                            "source": "dcagent_v3_dcagent_Global_Reactions_Investigator",
+                            "was_selected": false,
+                            "context_relevance": -0.047805070877075195,
+                            "outline_relevance": 0.7970449328422546,
+                            "originality": 0.1835426688194275,
+                            "persona_alignment": 0.8,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "Can you share some personal stories or experiences of the victims and their families affected by the Easter bombings in Sri Lanka?",
+                            "source": "dcagent_v3_dcagent_Human_Impact_Explorer",
+                            "was_selected": false,
+                            "context_relevance": 0.1238684132695198,
+                            "outline_relevance": 0.677498996257782,
+                            "originality": 0.18860280513763428,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.2,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "How has the bombing affected the local communities in Sri Lanka, particularly in terms of social cohesion and interfaith relations?",
+                            "source": "dcagent_v3_dcagent_Human_Impact_Explorer",
+                            "was_selected": false,
+                            "context_relevance": 0.039425577968358994,
+                            "outline_relevance": 0.7658284306526184,
+                            "originality": 0.16155874729156494,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "In your reporting, have you encountered any stories of resilience or solidarity among the Sri Lankan people following these tragic events?",
+                            "source": "dcagent_v3_dcagent_Human_Impact_Explorer",
+                            "was_selected": false,
+                            "context_relevance": 0.11946123093366623,
+                            "outline_relevance": 0.6506993770599365,
+                            "originality": 0.13951027393341064,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.6,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "Can you elaborate on how the ethnic and religious divisions in Sri Lanka have historically contributed to tensions and violence, and how the intersection of these identities affects current reconciliation efforts?",
+                            "source": "dcagent_v3_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.058033473789691925,
+                            "outline_relevance": 0.7954814434051514,
+                            "originality": 0.060191988945007324,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        }
+                    ],
+                    "insight_category": "Connecting",
+                    "insight_score": 4
+                },
+                "llm_base": {
+                    "source_name": "llm_base",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you elaborate on the groups or individuals suspected to be behind these recent attacks and their possible motivations?",
+                        "source": "llm_base",
+                        "was_selected": true,
+                        "context_relevance": -0.039833374321460724,
+                        "outline_relevance": 0.7359683513641357,
+                        "originality": 0.033854007720947266,
+                        "persona_alignment": 0.8,
+                        "coherence": 0.1,
+                        "qualitative_elaboration": 1.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you elaborate on the groups or individuals suspected to be behind these recent attacks and their possible motivations?",
+                            "source": "llm_base",
+                            "was_selected": true,
+                            "context_relevance": -0.039833374321460724,
+                            "outline_relevance": 0.7359683513641357,
+                            "originality": 0.033854007720947266,
+                            "persona_alignment": 0.8,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "How are local communities in Sri Lanka responding to the bombings, and what impact might this have on interfaith relations?",
+                            "source": "llm_base",
+                            "was_selected": false,
+                            "context_relevance": 0.08436168730258942,
+                            "outline_relevance": 0.7333279848098755,
+                            "originality": 0.08867418766021729,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "What challenges do journalists face when reporting on such sensitive and violent events in Sri Lanka?",
+                            "source": "llm_base",
+                            "was_selected": false,
+                            "context_relevance": -0.01373380422592163,
+                            "outline_relevance": 0.6535617113113403,
+                            "originality": 0.03406727313995361,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.2,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "In your experience, how can the international community best support Sri Lanka in preventing further violence and promoting long-term peace?",
+                            "source": "llm_base",
+                            "was_selected": false,
+                            "context_relevance": 0.05938398838043213,
+                            "outline_relevance": 0.6450573801994324,
+                            "originality": 0.09450256824493408,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "Challenging",
+                    "insight_score": 4
+                },
+                "llm_cot": {
+                    "source_name": "llm_cot",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you tell us more about the groups or individuals suspected of carrying out these attacks, and what their possible motivations might be?",
+                        "source": "llm_cot",
+                        "was_selected": true,
+                        "context_relevance": -0.025155499577522278,
+                        "outline_relevance": 0.6935083866119385,
+                        "originality": 0.032530784606933594,
+                        "persona_alignment": 0.9,
+                        "coherence": 0.3,
+                        "qualitative_elaboration": 0.9
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you tell us more about the groups or individuals suspected of carrying out these attacks, and what their possible motivations might be?",
+                            "source": "llm_cot",
+                            "was_selected": true,
+                            "context_relevance": -0.025155499577522278,
+                            "outline_relevance": 0.6935083866119385,
+                            "originality": 0.032530784606933594,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.3,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How are local communities in Sri Lanka, including both majority and minority groups, responding to these bombings?",
+                            "source": "llm_cot",
+                            "was_selected": false,
+                            "context_relevance": 0.08846061676740646,
+                            "outline_relevance": 0.7747942209243774,
+                            "originality": 0.07334679365158081,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "In your reporting, have you observed any efforts by Sri Lankan authorities or civil society to prevent such violence from escalating further?",
+                            "source": "llm_cot",
+                            "was_selected": false,
+                            "context_relevance": 0.01280125044286251,
+                            "outline_relevance": 0.6656481623649597,
+                            "originality": 0.16965758800506592,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.2,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What role does the international community play in supporting Sri Lanka during this crisis, both immediately and in the long term?",
+                            "source": "llm_cot",
+                            "was_selected": false,
+                            "context_relevance": 0.04987866431474686,
+                            "outline_relevance": 0.6927472949028015,
+                            "originality": 0.04410827159881592,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        }
+                    ],
+                    "insight_category": "Challenging",
+                    "insight_score": 4
+                },
+                "llm_tot": {
+                    "source_name": "llm_tot",
+                    "selected_suggestion_metrics": {
+                        "question": "Given the prime minister's concerns about potential instability, what are the immediate security measures being taken within Sri Lanka to prevent further violence?",
+                        "source": "llm_tot",
+                        "was_selected": true,
+                        "context_relevance": -0.036889076232910156,
+                        "outline_relevance": 0.6304003000259399,
+                        "originality": 0.1168283224105835,
+                        "persona_alignment": 0.8,
+                        "coherence": 0.1,
+                        "qualitative_elaboration": 0.8
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Given the prime minister's concerns about potential instability, what are the immediate security measures being taken within Sri Lanka to prevent further violence?",
+                            "source": "llm_tot",
+                            "was_selected": true,
+                            "context_relevance": -0.036889076232910156,
+                            "outline_relevance": 0.6304003000259399,
+                            "originality": 0.1168283224105835,
+                            "persona_alignment": 0.8,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 0.8
+                        },
+                        {
+                            "question": "How are local communities, especially religious minorities, responding to these attacks and the fear they have generated?",
+                            "source": "llm_tot",
+                            "was_selected": false,
+                            "context_relevance": 0.00394638255238533,
+                            "outline_relevance": 0.5479525327682495,
+                            "originality": 0.053153276443481445,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "In your reporting, have you observed any shifts in the Sri Lankan government's approach to reconciling ethnic and religious tensions since the end of the civil war?",
+                            "source": "llm_tot",
+                            "was_selected": false,
+                            "context_relevance": 0.0811307355761528,
+                            "outline_relevance": 0.657272458076477,
+                            "originality": 0.1827142834663391,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.2,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What role do international organizations and foreign governments play in supporting Sri Lanka during this crisis, beyond the initial expressions of condolence?",
+                            "source": "llm_tot",
+                            "was_selected": false,
+                            "context_relevance": 0.057900138199329376,
+                            "outline_relevance": 0.7416025400161743,
+                            "originality": 0.09736573696136475,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 1
+                },
+                "llm_rag": {
+                    "source_name": "llm_rag",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you tell us more about the groups or individuals who might be responsible for these attacks?",
+                        "source": "llm_rag",
+                        "was_selected": true,
+                        "context_relevance": -0.018273528665304184,
+                        "outline_relevance": 0.6886157393455505,
+                        "originality": 0.02425593137741089,
+                        "persona_alignment": 0.7,
+                        "coherence": 0.2,
+                        "qualitative_elaboration": 0.9
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you tell us more about the groups or individuals who might be responsible for these attacks?",
+                            "source": "llm_rag",
+                            "was_selected": true,
+                            "context_relevance": -0.018273528665304184,
+                            "outline_relevance": 0.6886157393455505,
+                            "originality": 0.02425593137741089,
+                            "persona_alignment": 0.7,
+                            "coherence": 0.2,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "How are the local communities in Sri Lanka, especially the religious minorities, responding to these events?",
+                            "source": "llm_rag",
+                            "was_selected": false,
+                            "context_relevance": 0.11713752150535583,
+                            "outline_relevance": 0.744135856628418,
+                            "originality": 0.11272859573364258,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 0.9
+                        },
+                        {
+                            "question": "What measures are the Sri Lankan government and security forces taking in the immediate aftermath to prevent further violence?",
+                            "source": "llm_rag",
+                            "was_selected": false,
+                            "context_relevance": -0.004807226359844208,
+                            "outline_relevance": 0.6553975343704224,
+                            "originality": 0.027102768421173096,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.1,
+                            "qualitative_elaboration": 1.0
+                        },
+                        {
+                            "question": "Given your experience reporting on conflict zones, what are the key challenges in covering a story like this with sensitivity and accuracy?",
+                            "source": "llm_rag",
+                            "was_selected": false,
+                            "context_relevance": 0.037045568227767944,
+                            "outline_relevance": 0.47569459676742554,
+                            "originality": 0.2906087636947632,
+                            "persona_alignment": 0.9,
+                            "coherence": 0.2,
+                            "qualitative_elaboration": 0.9
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 1
+                }
+            }
+        }
+    ]
+}

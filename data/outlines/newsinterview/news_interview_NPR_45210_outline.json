@@ -1,0 +1,70 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Baghdad Airstrike Incident",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What led to the airstrike on July 12, 2007, in Baghdad?",
+        "importance": "critical",
+        "keywords": [
+          "airstrike",
+          "Baghdad",
+          "July 12, 2007"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Witness Accounts and Battlefield Context",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Can you describe the atmosphere and situation on the ground during the operation?",
+        "importance": "high",
+        "keywords": [
+          "witness accounts",
+          "battlefield",
+          "atmosphere"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What was the role of journalists in this tense environment?",
+        "importance": "high",
+        "keywords": [
+          "journalists",
+          "role",
+          "environment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Aftermath and Reflection",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What were the conclusions drawn by the soldiers regarding their actions during the incident?",
+        "importance": "critical",
+        "keywords": [
+          "conclusions",
+          "soldiers",
+          "actions"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "In hindsight, were there alternative actions that could have been taken to prevent the tragedy?",
+        "importance": "high",
+        "keywords": [
+          "hindsight",
+          "alternative actions",
+          "prevent tragedy"
+        ]
+      }
+    ]
+  }
+]

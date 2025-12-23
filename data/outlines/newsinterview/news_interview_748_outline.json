@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Edward Snowden's Situation",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How did Edward Snowden end up in Russia after leaking classified information?",
+        "importance": "critical",
+        "keywords": [
+          "Snowden",
+          "Russia",
+          "asylum"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What initial concerns does Snowden address regarding his relationship with the Russian government?",
+        "importance": "high",
+        "keywords": [
+          "suspicion",
+          "Putin",
+          "relationship"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "U.S. Government's Response and Consequences",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What actions did the U.S. government take that Snowden claims limited his asylum options?",
+        "importance": "critical",
+        "keywords": [
+          "U.S. government",
+          "asylum",
+          "extraction"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Snowden counter the claim that he betrayed the U.S.?",
+        "importance": "high",
+        "keywords": [
+          "betrayal",
+          "justification",
+          "public interest"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Critique of Russian Government and Personal Reflection",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what ways does Snowden express criticism towards the Russian government?",
+        "importance": "high",
+        "keywords": [
+          "critique",
+          "Russian government",
+          "freedom"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What does Snowden suggest about the potential for seizing opportunities in challenging political climates?",
+        "importance": "optional",
+        "keywords": [
+          "opportunity",
+          "politics",
+          "dissidents"
+        ]
+      }
+    ]
+  }
+]

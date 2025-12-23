@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Taliban Attack in Ghazni",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the key events leading up to the Taliban attack in Ghazni?",
+        "importance": "critical",
+        "keywords": [
+          "Taliban",
+          "Ghazni",
+          "attack"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What was the immediate impact of the attack on civilians and military personnel?",
+        "importance": "high",
+        "keywords": [
+          "impact",
+          "civilian",
+          "military"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Assessment of the Afghan Military's Response",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What were the main challenges faced by Afghan military forces during the attack?",
+        "importance": "critical",
+        "keywords": [
+          "Afghan military",
+          "challenges",
+          "communication"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How did the actions of Afghan forces contribute to the overall situation?",
+        "importance": "high",
+        "keywords": [
+          "actions",
+          "contribution",
+          "disarray"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Role of U.S. Special Forces",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How has the role of U.S. Special Forces evolved since 2014?",
+        "importance": "critical",
+        "keywords": [
+          "U.S. Special Forces",
+          "role",
+          "evolution"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What incidents illustrate the extent of U.S. involvement during the Ghazni attack?",
+        "importance": "high",
+        "keywords": [
+          "U.S. involvement",
+          "Ghazni",
+          "combat"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Broader Implications for U.S. Military Strategy",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What lessons can be drawn from the Ghazni attack regarding the U.S. military mission in Afghanistan?",
+        "importance": "critical",
+        "keywords": [
+          "lessons",
+          "U.S. military",
+          "mission"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does the attack influence perceptions of the Afghan government's stability?",
+        "importance": "high",
+        "keywords": [
+          "perceptions",
+          "Afghan government",
+          "stability"
+        ]
+      }
+    ]
+  }
+]

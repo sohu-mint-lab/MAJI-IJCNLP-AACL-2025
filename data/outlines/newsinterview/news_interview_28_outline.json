@@ -1,0 +1,80 @@
+[
+  {
+    "id": "S1",
+    "section": "Background on Netanyahu's Political Challenges",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What led to Benjamin Netanyahu's failure to form a government after the last elections?",
+        "importance": "critical",
+        "keywords": [
+          "Netanyahu",
+          "political challenges",
+          "elections"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Who are the key opponents challenging Netanyahu in the upcoming elections?",
+        "importance": "high",
+        "keywords": [
+          "Benny Gantz",
+          "opponents",
+          "coalition"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Current Election Dynamics",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How is Netanyahu attempting to rally support for his campaign?",
+        "importance": "critical",
+        "keywords": [
+          "campaign",
+          "support",
+          "strategy"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What role does Avigdor Lieberman play in the current political landscape?",
+        "importance": "high",
+        "keywords": [
+          "Avigdor Lieberman",
+          "political influence",
+          "votes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Influence of External Factors",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what ways has President Trump's support impacted Netanyahu's campaign?",
+        "importance": "high",
+        "keywords": [
+          "Trump",
+          "support",
+          "elections"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What recent events concerning the U.S. and Iran might affect Netanyahu's re-election efforts?",
+        "importance": "optional",
+        "keywords": [
+          "Iran",
+          "U.S. relations",
+          "election impact"
+        ]
+      }
+    ]
+  }
+]

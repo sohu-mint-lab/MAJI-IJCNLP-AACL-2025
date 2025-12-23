@@ -1,0 +1,544 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "all_suggestions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.36897613452031064,
+                "avg_context_relevance": 0.40617977627194846,
+                "avg_outline_relevance": 0.7061220224087055,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.3846947806222098,
+                "avg_context_relevance": 0.41826545766421724,
+                "avg_outline_relevance": 0.786800742149353,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            },
+            "strategic_analysis": {
+                "source_diversity": 0,
+                "option_set_richness": 0.0,
+                "profile_SurfaceLevel": 1.0,
+                "avg_insight_score_first_half": 0.0,
+                "avg_insight_score_second_half": 0.0,
+                "insight_improvement_rate_pct": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 25.0,
+            "weighted_coverage_score": 28.000000000000004,
+            "covered_questions": 2,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Southern Africa is reeling from a massive cyclone that hit more than a week ago. Some 700 people are reported dead across the region. But that toll is expected to rise. The scene has been described as apocalyptic, with hundreds of thousands of people affected in four countries. Massive flooding has hit Mozambique the hardest, and that is where Rik Goverde of Save the Children is. He joins us from Maputo via Skype. Welcome to the program.",
+            "previous_answer": "Thank you. Hi.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Could you help us understand what the scale of destruction looks like in Mozambique and the surrounding region?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.1430501639842987,
+                        "outline_relevance": 0.813785970211029,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Could you help us understand what the scale of destruction looks like in Mozambique and the surrounding region?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.1430501639842987,
+                            "outline_relevance": 0.813785970211029,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Can you share some personal stories of those most affected that highlight the human side of this disaster?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.14179585874080658,
+                            "outline_relevance": 0.7946490049362183,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are the most critical immediate needs currently facing the communities in the hardest-hit areas, and how are aid efforts targeting them?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.12276383489370346,
+                            "outline_relevance": 0.8590859770774841,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "Can you tell me what the scene is like there on the ground?",
+            "previous_answer": "Well, the scene is as you described. It is catastrophic. Imagine that there's an inland sea now where there used to be land. People were sitting on roofs, in trees trying to escape the water. But they had nowhere to go. And helicopters are still flying to get them out of there, to get them to dry and - well, not dry - but mainland.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific challenges are people facing in the aftermath of the cyclone, beyond the immediate rescue efforts?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.43343836069107056,
+                        "outline_relevance": 0.9681710600852966,
+                        "originality": 0.29981881380081177,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "breadth: Can you describe the scale of destruction in Mozambique and neighboring areas in more detail?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3922109603881836,
+                            "outline_relevance": 0.8170425891876221,
+                            "originality": 0.053324222564697266,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: Could you share some personal stories about individuals or families who were trapped and rescued?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2975568473339081,
+                            "outline_relevance": 0.6289670467376709,
+                            "originality": 0.3117179870605469,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: What are the ongoing challenges in providing safe shelter and medical care after the initial rescue efforts?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.22290322184562683,
+                            "outline_relevance": 0.4992184638977051,
+                            "originality": 0.4142269492149353,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What specific challenges are people facing in the aftermath of the cyclone, beyond the immediate rescue efforts?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.43343836069107056,
+                            "outline_relevance": 0.9681710600852966,
+                            "originality": 0.29981881380081177,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "And I imagine that people have been telling you some stories about what they've endured.",
+            "previous_answer": "Yeah. A colleague of mine talked to a young girl yesterday. And she said how her father was holding up the roof of the house in the storm so the mother could take the possession out - what little what they have - because the house was about to collapse. And she - you know, all she could think of which is, where are we going to live now? Imagine that this cyclone, this devastating storm, ripped apart and flooded everything people had. And for children, it is - you know, it can be very traumatic to see a house crumble down behind them or see their parents being lost or siblings being lost in the flood. In one of the shelters or in the camps, we came across four children that were orphaned and we're looking to see if we can find relatives. But, you know, those are the stories we're hearing.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you tell us more about the efforts to support orphaned children and reunite them with their families in the aftermath of the cyclone?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5871615409851074,
+                        "outline_relevance": 0.696590006351471,
+                        "originality": 0.3603397607803345,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Depth: Can you tell us more about the efforts to support orphaned children and reunite them with their families?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.4086383283138275,
+                            "outline_relevance": 0.7930573225021362,
+                            "originality": 0.39954161643981934,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Breadth: What other personal stories have you encountered that illustrate the human impact of the cyclone?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5275261402130127,
+                            "outline_relevance": 0.8626058101654053,
+                            "originality": 0.22792518138885498,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Balanced: How is Save the Children addressing both the immediate survival needs and emotional trauma experienced by children affected by the cyclone?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6314218044281006,
+                            "outline_relevance": 0.6724656820297241,
+                            "originality": 0.3096235990524292,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you tell us more about the efforts to support orphaned children and reunite them with their families in the aftermath of the cyclone?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5871615409851074,
+                            "outline_relevance": 0.696590006351471,
+                            "originality": 0.3603397607803345,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "What is the biggest need right now? I mean, where are these people going and, specifically, children who may have lost family members?",
+            "previous_answer": "Yeah. Well, the biggest need in general is everything. They need food, shelter, jerrycans for clean water. You need water trucks with clean water to go there. Imagine that a flooding contaminates everything. That is why diseases are bound to break out. And it's already happening. There is cases of cholera mentioned or reported in Beira. There is a system where children - where parents can fill in the name of their children that they are missing. And then, you know, that is accessible for aid organizations. And the aid organizations in the field will look for those children and try to get parents and children back together again. If that doesn't happen, children will go into the governmental care while the aid organizations keep looking for relatives where they can live with.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the specific measures being taken to prevent and manage disease outbreaks like cholera in the affected areas?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5662172436714172,
+                        "outline_relevance": 0.6849984526634216,
+                        "originality": 0.4614371061325073,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you describe how aid organizations manage the reunification process for children separated from their families?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.42081117630004883,
+                            "outline_relevance": 0.6998305320739746,
+                            "originality": 0.26973408460617065,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What are some of the main health challenges faced by survivors beyond cholera, and how are medical teams responding?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5609935522079468,
+                            "outline_relevance": 0.605994701385498,
+                            "originality": 0.3489534258842468,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How does Save the Children balance addressing urgent physical needs with the psychological support for children?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.3345756232738495,
+                            "outline_relevance": 0.5322768688201904,
+                            "originality": 0.33019518852233887,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Can you explain the specific measures being taken to prevent and manage disease outbreaks like cholera in the affected areas?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5662172436714172,
+                            "outline_relevance": 0.6849984526634216,
+                            "originality": 0.4614371061325073,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "And I understand that even though the floodwaters are now receding, there is a chance for secondary floods. How is the community preparing for that?",
+            "previous_answer": "Well, they are brought to safe ground. So - but imagine that there's - because it's in areas, it is still raining. And there are still people out there. So we are planning also with a helicopter to go out there to deliver goods to people who are in a relatively safe space but lack everything, and while rescue organizations are trying to get people to even safer ground. So it's bracing for the worst still. But it's not over yet. You know, rivers are still way outside their boundaries. And the flood is still there.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Considering the ongoing threat of floods and the challenges you mentioned, how does your team plan to incorporate lessons from this disaster into future preparedness and resilience initiatives, especially in light of climate change?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5592494010925293,
+                        "outline_relevance": 0.6842828392982483,
+                        "originality": 0.28924405574798584,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you share more about how the local community is organizing itself to prepare for and respond to the risk of additional flooding?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6109362840652466,
+                            "outline_relevance": 0.6620956659317017,
+                            "originality": 0.40633583068847656,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "broad: What logistical challenges does Save the Children face while delivering aid to those in remote or hard-to-reach areas during ongoing rains?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.5695750713348389,
+                            "outline_relevance": 0.6459571123123169,
+                            "originality": 0.2921220660209656,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: Considering the ongoing threat of floods, how does your team balance immediate rescue efforts with planning for longer-term recovery and resilience?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.6389966011047363,
+                            "outline_relevance": 0.6078783869743347,
+                            "originality": 0.32338762283325195,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "Considering the ongoing threat of floods and the challenges you mentioned, how does your team plan to incorporate lessons from this disaster into future preparedness and resilience initiatives, especially in light of climate change?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5592494010925293,
+                            "outline_relevance": 0.6842828392982483,
+                            "originality": 0.28924405574798584,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "My last question is, if you can put this into context for us, the scale of this disaster - because, obviously, we're in an era of climate change when the storms are fiercer and their effects are more profound.",
+            "previous_answer": "Yes, the U.N. has called it, you know, the biggest natural disaster in the last decade in the southern hemisphere. And that is saying something. The problem with - you know, with getting aid to the people is that they're scattered over such a large area on different places. That's why, you know, it's such a challenging operation.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What specific challenges are people facing in the aftermath of the cyclone, especially in those remote and scattered areas?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.509391725063324,
+                        "outline_relevance": 0.9636942148208618,
+                        "originality": 0.05710470676422119,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you describe some of the logistical hurdles your team encounters when trying to reach remote communities affected by the cyclone?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.47582924365997314,
+                            "outline_relevance": 0.730701208114624,
+                            "originality": 0.25505805015563965,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: How do the scattered settlements impact the prioritization and distribution of aid resources?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.47059744596481323,
+                            "outline_relevance": 0.5596218109130859,
+                            "originality": 0.3647589683532715,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: In light of the widespread impact area, what strategies is Save the Children employing to ensure aid reaches the most vulnerable populations effectively?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.41104090213775635,
+                            "outline_relevance": 0.6346721649169922,
+                            "originality": 0.23458528518676758,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "What specific challenges are people facing in the aftermath of the cyclone, especially in those remote and scattered areas?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.509391725063324,
+                            "outline_relevance": 0.9636942148208618,
+                            "originality": 0.05710470676422119,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Rik Goverde is a spokesperson for Save the Children. Thank you so much.",
+            "previous_answer": "You're welcome.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: Can you share more about the current conditions on the ground in Mozambique since the cyclone?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.12934976816177368,
+                        "outline_relevance": 0.6960826516151428,
+                        "originality": 0.22491902112960815,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: Can you share more about the current conditions on the ground in Mozambique since the cyclone?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.12934976816177368,
+                            "outline_relevance": 0.6960826516151428,
+                            "originality": 0.22491902112960815,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "depth: What are the primary challenges your team faces in delivering aid effectively to remote areas?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.2583560049533844,
+                            "outline_relevance": 0.5755659341812134,
+                            "originality": 0.2049543857574463,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        },
+                        {
+                            "question": "balanced: How is Save the Children coordinating with other agencies to maximize the impact of relief efforts?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": false,
+                            "context_relevance": 0.13628707826137543,
+                            "outline_relevance": 0.6698811054229736,
+                            "originality": 0.15407156944274902,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

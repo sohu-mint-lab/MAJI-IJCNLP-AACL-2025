@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of the Obama Administration's Stimulus Plan",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the primary goals of the Obama administration's stimulus plan according to Professor Jarell?",
+        "importance": "critical",
+        "keywords": [
+          "stimulus plan",
+          "goals",
+          "economic activity"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Professor Jarell assess the effectiveness of government intervention in stimulating the economy?",
+        "importance": "high",
+        "keywords": [
+          "government intervention",
+          "effectiveness",
+          "economy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Critique of Economic Policies",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What major flaws does Professor Jarell attribute to the current economic policies proposed by the Obama administration?",
+        "importance": "critical",
+        "keywords": [
+          "economic policies",
+          "flaws",
+          "Jarell"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Jarell relate the origins of the current economic crisis to government regulations?",
+        "importance": "high",
+        "keywords": [
+          "economic crisis",
+          "government regulations",
+          "Jarell"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Discussion on Deregulation",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is Professor Jarell's stance on the accusations that deregulation led to the economic crisis?",
+        "importance": "high",
+        "keywords": [
+          "deregulation",
+          "economic crisis",
+          "accusations"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "According to Jarell, what specific actions would better restore the economy rather than government intervention?",
+        "importance": "critical",
+        "keywords": [
+          "restore economy",
+          "government intervention",
+          "actions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Case Study: Detroit's Economic Situation",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How does Professor Jarell view the housing market in Detroit as a reflection of economic policies?",
+        "importance": "high",
+        "keywords": [
+          "Detroit",
+          "housing market",
+          "economic policies"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What solutions does Jarell propose for addressing bad loans and oversupply in the housing market?",
+        "importance": "optional",
+        "keywords": [
+          "bad loans",
+          "housing market",
+          "solutions"
+        ]
+      }
+    ]
+  }
+]

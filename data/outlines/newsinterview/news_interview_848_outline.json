@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Economic Overview",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Why are health care and education performing well in the current economy?",
+        "importance": "critical",
+        "keywords": [
+          "economic overview",
+          "health care",
+          "education"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What role does government spending play in the growth of these sectors?",
+        "importance": "high",
+        "keywords": [
+          "government spending",
+          "growth",
+          "sectors"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Employment Trends",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How are the health care and education sectors affecting job trends during the downturn?",
+        "importance": "critical",
+        "keywords": [
+          "employment",
+          "job trends",
+          "downturn"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "In what ways do these sectors provide job security compared to other industries?",
+        "importance": "high",
+        "keywords": [
+          "job security",
+          "sectors",
+          "industries"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Gender Dynamics in the Workforce",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What impact does the gender composition of the health care and education sectors have on employment during a recession?",
+        "importance": "high",
+        "keywords": [
+          "gender dynamics",
+          "employment",
+          "recession"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do the economic experiences of men and women differ in the current downturn?",
+        "importance": "optional",
+        "keywords": [
+          "economic experiences",
+          "men",
+          "women"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Recovery Predictions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What implications do the growth of health care and education sectors have for economic recovery?",
+        "importance": "critical",
+        "keywords": [
+          "future predictions",
+          "recovery",
+          "economic growth"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Are there other sectors that could potentially recover, and what might that look like?",
+        "importance": "high",
+        "keywords": [
+          "sector recovery",
+          "potential",
+          "future"
+        ]
+      }
+    ]
+  }
+]

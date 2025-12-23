@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Current Trends in Major League Baseball",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What does the record for home runs and strikeouts in a single MLB season indicate about the current playing style?",
+        "importance": "high",
+        "keywords": [
+          "home runs",
+          "strikeouts",
+          "MLB trends"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How are teams adapting their strategies in response to financial incentives versus competitive incentives?",
+        "importance": "critical",
+        "keywords": [
+          "team strategies",
+          "financial incentives",
+          "competitive incentives"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Impact of 100-Win and 100-Loss Seasons",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the implications of having multiple teams with 100 losses in one season?",
+        "importance": "high",
+        "keywords": [
+          "100-loss teams",
+          "implications",
+          "MLB health"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does the performance of teams in terms of wins and losses affect fan engagement and attendance?",
+        "importance": "critical",
+        "keywords": [
+          "fan engagement",
+          "attendance",
+          "wins losses"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Expectations for the Postseason",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What teams are considered favorites for the postseason and why?",
+        "importance": "critical",
+        "keywords": [
+          "postseason favorites",
+          "teams",
+          "predictions"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the presence of charismatic young stars influence the upcoming playoff games?",
+        "importance": "high",
+        "keywords": [
+          "young stars",
+          "playoffs",
+          "influence"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Outlook for Baseball",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What potential challenges does MLB face in maintaining fan interest and competitive balance?",
+        "importance": "high",
+        "keywords": [
+          "MLB challenges",
+          "fan interest",
+          "competitive balance"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How might the current trends in team spending impact the future of the sport?",
+        "importance": "critical",
+        "keywords": [
+          "team spending",
+          "future of baseball",
+          "trends"
+        ]
+      }
+    ]
+  }
+]

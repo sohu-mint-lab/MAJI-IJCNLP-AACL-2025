@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Plant Circadian Rhythms",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What findings did researchers discover about the circadian rhythms of vegetables after harvest?",
+        "importance": "critical",
+        "keywords": [
+          "circadian rhythms",
+          "vegetables",
+          "post-harvest"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How do daily light and dark cycles affect the metabolic processes of vegetables?",
+        "importance": "high",
+        "keywords": [
+          "light cycles",
+          "metabolism",
+          "biochemistry"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Effects of Continuous Light on Vegetables",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What happens to vegetables under continuous light conditions in grocery stores?",
+        "importance": "critical",
+        "keywords": [
+          "continuous light",
+          "grocery stores",
+          "effects"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How do disrupted circadian rhythms impact a plant's defense mechanisms against pests?",
+        "importance": "high",
+        "keywords": [
+          "defense mechanisms",
+          "pests",
+          "circadian disruption"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Nutritional Implications of Circadian Rhythms",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "Do vegetables produce more nutritious compounds at specific times of day due to their circadian rhythms?",
+        "importance": "critical",
+        "keywords": [
+          "nutritional compounds",
+          "time of day",
+          "circadian rhythms"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What types of vegetables showed similar circadian patterns in initial research?",
+        "importance": "high",
+        "keywords": [
+          "vegetables",
+          "circadian patterns",
+          "research"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Research Directions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What is the next step in researching metabolites regulated by the circadian clock?",
+        "importance": "high",
+        "keywords": [
+          "future research",
+          "metabolites",
+          "circadian clock"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How can the findings regarding circadian rhythms be practically applied to improve vegetable storage?",
+        "importance": "optional",
+        "keywords": [
+          "practical application",
+          "vegetable storage",
+          "circadian findings"
+        ]
+      }
+    ]
+  }
+]

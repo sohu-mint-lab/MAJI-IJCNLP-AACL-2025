@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of WWF and Its Mission",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What role has the WWF played in conservation efforts, particularly regarding endangered species?",
+        "importance": "critical",
+        "keywords": [
+          "WWF",
+          "conservation",
+          "endangered species"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How has the public perception of WWF been shaped by its conservation programs?",
+        "importance": "high",
+        "keywords": [
+          "public perception",
+          "conservation programs",
+          "WWF"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Investigative Findings on Forest Rangers",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What serious allegations have surfaced regarding the actions of forest rangers funded by WWF?",
+        "importance": "critical",
+        "keywords": [
+          "allegations",
+          "forest rangers",
+          "WWF"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Can you explain the case of Shikharam Chaudhary and its implications?",
+        "importance": "high",
+        "keywords": [
+          "Shikharam Chaudhary",
+          "implications",
+          "torture"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Role of Indigenous Peoples",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How are local indigenous communities affected by the actions of these forest rangers?",
+        "importance": "critical",
+        "keywords": [
+          "indigenous communities",
+          "forest rangers",
+          "impact"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What is the profile of individuals typically targeted by the rangers in these areas?",
+        "importance": "high",
+        "keywords": [
+          "targeted individuals",
+          "low-level hunting",
+          "indigenous people"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "WWF's Response and Future Implications",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What measures has WWF announced in response to the findings of the investigation?",
+        "importance": "high",
+        "keywords": [
+          "WWF response",
+          "investigation findings",
+          "measures"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What might the long-term consequences be for WWF and its donors based on this investigation?",
+        "importance": "optional",
+        "keywords": [
+          "long-term consequences",
+          "donors",
+          "WWF"
+        ]
+      }
+    ]
+  }
+]

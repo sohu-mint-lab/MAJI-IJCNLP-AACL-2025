@@ -1,0 +1,355 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.4996110871434212,
+                "avg_context_relevance": 0.3671419150196016,
+                "avg_outline_relevance": 0.8449436202645302,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 83.33333333333334,
+            "weighted_coverage_score": 80.95238095238095,
+            "covered_questions": 5,
+            "total_questions": 6
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 6
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "Well, in a moment, we will hear more about President Trump's reaction to the public release of notes from his phone conversation with the Ukrainian president. The two took questions together at the United Nations today. First, we want to look at the details of the call, which are spelled out in that memo. NPR national security correspondent Greg Myre's here in the studio to walk us through it. Hi, Greg.",
+            "previous_answer": "Hey, Ari.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you summarize the main topics and key points that President Trump covered during his phone call with the Ukrainian president?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.10428144037723541,
+                        "outline_relevance": 0.8951704502105713,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you summarize the main topics and key points that President Trump covered during his phone call with the Ukrainian president?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.10428144037723541,
+                            "outline_relevance": 0.8951704502105713,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "You and I both have copies of these notes. I think pretty much every journalist in Washington does right now. What stands out to you in this?",
+            "previous_answer": "Well, several things, and they all seem to point to this basic notion that Trump was calling for political help from the Ukrainian president. One line in particular - he says, quote, \"I would like you to do us a favor.\" And then he sort of winds up to this, saying the U.S. has been very good to Ukraine, very helpful and, you know, suggesting we'd like some help in return. And he says, there's a lot of talk about Biden's son, that Biden stopped the prosecution and a lot of people want to find out about that, so whatever you could do with the attorney general would be great. And then he goes on and references and makes mention of Rudy Giuliani three times in this conversation.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Why did Trump specifically request a favor concerning Biden from the Ukrainian president, and what might have been the strategic reasoning behind this choice?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.7896103858947754,
+                        "outline_relevance": 0.9559782147407532,
+                        "originality": 0.5299578905105591,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Why did Trump specifically request a favor concerning Biden from the Ukrainian president, and what might have been the strategic reasoning behind this choice?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.7896103858947754,
+                            "outline_relevance": 0.9559782147407532,
+                            "originality": 0.5299578905105591,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "And Rudy Giuliani was a private lawyer not a government official, so why is he coming up so much in this conversation between two world leaders?",
+            "previous_answer": "Well, because he had been involved in this for some time. This is something he'd been working on for months in terms of being in contact with Ukraine, trying to get an investigation started into the Bidens. He talked about it on TV. He was on Twitter, so he was very public about this in the past couple of months after the Mueller investigation wound up. He said he met an aide of the Ukrainian president. He said he was working with the State Department, that he cleared it with them, he was in contact with them. But then, you know, Trump said also that the Ukrainian - told the Ukrainian president that Giuliani and the attorney general, William Barr, would get in touch with him.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are the potential consequences and broader implications of Attorney General Barr being closely involved and mentioned multiple times in connection with Giuliani's efforts in Ukraine?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4987669289112091,
+                        "outline_relevance": 0.704745352268219,
+                        "originality": 0.5965587794780731,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What are the potential consequences and broader implications of Attorney General Barr being closely involved and mentioned multiple times in connection with Giuliani's efforts in Ukraine?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4987669289112091,
+                            "outline_relevance": 0.704745352268219,
+                            "originality": 0.5965587794780731,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "It's odd that he would keep referring to the attorney general because, typically, it would be the secretary of state who would deal with world leaders. The secretary of state is the top diplomat. Why would Attorney General Barr be involved in this matter?",
+            "previous_answer": "Really great question, and we don't know the answer. Sort of a quick civics lesson - the attorney general is supposed to be independent. He's not supposed to be taking orders from the president about who he should or shouldn't investigate. Now, Barr - consider him to be sort of in the middle of this. And he says he didn't hear about this phone call until weeks later. So on the one hand, the Justice Department, which he oversees, is investigating or looking into the whistleblower complaint. They also decided there shouldn't be a criminal charge opened up against the president. And on the other hand, the president is saying he's going to contact the Ukrainian president. And here's Barr, sitting in the middle of this, saying, I didn't hear about that call, what am I - more or less pleading ignorance.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you explain the significance of the whistleblower complaint in relation to the phone call?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.44818806648254395,
+                        "outline_relevance": 0.9841427803039551,
+                        "originality": 0.6243070662021637,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you explain the significance of the whistleblower complaint in relation to the phone call?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.44818806648254395,
+                            "outline_relevance": 0.9841427803039551,
+                            "originality": 0.6243070662021637,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Right. This story is moving so quickly. What are you going to be looking forward to or looking for in the next day, or maybe I should just say in the next hour?",
+            "previous_answer": "That's right. It's really humming along here. So the House and the Senate intelligence committees have wanted to get their hands on the actual whistleblower complaint. This phone call may just be one part of it. There may be other elements involved. And they've been demanding that they get it. It doesn't necessarily have to become public, but given the way things are appearing, it seems quite possible that it will.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What are the key points or issues that the acting Director of National Intelligence is expected to address in their upcoming testimony before Congress?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.4468335509300232,
+                        "outline_relevance": 0.8682848215103149,
+                        "originality": 0.5116319060325623,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What are the key points or issues that the acting Director of National Intelligence is expected to address in their upcoming testimony before Congress?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.4468335509300232,
+                            "outline_relevance": 0.8682848215103149,
+                            "originality": 0.5116319060325623,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "The whistleblower has expressed an interest in testifying before Congress. We don't know whether that will happen. But we do know that the acting director of national intelligence will testify tomorrow, which is going to be the first time a member of the administration has publicly testified under oath about this in front of lawmakers. What are you looking for there?",
+            "previous_answer": "Right. So we're talking about the acting Director of National Intelligence Joseph Maguire going before the House Intelligence Committee tomorrow. Now, he's been on the job all of one month. And so far, his role has been to block the whistleblower complaint from going forward and reaching Congress. But there are signs that he doesn't necessarily agree with this position, that it's lawyers who've made him sort of take this position. He's not a chatty guy. But last night, he issued a statement saying, I am committed to protecting whistleblowers and ensuring every complaint is handled appropriately. So that sort of statement came out of the blue. And then today, there was a report that he had threatened to resign if he was told to go before Congress and stonewall. He quickly responded and said...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Can you explain the specific reasons why President Trump sought assistance from the Ukrainian president regarding Hunter Biden, and how that request fits into the broader political context?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.25235551595687866,
+                        "outline_relevance": 0.8667422533035278,
+                        "originality": 0.11674094200134277,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Can you explain the specific reasons why President Trump sought assistance from the Ukrainian president regarding Hunter Biden, and how that request fits into the broader political context?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.25235551595687866,
+                            "outline_relevance": 0.8667422533035278,
+                            "originality": 0.11674094200134277,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "You mean if the administration had blocked him from testifying before Congress.",
+            "previous_answer": "Correct. Correct. And so he said that was not true. He said he didn't consider resigning. But it's certainly going to make for a very interesting day tomorrow to see what he says when he goes before the committee.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What might be the consequences if the testimony reveals information that contradicts earlier official statements?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.34078896045684814,
+                        "outline_relevance": 0.5382678508758545,
+                        "originality": 0.5404247045516968,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What might be the consequences if the testimony reveals information that contradicts earlier official statements?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.34078896045684814,
+                            "outline_relevance": 0.5382678508758545,
+                            "originality": 0.5404247045516968,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "A lot to follow, and the story changing by the minute. NPR's Greg Myre, thank you very much.",
+            "previous_answer": "My pleasure.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Why do you think Trump chose to ask the Ukrainian president for a favor specifically related to Biden during that phone call?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.05631047114729881,
+                        "outline_relevance": 0.9462172389030457,
+                        "originality": 0.07726740837097168,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Why do you think Trump chose to ask the Ukrainian president for a favor specifically related to Biden during that phone call?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.05631047114729881,
+                            "outline_relevance": 0.9462172389030457,
+                            "originality": 0.07726740837097168,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

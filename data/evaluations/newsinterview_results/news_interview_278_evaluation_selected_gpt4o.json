@@ -1,0 +1,535 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.37812722417024464,
+                "avg_context_relevance": 0.33451699866698337,
+                "avg_outline_relevance": 0.6059671663320981,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 37.5,
+            "weighted_coverage_score": 31.818181818181817,
+            "covered_questions": 3,
+            "total_questions": 8
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 8
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "For almost two decades, Jon Champion has called the play-by-play on some of the most watched soccer games in the world.",
+            "previous_answer": "Trying to run Georginio, making a great job of it. Solo away. What a fabulous goal lighting up Wembley.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What motivated you to make the move to the United States for your commentary career, and how has that transition been for you personally and professionally?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.09774632751941681,
+                        "outline_relevance": 0.4864850640296936,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What motivated you to make the move to the United States for your commentary career, and how has that transition been for you personally and professionally?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.09774632751941681,
+                            "outline_relevance": 0.4864850640296936,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "From the Premier League to FIFA games to the World Cup and Olympic Games. Now Champion is taking his family and moving across the pond to the U.S. to cover Major League Soccer for ESPN and, as he puts it, to live the American dream. Jon Champion, welcome to WEEKEND EDITION and to the United States (laughter).",
+            "previous_answer": "Thank you so much. It's lovely to be here.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "broad: What initially drew you to make the big move from Europe to the U.S. for your soccer commentary career?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.19125819206237793,
+                        "outline_relevance": 0.6565561890602112,
+                        "originality": 0.347400426864624,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "broad: What initially drew you to make the big move from Europe to the U.S. for your soccer commentary career?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.19125819206237793,
+                            "outline_relevance": 0.6565561890602112,
+                            "originality": 0.347400426864624,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "What brings you to our shores?",
+            "previous_answer": "I think a challenge and an opportunity to have an adventure, both on a personal and a professional level. So as you rightly pointed out, I've been commentating on soccer matches for 34 years now. I started when I was at university as a teenager. But you do get to a stage where you're recognizing that you're covering an event or a storyline for the fifth, sixth, seventh, maybe eighth time. And I just got to the stage where, in 2014, ESPN hired me to cover the World Cup in Brazil. And off the back of that, the suggestion was made that maybe I'd like to consider, at some point, coming and making my home here and commentating full time on American soccer rather than European or, specifically, British soccer. And that was the gestation, really, of an idea that took four years to grow into a fully fledged offer to come in and work here full time.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How has your extensive background in European soccer commentary shaped the way you approach covering American soccer matches?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.580828845500946,
+                        "outline_relevance": 0.7503563761711121,
+                        "originality": 0.20685970783233643,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How has your extensive background in European soccer commentary shaped the way you approach covering American soccer matches?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.580828845500946,
+                            "outline_relevance": 0.7503563761711121,
+                            "originality": 0.20685970783233643,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "Do you have to remind yourself to call it soccer, though?",
+            "previous_answer": "I do at the moment. I do and...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you perceive the differences in soccer culture between the U.S. and other countries?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.0644323080778122,
+                        "outline_relevance": 0.8877572417259216,
+                        "originality": 0.3294186592102051,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you perceive the differences in soccer culture between the U.S. and other countries?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.0644323080778122,
+                            "outline_relevance": 0.8877572417259216,
+                            "originality": 0.3294186592102051,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "(Laughter) I can just imagine, I'm afraid, you slipping up because, obviously, the rest of the world does not call it soccer.",
+            "previous_answer": "No, no, no. It is football around the rest of the world, and I'm in the midst of the penalty or PK debate. What do I call a penalty kick?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you perceive the differences in soccer culture between the U.S. and other countries, especially in terms of fan engagement and media coverage?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2733025848865509,
+                        "outline_relevance": 0.8601874113082886,
+                        "originality": 0.06369763612747192,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you perceive the differences in soccer culture between the U.S. and other countries, especially in terms of fan engagement and media coverage?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2733025848865509,
+                            "outline_relevance": 0.8601874113082886,
+                            "originality": 0.06369763612747192,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "(Laughter).",
+            "previous_answer": "So I'm somewhere betwixt and between. I'm mid-Atlantic at the moment.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you elaborate on what being 'mid-Atlantic' means for how you connect with American and European audiences?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.571707010269165,
+                        "outline_relevance": 0.4057193100452423,
+                        "originality": 0.47277945280075073,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on what being 'mid-Atlantic' means for how you connect with American and European audiences?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.571707010269165,
+                            "outline_relevance": 0.4057193100452423,
+                            "originality": 0.47277945280075073,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "(Laughter) All right. U.S. soccer is gaining in popularity, but it is definitely not at the level of the Premier League or other leagues around the world. You'll be calling matches for a sport that is not watched by everyone, as it was back home. How do you feel about that? What is your plan to bring soccer to everyone's living room?",
+            "previous_answer": "Well, I'm not sure...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What role do you hope to play in helping soccer grow and become more popular in the U.S.?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.11340729892253876,
+                        "outline_relevance": 0.787368655204773,
+                        "originality": 0.374442458152771,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What role do you hope to play in helping soccer grow and become more popular in the U.S.?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.11340729892253876,
+                            "outline_relevance": 0.787368655204773,
+                            "originality": 0.374442458152771,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "You're responsible for this alone, by the way.",
+            "previous_answer": "Personally?",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: How do you personally manage the pressures and challenges that come with being solely responsible for your work here?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.2854359447956085,
+                        "outline_relevance": 0.2506519556045532,
+                        "originality": 0.6293028295040131,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: How do you personally manage the pressures and challenges that come with being solely responsible for your work here?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.2854359447956085,
+                            "outline_relevance": 0.2506519556045532,
+                            "originality": 0.6293028295040131,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "Yes, absolutely.",
+            "previous_answer": "Oh, that is...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "I noticed you hesitated there—could you share what thoughts you were working through at that moment?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1779976189136505,
+                        "outline_relevance": 0.1565541923046112,
+                        "originality": 0.5705130696296692,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "I noticed you hesitated there—could you share what thoughts you were working through at that moment?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1779976189136505,
+                            "outline_relevance": 0.1565541923046112,
+                            "originality": 0.5705130696296692,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "I'm going to put it all on you.",
+            "previous_answer": "I mean, I'm fortunate in that my voice is associated with big, worldwide soccer events. So if my voice becomes associated with big, American soccer events, there is a school of thought that that helps to add a certain validity to the occasion and to the broadcast. Now, whether that's the case is probably not for me to say, but that is the suggestion and the theory behind this.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you think your experience covering European soccer has influenced your understanding and commentary of American soccer?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5767723321914673,
+                        "outline_relevance": 0.7974927425384521,
+                        "originality": 0.1037827730178833,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you think your experience covering European soccer has influenced your understanding and commentary of American soccer?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5767723321914673,
+                            "outline_relevance": 0.7974927425384521,
+                            "originality": 0.1037827730178833,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "But why do you think it hasn't really caught on here in America the same way? Because kids do it. You have soccer clubs all over the United States. Kids grow up playing soccer. And then, it kind of just stops.",
+            "previous_answer": "Yeah. It does at the moment, or it has done up until this point. And it is the most played sport in that age group. For teenagers, soccer is the No. 1 participation event. And, gradually, that is translating into a greater interest in the professional game of soccer in this country. So one of the attractions of this job coming now, for me, is that if you look at the context of league soccer in this country, it began, effectively, in 1996. So this is season number 24 that begins over this weekend. If you translate that into the English game, league soccer there started in 1888. So, in the same terms, we're in 1911 now, here in America. So...",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Looking ahead, how do you anticipate Major League Soccer will evolve over the next decade given its relatively young history?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5936757326126099,
+                        "outline_relevance": 0.646832287311554,
+                        "originality": 0.3748137950897217,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Looking ahead, how do you anticipate Major League Soccer will evolve over the next decade given its relatively young history?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5936757326126099,
+                            "outline_relevance": 0.646832287311554,
+                            "originality": 0.3748137950897217,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 11,
+            "actual_question": "We're a young country in many ways (laughter).",
+            "previous_answer": "Yeah. But it means that it is an evolution. And, obviously, the American game is at a very early stage of that evolution. But I think the graph shows that the acceleration in interest in the game - it's gathering pace. It's quite attractive to come and be a little part of trying to tell the story of a growth of a sport that's conquered the world with one exception, and we're sitting right in the middle of that exception. And I'd love to play a very, very small role and be a close observer of the breakthrough of soccer. I'm not suggesting that it's going to displace the NFL, but it is capable of nibbling at the heels, perhaps, of baseball and of ice hockey, certainly. It's very exciting to be at the stage of one's career where one's been lucky enough to do most things, but this is an unconquered frontier.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Could you share specific examples of how your European commentary experience influences the stories you choose to tell about American soccer?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.3193964958190918,
+                        "outline_relevance": 0.7065148949623108,
+                        "originality": 0.09310746192932129,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Could you share specific examples of how your European commentary experience influences the stories you choose to tell about American soccer?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.3193964958190918,
+                            "outline_relevance": 0.7065148949623108,
+                            "originality": 0.09310746192932129,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 12,
+            "actual_question": "Jon Champion, longtime British soccer commentator and now ESPN's lead announcer for Major League Soccer, thank you very much.",
+            "previous_answer": "It's been a great joy. Thank you.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you share some of the specific moments or experiences that have brought you the most joy since you started covering Major League Soccer in the U.S.?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.5027602910995483,
+                        "outline_relevance": 0.48509684205055237,
+                        "originality": 0.34953564405441284,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you share some of the specific moments or experiences that have brought you the most joy since you started covering Major League Soccer in the U.S.?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.5027602910995483,
+                            "outline_relevance": 0.48509684205055237,
+                            "originality": 0.34953564405441284,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

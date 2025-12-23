@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Historical Context of 'Transcription'",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "How did the political climate of 1940 influence the themes in Kate Atkinson's novel?",
+        "importance": "critical",
+        "keywords": [
+          "1940",
+          "political climate",
+          "themes"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What role did paranoia play in the narrative surrounding British spies and Nazi sympathizers?",
+        "importance": "high",
+        "keywords": [
+          "paranoia",
+          "narrative",
+          "spy"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Characterization of Juliet Armstrong",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "In what ways does Juliet Armstrong's characterization reflect her background and motivations?",
+        "importance": "critical",
+        "keywords": [
+          "Juliet Armstrong",
+          "characterization",
+          "motivations"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Juliet's path as a pathological liar contribute to her role in MI5?",
+        "importance": "high",
+        "keywords": [
+          "pathological liar",
+          "MI5",
+          "role"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Themes of Truth and Lies",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What reflections does the novel make on the nature of truth and lies within the context of historical events?",
+        "importance": "critical",
+        "keywords": [
+          "truth",
+          "lies",
+          "historical events"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do current events mirror the historical backdrop presented in 'Transcription'?",
+        "importance": "high",
+        "keywords": [
+          "current events",
+          "historical backdrop",
+          "mirror"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Impact of Declassified Documents",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "How did the declassification of MI5 documents influence the creation of Godfrey Toby's character?",
+        "importance": "high",
+        "keywords": [
+          "declassification",
+          "MI5",
+          "Godfrey Toby"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What was the significance of the 'biscuit interval' mentioned in the book regarding the interactions of the spies?",
+        "importance": "optional",
+        "keywords": [
+          "biscuit interval",
+          "interactions",
+          "spies"
+        ]
+      }
+    ]
+  }
+]

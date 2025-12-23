@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Flame Malware",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What distinguishes Flame from typical malware encountered by users?",
+        "importance": "critical",
+        "keywords": [
+          "Flame",
+          "malware",
+          "difference"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What functions can the Flame malware perform once it infects a system?",
+        "importance": "high",
+        "keywords": [
+          "functions",
+          "infection",
+          "capabilities"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Comparative Analysis with Stuxnet",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does Flame compare to Stuxnet in terms of its purpose and functionality?",
+        "importance": "critical",
+        "keywords": [
+          "Stuxnet",
+          "comparison",
+          "purpose"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What evidence suggests that Flame might be connected to state-sponsored cyber activities?",
+        "importance": "high",
+        "keywords": [
+          "state-sponsored",
+          "evidence",
+          "connection"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Impact and Protection Strategies",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What measures can users take to protect their systems from Flame and similar malware?",
+        "importance": "critical",
+        "keywords": [
+          "protection",
+          "measures",
+          "malware"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What role do antivirus programs play in mitigating the threat posed by Flame?",
+        "importance": "high",
+        "keywords": [
+          "antivirus",
+          "mitigation",
+          "threat"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future of Malware and Cybersecurity",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "Is the evolving complexity of malware indicative of more advanced threats on the horizon?",
+        "importance": "high",
+        "keywords": [
+          "complexity",
+          "threats",
+          "evolution"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What technological advancements could lead to the development of future malware like Flame?",
+        "importance": "optional",
+        "keywords": [
+          "technological advancements",
+          "future",
+          "malware"
+        ]
+      }
+    ]
+  }
+]

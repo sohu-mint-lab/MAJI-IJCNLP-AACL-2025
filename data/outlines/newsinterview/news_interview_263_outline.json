@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "The Inspiration Behind 'Invisible Women'",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What specific event or realization prompted Caroline Criado-Perez to write her book?",
+        "importance": "critical",
+        "keywords": [
+          "inspiration",
+          "female heart attack symptoms",
+          "misdiagnosis"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the underrepresentation of women in research impact their health and well-being?",
+        "importance": "high",
+        "keywords": [
+          "underrepresentation",
+          "health",
+          "women"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Cultural Bias and Its Implications",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How does Caroline Criado-Perez describe the societal view of gender-neutral terms?",
+        "importance": "high",
+        "keywords": [
+          "cultural bias",
+          "gender-neutral",
+          "perception"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What real-world example does she provide to illustrate the dangers of a male-centered design in car safety?",
+        "importance": "critical",
+        "keywords": [
+          "car crash",
+          "safety",
+          "design"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Impact of Data Bias on Technology",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What concerns does Criado-Perez raise about algorithms trained on male-biased data?",
+        "importance": "critical",
+        "keywords": [
+          "data bias",
+          "algorithms",
+          "technology"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What example does she give regarding the identification of top coders and its implications for gender inclusion?",
+        "importance": "high",
+        "keywords": [
+          "top coders",
+          "gender inclusion",
+          "algorithm"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Solutions to Data Bias",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What does Criado-Perez suggest as a straightforward solution to the problem of data bias?",
+        "importance": "critical",
+        "keywords": [
+          "solutions",
+          "data collection",
+          "sex-disaggregated data"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Why is the collection of sex-disaggregated data essential for improving outcomes for women?",
+        "importance": "high",
+        "keywords": [
+          "data collection",
+          "women",
+          "importance"
+        ]
+      }
+    ]
+  }
+]

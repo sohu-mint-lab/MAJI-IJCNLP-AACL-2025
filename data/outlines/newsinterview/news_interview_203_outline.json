@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Equal Partnership in Parenting",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What motivated Darcy Lockman to write her book about parenting partnerships?",
+        "importance": "critical",
+        "keywords": [
+          "Darcy Lockman",
+          "equal partnership",
+          "motivation"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What common themes did Lockman find during her interviews with mothers?",
+        "importance": "high",
+        "keywords": [
+          "interviews",
+          "themes",
+          "mothers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Perspectives from Fathers",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did fathers respond to discussions about household responsibilities in Lockman's research?",
+        "importance": "critical",
+        "keywords": [
+          "fathers",
+          "household responsibilities",
+          "research"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What barriers do fathers face in being recognized as involved parents?",
+        "importance": "high",
+        "keywords": [
+          "barriers",
+          "involved parents",
+          "recognition"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Cultural Norms and Parenting Dynamics",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what ways do societal norms influence household labor division according to Lockman?",
+        "importance": "critical",
+        "keywords": [
+          "societal norms",
+          "household labor",
+          "influence"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How do same-sex couples navigate parenting compared to heterosexual couples?",
+        "importance": "high",
+        "keywords": [
+          "same-sex couples",
+          "parenting",
+          "comparison"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Strategies for Achieving Equity in Parenting",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What strategies did successful couples implement to achieve an equitable division of parenting responsibilities?",
+        "importance": "critical",
+        "keywords": [
+          "strategies",
+          "equitable division",
+          "responsibilities"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What takeaway did Lockman emphasize regarding expectations of modern parenting?",
+        "importance": "high",
+        "keywords": [
+          "takeaway",
+          "expectations",
+          "modern parenting"
+        ]
+      }
+    ]
+  }
+]

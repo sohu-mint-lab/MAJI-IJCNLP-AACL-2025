@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Violent Extremism",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the common characteristics of individuals involved in violent extremism, particularly in the U.S.?",
+        "importance": "critical",
+        "keywords": [
+          "violent extremism",
+          "characteristics",
+          "U.S."
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "Can you explain the relationship between social media and the radicalization of young men?",
+        "importance": "high",
+        "keywords": [
+          "social media",
+          "radicalization",
+          "young men"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Personal Journey from Extremism",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How did personal experiences contribute to Tony McAleer's involvement in extremist groups?",
+        "importance": "critical",
+        "keywords": [
+          "personal journey",
+          "extremism",
+          "Tony McAleer"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What role did family and early life events play in shaping his views and actions?",
+        "importance": "high",
+        "keywords": [
+          "family",
+          "early life",
+          "shaping views"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "The Role of Compassion and Change",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "In what ways did compassion influence Tony's transformation away from extremism?",
+        "importance": "critical",
+        "keywords": [
+          "compassion",
+          "transformation",
+          "extremism"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How can society implement compassion to prevent young men from turning to violent ideologies?",
+        "importance": "high",
+        "keywords": [
+          "society",
+          "prevent",
+          "violent ideologies"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Concerns About Rising Extremism",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What trends does Tony McAleer see in the rise of violent extremism today?",
+        "importance": "critical",
+        "keywords": [
+          "rising extremism",
+          "trends",
+          "Tony McAleer"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What implications does the normalization of extremist attacks have on society?",
+        "importance": "high",
+        "keywords": [
+          "normalization",
+          "extremist attacks",
+          "society"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,224 @@
+{
+  "transcript": [
+    {
+      "speaker": "Ira Flatow",
+      "text": "This is SCIENCE FRIDAY. I'm Ira Flatow. Last August, NASA's Curiosity Rover staked its claim in Gale Crater on the surface of Mars, and since then it's been cruising around, zapping rocks, sniffing the Martian air and snapping some self-portraits. But now Curiosity has begun to drill, and it looks like it just struck pay dirt, evidence that microbes would have been able to thrive on the red planet billions of years ago in a wet, freshwater habitat far different from the dusty red plains we see today. How can we squeeze these clues from ancient stones? And if microbes really did live on Mars at some point, how did they make a living? What did they eat? And might there be similar microbes right here on Earth? David Blake is principal investigator for the CheMin instrument on the Curiosity Rover. He's also a research scientist at NASA Ames Research Center in Moffett Field. Welcome to SCIENCE FRIDAY, Dr. Blake."
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Thanks, Ira, it's nice to be here."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Tell us about the area you're drilling in. It's an old lake bed, assumed lake bed?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Yeah, that's what we think. We've been kind of going downhill into this area that's a local, you know, depression, and the area looks very much like it's all - it's flat-lying. There are these flagstone-sized cracked cobbles, and so yeah, it looks very much like a really old lake bed."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And so Curiosity just drilled into one of the rocks on the lake bed?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "We did, yeah, and the rocks are actually pretty soft compared to what you would expect from a three-billion-year-old rock. So we drilled a sample and analyzed it."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And you scooped it up, and what - and I saw it on the Web, and it has - it doesn't look like the red Martian soil."
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Well, that's the - that was a really exciting thing for us. You know, we analyzed something like a sand dune a few months ago, and it's, you know, it's red like the red planet, and that's because the iron is oxidized like rust. So we drilled into this rock, and the rock on the outside is red because of the dust that's on it, but inside it's kind of a gray-green color, which was - the reason we were excited is this is the color of more of a reduced iron. So if it was a habitable environment a really long time ago, then there was the opportunity for maybe if organics were there for them to have been preserved, not oxidized."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Did you find organics in the soil?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Well, that's still an ongoing question because we took one drill sample, analyzed it, and starting this Monday we're going to start doing more organic analyses with the SAM instrument. There were organics found, very small quantities, but because they - we hadn't, you know, flushed out kind of the drill stream, the drill stem and dumped the powder to try and get rid of any possible contamination on the drill stem, we'll have to wait until the second drill to try it out."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Sort of clean the drill off while you're drilling."
+    },
+    {
+      "speaker": "David Blake",
+      "text": "That's right. Actually, you know, the first drill was supposed to be kind of like clean and dump, but we were excited about seeing what it was. So we analyzed it."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "I can bet. If it does have, you know, bits of carbon, if it is organic, are you thinking that it's possible, not certain but possible, that organic was left by life forms that might have existed?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "It's possible. There are abiotic organic materials that had formed on Mars, and there's also meteoritic input with carbon compounds. So there is carbon on Mars that's not either from Mars or that is not biological in origin. But, you know, it is possible we would see some organic material from biota if it existed."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Is it the kind of soil that bacteria or other kinds of life could have thrived in?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Yeah, you know, it easily could be. When we call something habitable, we mean that first of all - well first, we're very Earth-centric, and when we describe what's habitable, because it's all we really know about, but we look for presence of water, we look for the possibility of an energy source. And in this case we're not thinking photosynthesis or... You know, there are three ways you can live, right. You can live like a plant and get energy from the sun; or you can eat other organisms; or you can kind of get your own energy from rocks, from chemical reactions that happen in rocks. And it happens that these rocks had some unrequited chemistry from the minerals that could used as an energy source."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "How would that happen? How would that work?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Well, one way it could work, and I'm not saying this is a way it is working, but this is a basaltic rock, a basaltic sediment, rather, and it has - or maphic sediment. It has a mineral called olivine. And olivine is stable deep down below the surface of the Earth, or Mars, maybe tens to hundreds of kilometers. And when it comes to the surface in the presence of water, that olivine could be turned into a mineral called serpentine with reaction of water. And when that happens, then the iron in the olivine is oxidized to magnetite, and that delivers a little bit of hydrogen. And that hydrogen can be used as fuel."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "By whatever it is living there."
+    },
+    {
+      "speaker": "David Blake",
+      "text": "That's right, that's right, by what we call methanogens on Earth."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "And we know that happens here on Earth, and you assume it might happen on Mars."
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Yes."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So what do you do next? Are you going to re-drill another hole, or have you done that already?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Well, we did drill the one hole, and the CHIMRA, which is the sample handling and analysis - sample handing system on the arm is holding a whole batch of powder still from the first drilling. And so we're still analyzing that stuff. Now we're kind of fighting time because Mars is going to go behind the sun in another couple of weeks, and we can't really community with Curiosity for about a month. So we're trying to get as much as we can get done on this sample, and then we'll drill a second sample after Mars come out from behind the sun."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So it turns out that just your test drill has turned up something unexpected."
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Absolutely, yeah, just the color of that powder made us think, you know, this is pay dirt, we hit the right rock."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "What is the ultimate destination for Curiosity? It's on a long journey, is it not?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "It is. We're - you know, we went to this area, we actually drove away from our primary destination, which is a place called Mount Sharp. It's a 5,000-meter, about a 14,000-foot-tall mountain in the middle of Gale Crater that has all these layered sediments from early Mars. So that's our ultimate destination. But it's about eight kilometers away. We kind of drove in the opposite direction because there was this real interesting area that many people on the team thought actually could be a lake bed. And so we're going to do one additional drill here to kind of make sure what we have and understand what it is, and then we'll take the long march to Mount Sharp."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Do you think you can go up the whole mountain, top of the mountain?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "That'd be nice."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Some view from up there, I would imagine."
+    },
+    {
+      "speaker": "David Blake",
+      "text": "That would be really nice. You know, there are Rover drivers and planners at Jet Propulsion Laboratory, and we have these really nice high-resolution images of Mount Sharp, and they've actually plotted ways to kind of go up the canyons and look at the side walls of the canyon. So we'll go as far as we can."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "What - in this drill, right where you are here, what would be the best outcome that you could find, the most optimistic thing that you could find if you went through the dust you have or the next drill?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Oh man. Well, I think that the next drill would be the one because we want to make sure we've kind of flushed out any possible terrestrial contamination from the drill. But, you know, if we find what we think we've already found in the minerals, which tell us it's a habitable environment, and if the SAM instrument, which is a suite of instruments that do organic analyses, can find some organic compounds that clearly aren't from Earth, well, that would be a home run. And I'm not even suggesting it would be from organisms, just to know that there was carbon contained - organic carbon contained inside this rock for three billion years that we could come there and analyze today."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Could life have existed three billion years ago on Mars?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Absolutely, I'm - well, I'm not certain of it, but yeah, I believe it."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "You almost said you were."
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Well, I like \"Star Trek,\" too. No, you know, I'm - the fact is that early Mars and early Earth were very similar, and, you know, Mars was wet and warm and had a denser atmosphere back then. And we know it's about the time that on Earth life developed. So there's no reason to believe that it didn't develop. The conditions were similar."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Is Curiosity going to follow up on the results presented in 2009 about that methane in the atmosphere of Mars? Because wouldn't the methane signal there was life at one point?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Well, that's one possibility. Methane is produced abiotically, as well. So in fact we are following up on it. The SAM instrument can sniff the atmosphere and look at not only the gases but the isotopic composition of the gases. So they did that early on, and essentially they found the answer to be zero plus or minus two part per billion. So essentially they got a zero answer. It's not to say that at another time, another place, we wouldn't find methane, but that first measurement was zero."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "So are you just in a hold mode now, sitting there with that scoop full of soil and waiting, you know, for that journey to be in a right position for you to do the second drill?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Yeah, right now the CHIMRA has the samples, and we already have a sample that we're going to start analyzing again with CheMin on Monday, and there are going to be more samples delivered from the same drill powder to SAM to do other measurements. And they have a variety of conditions they can use to tease out different answers from the sample."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "A few weeks ago Curiosity had a computer glitch and had to run in safe mode. We all know what safe mode is on our PCs. Does a  little sign come up on, you know, on the screen on Curiosity?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "That was scary."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Was it scary? Is it resolved?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "It's resolved now. The engineers actually called it zombie mode."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Zombie mode?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Zombie mode, yeah."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "What does that mean in - I mean, does it mean that everything is shut down, or it's just it's not alive but not dead?"
+    },
+    {
+      "speaker": "David Blake",
+      "text": "You know, they switched over - there are two computers, and the A-side computer, which we've been using all along, apparently had a glitch. So they switched to the B-side, which operates, it is operable. But then you have the question will the same thing happen to this computer as happened to the other one. And so they went back and queried the A computer to see what exactly happened and how to work around it. And so I think they've figured out a work-around with the memory so that now we're running on the B-side and using the A-side as a backup."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "Well, we don't want the rolling dead on Mars, so..."
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Oh, it was just plain scary for a while there."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "All right, David Blake, thank you very much for taking time to be with us, and we'll check back with you."
+    },
+    {
+      "speaker": "David Blake",
+      "text": "Well thank you, pleasure to be here."
+    },
+    {
+      "speaker": "Ira Flatow",
+      "text": "David Blake, research scientist at NASA Ames Research Center. We're going to take a break, and Kathy Reichs is here. Your crime novel readers know her name. So stay tuned. We'll be right back. I'm Ira Flatow. This is SCIENCE FRIDAY from NPR."
+    }
+  ]
+}

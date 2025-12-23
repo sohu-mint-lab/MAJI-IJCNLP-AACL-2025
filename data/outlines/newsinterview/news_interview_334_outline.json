@@ -1,0 +1,70 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Government Shutdown",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What are the main issues surrounding the current government shutdown?",
+        "importance": "critical",
+        "keywords": [
+          "government shutdown",
+          "border wall",
+          "political action"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Trump's Response and Emergency Declaration",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the key factors influencing Trump's consideration of a national emergency declaration?",
+        "importance": "high",
+        "keywords": [
+          "Trump",
+          "national emergency",
+          "advisers"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How have congressional Republicans reacted to the idea of a national emergency?",
+        "importance": "high",
+        "keywords": [
+          "Republicans",
+          "Congress",
+          "emergency declaration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Current Negotiations and Political Landscape",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What role has Mitch McConnell played in the negotiations surrounding the shutdown?",
+        "importance": "critical",
+        "keywords": [
+          "Mitch McConnell",
+          "negotiations",
+          "shutdown"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How have Trump's public addresses affected public opinion on the shutdown and border wall?",
+        "importance": "high",
+        "keywords": [
+          "public opinion",
+          "Oval Office address",
+          "polling"
+        ]
+      }
+    ]
+  }
+]

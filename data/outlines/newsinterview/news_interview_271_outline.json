@@ -1,0 +1,86 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of 'The Moon Within'",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the central theme of 'The Moon Within' and how is it structured?",
+        "importance": "critical",
+        "keywords": [
+          "The Moon Within",
+          "theme",
+          "structure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Celi's Journey and Cultural Significance",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Why is Celi resistant to the moon ceremony and what does it symbolize in her journey?",
+        "importance": "high",
+        "keywords": [
+          "Celi",
+          "resistance",
+          "moon ceremony"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Aida Salazar's background influence the story of Celi and the moon ceremony?",
+        "importance": "high",
+        "keywords": [
+          "Aida Salazar",
+          "heritage",
+          "influence"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Connection to Ancestry and Tradition",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What was the significance of the poem 'A Flower Song For Maidens Coming Of Age' for the author?",
+        "importance": "high",
+        "keywords": [
+          "poem",
+          "significance",
+          "Ancestry"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Salazar believe that traditions can impact young women today?",
+        "importance": "optional",
+        "keywords": [
+          "traditions",
+          "impact",
+          "young women"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Identity and Empowerment in Multicultural Context",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What message does Salazar want to convey to young girls from marginalized communities through Celi's story?",
+        "importance": "critical",
+        "keywords": [
+          "message",
+          "young girls",
+          "marginalized communities"
+        ]
+      }
+    ]
+  }
+]

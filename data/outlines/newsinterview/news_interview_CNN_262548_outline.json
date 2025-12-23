@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Trump's Immigration Commentary",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What changes does Trump propose regarding birthright citizenship?",
+        "importance": "critical",
+        "keywords": [
+          "Trump",
+          "immigration",
+          "birthright citizenship"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Trump respond to concerns about alienating the Hispanic population?",
+        "importance": "high",
+        "keywords": [
+          "Hispanic",
+          "alienate",
+          "GOP"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Implementation Concerns and Strategies",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What practical steps does Trump suggest for dealing with illegal immigrants?",
+        "importance": "critical",
+        "keywords": [
+          "illegal immigrants",
+          "practical steps",
+          "enforcement"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Trump plan to address the issue of employers hiring undocumented workers?",
+        "importance": "high",
+        "keywords": [
+          "employers",
+          "undocumented workers",
+          "labor"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Interaction with the Pope",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What is Trump's initial reaction to the Pope's views on capitalism?",
+        "importance": "high",
+        "keywords": [
+          "Pope",
+          "capitalism",
+          "reaction"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does Trump relate the Pope's concerns to broader threats like ISIS?",
+        "importance": "optional",
+        "keywords": [
+          "ISIS",
+          "Pope",
+          "threats"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Personal Insights and Family Dynamics",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What insights does Trump provide about his family's support for his candidacy?",
+        "importance": "high",
+        "keywords": [
+          "family",
+          "support",
+          "candidacy"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What implications are suggested regarding Trump's wife's immigrant status?",
+        "importance": "optional",
+        "keywords": [
+          "immigrant",
+          "wife",
+          "status"
+        ]
+      }
+    ]
+  }
+]

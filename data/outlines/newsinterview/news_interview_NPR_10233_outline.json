@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Supreme Court Overview and Recent Decisions",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What recent controversial decision did the Supreme Court make regarding the Affordable Care Act?",
+        "importance": "critical",
+        "keywords": [
+          "Supreme Court",
+          "Affordable Care Act",
+          "decision"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does Chief Justice Roberts' decision affect public perception of the Court's impartiality?",
+        "importance": "high",
+        "keywords": [
+          "Chief Justice Roberts",
+          "impartiality",
+          "public perception"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Political Influences and the Court's Operation",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "In what ways may current political events influence the Supreme Court's decisions?",
+        "importance": "high",
+        "keywords": [
+          "political influence",
+          "Supreme Court",
+          "decisions"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does the Court's scheduling affect its responsiveness to current political climates?",
+        "importance": "optional",
+        "keywords": [
+          "scheduling",
+          "political climate",
+          "responsiveness"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Future of the Supreme Court and Key Cases",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What impact could upcoming presidential elections have on the Supreme Court's makeup?",
+        "importance": "critical",
+        "keywords": [
+          "presidential elections",
+          "Supreme Court makeup",
+          "impact"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are the key cases the Court will be addressing this term?",
+        "importance": "high",
+        "keywords": [
+          "key cases",
+          "Supreme Court",
+          "this term"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Significant Issues: Affirmative Action, Gay Marriage, and Voting Rights",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What is the significance of the affirmative action case regarding university admissions?",
+        "importance": "critical",
+        "keywords": [
+          "affirmative action",
+          "university admissions",
+          "significance"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How could the Supreme Court's decisions on gay marriage and the Voting Rights Act reshape legal precedents?",
+        "importance": "high",
+        "keywords": [
+          "gay marriage",
+          "Voting Rights Act",
+          "legal precedents"
+        ]
+      }
+    ]
+  }
+]

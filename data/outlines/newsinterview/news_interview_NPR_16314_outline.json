@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Incident Overview",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the circumstances surrounding the interception of the British sailors and marines?",
+        "importance": "critical",
+        "keywords": [
+          "interception",
+          "British sailors",
+          "Iran"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the recent incident compare to the one in June 2004?",
+        "importance": "high",
+        "keywords": [
+          "comparison",
+          "June 2004",
+          "previous incident"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Scott Fallon's Personal Experience",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "Can you describe your initial impressions when you were captured?",
+        "importance": "critical",
+        "keywords": [
+          "initial impressions",
+          "captured",
+          "misunderstanding"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What were the most frightening moments during your captivity?",
+        "importance": "high",
+        "keywords": [
+          "frightening moments",
+          "mock execution",
+          "captivity"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Conditions of Detention",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "How were you treated in terms of basic needs like food and water?",
+        "importance": "high",
+        "keywords": [
+          "treatment",
+          "food",
+          "water"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "Were there any differences in how you were held compared to the current group of captives?",
+        "importance": "optional",
+        "keywords": [
+          "difference",
+          "current captives",
+          "conditions"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Reflections on Captivity and Advice for Families",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What do you think is important for the families of the current captives to understand?",
+        "importance": "high",
+        "keywords": [
+          "families",
+          "understanding",
+          "advice"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How do you feel your experience has changed your outlook on similar incidents?",
+        "importance": "optional",
+        "keywords": [
+          "experience",
+          "outlook",
+          "similar incidents"
+        ]
+      }
+    ]
+  }
+]

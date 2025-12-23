@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to Mass Extinction",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What led Annalee Newitz to write her book on mass extinction?",
+        "importance": "high",
+        "keywords": [
+          "mass extinction",
+          "book",
+          "apocalypse"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What evidence suggests we might be heading into a sixth mass extinction?",
+        "importance": "critical",
+        "keywords": [
+          "sixth mass extinction",
+          "evidence",
+          "climate change"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Human Adaptation Strategies",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What strategies do past survivors of mass extinctions offer for human adaptation?",
+        "importance": "high",
+        "keywords": [
+          "adaptation",
+          "survivors",
+          "mass extinction"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How does Newitz perceive fear in relation to mass extinction?",
+        "importance": "critical",
+        "keywords": [
+          "fear",
+          "response",
+          "survival"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Sustainability and Urban Planning",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What specific actions can cities take to enhance their sustainability?",
+        "importance": "high",
+        "keywords": [
+          "sustainability",
+          "cities",
+          "planning"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What role do self-healing materials play in future urban environments?",
+        "importance": "optional",
+        "keywords": [
+          "self-healing materials",
+          "urban environments",
+          "technology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Long-term Survival and Space Exploration",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "Why does Newitz believe it is important to explore other planets?",
+        "importance": "high",
+        "keywords": [
+          "space exploration",
+          "survival",
+          "long-term"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "What challenges does Newitz mention regarding living on other planets?",
+        "importance": "optional",
+        "keywords": [
+          "challenges",
+          "living in space",
+          "technology"
+        ]
+      }
+    ]
+  }
+]

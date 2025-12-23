@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of SpaceX and Dragon Spacecraft",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "Can you describe the key features of the Dragon spacecraft and its intended mission?",
+        "importance": "critical",
+        "keywords": [
+          "Dragon spacecraft",
+          "mission",
+          "features"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "What is the significance of Dragon being the first privately built spacecraft to dock with the ISS?",
+        "importance": "high",
+        "keywords": [
+          "privately built",
+          "dock",
+          "ISS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Cost Efficiency and NASA Partnership",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How much is SpaceX saving NASA in launch costs compared to the space shuttle?",
+        "importance": "critical",
+        "keywords": [
+          "cost savings",
+          "NASA",
+          "launch costs"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What milestone achievements are necessary for SpaceX to eventually carry astronauts?",
+        "importance": "high",
+        "keywords": [
+          "milestones",
+          "astronauts",
+          "partnership"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Rocket Technology and Innovations",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What innovations are being implemented to improve the Falcon 9 rocket's reliability?",
+        "importance": "critical",
+        "keywords": [
+          "Falcon 9",
+          "reliability",
+          "innovations"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How does the integrated launch escape system on the Dragon spacecraft enhance safety?",
+        "importance": "high",
+        "keywords": [
+          "launch escape system",
+          "safety",
+          "Dragon spacecraft"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Aspirations and Other Ventures",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are Elon Musk's long-term goals for making life multi-planetary?",
+        "importance": "critical",
+        "keywords": [
+          "multi-planetary",
+          "goals",
+          "Mars"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How does Elon Musk's approach to innovation in Tesla differ from traditional automotive companies?",
+        "importance": "high",
+        "keywords": [
+          "innovation",
+          "Tesla",
+          "traditional companies"
+        ]
+      }
+    ]
+  }
+]

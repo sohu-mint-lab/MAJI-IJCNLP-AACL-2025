@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Introduction to the Artificial Leaf",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What is the concept behind the artificial leaf developed by Dr. Nocera?",
+        "importance": "critical",
+        "keywords": [
+          "artificial leaf",
+          "concept",
+          "energy"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How does the artificial leaf function similarly to a natural leaf?",
+        "importance": "high",
+        "keywords": [
+          "photosynthesis",
+          "natural leaf",
+          "functionality"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Efficiency and Practical Applications",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "How efficient is the artificial leaf in comparison to natural leaves?",
+        "importance": "critical",
+        "keywords": [
+          "efficiency",
+          "comparison",
+          "natural leaves"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "What are the potential applications for the hydrogen produced by the artificial leaf?",
+        "importance": "high",
+        "keywords": [
+          "hydrogen",
+          "applications",
+          "fuel cell"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Commercial Viability and Development Challenges",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What needs to be figured out for the successful commercialization of the artificial leaf?",
+        "importance": "critical",
+        "keywords": [
+          "commercialization",
+          "challenges",
+          "engineering"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "What are Dr. Nocera's thoughts on deploying the technology in developing countries versus developed nations?",
+        "importance": "high",
+        "keywords": [
+          "developing countries",
+          "developed nations",
+          "deployment"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Future Perspectives",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What time frame does Dr. Nocera suggest for the practical implementation of the artificial leaf?",
+        "importance": "high",
+        "keywords": [
+          "time frame",
+          "implementation",
+          "practicality"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How might the development of the artificial leaf influence energy independence in the U.S.?",
+        "importance": "optional",
+        "keywords": [
+          "energy independence",
+          "influence",
+          "development"
+        ]
+      }
+    ]
+  }
+]

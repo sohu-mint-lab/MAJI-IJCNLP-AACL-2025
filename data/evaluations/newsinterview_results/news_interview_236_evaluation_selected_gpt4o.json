@@ -1,0 +1,499 @@
+{
+    "evaluation_summary": {
+        "dcagent_v1": {
+            "selected_questions_analysis": {
+                "avg_elaboration": 0.0,
+                "avg_originality": 0.26229481895764667,
+                "avg_context_relevance": 0.22099263655642667,
+                "avg_outline_relevance": 0.8336710532506307,
+                "avg_persona_alignment": 0.0,
+                "avg_coherence": 0.0
+            }
+        }
+    },
+    "final_coverage": {
+        "dcagent_v2": {
+            "source_name": "dcagent_v2",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_tot": {
+            "source_name": "llm_tot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_rag": {
+            "source_name": "llm_rag",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v1": {
+            "source_name": "dcagent_v1",
+            "coverage_percentage": 57.14285714285714,
+            "weighted_coverage_score": 57.14285714285714,
+            "covered_questions": 4,
+            "total_questions": 7
+        },
+        "llm_base": {
+            "source_name": "llm_base",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "dcagent_v3": {
+            "source_name": "dcagent_v3",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        },
+        "llm_cot": {
+            "source_name": "llm_cot",
+            "coverage_percentage": 0.0,
+            "weighted_coverage_score": 0.0,
+            "covered_questions": 0,
+            "total_questions": 7
+        }
+    },
+    "detailed_metrics_by_round": [
+        {
+            "round_num": 0,
+            "actual_question": "And God saw that the wickedness of man was great in the Earth - so begins the story of the flood in Genesis. God's decision to restart creation by sparing two of every animal and sparing just one family from the deluge. The ark carries the family of Noah and his sons, plus a pair of every living creature. It also carries Noah's wife, who was not named in the Bible but goes on to become the matriarch of all future generations. Sarah Blake's new book gives that woman a name, a story and a purpose. It's called \"Naamah.\" And it retells the story of the great flood and what came before and after it. Sarah Blake joins me from our bureau in New York. Sarah, welcome.",
+            "previous_answer": "Thank you. Thank you so much for having me.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What inspired you to bring Noah's wife, Naamah, to the forefront of your storytelling in your book?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.17553097009658813,
+                        "outline_relevance": 0.7916305065155029,
+                        "originality": 1.0,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What inspired you to bring Noah's wife, Naamah, to the forefront of your storytelling in your book?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.17553097009658813,
+                            "outline_relevance": 0.7916305065155029,
+                            "originality": 1.0,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 1,
+            "actual_question": "When I think about the Bible, there are probably very - relatively few women we can name compared to men named in the Bible. And there have been, certainly, books written that tried to give some of those women a name. Of all the stories and of all the unnamed women in the Bible you could have picked out, why did you go for Noah's wife?",
+            "previous_answer": "What really struck me about Noah's wife was the way that she was so stuck. And I was writing the book at a time where I was feeling very stuck. The 2016 election had just happened, and I felt hopeless. And I didn't know how to look forward. I didn't know how to talk to my young son about looking forward at a bright future. And so I was rereading Genesis, and I came across the story of the ark. And it really hit me how long they were really on the ark, that it - you know, in my head and in the children's books, that the whole process is shortened. It's so quick. The rain seemed like what's a long time. But, really, it's over a year that they're on the ark just looking out over water. It's months and months and months until even the very tops of mountains appear. And that - I was just overwhelmed by the idea of looking across all the water and having no idea what was to come for Naamah and her family.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How do you use sensory details, like sounds and smells, to bring the experience of being on the ark to life in your narrative?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3913858234882355,
+                        "outline_relevance": 0.7654624581336975,
+                        "originality": 0.5579283237457275,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How do you use sensory details, like sounds and smells, to bring the experience of being on the ark to life in your narrative?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3913858234882355,
+                            "outline_relevance": 0.7654624581336975,
+                            "originality": 0.5579283237457275,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 2,
+            "actual_question": "One of the things I thought was most interesting about the book was that it really gets into the kind of dirty, smelly reality of spending all that time on a boat with all those animals. I mean, they reek. They were dirty. You had to worry about a polar bear going on a rampage and a walrus swinging its horns around and impaling you.",
+            "previous_answer": "(Laughter).",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How did you balance the humorous and harsh realities of life on the ark in your writing to reflect authentic experiences?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.22026631236076355,
+                        "outline_relevance": 0.6527948975563049,
+                        "originality": 0.26859617233276367,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How did you balance the humorous and harsh realities of life on the ark in your writing to reflect authentic experiences?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.22026631236076355,
+                            "outline_relevance": 0.6527948975563049,
+                            "originality": 0.26859617233276367,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 3,
+            "actual_question": "And so you thought, wow. I never thought about how terrible that might - to be on that boat with all those creatures for so long.",
+            "previous_answer": "Yeah. It seemed like a totally terrifying prospect to me to not only know that you had to keep them alive because you were the only reason life would continue post-flood but then also that they were dangerous. And they - you know, even if you go to a farm that's lovely, it still smells or petting zoos or all these things I was doing with my young son. I was like, wow. This smells. And we're, like, out in the open. Imagine on a boat (laughter). And I'm really interested in biology and bodies and, you know, as much as we are shedding and getting oily, like, so are the animals. And - but she has to not only take care of herself but take care of all of them and their super varied needs.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What motivated you to explore the character of Noah's wife, Naamah, as the central figure in your new novel?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2256118357181549,
+                        "outline_relevance": 0.779087483882904,
+                        "originality": 0.07924038171768188,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What motivated you to explore the character of Noah's wife, Naamah, as the central figure in your new novel?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2256118357181549,
+                            "outline_relevance": 0.779087483882904,
+                            "originality": 0.07924038171768188,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 4,
+            "actual_question": "Well, you mentioned bodies. And that's the perfect segue way to the fact that there's, actually, a fair amount of what I would call erotica in this book.",
+            "previous_answer": "Sure.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Could you describe the nature of Naamah's relationship with God as you envisioned it in the story?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.06551005691289902,
+                        "outline_relevance": 0.8144017457962036,
+                        "originality": 0.2748070955276489,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Could you describe the nature of Naamah's relationship with God as you envisioned it in the story?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.06551005691289902,
+                            "outline_relevance": 0.8144017457962036,
+                            "originality": 0.2748070955276489,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 5,
+            "actual_question": "There's a lot of sex. And there's even a point where she, basically, tells her sons and daughter-in-laws (ph), no sex on the boat because we can't have any pregnancies or babies. This is the wrong place for that. So why did you decide to create such a physical, sexual element to this story?",
+            "previous_answer": "To me, it really is a book about bodies and physicality and survival. And when I think about those things, to me, I'm thinking about bodies in their existence on - in the world and how many ways we have to take care of our bodies. And so - and pleasure has to do with that. And sex has to do with that. And I wanted to be really true to what that experience was going to be like. I wanted to have sex scenes that were really celebratory of a woman's pleasure. And so that was part of the drive of just being very - I mean, you could say erotic about it. But I - to me, it's just very direct. It very plainly speaks of how bodies interact and how they feel pleasure.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "How would you describe Naamah's relationship with God and how does it influence her journey in the story?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2903485894203186,
+                        "outline_relevance": 0.8342932462692261,
+                        "originality": 0.06541788578033447,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "How would you describe Naamah's relationship with God and how does it influence her journey in the story?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2903485894203186,
+                            "outline_relevance": 0.8342932462692261,
+                            "originality": 0.06541788578033447,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 6,
+            "actual_question": "Naamah has, in a way, a conflicted relationship with God - maybe even a little antagonistic. She's thinking...",
+            "previous_answer": "Yes.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "depth: Can you elaborate on what makes Naamah's relationship with God conflicted or antagonistic?",
+                        "source": "dcagent_v1_DAgent",
+                        "was_selected": true,
+                        "context_relevance": 0.09307815134525299,
+                        "outline_relevance": 0.8485935926437378,
+                        "originality": 0.14457464218139648,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "depth: Can you elaborate on what makes Naamah's relationship with God conflicted or antagonistic?",
+                            "source": "dcagent_v1_DAgent",
+                            "was_selected": true,
+                            "context_relevance": 0.09307815134525299,
+                            "outline_relevance": 0.8485935926437378,
+                            "originality": 0.14457464218139648,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 7,
+            "actual_question": "You put us on this boat. I don't know when I'm going to get off. You flooded the Earth. Everybody else is dead. So explain that. She seems aggravated with God.",
+            "previous_answer": "Yeah. I think she's so flummoxed by how they've gotten into this position. And why her? And why not others? And what it could mean - all these conversations that he seems to have with other people and not with her. And she - and yet to keep putting her in positions of godliness, where she's in charge of everything. And she has to make sure things survive. And yet she doesn't get to hear his reasoning or know him. And yeah, so I think she's coming from a point of just utter frustration at the start of the book. And then she's learning how to deal with that over the course of it.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "Early in your reading of the book, what do you think motivated Sarah Blake to choose Noah's wife as her central figure, especially given the limited historical narrative about her?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.40920811891555786,
+                        "outline_relevance": 0.8507534265518188,
+                        "originality": 0.20698869228363037,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "Early in your reading of the book, what do you think motivated Sarah Blake to choose Noah's wife as her central figure, especially given the limited historical narrative about her?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.40920811891555786,
+                            "outline_relevance": 0.8507534265518188,
+                            "originality": 0.20698869228363037,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 8,
+            "actual_question": "I mean this next comment in the nicest way. But this is a very weird and strange book, right? There's supernatural elements. You play with the timeline. We go back and forth from the past to the future. There's an angel. There's a dead woman who makes appearances. Was weirdness what you were after? How did that come to be?",
+            "previous_answer": "Yeah. That's got to be my favorite word.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "In what ways does the supernatural play a role in the narrative of 'Naamah'?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.1142377257347107,
+                        "outline_relevance": 0.9999999403953552,
+                        "originality": 0.26675844192504883,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "In what ways does the supernatural play a role in the narrative of 'Naamah'?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.1142377257347107,
+                            "outline_relevance": 0.9999999403953552,
+                            "originality": 0.26675844192504883,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 9,
+            "actual_question": "Weirdness.",
+            "previous_answer": "Yes. Especially any students I've had, they'll tell you that that's kind of my go-to phrase is - I'll say, make it weirder (laughter).",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "In what ways does the supernatural play a role in the narrative of 'Naamah', and how does it intertwine with the concept of weirdness in your storytelling?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.3357996940612793,
+                        "outline_relevance": 0.9043350219726562,
+                        "originality": 0.09566497802734375,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "In what ways does the supernatural play a role in the narrative of 'Naamah', and how does it intertwine with the concept of weirdness in your storytelling?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.3357996940612793,
+                            "outline_relevance": 0.9043350219726562,
+                            "originality": 0.09566497802734375,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 10,
+            "actual_question": "So it's not an off-putting word to you.",
+            "previous_answer": "No. I think weirdness is where you get into why we differ person to person. When you start making - if you say, what does thunder sound like? Everybody will say the same first few words. But if you say, OK. Make it more specific. Make it weirder. Then everyone starts to differ. Everyone's very unique perspective as a person comes out as you get towards weirdness. So to me, I love that word. I'm so glad that the - that that's so prevalent in this book and that people are identifying with weirdness (laughter).",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "In what ways does the supernatural element influence the storyline or character development in 'Naamah'?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.2510455846786499,
+                        "outline_relevance": 0.900768518447876,
+                        "originality": 0.09923148155212402,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "In what ways does the supernatural element influence the storyline or character development in 'Naamah'?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.2510455846786499,
+                            "outline_relevance": 0.900768518447876,
+                            "originality": 0.09923148155212402,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        },
+        {
+            "round_num": 11,
+            "actual_question": "That's Sarah Blake. Her book is called \"Naamah.\" Sarah, thank you very much.",
+            "previous_answer": "Thanks so much.",
+            "results_by_source": {
+                "dcagent_v1": {
+                    "source_name": "dcagent_v1",
+                    "selected_suggestion_metrics": {
+                        "question": "What inspired you to focus on the character of Noah's wife in your new book?",
+                        "source": "dcagent_v1_convergent_champion",
+                        "was_selected": true,
+                        "context_relevance": 0.07988877594470978,
+                        "outline_relevance": 0.8619318008422852,
+                        "originality": 0.0883297324180603,
+                        "persona_alignment": 0.0,
+                        "coherence": 0.0,
+                        "qualitative_elaboration": 0.0
+                    },
+                    "all_suggestion_metrics": [
+                        {
+                            "question": "What inspired you to focus on the character of Noah's wife in your new book?",
+                            "source": "dcagent_v1_convergent_champion",
+                            "was_selected": true,
+                            "context_relevance": 0.07988877594470978,
+                            "outline_relevance": 0.8619318008422852,
+                            "originality": 0.0883297324180603,
+                            "persona_alignment": 0.0,
+                            "coherence": 0.0,
+                            "qualitative_elaboration": 0.0
+                        }
+                    ],
+                    "insight_category": "SurfaceLevel",
+                    "insight_score": 0.0
+                }
+            }
+        }
+    ]
+}

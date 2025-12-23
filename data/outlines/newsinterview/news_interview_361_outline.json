@@ -1,0 +1,108 @@
+[
+  {
+    "id": "S1",
+    "section": "Historical Context of the Distillery Ban",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What were the reasons behind the original ban on Native Americans owning distilleries?",
+        "importance": "critical",
+        "keywords": [
+          "ban",
+          "Native Americans",
+          "distilleries",
+          "historical context"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How did President Andrew Jackson's policies contribute to this ban?",
+        "importance": "high",
+        "keywords": [
+          "Andrew Jackson",
+          "policies",
+          "racism"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Lifting the Ban and Its Significance",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What are the implications of Congress lifting the ban on distilleries on tribal lands?",
+        "importance": "critical",
+        "keywords": [
+          "lifting ban",
+          "Congress",
+          "tribal lands",
+          "implications"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "How do the Basinas view the future opportunities for tribes following the ban's repeal?",
+        "importance": "high",
+        "keywords": [
+          "opportunities",
+          "tribes",
+          "Copper Crow"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Community and Economic Impact",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What role does the distillery play in addressing employment and educational opportunities for tribal members?",
+        "importance": "high",
+        "keywords": [
+          "employment",
+          "education",
+          "community impact"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How is the Copper Crow Distillery planning to balance business and community concerns related to alcohol consumption?",
+        "importance": "high",
+        "keywords": [
+          "balance",
+          "alcohol consumption",
+          "community concerns"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Distillery Operations and Products",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are some unique aspects of the products offered by Copper Crow?",
+        "importance": "high",
+        "keywords": [
+          "products",
+          "Copper Crow",
+          "unique aspects"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "Can you explain the story behind the name 'Copper Crow'?",
+        "importance": "optional",
+        "keywords": [
+          "Copper Crow",
+          "name origin",
+          "Ojibwe culture"
+        ]
+      }
+    ]
+  }
+]

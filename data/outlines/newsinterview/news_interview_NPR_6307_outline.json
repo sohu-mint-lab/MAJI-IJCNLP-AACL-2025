@@ -1,0 +1,106 @@
+[
+  {
+    "id": "S1",
+    "section": "Overview of Sea Level Rise",
+    "questions": [
+      {
+        "id": "S1Q1",
+        "question": "What new research findings were revealed about sea level rise on the east and west coasts?",
+        "importance": "critical",
+        "keywords": [
+          "sea level rise",
+          "coastlines",
+          "National Research Council"
+        ]
+      },
+      {
+        "id": "S1Q2",
+        "question": "How much higher is sea level projected to rise by 2100 in certain regions?",
+        "importance": "high",
+        "keywords": [
+          "projected rise",
+          "2100",
+          "acceleration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S2",
+    "section": "Key Mechanisms Behind Sea Level Rise",
+    "questions": [
+      {
+        "id": "S2Q1",
+        "question": "What role does the Coriolis force play in ocean currents and sea level rise?",
+        "importance": "critical",
+        "keywords": [
+          "Coriolis force",
+          "ocean currents",
+          "sea level rise"
+        ]
+      },
+      {
+        "id": "S2Q2",
+        "question": "Can you explain the concepts of Ekman transport and its relation to sea level changes?",
+        "importance": "high",
+        "keywords": [
+          "Ekman transport",
+          "ocean circulation",
+          "sea level changes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S3",
+    "section": "Future Implications and Predictions",
+    "questions": [
+      {
+        "id": "S3Q1",
+        "question": "What are the potential long-term effects of altered Gulf Stream currents on global climate?",
+        "importance": "critical",
+        "keywords": [
+          "Gulf Stream",
+          "climate change",
+          "future predictions"
+        ]
+      },
+      {
+        "id": "S3Q2",
+        "question": "How significant will the projected sea level rise be for low-lying neighborhoods?",
+        "importance": "high",
+        "keywords": [
+          "low-lying neighborhoods",
+          "sea level impact",
+          "flood risk"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "S4",
+    "section": "Challenges in Climate Predictions",
+    "questions": [
+      {
+        "id": "S4Q1",
+        "question": "What are the uncertainties surrounding sea level rise predictions?",
+        "importance": "high",
+        "keywords": [
+          "uncertainties",
+          "predictions",
+          "sea level rise"
+        ]
+      },
+      {
+        "id": "S4Q2",
+        "question": "How might global warming influence the predictions of future sea level rise?",
+        "importance": "high",
+        "keywords": [
+          "global warming",
+          "sea level rise predictions",
+          "climate factors"
+        ]
+      }
+    ]
+  }
+]
